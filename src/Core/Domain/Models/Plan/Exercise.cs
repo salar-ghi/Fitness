@@ -2,7 +2,7 @@
 
 public class Exercise : BaseEntity
 {
-    //public override Guid Id { get; set; }
+    public override Guid Id { get; set; }
 
     public Guid PlanId { get; set; }
     //public ICollection<Plan> Plans { get; set; } = new List<Plan>();
