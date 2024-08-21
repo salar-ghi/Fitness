@@ -1,7 +1,9 @@
 ﻿namespace Domain.Models;
 
-public class Exercise : BaseEntity<Guid>
+public class Exercise : BaseEntity
 {
+    //public override Guid Id { get; set; }
+
     public Guid PlanId { get; set; }
     //public ICollection<Plan> Plans { get; set; } = new List<Plan>();
 
@@ -13,6 +15,4 @@ public class Exercise : BaseEntity<Guid>
     public bool Completed { get; set; }
     public int RecommendSet { get; set; }
     public int RecommendWeight { get; set; }
-
-
 }

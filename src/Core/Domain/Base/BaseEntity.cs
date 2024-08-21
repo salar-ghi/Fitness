@@ -1,11 +1,14 @@
-﻿namespace Domain;
+﻿using Domain.Base;
 
-public abstract class BaseEntity<TKey>
+namespace Domain;
+
+public abstract class BaseEntity : IBaseEntity
 {
-    public TKey Id { get; protected set; } = default!;
-    public bool IsDeleted { get; protected set; } = false;
-    public DateTime Created { get; protected set; } = default(DateTime);
-    public Guid CreatedBy { get; protected set; } = default!;
-    public DateTime Modified { get; protected set; } = default(DateTime);
-    public Guid ModifiedBy { get; protected set; } = default!;
+    public abstract Tkey Id<Tkey>(); //{ get; set; } 
+    //public TKey Id { get; protected set; } = default!;
+    public bool IsDeleted { get; set; } = false;
+    public DateTime Created { get; set; } = default(DateTime);
+    public Guid CreatedBy { get; set; } = default!;
+    public DateTime Modified { get; set; } = default(DateTime);
+    public Guid ModifiedBy { get; set; } = default!;
 }

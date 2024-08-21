@@ -1,5 +1,4 @@
-﻿
-namespace Infrastructure.EntityTypeConfiguration;
+﻿namespace Infrastructure.EntityTypeConfiguration;
 
 public class AthleteConfiguration : IEntityTypeConfiguration<Athlete>
 {

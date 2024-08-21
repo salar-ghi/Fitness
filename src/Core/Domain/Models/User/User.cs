@@ -1,13 +1,25 @@
-﻿namespace Domain.Models;
+﻿using Domain.Base;
+using Microsoft.AspNetCore.Identity;
 
-public class User : BaseEntity<Guid>
+namespace Domain.Models;
+
+public class User : IdentityUser<Guid>, IBaseEntity
 {
-    public required string Name { get; set; } = default!;
-    public string Email { get; private set; } = default!;
-    public required string CellPhone { get; set; } = null!;
+    //public Guid Id { get; set; }
+    public required string FName { get; set; } = default!;
+    public required string Lame { get; set; } = default!;
+    //public string Email { get; private set; } = default!;
+    //public required string CellPhone { get; set; } = null!;
     public string ImgUrl { get; private set; } = default!;
-    public string UserName { get; private set; } = default!;
+    //public string UserName { get; private set; } = default!;
     public string Password { get; private set; } = default!;
+
+    public bool IsDeleted { get; set; }
+    public DateTime Created { get; set; }
+    public Guid CreatedBy { get; set; }
+    public DateTime Modified { get; set; }
+    public Guid ModifiedBy { get; set; }
+
 
     //public Athlete? Athlete { get; private set; }
 }
