@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class Workout : BaseEntity<int>
+public class Workout : BaseEntity<int, Workout>
 {
     public required string Name { get; set; } = null!;
     public string Instruction { get; private set; } = default!;

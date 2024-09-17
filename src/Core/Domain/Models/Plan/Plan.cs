@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class Plan : BaseEntity<Guid>
+public class Plan : BaseEntity<Guid, Plan>
 {
     public string PlanName { get; private set; } = default!;
     public Enums.Level Level { get; set; } = default(Enums.Level);

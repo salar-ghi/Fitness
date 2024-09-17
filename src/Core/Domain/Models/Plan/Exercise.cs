@@ -1,9 +1,7 @@
 ﻿namespace Domain.Models;
 
-public class Exercise : BaseEntity
+public class Exercise : BaseEntity<Guid, Exercise>
 {
-    public override Guid Id { get; set; }
-
     public Guid PlanId { get; set; }
     //public ICollection<Plan> Plans { get; set; } = new List<Plan>();
 

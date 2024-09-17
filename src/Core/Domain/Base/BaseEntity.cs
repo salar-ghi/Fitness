@@ -2,10 +2,11 @@
 
 namespace Domain;
 
-public abstract class BaseEntity : IBaseEntity
+public abstract class BaseEntity<TId, TEntity>
+    where TId: IEquatable<TId>
+    where TEntity: BaseEntity<TId, TEntity>
 {
-    public abstract Tkey Id<Tkey>(); //{ get; set; } 
-    //public TKey Id { get; protected set; } = default!;
+    public TId Id { get; set; } = default!;
     public bool IsDeleted { get; set; } = false;
     public DateTime Created { get; set; } = default(DateTime);
     public Guid CreatedBy { get; set; } = default!;

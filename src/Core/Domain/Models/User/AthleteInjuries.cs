@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class AthleteInjuries: BaseEntity<long>
+public class AthleteInjuries: BaseEntity<long, Disease>
 {
     public required string Name { get; set; }
     public string Description { get; private set; } = default!;

@@ -7,7 +7,7 @@ public class User : IdentityUser<Guid>, IBaseEntity
 {
     //public Guid Id { get; set; }
     public required string FName { get; set; } = default!;
-    public required string Lame { get; set; } = default!;
+    public required string LName { get; set; } = default!;
     //public string Email { get; private set; } = default!;
     //public required string CellPhone { get; set; } = null!;
     public string ImgUrl { get; private set; } = default!;

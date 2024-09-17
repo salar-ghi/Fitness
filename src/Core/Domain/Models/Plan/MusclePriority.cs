@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class MusclePriority : BaseEntity<long>
+public class MusclePriority : BaseEntity<long, MusclePriority>
 {
     public Guid PlanId { get; set; }
     //public ICollection<Plan> Plans { get; set; } = new List<Plan>();

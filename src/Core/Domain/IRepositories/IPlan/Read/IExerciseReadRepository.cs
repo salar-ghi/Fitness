@@ -1,5 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IExerciseReadRepository : IReadRepository<Exercise>
-{
-}
+public interface IExerciseReadRepository : IReadRepository<Exercise> { }

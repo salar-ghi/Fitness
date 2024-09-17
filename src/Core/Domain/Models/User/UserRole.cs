@@ -1,5 +1,5 @@
 ﻿namespace Domain.Models;
 
-public class UserRole :  BaseEntity<int>
+public class UserRole :  BaseEntity<int, UserRole>
 {
 }

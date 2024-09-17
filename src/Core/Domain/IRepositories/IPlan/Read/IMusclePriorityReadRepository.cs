@@ -1,5 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IMusclePriorityReadRepository : IReadRepository<MusclePriority>
-{
-}
+public interface IMusclePriorityReadRepository : IReadRepository<MusclePriority> { }

@@ -2,6 +2,4 @@
 
 public interface IPlanDaysRepository : 
     IReadRepository<PlanDays>,
-    IWriteRepository<PlanDays>
-{
-}
+    IWriteRepository<PlanDays> { }

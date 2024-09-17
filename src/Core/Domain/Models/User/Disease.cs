@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class Disease : BaseEntity<long>
+public class Disease : BaseEntity<long, Disease>
 {
     public required string Name { get; set; }
     public string Description { get; private set; } = default!;

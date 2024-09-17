@@ -1,5 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IExerciseWriteRepository : IWriteRepository<Exercise>
-{
-}
+public interface IExerciseWriteRepository : IWriteRepository<Exercise> { }

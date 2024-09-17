@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class Body : BaseEntity<int>
+public class Body : BaseEntity<int, Body>
 {
     public required string Name { get; set; } = null!;
     public string ImgUrl { get; private set; } = default!;

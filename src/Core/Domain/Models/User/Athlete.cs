@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class Athlete : BaseEntity<Guid>
+public class Athlete : BaseEntity<Guid, Athlete>
 {
     //public User User { get; set; } = null!;
     public required Guid UserId { get; set; }

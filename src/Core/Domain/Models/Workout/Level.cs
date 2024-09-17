@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class Level: BaseEntity<int>
+public class Level: BaseEntity<int, Level>
 {
     public Enums.Level Name { get; set; }
     public string Description { get; private set; } = default!;

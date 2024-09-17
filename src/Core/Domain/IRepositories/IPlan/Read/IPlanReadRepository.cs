@@ -1,5 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IPlanReadRepository : IReadRepository<Plan>
-{
-}
+public interface IPlanReadRepository : IReadRepository<Plan> { }

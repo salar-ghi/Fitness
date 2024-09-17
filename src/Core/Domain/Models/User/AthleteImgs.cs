@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class AthleteImgs : BaseEntity<long>
+public class AthleteImgs : BaseEntity<long, Disease>
 {
     public string ImgUrl { get; set; } = default!;
     public string? Description { get; set; }

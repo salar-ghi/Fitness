@@ -2,6 +2,4 @@
 
 public interface IPlanImgsRepository :
     IReadRepository<PlanImgs>,
-    IWriteRepository<PlanImgs>
-{
-}
+    IWriteRepository<PlanImgs> { }

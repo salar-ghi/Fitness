@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class PlanImgs : BaseEntity<long>
+public class PlanImgs : BaseEntity<long, PlanImgs>
 {
     public Guid PlanId { get; set; }
     //public ICollection<Plan> Plans { get; set; } = new List<Plan>();
