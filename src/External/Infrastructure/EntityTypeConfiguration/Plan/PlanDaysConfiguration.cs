@@ -1,5 +1,4 @@
-﻿
-namespace Infrastructure.EntityTypeConfiguration;
+﻿namespace Infrastructure.EntityTypeConfiguration;
 
 public class PlanDaysConfiguration : IEntityTypeConfiguration<PlanDays>
 {
@@ -9,7 +8,7 @@ public class PlanDaysConfiguration : IEntityTypeConfiguration<PlanDays>
         builder.Property(e => e.PlanId).IsRequired();
 
         builder.Property(e => e.IsDeleted).HasDefaultValue(false);
-        builder.Property(e => e.CreatedBy).IsRequired().HasDefaultValue(DateTime.UtcNow);
+        builder.Property(e => e.Created).IsRequired().HasDefaultValue(DateTime.UtcNow);
         builder.Property(e => e.Modified).IsRequired().HasDefaultValue(DateTime.UtcNow);
     }
 }

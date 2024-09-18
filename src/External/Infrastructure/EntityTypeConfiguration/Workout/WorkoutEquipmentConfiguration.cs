@@ -10,7 +10,7 @@ public class WorkoutEquipmentConfiguration : IEntityTypeConfiguration<WorkoutEqu
 
 
         builder.Property(e => e.IsDeleted).HasDefaultValue(false);
-        builder.Property(e => e.CreatedBy).IsRequired().HasDefaultValue(DateTime.UtcNow);
+        builder.Property(e => e.Created).IsRequired().HasDefaultValue(DateTime.UtcNow);
         builder.Property(e => e.Modified).IsRequired().HasDefaultValue(DateTime.UtcNow);
     }
 }
