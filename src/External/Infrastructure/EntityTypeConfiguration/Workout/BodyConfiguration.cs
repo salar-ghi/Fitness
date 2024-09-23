@@ -6,10 +6,12 @@ public class BodyConfiguration : IEntityTypeConfiguration<Body>
     {
         builder.HasKey(e => e.Id);
         builder.Property(e => e.Name).IsRequired().HasMaxLength(70);
+        builder.Property(e => e.BodyPartId).IsRequired();
         
 
         builder.Property(e => e.ImgUrl).HasMaxLength(256)
             .HasDefaultValue("https://via.placeholder.com/85.png");
+        builder.Property(e => e.Parent).HasDefaultValue(0);
 
         builder.Property(e => e.IsDeleted).HasDefaultValue(false);
         builder.Property(e => e.Created).IsRequired().HasDefaultValue(DateTime.UtcNow);

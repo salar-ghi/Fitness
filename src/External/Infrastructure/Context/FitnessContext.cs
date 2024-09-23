@@ -45,8 +45,8 @@ public class FitnessContext : DbContext
     //}
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        //base.OnModelCreating(modelBuilder);
-        
+        base.OnModelCreating(modelBuilder);
+
 
         // Plan Configuration
         modelBuilder.ApplyConfiguration(new ExerciseConfiguration());
