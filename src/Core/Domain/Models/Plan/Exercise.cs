@@ -7,6 +7,7 @@ public class Exercise : BaseEntity<Guid, Exercise>
 
     public int WorkoutId { get; set; }
     //public ICollection<Workout> Workouts { get; set; } = new List<Workout>();
+    public ExerciseType ExerciseType { get; set; }
 
 
     public bool IsOk { get; set; }
