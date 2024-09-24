@@ -4,6 +4,7 @@ public class Equipment : BaseEntity<int, Equipment>
 {
     public required string Name { get; set; } = null!;
     public string ImgUrl { get; set; } = default!;
+    public string Description { get; set; }
     public EquipmentType EquipmentType { get; set; }
 
     //public int? WorkoutId { get; private set; }
