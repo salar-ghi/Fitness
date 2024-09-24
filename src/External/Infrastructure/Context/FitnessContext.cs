@@ -1,6 +1,13 @@
-﻿namespace Infrastructure.Context;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-public class FitnessContext : DbContext
+namespace Infrastructure.Context;
+
+public class FitnessContext 
+    //: DbContext
+    : IdentityDbContext<User, IdentityRole<Guid>, Guid, 
+        IdentityUserClaim<Guid>, IdentityUserRole<Guid>, 
+        IdentityUserLogin<Guid>, IdentityRoleClaim<Guid>, IdentityUserToken<Guid>>
 {
     //protected override void OnModelCreating(DbContextOptionsBuilder optionBuilder)
     
@@ -43,35 +50,44 @@ public class FitnessContext : DbContext
     //{
     ////    optionsBuilder.UseLazyLoadingProxies();
     //}
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder builder)
     {
-        base.OnModelCreating(modelBuilder);
+        base.OnModelCreating(builder);
 
+
+        builder.Entity<User>().ToTable("Users");
+        builder.Entity<IdentityRole>().ToTable("Roles");
+
+        builder.Entity<IdentityUserClaim<string>>().ToTable("UserClaims");
+        builder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
+        builder.Entity<IdentityUserLogin<string>>().ToTable("UserLogin");
+        builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
+        builder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims");
 
         // Plan Configuration
-        modelBuilder.ApplyConfiguration(new ExerciseConfiguration());
+        builder.ApplyConfiguration(new ExerciseConfiguration());
         //modelBuilder.ApplyConfiguration(new ExerciseDetailConfiguration());
-        modelBuilder.ApplyConfiguration(new MusclePriorityConfiguration());
-        modelBuilder.ApplyConfiguration(new PlanConfiguration());
-        modelBuilder.ApplyConfiguration(new PlanDaysConfiguration());
-        modelBuilder.ApplyConfiguration(new PlanImgsConfiguration());
+        builder.ApplyConfiguration(new MusclePriorityConfiguration());
+        builder.ApplyConfiguration(new PlanConfiguration());
+        builder.ApplyConfiguration(new PlanDaysConfiguration());
+        builder.ApplyConfiguration(new PlanImgsConfiguration());
 
         // User Configuration
-        modelBuilder.ApplyConfiguration(new AthleteConfiguration());
-        modelBuilder.ApplyConfiguration(new AthleteImgsConfiguration());
-        modelBuilder.ApplyConfiguration(new AthleteImgsConfiguration());
-        modelBuilder.ApplyConfiguration(new DiseaseConfiguration());
-        modelBuilder.ApplyConfiguration(new UserConfiguration());
+        builder.ApplyConfiguration(new AthleteConfiguration());
+        builder.ApplyConfiguration(new AthleteImgsConfiguration());
+        builder.ApplyConfiguration(new AthleteImgsConfiguration());
+        builder.ApplyConfiguration(new DiseaseConfiguration());
+        builder.ApplyConfiguration(new UserConfiguration());
         //modelBuilder.ApplyConfiguration(new UserRoleConfiguration());
 
         // Workout Configuration
-        modelBuilder.ApplyConfiguration(new AgeRangeConfiguration());
-        modelBuilder.ApplyConfiguration(new BodyConfiguration());
-        modelBuilder.ApplyConfiguration(new BodyWorkoutConfiguration());
-        modelBuilder.ApplyConfiguration(new EquipmentConfiguration());
-        modelBuilder.ApplyConfiguration(new LevelConfiguration());
-        modelBuilder.ApplyConfiguration(new SportConfiguration());
-        modelBuilder.ApplyConfiguration(new WorkoutConfiguration());
-        modelBuilder.ApplyConfiguration(new WorkoutEquipmentConfiguration());
+        builder.ApplyConfiguration(new AgeRangeConfiguration());
+        builder.ApplyConfiguration(new BodyConfiguration());
+        builder.ApplyConfiguration(new BodyWorkoutConfiguration());
+        builder.ApplyConfiguration(new EquipmentConfiguration());
+        builder.ApplyConfiguration(new LevelConfiguration());
+        builder.ApplyConfiguration(new SportConfiguration());
+        builder.ApplyConfiguration(new WorkoutConfiguration());
+        builder.ApplyConfiguration(new WorkoutEquipmentConfiguration());
     }
 }
