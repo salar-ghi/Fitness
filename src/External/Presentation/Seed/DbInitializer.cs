@@ -102,7 +102,7 @@ public static class DbInitializer
                 // Other 
                 new Equipment { Name = "Foam Roll", EquipmentType = EquipmentType.Equipment, Description= "For muscle recovery and myofascial release post-workout"},
                 new Equipment { Name = "Abdominal Bench", EquipmentType = EquipmentType.Equipment, Description= "Designed specifically for core workouts, targeting abdominal muscles"},
-                new Equipment { Name = "Pull-Up Bar", EquipmentType = EquipmentType.Equipment, Description= " Essential for upper body strength training through pull-ups and chin-ups"},
+                new Equipment { Name = "Pull-Up Bar", EquipmentType = EquipmentType.Equipment, Description= "Essential for upper body strength training through pull-ups and chin-ups"},
                 new Equipment { Name = "Cable", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Medicine Ball", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "E-Z Curl Bar", EquipmentType = EquipmentType.Machine, Description= ""},
@@ -118,7 +118,9 @@ public static class DbInitializer
         {
             var sports = new List<Sport>
             {
-                new Sport {Name = "", Description = ""},
+                new Sport {Name = "BodyBuilding", Description = ""},
+                new Sport {Name = "Cardio", Description = ""},
+                new Sport {Name = "Yoga", Description = ""},
             };
             await context.Sports.AddRangeAsync(sports);
             await context.SaveChangesAsync();
