@@ -128,11 +128,14 @@ public static class DbInitializer
 
         if (!context.UserRoles.Any())
         {
-            var roles = new List<UserRole>
+            var roles = new List<IdentityRole<Guid>>
             {
-                new UserRole { }
+                new IdentityRole<Guid> { Name = "Admin" },
+                new IdentityRole<Guid> { Name = "Support" },
+                new IdentityRole<Guid> { Name = "Athlete" },
+                new IdentityRole<Guid> { Name = "Coach" }
             };
-            await context.UserRoles.AddRangeAsync(roles);
+            await context.Roles.AddRangeAsync(roles);
             await context.SaveChangesAsync();
         }
     }

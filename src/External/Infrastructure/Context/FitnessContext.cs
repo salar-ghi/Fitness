@@ -32,7 +32,7 @@ public class FitnessContext
     public virtual DbSet<AthleteInjuries> AthleteInjuries { get; set; }
     public virtual DbSet<Disease> Diseases { get; set; }
     public virtual DbSet<User> Users { get; set; }
-    public virtual DbSet<UserRole> UserRoles  { get; set; }
+    //public virtual DbSet<UserRole> UserRoles  { get; set; }
 
 
     // Workout DbSet

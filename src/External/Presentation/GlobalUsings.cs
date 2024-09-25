@@ -1,8 +1,12 @@
-﻿global using Presentation;
+﻿global using System.Text;
+global using Presentation;
 global using Domain.Enums;
 global using Domain.Models;
 global using Infrastructure.Context;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Identity;
 global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.Tokens;
 global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
