@@ -36,7 +36,9 @@ public class AuthController : ControllerBase
 
     public async Task<IActionResult> Login([FromBody] LoginDto dto)
     {
-        var user = await _userManager.FindByNameAsync(dto.Phonenum);
+        //var user = await _userManager.FindByNameAsync(dto.Phonenum);
+
+        return Ok();
     }
 
     #endregion 

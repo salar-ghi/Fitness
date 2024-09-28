@@ -18,6 +18,7 @@ public class Plan : BaseEntity<Guid, Plan>
     //public ICollection<Athlete> Athletes { get; set; } = new List<Athlete>();
 
 
+    // !!!!!!!!!!!!!!!!!!!!!!!! Very important parts !!!!!!!!!!!!!!!!!!!!!!!!!!!!
     // MusclePriority
     // PlanDays
     // PlanImgs
