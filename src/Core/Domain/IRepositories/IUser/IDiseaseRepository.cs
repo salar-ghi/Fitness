@@ -1,8 +1,3 @@
-﻿
-namespace Domain.IRepositories;
+﻿namespace Domain.IRepositories;
 
-public interface IDiseaseRepository : 
-    IReadRepository<Disease>,
-    IWriteRepository<Disease>
-{
-}
+public interface IDiseaseRepository : IRepository<Disease>;

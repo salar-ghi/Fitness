@@ -1,4 +1,7 @@
-﻿namespace Infrastructure.UoW;
+﻿using Domain.IRepositories;
+using Infrastructure.Repositories;
+
+namespace Infrastructure.UoW;
 
 public class UnitOfWork : IUnitOfWork
 {
@@ -7,16 +10,27 @@ public class UnitOfWork : IUnitOfWork
     private readonly FitnessContext _context;
 
     // Plan
+    private ExerciseRepository _exerciseRepository;
+    private MusclePriorityRepository _musclePriorityRepository;
+    private PlanRepository _planRepository;
     private PlanDaysRepository _planDaysRepository;
     private PlanImgsRepository _planImgsRepository;
 
 
     // User
+    private AthleteRepository _athleteRepository;
+    private UserRepository _userRepository;
     private AthleteImgsRepository _athleteImgsRepository;
     private AthleteInjuriesRepository _athleteInjuriesRepository;
     private DiseaseRepository _diseaseRepository;
 
     //Workout
+    private BodyWorkoutRepository _bodyWorkoutRepository;
+    private BodyRepository _bodyRepository;
+    private EquipmentRepository _equipmentRepository;
+    private WorkoutEquipmentRepository _workoutEquipmentRepository;
+    private WorkoutRepository _workoutRepository;
+
     private AgeRangeRepository _ageRangeRepository;
     private LevelRepository _levelRepository;
     private SportRepository _sportRepository;
@@ -32,65 +46,50 @@ public class UnitOfWork : IUnitOfWork
 
 
     #region Implementation
+
     // Plan Interfaces
+
+    public IExerciseRepository ExerciseRepository => new ExerciseRepository(_context);
+    //{ get { return _exerciseReadRepository ??= new ExerciseReadRepository(_context); } }
+
+    public IMusclePriorityRepository MusclePriorityRepository => new MusclePriorityRepository(_context);
+    
+    public IPlanRepository PlanRepository => new PlanRepository(_context);
+    //{ get { return _planReadRepository ??= new PlanReadRepository(_context); } }
     public IPlanDaysRepository PlanDaysRepository => new PlanDaysRepository(_context);
-    //{
-    //    get { return _planDaysRepository ??= new PlanDaysRepository(_context); }
-    //}
-    public IPlanImgsRepository PlanImgsRepository
-    {
-        get { return _planImgsRepository ??= new PlanImgsRepository(_context); }
-    }
+
+    public IPlanImgsRepository PlanImgsRepository => new PlanImgsRepository(_context);
 
 
 
     // User Interfaces
-    public IAthleteImgsRepository AthleteImgsRepository
-    {
-        get
-        {
-            return _athleteImgsRepository ??= new AthleteImgsRepository(_context);
-        }
-    }
-    public IAthleteInjuriesRepository AthleteInjuriesRepository
-    {
-        get
-        {
-            return _athleteInjuriesRepository ??= new AthleteInjuriesRepository(_context);
-        }
-    }
-    public IDiseaseRepository DiseaseRepository
-    {
-        get
-        {
-            return _diseaseRepository ??= new DiseaseRepository(_context);
-        }
-    }
+    public IAthleteRepository AthleteRepository => new AthleteRepository(_context);
+    public IUserRepository UserRepository => new UserRepository(_context);
+
+    
+    public IAthleteImgsRepository AthleteImgsRepository => new AthleteImgsRepository(_context);
+
+    public IAthleteInjuriesRepository AthleteInjuriesRepository => new AthleteInjuriesRepository(_context);
+    
+    public IDiseaseRepository DiseaseRepository => new DiseaseRepository(_context);
 
 
     // Workout Interfaces
-    public IAgeRangeRepository AgeRangeRepository
-    {
-        get
-        {
-            return _ageRangeRepository ??= new AgeRangeRepository(_context);
-        }
-    }
+    public IBodyRepository BodyRepository => new BodyRepository(_context);
+    public IBodyWorkoutRepository BodyWorkoutRepository => new BodyWorkoutRepository(_context);
+    public IEquipmentRepository EquipmentRepository => new EquipmentRepository(_context);
+    public IWorkoutEquipmentRepository WorkoutEquipmentRepository => new WorkoutEquipmentRepository(_context);
+    public IWorkoutRepository WorkoutRepository => new WorkoutRepository(_context);
 
-    public ILevelRepository LevelRepository
-    {
-        get
-        {
-            return _levelRepository ??= new LevelRepository(_context);
-        }
-    }
-    public ISportRepository SportRepository
-    {
-        get
-        {
-            return _sportRepository ??= new SportRepository(_context);
-        }
-    }
+
+
+
+    public IAgeRangeRepository AgeRangeRepository => new AgeRangeRepository(_context); 
+
+    public ILevelRepository LevelRepository => new LevelRepository(_context);
+    
+    public ISportRepository SportRepository => new SportRepository(_context);
+    
 
     #endregion
 
@@ -100,3 +99,4 @@ public class UnitOfWork : IUnitOfWork
 
 
 }
+ 

@@ -1,7 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface ISportRepository : 
-    IReadRepository<Sport>,
-    IWriteRepository<Sport>
-{
-}
+public interface ISportRepository : IRepository<Sport>;

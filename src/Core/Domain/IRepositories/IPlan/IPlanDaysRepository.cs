@@ -1,5 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IPlanDaysRepository : 
-    IReadRepository<PlanDays>,
-    IWriteRepository<PlanDays> { }
+public interface IPlanDaysRepository : IRepository<PlanDays>;

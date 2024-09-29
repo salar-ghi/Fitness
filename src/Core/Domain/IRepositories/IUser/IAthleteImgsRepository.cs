@@ -1,7 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IAthleteImgsRepository :
-    IReadRepository<AthleteImgs>,
-    IWriteRepository<AthleteImgs>
-{
-}
+public interface IAthleteImgsRepository : IRepository<AthleteImgs>;

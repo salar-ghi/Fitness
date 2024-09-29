@@ -1,6 +1,6 @@
 ﻿namespace Infrastructure.Repositories;
 
-public class Repository<T> : IReadRepository<T>, IWriteRepository<T>
+public class Repository<T> : IRepository<T>
     where T : class
 {
 

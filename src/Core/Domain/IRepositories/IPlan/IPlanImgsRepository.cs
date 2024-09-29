@@ -1,5 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IPlanImgsRepository :
-    IReadRepository<PlanImgs>,
-    IWriteRepository<PlanImgs> { }
+public interface IPlanImgsRepository : IRepository<PlanImgs>;
