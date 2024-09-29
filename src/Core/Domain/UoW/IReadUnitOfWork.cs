@@ -1,6 +1,6 @@
 ﻿namespace Domain.UoW;
 
-public interface IReadUnitOfWork
+public interface IReadUnitOfWork : IDisposable
 {
     // Plan Interfaces
     #region Plan

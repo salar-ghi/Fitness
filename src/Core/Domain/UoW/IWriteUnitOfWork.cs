@@ -1,6 +1,6 @@
 ﻿namespace Domain.UoW;
 
-public interface IWriteUnitOfWork
+public interface IWriteUnitOfWork : IDisposable
 {
 
     // Plan Interfaces
@@ -30,5 +30,5 @@ public interface IWriteUnitOfWork
 
     #endregion
 
-    void Commit();
+    Task<int> Commit();
 }

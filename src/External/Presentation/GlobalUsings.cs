@@ -2,6 +2,7 @@
 global using Presentation;
 global using Domain.Enums;
 global using Domain.Models;
+global using Application.DTOs;
 global using Infrastructure.Context;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.AspNetCore.Http;

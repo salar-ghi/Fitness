@@ -33,17 +33,13 @@ public class UnitOfWork : IUnitOfWork
 
     #region Implementation
     // Plan Interfaces
-    public IPlanDaysRepository PlanDaysRepository
-    {
-        get
-        { return _planDaysRepository ??= new PlanDaysRepository(_context); }
-    }
+    public IPlanDaysRepository PlanDaysRepository => new PlanDaysRepository(_context);
+    //{
+    //    get { return _planDaysRepository ??= new PlanDaysRepository(_context); }
+    //}
     public IPlanImgsRepository PlanImgsRepository
     {
-        get
-        {
-            return _planImgsRepository ??= new PlanImgsRepository(_context);
-        }
+        get { return _planImgsRepository ??= new PlanImgsRepository(_context); }
     }
 
 
@@ -98,10 +94,9 @@ public class UnitOfWork : IUnitOfWork
 
     #endregion
 
-    public void Commit()
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<int> Commit() => await _context.SaveChangesAsync();
+    
+    public void Dispose() => _context.Dispose();
 
 
 }

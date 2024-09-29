@@ -4,19 +4,19 @@ public class ReadRepository<T> : IReadRepository<T> where T : class
 {
 
     #region Ctor & Defenition
-    protected readonly FitnessContext _context;
-    private DbSet<T> table = null;
+    private readonly FitnessContext _context;
+    private readonly DbSet<T> _dbSet;
 
     public ReadRepository(FitnessContext context)
     {
         _context = context;
-        table = _context.Set<T>();
+        _dbSet = _context.Set<T>();
     }
     #endregion
 
-    public async Task<IList<T>> GetAllAsync()
+    public async Task<IEnumerable<T>> GetAllAsync()
     {
-        return await table
+        return await _dbSet
             .AsNoTracking()
             .ToListAsync()
             .ConfigureAwait(false);
@@ -24,7 +24,7 @@ public class ReadRepository<T> : IReadRepository<T> where T : class
 
     public async Task<T> GetAsNoTracking<TIn>(TIn Id)
     {
-        var result = await table
+        var result = await _dbSet
             .Include(x => x.Equals(Id))
             //.Where(x => x.Equals(Id))
             .FirstOrDefaultAsync()
@@ -35,7 +35,7 @@ public class ReadRepository<T> : IReadRepository<T> where T : class
 
     public async Task<T> GetByIdAsync<TIn>(TIn Id)
     {
-        var result = await table
+        var result = await _dbSet
             .FindAsync(Id)
             .ConfigureAwait(false);
 

@@ -122,8 +122,7 @@ public class WriteUnitOfWork : IWriteUnitOfWork
 
     #endregion
 
-    public void Commit()
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<int> Commit() => await _context.SaveChangesAsync();
+
+    public void Dispose() => _context.Dispose();
 }

@@ -4,38 +4,21 @@ public class WriteRepository<T> : IWriteRepository<T>
     where T : class 
 {
     protected readonly FitnessContext _context;
-    private DbSet<T> table =  null;
+    private DbSet<T> _dbSet =  null;
 
     public WriteRepository(FitnessContext context)
     {
         _context = context;
-        table = _context.Set<T>();
+        _dbSet = _context.Set<T>();
     }
 
-    public async Task CreateAsync(T entity)
+    public async Task CreateAsync(T entity) => await _dbSet.AddAsync(entity);
+
+    public async Task UpdateAsync<TId>(TId Id, T entity) => _dbSet.Update(entity);
+
+    public async Task DeleteAsync<TId>(TId Id)
     {
-        var res = await table.AddAsync(entity);
-        await Save();
-        //return await Task.FromResult(res.Entity);
-    }
-
-    public async Task UpdateAsync<TId>(TId Id, T entity)
-    {
-        var res = table.Update(entity);
-        _context.Entry(entity).State = EntityState.Modified;
-        //return await Task.FromResult(res.Entity);
-    }
-
-    public async Task DeleteAsync(T entity)
-    {
-        var res = table.Attach(entity);
-        _context.Entry(entity).State = EntityState.Modified;
-    }
-
-
-
-    public async Task Save()
-    {
-        await _context.SaveChangesAsync();
+        var entity = await _dbSet.FindAsync(Id);
+        if (entity != null) _dbSet.Remove(entity);
     }
 }
