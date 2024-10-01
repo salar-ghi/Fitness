@@ -2,18 +2,45 @@
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services)
     {
-        services.AddDbContext<FitnessContext>(options => 
-        {
-            options.UseSqlServer(configuration.GetConnectionString("MsSql.FitnessDb")
-            //ServiceLifetime.Scoped
-            //b => b.MigrationsAssembly(typeof(DataContext).Assembly.FullName)
-            );
-        });
+        //services.AddDbContext<FitnessContext>(options => 
+        //{
+        //    options.UseSqlServer(configuration.GetConnectionString("MsSql.FitnessDb")
+        //    //ServiceLifetime.Scoped
+        //    //b => b.MigrationsAssembly(typeof(DataContext).Assembly.FullName)
+        //    );
+        //});
+
+        // General
+        services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+        
+        // Exercise
+        services.AddScoped<IExerciseRepository, ExerciseRepository>();
+        services.AddScoped<IMusclePriorityRepository, MusclePriorityRepository>();
+        services.AddScoped<IPlanDaysRepository, PlanDaysRepository>();
+        services.AddScoped<IPlanImgsRepository, PlanImgsRepository>();
+        services.AddScoped<IPlanRepository, PlanRepository>();
+
+        // User
+        services.AddScoped<IAthleteImgsRepository, AthleteImgsRepository>();
+        services.AddScoped<IAthleteInjuriesRepository, AthleteInjuriesRepository>();
+        services.AddScoped<IAthleteRepository, AthleteRepository>();
+        services.AddScoped<IDiseaseRepository, DiseaseRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
+
+        // Workout
+        services.AddScoped<IAgeRangeRepository, AgeRangeRepository>();
+        services.AddScoped<IBodyRepository, BodyRepository>();
+        services.AddScoped<IBodyWorkoutRepository, BodyWorkoutRepository>();
+        services.AddScoped<IEquipmentRepository, EquipmentRepository>();
+        services.AddScoped<ILevelRepository, LevelRepository>();        
+        services.AddScoped<ISportRepository, SportRepository>();
+        services.AddScoped<IWorkoutEquipmentRepository, WorkoutEquipmentRepository>();
+        services.AddScoped<IWorkoutRepository, WorkoutRepository>();
 
         //services.AddTransient<,>();
-
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
         return services;
     }
 }

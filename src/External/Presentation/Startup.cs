@@ -1,4 +1,5 @@
 ﻿using Domain.IRepositories;
+using Infrastructure;
 using Infrastructure.Repositories;
 
 namespace Presentation;
@@ -69,7 +70,7 @@ public class Startup
             };
         });
 
-        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddInfrastructure();
 
         services.AddHttpClient("Proxy", client =>
         {
