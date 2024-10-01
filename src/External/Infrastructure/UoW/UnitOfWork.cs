@@ -49,11 +49,16 @@ public class UnitOfWork : IUnitOfWork
 
     // Plan Interfaces
 
-    public IExerciseRepository ExerciseRepository => new ExerciseRepository(_context);
-    //{ get { return _exerciseReadRepository ??= new ExerciseReadRepository(_context); } }
+    public IExerciseRepository ExerciseRepository
+    {
+        get
+        {
+            return _exerciseRepository ??= new ExerciseRepository(_context);
+        }
+    }
 
     public IMusclePriorityRepository MusclePriorityRepository => new MusclePriorityRepository(_context);
-    
+
     public IPlanRepository PlanRepository => new PlanRepository(_context);
     //{ get { return _planReadRepository ??= new PlanReadRepository(_context); } }
     public IPlanDaysRepository PlanDaysRepository => new PlanDaysRepository(_context);
@@ -66,11 +71,11 @@ public class UnitOfWork : IUnitOfWork
     public IAthleteRepository AthleteRepository => new AthleteRepository(_context);
     public IUserRepository UserRepository => new UserRepository(_context);
 
-    
+
     public IAthleteImgsRepository AthleteImgsRepository => new AthleteImgsRepository(_context);
 
     public IAthleteInjuriesRepository AthleteInjuriesRepository => new AthleteInjuriesRepository(_context);
-    
+
     public IDiseaseRepository DiseaseRepository => new DiseaseRepository(_context);
 
 
@@ -84,19 +89,18 @@ public class UnitOfWork : IUnitOfWork
 
 
 
-    public IAgeRangeRepository AgeRangeRepository => new AgeRangeRepository(_context); 
+    public IAgeRangeRepository AgeRangeRepository => new AgeRangeRepository(_context);
 
     public ILevelRepository LevelRepository => new LevelRepository(_context);
-    
+
     public ISportRepository SportRepository => new SportRepository(_context);
-    
+
 
     #endregion
 
     public async Task<int> Commit() => await _context.SaveChangesAsync();
-    
+
     public void Dispose() => _context.Dispose();
 
 
 }
- 
