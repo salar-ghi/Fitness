@@ -1,6 +1,7 @@
 ﻿global using System;
 global using Domain.UoW;
 global using Domain.Models;
+global using Application.DTOs;
 global using Infrastructure.UoW;
 global using Domain.IRepositories;
 global using Infrastructure.Context;

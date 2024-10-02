@@ -1,8 +1,4 @@
-﻿using Domain.IRepositories;
-using Infrastructure;
-using Infrastructure.Repositories;
-
-namespace Presentation;
+﻿namespace Presentation;
 
 public class Startup
 {
@@ -58,7 +54,9 @@ public class Startup
                 ValidateAudience = true,
                 ValidAudience = jwtConfig["FitnessPlan"],
             };
-            options.Backchannel = services.BuildServiceProvider().GetRequiredService<IHttpClientFactory>().CreateClient("Proxy");
+            options.Backchannel = services.BuildServiceProvider()
+                .GetRequiredService<IHttpClientFactory>()
+                .CreateClient("Proxy");
             options.Events = new JwtBearerEvents
             {
                 OnMessageReceived = context =>
