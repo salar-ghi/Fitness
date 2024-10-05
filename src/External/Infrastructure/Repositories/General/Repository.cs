@@ -20,6 +20,12 @@ public class Repository<T> : IRepository<T>
     #region Write Queries
 
     public async Task CreateAsync(T entity) => await _dbSet.AddAsync(entity);
+    public async Task CreateRangeAsync(List<T> entity) => await _dbSet.AddRangeAsync(entity);
+    //public async Task<T> CreateAsync(T entity)
+    //{
+    //    var result = await _dbSet.AddAsync(entity);
+    //    return result.Entity;
+    //}
 
     public async Task UpdateAsync<TId>(TId Id, T entity) => _dbSet.Update(entity);
     

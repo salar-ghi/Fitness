@@ -9,10 +9,10 @@ public class Athlete : BaseEntity<Guid, Athlete>
     public int Weight { get; set; }
 
     public string? AvatarUrl { get; private set; }
-    public Sex Gender { get; private set; } = default(Sex);
-    public Age Age { get; private set; } = default(Age);
-    public BodyType BodyType { get; private set; } = default(BodyType);
-    public Enums.Level Level { get; private set; } = default(Enums.Level);
+    public Sex Gender { get; set; } = default(Sex);
+    public Age AgeRange { get; set; } = default(Age);
+    public BodyType BodyType { get; set; } = default(BodyType);
+    public Enums.Level Level { get; set; } = default(Enums.Level);
     public DateOnly DateOfBirth { get; set; }
 
     //public ICollection<AthleteInjuries> Injuries { get; } = new List<AthleteInjuries>();

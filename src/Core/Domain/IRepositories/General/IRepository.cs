@@ -12,6 +12,7 @@ public interface IRepository<T>
 
     #region write
     Task CreateAsync(T entity);
+    Task CreateRangeAsync(List<T> entity);
     Task UpdateAsync<TId>(TId Id, T entity);
     Task DeleteAsync<TId>(TId Id);
     #endregion

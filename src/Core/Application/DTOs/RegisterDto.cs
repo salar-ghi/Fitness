@@ -4,9 +4,11 @@ public class RegisterDto
 {
     //public int Age { get; set; } // ???
 
+    // -----User Table Properties
     public string PhoneNumber { get; set; } = default!;
     public string? Email { get; set; }
 
+    // -----Athlete Table Properties
     public int Height { get; set; }
     public int Weight { get; set; }
 
