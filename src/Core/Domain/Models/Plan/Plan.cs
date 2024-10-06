@@ -6,7 +6,7 @@ public class Plan : BaseEntity<Guid, Plan>
     public Enums.Level Level { get; set; } = default(Enums.Level);
     public Period Duration { get; set; } = default(Period);
     public int DaysCount { get; set; }
-
+    public int AthleteOverWeight { get; set; }
 
 
 

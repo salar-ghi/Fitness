@@ -87,6 +87,8 @@ public class PlanManagingService
     public async Task PlanGeneratingManagement(RegisterDto dto)
     {
         // Plan itself =====>  it's really imporant 
+        // plan relates to Workout Model and it should have lots of data in it.
+        
 
         // PlanDays Table
         List<PlanDays> planDays = new List<PlanDays>();

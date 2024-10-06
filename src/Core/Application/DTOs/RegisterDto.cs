@@ -13,8 +13,8 @@ public class RegisterDto
     public int Height { get; set; }
     public int Weight { get; set; }
 
+    //public int WorkoutDays { get; set; }
     public Period PlanDuration { get; set; }
-    public int WorkoutDays { get; set; }
 
     public Sex Gender { get; set; }
     public Age AgeRange { get; set; } // ???
