@@ -1,3 +1,3 @@
 ﻿namespace Application.DTOs;
 
-public record DiseaseDto(string name, string description);
+public record DiseaseDto(string name, int? bodyId, string description);

@@ -26,8 +26,10 @@ public class PlanManagingService
         await _unitOfWork.UserRepository.CreateAsync(user);
         var userId = (Guid)typeof(User).GetProperty("Id").GetValue(user);
 
+        // ____________________________--------------------------
 
 
+        // Set user role to athelete
         var athlete = new Athlete
         {
             UserId = userId,
@@ -41,6 +43,11 @@ public class PlanManagingService
         };
         await _unitOfWork.AthleteRepository.CreateAsync(athlete);
 
+        // ____________________________--------------------------
+        // ============>>>> ???????????????????????
+        //  change the role of user or register the role of athlete or add the role of athlete
+        // ____________________________--------------------------
+
         // Injuries Table
         List<AthleteInjuries> injuries = new List<AthleteInjuries>();
         foreach (var item in dto.Injuries)
@@ -50,6 +57,8 @@ public class PlanManagingService
                 AthleteId = Guid.NewGuid(),
                 Name = item.name,
                 Description = item.description,
+                BodyId = item.bodyId,
+                InjuredImgUrl = item.injuredImgUrl,
             };
             injuries.Add(injury);
         }
@@ -58,6 +67,7 @@ public class PlanManagingService
 
         // Diseases Table
         List<Disease> diseases = new List<Disease>();
+        var DiseaseNum = dto.Diseases.Count;
         foreach (var item in dto.Diseases)
         {
             var disease = new Disease
@@ -65,12 +75,11 @@ public class PlanManagingService
                 AthleteId= Guid.NewGuid(), // ???????????????? 
                 Name = item.name,
                 Description = item.description,
+                BodyId = item.bodyId,
             };
             diseases.Add(disease);
         }
         await _unitOfWork.DiseaseRepository.CreateRangeAsync(diseases);
-
-
     }
 
 
@@ -95,6 +104,7 @@ public class PlanManagingService
         await _unitOfWork.PlanDaysRepository.CreateRangeAsync(planDays);
 
         List<MusclePriority> musclePriorities = new List<MusclePriority>();
+        var muscleNum = dto.MusclePriorities.Count();
         foreach (var item in dto.MusclePriorities)
         {
             var muscle = new MusclePriority
@@ -107,17 +117,18 @@ public class PlanManagingService
         await _unitOfWork.MusclePriorityRepository.CreateRangeAsync(musclePriorities);
 
 
-        List<Equipment> equipments = new List<Equipment>();
+        List<PlanEquipment> equipments = new List<PlanEquipment>();
+        var equipmentNum = dto.Equipments.Count();
         foreach (var item in dto.Equipments)
         {
-            var equipment = new Equipment
+            var equipment = new PlanEquipment
             {
-                Id = item.Id,
-                Name = item.Name,
+                PlanId = item.planId,
+                EquipmentId = item.equipmentId,
             };
             equipments.Add(equipment);
         }
-        await _unitOfWork.EquipmentRepository.CreateRangeAsync(equipments);
+        await _unitOfWork.PlanEquipmentRepository.CreateRangeAsync(equipments);
 
         //after generating plan and set filters on it clarify exercise.
         List<Exercise> exercises = new List<Exercise>();

@@ -8,6 +8,7 @@ public class RegisterDto
     public string PhoneNumber { get; set; } = default!;
     public string? Email { get; set; }
 
+
     // -----Athlete Table Properties
     public int Height { get; set; }
     public int Weight { get; set; }
@@ -36,7 +37,7 @@ public class RegisterDto
     public List<MusclePriorityDto> MusclePriorities { get; set; }
 
     // EquipmentDto
-    public List<EquipmentDto> Equipments { get; set; }
+    public List<PlanEquipmentDto> Equipments { get; set; }
 
     // Exercise 
     public List<ExerciseDto> Exercises { get; set; }

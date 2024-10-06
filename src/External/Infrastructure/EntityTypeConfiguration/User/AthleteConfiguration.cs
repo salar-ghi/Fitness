@@ -8,7 +8,7 @@ public class AthleteConfiguration : IEntityTypeConfiguration<Athlete>
         builder.Property(e => e.UserId).IsRequired();
         builder.Property(e => e.Gender).IsRequired();
         
-        builder.Property(e => e.Age).IsRequired();
+        builder.Property(e => e.AgeRange).IsRequired();
         builder.Property(e => e.BodyType).IsRequired();
         builder.Property(e => e.Level).IsRequired();
         
