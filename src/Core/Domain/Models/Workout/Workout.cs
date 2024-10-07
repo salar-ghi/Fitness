@@ -2,8 +2,8 @@
 
 public class Workout : BaseEntity<int, Workout>
 {
-    public required string Name { get; set; } = null!;
-    public string Instruction { get; private set; } = default!;
+    public string Name { get; set; } = null!;
+    public string Instruction { get; set; } = default!;
     public string Description { get; set; } = default!;
     public string? ImgUrl { get; set; } 
     public string? VideoUrl { get; set; }

@@ -113,7 +113,6 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
-
         if (!context.Sports.Any())
         {
             var sports = new List<Sport>
@@ -125,6 +124,18 @@ public static class DbInitializer
             await context.Sports.AddRangeAsync(sports);
             await context.SaveChangesAsync();
         }
+
+        if (!context.Workouts.Any())
+        {
+            var workouts = new List<Workout>
+            {
+                new Workout { Name = "", SportId = 1, Description = "", Instruction = "" }
+            };
+            await context.Workouts.AddRangeAsync(workouts);
+            await context.SaveChangesAsync();
+        }
+
+        
 
         if (!context.UserRoles.Any())
         {
