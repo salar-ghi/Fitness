@@ -36,13 +36,13 @@ public class FitnessContext
 
 
     // Workout DbSet
-    public virtual DbSet<AgeRange> AgeRanges { get; set; }
+    public virtual DbSet<Workout> Workouts { get; set; }
+    public virtual DbSet<WorkoutAgeRange> WorkoutAgeRanges { get; set; }
     public virtual DbSet<Body> Bodies { get; set; }
     public virtual DbSet<BodyWorkout> BodyWorkouts { get; set; }
     public virtual DbSet<Equipment> Equipment { get; set; }
-    public virtual DbSet<Level> Levels { get; set; }
+    public virtual DbSet<WorkoutLevel> WorkoutLevels { get; set; }
     public virtual DbSet<Sport> Sports { get; set; }
-    public virtual DbSet<Workout> Workouts { get; set; }
     public virtual DbSet<WorkoutEquipment> WorkoutEquipment { get; set; }
 
 
@@ -89,5 +89,14 @@ public class FitnessContext
         builder.ApplyConfiguration(new SportConfiguration());
         builder.ApplyConfiguration(new WorkoutConfiguration());
         builder.ApplyConfiguration(new WorkoutEquipmentConfiguration());
+
+
+        builder.Entity<Workout>().HasData(
+            new Workout { Id = 1, Name = "", SportId = 1, Description = "", Instruction = "" }
+            );
+
+        builder.Entity<WorkoutLevel>().HasData(
+            new WorkoutLevel { WorkoutId = 1, Level = Domain.Enums.Level.Beginner, Description = "" }
+            );
     }
 }

@@ -30,11 +30,11 @@ public static class DependencyInjection
         services.AddScoped<IUserRepository, UserRepository>();
 
         // Workout
-        services.AddScoped<IAgeRangeRepository, AgeRangeRepository>();
+        services.AddScoped<IWorkoutAgeRangeRepository, WorkoutAgeRangeRepository>();
         services.AddScoped<IBodyRepository, BodyRepository>();
         services.AddScoped<IBodyWorkoutRepository, BodyWorkoutRepository>();
         services.AddScoped<IEquipmentRepository, EquipmentRepository>();
-        services.AddScoped<ILevelRepository, LevelRepository>();        
+        services.AddScoped<IWorkoutLevelRepository, WorkoutLevelRepository>();
         services.AddScoped<ISportRepository, SportRepository>();
         services.AddScoped<IWorkoutEquipmentRepository, WorkoutEquipmentRepository>();
         services.AddScoped<IWorkoutRepository, WorkoutRepository>();

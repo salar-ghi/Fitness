@@ -36,10 +36,10 @@ public interface IUnitOfWork : IDisposable
     #region Workout    
     IBodyWorkoutRepository BodyWorkoutRepository { get; }
     IEquipmentRepository EquipmentRepository { get; }
-    IWorkoutEquipmentRepository WorkoutEquipmentRepository { get; }
     IWorkoutRepository WorkoutRepository { get; }
-    IAgeRangeRepository AgeRangeRepository { get; }
-    ILevelRepository LevelRepository { get; }
+    IWorkoutEquipmentRepository WorkoutEquipmentRepository { get; }
+    IWorkoutAgeRangeRepository WorkoutAgeRangeRepository { get; }
+    IWorkoutLevelRepository WorkoutLevelRepository { get; }
     ISportRepository SportRepository { get; }
 
     #endregion

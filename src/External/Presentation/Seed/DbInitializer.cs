@@ -129,13 +129,44 @@ public static class DbInitializer
         {
             var workouts = new List<Workout>
             {
-                new Workout { Name = "", SportId = 1, Description = "", Instruction = "" }
+                // Level // Equipments // AgeRange
+                new Workout { Id = 1, Name = "",  SportId = 1,  Description = "", Instruction = ""}
             };
             await context.Workouts.AddRangeAsync(workouts);
             await context.SaveChangesAsync();
         }
 
-        
+        if (!context.WorkoutAgeRanges.Any())
+        {
+            var workoutAgeRanges = new List<WorkoutAgeRange>
+            {
+                new WorkoutAgeRange {},
+            };
+            await context.WorkoutAgeRanges.AddRangeAsync(workoutAgeRanges);
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.WorkoutLevels.Any())
+        {
+            var workoutLevels = new List<WorkoutLevel>
+            {
+                new WorkoutLevel { WorkoutId = 1, Level = Domain.Enums.Level.Beginner },
+            };
+            await context.WorkoutLevels.AddRangeAsync(workoutLevels);
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.WorkoutEquipment.Any())
+        {
+            var workoutEquipments = new List<WorkoutEquipment>
+            {
+                new WorkoutEquipment {WorkoutId = 1, EquipmentId = 1,},
+            };
+            await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);
+            await context.SaveChangesAsync();
+        }
+
+
 
         if (!context.UserRoles.Any())
         {
@@ -150,25 +181,4 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
     }
-
-
-    // Chest
-    // Forearms
-    // Lats
-    // Middle Back
-    // Lower Back
-    // Neck
-    // Quadriceps
-    // Hamstrings
-
-    // Calves
-    // Traps
-
-    // Shoulders
-    // Abdominals
-    // Glutes
-    // Biceps
-    // Adductors
-    // Abductors
-
 }

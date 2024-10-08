@@ -30,10 +30,10 @@ public class UnitOfWork : IUnitOfWork
     //Workout
     private BodyWorkoutRepository _bodyWorkoutRepository;    
     private EquipmentRepository _equipmentRepository;
-    private WorkoutEquipmentRepository _workoutEquipmentRepository;
     private WorkoutRepository _workoutRepository;
-    private AgeRangeRepository _ageRangeRepository;
-    private LevelRepository _levelRepository;
+    private WorkoutEquipmentRepository _workoutEquipmentRepository;
+    private WorkoutAgeRangeRepository _workoutAgeRangeRepository;
+    private WorkoutLevelRepository _workoutLevelRepository;
     private SportRepository _sportRepository;
 
     public UnitOfWork(FitnessContext context)
@@ -81,18 +81,13 @@ public class UnitOfWork : IUnitOfWork
 
 
     // Workout Interfaces    
+    public IWorkoutRepository WorkoutRepository => new WorkoutRepository(_context);
     public IBodyWorkoutRepository BodyWorkoutRepository => new BodyWorkoutRepository(_context);
     public IEquipmentRepository EquipmentRepository => new EquipmentRepository(_context);
     public IWorkoutEquipmentRepository WorkoutEquipmentRepository => new WorkoutEquipmentRepository(_context);
-    public IWorkoutRepository WorkoutRepository => new WorkoutRepository(_context);
 
-
-
-
-    public IAgeRangeRepository AgeRangeRepository => new AgeRangeRepository(_context);
-
-    public ILevelRepository LevelRepository => new LevelRepository(_context);
-
+    public IWorkoutAgeRangeRepository WorkoutAgeRangeRepository => new WorkoutAgeRangeRepository(_context);
+    public IWorkoutLevelRepository WorkoutLevelRepository => new WorkoutLevelRepository(_context);
     public ISportRepository SportRepository => new SportRepository(_context);
 
 
