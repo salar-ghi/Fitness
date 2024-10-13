@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using Domain.Models;
+using System.Runtime.CompilerServices;
 
 namespace Presentation.Seed;
 
@@ -125,16 +126,21 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
-        if (!context.Workouts.Any())
-        {
-            var workouts = new List<Workout>
-            {
-                // Level // Equipments // AgeRange
-                new Workout { Id = 1, Name = "",  SportId = 1,  Description = "", Instruction = ""}
-            };
-            await context.Workouts.AddRangeAsync(workouts);
-            await context.SaveChangesAsync();
-        }
+        //if (!context.Workouts.Any())
+        //{
+        //    var workouts = new List<Workout>
+        //    {
+        //        // Level // Equipments // AgeRange // Sex
+        //        new Workout { Id = 1, Name = "", SportId = 1, Description = "", Instruction = "",
+        //            Sex = new List<WorkoutSex> { new WorkoutSex { WorkoutId = 1, Sex = Sex.Man } },
+        //            AgeRanges = new WorkoutAgeRange { WorkoutId = 1, Age = Age.Eighteen_To_TwentyNine },
+        //            Equipment = new WorkoutEquipment { WorkoutId = 1, EquipmentId = 1},
+        //            Level = new WorkoutLevel { WorkoutId = 1, Level = Level.Beginner }
+        //        }
+        //    };
+        //    await context.Workouts.AddRangeAsync(workouts);
+        //    await context.SaveChangesAsync();
+        //}
 
         if (!context.WorkoutAgeRanges.Any())
         {

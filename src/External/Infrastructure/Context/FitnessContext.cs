@@ -81,11 +81,11 @@ public class FitnessContext
         //modelBuilder.ApplyConfiguration(new UserRoleConfiguration());
 
         // Workout Configuration
-        builder.ApplyConfiguration(new AgeRangeConfiguration());
+        builder.ApplyConfiguration(new WorkoutAgeRangeConfiguration());
         builder.ApplyConfiguration(new BodyConfiguration());
         builder.ApplyConfiguration(new BodyWorkoutConfiguration());
         builder.ApplyConfiguration(new EquipmentConfiguration());
-        builder.ApplyConfiguration(new LevelConfiguration());
+        builder.ApplyConfiguration(new WorkoutLevelConfiguration());
         builder.ApplyConfiguration(new SportConfiguration());
         builder.ApplyConfiguration(new WorkoutConfiguration());
         builder.ApplyConfiguration(new WorkoutEquipmentConfiguration());

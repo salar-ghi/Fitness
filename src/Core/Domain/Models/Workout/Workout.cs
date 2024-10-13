@@ -10,10 +10,12 @@ public class Workout : BaseEntity<int, Workout>
 
     public required int SportId { get; set; }
     //public ICollection<Sport> Sport { get; set; } = new List<Sport>();
-    
-    // public ICollection<Level>  Level { get; set; } = new List<Level>();
-    // public ICollection<Equipment> Equipment { get; set; } = new List<Equipment>();
-    // public ICollection<AgeRange> AgeRanges { get; set; } = new List<AgeRange>();
+
+    public ICollection<WorkoutAgeRange> AgeRanges { get; set; } = new List<WorkoutAgeRange>();
+
+    public ICollection<WorkoutLevel> Level { get; set; } = new List<WorkoutLevel>();
+    public ICollection<WorkoutEquipment> Equipment { get; set; } = new List<WorkoutEquipment>();
+    public ICollection<WorkoutSex> Sex { get; set; } = new List<WorkoutSex>();
     // sex
 
 }
