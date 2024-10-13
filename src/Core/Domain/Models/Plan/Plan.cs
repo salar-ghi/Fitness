@@ -2,11 +2,12 @@
 
 public class Plan : BaseEntity<Guid, Plan>
 {
-    public string PlanName { get; private set; } = default!;
+    public string PlanName { get; set; } = default!;
     public Enums.Level Level { get; set; } = default(Enums.Level);
     public Period Duration { get; set; } = default(Period);
     public int DaysCount { get; set; }
-    public int AthleteOverWeight { get; set; }
+    public int AthleteOverWeight { get; set; } // in bayad bere to ye jadvale joda ,
+                                               // va dataye har varzeshkar dar hengame shoro va payan onja sabt beshe 
 
 
 
@@ -19,8 +20,9 @@ public class Plan : BaseEntity<Guid, Plan>
 
 
     // !!!!!!!!!!!!!!!!!!!!!!!! Very important parts !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // PlanEquipment
     // MusclePriority
     // PlanDays
-    // PlanImgs
+    // PlanImgs // in yeki az hamon jadavele ke teye dore data ro jam mikone
     // Exercise
 }

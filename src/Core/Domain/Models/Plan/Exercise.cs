@@ -9,9 +9,11 @@ public class Exercise : BaseEntity<Guid, Exercise>
     //public ICollection<Workout> Workouts { get; set; } = new List<Workout>();
     public ExerciseType ExerciseType { get; set; }
 
-
-    public bool IsOk { get; set; }
-    public bool Completed { get; set; }
     public int RecommendSet { get; set; }
     public int RecommendWeight { get; set; }
+
+
+    public bool IsOk { get; set; } // be nazare karbar ok hastr ke in tamrin behesh suggest shode 
+                                    // dar sorate har do javab bale ye kheyr, result chie ????
+    public bool Completed { get; set; } // bad az anjam, bege ke anjam dade dar jahate anlyse kardane moshtari
 }

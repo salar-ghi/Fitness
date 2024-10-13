@@ -1,7 +1,4 @@
-﻿using Domain.Base;
-using Microsoft.AspNetCore.Identity;
-
-namespace Domain.Models;
+﻿namespace Domain.Models;
 
 public class User : IdentityUser<Guid>, IBaseEntity
 {

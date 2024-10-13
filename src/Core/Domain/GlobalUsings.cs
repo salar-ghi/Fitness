@@ -1,4 +1,5 @@
 ﻿global using System;
+global using Domain.Base;
 global using Domain.Enums;
 global using Domain.Models;
 global using Domain.IRepositories;

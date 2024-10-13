@@ -2,10 +2,10 @@
 
 public class Body : BaseEntity<int, Body>
 {
-    public int BodyPartId { get; set; }
-    public required string Name { get; set; } = null!;
+    //public int BodyPartId { get; set; }
+    public string Name { get; set; } = null!;
     public string ImgUrl { get; set; } = default!;
-    public int Parent { get; set; } = default!;
+    public int? ParentId { get; set; }
 
 
 
