@@ -8,7 +8,7 @@ public class Plan : BaseEntity<Guid, Plan>
     public int DaysCount { get; set; }
 
     // *********************
-    // yek jadval ham bayad ijad beshe mabni ba inke hadafe projhe be soraate
+    // yek jadval ham bayad ijad beshe mabni bar inke hadafe plan varzeshi be soraate
     // vazni, hajmi, azole, va mabaghi chizha behesh qofte beshe.
 
     // ***************

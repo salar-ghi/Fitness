@@ -1,3 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IExerciseRepository : IRepository<Exercise> { }
+public interface IExerciseRepository : IRepository<Exercise>;

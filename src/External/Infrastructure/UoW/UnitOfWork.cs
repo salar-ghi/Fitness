@@ -17,24 +17,27 @@ public class UnitOfWork : IUnitOfWork
     private ExerciseRepository _exerciseRepository;
     private MusclePriorityRepository _musclePriorityRepository;
     private PlanRepository _planRepository;
-    private PlanEquipmentRepository _planEquipmentRepository;
     private PlanDaysRepository _planDaysRepository;
+    private PlanEquipmentRepository _planEquipmentRepository;
+    private PlanGoalsRepository _planGoalsRepository;
     private PlanImgsRepository _planImgsRepository;
 
     // User
     private AthleteRepository _athleteRepository;
-    private UserRepository _userRepository;
     private AthleteImgsRepository _athleteImgsRepository;
     private AthleteInjuriesRepository _athleteInjuriesRepository;    
+    private UserRepository _userRepository;
 
     //Workout
     private BodyWorkoutRepository _bodyWorkoutRepository;    
     private EquipmentRepository _equipmentRepository;
-    private WorkoutRepository _workoutRepository;
-    private WorkoutEquipmentRepository _workoutEquipmentRepository;
-    private WorkoutAgeRangeRepository _workoutAgeRangeRepository;
-    private WorkoutLevelRepository _workoutLevelRepository;
     private SportRepository _sportRepository;
+    private WorkoutRepository _workoutRepository;
+    private WorkoutAgeRangeRepository _workoutAgeRangeRepository;
+    private WorkoutEquipmentRepository _workoutEquipmentRepository;
+    private WorkoutInstructionRepository _workoutInstructionRepository;
+    private WorkoutLevelRepository _workoutLevelRepository;
+    private WorkoutSexRepository _workoutSexRepository;
 
     public UnitOfWork(FitnessContext context)
     {
@@ -65,10 +68,9 @@ public class UnitOfWork : IUnitOfWork
     public IMusclePriorityRepository MusclePriorityRepository => new MusclePriorityRepository(_context);
 
     public IPlanRepository PlanRepository => new PlanRepository(_context);
-    public IPlanEquipmentRepository PlanEquipmentRepository => new PlanEquipmentRepository(_context);
-    //{ get { return _planReadRepository ??= new PlanReadRepository(_context); } }
     public IPlanDaysRepository PlanDaysRepository => new PlanDaysRepository(_context);
-
+    public IPlanEquipmentRepository PlanEquipmentRepository => new PlanEquipmentRepository(_context);
+    public IPlanGoalsRepository PlanGoalsRepository => new PlanGoalsRepository(_context);
     public IPlanImgsRepository PlanImgsRepository => new PlanImgsRepository(_context);
 
 
@@ -81,14 +83,15 @@ public class UnitOfWork : IUnitOfWork
 
 
     // Workout Interfaces    
-    public IWorkoutRepository WorkoutRepository => new WorkoutRepository(_context);
     public IBodyWorkoutRepository BodyWorkoutRepository => new BodyWorkoutRepository(_context);
     public IEquipmentRepository EquipmentRepository => new EquipmentRepository(_context);
-    public IWorkoutEquipmentRepository WorkoutEquipmentRepository => new WorkoutEquipmentRepository(_context);
-
-    public IWorkoutAgeRangeRepository WorkoutAgeRangeRepository => new WorkoutAgeRangeRepository(_context);
-    public IWorkoutLevelRepository WorkoutLevelRepository => new WorkoutLevelRepository(_context);
     public ISportRepository SportRepository => new SportRepository(_context);
+    public IWorkoutRepository WorkoutRepository => new WorkoutRepository(_context);
+    public IWorkoutAgeRangeRepository WorkoutAgeRangeRepository => new WorkoutAgeRangeRepository(_context);
+    public IWorkoutEquipmentRepository WorkoutEquipmentRepository => new WorkoutEquipmentRepository(_context);
+    public IWorkoutInstructionRepository WorkoutInstructionRepository => new WorkoutInstructionRepository(_context);
+    public IWorkoutLevelRepository WorkoutLevelRepository => new WorkoutLevelRepository(_context);
+    public IWorkoutSexRepository WorkoutSexRepository => new WorkoutSexRepository(_context);
 
 
     #endregion

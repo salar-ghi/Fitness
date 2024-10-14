@@ -15,8 +15,9 @@ public interface IUnitOfWork : IDisposable
     IExerciseRepository ExerciseRepository { get; }
     IMusclePriorityRepository MusclePriorityRepository { get; }
     IPlanRepository PlanRepository { get; }
-    IPlanEquipmentRepository PlanEquipmentRepository { get; }
     IPlanDaysRepository PlanDaysRepository { get; }
+    IPlanEquipmentRepository PlanEquipmentRepository { get; }
+    IPlanGoalsRepository PlanGoalsRepository { get; }
     IPlanImgsRepository PlanImgsRepository { get; }
     #endregion
 
@@ -24,10 +25,9 @@ public interface IUnitOfWork : IDisposable
     // User Interfaces
     #region USer
     IAthleteRepository AthleteRepository { get; }
-    IUserRepository UserRepository { get; }
     IAthleteImgsRepository AthleteImgsRepository { get; }
     IAthleteInjuriesRepository AthleteInjuriesRepository { get; }
-    
+    IUserRepository UserRepository { get; }    
 
     #endregion
 
@@ -36,11 +36,13 @@ public interface IUnitOfWork : IDisposable
     #region Workout    
     IBodyWorkoutRepository BodyWorkoutRepository { get; }
     IEquipmentRepository EquipmentRepository { get; }
-    IWorkoutRepository WorkoutRepository { get; }
-    IWorkoutEquipmentRepository WorkoutEquipmentRepository { get; }
-    IWorkoutAgeRangeRepository WorkoutAgeRangeRepository { get; }
-    IWorkoutLevelRepository WorkoutLevelRepository { get; }
     ISportRepository SportRepository { get; }
+    IWorkoutRepository WorkoutRepository { get; }
+    IWorkoutAgeRangeRepository WorkoutAgeRangeRepository { get; }
+    IWorkoutEquipmentRepository WorkoutEquipmentRepository { get; }
+    IWorkoutInstructionRepository WorkoutInstructionRepository { get; }
+    IWorkoutLevelRepository WorkoutLevelRepository { get; }
+    IWorkoutSexRepository WorkoutSexRepository { get; }
 
     #endregion
 
