@@ -6,13 +6,19 @@ public class Plan : BaseEntity<Guid, Plan>
     public Enums.Level Level { get; set; } = default(Enums.Level);
     public Period Duration { get; set; } = default(Period);
     public int DaysCount { get; set; }
-    public int AthleteOverWeight { get; set; } // in bayad bere to ye jadvale joda ,
-                                               // va dataye har varzeshkar dar hengame shoro va payan onja sabt beshe 
 
+    // *********************
+    // yek jadval ham bayad ijad beshe mabni ba inke hadafe projhe be soraate
+    // vazni, hajmi, azole, va mabaghi chizha behesh qofte beshe.
 
+    // ***************
+    // Custom Exercises:
+    // yek jadvale dg bayad ijad beshe va be karbar ejaze bede
+    // ke ya harkati ro hazf kone ya yek harkat ro ezafe bokone.
 
-
-
+    // ***************
+    // Progress Tracking
+    // Implement a Table to track progress over time, including: Max weight lifted / Max repetitions / Volume(total weight x reps)
 
 
     public required Guid AthleteId { get; set; }
@@ -20,7 +26,8 @@ public class Plan : BaseEntity<Guid, Plan>
 
 
     // !!!!!!!!!!!!!!!!!!!!!!!! Very important parts !!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    // PlanEquipment
+    // PlanGoals
+    // PlanEquipments
     // MusclePriority
     // PlanDays
     // PlanImgs // in yeki az hamon jadavele ke teye dore data ro jam mikone

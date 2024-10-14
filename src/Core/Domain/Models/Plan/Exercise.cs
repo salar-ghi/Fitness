@@ -9,8 +9,10 @@ public class Exercise : BaseEntity<Guid, Exercise>
     //public ICollection<Workout> Workouts { get; set; } = new List<Workout>();
     public ExerciseType ExerciseType { get; set; }
 
-    public int RecommendSet { get; set; }
-    public int RecommendWeight { get; set; }
+    public int RecommendSets { get; set; }
+    public int RecommendReps { get; set; }
+    public float RecommendWeight { get; set; }
+    public int RecommendRestTime { get; set; } // Second
 
 
     public bool IsOk { get; set; } // be nazare karbar ok hastr ke in tamrin behesh suggest shode 

@@ -119,11 +119,11 @@ public class PlanManagingService
         await _unitOfWork.MusclePriorityRepository.CreateRangeAsync(musclePriorities);
 
 
-        List<PlanEquipment> equipments = new List<PlanEquipment>();
+        List<PlanEquipments> equipments = new List<PlanEquipments>();
         var equipmentNum = dto.Equipments.Count();
         foreach (var item in dto.Equipments)
         {
-            var equipment = new PlanEquipment
+            var equipment = new PlanEquipments
             {
                 PlanId = item.planId,
                 EquipmentId = item.equipmentId,

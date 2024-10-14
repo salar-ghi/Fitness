@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class PlanEquipment : BaseEntity<long, PlanEquipment>
+public class PlanEquipments : BaseEntity<long, PlanEquipments>
 {
     public Guid PlanId { get; set; }
     public int EquipmentId { get; set; }

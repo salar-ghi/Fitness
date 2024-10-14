@@ -5,8 +5,8 @@ public class Athlete : BaseEntity<Guid, Athlete>
     //public User User { get; set; } = null!;
     public required Guid UserId { get; set; }
 
-    public int Height { get; set; }
-    public int Weight { get; set; }
+    public float Height { get; set; }
+    public float Weight { get; set; }
 
     public string? AvatarUrl { get; private set; }
     public Sex Gender { get; set; } = default(Sex);

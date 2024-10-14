@@ -1,3 +1,3 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IPlanEquipmentRepository : IRepository<PlanEquipment>;
+public interface IPlanEquipmentRepository : IRepository<PlanEquipments>;
