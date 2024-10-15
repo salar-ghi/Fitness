@@ -6,7 +6,8 @@ public class EquipmentConfiguration : IEntityTypeConfiguration<Equipment>
     {
         builder.HasKey(e => e.Id);
         builder.Property(e => e.Name).IsRequired().HasMaxLength(70);
-        
+        builder.Property(e => e.EquipmentType).IsRequired();
+
 
         builder.Property(e => e.ImgUrl).HasMaxLength(256)
             .HasDefaultValue("https://via.placeholder.com/85.png");

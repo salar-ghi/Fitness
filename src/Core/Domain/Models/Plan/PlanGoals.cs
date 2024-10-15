@@ -3,7 +3,7 @@
 public class PlanGoals : BaseEntity<long, PlanGoals>
 {
     public Guid PlanId { get; set; }
-    public Plan Plan { get; set; }
+    //public Plan Plan { get; set; }
 
 
     public DateOnly StartDate { get; set; }

@@ -1,7 +1,4 @@
-﻿using Domain.Models;
-using System.Runtime.CompilerServices;
-
-namespace Presentation.Seed;
+﻿namespace Presentation.Seed;
 
 public static class DbInitializer
 {
@@ -13,58 +10,58 @@ public static class DbInitializer
             {
                 // Chest
                 //new Body { BodyPartId = 10, Name = "Torso" },
-                new Body { BodyPartId = 10, Name = "Chest" },
-                new Body { BodyPartId = 11, Name = "Pectoralis Major", Parent = 10 },
-                new Body { BodyPartId = 12, Name = "Pectoralis Minor", Parent = 10 },
+                new Body { Name = "Chest" },
+                new Body { Name = "Pectoralis Major", ParentId = 10 },
+                new Body { Name = "Pectoralis Minor", ParentId = 10 },
 
                 // Back
-                new Body { BodyPartId = 20, Name = "Back"},
-                new Body { BodyPartId = 21, Name = "Upper Back", Parent = 20 },
-                new Body { BodyPartId = 22, Name = "Middle Back", Parent = 20 },
-                new Body { BodyPartId = 23, Name = "Lower Back", Parent = 20 },
-                new Body { BodyPartId = 24, Name = "Latissimus Dorsi (Lats)", Parent = 20 },
-                new Body { BodyPartId = 25, Name = "Trapezius (Traps)", Parent = 20 },
-                new Body { BodyPartId = 26, Name = "Rhomboids", Parent = 20 },
-                new Body { BodyPartId = 27, Name = "Erector Spinae", Parent = 20 },
+                new Body { Name = "Back"},
+                new Body { Name = "Upper Back", ParentId = 20 },
+                new Body { Name = "Middle Back", ParentId = 20 },
+                new Body { Name = "Lower Back", ParentId = 20 },
+                new Body { Name = "Latissimus Dorsi (Lats)", ParentId = 20 },
+                new Body { Name = "Trapezius (Traps)", ParentId = 20 },
+                new Body { Name = "Rhomboids", ParentId = 20 },
+                new Body { Name = "Erector Spinae", ParentId = 20 },
 
                 // Shoulders
-                new Body { BodyPartId = 30 , Name = "Shoulders" },
-                new Body { BodyPartId = 31 , Name = "Anterior Deltoids", Parent = 30 },
-                new Body { BodyPartId = 32 , Name = "Lateral Deltoids", Parent = 31 },
-                new Body { BodyPartId = 33 , Name = "Posterior Deltoids", Parent = 32 },
+                new Body { Name = "Shoulders" },
+                new Body { Name = "Anterior Deltoids", ParentId = 30 },
+                new Body { Name = "Lateral Deltoids", ParentId = 31 },
+                new Body { Name = "Posterior Deltoids", ParentId = 32 },
 
                 // Arms
-                new Body { BodyPartId = 40, Name = "Arms And Hands"},
-                new Body { BodyPartId = 41, Name = "Biceps Brachii", Parent = 40 },
-                new Body { BodyPartId = 42, Name = "Triceps Brachii", Parent= 40 },
-                new Body { BodyPartId = 43, Name = "Brachialis (Lower Biceps)", Parent = 40 },
-                new Body { BodyPartId = 44, Name = "Forearm", Parent = 40 },
-                new Body { BodyPartId = 45, Name = "Wrists", Parent = 40 },
+                new Body { Name = "Arms And Hands"},
+                new Body { Name = "Biceps Brachii", ParentId = 40 },
+                new Body { Name = "Triceps Brachii", ParentId = 40 },
+                new Body { Name = "Brachialis (Lower Biceps)", ParentId = 40 },
+                new Body { Name = "Forearm", ParentId = 40 },
+                new Body { Name = "Wrists", ParentId = 40 },
 
                 // Abdominals
-                new Body { BodyPartId = 50, Name = "Abdominals", Parent = 6 },
-                new Body { BodyPartId = 50, Name = "Rectus Abdominis", Parent = 6 },
-                new Body { BodyPartId = 50, Name = "Internal Obliques", Parent = 6 },
-                new Body { BodyPartId = 50, Name = "External Obliques", Parent = 6 },
-                new Body { BodyPartId = 50, Name = "Core", Parent = 6 },
+                new Body { Name = "Abdominals", ParentId = 6 },
+                new Body { Name = "Rectus Abdominis", ParentId = 6 },
+                new Body { Name = "Internal Obliques", ParentId = 6 },
+                new Body { Name = "External Obliques", ParentId = 6 },
+                new Body { Name = "Core", ParentId = 6 },
 
                 // Legs
-                new Body { BodyPartId = 60 , Name = "Legs" },
-                new Body { BodyPartId = 61 , Name = "Quadriceps", Parent = 60 },
-                new Body { BodyPartId = 62 , Name = "Hamstrings", Parent = 60 },
-                new Body { BodyPartId = 63 , Name = "Gluteus Maximus", Parent = 60 },
-                new Body { BodyPartId = 64 , Name = "Gluteus Medius", Parent = 60 },
-                new Body { BodyPartId = 65 , Name = "Gluteus Minimus", Parent = 60 },
-                new Body { BodyPartId = 66 , Name = "Calves", Parent = 60 },
-                new Body { BodyPartId = 67 , Name = "Gastrocnemius Calves", Parent = 60 },
-                new Body { BodyPartId = 68 , Name = "Soleus Calves", Parent = 60 },
+                new Body { Name = "Legs" },
+                new Body { Name = "Quadriceps", ParentId = 60 },
+                new Body { Name = "Hamstrings", ParentId = 60 },
+                new Body { Name = "Gluteus Maximus", ParentId = 60 },
+                new Body { Name = "Gluteus Medius", ParentId = 60 },
+                new Body { Name = "Gluteus Minimus", ParentId = 60 },
+                new Body { Name = "Calves", ParentId = 60 },
+                new Body { Name = "Gastrocnemius Calves", ParentId = 60 },
+                new Body { Name = "Soleus Calves", ParentId = 60 },
             };
             await context.Bodies.AddRangeAsync(bodies);
             await context.SaveChangesAsync();
         }
 
 
-        if (!context.Equipment.Any())
+        if (!context.Equipments.Any())
         {
             var equipments = new List<Equipment>
             {
@@ -110,7 +107,7 @@ public static class DbInitializer
                 new Equipment { Name = "Abdominal", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Other", EquipmentType = EquipmentType.Machine, Description= ""},
             };
-            await context.Equipment.AddRangeAsync(equipments);
+            await context.Equipments.AddRangeAsync(equipments);
             await context.SaveChangesAsync();
         }
 
@@ -171,8 +168,6 @@ public static class DbInitializer
             await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);
             await context.SaveChangesAsync();
         }
-
-
 
         if (!context.UserRoles.Any())
         {

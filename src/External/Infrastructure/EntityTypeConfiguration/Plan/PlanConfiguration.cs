@@ -6,7 +6,8 @@ public class PlanConfiguration : IEntityTypeConfiguration<Plan>
     {
         builder.HasKey(e => e.Id);
         builder.Property(e => e.PlanName).IsRequired().HasMaxLength(70);
-        builder.Property(e => e.AthleteId).IsRequired();
+        builder.Property(e => e.Level).IsRequired();
+        builder.HasIndex(e => e.AthleteId).IsClustered(false);
         builder.Property(e => e.Duration).IsRequired();
         
 

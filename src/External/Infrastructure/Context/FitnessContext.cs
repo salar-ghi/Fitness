@@ -1,20 +1,16 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿namespace Infrastructure.Context;
 
-namespace Infrastructure.Context;
-
-public class FitnessContext 
-    //: DbContext
-    : IdentityDbContext<User, IdentityRole<Guid>, Guid, 
+//: DbContext
+public class FitnessContext : IdentityDbContext<User, IdentityRole<Guid>, Guid, 
         IdentityUserClaim<Guid>, IdentityUserRole<Guid>, 
-        IdentityUserLogin<Guid>, IdentityRoleClaim<Guid>, IdentityUserToken<Guid>>
-{
-    //protected override void OnModelCreating(DbContextOptionsBuilder optionBuilder)
-    
+        IdentityUserLogin<Guid>, IdentityRoleClaim<Guid>, IdentityUserToken<Guid>> {
+    //protected override void OnModelCreating(DbContextOptionsBuilder optionBuilder)    
 
-    public FitnessContext(DbContextOptions options) : base(options)
-    { 
-    }
+    public FitnessContext(DbContextOptions options) : base(options) { }
+
+    // Body DbSet
+    public virtual DbSet<Body> Bodies { get; set; }
+    public virtual DbSet<Disease> Diseases { get; set; }
 
     // Plan DbSet
     public virtual DbSet<Exercise> Exercises { get; set; }
@@ -22,28 +18,28 @@ public class FitnessContext
     public virtual DbSet<MusclePriority> MusclePriorities { get; set; }
     public virtual DbSet<Plan> Plans { get; set; }
     public virtual DbSet<PlanDays> PlanDays { get; set; }
+    public virtual DbSet<PlanEquipments> PlanEquipments { get; set; }
+    public virtual DbSet<PlanGoals> PlanGoals { get; set; }
     public virtual DbSet<PlanImgs> PlanImgs { get; set; }
-
-
 
     // User DbSet
     public virtual DbSet<Athlete> Athletes { get; set; }
     public virtual DbSet<AthleteImgs> AthleteImgs { get; set; }
     public virtual DbSet<AthleteInjuries> AthleteInjuries { get; set; }
-    public virtual DbSet<Disease> Diseases { get; set; }
     public virtual DbSet<User> Users { get; set; }
     //public virtual DbSet<UserRole> UserRoles  { get; set; }
 
 
     // Workout DbSet
+    public virtual DbSet<BodyWorkout> BodyWorkouts { get; set; }
+    public virtual DbSet<Equipment> Equipments { get; set; }
+    public virtual DbSet<Sport> Sports { get; set; }
     public virtual DbSet<Workout> Workouts { get; set; }
     public virtual DbSet<WorkoutAgeRange> WorkoutAgeRanges { get; set; }
-    public virtual DbSet<Body> Bodies { get; set; }
-    public virtual DbSet<BodyWorkout> BodyWorkouts { get; set; }
-    public virtual DbSet<Equipment> Equipment { get; set; }
-    public virtual DbSet<WorkoutLevel> WorkoutLevels { get; set; }
-    public virtual DbSet<Sport> Sports { get; set; }
     public virtual DbSet<WorkoutEquipment> WorkoutEquipment { get; set; }
+    public virtual DbSet<WorkoutInstruction> WorkoutInstructions { get; set; }
+    public virtual DbSet<WorkoutLevel> WorkoutLevels { get; set; }
+    public virtual DbSet<WorkoutSex> WorkoutSex { get; set; }
 
 
     //protected override void onConfiguration(DbContextOptionsBuilder optionsBuilder)
@@ -92,7 +88,7 @@ public class FitnessContext
 
 
         builder.Entity<Workout>().HasData(
-            new Workout { Id = 1, Name = "", SportId = 1, Description = "", Instruction = "" }
+            new Workout { Id = 1, Name = "", SportId = 1, Description = ""}
             );
 
         builder.Entity<WorkoutLevel>().HasData(

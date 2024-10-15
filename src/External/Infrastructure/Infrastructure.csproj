@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="EntityTypeConfiguration\Body\" />
     <Folder Include="Mapping\" />
     <Folder Include="Data\" />
   </ItemGroup>

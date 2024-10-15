@@ -5,8 +5,7 @@ public class WorkoutEquipmentConfiguration : IEntityTypeConfiguration<WorkoutEqu
     public void Configure(EntityTypeBuilder<WorkoutEquipment> builder)
     {
         builder.HasKey(e => e.Id);
-        builder.Property(e => e.WorkoutId).IsRequired();
-        builder.Property(e => e.EquipmentId).IsRequired();
+        builder.HasIndex(e => new { e.WorkoutId, e.EquipmentId });
 
 
         builder.Property(e => e.IsDeleted).HasDefaultValue(false);

@@ -6,7 +6,7 @@ public class WorkoutAgeRangeConfiguration : IEntityTypeConfiguration<WorkoutAgeR
     public void Configure(EntityTypeBuilder<WorkoutAgeRange> builder)
     {
         builder.HasKey(e => e.Id);
-        builder.Property(e => e.WorkoutId).IsRequired();
+        builder.HasIndex(e => e.WorkoutId).IsClustered(false);
         builder.Property(e => e.Age).IsRequired();
 
         builder.Property(e => e.IsDeleted).HasDefaultValue(false);

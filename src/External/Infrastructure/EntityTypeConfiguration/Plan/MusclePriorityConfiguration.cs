@@ -6,8 +6,8 @@ public class MusclePriorityConfiguration : IEntityTypeConfiguration<MusclePriori
     public void Configure(EntityTypeBuilder<MusclePriority> builder)
     {
         builder.HasKey(e => e.Id);
-        builder.Property(e => e.PlanId).IsRequired();
-        builder.Property(e => e.BodyId).IsRequired();
+        builder.HasIndex(e => e.PlanId).IsClustered(false);
+        builder.HasIndex(e => e.BodyId).IsClustered(false);
 
         builder.Property(e => e.IsDeleted).HasDefaultValue(false);
         builder.Property(e => e.Created).IsRequired().HasDefaultValue(DateTime.UtcNow);

@@ -6,7 +6,7 @@ public class AthleteImgsConfiguration : IEntityTypeConfiguration<AthleteImgs>
     public void Configure(EntityTypeBuilder<AthleteImgs> builder)
     {
         builder.HasKey(e => e.Id);
-        builder.Property(e => e.AthleteId).IsRequired();
+        builder.HasIndex(e => e.AthleteId).IsClustered(false);
         builder.Property(e => e.Description).HasMaxLength(2500);
 
         builder.Property(e => e.ImgUrl).HasMaxLength(256)

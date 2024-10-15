@@ -12,7 +12,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
 
         builder.Property(e => e.UserName).HasMaxLength(50);
 
-        builder.Property(e => e.Password).HasMaxLength(30);
+        //builder.Property(e => e.Password).HasMaxLength(30);
 
         builder.Property(e => e.ImgUrl).HasMaxLength(256)
             .HasDefaultValue("https://via.placeholder.com/85.png");

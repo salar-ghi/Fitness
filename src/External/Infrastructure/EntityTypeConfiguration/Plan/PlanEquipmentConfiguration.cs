@@ -1,11 +1,13 @@
 ﻿namespace Infrastructure.EntityTypeConfiguration;
 
-public class BodyWorkoutConfiguration : IEntityTypeConfiguration<BodyWorkout>
+public class PlanEquipmentConfiguration : IEntityTypeConfiguration<PlanEquipments>
 {
-    public void Configure(EntityTypeBuilder<BodyWorkout> builder)
+    public void Configure(EntityTypeBuilder<PlanEquipments> builder)
     {
         builder.HasKey(e => e.Id);
-        builder.HasIndex(e => new { e.BodyId , e.WorkoutId}).IsClustered(false);
+        builder.HasIndex(e => e.PlanId).IsClustered(false);
+        builder.HasIndex(e => e.EquipmentId).IsClustered(false);
+
 
         builder.Property(e => e.IsDeleted).HasDefaultValue(false);
         builder.Property(e => e.Created).IsRequired().HasDefaultValue(DateTime.UtcNow);
