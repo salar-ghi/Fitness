@@ -60,6 +60,8 @@ public class FitnessContext : IdentityDbContext<User, IdentityRole<Guid>, Guid,
         builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
         builder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims");
 
+
+
         // Plan Configuration
         builder.ApplyConfiguration(new ExerciseConfiguration());
         //modelBuilder.ApplyConfiguration(new ExerciseDetailConfiguration());
@@ -67,6 +69,9 @@ public class FitnessContext : IdentityDbContext<User, IdentityRole<Guid>, Guid,
         builder.ApplyConfiguration(new PlanConfiguration());
         builder.ApplyConfiguration(new PlanDaysConfiguration());
         builder.ApplyConfiguration(new PlanImgsConfiguration());
+
+        //builder.Entity<User>().UseTptMappingStrategy();
+        //builder.Entity<Athlete>().UseTptMappingStrategy();
 
         // User Configuration
         builder.ApplyConfiguration(new AthleteConfiguration());
@@ -76,6 +81,7 @@ public class FitnessContext : IdentityDbContext<User, IdentityRole<Guid>, Guid,
         builder.ApplyConfiguration(new UserConfiguration());
         //modelBuilder.ApplyConfiguration(new UserRoleConfiguration());
 
+        //builder.Entity<Workout>().UseTptMappingStrategy();
         // Workout Configuration
         builder.ApplyConfiguration(new WorkoutAgeRangeConfiguration());
         builder.ApplyConfiguration(new BodyConfiguration());
@@ -87,12 +93,12 @@ public class FitnessContext : IdentityDbContext<User, IdentityRole<Guid>, Guid,
         builder.ApplyConfiguration(new WorkoutEquipmentConfiguration());
 
 
-        builder.Entity<Workout>().HasData(
-            new Workout { Id = 1, Name = "", SportId = 1, Description = ""}
-            );
+        //builder.Entity<Workout>().HasData(
+        //    new Workout { Id = 1, Name = "", SportId = 1, Description = ""}
+        //    );
 
-        builder.Entity<WorkoutLevel>().HasData(
-            new WorkoutLevel { WorkoutId = 1, Level = Domain.Enums.Level.Beginner, Description = "" }
-            );
+        //builder.Entity<WorkoutLevel>().HasData(
+        //    new WorkoutLevel { WorkoutId = 1, Level = Domain.Enums.Level.Beginner, Description = "" }
+        //    );
     }
 }

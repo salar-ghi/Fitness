@@ -4,62 +4,62 @@ public static class DbInitializer
 {
     public static async Task SeedAsync(FitnessContext context)
     {
+        var bodies = new List<Body>();
         if (!context.Bodies.Any())
         {
-            var bodies = new List<Body>
+            bodies = new List<Body>
             {
                 // Chest
                 //new Body { BodyPartId = 10, Name = "Torso" },
-                new Body { Name = "Chest" },
-                new Body { Name = "Pectoralis Major", ParentId = 10 },
-                new Body { Name = "Pectoralis Minor", ParentId = 10 },
+                new Body { Id = 1, Name = "Chest" },
+                new Body { Id = 2, Name = "Pectoralis Major", ParentId = 1 },
+                new Body { Id = 3, Name = "Pectoralis Minor", ParentId = 1 },
 
                 // Back
-                new Body { Name = "Back"},
-                new Body { Name = "Upper Back", ParentId = 20 },
-                new Body { Name = "Middle Back", ParentId = 20 },
-                new Body { Name = "Lower Back", ParentId = 20 },
-                new Body { Name = "Latissimus Dorsi (Lats)", ParentId = 20 },
-                new Body { Name = "Trapezius (Traps)", ParentId = 20 },
-                new Body { Name = "Rhomboids", ParentId = 20 },
-                new Body { Name = "Erector Spinae", ParentId = 20 },
+                new Body { Id = 11, Name = "Back"},
+                new Body { Id = 12, Name = "Upper Back", ParentId = 11 },
+                new Body { Id = 13, Name = "Middle Back", ParentId = 11 },
+                new Body { Id = 14, Name = "Lower Back", ParentId = 11 },
+                new Body { Id = 15, Name = "Latissimus Dorsi (Lats)", ParentId = 11 },
+                new Body { Id = 16, Name = "Trapezius (Traps)", ParentId = 11 },
+                new Body { Id = 17, Name = "Rhomboids", ParentId = 11 },
+                new Body { Id = 18, Name = "Erector Spinae", ParentId = 11 },
 
                 // Shoulders
-                new Body { Name = "Shoulders" },
-                new Body { Name = "Anterior Deltoids", ParentId = 30 },
-                new Body { Name = "Lateral Deltoids", ParentId = 31 },
-                new Body { Name = "Posterior Deltoids", ParentId = 32 },
+                new Body { Id = 21, Name = "Shoulders" },
+                new Body { Id = 22, Name = "Anterior Deltoids", ParentId = 21 },
+                new Body { Id = 23, Name = "Lateral Deltoids", ParentId = 21 },
+                new Body { Id = 24, Name = "Posterior Deltoids", ParentId = 21 },
 
                 // Arms
-                new Body { Name = "Arms And Hands"},
-                new Body { Name = "Biceps Brachii", ParentId = 40 },
-                new Body { Name = "Triceps Brachii", ParentId = 40 },
-                new Body { Name = "Brachialis (Lower Biceps)", ParentId = 40 },
-                new Body { Name = "Forearm", ParentId = 40 },
-                new Body { Name = "Wrists", ParentId = 40 },
+                new Body { Id = 31, Name = "Arms And Hands"},
+                new Body { Id = 32, Name = "Biceps Brachii", ParentId = 31 },
+                new Body { Id = 33, Name = "Triceps Brachii", ParentId = 31 },
+                new Body { Id = 34, Name = "Brachialis (Lower Biceps)", ParentId = 31 },
+                new Body { Id = 35, Name = "Forearm", ParentId = 31 },
+                new Body { Id = 36, Name = "Wrists", ParentId = 31 },
 
                 // Abdominals
-                new Body { Name = "Abdominals", ParentId = 6 },
-                new Body { Name = "Rectus Abdominis", ParentId = 6 },
-                new Body { Name = "Internal Obliques", ParentId = 6 },
-                new Body { Name = "External Obliques", ParentId = 6 },
-                new Body { Name = "Core", ParentId = 6 },
+                new Body { Id = 41, Name = "Abdominals" },
+                new Body { Id = 42, Name = "Rectus Abdominis", ParentId = 41 },
+                new Body { Id = 43, Name = "Internal Obliques", ParentId = 41 },
+                new Body { Id = 44, Name = "External Obliques", ParentId = 41 },
+                new Body { Id = 45, Name = "Core", ParentId = 41 },
 
                 // Legs
-                new Body { Name = "Legs" },
-                new Body { Name = "Quadriceps", ParentId = 60 },
-                new Body { Name = "Hamstrings", ParentId = 60 },
-                new Body { Name = "Gluteus Maximus", ParentId = 60 },
-                new Body { Name = "Gluteus Medius", ParentId = 60 },
-                new Body { Name = "Gluteus Minimus", ParentId = 60 },
-                new Body { Name = "Calves", ParentId = 60 },
-                new Body { Name = "Gastrocnemius Calves", ParentId = 60 },
-                new Body { Name = "Soleus Calves", ParentId = 60 },
+                new Body { Id = 51, Name = "Legs" },
+                new Body { Id = 52, Name = "Quadriceps", ParentId = 51 },
+                new Body { Id = 53, Name = "Hamstrings", ParentId = 51 },
+                new Body { Id = 54, Name = "Gluteus Maximus", ParentId = 51 },
+                new Body { Id = 55, Name = "Gluteus Medius", ParentId = 51 },
+                new Body { Id = 56, Name = "Gluteus Minimus", ParentId = 51 },
+                new Body { Id = 57, Name = "Calves", ParentId = 51 },
+                new Body { Id = 58, Name = "Gastrocnemius Calves", ParentId = 51 },
+                new Body { Id = 59, Name = "Soleus Calves", ParentId = 51 },
             };
             await context.Bodies.AddRangeAsync(bodies);
             await context.SaveChangesAsync();
         }
-
 
         if (!context.Equipments.Any())
         {
@@ -111,51 +111,71 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        var sports = new List<Sport>();
         if (!context.Sports.Any())
         {
-            var sports = new List<Sport>
+            sports = new List<Sport>
             {
-                new Sport {Name = "BodyBuilding", Description = ""},
-                new Sport {Name = "Cardio", Description = ""},
-                new Sport {Name = "Yoga", Description = ""},
+                new Sport { Id = 1, Name = "BodyBuilding", Description = ""},
+                new Sport { Id = 1, Name = "Cardio", Description = ""},
+                new Sport { Id = 1, Name = "Yoga", Description = ""},
             };
             await context.Sports.AddRangeAsync(sports);
             await context.SaveChangesAsync();
         }
 
-        //if (!context.Workouts.Any())
-        //{
-        //    var workouts = new List<Workout>
-        //    {
-        //        // Level // Equipments // AgeRange // Sex
-        //        new Workout { Id = 1, Name = "", SportId = 1, Description = "", Instruction = "",
-        //            Sex = new List<WorkoutSex> { new WorkoutSex { WorkoutId = 1, Sex = Sex.Man } },
-        //            AgeRanges = new WorkoutAgeRange { WorkoutId = 1, Age = Age.Eighteen_To_TwentyNine },
-        //            Equipment = new WorkoutEquipment { WorkoutId = 1, EquipmentId = 1},
-        //            Level = new WorkoutLevel { WorkoutId = 1, Level = Level.Beginner }
-        //        }
-        //    };
-        //    await context.Workouts.AddRangeAsync(workouts);
-        //    await context.SaveChangesAsync();
-        //}
+
+        // Workout Models
+        #region Workout Models
+
+        var workouts = new List<Workout>();
+        if (!context.Workouts.Any())
+        {
+            // Instruction // Body // AgeRange // Equipments // Level // Sex
+            workouts = new List<Workout>
+            {
+                new Workout { Id = 1, Name = "", Description = "", SportId = sports[0].Id },
+                new Workout { Id = 1, Name = "", Description = "", SportId = sports[0].Id }
+
+                    //Sex = new List<WorkoutSex> { new WorkoutSex { WorkoutId = 1, Sex = Sex.Man } },
+                    //AgeRanges = new WorkoutAgeRange { WorkoutId = 1, Age = Age.Eighteen_To_TwentyNine },
+                    //Equipment = new WorkoutEquipment { WorkoutId = 1, EquipmentId = 1},
+                    //Level = new WorkoutLevel { WorkoutId = 1, Level = Level.Beginner 
+            };
+            await context.Workouts.AddRangeAsync(workouts);
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.WorkoutInstructions.Any())
+        {
+            var instructions = new List<WorkoutInstruction>
+            {
+                new WorkoutInstruction { WorkoutId = workouts[0].Id, Description = "", ImgUrl = "", VideoUrl = ""},
+                new WorkoutInstruction { WorkoutId = workouts[0].Id, Description = "", ImgUrl = "", VideoUrl = ""}
+            };
+            await context.WorkoutInstructions.AddRangeAsync(instructions);
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.BodyWorkouts.Any())
+        {
+            var bodyWorkouts = new List<BodyWorkout>
+            {
+                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id }
+            };
+            await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
+            await context.SaveChangesAsync();
+        }
 
         if (!context.WorkoutAgeRanges.Any())
         {
             var workoutAgeRanges = new List<WorkoutAgeRange>
             {
-                new WorkoutAgeRange {},
+                new WorkoutAgeRange {WorkoutId = workouts[0].Id, Age = Age.Eighteen_To_TwentyNine },
+                new WorkoutAgeRange {WorkoutId = workouts[0].Id, Age = Age.Thirty_To_Thirty_Nine },
             };
             await context.WorkoutAgeRanges.AddRangeAsync(workoutAgeRanges);
-            await context.SaveChangesAsync();
-        }
-
-        if (!context.WorkoutLevels.Any())
-        {
-            var workoutLevels = new List<WorkoutLevel>
-            {
-                new WorkoutLevel { WorkoutId = 1, Level = Domain.Enums.Level.Beginner },
-            };
-            await context.WorkoutLevels.AddRangeAsync(workoutLevels);
             await context.SaveChangesAsync();
         }
 
@@ -163,11 +183,36 @@ public static class DbInitializer
         {
             var workoutEquipments = new List<WorkoutEquipment>
             {
-                new WorkoutEquipment {WorkoutId = 1, EquipmentId = 1,},
+                new WorkoutEquipment {WorkoutId = 1, EquipmentId = 1},
+                new WorkoutEquipment {WorkoutId = 1, EquipmentId = 1},
             };
             await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);
             await context.SaveChangesAsync();
         }
+
+        if (!context.WorkoutLevels.Any())
+        {
+            var workoutLevels = new List<WorkoutLevel>
+            {
+                new WorkoutLevel { WorkoutId = 1, Level = Domain.Enums.Level.Beginner, Description="" },
+            };
+            await context.WorkoutLevels.AddRangeAsync(workoutLevels);
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.WorkoutSex.Any())
+        {
+            var genders = new List<WorkoutSex>
+            {
+                new WorkoutSex { WorkoutId = workouts[0].Id, Sex = Sex.Man},
+                new WorkoutSex { WorkoutId = workouts[0].Id, Sex = Sex.Man}
+            };
+            await context.WorkoutSex.AddRangeAsync(genders);
+            await context.SaveChangesAsync();
+        }
+
+        #endregion
+        // Done Workout Models
 
         if (!context.UserRoles.Any())
         {
