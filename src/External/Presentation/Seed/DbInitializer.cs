@@ -156,7 +156,7 @@ public static class DbInitializer
                 //Index => 0
                 new Workout { Id = 1, Name = "Dumbbell Bench Press", Description = "Targets the chest; can be done flat, incline, or decline.", SportId = sports[0].Id },
                 //Index => 1
-                new Workout { Id = 2, Name = "Dumbbell Flys", Description = "Focuses on the upper and lateral pec muscles", SportId = sports[0].Id },
+                new Workout { Id = 2, Name = "Dumbbell Fly", Description = "Focuses on the upper and lateral pec muscles", SportId = sports[0].Id },
                 //Index => 2
                 new Workout { Id = 3, Name = "Dumbbell Floor Press", Description ="Similar to bench press but performed on the floor.", SportId= sports[0].Id },
 
@@ -188,25 +188,83 @@ public static class DbInitializer
                 // Lower Body
                 //Index 12
                 new Workout { Id = 13, Name = "Dumbbell Squats (Goblet Squats)", Description ="Fundamental for leg strength.", SportId= sports[0].Id },
+                //Index 13
                 new Workout { Id = 14, Name = "Dumbbell Lunges (Walking Lunges)", Description ="Focuses on single-leg strength and stability.", SportId= sports[0].Id },
+                //Index 14
                 new Workout { Id = 15, Name = "Dumbbell Deadlifts (Stiff-Legged Deadlifts)", Description ="Engages the posterior chain, especially hamstrings and glutes.", SportId= sports[0].Id },
+                //Index 15
                 new Workout { Id = 16, Name = "Dumbbell Step-Ups", Description ="Improves leg strength and balance.", SportId= sports[0].Id },
 
                 // Core Workouts
+                //Index 16
                 new Workout { Id = 17, Name = "Weighted Crunches", Description ="Targets the rectus abdominis.", SportId= sports[0].Id },
+                //Index 17
                 new Workout { Id = 18, Name = "Russian Twists", Description ="Engages obliques for rotational strength.", SportId= sports[0].Id },
+                //Index 18
                 new Workout { Id = 19, Name = "Plank with Dumbbells", Description ="Enhances core stability while incorporating shoulder work.", SportId= sports[0].Id },
 
                 // Full Body Workouts
+                //Index 19
                 new Workout { Id = 20, Name = "Devil's Press", Description ="Combines a burpee with dumbbells for a full-body workout.", SportId= sports[0].Id },
+                //Index 20
                 new Workout { Id = 21, Name = "Farmer’s Carry", Description ="Enhances grip strength and overall conditioning while working multiple muscle groups.", SportId= sports[0].Id },
+                //Index 21
                 new Workout { Id = 22, Name = "Dumbbell High Pulls", Description ="Targets shoulders, traps, and upper back.", SportId= sports[0].Id },
-
-
-                new Workout { Id = 23, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 24, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 25, Name = "", Description =".", SportId= sports[0].Id },
                 #endregion
+                
+                
+                #region Barbells
+                // Chest
+                //Index => 22
+                new Workout { Id = 23, Name = "Barbell Bench Press", Description ="A fundamental exercise for overall chest development.", SportId= sports[0].Id },
+                //Index => 23
+                new Workout { Id = 24, Name = "Incline Barbell Press", Description ="Targets the upper chest, performed on an inclined bench.", SportId= sports[0].Id },
+                //Index => 24
+                new Workout { Id = 25, Name = "Decline Barbell Press", Description ="Focuses on the lower chest, done on a declined bench.", SportId= sports[0].Id },
+                //Index => 25
+                new Workout { Id = 26, Name = "Barbell Pullover", Description ="Engages the chest and lats, performed lying on a bench.", SportId= sports[0].Id },
+
+
+                // Back
+                //Index => 26
+                new Workout { Id = 27, Name = "Barbell Bent-Over Row", Description ="A classic exercise for building thickness in the back.", SportId= sports[0].Id },
+                new Workout { Id = 27, Name = "Pendlay Row", Description ="An explosive variation of the bent-over row focusing on strength.", SportId= sports[0].Id },
+                new Workout { Id = 27, Name = "T-Bar Row", Description ="Targets the middle back and lats; requires a T-bar setup.", SportId= sports[0].Id },
+                new Workout { Id = 27, Name = "Barbell Deadlift", Description ="A compound movement that works the entire posterior chain.", SportId= sports[0].Id },
+                new Workout { Id = 27, Name = "Barbell Shrug", Description ="Isolates the upper trapezius muscles.", SportId= sports[0].Id },
+
+                // Shoulders
+                //Index => 26
+                new Workout { Id = 27, Name = "Barbell Overhead Press", Description ="A primary shoulder exercise that also engages the core.", SportId= sports[0].Id },
+                new Workout { Id = 27, Name = "Barbell Upright Row", Description ="Targets the shoulders and traps by lifting the bar to chin height.", SportId= sports[0].Id },
+                new Workout { Id = 27, Name = "Barbell Front Raise", Description ="Isolates the front deltoids by lifting the bar in front of you.", SportId= sports[0].Id },
+
+                // Arms
+                //Index => 26
+                new Workout { Id = 3, Name = "Barbell Bicep Cur", Description ="A staple for building bicep mass.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Close-Grip Barbell Bench Press", Description ="Primarily targets the triceps while also engaging the chest.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Skull Crushers", Description ="Focuses on triceps development using a barbell.", SportId= sports[0].Id },
+                
+                // Core Workouts
+                //Index => 26
+                new Workout { Id = 3, Name = "Barbell Squat", Description ="A fundamental exercise for overall leg development.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Barbell Deadlift (Conventional)", Description ="Engages hamstrings, glutes, and lower back.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Barbell Lunges", Description ="Targets quads and glutes; can be performed forward or backward.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Barbell Romanian Deadlift", Description ="Focuses on hamstrings and glutes with a hip hinge movement.", SportId= sports[0].Id },
+
+                // Lower Body Workouts
+                //Index => 26
+                new Workout { Id = 3, Name = "Barbell Rollout", Description ="Engages core muscles through an extended rollout motion.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Landmine Anti-Rotation Press", Description ="Strengthens core stability while pressing a barbell anchored at one end.", SportId= sports[0].Id },
+
+
+                // Full Body Workouts
+                //Index => 26
+                new Workout { Id = 3, Name = "Barbell Clean and Press", Description ="A dynamic movement that works multiple muscle groups including legs, back, shoulders, and arms.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Barbell Thruster", Description =" Thruster: Combines a front squat with an overhead press for a full-body workout.", SportId= sports[0].Id },
+
+                #endregion
+
 
                 #region Other
 
@@ -244,14 +302,46 @@ public static class DbInitializer
         {
             var workoutEquipments = new List<WorkoutEquipment>
             {
+                #region Dumbells
                 // Chest // Dumbells
                 new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[1].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = workouts[11].Id},
-                new WorkoutEquipment { WorkoutId = workouts[1].Id, EquipmentId = workouts[1].Id},
-                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = workouts[1].Id},
-                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = workouts[12].Id},
+                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = workouts[11].Id },
+                new WorkoutEquipment { WorkoutId = workouts[1].Id, EquipmentId = workouts[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = workouts[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = workouts[12].Id },
 
                 // Back // Dumbells
+                new WorkoutEquipment { WorkoutId = workouts[3].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[4].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[5].Id, EquipmentId = equipments[1].Id },
+
+                // Shoulders // Dumbells
+                new WorkoutEquipment { WorkoutId = workouts[6].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[7].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[8].Id, EquipmentId = equipments[1].Id },
+
+                // Arms // Dumbells
+                new WorkoutEquipment { WorkoutId = workouts[9].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[10].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[11].Id, EquipmentId = equipments[1].Id },
+
+                // Lower Body // Dumbells
+                new WorkoutEquipment { WorkoutId = workouts[12].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[13].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[14].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[15].Id, EquipmentId = equipments[1].Id },
+
+                // Core Workouts // Dumbells
+                new WorkoutEquipment { WorkoutId = workouts[16].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[17].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[18].Id, EquipmentId = equipments[1].Id },
+                
+                // Full Body Workouts // Dumbells
+                new WorkoutEquipment { WorkoutId = workouts[19].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[20].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[21].Id, EquipmentId = equipments[1].Id },
+                #endregion
+
 
             };
             await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);

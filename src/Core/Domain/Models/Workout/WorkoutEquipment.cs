@@ -1,6 +1,6 @@
 ﻿namespace Domain.Models;
 
-public class WorkoutEquipment : BaseEntity<int, WorkoutEquipment>
+public class WorkoutEquipment : BaseEntity<long, WorkoutEquipment>
 {
     public int WorkoutId { get; set; } = default(int);
     //public Workout workout { get; set; } = null!;
