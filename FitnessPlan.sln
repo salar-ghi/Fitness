@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6C6F652-ED90-41DF-BD79-78FEBF90222E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5316200B-3CED-4431-B26A-034A08FDE6E6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{EFDB2C9F-464F-4B30-A026-46653F93AA10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CAA1BE42-49F2-4DD7-B414-C72AE203E608}"
@@ -21,19 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "src\Externa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4290D7E6-2033-4B2F-90AC-F634118D6345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "tests\Domain.UnitTests\Domain.UnitTests.csproj", "{2D8A1743-A9A0-491B-A236-9C69609A831E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.UnitTests", "tests\Domain.UnitTests\Domain.UnitTests.csproj", "{2D8A1743-A9A0-491B-A236-9C69609A831E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.UnitTests", "tests\Infrastructure.UnitTests\Infrastructure.UnitTests.csproj", "{063955DE-CDE0-4B74-A7C5-87F92121FD4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.UnitTests", "tests\Infrastructure.UnitTests\Infrastructure.UnitTests.csproj", "{063955DE-CDE0-4B74-A7C5-87F92121FD4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.FunctionalTests", "tests\Domain.FunctionalTests\Domain.FunctionalTests.csproj", "{2D036579-FF72-45D0-BEEB-FC49EE0A589B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.FunctionalTests", "tests\Domain.FunctionalTests\Domain.FunctionalTests.csproj", "{2D036579-FF72-45D0-BEEB-FC49EE0A589B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.FunctionalTests", "tests\Infrastructure.FunctionalTests\Infrastructure.FunctionalTests.csproj", "{EC40B79D-DC7A-4B04-9F00-18264924B7E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.FunctionalTests", "tests\Infrastructure.FunctionalTests\Infrastructure.FunctionalTests.csproj", "{EC40B79D-DC7A-4B04-9F00-18264924B7E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.FunctionalTests", "tests\Application.FunctionalTests\Application.FunctionalTests.csproj", "{01639ED3-CB62-4FA7-B6E7-96192BE73D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.FunctionalTests", "tests\Application.FunctionalTests\Application.FunctionalTests.csproj", "{01639ED3-CB62-4FA7-B6E7-96192BE73D9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{9FC3C26C-F2AC-498C-A526-439FF2D1E0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{9FC3C26C-F2AC-498C-A526-439FF2D1E0AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation.FunctionalTests", "tests\Presentation.FunctionalTests\Presentation.FunctionalTests.csproj", "{C9EFC8C0-7F11-48BA-97FB-F5097942F7C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation.FunctionalTests", "tests\Presentation.FunctionalTests\Presentation.FunctionalTests.csproj", "{C9EFC8C0-7F11-48BA-97FB-F5097942F7C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
