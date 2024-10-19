@@ -61,28 +61,45 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        var equipments = new List<Equipment>();
         if (!context.Equipments.Any())
         {
-            var equipments = new List<Equipment>
+            equipments = new List<Equipment>
             {
                 // None
-                //new Equipment { Name = "None", EquipmentType = EquipmentType.Body },
-                new Equipment { Name = "Body Only", EquipmentType = EquipmentType.Body, Description= "" },
+
+                // Index => 0
+                new Equipment { Name = "Body Only", EquipmentType = EquipmentType.Body, Description= "" }, 
 
                 // Free Weights
+                // Index => 1
                 new Equipment { Name = "Dumbells", EquipmentType = EquipmentType.Machine, Description= "Versatile weights for various exercises targeting multiple muscle groups"},
+                // Index => 2
                 new Equipment { Name = "Barbells", EquipmentType = EquipmentType.Machine, Description= "Long bars used for heavy lifting, ideal for compound movements"},
+                // Index => 3
                 new Equipment { Name = "KettleBells", EquipmentType = EquipmentType.Machine, Description= "Cast iron weights used for dynamic exercises that combine strength and cardio"},
 
                 // Machines
                 //new Equipment { Name = "Machine", EquipmentType = EquipmentType.Machine},
+                // Index => 4
                 new Equipment { Name = "Smith Machine", EquipmentType = EquipmentType.Machine, Description= "A barbell fixed within steel rails, providing stability for various lifts"},
+                // Index => 5
                 new Equipment { Name = "Leg Press Machine", EquipmentType = EquipmentType.Machine, Description= "Targets the quadriceps, hamstrings, and glutes"},
+                // Index => 6
                 new Equipment { Name = "Chest Press Machine", EquipmentType = EquipmentType.Machine, Description= "Focuses on the chest muscles with guided movements"},
+                // Index => 7
                 new Equipment { Name = "Lat Pulldown Machine", EquipmentType = EquipmentType.Machine, Description= "Targets the latissimus dorsi muscles in the back"},
+                // Index => 8
                 new Equipment { Name = "Leg Curl Machine", EquipmentType = EquipmentType.Machine, Description= "Isolates the hamstrings for targeted strengthening"},
+                // Index => 9
                 new Equipment { Name = "Leg Extension Machine", EquipmentType = EquipmentType.Machine, Description= "Focuses on the quadriceps"},
+                // Index => 10
                 new Equipment { Name = "Cable Machine", EquipmentType = EquipmentType.Machine, Description= "Versatile machines that allow for a wide range of exercises using adjustable cables"},
+
+                // Index => 11
+                new Equipment { Name = "Bench Press", EquipmentType = EquipmentType.Machine, Description = " Performed lying on a bench, allowing for a full range of motion as the barbell can descend below the chest level"},                
+                // Index => 12
+                new Equipment { Name = "Floor Press", EquipmentType = EquipmentType.Machine, Description = "Executed lying on the floor, which limits the range of motion since the elbows stop descending when they touch the ground"},
 
                 // Cardiovascular Equipment
                 new Equipment { Name = "Treadmill", EquipmentType = EquipmentType.Equipment, Description= "Ideal for running or walking to improve cardiovascular fitness"},
@@ -134,15 +151,110 @@ public static class DbInitializer
             // Instruction // Body // AgeRange // Equipments // Level // Sex
             workouts = new List<Workout>
             {
-                new Workout { Id = 1, Name = "", Description = "", SportId = sports[0].Id },
-                new Workout { Id = 1, Name = "", Description = "", SportId = sports[0].Id }
+                #region Dumbells	
+                // Chest
+                //Index => 0
+                new Workout { Id = 1, Name = "Dumbbell Bench Press", Description = "Targets the chest; can be done flat, incline, or decline.", SportId = sports[0].Id },
+                //Index => 1
+                new Workout { Id = 2, Name = "Dumbbell Flys", Description = "Focuses on the upper and lateral pec muscles", SportId = sports[0].Id },
+                //Index => 2
+                new Workout { Id = 3, Name = "Dumbbell Floor Press", Description ="Similar to bench press but performed on the floor.", SportId= sports[0].Id },
 
-                    //Sex = new List<WorkoutSex> { new WorkoutSex { WorkoutId = 1, Sex = Sex.Man } },
-                    //AgeRanges = new WorkoutAgeRange { WorkoutId = 1, Age = Age.Eighteen_To_TwentyNine },
-                    //Equipment = new WorkoutEquipment { WorkoutId = 1, EquipmentId = 1},
-                    //Level = new WorkoutLevel { WorkoutId = 1, Level = Level.Beginner 
+
+                // Back
+                //Index 3
+                new Workout { Id = 4, Name = "Dumbbell Bent-Over Rows", Description ="Engages the entire back.", SportId= sports[0].Id },
+                //Index 4
+                new Workout { Id = 5, Name = "Dumbbell Pullover", Description ="Works the lats and upper chest.", SportId= sports[0].Id },
+                //Index 5                
+                new Workout { Id = 6, Name = "Renegade Row", Description ="Combines a plank with a row for core and back strength.", SportId= sports[0].Id },
+
+                // Shoulders
+                //Index 6
+                new Workout { Id = 7, Name = "Standing Dumbbell Press", Description ="Builds shoulder strength while engaging the core.", SportId= sports[0].Id },
+                //Index 7
+                new Workout { Id = 8, Name = "Dumbbell Lateral Raise", Description ="Isolates the lateral deltoids.", SportId= sports[0].Id },
+                //Index 8
+                new Workout { Id = 9, Name = "Dumbbell Arnold Press", Description ="Targets multiple shoulder muscles through rotation.", SportId= sports[0].Id },
+
+                // Arms
+                //Index 9
+                new Workout { Id = 10, Name = "Dumbbell Bicep Curls", Description ="Essential for bicep development.", SportId= sports[0].Id },
+                //Index 10
+                new Workout { Id = 11, Name = "Hammer Curls", Description ="Targets the brachialis and brachioradialis.", SportId= sports[0].Id },
+                //Index 11
+                new Workout { Id = 12, Name = "Dumbbell Tricep Kickbacks", Description ="Isolates the triceps effectively.", SportId= sports[0].Id },
+
+                // Lower Body
+                //Index 12
+                new Workout { Id = 13, Name = "Dumbbell Squats (Goblet Squats)", Description ="Fundamental for leg strength.", SportId= sports[0].Id },
+                new Workout { Id = 14, Name = "Dumbbell Lunges (Walking Lunges)", Description ="Focuses on single-leg strength and stability.", SportId= sports[0].Id },
+                new Workout { Id = 15, Name = "Dumbbell Deadlifts (Stiff-Legged Deadlifts)", Description ="Engages the posterior chain, especially hamstrings and glutes.", SportId= sports[0].Id },
+                new Workout { Id = 16, Name = "Dumbbell Step-Ups", Description ="Improves leg strength and balance.", SportId= sports[0].Id },
+
+                // Core Workouts
+                new Workout { Id = 17, Name = "Weighted Crunches", Description ="Targets the rectus abdominis.", SportId= sports[0].Id },
+                new Workout { Id = 18, Name = "Russian Twists", Description ="Engages obliques for rotational strength.", SportId= sports[0].Id },
+                new Workout { Id = 19, Name = "Plank with Dumbbells", Description ="Enhances core stability while incorporating shoulder work.", SportId= sports[0].Id },
+
+                // Full Body Workouts
+                new Workout { Id = 20, Name = "Devil's Press", Description ="Combines a burpee with dumbbells for a full-body workout.", SportId= sports[0].Id },
+                new Workout { Id = 21, Name = "Farmer’s Carry", Description ="Enhances grip strength and overall conditioning while working multiple muscle groups.", SportId= sports[0].Id },
+                new Workout { Id = 22, Name = "Dumbbell High Pulls", Description ="Targets shoulders, traps, and upper back.", SportId= sports[0].Id },
+
+
+                new Workout { Id = 23, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 24, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 25, Name = "", Description =".", SportId= sports[0].Id },
+                #endregion
+
+                #region Other
+
+	
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                #endregion
+
+
             };
             await context.Workouts.AddRangeAsync(workouts);
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.WorkoutEquipment.Any())
+        {
+            var workoutEquipments = new List<WorkoutEquipment>
+            {
+                // Chest // Dumbells
+                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = workouts[11].Id},
+                new WorkoutEquipment { WorkoutId = workouts[1].Id, EquipmentId = workouts[1].Id},
+                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = workouts[1].Id},
+                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = workouts[12].Id},
+
+                // Back // Dumbells
+
+            };
+            await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);
             await context.SaveChangesAsync();
         }
 
@@ -176,17 +288,6 @@ public static class DbInitializer
                 new WorkoutAgeRange {WorkoutId = workouts[0].Id, Age = Age.Thirty_To_Thirty_Nine },
             };
             await context.WorkoutAgeRanges.AddRangeAsync(workoutAgeRanges);
-            await context.SaveChangesAsync();
-        }
-
-        if (!context.WorkoutEquipment.Any())
-        {
-            var workoutEquipments = new List<WorkoutEquipment>
-            {
-                new WorkoutEquipment {WorkoutId = 1, EquipmentId = 1},
-                new WorkoutEquipment {WorkoutId = 1, EquipmentId = 1},
-            };
-            await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);
             await context.SaveChangesAsync();
         }
 

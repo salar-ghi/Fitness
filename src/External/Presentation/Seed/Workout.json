@@ -1,0 +1,34 @@
+{
+    {
+        "Id": 1,
+        "Name": "Dumbbell Bench Press",
+        "Description": "Targets the chest; can be done flat, incline, or decline.",
+        "Sport": "BodyBuilding",
+        "Instruction": {
+
+        },
+        "Equipments": {
+            {
+                "Name": "Dumbells"
+            },
+            {
+                "Name": "Bench Press"
+            }
+        },
+        "Body": {
+            {
+                "Name": "Chest"
+            }
+        },
+        "AgeRange": {
+            {
+                "Age": "Eighteen_To_TwentyNine"
+            },
+            {
+                "Age": "Thirty_To_Thirty_Nine"
+            }
+        },
+        "Level": {},
+        "Sex":  {}
+    }
+}
