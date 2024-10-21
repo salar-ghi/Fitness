@@ -1,4 +1,15 @@
-﻿namespace Presentation.Seed;
+﻿using Domain.Enums;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Diagnostics.Metrics;
+
+namespace Presentation.Seed;
+
+// Workout Strategies
+// 1- Supersets: Pair floor presses with other exercises like push-ups or overhead presses for increased intensity and muscle fatigue.
+// 2- Drop Sets: After reaching failure with a heavier weight, immediately reduce the weight and continue until failure again.
+// 3- Pyramid Sets: Gradually increase weight with each set until reaching a peak, then decrease back down for added volume.
+// 4- Cluster Sets: Perform multiple mini-sets with short rest periods in between to maximize muscle engagement and strength gains.
+// 5- Countdown Sets: Perform a set number of reps followed by isometric holds (e.g., 5 reps followed by a 5-second hold) to increase endurance and strength.
 
 public static class DbInitializer
 {
@@ -383,61 +394,270 @@ public static class DbInitializer
                 // Index => 80
                 new Workout { Id = 81, Name = "Smith Machine Front Squat", Description ="Emphasizes the quads and core stability.", SportId= sports[0].Id },
                 // Index => 81
-                new Workout { Id = 81, Name = "Smith Machine Romanian Deadlift", Description ="Targets the hamstrings and glutes.", SportId= sports[0].Id },
+                new Workout { Id = 82, Name = "Smith Machine Romanian Deadlift", Description ="Targets the hamstrings and glutes.", SportId= sports[0].Id },
                 // Index => 82
-                new Workout { Id = 81, Name = "Smith Machine Split Squat", Description ="Focuses on one leg at a time for balance and strength.", SportId= sports[0].Id },
+                new Workout { Id = 83, Name = "Smith Machine Split Squat", Description ="Focuses on one leg at a time for balance and strength.", SportId= sports[0].Id },
                 // Index => 83
-                new Workout { Id = 81, Name = "Smith Machine Reverse Lunge", Description ="Works the quads, hamstrings, and glutes.", SportId= sports[0].Id },
+                new Workout { Id = 84, Name = "Smith Machine Reverse Lunge", Description ="Works the quads, hamstrings, and glutes.", SportId= sports[0].Id },
                 // Index => 84
-                new Workout { Id = 81, Name = "Smith Machine Hip Thrust", Description ="Builds strength in the glutes and hamstrings.", SportId= sports[0].Id },
+                new Workout { Id = 85, Name = "Smith Machine Hip Thrust", Description ="Builds strength in the glutes and hamstrings.", SportId= sports[0].Id },
                 // Index => 85
-                new Workout { Id = 81, Name = "Smith Machine Calf Raise", Description ="Isolates the calf muscles.", SportId= sports[0].Id },
+                new Workout { Id = 86, Name = "Smith Machine Calf Raise", Description ="Isolates the calf muscles.", SportId= sports[0].Id },
 
                 // Core
                 // Index => 86
-                new Workout { Id = 81, Name = "Smith Machine Hanging Leg Raise", Description ="Engages the abdominal muscles effectively.", SportId= sports[0].Id },
+                new Workout { Id = 87, Name = "Smith Machine Hanging Leg Raise", Description ="Engages the abdominal muscles effectively.", SportId= sports[0].Id },
                 // Index => 87
-                new Workout { Id = 81, Name = "Smith Machine Plank (with feet on bar)", Description ="A variation that challenges core stability.", SportId= sports[0].Id },
+                new Workout { Id = 88, Name = "Smith Machine Plank (with feet on bar)", Description ="A variation that challenges core stability.", SportId= sports[0].Id },
 
                 // Arms
                 // Index => 88
-                new Workout { Id = 81, Name = "Smith Machine Skull Crushers", Description ="Targets the triceps effectively.", SportId= sports[0].Id },
-                new Workout { Id = 81, Name = "Smith Machine Bicep Curl", Description ="Isolates the biceps for focused development.", SportId= sports[0].Id },
+                new Workout { Id = 89, Name = "Smith Machine Skull Crushers", Description ="Targets the triceps effectively.", SportId= sports[0].Id },
+                // Index => 89
+                new Workout { Id = 90, Name = "Smith Machine Bicep Curl", Description ="Isolates the biceps for focused development.", SportId= sports[0].Id },
 
                 // Additional Exercises
-                // Index => 89
-                new Workout { Id = 81, Name = "Smith Machine Kaz Press", Description ="A unique press that targets both triceps and chest.", SportId= sports[0].Id },
                 // Index => 90
-                new Workout { Id = 81, Name = "Smith Machine Single-Leg Deadlift", Description ="Enhances balance while targeting hamstrings and glutes.", SportId= sports[0].Id },
+                new Workout { Id = 91, Name = "Smith Machine Kaz Press", Description ="A unique press that targets both triceps and chest.", SportId= sports[0].Id },
+                // Index => 91
+                new Workout { Id = 92, Name = "Smith Machine Single-Leg Deadlift", Description ="Enhances balance while targeting hamstrings and glutes.", SportId= sports[0].Id },
+
+                #endregion
+
+                #region Leg Press Machine
+                // Index => 92
+                new Workout {Id = 93, Name = "Standard Leg Press", Description = "A foundational exercise that targets the quadriceps, hamstrings, and glutes.", SportId = sports[0].Id },
+                // Index => 93
+                new Workout {Id = 94, Name = "Wide Stance Leg Press", Description = "Emphasizes the inner thighs and glutes by placing feet wider than shoulder-width apart", SportId = sports[0].Id },
+                // Index => 94
+                new Workout {Id = 95, Name = "Narrow Stance Leg Press", Description = "Focuses on the outer quadriceps with feet placed closer together.", SportId = sports[0].Id },
+                // Index => 95
+                new Workout {Id = 96, Name = "High Foot Placement Leg Press", Description = "Targets the hamstrings and glutes by positioning feet higher on the platform.", SportId = sports[0].Id },                
+                // Index => 96
+                new Workout {Id = 97, Name = "Low Foot Placement Leg Press", Description = "Shifts emphasis to the quadriceps by placing feet lower on the platform.", SportId = sports[0].Id },                
+                // Index => 97
+                new Workout {Id = 98, Name = "Single Leg Press", Description = "Addresses strength imbalances by performing the leg press one leg at a time.", SportId = sports[0].Id },                
+                // Index => 98
+                new Workout {Id = 99, Name = "Calf Press on the Leg Press Machine", Description = "Targets the calf muscles by pressing with just the toes while keeping heels off the platform.", SportId = sports[0].Id },                
+                // Index => 99
+                new Workout {Id = 100, Name = "Single-Leg Calf Raise on Leg Press Machine", Description = "Similar to the calf press but performed one leg at a time for added focus.", SportId = sports[0].Id },                
+                // Index => 100
+                new Workout {Id = 101, Name = "Sumo Leg Press", Description = "A variation where feet are placed wider and turned outwards to target inner thighs more effectively.", SportId = sports[0].Id },                
+                // Index => 101
+                new Workout {Id = 102, Name = "Feet Elevated Leg Press", Description = " Elevating feet on a block or platform increases range of motion and targets glutes and hamstrings more intensely.", SportId = sports[0].Id },
+                #endregion
+
+                #region chest press machine                
+                // Index => 102
+                new Workout {Id = 103, Name = "Machine Chest Press", Description = "This is the standard exercise that targets the pectoral muscles, triceps, and shoulders. It's typically performed for moderate to high reps (8-12) to build muscle mass", SportId = sports[0].Id },
+                // Index => 103
+                new Workout {Id = 104, Name = "Incline Chest Press", Description = "Adjust the machine to an incline position to emphasize the upper chest. This variation helps in developing the upper pectoral muscles more effectively.", SportId = sports[0].Id },
+                // Index => 104
+                new Workout {Id = 105, Name = "Decline Chest Press", Description = "Set the machine to a decline position to target the lower part of the chest. This variation can help in achieving a more balanced chest development", SportId = sports[0].Id },
+                // Index => 105
+                new Workout {Id = 106, Name = "Leverage Chest Press", Description = "Similar to the machine chest press but uses a leverage system, allowing for a different angle and resistance curve, which can enhance muscle engagement", SportId = sports[0].Id },
+                // Index => 106
+                new Workout {Id = 107, Name = "Plate-Loaded Chest Press", Description = "Utilize a plate-loaded version of the chest press machine for increased weight versatility and a different feel during the lift", SportId = sports[0].Id },
+                // Index => 107
+                new Workout {Id = 108, Name = "Cable Chest Press", Description = "Perform seated, standing, or lying cable chest presses for varied resistance and muscle engagement, focusing on stability and control", SportId = sports[0].Id },
+                // Index => 108
+                new Workout {Id = 109, Name = "Drop Sets", Description = "After reaching muscle fatigue at your maximum weight, immediately reduce the weight and continue pressing until failure. This technique enhances muscle endurance and hypertrophy", SportId = sports[0].Id },
+                // Index => 109
+                new Workout {Id = 110, Name = "Partial Reps", Description = "Focus on the strongest part of your range of motion by performing partial reps at the peak contraction of the lift, which can help in building strength at specific points in your lift", SportId = sports[0].Id },
+                // Index => 110
+                new Workout {Id = 111, Name = "High-Rep Finishing Set", Description = "Use the machine for a burnout set at the end of your workout with high repetitions (15-20) to fully exhaust your muscles", SportId = sports[0].Id },
+
+                #endregion
+
+                #region Lat Pulldown Machine
+                // Index => 111
+                new Workout {Id = 112, Name = "Standard Lat Pulldown", Description = "The basic lat pulldown targets the latissimus dorsi, rhomboids, and biceps.", SportId = sports[0].Id },
+                // Index => 112
+                new Workout {Id = 113, Name = "Wide Grip Lat Pulldown", Description = "Emphasizes the outer lats for a broader back.", SportId = sports[0].Id },
+                // Index => 113
+                new Workout {Id = 114, Name = "Close Grip Lat Pulldown", Description = "Focuses more on the inner lats and biceps", SportId = sports[0].Id },
+                // Index => 114
+                new Workout {Id = 115, Name = "Reverse Grip Lat Pulldown", Description = "Targets the middle back and biceps effectively.", SportId = sports[0].Id },
+                // Index => 115
+                new Workout {Id = 116, Name = "Single Arm Lat Pulldown", Description = "Allows for unilateral training, helping to correct muscle imbalances.", SportId = sports[0].Id },
+                // Index => 116
+                new Workout {Id = 117, Name = "Behind-the-Neck Lat Pulldown", Description = "Targets the upper lats and deltoids but should be performed with caution to avoid shoulder strain.", SportId = sports[0].Id },
+                // Index => 117
+                new Workout {Id = 118, Name = "Straight Arm Lat Pulldown", Description = "Isolates the lats without involving the biceps significantly.", SportId = sports[0].Id },
+                // Index => 118
+                new Workout {Id = 119, Name = "Alternating Grip Lat Pulldown", Description = "Combines different grips in one set for varied muscle engagement.", SportId = sports[0].Id },
+                #endregion
+
+                #region Leg Curl Machine
+                // Index => 119
+                new Workout {Id = 120, Name = "Seated Leg Curl", Description = "This is the most common exercise performed on a leg curl machine. It effectively isolates the hamstrings while allowing for a comfortable seated position. Adjust the machine so that the pad rests just above your ankles, and curl your legs down towards your glutes", SportId = sports[0].Id },
+                // Index => 120
+                new Workout {Id = 121, Name = "Lying Leg Curl", Description = "This variation involves lying face down on the machine. The pad should be positioned just above your calves, and you curl your legs upward towards your glutes. This position emphasizes the hamstrings differently than the seated version", SportId = sports[0].Id },
+                // Index => 121
+                new Workout {Id = 122, Name = "Standing Leg Curl", Description = "Some machines allow for a standing position, where you curl one leg at a time while standing. This variation helps improve balance and engages the stabilizing muscles in addition to targeting the hamstrings", SportId = sports[0].Id },
+                // Index => 122
+                new Workout {Id = 123, Name = "Single-Leg Curl", Description = "Perform leg curls one leg at a time to focus on muscle imbalances and enhance isolation of each hamstring individually", SportId = sports[0].Id },
+                // Index => 123
+                new Workout {Id = 124, Name = "Foot Position Variations", Description = "Adjust your foot positioning (toes pointed in, out, or straight) during curls to target different parts of the hamstrings and engage other stabilizing muscles", SportId = sports[0].Id },
+                // Index => 124
+                new Workout {Id = 125, Name = "Eccentric Focus", Description = "Emphasize the eccentric (lowering) phase of the curl by lowering the weight slowly after reaching the peak contraction, which can help increase muscle hypertrophy.", SportId = sports[0].Id },
+                // Index => 125
+                new Workout {Id = 126, Name = "Leg Curl Drop Sets", Description = "After reaching failure at a heavier weight, immediately reduce the weight and continue performing curls until failure again to maximize muscle fatigue.", SportId = sports[0].Id },
+                // Index => 126
+                new Workout {Id = 127, Name = "Supersets with Other Exercises", Description = "Combine leg curls with other lower body exercises (like squats or deadlifts) for a comprehensive leg workout that targets multiple muscle groups.", SportId = sports[0].Id },
+                #endregion
+
+                #region Leg Extension Machine
+                // Index => 127
+                new Workout {Id = 128, Name = "Standard Leg Extension", Description = "Sit on the machine with your back against the pad. Adjust the pad so it rests on your lower legs, just above your ankles. Extend your legs until they are straight, then lower back down", SportId = sports[0].Id },
+                // Index => 128
+                new Workout {Id = 129, Name = "Single-Leg Extension", Description = "Use the same machine but perform the exercise one leg at a time. This helps address muscle imbalances and allows for greater focus on each quadricep.", SportId = sports[0].Id },
+                // Index => 129
+                new Workout {Id = 130, Name = "One-Legged Machine Extension", Description = "If available, use a unilateral leg extension machine that allows each leg to work independently, providing an additional challenge and variety.", SportId = sports[0].Id },
+                // Index => 130
+                new Workout {Id = 131, Name = "Foot Position Variations", Description = "Experiment with different foot positions (toes pointed in, out, or straight) during the extension to target various parts of the quadriceps.", SportId = sports[0].Id },
+                // Index => 131
+                new Workout {Id = 132, Name = "Eccentric Focus", Description = "Emphasize the eccentric phase by lowering the weight slowly after reaching full extension. This technique can enhance muscle hypertrophy.", SportId = sports[0].Id },
+                // Index => 132
+                new Workout {Id = 133, Name = "Drop Sets", Description = "Perform a set to failure at a heavier weight, then immediately reduce the weight and continue until failure again to maximize muscle fatigue.", SportId = sports[0].Id },
+                // Index => 133
+                new Workout {Id = 134, Name = "Supersets with Other Exercises", Description = "Combine leg extensions with other leg exercises (like squats or lunges) for a comprehensive workout that targets multiple muscle groups.", SportId = sports[0].Id },
+                // Index => 134
+                new Workout {Id = 135, Name = "Controlled Tempo", Description = "Focus on maintaining a slow and controlled tempo throughout both the lifting and lowering phases to maximize muscle engagement.", SportId = sports[0].Id },
+                #endregion
+
+                #region Cable Machine
+                // Upper Body Workouts
+                // Index => 135
+                new Workout { Id = 136, Name = "Cable Lat Pulldown", Description = "Targets the lats and upper back.", SportId = sports[0].Id },
+                // Index => 136
+                new Workout { Id = 137, Name = "Seated Cable Row", Description = "Focuses on the middle back and biceps.", SportId = sports[0].Id },
+                // Index => 137
+                new Workout { Id = 138, Name = "Cable Chest Flye", Description = "Great for isolating the pectoral muscles.", SportId = sports[0].Id },
+                // Index => 138
+                new Workout { Id = 139, Name = "Cable Crossover", Description = "Engages the chest from different angles.", SportId = sports[0].Id },
+                // Index => 139
+                new Workout { Id = 140, Name = "Cable Bicep Curl", Description = "Isolates the biceps for muscle growth.", SportId = sports[0].Id },
+                // Index => 140
+                new Workout { Id = 141, Name = "Cable Tricep Pushdown", Description = "Targets the triceps effectively.", SportId = sports[0].Id },
+                // Index => 141
+                new Workout { Id = 142, Name = "Face Pull", Description = "Strengthens the rear deltoids and rotator cuff muscles.", SportId = sports[0].Id },
+                // Index => 142
+                new Workout { Id = 143, Name = "Cable Lateral Raise", Description = "Works the deltoids, particularly the side delts.", SportId = sports[0].Id },
+                // Index => 143
+                new Workout { Id = 144, Name = "Cable Upright Row", Description = "Targets the shoulders and traps.", SportId = sports[0].Id },
+                // Index => 144
+                new Workout { Id = 145, Name = "Straight Arm Pulldown", Description = "Focuses on the lats and core stability.", SportId = sports[0].Id },
+
+                // Core Workouts
+                // Index => 145
+                new Workout { Id = 146, Name = "Cable Crunch", Description = "Engages the abdominal muscles with constant tension.", SportId = sports[0].Id },
+                // Index => 146
+                new Workout { Id = 147, Name = "Kneeling Cable Crunch", Description = "A variation that targets the core from a kneeling position.", SportId = sports[0].Id },
+                // Index => 147
+                new Workout { Id = 148, Name = "Cable Wood Chop", Description = "Strengthens the obliques and improves rotational power.", SportId = sports[0].Id },
+                // Index => 148
+                new Workout { Id = 149, Name = "Cable Pallof Press", Description = "Enhances core stability and anti-rotation strength.", SportId = sports[0].Id },
+                // Index => 149
+                new Workout { Id = 150, Name = "Single-Arm Cable Side Bend", Description = "Targets the obliques while improving lateral strength.", SportId = sports[0].Id },
+
+                // Lower Body Workouts
+                // Index => 150
+                new Workout { Id = 151, Name = "Cable Kickback", Description = "Isolates the glutes effectively.", SportId = sports[0].Id },
+                // Index => 151
+                new Workout { Id = 152, Name = "Single-Leg Cable Hip Extension", Description = "Focuses on glute activation and stability.", SportId = sports[0].Id },
+                // Index => 152
+                new Workout { Id = 153, Name = "Cable Pull-Through", Description = "Engages the hamstrings and glutes with minimal spinal load.", SportId = sports[0].Id },
+                // Index => 153
+                new Workout { Id = 154, Name = "Cable Squats", Description = "Adds resistance to traditional squats for extra challenge.", SportId = sports[0].Id },
+                // Index => 154
+                new Workout { Id = 155, Name = "Low-Cable Cross-Over (for legs)", Description = "Targets inner thighs when performed correctly.", SportId = sports[0].Id },
+                // Index => 155
+                new Workout { Id = 156, Name = "Incline Cable Chest Fly", Description = "Targets the upper portion of the chest.", SportId = sports[0].Id },
+                // Index => 156
+                new Workout { Id = 157, Name = "Overhead Cable Tricep Extension", Description = "Focuses on tricep development from an overhead position.", SportId = sports[0].Id },
+                // Index => 157
+                new Workout { Id = 158, Name = "Reverse Grip Triceps Pushdown", Description = "A variation that emphasizes different parts of the triceps.", SportId = sports[0].Id },
+                // Index => 158
+                new Workout { Id = 159, Name = "Standing Cable Low-to-High Twist", Description = "Engages both core and shoulder muscles through rotation.", SportId = sports[0].Id },
+                // Index => 159
+                new Workout { Id = 160, Name = "Rope Hammer Curl", Description = "Works both biceps and forearms effectively.", SportId = sports[0].Id },
                 
                 #endregion
 
-                
+                #region Bench Press
+                // Primary Bench Press Variations
+                // Index => 160
+                new Workout { Id = 161, Name = "Flat Barbell Bench Press", Description = "The classic exercise for building overall chest strength and mass.", SportId = sports[0].Id },
+                // Index => 161
+                new Workout { Id = 162, Name = "Incline Barbell Bench Press", Description = "Performed on an incline bench (typically set at 30-45 degrees), this variation emphasizes the upper chest and shoulders.", SportId = sports[0].Id },
+                // Index => 162
+                new Workout { Id = 163, Name = "Decline Barbell Bench Press", Description = "Involves a decline bench position, targeting the lower part of the pectorals.", SportId = sports[0].Id },
+                // Index => 163
+                new Workout { Id = 164, Name = "Dumbbell Bench Press", Description = "Can be performed flat, incline, or decline; allows for a greater range of motion and engages stabilizing muscles.", SportId = sports[0].Id },
+                // Index => 164
+                new Workout { Id = 165, Name = "Close-Grip Bench Press", Description = "A narrower grip that shifts focus to the triceps while still engaging the chest.", SportId = sports[0].Id },
+                // Index => 165
+                new Workout { Id = 166, Name = "Wide-Grip Bench Press", Description = "A wider grip that targets the outer pectoral muscles more intensely.", SportId = sports[0].Id },
+                // Index => 166
+                new Workout { Id = 167, Name = "Tempo Bench Press", Description = "Involves controlling the speed of the lift (e.g., slow lowering phase) to increase time under tension.", SportId = sports[0].Id },
+                // Index => 167
+                new Workout { Id = 168, Name = "Spoto Press", Description = "Pauses just above the chest to enhance control and stability before pressing back up.", SportId = sports[0].Id },
+                // Index => 168
+                new Workout { Id = 169, Name = "Floor Press", Description = "Performed lying on the floor, this variation limits the range of motion and emphasizes triceps strength.", SportId = sports[0].Id },
+                // Index => 169
+                new Workout { Id = 170, Name = "Swiss Bar Bench Press", Description = "Utilizes a Swiss bar for a neutral grip, reducing shoulder strain while still effectively targeting the chest and triceps.", SportId = sports[0].Id },
 
-                #region Other
+                // Primary Bench Press Variations
+                // Index => 170
+                new Workout { Id = 171, Name = "Pause Bench Press", Description = "A standard press with a pause at the bottom position, enhancing strength off the chest.", SportId = sports[0].Id },                
+                // Index => 171
+                new Workout { Id = 172, Name = "Pin Press", Description = "Performed by setting pins in a power rack at a specific height, focusing on pressing from a dead stop.", SportId = sports[0].Id },
+                // Index => 172
+                new Workout { Id = 173, Name = "Board Press", Description = "Involves pressing with a board placed on the chest to limit range of motion, emphasizing lockout strength.", SportId = sports[0].Id },
+                // Index => 173
+                new Workout { Id = 174, Name = "Reverse Grip Bench Press", Description = "A unique grip that shifts emphasis to the upper chest and triceps while providing shoulder stability.", SportId = sports[0].Id },
+                // Index => 174
+                new Workout { Id = 175, Name = "Single-Arm Dumbbell Bench Press", Description = "Engages core stability while isolating each side of the chest independently.", SportId = sports[0].Id },
+                #endregion
 
+                #region Floor Press
+                // Primary Floor Press Variations
+                // Index => 175
+                new Workout { Id = 176, Name = "Barbell Floor Press", Description ="The standard version that targets the chest, shoulders, and triceps with minimal shoulder strain.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Dumbbell Floor Press", Description ="Allows for a greater range of motion and engages stabilizing muscles. Can be performed with a neutral grip for shoulder comfort.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Kettlebell Floor Press", Description ="Similar to the dumbbell variation but adds unique stabilization challenges due to the kettlebell's shape.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Single-Arm Dumbbell Floor Press", Description ="Focuses on one side at a time, addressing muscle imbalances and enhancing core stability.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Single-Arm Kettlebell Floor Press", Description ="Involves pressing a kettlebell with one arm while maintaining core stability, increasing the challenge.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Swiss Bar Floor Press", Description ="Utilizes a Swiss bar for a neutral grip, which can reduce shoulder strain while still effectively targeting the upper body.", SportId= sports[0].Id },
 
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "", Description =".", SportId= sports[0].Id },
+                // Primary Floor Press Variations
+                // Index => 175
+                new Workout { Id = 3, Name = "Paused Floor Press", Description ="Involves pausing at the bottom of the movement before pressing up, which increases time under tension for hypertrophy.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Resisted Floor Press", Description ="Incorporates bands or chains to increase resistance as you press, enhancing strength development throughout the movement.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Close-Grip Floor Press", Description ="A variation that emphasizes triceps engagement while still targeting the chest.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Floor Press with Chains or Bands", Description ="Adding chains or bands increases resistance as you press, challenging your muscles differently.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Eccentric Floor Press", Description ="Focuses on slowly lowering the weight to build strength in the eccentric phase of the lift.", SportId= sports[0].Id },
+                #endregion
+
+                #region Treadmill
+                // Index => 
+                new Workout { Id = 3, Name = "Steady-State Jogging", Description ="A basic workout where you jog at a consistent pace for a set duration (e.g., 20-30 minutes) to improve cardiovascular endurance.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Sprint Intervals", Description ="Alternate between high-intensity sprints and rest periods.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Incline Walking or Running", Description ="Set the treadmill to an incline (e.g., 5-15%) and walk or run to increase intensity and engage the legs more effectively.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Fartlek Training", Description ="A mix of different speeds during your run.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Hill Sprints", Description ="Set the incline to a steep level (e.g., 10-15%) and perform short sprints (10-30 seconds) followed by recovery periods (1-2 minutes).", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "12-3-30 Workout", Description ="Set the treadmill to a 12% incline, a speed of 3 mph, and walk for 30 minutes. This low-impact workout is effective for building endurance.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Bodyweight HIIT", Description ="Incorporate bodyweight exercises between running intervals.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Treadmill Circuit Training", Description ="Combine treadmill running with strength exercises.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Tempo Runs", Description ="Gradually increase your pace to a challenging but sustainable speed, maintaining it for a set duration before cooling down.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Recovery Walks", Description ="After intense workouts, use the treadmill for light walking to aid recovery and keep your muscles active.", SportId= sports[0].Id },
+
+                // Advanced Techniques
+                // Index => 
+                new Workout { Id = 3, Name = "Pyramid Intervals", Description ="Gradually increase sprint durations (e.g., from 20 seconds up to 1 minute) followed by equal rest periods, then decrease back down.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Progressive Runs", Description ="Start at a slow pace and gradually increase speed every few minutes until reaching your maximum effort.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Mixed Speed Workouts", Description ="Alternate between different speeds every few minutes (e.g., fast run, moderate jog, brisk walk) to enhance endurance and speed.", SportId= sports[0].Id },
                 #endregion
 
 
