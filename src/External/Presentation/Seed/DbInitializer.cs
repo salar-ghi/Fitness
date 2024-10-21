@@ -267,7 +267,7 @@ public static class DbInitializer
 
                 // Arms
                 //Index => 34
-                new Workout { Id = 35, Name = "Barbell Bicep Cur", Description ="A staple for building bicep mass.", SportId= sports[0].Id },
+                new Workout { Id = 35, Name = "Barbell Bicep Curl", Description ="A staple for building bicep mass.", SportId= sports[0].Id },
                 //Index => 35
                 new Workout { Id = 36, Name = "Close-Grip Barbell Bench Press", Description ="Primarily targets the triceps while also engaging the chest.", SportId= sports[0].Id },
                 //Index => 36
@@ -655,11 +655,35 @@ public static class DbInitializer
 
                 // Advanced Techniques
                 // Index => 
-                new Workout { Id = 3, Name = "Pyramid Intervals", Description ="Gradually increase sprint durations (e.g., from 20 seconds up to 1 minute) followed by equal rest periods, then decrease back down.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Pyramid Intervals", Description ="Gradually increase sprint durations (e.g., from 20 seconds up to 1 minute) followed by equal rest periods, then decrease back down.", SportId = sports[0].Id },
                 new Workout { Id = 3, Name = "Progressive Runs", Description ="Start at a slow pace and gradually increase speed every few minutes until reaching your maximum effort.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Mixed Speed Workouts", Description ="Alternate between different speeds every few minutes (e.g., fast run, moderate jog, brisk walk) to enhance endurance and speed.", SportId= sports[0].Id },
+                new Workout { Id = 3, Name = "Mixed Speed Workouts", Description ="Alternate between different speeds every few minutes (e.g., fast run, moderate jog, brisk walk) to enhance endurance and speed.", SportId = sports[0].Id },
                 #endregion
 
+                #region Rowing Machine
+                // 
+                // Index => 
+                new Workout { Id= 150, Name = "Interval Training", Description= "High-intensity intervals to improve endurance and burn fat", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "Row and Core Workout", Description= "Combines rowing with core strengthening", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "Renegade & Row EMOM", Description= "Targets back and core while incorporating rowing for cardio", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "Pump and Row Pyramid", Description= "Full-body workout with emphasis on endurance and strength", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "Burpee Blast Challenge", Description= "Combines cardio with explosive strength movements", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "The Ultimate Rowing Workout", Description= "Builds lean muscle while enhancing cardiovascular fitness", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "Endurance Rows", Description= "Improves overall cardiovascular health while toning muscles", SportId = sports[0].Id  },
+                #endregion
+
+                #region MyRegion
+                //
+                // Index => 
+                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
+                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
+
+                #endregion
 
             };
             await context.Workouts.AddRangeAsync(workouts);
