@@ -625,63 +625,212 @@ public static class DbInitializer
                 // Primary Floor Press Variations
                 // Index => 175
                 new Workout { Id = 176, Name = "Barbell Floor Press", Description ="The standard version that targets the chest, shoulders, and triceps with minimal shoulder strain.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Dumbbell Floor Press", Description ="Allows for a greater range of motion and engages stabilizing muscles. Can be performed with a neutral grip for shoulder comfort.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Kettlebell Floor Press", Description ="Similar to the dumbbell variation but adds unique stabilization challenges due to the kettlebell's shape.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Single-Arm Dumbbell Floor Press", Description ="Focuses on one side at a time, addressing muscle imbalances and enhancing core stability.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Single-Arm Kettlebell Floor Press", Description ="Involves pressing a kettlebell with one arm while maintaining core stability, increasing the challenge.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Swiss Bar Floor Press", Description ="Utilizes a Swiss bar for a neutral grip, which can reduce shoulder strain while still effectively targeting the upper body.", SportId= sports[0].Id },
+                // Index => 176
+                new Workout { Id = 177, Name = "Dumbbell Floor Press", Description ="Allows for a greater range of motion and engages stabilizing muscles. Can be performed with a neutral grip for shoulder comfort.", SportId= sports[0].Id },
+                // Index => 177
+                new Workout { Id = 178, Name = "Kettlebell Floor Press", Description ="Similar to the dumbbell variation but adds unique stabilization challenges due to the kettlebell's shape.", SportId= sports[0].Id },
+                // Index => 178
+                new Workout { Id = 179, Name = "Single-Arm Dumbbell Floor Press", Description ="Focuses on one side at a time, addressing muscle imbalances and enhancing core stability.", SportId= sports[0].Id },
+                // Index => 179
+                new Workout { Id = 180, Name = "Single-Arm Kettlebell Floor Press", Description ="Involves pressing a kettlebell with one arm while maintaining core stability, increasing the challenge.", SportId= sports[0].Id },
+                // Index => 180
+                new Workout { Id = 181, Name = "Swiss Bar Floor Press", Description ="Utilizes a Swiss bar for a neutral grip, which can reduce shoulder strain while still effectively targeting the upper body.", SportId= sports[0].Id },
 
                 // Primary Floor Press Variations
-                // Index => 175
-                new Workout { Id = 3, Name = "Paused Floor Press", Description ="Involves pausing at the bottom of the movement before pressing up, which increases time under tension for hypertrophy.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Resisted Floor Press", Description ="Incorporates bands or chains to increase resistance as you press, enhancing strength development throughout the movement.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Close-Grip Floor Press", Description ="A variation that emphasizes triceps engagement while still targeting the chest.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Floor Press with Chains or Bands", Description ="Adding chains or bands increases resistance as you press, challenging your muscles differently.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Eccentric Floor Press", Description ="Focuses on slowly lowering the weight to build strength in the eccentric phase of the lift.", SportId= sports[0].Id },
+                // Index => 181
+                new Workout { Id = 182, Name = "Paused Floor Press", Description ="Involves pausing at the bottom of the movement before pressing up, which increases time under tension for hypertrophy.", SportId= sports[0].Id },
+                // Index => 182
+                new Workout { Id = 183, Name = "Resisted Floor Press", Description ="Incorporates bands or chains to increase resistance as you press, enhancing strength development throughout the movement.", SportId= sports[0].Id },
+                // Index => 183
+                new Workout { Id = 184, Name = "Close-Grip Floor Press", Description ="A variation that emphasizes triceps engagement while still targeting the chest.", SportId= sports[0].Id },
+                // Index => 184
+                new Workout { Id = 185, Name = "Floor Press with Chains or Bands", Description ="Adding chains or bands increases resistance as you press, challenging your muscles differently.", SportId= sports[0].Id },
+                // Index => 185
+                new Workout { Id = 186, Name = "Eccentric Floor Press", Description ="Focuses on slowly lowering the weight to build strength in the eccentric phase of the lift.", SportId= sports[0].Id },
                 #endregion
 
                 #region Treadmill
-                // Index => 
-                new Workout { Id = 3, Name = "Steady-State Jogging", Description ="A basic workout where you jog at a consistent pace for a set duration (e.g., 20-30 minutes) to improve cardiovascular endurance.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Sprint Intervals", Description ="Alternate between high-intensity sprints and rest periods.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Incline Walking or Running", Description ="Set the treadmill to an incline (e.g., 5-15%) and walk or run to increase intensity and engage the legs more effectively.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Fartlek Training", Description ="A mix of different speeds during your run.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Hill Sprints", Description ="Set the incline to a steep level (e.g., 10-15%) and perform short sprints (10-30 seconds) followed by recovery periods (1-2 minutes).", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "12-3-30 Workout", Description ="Set the treadmill to a 12% incline, a speed of 3 mph, and walk for 30 minutes. This low-impact workout is effective for building endurance.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Bodyweight HIIT", Description ="Incorporate bodyweight exercises between running intervals.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Treadmill Circuit Training", Description ="Combine treadmill running with strength exercises.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Tempo Runs", Description ="Gradually increase your pace to a challenging but sustainable speed, maintaining it for a set duration before cooling down.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Recovery Walks", Description ="After intense workouts, use the treadmill for light walking to aid recovery and keep your muscles active.", SportId= sports[0].Id },
+                // Index => 186
+                new Workout { Id = 187, Name = "Steady-State Jogging", Description ="A basic workout where you jog at a consistent pace for a set duration (e.g., 20-30 minutes) to improve cardiovascular endurance.", SportId= sports[0].Id },
+                // Index => 187
+                new Workout { Id = 188, Name = "Sprint Intervals", Description ="Alternate between high-intensity sprints and rest periods.", SportId= sports[0].Id },
+                // Index => 188
+                new Workout { Id = 189, Name = "Incline Walking or Running", Description ="Set the treadmill to an incline (e.g., 5-15%) and walk or run to increase intensity and engage the legs more effectively.", SportId= sports[0].Id },
+                // Index => 189
+                new Workout { Id = 190, Name = "Fartlek Training", Description ="A mix of different speeds during your run.", SportId= sports[0].Id },
+                // Index => 190
+                new Workout { Id = 191, Name = "Hill Sprints", Description ="Set the incline to a steep level (e.g., 10-15%) and perform short sprints (10-30 seconds) followed by recovery periods (1-2 minutes).", SportId= sports[0].Id },
+                // Index => 191
+                new Workout { Id = 192, Name = "12-3-30 Workout", Description ="Set the treadmill to a 12% incline, a speed of 3 mph, and walk for 30 minutes. This low-impact workout is effective for building endurance.", SportId= sports[0].Id },
+                // Index => 192
+                new Workout { Id = 193, Name = "Bodyweight HIIT", Description ="Incorporate bodyweight exercises between running intervals.", SportId= sports[0].Id },
+                // Index => 193
+                new Workout { Id = 194, Name = "Treadmill Circuit Training", Description ="Combine treadmill running with strength exercises.", SportId= sports[0].Id },
+                // Index => 194
+                new Workout { Id = 195, Name = "Tempo Runs", Description ="Gradually increase your pace to a challenging but sustainable speed, maintaining it for a set duration before cooling down.", SportId= sports[0].Id },
+                // Index => 195
+                new Workout { Id = 196, Name = "Recovery Walks", Description ="After intense workouts, use the treadmill for light walking to aid recovery and keep your muscles active.", SportId= sports[0].Id },
 
                 // Advanced Techniques
-                // Index => 
-                new Workout { Id = 3, Name = "Pyramid Intervals", Description ="Gradually increase sprint durations (e.g., from 20 seconds up to 1 minute) followed by equal rest periods, then decrease back down.", SportId = sports[0].Id },
-                new Workout { Id = 3, Name = "Progressive Runs", Description ="Start at a slow pace and gradually increase speed every few minutes until reaching your maximum effort.", SportId= sports[0].Id },
-                new Workout { Id = 3, Name = "Mixed Speed Workouts", Description ="Alternate between different speeds every few minutes (e.g., fast run, moderate jog, brisk walk) to enhance endurance and speed.", SportId = sports[0].Id },
+                // Index => 196
+                new Workout { Id = 197, Name = "Pyramid Intervals", Description ="Gradually increase sprint durations (e.g., from 20 seconds up to 1 minute) followed by equal rest periods, then decrease back down.", SportId = sports[0].Id },
+                // Index => 197
+                new Workout { Id = 198, Name = "Progressive Runs", Description ="Start at a slow pace and gradually increase speed every few minutes until reaching your maximum effort.", SportId= sports[0].Id },
+                // Index => 198
+                new Workout { Id = 199, Name = "Mixed Speed Workouts", Description ="Alternate between different speeds every few minutes (e.g., fast run, moderate jog, brisk walk) to enhance endurance and speed.", SportId = sports[0].Id },
                 #endregion
 
                 #region Rowing Machine
-                // 
-                // Index => 
-                new Workout { Id= 150, Name = "Interval Training", Description= "High-intensity intervals to improve endurance and burn fat", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "Row and Core Workout", Description= "Combines rowing with core strengthening", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "Renegade & Row EMOM", Description= "Targets back and core while incorporating rowing for cardio", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "Pump and Row Pyramid", Description= "Full-body workout with emphasis on endurance and strength", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "Burpee Blast Challenge", Description= "Combines cardio with explosive strength movements", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "The Ultimate Rowing Workout", Description= "Builds lean muscle while enhancing cardiovascular fitness", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "Endurance Rows", Description= "Improves overall cardiovascular health while toning muscles", SportId = sports[0].Id  },
+                // Index => 199
+                new Workout { Id= 200, Name = "Interval Training", Description= "High-intensity intervals to improve endurance and burn fat", SportId = sports[0].Id  },
+                // Index => 200
+                new Workout { Id= 201, Name = "Row and Core Workout", Description= "Combines rowing with core strengthening", SportId = sports[0].Id  },
+                // Index => 201
+                new Workout { Id= 202, Name = "Renegade & Row EMOM", Description= "Targets back and core while incorporating rowing for cardio", SportId = sports[0].Id  },
+                // Index => 202
+                new Workout { Id= 203, Name = "Pump and Row Pyramid", Description= "Full-body workout with emphasis on endurance and strength", SportId = sports[0].Id  },
+                // Index => 203
+                new Workout { Id= 204, Name = "Burpee Blast Challenge", Description= "Combines cardio with explosive strength movements", SportId = sports[0].Id  },
+                // Index => 204
+                new Workout { Id= 205, Name = "The Ultimate Rowing Workout", Description= "Builds lean muscle while enhancing cardiovascular fitness", SportId = sports[0].Id  },
+                // Index => 205
+                new Workout { Id= 206, Name = "Endurance Rows", Description= "Improves overall cardiovascular health while toning muscles", SportId = sports[0].Id  },
                 #endregion
 
-                #region MyRegion
+
+                #region stationary Bike
+                // Index => 206
+                new Workout { Id= 207, Name = "Steady-State Cycling", Description= "Maintain a consistent pace at a moderate resistance for 20-60 minutes to improve cardiovascular endurance.", SportId = sports[0].Id  },
+                // Index => 207
+                new Workout { Id= 208, Name = "High-Intensity Interval Training (HIIT)", Description= "Alternate between high-intensity sprints and recovery periods. For example:\r\n30 seconds of maximum effort followed by 30 seconds of easy pedaling, repeated for 15-20 minutes.", SportId = sports[0].Id  },
+                // Index => 208
+                new Workout { Id= 209, Name = "Tabata Training", Description= "Perform 20 seconds of all-out cycling followed by 10 seconds of rest, repeated for 4 minutes (8 rounds). This is an intense workout that boosts anaerobic capacity.", SportId = sports[0].Id  },
+                // Index => 209
+                new Workout { Id= 210, Name = "Pyramid Intervals", Description= "Gradually increase the duration of sprints (e.g., 20 seconds, 40 seconds, 60 seconds) followed by equal rest periods, then decrease back down.", SportId = sports[0].Id  },
+                // Index => 210
+                new Workout { Id= 211, Name = "Hill Climb Simulation", Description= "Increase the resistance to simulate hill climbing. Cycle at a challenging resistance for a set time (e.g., 3-5 minutes), followed by recovery periods.", SportId = sports[0].Id  },
+                // Index => 211
+                new Workout { Id= 212, Name = "Fartlek Training", Description= "Incorporate varying speeds throughout your ride. For example:\r\nJog for 5 minutes, sprint for 1 minute, then recover with light cycling for 2 minutes, repeating the cycle.", SportId = sports[0].Id  },
+                // Index => 212
+                new Workout { Id= 213, Name = "Sprinting Intervals", Description= "Sprint at high intensity for short bursts (e.g., 20-40 seconds) followed by longer recovery periods (e.g., 1-2 minutes). Repeat several times.", SportId = sports[0].Id  },                
+                // Index => 213
+                new Workout { Id = 214, Name = "Resistance Pyramid", Description = "Start with low resistance and gradually increase every few minutes until reaching maximum effort, then decrease back down.", SportId = sports[0].Id },
+                // Index => 214
+                new Workout { Id = 215, Name = "Mixed Cardio Circuit", Description = "Combine stationary bike workouts with bodyweight exercises (like push-ups or squats) in between cycling intervals to enhance muscle engagement.", SportId = sports[0].Id },
+                // Index => 215
+                new Workout { Id = 216, Name = "Recovery Ride", Description = "Use the bike for low-intensity cycling after heavy lifting sessions to promote recovery without putting too much strain on the muscles.", SportId = sports[0].Id },
+                // Index => 216
+                new Workout { Id = 217, Name = "Sprint-Focused Workout", Description = "Warm up for 5 minutes, then alternate between 30 seconds of sprinting and 1 minute of easy cycling for a total of about 15-20 minutes.", SportId = sports[0].Id },
+                // Index => 217
+                new Workout { Id = 218, Name = "Endurance Challenge", Description = "Aim for longer durations at a steady pace (45-60 minutes) to build aerobic capacity and endurance.Aim for longer durations at a steady pace (45-60 minutes) to build aerobic capacity and endurance.", SportId = sports[0].Id },
+                // Index => 218
+                new Workout { Id = 219, Name = "LISS (Low-Intensity Steady State) Cardio", Description = "Maintain a low intensity over a longer duration (e.g., 30-60 minutes) to promote fat burning while minimizing fatigue.", SportId = sports[0].Id },
+                // Index => 219
+                new Workout { Id = 220, Name = "Cooldown Sessions", Description = "After intense workouts, spend 5-10 minutes cycling at a very light pace to help with muscle recovery and prevent stiffness.", SportId = sports[0].Id },
+
+                #endregion
+
+
+                #region Stair Climber
+                // Index => 220
+                new Workout { Id = 221, Name = "Steady-State Climbing", Description = "Maintain a consistent pace for 20-30 minutes at a moderate intensity to improve cardiovascular endurance and burn calories.", SportId = sports[0].Id },
+                // Index => 221
+                new Workout { Id= 222, Name = "Interval Training", Description= "Alternate between high-intensity climbing and recovery periods. For example:\r\n1 minute of fast climbing followed by 1-2 minutes of slower climbing. Repeat for 20-30 minutes.", SportId = sports[0].Id  },
+                // Index => 222
+                new Workout { Id= 223, Name = "Hill Climb Simulation", Description= "Increase the resistance or speed to simulate climbing a steep hill for a set duration (e.g., 5 minutes), followed by a recovery period.", SportId = sports[0].Id  },
+                // Index => 223
+                new Workout { Id= 224, Name = "Pyramid Intervals", Description= "Gradually increase the intensity for a set number of minutes (e.g., 1 minute, 2 minutes, 3 minutes) and then decrease back down.", SportId = sports[0].Id },
+                // Index => 224
+                new Workout { Id= 225, Name = "Tabata Training", Description= "Perform 20 seconds of maximum effort followed by 10 seconds of rest, repeated for 4 minutes (8 rounds). This is an intense workout that boosts anaerobic capacity.", SportId = sports[0].Id  },
+                // Index => 225
+                new Workout { Id= 226, Name = "Fartlek Training", Description= "Incorporate varying speeds throughout your climb. For example:\r\nClimb at a moderate pace for 5 minutes, then sprint for 1 minute, followed by easy climbing for 2 minutes. Repeat.", SportId = sports[0].Id  },
+                // Index => 226
+                new Workout { Id= 227, Name = "25-7-2 Workout", Description= "Set the stair climber to an intensity level of 7 and climb for 25 minutes without holding onto the handrails to engage your core more effectively.", SportId = sports[0].Id  },
+                // Index => 227
+                new Workout { Id= 228, Name = "Circuit Training", Description= "Combine stair climbing with bodyweight exercises (like push-ups or squats) in between climbing intervals to enhance muscle engagement.", SportId = sports[0].Id  },
+                // Index => 228
+                new Workout { Id= 229, Name = "Endurance Challenge", Description= "Aim for longer durations at a steady pace (e.g., 30-60 minutes) to build aerobic capacity and endurance.", SportId = sports[0].Id  },
+                // Index => 229
+                new Workout { Id= 230, Name = "Cooldown Sessions", Description= "After intense workouts, spend 5-10 minutes on the stair climber at a very light pace to help with muscle recovery and prevent stiffness.", SportId = sports[0].Id  },
+                // Index => 230
+                new Workout { Id= 231, Name = "Resistance Training", Description= "Increase the resistance setting on the stair climber to challenge your muscles more and build strength in your legs and glutes.", SportId = sports[0].Id  },
+                // Index => 231
+                new Workout { Id= 232, Name = "Single-Leg Climbing", Description= "Alternate between using one leg at a time to target each leg individually, which can help improve balance and address muscle imbalances.", SportId = sports[0].Id  },
+                // Index => 232
+                new Workout { Id= 233, Name = "Backward Climbing", Description= "If your machine allows it, try climbing backward for short intervals to engage different muscle groups and improve coordination.", SportId = sports[0].Id  },
+                // Index => 233
+                new Workout { Id= 234, Name = "Sprints on the Stair Climber", Description= "Perform short bursts of maximum effort climbing (e.g., 20-30 seconds) followed by longer recovery periods (e.g., 1-2 minutes).", SportId = sports[0].Id  },
+                #endregion
+
+                #region Power Rack
+                // Index => 234
+                new Workout { Id = 235, Name="Barbell Squat", Description="A foundational exercise for building leg strength and mass. Can be performed as back squats or front squats.", SportId = sports[0].Id },
+                // Index => 235
+                new Workout { Id = 236, Name="Rack Pulls", Description="A partial deadlift that starts with the barbell positioned at knee height, focusing on the upper portion of the deadlift movement.", SportId = sports[0].Id },
+                // Index => 236
+                new Workout { Id = 237, Name="Barbell Bench Press", Description="Performed inside the rack for safety, this exercise targets the chest, shoulders, and triceps.", SportId = sports[0].Id },
+                // Index => 237
+                new Workout { Id = 238, Name="Overhead Press", Description="Standing or seated, this movement targets the shoulders and triceps while engaging the core for stability.", SportId = sports[0].Id },
+                // Index => 238
+                new Workout { Id = 239, Name="Deadlifts", Description="Can be performed with the barbell set at different heights to focus on various parts of the lift (e.g., conventional deadlifts or sumo deadlifts).", SportId = sports[0].Id },                
+                // Index => 239
+                new Workout { Id = 240, Name="Pull-Ups/Chin-Ups", Description="Utilize the pull-up bar attached to the power rack for bodyweight exercises targeting the back and biceps.", SportId = sports[0].Id },
+                // Index => 240
+                new Workout { Id = 241, Name="Barbell Lunges", Description="Perform lunges with the barbell resting on your back to enhance leg strength and stability.", SportId = sports[0].Id },
+                // Index => 241
+                new Workout { Id = 242, Name="Incline Bench Press", Description="Adjust a bench inside the rack to perform incline presses, targeting the upper chest.", SportId = sports[0].Id },
+
+                // Isolation Exercises
+                // Index => 242
+                new Workout { Id = 243, Name="Barbell Curl", Description="Use the power rack to perform curls with a barbell for focused bicep training.", SportId = sports[0].Id },
+                // Index => 243
+                new Workout { Id = 244, Name="Tricep Dips", Description="If your rack has dip bars, perform dips to target the triceps and chest.", SportId = sports[0].Id },
+                // Index => 244
+                new Workout { Id = 245, Name="Leg Extensions (using attachments)", Description="If your power rack has attachments, you can perform leg extensions for isolated quadricep work.", SportId = sports[0].Id },
+                // Index => 245
+                new Workout { Id = 246, Name="Leg Curls (using attachments)", Description="Similar to leg extensions, if equipped, this can target the hamstrings effectively.", SportId = sports[0].Id },
+
+                // Advanced Techniques
+                // Index => 246
+                new Workout { Id = 247, Name="Paused Squats", Description="Pause at the bottom of your squat for a few seconds before pressing up to increase time under tension.", SportId = sports[0].Id },
+                // Index => 247
+                new Workout { Id = 248, Name="Tempo Training", Description="Control the speed of each lift (e.g., slow descent) to enhance muscle engagement and growth.\r\n", SportId = sports[0].Id },
+                // Index => 248
+                new Workout { Id = 249, Name="Drop Sets", Description="After reaching failure with a heavier weight, immediately reduce weight and continue until failure again.", SportId = sports[0].Id },
+                // Index => 249
+                new Workout { Id = 250, Name="Supersets", Description="Combine two exercises (e.g., squat followed by overhead press) with minimal rest in between for increased intensity.", SportId = sports[0].Id },
+                // Index => 250
+                new Workout { Id = 251, Name="Dynamic Effort Training", Description="Use lighter weights at higher speeds to develop explosive strength in compound lifts.", SportId = sports[0].Id },
+                
+                // Full-Body Workouts
+                // Index => 251
+                new Workout { Id = 252, Name="Full-Body Circuit", Description="Create a circuit using multiple exercises (squats, bench press, rows, etc.) within the power rack for comprehensive training.", SportId = sports[0].Id },
+                // Index => 252
+                new Workout { Id = 253, Name="Progressive Overload Routine", Description="Focus on gradually increasing weights across various lifts performed in the power rack over time to build strength and muscle mass.", SportId = sports[0].Id },
+                #endregion
+
+                
+                #region Battle Ropes
+
                 //
-                // Index => 
-                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
-                new Workout { Id= 150, Name = "", Description= "", SportId = sports[0].Id  },
+                // Index  => 253
+                new Workout { Id = 254, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 255, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 256, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 257, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 258, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 259, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 260, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 261, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 262, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 263, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 264, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 265, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 266, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 267, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 268, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 269, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 270, Name="", Description="", SportId = sports[0].Id },
 
                 #endregion
 
@@ -867,7 +1016,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
-        #endregion
+        
         // Done Workout Models
 
         if (!context.UserRoles.Any())
