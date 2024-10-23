@@ -1,5 +1,8 @@
 ﻿using Domain.Enums;
+using Domain.Models;
+using Microsoft.AspNetCore.Components.Server.Circuits;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 
 namespace Presentation.Seed;
@@ -10,6 +13,19 @@ namespace Presentation.Seed;
 // 3- Pyramid Sets: Gradually increase weight with each set until reaching a peak, then decrease back down for added volume.
 // 4- Cluster Sets: Perform multiple mini-sets with short rest periods in between to maximize muscle engagement and strength gains.
 // 5- Countdown Sets: Perform a set number of reps followed by isometric holds (e.g., 5 reps followed by a 5-second hold) to increase endurance and strength.
+
+
+//Workout Formats
+// 1-Circuit Training
+//Combine multiple exercises into a circuit for a full-body workout(e.g., push-ups, rows, squats).
+// 2-Supersets
+//Pair two exercises(e.g., bicep curls followed by tricep extensions) with minimal rest for increased intensity.
+// 3-Pyramid Sets
+//Gradually increase resistance or repetitions over several sets before decreasing again.
+// 4-Interval Training
+//Alternate between high-intensity exercises (e.g., 30 seconds of push-ups) followed by rest periods(e.g., 15 seconds).
+// 5-Tabata Training
+//Perform 20 seconds of work followed by 10 seconds of rest for 8 rounds on various exercises.
 
 public static class DbInitializer
 {
@@ -122,7 +138,7 @@ public static class DbInitializer
                 new Equipment { Name = "Power Rack", EquipmentType = EquipmentType.Equipment, Description= "Essential for performing squats and bench presses safely with a spotter"},
                 new Equipment { Name = "Battle Ropes", EquipmentType = EquipmentType.Equipment, Description= "Used for high-intensity interval training, engaging multiple muscle groups"},
                 new Equipment { Name = "Bands", EquipmentType = EquipmentType.Equipment, Description= ""},
-                new Equipment { Name = "Resistance Bands", EquipmentType = EquipmentType.Equipment, Description= "Portable bands that provide resistance for various exercises"},
+                // new Equipment { Name = "Resistance Bands", EquipmentType = EquipmentType.Equipment, Description= "Portable bands that provide resistance for various exercises"},
                 new Equipment { Name = "Stability Ball", EquipmentType = EquipmentType.Equipment, Description= "Used to enhance core strength and stability during workouts"},
 
                 // Other 
@@ -697,7 +713,6 @@ public static class DbInitializer
                 new Workout { Id= 206, Name = "Endurance Rows", Description= "Improves overall cardiovascular health while toning muscles", SportId = sports[0].Id  },
                 #endregion
 
-
                 #region stationary Bike
                 // Index => 206
                 new Workout { Id= 207, Name = "Steady-State Cycling", Description= "Maintain a consistent pace at a moderate resistance for 20-60 minutes to improve cardiovascular endurance.", SportId = sports[0].Id  },
@@ -729,7 +744,6 @@ public static class DbInitializer
                 new Workout { Id = 220, Name = "Cooldown Sessions", Description = "After intense workouts, spend 5-10 minutes cycling at a very light pace to help with muscle recovery and prevent stiffness.", SportId = sports[0].Id },
 
                 #endregion
-
 
                 #region Stair Climber
                 // Index => 220
@@ -811,28 +825,161 @@ public static class DbInitializer
 
                 
                 #region Battle Ropes
-
-                //
                 // Index  => 253
-                new Workout { Id = 254, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 255, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 256, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 257, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 258, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 259, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 260, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 261, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 262, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 263, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 264, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 265, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 266, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 267, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 268, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 269, Name="", Description="", SportId = sports[0].Id },
-                new Workout { Id = 270, Name="", Description="", SportId = sports[0].Id },
+                new Workout { Id = 254, Name="Alternating Waves", Description="Raise one arm and then the other to create waves down the rope, focusing on speed and power.", SportId = sports[0].Id },
+                // Index  => 254
+                new Workout { Id = 255, Name="Two-Handed Waves", Description="Raise both ends of the rope simultaneously and slam them down, engaging the core and upper body.", SportId = sports[0].Id },
+                // Index  => 255
+                new Workout { Id = 256, Name="In and Out Waves", Description="Bring both arms in simultaneously to cross over, then back out, targeting the chest and shoulders.", SportId = sports[0].Id },
+                // Index  => 256
+                new Workout { Id = 257, Name="Rope Slams", Description="Lift both ends overhead and slam them down as hard as possible to engage the entire body.", SportId = sports[0].Id },
+                // Index  => 257
+                new Workout { Id = 258, Name="Sidewinders", Description="Move the arms side to side while creating waves, engaging the obliques and core.", SportId = sports[0].Id },
+                // Index  => 258
+                new Workout { Id = 259, Name="Snakes", Description="Create small waves by moving your arms up and down quickly, focusing on shoulder stability.", SportId = sports[0].Id },
+                // Index  => 259
+                new Workout { Id = 260, Name="Rainbows", Description="Swing the ropes in an arc from one side of your body to the other, engaging the core throughout.", SportId = sports[0].Id },
+                // Index  => 260
+                new Workout { Id = 261, Name="Plank Alternating Slams", Description="In a plank position, alternate slamming each end of the rope while maintaining core stability.", SportId = sports[0].Id },
+                // Index  => 261
+                new Workout { Id = 262, Name="Battle Rope Russian Twists", Description="In a seated position with feet elevated, twist your torso while pulling the ropes side to side.", SportId = sports[0].Id },
+                // Index  => 262
+                new Workout { Id = 263, Name="Jumping Jack Waves", Description="Perform jumping jacks while simultaneously raising and lowering the ropes, combining cardio with upper body work.", SportId = sports[0].Id },
+                // Index  => 263
+                new Workout { Id = 264, Name="Alternating Lunge Wave", Description="Step back into a lunge while creating waves with the ropes, targeting legs and core.", SportId = sports[0].Id },
+                // Index  => 264
+                new Workout { Id = 265, Name="Half-Kneeling Waves", Description="Perform waves from a half-kneeling position to engage the core and improve balance.", SportId = sports[0].Id },
+                // Index  => 265
+                new Workout { Id = 266, Name="Tsunami Waves", Description="Create large waves by moving both arms in unison, focusing on explosive power.", SportId = sports[0].Id },
+                // Index  => 266
+                new Workout { Id = 267, Name="Fireman’s Carry", Description="Sling the rope across your shoulder and perform sprints or lateral movements for added resistance.", SportId = sports[0].Id },
+                // Index  => 267
+                new Workout { Id = 268, Name="Squat Waves", Description="Perform squats while creating waves with the ropes for a full-body workout.", SportId = sports[0].Id },
+                // Index  => 268
+                new Workout { Id = 269, Name="Interval Training", Description="Alternate between high-intensity work (e.g., 20 seconds of alternating waves) followed by rest (10 seconds).", SportId = sports[0].Id },
+                // Index  => 269
+                new Workout { Id = 270, Name="Tabata Workout", Description="Perform 20 seconds of work followed by 10 seconds of rest for 8 rounds on various exercises (e.g., alternating waves, slams).", SportId = sports[0].Id },                
+                // Index  => 270
+                new Workout { Id = 271, Name ="Circuit Training", Description = "Combine multiple battle rope exercises into a circuit (e.g., 1 minute each of alternating waves, slams, and rainbows).", SportId = sports[0].Id},
+                // Index  => 271
+                new Workout { Id = 272, Name ="Pyramid Intervals", Description = "Gradually increase work duration (e.g., 20 seconds up to 1 minute) followed by equal rest periods.", SportId = sports[0].Id},
+                // Index  => 272
+                new Workout { Id = 273, Name ="Unilateral Workouts", Description = "Focus on one side at a time (e.g., unilateral waves) to improve muscle imbalances and core stability.", SportId = sports[0].Id},
+                // Index  => 273
+                new Workout { Id = 274, Name ="Full-Body Conditioning Circuit", Description = "Incorporate battle ropes with bodyweight exercises (e.g., push-ups or burpees) for comprehensive conditioning.", SportId = sports[0].Id},
+                #endregion
+
+                #region Bands
+                // Upper Body Workouts
+                // Index  => 274
+                new Workout { Id = 275, Name ="Banded Push-Ups", Description = "Place the band around your upper back and hold the ends under your hands to increase resistance during push-ups.", SportId = sports[0].Id},
+                
+                // Index => ?????
+                new Workout { Id = 275, Name ="Banded Chest Press", Description = "Anchor the band behind you and press forward, mimicking a bench press motion to target the chest.", SportId = sports[0].Id},                
+                // Index => ?????
+                new Workout { Id = 275, Name ="Banded Tricep Extensions", Description = "Anchor the band above you and extend your arms downward to target the triceps.", SportId = sports[0].Id},
+                // Index => ?????
+                new Workout { Id = 275, Name ="Single-Arm Lat Pulldown", Description = "Anchor the band above you and pull down with one arm to target the lats.", SportId = sports[0].Id},                
+                // Index => ?????
+                new Workout { Id = 275, Name ="Reverse Fly", Description = "Stand on a band, bend forward slightly, and raise your arms to the side, targeting the rear delts.", SportId = sports[0].Id},
+
+
+
+                // Index  => 275
+                new Workout { Id = 276, Name ="Banded Shoulder Press", Description = "Stand on the band and press overhead, engaging the shoulders and triceps.", SportId = sports[0].Id},
+                // Index  => 276
+                new Workout { Id = 277, Name ="Banded Bent-Over Row", Description = "Stand on the band, bend forward, and pull the handles towards your ribcage to target the back muscles.", SportId = sports[0].Id},
+                // Index  => 277
+                new Workout { Id = 278, Name ="Banded Bicep Curl", Description = "Stand on the band and curl the handles towards your shoulders, focusing on the biceps.", SportId = sports[0].Id},
+                // Index  => 278
+                new Workout { Id = 279, Name ="Banded Tricep Kickback", Description = "Anchor the band and extend your arms backward to work the triceps.", SportId = sports[0].Id},
+                // Index  => 279
+                new Workout { Id = 280, Name ="Banded Lateral Raise", Description = "Stand on the band and raise your arms to the side to target the deltoids.", SportId = sports[0].Id},
+                // Index  => 280
+                new Workout { Id = 281, Name ="Banded Chest Fly", Description = "Anchor the band behind you and perform a fly motion to engage the chest muscles.", SportId = sports[0].Id},
+                // Index  => 281
+                new Workout { Id = 282, Name ="Banded Face Pull", Description = "Anchor the band at head height and pull towards your face to strengthen rear delts and upper back.", SportId = sports[0].Id},
+
+                // Core Workouts
+                // Index  => 282
+                new Workout { Id = 283, Name ="Band Pallof Press", Description = "Stand sideways to an anchored band and press it away from your chest, engaging your core for stability.", SportId = sports[0].Id},
+                // Index  => 283
+                new Workout { Id = 284, Name ="Band Russian Twists", Description = "Sit with your feet elevated, holding a band anchored behind you, and twist side to side.", SportId = sports[0].Id},
+                // Index  => 284
+                new Workout { Id = 285, Name ="Band Assisted Dragon Flags", Description = "Use a band for support while performing dragon flags to enhance core strength.", SportId = sports[0].Id},
+                // Index  => 285
+                new Workout { Id = 286, Name ="Band Crunches", Description = "Lie on your back with the band anchored above you, pulling down as you crunch up.", SportId = sports[0].Id},
+                // Index  => 286
+                new Workout { Id = 287, Name ="Band Alternate Heel Touches", Description = "Lie on your back with knees bent, holding a band, and alternate tapping each heel while engaging your core.", SportId = sports[0].Id},
+
+                // Index  => ??
+                new Workout { Id = 287, Name ="Banded Plank Rows", Description = "In a plank position, row each arm while maintaining core stability.", SportId = sports[0].Id},
+                // Index  => ??
+                new Workout { Id = 287, Name ="Banded Woodchoppers", Description = "Anchor the band low and pull diagonally across your body to engage obliques.", SportId = sports[0].Id},
+                
+                
+                // Lower Body Workouts
+                // Index  => 287
+                new Workout { Id = 288, Name ="Banded Squats", Description = "Stand on the band with feet shoulder-width apart and perform squats, adding resistance.", SportId = sports[0].Id},
+                // Index  => 288
+                new Workout { Id = 289, Name ="Banded Bulgarian Split Squats", Description = "Place one foot behind you on a bench while standing on a band with the other foot to perform split squats.", SportId = sports[0].Id},
+                // Index  => 289
+                new Workout { Id = 290, Name ="Banded Deadlifts", Description = "Stand on the band and perform deadlifts by hinging at the hips while keeping tension in the band.", SportId = sports[0].Id},
+                // Index  => 290
+                new Workout { Id = 291, Name ="Banded Lying Hamstring Curl", Description = "Lie on your stomach with a band secured around your ankles; curl your legs towards your glutes.", SportId = sports[0].Id},
+                // Index  => 291
+                new Workout { Id = 292, Name ="Banded Glute Bridges", Description = "Place a band around your thighs and perform glute bridges to activate glutes effectively.", SportId = sports[0].Id},
+                // Index  => 292
+                new Workout { Id = 293, Name ="Banded Calf Raises", Description = "Stand on the band with feet shoulder-width apart and raise up onto your toes for calf engagement.", SportId = sports[0].Id},
+                
+                // index  => ??
+                new Workout { Id = 287, Name ="Banded Lunges", Description = "Step back into lunges while holding onto bands for added resistance.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Banded Hamstring Curls", Description = "Anchor one end of the band at ankle height; curl your leg towards your glutes while standing or lying down.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Banded Side Steps (Abductions)", Description = "Place a band around your legs just above your knees; step side-to-side to target hip abductors.", SportId = sports[0].Id},
+                #endregion
+
+                #region Stability Ball
+                // Core Workouts
+                // Index =>  
+                new Workout { Id = 278, Name ="Stability Ball Crunch", Description = "Lie faceup on the ball with your low back supported, feet flat on the floor, and perform a crunch by raising your shoulders off the ball.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Oblique Crunch", Description = "Similar to the crunch, but rotate your upper body to one side to engage the obliques.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Knee Raise", Description = "Balance on the ball and lift one knee towards your chest, alternating sides.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Bicycle Crunch", Description = "Perform a bicycle crunch while lying on the ball, bringing opposite elbow to knee.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Tuck", Description = "Start in a plank position with feet on the ball and pull your knees towards your chest.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Pike", Description = "From a plank position, pull your feet towards your hands while keeping your legs straight to raise your hips.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Hands-to-Feet Pass", Description = "Lie on your back holding the ball between your hands and feet. Lift both to pass the ball from hands to feet and back.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Dead Bug", Description = "Lie on your back with legs up and arms extended, squeezing the ball between your hands and knees while alternating arm and leg movements.", SportId = sports[0].Id},                
+                new Workout { Id = 278, Name ="Stability Ball Stir the Pot", Description = "In a plank position with forearms on the ball, move your arms in circular motions while keeping your body stable.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Rollout", Description = "Kneel with the ball in front of you and roll it forward while keeping your core engaged.", SportId = sports[0].Id},
+
+                // Lower Body Workouts
+                // Index => ???
+                new Workout { Id = 278, Name ="Stability Ball Hip Thrust", Description = "Lie on your back with shoulders on the ball and feet flat on the ground; lift hips to engage glutes.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Hamstring Curl", Description = "Lie on your back with heels resting on the ball; lift hips and curl the ball towards you by bending your knees.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Squat", Description = "Stand with your back against a wall and place a stability ball between you and the wall; perform squats while pressing against the ball.", SportId = sports[0].Id},
+                
+                new Workout { Id = 278, Name ="Stability Ball Lunge", Description = "Place one foot on the ball behind you and perform lunges with the other leg.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Glute Bridge", Description = "With feet on the ball, lift hips off the ground to engage glutes and hamstrings.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Single-Leg Hamstring Curl", Description = "Perform hamstring curls with one leg while keeping the other extended.", SportId = sports[0].Id},
+
+                new Workout { Id = 278, Name ="Stability Ball Rearfoot Elevated Split Squat", Description = "Place one foot on the ball behind you; squat down with the front leg.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Calf Raises", Description = "Stand on a stability ball or use it for balance while performing calf raises.", SportId = sports[0].Id},
+
+                // Upper Body Workouts
+                // Index => 
+                new Workout { Id = 278, Name ="Stability Ball Push-Ups", Description = "Place hands on the stability ball while performing push-ups to engage stabilizing muscles.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Stability Ball Tricep Dips", Description = "With hands on the ball behind you, lower and raise your body using triceps.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Kneeling Triceps Extension", Description = "Kneel with arms resting on the stability ball; extend arms to work triceps.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Chest Flys on Stability Ball", Description = "Lie back on a stability ball holding dumbbells; perform flys to target chest muscles.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Y's and T's", Description = "Lie face down on the stability ball and raise arms in a Y or T position to engage shoulders and upper back.", SportId = sports[0].Id},
+
+                new Workout { Id = 278, Name ="Stability Ball Plank Rows", Description = "In plank position with hands on the ball, row one arm at a time to engage back muscles.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Forearm Plank with Feet on Stability Ball", Description = "Hold a plank position with feet resting on the stability ball for core stability training.", SportId = sports[0].Id},
+                new Workout { Id = 278, Name ="Push-Up Variations (Feet or Hands Elevated)", Description = "Elevate either feet or hands on the stability ball for added difficulty during push-ups.", SportId = sports[0].Id},
 
                 #endregion
+
+                new Workout { Id = 278, Name ="", Description = "", SportId = sports[0].Id},
 
             };
             await context.Workouts.AddRangeAsync(workouts);
@@ -1016,7 +1163,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
-        
+        #endregion
         // Done Workout Models
 
         if (!context.UserRoles.Any())
