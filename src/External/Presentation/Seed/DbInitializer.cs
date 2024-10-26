@@ -874,112 +874,360 @@ public static class DbInitializer
                 // Index  => 274
                 new Workout { Id = 275, Name ="Banded Push-Ups", Description = "Place the band around your upper back and hold the ends under your hands to increase resistance during push-ups.", SportId = sports[0].Id},
                 
-                // Index => ?????
-                new Workout { Id = 275, Name ="Banded Chest Press", Description = "Anchor the band behind you and press forward, mimicking a bench press motion to target the chest.", SportId = sports[0].Id},                
-                // Index => ?????
-                new Workout { Id = 275, Name ="Banded Tricep Extensions", Description = "Anchor the band above you and extend your arms downward to target the triceps.", SportId = sports[0].Id},
-                // Index => ?????
-                new Workout { Id = 275, Name ="Single-Arm Lat Pulldown", Description = "Anchor the band above you and pull down with one arm to target the lats.", SportId = sports[0].Id},                
-                // Index => ?????
-                new Workout { Id = 275, Name ="Reverse Fly", Description = "Stand on a band, bend forward slightly, and raise your arms to the side, targeting the rear delts.", SportId = sports[0].Id},
+                // Index => 275
+                new Workout { Id = 276, Name ="Banded Chest Press", Description = "Anchor the band behind you and press forward, mimicking a bench press motion to target the chest.", SportId = sports[0].Id},                
+                // Index => 276
+                new Workout { Id = 277, Name ="Banded Tricep Extensions", Description = "Anchor the band above you and extend your arms downward to target the triceps.", SportId = sports[0].Id},
+                // Index => 277
+                new Workout { Id = 278, Name ="Single-Arm Lat Pulldown", Description = "Anchor the band above you and pull down with one arm to target the lats.", SportId = sports[0].Id},                
+                // Index => 278
+                new Workout { Id = 279, Name ="Reverse Fly", Description = "Stand on a band, bend forward slightly, and raise your arms to the side, targeting the rear delts.", SportId = sports[0].Id},
 
 
-
-                // Index  => 275
-                new Workout { Id = 276, Name ="Banded Shoulder Press", Description = "Stand on the band and press overhead, engaging the shoulders and triceps.", SportId = sports[0].Id},
-                // Index  => 276
-                new Workout { Id = 277, Name ="Banded Bent-Over Row", Description = "Stand on the band, bend forward, and pull the handles towards your ribcage to target the back muscles.", SportId = sports[0].Id},
-                // Index  => 277
-                new Workout { Id = 278, Name ="Banded Bicep Curl", Description = "Stand on the band and curl the handles towards your shoulders, focusing on the biceps.", SportId = sports[0].Id},
-                // Index  => 278
-                new Workout { Id = 279, Name ="Banded Tricep Kickback", Description = "Anchor the band and extend your arms backward to work the triceps.", SportId = sports[0].Id},
                 // Index  => 279
-                new Workout { Id = 280, Name ="Banded Lateral Raise", Description = "Stand on the band and raise your arms to the side to target the deltoids.", SportId = sports[0].Id},
+                new Workout { Id = 280, Name ="Banded Shoulder Press", Description = "Stand on the band and press overhead, engaging the shoulders and triceps.", SportId = sports[0].Id},
                 // Index  => 280
-                new Workout { Id = 281, Name ="Banded Chest Fly", Description = "Anchor the band behind you and perform a fly motion to engage the chest muscles.", SportId = sports[0].Id},
+                new Workout { Id = 281, Name ="Banded Bent-Over Row", Description = "Stand on the band, bend forward, and pull the handles towards your ribcage to target the back muscles.", SportId = sports[0].Id},
                 // Index  => 281
-                new Workout { Id = 282, Name ="Banded Face Pull", Description = "Anchor the band at head height and pull towards your face to strengthen rear delts and upper back.", SportId = sports[0].Id},
+                new Workout { Id = 282, Name ="Banded Bicep Curl", Description = "Stand on the band and curl the handles towards your shoulders, focusing on the biceps.", SportId = sports[0].Id},
+                // Index  => 282
+                new Workout { Id = 283, Name ="Banded Tricep Kickback", Description = "Anchor the band and extend your arms backward to work the triceps.", SportId = sports[0].Id},
+                // Index  => 283
+                new Workout { Id = 284, Name ="Banded Lateral Raise", Description = "Stand on the band and raise your arms to the side to target the deltoids.", SportId = sports[0].Id},
+                // Index  => 284
+                new Workout { Id = 285, Name ="Banded Chest Fly", Description = "Anchor the band behind you and perform a fly motion to engage the chest muscles.", SportId = sports[0].Id},
+                // Index  => 285
+                new Workout { Id = 286, Name ="Banded Face Pull", Description = "Anchor the band at head height and pull towards your face to strengthen rear delts and upper back.", SportId = sports[0].Id},
 
                 // Core Workouts
-                // Index  => 282
-                new Workout { Id = 283, Name ="Band Pallof Press", Description = "Stand sideways to an anchored band and press it away from your chest, engaging your core for stability.", SportId = sports[0].Id},
-                // Index  => 283
-                new Workout { Id = 284, Name ="Band Russian Twists", Description = "Sit with your feet elevated, holding a band anchored behind you, and twist side to side.", SportId = sports[0].Id},
-                // Index  => 284
-                new Workout { Id = 285, Name ="Band Assisted Dragon Flags", Description = "Use a band for support while performing dragon flags to enhance core strength.", SportId = sports[0].Id},
-                // Index  => 285
-                new Workout { Id = 286, Name ="Band Crunches", Description = "Lie on your back with the band anchored above you, pulling down as you crunch up.", SportId = sports[0].Id},
                 // Index  => 286
-                new Workout { Id = 287, Name ="Band Alternate Heel Touches", Description = "Lie on your back with knees bent, holding a band, and alternate tapping each heel while engaging your core.", SportId = sports[0].Id},
+                new Workout { Id = 287, Name ="Band Pallof Press", Description = "Stand sideways to an anchored band and press it away from your chest, engaging your core for stability.", SportId = sports[0].Id},
+                // Index  => 287
+                new Workout { Id = 288, Name ="Band Russian Twists", Description = "Sit with your feet elevated, holding a band anchored behind you, and twist side to side.", SportId = sports[0].Id},
+                // Index  => 288
+                new Workout { Id = 289, Name ="Band Assisted Dragon Flags", Description = "Use a band for support while performing dragon flags to enhance core strength.", SportId = sports[0].Id},
+                // Index  => 289
+                new Workout { Id = 290, Name ="Band Crunches", Description = "Lie on your back with the band anchored above you, pulling down as you crunch up.", SportId = sports[0].Id},
+                // Index  => 290
+                new Workout { Id = 291, Name ="Band Alternate Heel Touches", Description = "Lie on your back with knees bent, holding a band, and alternate tapping each heel while engaging your core.", SportId = sports[0].Id},
 
-                // Index  => ??
-                new Workout { Id = 287, Name ="Banded Plank Rows", Description = "In a plank position, row each arm while maintaining core stability.", SportId = sports[0].Id},
-                // Index  => ??
-                new Workout { Id = 287, Name ="Banded Woodchoppers", Description = "Anchor the band low and pull diagonally across your body to engage obliques.", SportId = sports[0].Id},
+                // Index  => 291
+                new Workout { Id = 292, Name ="Banded Plank Rows", Description = "In a plank position, row each arm while maintaining core stability.", SportId = sports[0].Id},
+                // Index  => 292
+                new Workout { Id = 293, Name ="Banded Woodchoppers", Description = "Anchor the band low and pull diagonally across your body to engage obliques.", SportId = sports[0].Id},
                 
                 
                 // Lower Body Workouts
-                // Index  => 287
-                new Workout { Id = 288, Name ="Banded Squats", Description = "Stand on the band with feet shoulder-width apart and perform squats, adding resistance.", SportId = sports[0].Id},
-                // Index  => 288
-                new Workout { Id = 289, Name ="Banded Bulgarian Split Squats", Description = "Place one foot behind you on a bench while standing on a band with the other foot to perform split squats.", SportId = sports[0].Id},
-                // Index  => 289
-                new Workout { Id = 290, Name ="Banded Deadlifts", Description = "Stand on the band and perform deadlifts by hinging at the hips while keeping tension in the band.", SportId = sports[0].Id},
-                // Index  => 290
-                new Workout { Id = 291, Name ="Banded Lying Hamstring Curl", Description = "Lie on your stomach with a band secured around your ankles; curl your legs towards your glutes.", SportId = sports[0].Id},
-                // Index  => 291
-                new Workout { Id = 292, Name ="Banded Glute Bridges", Description = "Place a band around your thighs and perform glute bridges to activate glutes effectively.", SportId = sports[0].Id},
-                // Index  => 292
-                new Workout { Id = 293, Name ="Banded Calf Raises", Description = "Stand on the band with feet shoulder-width apart and raise up onto your toes for calf engagement.", SportId = sports[0].Id},
+                // Index  => 293
+                new Workout { Id = 294, Name ="Banded Squats", Description = "Stand on the band with feet shoulder-width apart and perform squats, adding resistance.", SportId = sports[0].Id},
+                // Index  => 294
+                new Workout { Id = 295, Name ="Banded Bulgarian Split Squats", Description = "Place one foot behind you on a bench while standing on a band with the other foot to perform split squats.", SportId = sports[0].Id},
+                // Index  => 295
+                new Workout { Id = 296, Name ="Banded Deadlifts", Description = "Stand on the band and perform deadlifts by hinging at the hips while keeping tension in the band.", SportId = sports[0].Id},
+                // Index  => 296
+                new Workout { Id = 297, Name ="Banded Lying Hamstring Curl", Description = "Lie on your stomach with a band secured around your ankles; curl your legs towards your glutes.", SportId = sports[0].Id},
+                // Index  => 297
+                new Workout { Id = 298, Name ="Banded Glute Bridges", Description = "Place a band around your thighs and perform glute bridges to activate glutes effectively.", SportId = sports[0].Id},
+                // Index  => 298
+                new Workout { Id = 299, Name ="Banded Calf Raises", Description = "Stand on the band with feet shoulder-width apart and raise up onto your toes for calf engagement.", SportId = sports[0].Id},
                 
-                // index  => ??
-                new Workout { Id = 287, Name ="Banded Lunges", Description = "Step back into lunges while holding onto bands for added resistance.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Banded Hamstring Curls", Description = "Anchor one end of the band at ankle height; curl your leg towards your glutes while standing or lying down.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Banded Side Steps (Abductions)", Description = "Place a band around your legs just above your knees; step side-to-side to target hip abductors.", SportId = sports[0].Id},
+                // Index  => 299
+                new Workout { Id = 300, Name ="Banded Lunges", Description = "Step back into lunges while holding onto bands for added resistance.", SportId = sports[0].Id},
+                // Index  => 300
+                new Workout { Id = 301, Name ="Banded Hamstring Curls", Description = "Anchor one end of the band at ankle height; curl your leg towards your glutes while standing or lying down.", SportId = sports[0].Id},
+                // Index  => 301
+                new Workout { Id = 302, Name ="Banded Side Steps (Abductions)", Description = "Place a band around your legs just above your knees; step side-to-side to target hip abductors.", SportId = sports[0].Id},
                 #endregion
 
                 #region Stability Ball
                 // Core Workouts
-                // Index =>  
-                new Workout { Id = 278, Name ="Stability Ball Crunch", Description = "Lie faceup on the ball with your low back supported, feet flat on the floor, and perform a crunch by raising your shoulders off the ball.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Oblique Crunch", Description = "Similar to the crunch, but rotate your upper body to one side to engage the obliques.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Knee Raise", Description = "Balance on the ball and lift one knee towards your chest, alternating sides.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Bicycle Crunch", Description = "Perform a bicycle crunch while lying on the ball, bringing opposite elbow to knee.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Tuck", Description = "Start in a plank position with feet on the ball and pull your knees towards your chest.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Pike", Description = "From a plank position, pull your feet towards your hands while keeping your legs straight to raise your hips.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Hands-to-Feet Pass", Description = "Lie on your back holding the ball between your hands and feet. Lift both to pass the ball from hands to feet and back.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Dead Bug", Description = "Lie on your back with legs up and arms extended, squeezing the ball between your hands and knees while alternating arm and leg movements.", SportId = sports[0].Id},                
-                new Workout { Id = 278, Name ="Stability Ball Stir the Pot", Description = "In a plank position with forearms on the ball, move your arms in circular motions while keeping your body stable.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Rollout", Description = "Kneel with the ball in front of you and roll it forward while keeping your core engaged.", SportId = sports[0].Id},
+                // Index => 302
+                new Workout { Id = 303, Name ="Stability Ball Crunch", Description = "Lie faceup on the ball with your low back supported, feet flat on the floor, and perform a crunch by raising your shoulders off the ball.", SportId = sports[0].Id},
+                // Index => 303
+                new Workout { Id = 304, Name ="Stability Ball Oblique Crunch", Description = "Similar to the crunch, but rotate your upper body to one side to engage the obliques.", SportId = sports[0].Id},
+                // Index => 304
+                new Workout { Id = 305, Name ="Stability Ball Knee Raise", Description = "Balance on the ball and lift one knee towards your chest, alternating sides.", SportId = sports[0].Id},
+                // Index => 305
+                new Workout { Id = 306, Name ="Stability Ball Bicycle Crunch", Description = "Perform a bicycle crunch while lying on the ball, bringing opposite elbow to knee.", SportId = sports[0].Id},
+                // Index => 306
+                new Workout { Id = 307, Name ="Stability Ball Tuck", Description = "Start in a plank position with feet on the ball and pull your knees towards your chest.", SportId = sports[0].Id},
+                // Index => 307
+                new Workout { Id = 308, Name ="Stability Ball Pike", Description = "From a plank position, pull your feet towards your hands while keeping your legs straight to raise your hips.", SportId = sports[0].Id},
+                // Index => 308
+                new Workout { Id = 309, Name ="Stability Ball Hands-to-Feet Pass", Description = "Lie on your back holding the ball between your hands and feet. Lift both to pass the ball from hands to feet and back.", SportId = sports[0].Id},
+                // Index => 309
+                new Workout { Id = 310, Name ="Stability Ball Dead Bug", Description = "Lie on your back with legs up and arms extended, squeezing the ball between your hands and knees while alternating arm and leg movements.", SportId = sports[0].Id},                
+                // Index => 310
+                new Workout { Id = 311, Name ="Stability Ball Stir the Pot", Description = "In a plank position with forearms on the ball, move your arms in circular motions while keeping your body stable.", SportId = sports[0].Id},
+                // Index => 311
+                new Workout { Id = 312, Name ="Stability Ball Rollout", Description = "Kneel with the ball in front of you and roll it forward while keeping your core engaged.", SportId = sports[0].Id},
 
                 // Lower Body Workouts
-                // Index => ???
-                new Workout { Id = 278, Name ="Stability Ball Hip Thrust", Description = "Lie on your back with shoulders on the ball and feet flat on the ground; lift hips to engage glutes.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Hamstring Curl", Description = "Lie on your back with heels resting on the ball; lift hips and curl the ball towards you by bending your knees.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Squat", Description = "Stand with your back against a wall and place a stability ball between you and the wall; perform squats while pressing against the ball.", SportId = sports[0].Id},
-                
-                new Workout { Id = 278, Name ="Stability Ball Lunge", Description = "Place one foot on the ball behind you and perform lunges with the other leg.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Glute Bridge", Description = "With feet on the ball, lift hips off the ground to engage glutes and hamstrings.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Single-Leg Hamstring Curl", Description = "Perform hamstring curls with one leg while keeping the other extended.", SportId = sports[0].Id},
-
-                new Workout { Id = 278, Name ="Stability Ball Rearfoot Elevated Split Squat", Description = "Place one foot on the ball behind you; squat down with the front leg.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Calf Raises", Description = "Stand on a stability ball or use it for balance while performing calf raises.", SportId = sports[0].Id},
+                // Index => 312
+                new Workout { Id = 313, Name ="Stability Ball Hip Thrust", Description = "Lie on your back with shoulders on the ball and feet flat on the ground; lift hips to engage glutes.", SportId = sports[0].Id},
+                // Index => 313
+                new Workout { Id = 314, Name ="Stability Ball Hamstring Curl", Description = "Lie on your back with heels resting on the ball; lift hips and curl the ball towards you by bending your knees.", SportId = sports[0].Id},
+                // Index => 314
+                new Workout { Id = 315, Name ="Stability Ball Squat", Description = "Stand with your back against a wall and place a stability ball between you and the wall; perform squats while pressing against the ball.", SportId = sports[0].Id},
+                // Index => 315
+                new Workout { Id = 316, Name ="Stability Ball Lunge", Description = "Place one foot on the ball behind you and perform lunges with the other leg.", SportId = sports[0].Id},
+                // Index => 316
+                new Workout { Id = 317, Name ="Stability Ball Glute Bridge", Description = "With feet on the ball, lift hips off the ground to engage glutes and hamstrings.", SportId = sports[0].Id},
+                // Index => 317
+                new Workout { Id = 318, Name ="Stability Ball Single-Leg Hamstring Curl", Description = "Perform hamstring curls with one leg while keeping the other extended.", SportId = sports[0].Id},
+                // Index => 318
+                new Workout { Id = 319, Name ="Stability Ball Rearfoot Elevated Split Squat", Description = "Place one foot on the ball behind you; squat down with the front leg.", SportId = sports[0].Id},
+                // Index => 319
+                new Workout { Id = 320, Name ="Stability Ball Calf Raises", Description = "Stand on a stability ball or use it for balance while performing calf raises.", SportId = sports[0].Id},
 
                 // Upper Body Workouts
-                // Index => 
-                new Workout { Id = 278, Name ="Stability Ball Push-Ups", Description = "Place hands on the stability ball while performing push-ups to engage stabilizing muscles.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Stability Ball Tricep Dips", Description = "With hands on the ball behind you, lower and raise your body using triceps.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Kneeling Triceps Extension", Description = "Kneel with arms resting on the stability ball; extend arms to work triceps.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Chest Flys on Stability Ball", Description = "Lie back on a stability ball holding dumbbells; perform flys to target chest muscles.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Y's and T's", Description = "Lie face down on the stability ball and raise arms in a Y or T position to engage shoulders and upper back.", SportId = sports[0].Id},
-
-                new Workout { Id = 278, Name ="Stability Ball Plank Rows", Description = "In plank position with hands on the ball, row one arm at a time to engage back muscles.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Forearm Plank with Feet on Stability Ball", Description = "Hold a plank position with feet resting on the stability ball for core stability training.", SportId = sports[0].Id},
-                new Workout { Id = 278, Name ="Push-Up Variations (Feet or Hands Elevated)", Description = "Elevate either feet or hands on the stability ball for added difficulty during push-ups.", SportId = sports[0].Id},
+                // Index => 320
+                new Workout { Id = 321, Name ="Stability Ball Push-Ups", Description = "Place hands on the stability ball while performing push-ups to engage stabilizing muscles.", SportId = sports[0].Id},
+                // Index => 321
+                new Workout { Id = 322, Name ="Stability Ball Tricep Dips", Description = "With hands on the ball behind you, lower and raise your body using triceps.", SportId = sports[0].Id},
+                // Index => 322
+                new Workout { Id = 323, Name ="Kneeling Triceps Extension", Description = "Kneel with arms resting on the stability ball; extend arms to work triceps.", SportId = sports[0].Id},
+                // Index => 323
+                new Workout { Id = 324, Name ="Chest Flys on Stability Ball", Description = "Lie back on a stability ball holding dumbbells; perform flys to target chest muscles.", SportId = sports[0].Id},
+                // Index => 324
+                new Workout { Id = 325, Name ="Y's and T's", Description = "Lie face down on the stability ball and raise arms in a Y or T position to engage shoulders and upper back.", SportId = sports[0].Id},
+                // Index => 325
+                new Workout { Id = 326, Name ="Stability Ball Plank Rows", Description = "In plank position with hands on the ball, row one arm at a time to engage back muscles.", SportId = sports[0].Id},
+                // Index => 326
+                new Workout { Id = 327, Name ="Forearm Plank with Feet on Stability Ball", Description = "Hold a plank position with feet resting on the stability ball for core stability training.", SportId = sports[0].Id},
+                // Index => 327
+                new Workout { Id = 328, Name ="Push-Up Variations (Feet or Hands Elevated)", Description = "Elevate either feet or hands on the stability ball for added difficulty during push-ups.", SportId = sports[0].Id},
 
                 #endregion
 
-                new Workout { Id = 278, Name ="", Description = "", SportId = sports[0].Id},
+                #region Foam Roll
+                // Lower Body
+                // Index => 328
+                new Workout { Id = 329, Name ="Quadriceps Roll", Description = "Position the foam roller under your quads and roll from the hip to just above the knee to release tension.", SportId = sports[0].Id},
+                // Index => 329
+                new Workout { Id = 330, Name ="Hamstring Roll", Description = "Sit with your legs extended and place the roller under your hamstrings. Roll from just below the glutes to just above the knees.", SportId = sports[0].Id},
+                // Index => 330
+                new Workout { Id = 331, Name ="IT Band Roll", Description = "Lie on your side with the roller positioned along the outside of your thigh. Roll from just below the hip to just above the knee.", SportId = sports[0].Id},
+                // Index => 331
+                new Workout { Id = 332, Name ="Calf Roll", Description = "Sit with your legs extended and place the roller under your calves. Lift your body off the ground and roll from knee to ankle.", SportId = sports[0].Id},
+                // Index => 332
+                new Workout { Id = 333, Name ="Glute Roll", Description = "Sit on the foam roller and cross one ankle over the opposite knee. Lean into the glute and roll back and forth.", SportId = sports[0].Id},
+                // Index => 333
+                new Workout { Id = 334, Name ="Hip Flexor Roll", Description = "Lie face down with the roller under one hip flexor, rolling slowly to release tightness in that area.", SportId = sports[0].Id},
+                
+                // Upper Body
+                // Index => 334
+                new Workout { Id = 335, Name ="Thoracic Spine Roll", Description = "Place the roller under your upper back and roll from the mid-back to the shoulder blades to improve spinal mobility.", SportId = sports[0].Id},
+                // Index => 335
+                new Workout { Id = 336, Name ="Lats Roll", Description = "Lie on your side with the foam roller positioned under your lat (just below your armpit). Roll down towards your mid-back.", SportId = sports[0].Id},
+                // Index => 336
+                new Workout { Id = 337, Name ="Shoulder Roll", Description = "Lie on your side with the roller under one shoulder and roll up and down to target shoulder tightness.", SportId = sports[0].Id},
+                // Index => 337
+                new Workout { Id = 338, Name ="Pectoral Stretch", Description = "Position the foam roller vertically along your spine and relax into a stretch with arms outstretched in a \"Y\" position for chest opening.", SportId = sports[0].Id},
+
+                // Core
+                // Index => 338
+                new Workout { Id = 339, Name ="Lower Back Roll", Description = "Caution: Only perform if you have adequate core strength. Lie on your back with the roller positioned under your lower back, rolling gently from mid-back to low back.", SportId = sports[0].Id},
+                // Index => 339
+                new Workout { Id = 340, Name ="Abdominal Foam Rolling", Description = "Lie face down with the foam roller positioned under your abdomen; gently roll side to side for core relaxation.", SportId = sports[0].Id},
+                #endregion
+
+                #region Abdominal Bench
+                // Index => 340
+                new Workout { Id = 341, Name ="Bench Crunch", Description = "Lie on your back on the bench with feet on the bench or in the air. Lift your shoulders off the bench to engage your abs.", SportId = sports[0].Id},
+                // Index => 341
+                new Workout { Id = 342, Name ="Reverse Crunch", Description = "Lie on your back, grab the bench behind your head, and lift your hips off the bench while bringing your knees towards your chest.", SportId = sports[0].Id},
+                // Index => 342
+                new Workout { Id = 343, Name ="Jackknife", Description = "Lie on your back with legs in the air. Simultaneously lift your shoulders off the bench while lowering your legs towards the bench.", SportId = sports[0].Id},
+                // Index => 343
+                new Workout { Id = 344, Name ="Leg Raises", Description = "Lie on your back, hold the bench at your sides, and lift your legs towards the ceiling, keeping them straight or slightly bent.", SportId = sports[0].Id},
+                // Index => 344
+                new Workout { Id = 345, Name ="Flutter Kicks", Description = "Lie on your back, lift your shoulders off the bench, and alternate raising each leg in a fluttering motion.", SportId = sports[0].Id},
+                // Index => 345
+                new Workout { Id = 346, Name ="Knee to Chest Crunches", Description = "Lie on your back, bend your knees, and simultaneously lift your shoulders off the bench while bringing your knees to your chest.", SportId = sports[0].Id},
+                // Index => 346
+                new Workout { Id = 347, Name ="Decline Sit-Ups", Description = "Set the bench at a decline angle and perform full sit-ups.", SportId = sports[0].Id},
+                // Index => 347
+                new Workout { Id = 348, Name ="Russian Twists", Description = "Sit on the bench, lean back slightly, lift your feet, and rotate your torso from side to side.", SportId = sports[0].Id},
+                // Index => 348
+                new Workout { Id = 349, Name ="Bicycle Crunches", Description = "Lie on your back, lift your shoulders, and alternate bringing opposite elbow to knee in a cycling motion.", SportId = sports[0].Id},
+                // Index => 349
+                new Workout { Id = 350, Name ="Hip Lifts", Description = "Lie on your back, anchor your hands overhead, and lift your hips towards the ceiling.", SportId = sports[0].Id},
+                // Index => 350
+                new Workout { Id = 351, Name ="Straight Leg Raises", Description = "Similar to leg raises, but keep your legs completely straight throughout the movement.", SportId = sports[0].Id},
+                // Index => 351
+                new Workout { Id = 352, Name ="Decline Plank", Description = "Set up in a plank position with your feet elevated on the bench.", SportId = sports[0].Id},
+                #endregion
+
+                #region Pull-Up Bar
+                // Index => 352
+                new Workout { Id = 353, Name ="Standard Pull-Ups", Description = "Grip the bar with palms facing away from you, pull your body up until your chin is above the bar.", SportId = sports[0].Id},
+                // Index => 353
+                new Workout { Id = 354, Name ="Chin-Ups", Description = "Grip the bar with palms facing you. This variation emphasizes the biceps more than standard pull-ups.", SportId = sports[0].Id},
+                // Index => 354
+                new Workout { Id = 355, Name ="Wide-Grip Pull-Ups", Description = "Use a wider grip to target the upper back and lats more intensely.", SportId = sports[0].Id},
+
+                // Index => 355
+                new Workout { Id = 356, Name ="Close-Grip Pull-Ups", Description = "A narrower grip that focuses more on the biceps and inner back muscles.", SportId = sports[0].Id},
+
+                // Index => 356
+                new Workout { Id = 357, Name ="Weighted Pull-Ups", Description = "Add weight using a dip belt or weighted vest to increase resistance during pull-ups.", SportId = sports[0].Id},
+
+                // Index => 357
+                new Workout { Id = 358, Name ="Assisted Pull-Ups", Description = "Use a resistance band or an assisted pull-up machine to help lift your body weight.", SportId = sports[0].Id},
+
+                // Index => 358
+                new Workout { Id = 359, Name ="Negative Pull-Ups", Description = "Jump or step up to the top position and slowly lower yourself down to build strength.", SportId = sports[0].Id},
+
+                // Index => 359
+                new Workout { Id = 360, Name ="Scapular Pull-Ups", Description = "Hang from the bar and perform small movements by retracting and depressing your shoulder blades without bending your elbows.", SportId = sports[0].Id},
+
+                // Index => 360
+                new Workout { Id = 361, Name ="L-Sit Pull-Ups", Description = "Perform pull-ups while holding your legs straight out in front of you, engaging your core throughout.", SportId = sports[0].Id},
+
+                // Index => 361
+                new Workout { Id = 362, Name ="Muscle-Ups", Description = "A combination of a pull-up and a dip; pull up explosively and transition into a dip position above the bar.", SportId = sports[0].Id},
+
+                // Core Exercises
+                // Index => 362
+                new Workout { Id = 363, Name ="Hanging Knee Raises", Description = "Hang from the bar and lift your knees towards your chest, focusing on engaging your abs.", SportId = sports[0].Id},
+
+                // Index => 363
+                new Workout { Id = 364, Name ="Hanging Leg Raises", Description = "Similar to knee raises but keep your legs straight as you lift them towards the bar.", SportId = sports[0].Id},
+
+                // Index => 364
+                new Workout { Id = 365, Name ="Hanging Windshield Wipers", Description = "From a hanging position, move your legs side to side in a controlled manner to target obliques.", SportId = sports[0].Id},
+
+                // Index => 365
+                new Workout { Id = 366, Name ="Hanging L-Sit", Description = "Hang from the bar with legs extended in front of you, holding this position to engage core muscles.\r\nHanging Straight Leg Raise", SportId = sports[0].Id},
+                // Dynamic Movements
+                // Index => 366
+                new Workout { Id = 367, Name ="Burpee Pull-Ups", Description = "Perform a burpee followed by a pull-up, combining cardio with strength training.", SportId = sports[0].Id},
+
+                // Index => 367
+                new Workout { Id = 368, Name ="Kipping Pull-Ups", Description = "Use momentum from your hips to assist in pulling yourself up, often used in CrossFit workouts.", SportId = sports[0].Id},
+
+                // Index => 368
+                new Workout { Id = 369, Name ="Towel Pull-Ups", Description = "Drape a towel over the bar and grip it for added difficulty and grip training.", SportId = sports[0].Id},
+
+                // Index => 369
+                new Workout { Id = 370, Name ="One-Arm Pull-Up (Assisted)", Description = "Use one arm while holding onto the other arm for assistance; progress towards full one-arm pull-ups.", SportId = sports[0].Id},
+
+                // Index => 370
+                new Workout { Id = 371, Name ="Front Lever Holds", Description = "Hang from the bar and lift your body into a horizontal position, engaging multiple muscle groups for strength.", SportId = sports[0].Id},
+                #endregion
+
+                #region Cable
+                // Upper Body Exercises:
+                // Index => 371
+                new Workout { Id = 372, Name ="Cable Bicep Curl", Description = "", SportId = sports[0].Id},
+                // Index => 372
+                new Workout { Id = 373, Name ="Cable Crossover", Description = "", SportId = sports[0].Id},
+
+                // Index => 373
+                new Workout { Id = 374, Name ="Cable Lateral Raise", Description = "", SportId = sports[0].Id},
+
+                // Index => 374
+                new Workout { Id = 375, Name ="Cable Flye", Description = "", SportId = sports[0].Id},
+
+                // Index => 375
+                new Workout { Id = 376, Name ="Cable Press-Around", Description = "", SportId = sports[0].Id},
+
+                // Index => 376
+                new Workout { Id = 377, Name ="Straight-Arm Pulldown", Description = "", SportId = sports[0].Id},
+
+                // Index => 377
+                new Workout { Id = 378, Name ="Face Pull", Description = "", SportId = sports[0].Id},
+
+                // Index => 378
+                new Workout { Id = 379, Name ="Close-Grip Lat Pulldown", Description = "", SportId = sports[0].Id},
+                
+                // Index => 379
+                new Workout { Id = 380, Name ="Single-Arm Overhead Triceps Extension", Description = "", SportId = sports[0].Id},
+
+                // Index => 380
+                new Workout { Id = 381, Name ="Cable Row", Description = "", SportId = sports[0].Id},
+
+                // Index => 381
+                new Workout { Id = 382, Name ="Cable Chest Press", Description = "", SportId = sports[0].Id},
+
+                // Index => 382
+                new Workout { Id = 383, Name ="Upright Cable Fly", Description = "", SportId = sports[0].Id},
+
+                // Index => 383
+                new Workout { Id = 384, Name ="Low to High Cable Raise", Description = "", SportId = sports[0].Id},
+
+                // Index => 384
+                new Workout { Id = 385, Name ="Front Raise (Hammer Grip, Single Arm, and with Bar)", Description = "", SportId = sports[0].Id},
+
+                // Index => 385
+                new Workout { Id = 386, Name ="Side Hang Lateral Raise", Description = "", SportId = sports[0].Id},
+
+                // Index => 386
+                new Workout { Id = 387, Name ="Bent Over Cable Crossover", Description = "", SportId = sports[0].Id},
+
+                // Index => 387
+                new Workout { Id = 388, Name ="Bent Over Row with Bar", Description = "", SportId = sports[0].Id},
+
+                // Index => 388
+                new Workout { Id = 389, Name ="Standing Row (Single Arm)", Description = "", SportId = sports[0].Id},
+
+                // Index => 389
+                new Workout { Id = 390, Name="Kneeling Row (Single Arm)", Description="", SportId= sports[0].Id},
+
+                // Index => 390
+                new Workout { Id = 391, Name="Cable Pushdown", Description="", SportId= sports[0].Id},
+
+                // Index => 391
+                new Workout { Id = 392, Name="Rope Pushdown", Description="", SportId= sports[0].Id},
+
+                // Index => 392
+                new Workout { Id = 393, Name="Single Arm Cable Extension", Description="", SportId= sports[0].Id},
+
+                // Index => 393
+                new Workout { Id = 394, Name="Double Handle Cable Extension", Description="", SportId= sports[0].Id},
+
+                // Index => 394
+                new Workout { Id = 395, Name="Overhead Extension", Description="", SportId= sports[0].Id},
+
+
+                //Lower Body Exercises:
+                // Index => 395
+                new Workout { Id = 396, Name="Cable Kickback", Description="", SportId= sports[0].Id},
+
+                // Index => 396
+                new Workout { Id = 397, Name="Cable Squats", Description="", SportId= sports[0].Id},
+
+                // Index => 397
+                new Workout { Id = 398, Name="Cable Lunges", Description="", SportId= sports[0].Id},
+
+                // Index => 398
+                new Workout { Id = 399, Name="Cable Leg Extensions", Description="", SportId= sports[0].Id},
+
+                // Index => 399
+                new Workout { Id = 400, Name="Cable Hamstring Curls", Description="", SportId= sports[0].Id},
+
+                // Core Exercises
+                // Index => 400
+                new Workout { Id = 397, Name="Cable Crunches", Description="", SportId= sports[0].Id},
+
+                // Index => 401
+                new Workout { Id = 398, Name="Cable Wood Chop", Description="", SportId= sports[0].Id},
+
+                // Index => 402
+                new Workout { Id = 399, Name="Cable Pallof Press", Description="", SportId= sports[0].Id},
+
+                // Index => 403
+                new Workout { Id = 400, Name="Cable Russian Twists", Description="", SportId= sports[0].Id},
+
+
+
+
+
+                #endregion
+
+
+                new Workout { Id = 372, Name ="", Description = "", SportId = sports[0].Id},
 
             };
             await context.Workouts.AddRangeAsync(workouts);
