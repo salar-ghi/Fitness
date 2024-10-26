@@ -1209,25 +1209,95 @@ public static class DbInitializer
 
                 // Core Exercises
                 // Index => 400
-                new Workout { Id = 397, Name="Cable Crunches", Description="", SportId= sports[0].Id},
+                new Workout { Id = 401, Name="Cable Crunches", Description="", SportId= sports[0].Id},
 
                 // Index => 401
-                new Workout { Id = 398, Name="Cable Wood Chop", Description="", SportId= sports[0].Id},
+                new Workout { Id = 402, Name="Cable Wood Chop", Description="", SportId= sports[0].Id},
 
                 // Index => 402
-                new Workout { Id = 399, Name="Cable Pallof Press", Description="", SportId= sports[0].Id},
+                new Workout { Id = 403, Name="Cable Pallof Press", Description="", SportId= sports[0].Id},
 
                 // Index => 403
-                new Workout { Id = 400, Name="Cable Russian Twists", Description="", SportId= sports[0].Id},
+                new Workout { Id = 404, Name="Cable Russian Twists", Description="", SportId= sports[0].Id},
+                #endregion
+
+                #region Medicine Ball
+                // Core Exercises
+                // Index => 404
+                new Workout { Id = 405, Name ="Russian Twist", Description = "Sit on the ground, lean back slightly, and twist your torso side to side while holding the medicine ball.", SportId = sports[0].Id},
+                // Index => 405
+                new Workout { Id = 406, Name ="Medicine Ball V-Up", Description = "Lie on your back, hold the ball overhead, and lift your arms and legs simultaneously to form a V shape, passing the ball from hands to feet.", SportId = sports[0].Id},
+                // Index => 406
+                new Workout { Id = 407, Name ="Medicine Ball Crunch", Description = "Lie on your back with legs elevated; hold the ball overhead and crunch up, bringing the ball towards your knees.", SportId = sports[0].Id},
+                // Index => 407
+                new Workout { Id = 408, Name ="Medicine Ball Toe Touches", Description = "Lie on your back with legs straight up; lift your shoulders off the ground and reach for your toes with the medicine ball.", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="Medicine Ball Plank Pass", Description = "In a plank position, pass the medicine ball from one hand to the other while maintaining stability.", SportId = sports[0].Id},
+
+                // Index => 404
+                new Workout { Id = 405, Name ="Medicine Ball Woodchoppers", Description = "Stand with feet shoulder-width apart; hold the ball overhead and bring it diagonally down across your body to engage your core.", SportId = sports[0].Id},
+                // Index => 405
+                new Workout { Id = 406, Name ="Medicine Ball Side Plank Rotation", Description = "In a side plank position, hold the medicine ball and rotate your torso to bring it towards the ground, then back up.", SportId = sports[0].Id},
+                
+                
+                // Upper Body Exercises
+                // Index => 406
+                new Workout { Id = 407, Name ="Medicine Ball Push-Ups", Description = "Place one hand on the medicine ball while performing push-ups to engage stabilizing muscles.", SportId = sports[0].Id},
+                // Index => 407
+                new Workout { Id = 408, Name ="Medicine Ball Overhead Press", Description = "Stand or sit with the ball at chest height; press it overhead and lower it back down.", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="Medicine Ball Slams", Description = "Lift the ball overhead and slam it down to the ground, engaging your entire body for power.", SportId = sports[0].Id},
+
+                // Index => 406
+                new Workout { Id = 407, Name ="Rolling Push-Ups", Description = "Perform push-ups while rolling the medicine ball between hands after each rep.", SportId = sports[0].Id},
+                // Index => 407
+                new Workout { Id = 408, Name ="Medicine Ball Chest Pass", Description = "Stand facing a wall; throw the ball against it explosively and catch it on the rebound.", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="Medicine Ball Tricep Extensions", Description = "Hold the ball overhead with both hands, lower it behind your head, then extend back up.", SportId = sports[0].Id},
 
 
+                // Index => 406
+                new Workout { Id = 407, Name ="Bicep Curl with Medicine Ball", Description = "Stand with feet shoulder-width apart; hold the ball at chest level and curl it towards your chest.", SportId = sports[0].Id},
+                
+                // Lower Body Exercises
+                // Index => 407
+                new Workout { Id = 408, Name ="Medicine Ball Squat", Description = "Hold the medicine ball at chest level while performing squats to add resistance.", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="Medicine Ball Lunge and Twist", Description = "Step forward into a lunge while twisting your torso towards the leg that is forward, holding the medicine ball.", SportId = sports[0].Id},
 
 
+                // Index => 407
+                new Workout { Id = 408, Name ="Reaching Romanian Deadlift", Description = "Stand on one leg while holding a medicine ball; hinge at your hips to lower the ball toward the ground while extending the other leg behind you.", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="Medicine Ball Thruster", Description = "Perform a squat holding the ball at chest level, then explode upward while pressing the ball overhead.", SportId = sports[0].Id},
+                // Index => 407
+                new Workout { Id = 408, Name ="Medicine Ball Side Lunges", Description = "Hold the medicine ball at chest level as you perform side lunges, keeping your core engaged.", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="Medicine Ball Step-Ups", Description = "Step onto a bench or platform while holding a medicine ball at chest height for added resistance.", SportId = sports[0].Id},
 
+                // Dynamic Movements
+                // Index => 407
+                new Workout { Id = 408, Name ="Overhead Medicine Ball Throw", Description = "Stand 8-10 feet from a wall; throw the medicine ball overhead against it and catch it on rebound.", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="Rotational Medicine Ball Throw", Description = "Stand sideways to a wall; rotate your torso and throw the ball against it explosively using hip rotation for power.", SportId = sports[0].Id},
+                // Index => 407
+                new Workout { Id = 408, Name ="Medicine Ball Soccer Throw", Description = "Hold the medicine ball overhead and step forward as you throw it against a wall in a soccer-style motion.", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="Medicine Ball Figure 8s", Description = "Pass the medicine ball around your legs in a figure-eight pattern to engage core stability and coordination.", SportId = sports[0].Id},
+                // Index => 407
+                new Workout { Id = 408, Name ="Medicine Ball Around-the-World", Description = "Hold the medicine ball above your head and make large circular movements with your arms in both directions.", SportId = sports[0].Id},
                 #endregion
 
 
-                new Workout { Id = 372, Name ="", Description = "", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="", Description = "", SportId = sports[0].Id},
+                // Index => 407
+                new Workout { Id = 408, Name ="", Description = "", SportId = sports[0].Id},
+                // Index => 408
+                new Workout { Id = 409, Name ="", Description = "", SportId = sports[0].Id},
+
+
+
 
             };
             await context.Workouts.AddRangeAsync(workouts);
