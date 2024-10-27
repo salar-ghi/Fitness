@@ -1234,63 +1234,240 @@ public static class DbInitializer
                 // Index => 408
                 new Workout { Id = 409, Name ="Medicine Ball Plank Pass", Description = "In a plank position, pass the medicine ball from one hand to the other while maintaining stability.", SportId = sports[0].Id},
 
-                // Index => 404
-                new Workout { Id = 405, Name ="Medicine Ball Woodchoppers", Description = "Stand with feet shoulder-width apart; hold the ball overhead and bring it diagonally down across your body to engage your core.", SportId = sports[0].Id},
-                // Index => 405
-                new Workout { Id = 406, Name ="Medicine Ball Side Plank Rotation", Description = "In a side plank position, hold the medicine ball and rotate your torso to bring it towards the ground, then back up.", SportId = sports[0].Id},
+                // Index => 409
+                new Workout { Id = 410, Name ="Medicine Ball Woodchoppers", Description = "Stand with feet shoulder-width apart; hold the ball overhead and bring it diagonally down across your body to engage your core.", SportId = sports[0].Id},
+                // Index => 410
+                new Workout { Id = 411, Name ="Medicine Ball Side Plank Rotation", Description = "In a side plank position, hold the medicine ball and rotate your torso to bring it towards the ground, then back up.", SportId = sports[0].Id},
                 
                 
                 // Upper Body Exercises
-                // Index => 406
-                new Workout { Id = 407, Name ="Medicine Ball Push-Ups", Description = "Place one hand on the medicine ball while performing push-ups to engage stabilizing muscles.", SportId = sports[0].Id},
-                // Index => 407
-                new Workout { Id = 408, Name ="Medicine Ball Overhead Press", Description = "Stand or sit with the ball at chest height; press it overhead and lower it back down.", SportId = sports[0].Id},
-                // Index => 408
-                new Workout { Id = 409, Name ="Medicine Ball Slams", Description = "Lift the ball overhead and slam it down to the ground, engaging your entire body for power.", SportId = sports[0].Id},
+                // Index => 411
+                new Workout { Id = 412, Name ="Medicine Ball Push-Ups", Description = "Place one hand on the medicine ball while performing push-ups to engage stabilizing muscles.", SportId = sports[0].Id},
+                // Index => 412
+                new Workout { Id = 413, Name ="Medicine Ball Overhead Press", Description = "Stand or sit with the ball at chest height; press it overhead and lower it back down.", SportId = sports[0].Id},
+                // Index => 413
+                new Workout { Id = 414, Name ="Medicine Ball Slams", Description = "Lift the ball overhead and slam it down to the ground, engaging your entire body for power.", SportId = sports[0].Id},
 
-                // Index => 406
-                new Workout { Id = 407, Name ="Rolling Push-Ups", Description = "Perform push-ups while rolling the medicine ball between hands after each rep.", SportId = sports[0].Id},
-                // Index => 407
-                new Workout { Id = 408, Name ="Medicine Ball Chest Pass", Description = "Stand facing a wall; throw the ball against it explosively and catch it on the rebound.", SportId = sports[0].Id},
-                // Index => 408
-                new Workout { Id = 409, Name ="Medicine Ball Tricep Extensions", Description = "Hold the ball overhead with both hands, lower it behind your head, then extend back up.", SportId = sports[0].Id},
+                // Index => 414
+                new Workout { Id = 415, Name ="Rolling Push-Ups", Description = "Perform push-ups while rolling the medicine ball between hands after each rep.", SportId = sports[0].Id},
+                // Index => 415
+                new Workout { Id = 416, Name ="Medicine Ball Chest Pass", Description = "Stand facing a wall; throw the ball against it explosively and catch it on the rebound.", SportId = sports[0].Id},
+                // Index => 416
+                new Workout { Id = 417, Name ="Medicine Ball Tricep Extensions", Description = "Hold the ball overhead with both hands, lower it behind your head, then extend back up.", SportId = sports[0].Id},
 
 
-                // Index => 406
-                new Workout { Id = 407, Name ="Bicep Curl with Medicine Ball", Description = "Stand with feet shoulder-width apart; hold the ball at chest level and curl it towards your chest.", SportId = sports[0].Id},
+                // Index => 417
+                new Workout { Id = 418, Name ="Bicep Curl with Medicine Ball", Description = "Stand with feet shoulder-width apart; hold the ball at chest level and curl it towards your chest.", SportId = sports[0].Id},
                 
                 // Lower Body Exercises
-                // Index => 407
-                new Workout { Id = 408, Name ="Medicine Ball Squat", Description = "Hold the medicine ball at chest level while performing squats to add resistance.", SportId = sports[0].Id},
-                // Index => 408
-                new Workout { Id = 409, Name ="Medicine Ball Lunge and Twist", Description = "Step forward into a lunge while twisting your torso towards the leg that is forward, holding the medicine ball.", SportId = sports[0].Id},
+                // Index => 418
+                new Workout { Id = 419, Name ="Medicine Ball Squat", Description = "Hold the medicine ball at chest level while performing squats to add resistance.", SportId = sports[0].Id},
+                // Index => 419
+                new Workout { Id = 420, Name ="Medicine Ball Lunge and Twist", Description = "Step forward into a lunge while twisting your torso towards the leg that is forward, holding the medicine ball.", SportId = sports[0].Id},
 
 
-                // Index => 407
-                new Workout { Id = 408, Name ="Reaching Romanian Deadlift", Description = "Stand on one leg while holding a medicine ball; hinge at your hips to lower the ball toward the ground while extending the other leg behind you.", SportId = sports[0].Id},
-                // Index => 408
-                new Workout { Id = 409, Name ="Medicine Ball Thruster", Description = "Perform a squat holding the ball at chest level, then explode upward while pressing the ball overhead.", SportId = sports[0].Id},
-                // Index => 407
-                new Workout { Id = 408, Name ="Medicine Ball Side Lunges", Description = "Hold the medicine ball at chest level as you perform side lunges, keeping your core engaged.", SportId = sports[0].Id},
-                // Index => 408
-                new Workout { Id = 409, Name ="Medicine Ball Step-Ups", Description = "Step onto a bench or platform while holding a medicine ball at chest height for added resistance.", SportId = sports[0].Id},
+                // Index => 420
+                new Workout { Id = 421, Name ="Reaching Romanian Deadlift", Description = "Stand on one leg while holding a medicine ball; hinge at your hips to lower the ball toward the ground while extending the other leg behind you.", SportId = sports[0].Id},
+                // Index => 421
+                new Workout { Id = 422, Name ="Medicine Ball Thruster", Description = "Perform a squat holding the ball at chest level, then explode upward while pressing the ball overhead.", SportId = sports[0].Id},
+                // Index => 422
+                new Workout { Id = 423, Name ="Medicine Ball Side Lunges", Description = "Hold the medicine ball at chest level as you perform side lunges, keeping your core engaged.", SportId = sports[0].Id},
+                // Index => 423
+                new Workout { Id = 424, Name ="Medicine Ball Step-Ups", Description = "Step onto a bench or platform while holding a medicine ball at chest height for added resistance.", SportId = sports[0].Id},
 
                 // Dynamic Movements
-                // Index => 407
-                new Workout { Id = 408, Name ="Overhead Medicine Ball Throw", Description = "Stand 8-10 feet from a wall; throw the medicine ball overhead against it and catch it on rebound.", SportId = sports[0].Id},
-                // Index => 408
-                new Workout { Id = 409, Name ="Rotational Medicine Ball Throw", Description = "Stand sideways to a wall; rotate your torso and throw the ball against it explosively using hip rotation for power.", SportId = sports[0].Id},
-                // Index => 407
-                new Workout { Id = 408, Name ="Medicine Ball Soccer Throw", Description = "Hold the medicine ball overhead and step forward as you throw it against a wall in a soccer-style motion.", SportId = sports[0].Id},
-                // Index => 408
-                new Workout { Id = 409, Name ="Medicine Ball Figure 8s", Description = "Pass the medicine ball around your legs in a figure-eight pattern to engage core stability and coordination.", SportId = sports[0].Id},
-                // Index => 407
-                new Workout { Id = 408, Name ="Medicine Ball Around-the-World", Description = "Hold the medicine ball above your head and make large circular movements with your arms in both directions.", SportId = sports[0].Id},
+                // Index => 424
+                new Workout { Id = 425, Name ="Overhead Medicine Ball Throw", Description = "Stand 8-10 feet from a wall; throw the medicine ball overhead against it and catch it on rebound.", SportId = sports[0].Id},
+                // Index => 425
+                new Workout { Id = 426, Name ="Rotational Medicine Ball Throw", Description = "Stand sideways to a wall; rotate your torso and throw the ball against it explosively using hip rotation for power.", SportId = sports[0].Id},
+                // Index => 426
+                new Workout { Id = 427, Name ="Medicine Ball Soccer Throw", Description = "Hold the medicine ball overhead and step forward as you throw it against a wall in a soccer-style motion.", SportId = sports[0].Id},
+                // Index => 427
+                new Workout { Id = 428, Name ="Medicine Ball Figure 8s", Description = "Pass the medicine ball around your legs in a figure-eight pattern to engage core stability and coordination.", SportId = sports[0].Id},
+                // Index => 428
+                new Workout { Id = 429, Name ="Medicine Ball Around-the-World", Description = "Hold the medicine ball above your head and make large circular movements with your arms in both directions.", SportId = sports[0].Id},
                 #endregion
 
+                #region E-Z Curl Bar
+                // Bicep Exercises
+                // Index => 429
+                new Workout { Id = 430, Name ="Standard Bicep Curl", Description = "Stand with the bar at shoulder height and curl it up towards your chest, focusing on squeezing your biceps at the top.", SportId = sports[0].Id},
+                // Index => 430
+                new Workout { Id = 431, Name ="Close-Grip E-Z Bar Curl", Description = "Use a closer grip to target the long head of the biceps, enhancing peak development", SportId = sports[0].Id},
+                // Index => 431
+                new Workout { Id = 432, Name ="Preacher Curl", Description = "Sit on a preacher bench and curl the bar towards your shoulders, isolating the biceps effectively", SportId = sports[0].Id},
+                // Index => 432
+                new Workout { Id = 433, Name ="Reverse Curl", Description = "Hold the bar with an overhand grip and curl it upwards, targeting the forearms and biceps", SportId = sports[0].Id},
+                // Index => 433
+                new Workout { Id = 434, Name ="21s", Description = "Perform seven curls in the lower half of the movement, seven in the upper half, and seven full curls for an intense bicep workout", SportId = sports[0].Id},
+                
+                // Triceps Exercises
+                // Index => 434
+                new Workout { Id = 435, Name ="Skull Crushers", Description = "Lie on a bench and lower the bar towards your forehead before extending back up to work the triceps", SportId = sports[0].Id},
+                // Index => 435
+                new Workout { Id = 436, Name ="Overhead Triceps Extension", Description = "Hold the bar overhead with arms extended, then lower it behind your head before raising it back up", SportId = sports[0].Id},
+                // Index => 436
+                new Workout { Id = 437, Name ="Close-Grip Bench Press", Description = "Lie on a bench and press the bar upwards with a close grip to target the triceps more than the chest", SportId = sports[0].Id},
+                
+                // Shoulder Exercises
+                // Index => 437
+                new Workout { Id = 438, Name ="Shoulder Press", Description = "Press the bar overhead while standing or seated to engage shoulder muscles effectively", SportId = sports[0].Id},
+                // Index => 438
+                new Workout { Id = 439, Name ="Upright Row", Description = "Hold the bar with an overhand grip and pull it vertically towards your chin, engaging both shoulders and traps", SportId = sports[0].Id},
+                
+                // Back Exercises
+                // Index => 439
+                new Workout { Id = 440, Name ="Bent Over Row", Description = "Bend forward at the hips while holding the bar and pull it towards your waist to work on back strength", SportId = sports[0].Id},
 
-                // Index => 408
-                new Workout { Id = 409, Name ="", Description = "", SportId = sports[0].Id},
+                #endregion
+
+                #region Trap Bar (Hex Bar)
+                // Lower Body Exercises
+                // Index => 440
+                new Workout { Id = 441, Name ="Trap Bar Deadlift", Description = "A fundamental exercise for building strength in the legs and back.", SportId = sports[0].Id},
+                // Index => 441
+                new Workout { Id = 442, Name ="Romanian Deadlift", Description = "Focuses on the hamstrings and glutes while maintaining a slight bend in the knees.", SportId = sports[0].Id},
+                // Index => 442
+                new Workout { Id = 443, Name ="Stiff-Legged Deadlift", Description = "Targets the hamstrings and lower back with minimal knee flexion.", SportId = sports[0].Id},
+                // Index => 443
+                new Workout { Id = 444, Name ="Split Squat", Description = "A unilateral exercise that enhances balance and leg strength.", SportId = sports[0].Id},
+                // Index => 444
+                new Workout { Id = 445, Name ="Lunges", Description = "Can be performed forward or backward to target the quads and glutes.", SportId = sports[0].Id},
+                // Index => 445
+                new Workout { Id = 446, Name ="Hex Bar Squat", Description = "Allows for squatting with a more natural grip, reducing stress on the lower back.", SportId = sports[0].Id},
+                // Index => 446
+                new Workout { Id = 447, Name ="Jump Squats", Description = "A plyometric variation that builds explosive power in the legs.", SportId = sports[0].Id},
+                // Index => 447
+                new Workout { Id = 448, Name ="Farmer's Walk", Description = "Enhances grip strength and overall conditioning by carrying the bar over distance.", SportId = sports[0].Id},
+                // Upper Body Exercises
+                // Index => 448
+                new Workout { Id = 449, Name ="Overhead Press", Description = "Strengthens shoulders and triceps with a neutral grip, reducing shoulder strain.", SportId = sports[0].Id},
+                // Index => 449
+                new Workout { Id = 450, Name ="Floor Press", Description = "Targets the chest and triceps while minimizing shoulder strain compared to traditional bench pressing.", SportId = sports[0].Id},
+                // Index => 450
+                new Workout { Id = 451, Name ="Push-Ups on Trap Bar", Description = "Elevates the push-up position for increased range of motion and comfort.", SportId = sports[0].Id},
+                // Index => 451
+                new Workout { Id = 452, Name ="Bent Over Row", Description = "Engages the back muscles effectively while allowing for a neutral grip.", SportId = sports[0].Id},
+                // Index => 452
+                new Workout { Id = 453, Name ="Shrugs", Description = "Targets the trapezius muscles, focusing on shoulder stability and strength.", SportId = sports[0].Id},
+                // Index => 453
+                new Workout { Id = 454, Name ="Chest Supported Row", Description = "Provides support for the chest while targeting upper back muscles.", SportId = sports[0].Id},
+                // Index => 454
+                new Workout { Id = 455, Name ="Pendlay Row", Description = "A strict rowing variation that emphasizes pulling strength from a dead stop.", SportId = sports[0].Id},
+
+                // Core Exercises
+                // Index => 455
+                new Workout { Id = 456, Name ="Plank Holds", Description = "Engages core muscles effectively while stabilizing with the barbell.", SportId = sports[0].Id},                
+                // Index => 456
+                new Workout { Id = 457, Name ="Burpee Jumps with Trap Bar", Description = "Combines cardio with strength training, enhancing explosiveness and endurance.", SportId = sports[0].Id},
+                // Index => 457
+                new Workout { Id = 458, Name ="Suitcase Carry", Description = "Improves core stability and grip strength by carrying the bar on one side.", SportId = sports[0].Id},
+                
+                // Advanced Variations
+                // Index => 458
+                new Workout { Id = 459, Name ="Elevated Split Squat", Description = "Involves placing one foot on an elevated surface to increase range of motion and difficulty.", SportId = sports[0].Id},
+                // Index => 459
+                new Workout { Id = 460, Name ="Single Leg Deadlift", Description = "A balance-focused exercise that targets hamstrings and glutes unilaterally.", SportId = sports[0].Id},
+                // Index => 460
+                new Workout { Id = 461, Name ="Trap Bar Push Press", Description = "Combines a leg drive with an overhead press for full-body engagement.", SportId = sports[0].Id},
+                #endregion
+
+                #region Cambered Bar
+                // Lower Body Exercises
+                // Index => 461
+                new Workout { Id = 462, Name ="Cambered Bar Squat", Description = "A variation of the squat that allows for a lower center of gravity, promoting better balance and engagement of the posterior chain.", SportId = sports[0].Id},
+                // Index => 462
+                new Workout { Id = 463, Name ="Paused Squats", Description = "Incorporate pauses at the bottom of the squat to enhance strength and control.", SportId = sports[0].Id},
+                // Index => 463
+                new Workout { Id = 464, Name ="Box Squats", Description = "Sit back onto a box or bench to improve squat depth and technique.", SportId = sports[0].Id},
+                // Index => 464
+                new Workout { Id = 465, Name ="Front Squats", Description = "Use the cambered bar for front squats to challenge your core stability while maintaining an upright torso.", SportId = sports[0].Id},
+                // Index => 465
+                new Workout { Id = 466, Name ="Good Mornings", Description = "Hinge at the hips with the bar on your back to target the hamstrings and lower back.", SportId = sports[0].Id},
+                // Index => 466
+                new Workout { Id = 467, Name ="Lunges", Description = "Perform forward or reverse lunges with the cambered bar for added resistance.", SportId = sports[0].Id},
+                // Index => 467
+                new Workout { Id = 468, Name ="Romanian Deadlifts", Description = "Focus on hamstring development by lowering the bar while keeping your legs relatively straight.", SportId = sports[0].Id},
+                
+                // Upper Body Exercises
+                // Index => 468
+                new Workout { Id = 469, Name ="Cambered Bar Overhead Press", Description = "Press the bar overhead while standing or seated, benefiting from a neutral grip that reduces shoulder strain.", SportId = sports[0].Id},
+                // Index => 469
+                new Workout { Id = 470, Name ="Bent-Over Row", Description = "Hinge forward and row the cambered bar towards your torso to target the upper back and lats.", SportId = sports[0].Id},
+
+                // Index => 470
+                new Workout { Id = 471, Name ="Floor Press", Description = "Lying on the floor, press the cambered bar from a neutral position to engage the chest and triceps.", SportId = sports[0].Id},
+                // Index => 471
+                new Workout { Id = 472, Name ="Push-Ups on Cambered Bar", Description = "Elevate your push-up position using the cambered bar for increased range of motion.", SportId = sports[0].Id},
+                // Index => 472
+                new Workout { Id = 473, Name ="Shrugs", Description = "Use the cambered bar to perform shrugs, targeting the trapezius muscles effectively.", SportId = sports[0].Id},
+                
+                // Core Exercises
+                // Index => 473
+                new Workout { Id = 474, Name ="Plank Holds with Cambered Bar", Description = "Place your hands on the bar while holding a plank position to engage your core muscles.", SportId = sports[0].Id},
+                // Index => 474
+                new Workout { Id = 475, Name ="Suitcase Carry", Description = "Load one side of the cambered bar and carry it to improve grip strength and core stability.", SportId = sports[0].Id},
+                // Index => 475
+                new Workout { Id = 476, Name ="Farmers Walk", Description = "Carry the cambered bar over a distance to enhance grip strength and overall conditioning.", SportId = sports[0].Id},                
+                // Advanced Variations
+                // Index => 477
+                new Workout { Id = 477, Name ="Tempo Squats", Description = "Perform squats with controlled tempos (slow descent and explosive ascent) to increase time under tension.", SportId = sports[0].Id},
+                // Index => 478
+                new Workout { Id = 478, Name ="Single-Leg Deadlifts", Description = "Use the cambered bar for unilateral training, focusing on balance and coordination while targeting each leg individually.", SportId = sports[0].Id},
+                // Index => 479
+                new Workout { Id = 479, Name ="Split Squats", Description = "Perform split squats with one foot elevated behind you, using the cambered bar for added resistance.", SportId = sports[0].Id},
+                #endregion
+
+                #region Safety Bar
+                // Lower Body Exercises
+                // Index => 480
+                new Workout { Id = 480, Name ="Safety Bar Squat", Description = "The primary exercise that targets the quads, hamstrings, and glutes while allowing for a more upright torso position.", SportId = sports[0].Id},
+                // Index => 481
+                new Workout { Id = 481, Name ="Hatfield Squat", Description = "A variation where you can hold onto supports for balance, making it easier to focus on depth and form.", SportId = sports[0].Id},
+                // Index => 482
+                new Workout { Id = 482, Name ="Walking Lunges", Description = "Perform lunges while holding the Safety Bar to engage the legs and improve stability.", SportId = sports[0].Id},
+                // Index => 483
+                new Workout { Id = 483, Name ="Split Squats", Description = "Use the Safety Bar to perform split squats, enhancing unilateral leg strength.", SportId = sports[0].Id},
+                // Index => 484
+                new Workout { Id = 484, Name ="Good Mornings", Description = "Hinge at the hips while keeping your back straight to target the hamstrings and lower back.", SportId = sports[0].Id},
+                // Index => 485
+                new Workout { Id = 485, Name ="Upper Back Good Mornings", Description = "A variation focusing more on upper back engagement while performing the good morning movement.", SportId = sports[0].Id},
+                // Index => 486
+                new Workout { Id = 486, Name ="Side Bends", Description = "Perform side bends with the Safety Bar to target the obliques and improve core strength.", SportId = sports[0].Id},
+                // Index => 487
+                new Workout { Id = 487, Name ="Box Squats", Description = "Use a box or bench to squat down to, focusing on form and depth.", SportId = sports[0].Id},
+
+                // Upper Body Exercises
+                // Index => 488
+                new Workout { Id = 488, Name ="Tricep Extensions", Description = "Use the Safety Bar for overhead tricep extensions, effectively targeting the triceps.", SportId = sports[0].Id},
+                // Index => 489
+                new Workout { Id = 489, Name ="JM Press", Description = "A hybrid movement combining a close-grip bench press with a skull crusher for tricep development.", SportId = sports[0].Id},
+                // Index => 490
+                new Workout { Id = 490, Name ="Safety Bar Floor Press", Description = "Lying on the floor, press the Safety Bar from a neutral position to target the chest and triceps without straining the shoulders.", SportId = sports[0].Id},
+                // Index => 491
+                new Workout { Id = 491, Name ="Overhead Press", Description = "Press the bar overhead while standing or seated, benefiting from a stable grip that reduces shoulder strain.", SportId = sports[0].Id},
+                // Index => 492
+                new Workout { Id = 492, Name ="Shrugs", Description = "Use the Safety Bar to perform shrugs, targeting the trapezius muscles effectively.", SportId = sports[0].Id},
+                
+                // Core Exercises
+                // Index => 493
+                new Workout { Id = 493, Name ="Loaded Carry", Description = "Carrying the Safety Bar over a distance helps improve grip strength and core stability.", SportId = sports[0].Id},
+                // Index => 494
+                new Workout { Id = 494, Name ="Plank Holds with Safety Bar", Description = "Position yourself in a plank while holding onto the Safety Bar for added core engagement.", SportId = sports[0].Id},
+	            #endregion
+                
+
+                // Index => 495
+                new Workout { Id = 495, Name ="", Description = "", SportId = sports[0].Id},
+                // Index => 496
+                new Workout { Id = 496, Name ="", Description = "", SportId = sports[0].Id},
+                // Index => 497
+                new Workout { Id = 497, Name ="", Description = "", SportId = sports[0].Id},
+
+
+                
+
+
                 // Index => 407
                 new Workout { Id = 408, Name ="", Description = "", SportId = sports[0].Id},
                 // Index => 408
