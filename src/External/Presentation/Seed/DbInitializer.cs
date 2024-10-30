@@ -1,11 +1,4 @@
-﻿using Domain.Enums;
-using Domain.Models;
-using Microsoft.AspNetCore.Components.Server.Circuits;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System.Diagnostics;
-using System.Diagnostics.Metrics;
-
-namespace Presentation.Seed;
+﻿namespace Presentation.Seed;
 
 // Workout Strategies
 // 1- Supersets: Pair floor presses with other exercises like push-ups or overhead presses for increased intensity and muscle fatigue.
@@ -823,7 +816,6 @@ public static class DbInitializer
                 new Workout { Id = 253, Name="Progressive Overload Routine", Description="Focus on gradually increasing weights across various lifts performed in the power rack over time to build strength and muscle mass.", SportId = sports[0].Id },
                 #endregion
 
-                
                 #region Battle Ropes
                 // Index  => 253
                 new Workout { Id = 254, Name="Alternating Waves", Description="Raise one arm and then the other to create waves down the rope, focusing on speed and power.", SportId = sports[0].Id },
@@ -1410,71 +1402,284 @@ public static class DbInitializer
                 // Index => 475
                 new Workout { Id = 476, Name ="Farmers Walk", Description = "Carry the cambered bar over a distance to enhance grip strength and overall conditioning.", SportId = sports[0].Id},                
                 // Advanced Variations
-                // Index => 477
+                // Index => 476
                 new Workout { Id = 477, Name ="Tempo Squats", Description = "Perform squats with controlled tempos (slow descent and explosive ascent) to increase time under tension.", SportId = sports[0].Id},
-                // Index => 478
+                // Index => 477
                 new Workout { Id = 478, Name ="Single-Leg Deadlifts", Description = "Use the cambered bar for unilateral training, focusing on balance and coordination while targeting each leg individually.", SportId = sports[0].Id},
-                // Index => 479
+                // Index => 478
                 new Workout { Id = 479, Name ="Split Squats", Description = "Perform split squats with one foot elevated behind you, using the cambered bar for added resistance.", SportId = sports[0].Id},
                 #endregion
 
                 #region Safety Bar
                 // Lower Body Exercises
-                // Index => 480
+                // Index => 479
                 new Workout { Id = 480, Name ="Safety Bar Squat", Description = "The primary exercise that targets the quads, hamstrings, and glutes while allowing for a more upright torso position.", SportId = sports[0].Id},
-                // Index => 481
+                // Index => 480
                 new Workout { Id = 481, Name ="Hatfield Squat", Description = "A variation where you can hold onto supports for balance, making it easier to focus on depth and form.", SportId = sports[0].Id},
-                // Index => 482
+                // Index => 481
                 new Workout { Id = 482, Name ="Walking Lunges", Description = "Perform lunges while holding the Safety Bar to engage the legs and improve stability.", SportId = sports[0].Id},
-                // Index => 483
+                // Index => 482
                 new Workout { Id = 483, Name ="Split Squats", Description = "Use the Safety Bar to perform split squats, enhancing unilateral leg strength.", SportId = sports[0].Id},
-                // Index => 484
+                // Index => 483
                 new Workout { Id = 484, Name ="Good Mornings", Description = "Hinge at the hips while keeping your back straight to target the hamstrings and lower back.", SportId = sports[0].Id},
-                // Index => 485
+                // Index => 484
                 new Workout { Id = 485, Name ="Upper Back Good Mornings", Description = "A variation focusing more on upper back engagement while performing the good morning movement.", SportId = sports[0].Id},
-                // Index => 486
+                // Index => 485
                 new Workout { Id = 486, Name ="Side Bends", Description = "Perform side bends with the Safety Bar to target the obliques and improve core strength.", SportId = sports[0].Id},
-                // Index => 487
+                // Index => 486
                 new Workout { Id = 487, Name ="Box Squats", Description = "Use a box or bench to squat down to, focusing on form and depth.", SportId = sports[0].Id},
 
                 // Upper Body Exercises
-                // Index => 488
+                // Index => 487
                 new Workout { Id = 488, Name ="Tricep Extensions", Description = "Use the Safety Bar for overhead tricep extensions, effectively targeting the triceps.", SportId = sports[0].Id},
-                // Index => 489
+                // Index => 488
                 new Workout { Id = 489, Name ="JM Press", Description = "A hybrid movement combining a close-grip bench press with a skull crusher for tricep development.", SportId = sports[0].Id},
-                // Index => 490
+                // Index => 489
                 new Workout { Id = 490, Name ="Safety Bar Floor Press", Description = "Lying on the floor, press the Safety Bar from a neutral position to target the chest and triceps without straining the shoulders.", SportId = sports[0].Id},
-                // Index => 491
+                // Index => 490
                 new Workout { Id = 491, Name ="Overhead Press", Description = "Press the bar overhead while standing or seated, benefiting from a stable grip that reduces shoulder strain.", SportId = sports[0].Id},
-                // Index => 492
+                // Index => 491
                 new Workout { Id = 492, Name ="Shrugs", Description = "Use the Safety Bar to perform shrugs, targeting the trapezius muscles effectively.", SportId = sports[0].Id},
                 
                 // Core Exercises
-                // Index => 493
+                // Index => 492
                 new Workout { Id = 493, Name ="Loaded Carry", Description = "Carrying the Safety Bar over a distance helps improve grip strength and core stability.", SportId = sports[0].Id},
-                // Index => 494
+                // Index => 493
                 new Workout { Id = 494, Name ="Plank Holds with Safety Bar", Description = "Position yourself in a plank while holding onto the Safety Bar for added core engagement.", SportId = sports[0].Id},
-	            #endregion
-                
+                #endregion
 
+                #region Axle Bar
+                // Lower Body Exercises
+                // Index => 494
+                new Workout { Id = 495, Name ="Axle Bar Deadlift", Description = "A fundamental exercise for building overall strength in the posterior chain, particularly the hamstrings, glutes, and lower back.", SportId = sports[0].Id},
                 // Index => 495
-                new Workout { Id = 495, Name ="", Description = "", SportId = sports[0].Id},
+                new Workout { Id = 496, Name ="Axle Bar Squat", Description = "Perform squats with the Axle Bar to target the quads and glutes while benefiting from the thicker grip.", SportId = sports[0].Id},
                 // Index => 496
-                new Workout { Id = 496, Name ="", Description = "", SportId = sports[0].Id},
+                new Workout { Id = 497, Name ="Romanian Deadlift", Description = "Focus on hamstring development by hinging at the hips while keeping the knees slightly bent.", SportId = sports[0].Id},
                 // Index => 497
-                new Workout { Id = 497, Name ="", Description = "", SportId = sports[0].Id},
-
-
+                new Workout { Id = 498, Name ="Good Mornings", Description = "Hinge at the hips with the bar across your shoulders to target the hamstrings and lower back.", SportId = sports[0].Id},
+                // Index => 498
+                new Workout { Id = 499, Name ="Walking Lunges", Description = "Use the Axle Bar for added resistance while performing lunges to enhance leg strength and stability.", SportId = sports[0].Id},
+                // Index => 499
+                new Workout { Id = 500, Name ="Split Squats", Description = "Perform split squats with the Axle Bar to isolate each leg and improve balance.", SportId = sports[0].Id},
+                // Upper Body Exercises
+                // Index => 500
+                new Workout { Id = 501, Name ="Axle Bar Overhead Press", Description = "Press the Axle Bar overhead to develop shoulder strength, utilizing a neutral grip that can reduce shoulder strain.", SportId = sports[0].Id},
+                // Index => 501
+                new Workout { Id = 503, Name ="Bent-Over Row", Description = "Hinge at the hips and row the Axle Bar towards your torso to engage the upper back and lats.", SportId = sports[0].Id},
+                // Index => 502
+                new Workout { Id = 504, Name ="Floor Press", Description = "Lying on your back, press the Axle Bar from a neutral position to target the chest and triceps effectively.", SportId = sports[0].Id},
+                // Index => 503
+                new Workout { Id = 505, Name ="Shrugs", Description = "Use the Axle Bar for shrugs to effectively target the trapezius muscles.", SportId = sports[0].Id},
+                // Index => 504
+                new Workout { Id = 506, Name ="Axle Bar Bench Press", Description = "Perform bench presses with the Axle Bar to enhance chest development while challenging grip strength.", SportId = sports[0].Id},
+                // Core Exercises
+                // Index => 505
+                new Workout { Id = 507, Name ="Plank Holds with Axle Bar", Description = "Position yourself in a plank while holding onto the Axle Bar for increased core engagement.", SportId = sports[0].Id},
+                // Index => 506
+                new Workout { Id = 508, Name ="Farmers Walk", Description = "Carrying the Axle Bar over a distance improves grip strength and overall conditioning.", SportId = sports[0].Id},
+                // Index => 507
+                new Workout { Id = 509, Name ="Suitcase Carry", Description = "Load one side of the Axle Bar and carry it to challenge core stability and grip strength unilaterally.", SportId = sports[0].Id},
                 
+                // Advanced Variations
+                // Index => 508                
+                new Workout { Id = 510, Name ="Axle Bar Clean and Press", Description = "A compound movement that combines a clean with an overhead press, enhancing full-body coordination and strength.", SportId = sports[0].Id},                
+                // Index => 509
+                new Workout { Id = 511, Name ="Axle Bar Thrusters", Description = "A dynamic movement combining a front squat with an overhead press, great for conditioning and leg development.", SportId = sports[0].Id},
+                // Index => 510
+                new Workout { Id = 512, Name ="Jump Squats with Axle Bar", Description = "Incorporate jump squats for explosive power training while using the added resistance of the Axle Bar.", SportId = sports[0].Id},
+                #endregion
 
+                #region Swiss Bar
+                // 
+                // Index => 511
+                new Workout { Id = 513, Name ="Swiss Bar Bench Press", Description = "A staple exercise for building chest strength while reducing shoulder strain.", SportId = sports[0].Id},
+                // Index => 512
+                new Workout { Id = 514, Name ="Swiss Bar Overhead Press", Description = "Targets the shoulders and triceps with a neutral grip to minimize discomfort.", SportId = sports[0].Id},
+                // Index => 513
+                new Workout { Id = 515, Name ="Swiss Bar Bent-Over Row", Description = "Engages the back muscles effectively while allowing for a neutral grip to reduce elbow strain.", SportId = sports[0].Id},
+                // Index => 514
+                new Workout { Id = 516, Name ="Swiss Bar Skull Crushers", Description = "Focuses on triceps development with less stress on the elbows compared to traditional methods.", SportId = sports[0].Id},
+                // Index => 515
+                new Workout { Id = 517, Name ="Swiss Bar Hammer Curls", Description = "A bicep exercise that allows for heavier loads due to the bilateral grip.", SportId = sports[0].Id},
+                // Index => 516
+                new Workout { Id = 518, Name ="Swiss Bar Pullovers", Description = "Works the lats and chest, providing a strong stretch and contraction.", SportId = sports[0].Id},
+                // Index => 517
+                new Workout { Id = 519, Name ="Swiss Bar Push-Ups", Description = "Increases range of motion and allows for various grip positions to target different muscle areas.", SportId = sports[0].Id},
+                // Index => 518
+                new Workout { Id = 520, Name ="Swiss Bar Seal Row", Description = "A variation of the row that eliminates momentum, focusing purely on back strength.", SportId = sports[0].Id},
+                // Index => 519
+                new Workout { Id = 521, Name ="Swiss Bar Ab Rollout", Description = "Engages the core effectively while utilizing the Swiss bar for stability.", SportId = sports[0].Id},
+                // Index => 520
+                new Workout { Id = 522, Name ="Swiss Bar Front Raise", Description = "Targets the front deltoids with a safer shoulder position.", SportId = sports[0].Id},
+                // Index => 522
+                new Workout { Id = 523, Name ="Swiss Bar Single-Leg Romanian Deadlift", Description = "Enhances balance and unilateral strength in the hamstrings and glutes.", SportId = sports[0].Id},
+                // Index => 523
+                new Workout { Id = 524, Name ="Swiss Bar Jammer Press", Description = "A dynamic pressing movement that can improve explosiveness and power.", SportId = sports[0].Id},
+                // Index => 524
+                new Workout { Id = 525, Name ="Swiss Bar Supported Hip Thrust", Description = "Utilizes the Swiss bar to add weight to hip thrusts, targeting glute development.", SportId = sports[0].Id},
+                // Index => 525
+                new Workout { Id = 526, Name ="Swiss Bar Elevated Rack Row", Description = "A variation of the row that focuses on upper back engagement from an elevated position.", SportId = sports[0].Id},
+                // Index => 526
+                new Workout { Id = 527, Name ="Swiss Bar Suitcase Carry", Description = "Enhances grip strength and engages the core through unilateral loading.", SportId = sports[0].Id},
+                // Index => 527
+                new Workout { Id = 528, Name ="Swiss Bar Zercher Squat", Description = "A squat variation that emphasizes core stability and leg strength while reducing forearm strain.", SportId = sports[0].Id},
+                // Index => 528
+                new Workout { Id = 529, Name ="Swiss Bar Hamstring Curl", Description = "A lower-intensity exercise targeting hamstring strength, suitable for later in workouts.", SportId = sports[0].Id},
+                // Index => 529
+                new Workout { Id = 530, Name ="Swiss Bar Weighted Push-Up", Description = "Adds resistance to traditional push-ups, increasing difficulty and muscle engagement.", SportId = sports[0].Id},
+                // Index => 530
+                new Workout { Id = 531, Name ="Swiss Bar Elevated Push-Up", Description = "Similar to weighted push-ups but performed at an angle for increased challenge.", SportId = sports[0].Id},
+                // Index => 531
+                new Workout { Id = 532, Name ="Swiss Bar Trap Raise", Description = "Focuses on developing upper traps with a neutral grip for comfort during lifting.", SportId = sports[0].Id},
 
-                // Index => 407
-                new Workout { Id = 408, Name ="", Description = "", SportId = sports[0].Id},
-                // Index => 408
-                new Workout { Id = 409, Name ="", Description = "", SportId = sports[0].Id},
+                #endregion
 
+                #region Buffalo Bar
+                // Index => 532
+                new Workout { Id = 533, Name ="Buffalo Bar Back Squat", Description = "Utilizes the unique curve of the bar to allow for a more natural shoulder position, reducing discomfort while performing squats.", SportId = sports[0].Id},
+                // Index => 533
+                new Workout { Id = 534, Name ="Buffalo Bar Front Squat", Description = "The design allows the bar to rest comfortably on the shoulders, making it easier to maintain an upright torso during the squat.", SportId = sports[0].Id},
+                // Index => 534
+                new Workout { Id = 535, Name ="Buffalo Bar Bench Press", Description = "The bend in the bar enables a greater range of motion, allowing for deeper presses that can enhance muscle activation in the chest.", SportId = sports[0].Id},
+                // Index => 535
+                new Workout { Id = 536, Name ="Buffalo Bar Overhead Press", Description = "This exercise benefits from the neutral grip position, which can reduce shoulder strain compared to traditional overhead pressing.", SportId = sports[0].Id},
+                // Index => 536
+                new Workout { Id = 537, Name ="Buffalo Bar Lunges", Description = "The bar's design allows for comfortable lunging movements without straining the shoulders, making it ideal for leg workouts.", SportId = sports[0].Id},
+                // Index => 537
+                new Workout { Id = 538, Name ="Buffalo Bar Good Mornings", Description = "This exercise targets the hamstrings and lower back while providing a stable grip and comfortable positioning on the shoulders.", SportId = sports[0].Id},
+                // Index => 538
+                new Workout { Id = 539, Name ="Buffalo Bar Romanian Deadlift", Description = "Similar to traditional deadlifts but with improved comfort due to the bar's design, focusing on hamstring and glute engagement.", SportId = sports[0].Id},
+                // Index => 539
+                new Workout { Id = 540, Name ="Buffalo Bar Skull Crushers", Description = "A triceps exercise that allows for a neutral grip, reducing elbow strain while effectively targeting the triceps.", SportId = sports[0].Id},
+                // Index => 540
+                new Workout { Id = 541, Name ="Buffalo Bar Bent-Over Row", Description = "This variation allows for a neutral grip, reducing stress on the elbows and shoulders while effectively working the back muscles.", SportId = sports[0].Id},
+                // Index => 541
+                new Workout { Id = 542, Name ="Buffalo Bar Ab Rollout", Description = "Engages the core effectively while providing stability through the unique grip and positioning of the bar.", SportId = sports[0].Id},
+                // Index => 542
+                new Workout { Id = 543, Name ="Buffalo Bar Farmer's Walk", Description = "The neutral grip helps maintain shoulder stability while carrying heavy loads, enhancing grip strength and core stability.", SportId = sports[0].Id},
+                // Index => 543
+                new Workout { Id = 544, Name ="Buffalo Bar Single-Leg Deadlift", Description = "Focuses on unilateral strength development in the hamstrings and glutes while maintaining balance and stability.", SportId = sports[0].Id},
+                #endregion
+                
+                #region Fixed Barbells
+                //
+                // Index => 544
+                new Workout { Id = 545, Name ="Barbell Bench Press", Description = "A fundamental exercise for developing chest, shoulders, and triceps strength.", SportId = sports[0].Id},
+                // Index => 545
+                new Workout { Id = 546, Name ="Barbell Squat", Description = "Targets the quadriceps, hamstrings, and glutes, essential for lower body strength.", SportId = sports[0].Id},
+                // Index => 546
+                new Workout { Id = 547, Name ="Barbell Deadlift", Description = "Engages the entire posterior chain, including the back, glutes, and hamstrings.", SportId = sports[0].Id},
+                // Index => 547
+                new Workout { Id = 548, Name ="Barbell Bent-Over Row", Description = "Focuses on the upper back, lats, and biceps while promoting good posture.", SportId = sports[0].Id},
+                // Index => 548
+                new Workout { Id = 549, Name ="Barbell Overhead Press", Description = "Strengthens the shoulders and triceps while engaging the core for stability.", SportId = sports[0].Id},
+                // Index => 549
+                new Workout { Id = 550, Name ="Barbell Curl", Description = "Primarily targets the biceps; variations include standing curls and preacher curls.", SportId = sports[0].Id},
+                // Index => 550
+                new Workout { Id = 551, Name ="Barbell Skull Crushers", Description = "Isolates the triceps effectively while minimizing strain on the elbows.", SportId = sports[0].Id},
+                // Index => 551
+                new Workout { Id = 552, Name ="Barbell Front Squat", Description = "Emphasizes the quadriceps and core stability, promoting an upright squat position.", SportId = sports[0].Id},
+                // Index => 552
+                new Workout { Id = 553, Name ="Barbell Romanian Deadlift", Description = "Targets the hamstrings and glutes, focusing on hip hinge mechanics.", SportId = sports[0].Id},                
+                // Index => 553
+                new Workout { Id = 554, Name ="Barbell Hip Thrust", Description = "Isolates the glutes for strength development and improved posture.", SportId = sports[0].Id},
+                // Index => 554
+                new Workout { Id = 555, Name ="Barbell Lunges", Description = "Engages the legs and glutes; can be performed as forward or reverse lunges.", SportId = sports[0].Id},
+                // Index => 555
+                new Workout { Id = 556, Name ="Barbell High Pull", Description = "A dynamic movement that targets the upper back and shoulders while improving explosiveness.", SportId = sports[0].Id},
+                // Index => 556
+                new Workout { Id = 557, Name ="Barbell Landmine Press", Description = "Excellent for shoulder stability and strength; performed with one end of the bar secured.", SportId = sports[0].Id},
+                // Index => 557
+                new Workout { Id = 558, Name ="Barbell Man Maker", Description = "A full-body exercise combining a burpee with a clean and press to elevate heart rate.", SportId = sports[0].Id},
+                // Index => 558
+                new Workout { Id = 559, Name ="Barbell Reverse Bicep Curl", Description = "Works both the biceps and forearms through an overhand grip for increased grip strength.", SportId = sports[0].Id},
+                // Index => 559
+                new Workout { Id = 560, Name ="Barbell Push Press", Description = "A powerful overhead movement that engages the legs for momentum in pressing.", SportId = sports[0].Id},
+                // Index => 560
+                new Workout { Id = 561, Name ="Barbell Zercher Squat", Description = "Holds the bar in the crook of your arms, emphasizing core engagement and leg strength.", SportId = sports[0].Id},
+                // Index => 561
+                new Workout { Id = 562, Name ="Barbell Farmer's Walk", Description = "Enhances grip strength and core stability while walking with a fixed barbell at your side.", SportId = sports[0].Id},
+                // Index => 562
+                new Workout { Id = 563, Name ="Barbell Tyre Flip (alternative)", Description = "A functional exercise simulating tire flips using a barbell to engage multiple muscle groups.", SportId = sports[0].Id},
+                // Index => 563
+                new Workout { Id = 564, Name ="Barbell Abs Rollout", Description = "Utilizes a fixed bar for rolling out to engage core muscles effectively.", SportId = sports[0].Id},
+                #endregion
 
-
+                #region Abdominal
+                // Index => 564 / Target => Upper Abs
+                new Workout { Id = 565, Name ="Sit-Ups", Description = "Lie on your back with knees bent and feet secured. Raise your torso towards your knees.", SportId = sports[0].Id},
+                // Index => 565 / Target => Lower Abs
+                new Workout { Id = 566, Name ="Leg Lifts", Description = "Lie flat and lift your legs until perpendicular to the floor, then lower them slowly.", SportId = sports[0].Id},
+                // Index => 566 / Target => Upper and Lower Abs
+                new Workout { Id = 567, Name ="V-Ups", Description = "Simultaneously raise your legs and torso off the ground, reaching for your toes.", SportId = sports[0].Id},
+                // Index => 567 / Target => Lower Abs
+                new Workout { Id = 568, Name ="Seated Knee Tucks", Description = "Sit with legs extended, pull your knees to your chest, then return to the starting position.", SportId = sports[0].Id},
+                // Index => 568 / Target => Upper and Lower Abs
+                new Workout { Id = 569, Name ="Toe Touches", Description = "Lie flat, lift your legs and reach your hands towards your toes.", SportId = sports[0].Id},
+                // Index => 569 / Target => Upper Abs
+                new Workout { Id = 570, Name ="Crunches", Description = "Curl your torso towards your knees while keeping your lower back on the floor.", SportId = sports[0].Id},
+                // Index => 570 / Target => Reverse Crunches
+                new Workout { Id = 571, Name ="Upper and Lower Abs", Description = "Pull your knees towards your chest while curling your torso upwards.", SportId = sports[0].Id},
+                // Index => 571 / Target => Lower Abs
+                new Workout { Id = 572, Name ="Hanging Leg Raises", Description = "Hang from a pull-up bar and raise your legs to a 90-degree angle.", SportId = sports[0].Id},
+                // Index => 572 / Target => Upper and Lower Abs
+                new Workout { Id = 573, Name ="Cable Crunches", Description = "Kneel at a cable machine and pull the rope down while crunching forward.", SportId = sports[0].Id},
+                // Index => 573 / Target => Core Stability
+                new Workout { Id = 574, Name ="Plank", Description = "Hold a push-up position with a straight body line, engaging the core.", SportId = sports[0].Id},
+                // Index => 574 / Target => Obliques
+                new Workout { Id = 575, Name ="Woodchoppers", Description = "Use a cable or resistance band to simulate chopping wood across your body.", SportId = sports[0].Id},
+                // Index => 575 / Target => Core Stability
+                new Workout { Id = 576, Name ="Ab Rollouts", Description = "Roll out on an ab wheel or barbell from a kneeling position, extending forward.", SportId = sports[0].Id},
+                // Index => 576 / Target => Core Stability and Mobility
+                new Workout { Id = 577, Name ="Spider Crawls", Description = "Crawl forward on all fours while maintaining tight abs.", SportId = sports[0].Id},
+                // Index => 577 / Target => Full Core Engagement
+                new Workout { Id = 578, Name ="Sledgehammer Swings", Description = "Swing a sledgehammer against a tire or similar object, engaging the core throughout.", SportId = sports[0].Id},
+                // Index => 578 / Target => Obliques and Upper Abs
+                new Workout { Id = 579, Name ="Cross-Body Crunches (Bicycle crunches)", Description = "Perform crunches while bringing opposite elbow to knee in a twisting motion.", SportId = sports[0].Id},
+                // Index => 579 / Target => Lower Abs
+                new Workout { Id = 580, Name ="Decline Reverse Crunches", Description = "Use a decline bench to perform reverse crunches for added difficulty.", SportId = sports[0].Id},
+                // Index => 580 / Target => Bottoms Up (Hip Raise)
+                new Workout { Id = 581, Name ="Lower Abs and Glutes", Description = "Lying on your back, raise hips off the ground while keeping legs extended.", SportId = sports[0].Id},
+                // Index => 581 / Target => Obliques
+                new Workout { Id = 582, Name ="Russian Twists", Description = "Sit with knees bent, lean back slightly, and twist from side to side holding a weight.", SportId = sports[0].Id},
+                // Index => 582 / Target => Full Core Engagement and Cardio
+                new Workout { Id = 583, Name ="Mountain Climbers", Description = "In a plank position, alternate bringing knees toward the chest quickly.", SportId = sports[0].Id},
+                // Index => 583 / Target => Lower Abs
+                new Workout { Id = 584, Name ="Flutter Kicks", Description = "Lie on your back and alternate kicking legs up and down while keeping them straight.", SportId = sports[0].Id},
+                // Index => 584 / Target =>
+                new Workout { Id = 585, Name ="Side plank", Description = "", SportId = sports[0].Id},
+                // Index => 585 / Target =>
+                new Workout { Id = 586, Name ="Scissor kicks", Description = "", SportId = sports[0].Id},
+                // Index => 586 / Target =>
+                new Workout { Id = 587, Name ="Copenhagen plank", Description = "", SportId = sports[0].Id},
+                // Index => 587 / Target =>
+                new Workout { Id = 588, Name ="Hollow hold", Description = "", SportId = sports[0].Id},
+                // Index => 588 / Target =>
+                new Workout { Id = 589, Name ="Squat", Description = "", SportId = sports[0].Id},
+                // Index => 589 / Target =>
+                new Workout { Id = 590, Name ="Barbell rollout", Description = "", SportId = sports[0].Id},
+                // Index => 590 / Target =>
+                new Workout { Id = 591, Name ="Swiss ball crunch", Description = "", SportId = sports[0].Id},
+                // Index => 591 / Target =>
+                new Workout { Id = 592, Name ="Deadbug", Description = "", SportId = sports[0].Id},
+                // Index => 582 / Target =>
+                new Workout { Id = 593, Name ="Cable crunch", Description = "", SportId = sports[0].Id},
+                // Index => 583 / Target =>
+                new Workout { Id = 594, Name ="Reverse crunch", Description = "", SportId = sports[0].Id},
+                // Index => 584 / Target =>
+                new Workout { Id = 595, Name ="Bird dog exercise", Description = "", SportId = sports[0].Id},
+                // Index => 585 / Target =>
+                new Workout { Id = 596, Name ="Flutter kick", Description = "", SportId = sports[0].Id},
+                // Index => 586 / Target =>
+                new Workout { Id = 597, Name ="Toe touchers", Description = "", SportId = sports[0].Id},
+                // Index => 587 / Target =>
+                new Workout { Id = 598, Name ="Dead bug", Description = "", SportId = sports[0].Id},
+                // Index => 598 / Target =>
+                new Workout { Id = 599, Name ="Crunch", Description = "", SportId = sports[0].Id},
+                // Index => 599 / Target =>
+                new Workout { Id = 600, Name ="Horizontal Cable Woodchop", Description = "", SportId = sports[0].Id},
+                #endregion
 
             };
             await context.Workouts.AddRangeAsync(workouts);
