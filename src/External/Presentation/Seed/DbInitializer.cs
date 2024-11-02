@@ -31,50 +31,85 @@ public static class DbInitializer
             {
                 // Chest
                 //new Body { BodyPartId = 10, Name = "Torso" },
+                // Index => 0
                 new Body { Id = 1, Name = "Chest" },
+                // Index => 1
                 new Body { Id = 2, Name = "Pectoralis Major", ParentId = 1 },
+                // Index => 2
                 new Body { Id = 3, Name = "Pectoralis Minor", ParentId = 1 },
 
                 // Back
+                // Index => 3
                 new Body { Id = 11, Name = "Back"},
+                // Index => 4
                 new Body { Id = 12, Name = "Upper Back", ParentId = 11 },
+                // Index => 5
                 new Body { Id = 13, Name = "Middle Back", ParentId = 11 },
+                // Index => 6
                 new Body { Id = 14, Name = "Lower Back", ParentId = 11 },
+                // Index => 7
                 new Body { Id = 15, Name = "Latissimus Dorsi (Lats)", ParentId = 11 },
+                // Index => 8
                 new Body { Id = 16, Name = "Trapezius (Traps)", ParentId = 11 },
+                // Index => 9
                 new Body { Id = 17, Name = "Rhomboids", ParentId = 11 },
+                // Index => 10
                 new Body { Id = 18, Name = "Erector Spinae", ParentId = 11 },
 
                 // Shoulders
+                // Index => 11
                 new Body { Id = 21, Name = "Shoulders" },
+                // Index => 12
                 new Body { Id = 22, Name = "Anterior Deltoids", ParentId = 21 },
+                // Index => 13
                 new Body { Id = 23, Name = "Lateral Deltoids", ParentId = 21 },
+                // Index => 14
                 new Body { Id = 24, Name = "Posterior Deltoids", ParentId = 21 },
 
                 // Arms
+                // Index => 15
                 new Body { Id = 31, Name = "Arms And Hands"},
+                // Index => 16
                 new Body { Id = 32, Name = "Biceps Brachii", ParentId = 31 },
+                // Index => 17
                 new Body { Id = 33, Name = "Triceps Brachii", ParentId = 31 },
+                // Index => 18
                 new Body { Id = 34, Name = "Brachialis (Lower Biceps)", ParentId = 31 },
+                // Index => 19
                 new Body { Id = 35, Name = "Forearm", ParentId = 31 },
+                // Index => 20
                 new Body { Id = 36, Name = "Wrists", ParentId = 31 },
 
                 // Abdominals
+                // Index => 21
                 new Body { Id = 41, Name = "Abdominals" },
+                // Index => 22
                 new Body { Id = 42, Name = "Rectus Abdominis", ParentId = 41 },
+                // Index => 23
                 new Body { Id = 43, Name = "Internal Obliques", ParentId = 41 },
+                // Index => 24
                 new Body { Id = 44, Name = "External Obliques", ParentId = 41 },
+                // Index => 25
                 new Body { Id = 45, Name = "Core", ParentId = 41 },
 
                 // Legs
+                // Index => 26
                 new Body { Id = 51, Name = "Legs" },
+                // Index => 27
                 new Body { Id = 52, Name = "Quadriceps", ParentId = 51 },
+                // Index => 28
                 new Body { Id = 53, Name = "Hamstrings", ParentId = 51 },
+                // Index => 29
                 new Body { Id = 54, Name = "Gluteus Maximus", ParentId = 51 },
+                // Index => 30
                 new Body { Id = 55, Name = "Gluteus Medius", ParentId = 51 },
+                // Index => 31
                 new Body { Id = 56, Name = "Gluteus Minimus", ParentId = 51 },
+                // Index => 32
                 new Body { Id = 57, Name = "Calves", ParentId = 51 },
+                // Index => 33
                 new Body { Id = 58, Name = "Gastrocnemius Calves", ParentId = 51 },
+                // Index => 34
                 new Body { Id = 59, Name = "Soleus Calves", ParentId = 51 },
             };
             await context.Bodies.AddRangeAsync(bodies);
@@ -89,70 +124,90 @@ public static class DbInitializer
                 // None
 
                 // Index => 0
-                new Equipment { Name = "Body Only", EquipmentType = EquipmentType.Body, Description= "" }, 
+                new Equipment { Id = 1, Name = "Body Only", EquipmentType = EquipmentType.Body, Description= "" }, 
 
                 // Free Weights
                 // Index => 1
-                new Equipment { Name = "Dumbells", EquipmentType = EquipmentType.Machine, Description= "Versatile weights for various exercises targeting multiple muscle groups"},
+                new Equipment { Id = 2, Name = "Dumbells", EquipmentType = EquipmentType.Machine, Description= "Versatile weights for various exercises targeting multiple muscle groups"},
                 // Index => 2
-                new Equipment { Name = "Barbells", EquipmentType = EquipmentType.Machine, Description= "Long bars used for heavy lifting, ideal for compound movements"},
+                new Equipment { Id = 3, Name = "Barbells", EquipmentType = EquipmentType.Machine, Description= "Long bars used for heavy lifting, ideal for compound movements"},
                 // Index => 3
-                new Equipment { Name = "KettleBells", EquipmentType = EquipmentType.Machine, Description= "Cast iron weights used for dynamic exercises that combine strength and cardio"},
+                new Equipment { Id = 4, Name = "KettleBells", EquipmentType = EquipmentType.Machine, Description= "Cast iron weights used for dynamic exercises that combine strength and cardio"},
 
                 // Machines
                 //new Equipment { Name = "Machine", EquipmentType = EquipmentType.Machine},
                 // Index => 4
-                new Equipment { Name = "Smith Machine", EquipmentType = EquipmentType.Machine, Description= "A barbell fixed within steel rails, providing stability for various lifts"},
+                new Equipment { Id = 5, Name = "Smith Machine", EquipmentType = EquipmentType.Machine, Description= "A barbell fixed within steel rails, providing stability for various lifts"},
                 // Index => 5
-                new Equipment { Name = "Leg Press Machine", EquipmentType = EquipmentType.Machine, Description= "Targets the quadriceps, hamstrings, and glutes"},
+                new Equipment { Id = 6, Name = "Leg Press Machine", EquipmentType = EquipmentType.Machine, Description= "Targets the quadriceps, hamstrings, and glutes"},
                 // Index => 6
-                new Equipment { Name = "Chest Press Machine", EquipmentType = EquipmentType.Machine, Description= "Focuses on the chest muscles with guided movements"},
+                new Equipment { Id = 7, Name = "Chest Press Machine", EquipmentType = EquipmentType.Machine, Description= "Focuses on the chest muscles with guided movements"},
                 // Index => 7
-                new Equipment { Name = "Lat Pulldown Machine", EquipmentType = EquipmentType.Machine, Description= "Targets the latissimus dorsi muscles in the back"},
+                new Equipment { Id = 8, Name = "Lat Pulldown Machine", EquipmentType = EquipmentType.Machine, Description= "Targets the latissimus dorsi muscles in the back"},
                 // Index => 8
-                new Equipment { Name = "Leg Curl Machine", EquipmentType = EquipmentType.Machine, Description= "Isolates the hamstrings for targeted strengthening"},
+                new Equipment { Id = 9, Name = "Leg Curl Machine", EquipmentType = EquipmentType.Machine, Description= "Isolates the hamstrings for targeted strengthening"},
                 // Index => 9
-                new Equipment { Name = "Leg Extension Machine", EquipmentType = EquipmentType.Machine, Description= "Focuses on the quadriceps"},
+                new Equipment { Id = 10, Name = "Leg Extension Machine", EquipmentType = EquipmentType.Machine, Description= "Focuses on the quadriceps"},
                 // Index => 10
-                new Equipment { Name = "Cable Machine", EquipmentType = EquipmentType.Machine, Description= "Versatile machines that allow for a wide range of exercises using adjustable cables"},
+                new Equipment { Id = 11, Name = "Cable Machine", EquipmentType = EquipmentType.Machine, Description= "Versatile machines that allow for a wide range of exercises using adjustable cables"},
 
                 // Index => 11
-                new Equipment { Name = "Bench Press", EquipmentType = EquipmentType.Machine, Description = " Performed lying on a bench, allowing for a full range of motion as the barbell can descend below the chest level"},                
+                new Equipment { Id = 12, Name = "Bench Press", EquipmentType = EquipmentType.Machine, Description = " Performed lying on a bench, allowing for a full range of motion as the barbell can descend below the chest level"},                
                 // Index => 12
-                new Equipment { Name = "Floor Press", EquipmentType = EquipmentType.Machine, Description = "Executed lying on the floor, which limits the range of motion since the elbows stop descending when they touch the ground"},
+                new Equipment { Id = 13, Name = "Floor Press", EquipmentType = EquipmentType.Machine, Description = "Executed lying on the floor, which limits the range of motion since the elbows stop descending when they touch the ground"},
 
                 // Cardiovascular Equipment
-                new Equipment { Name = "Treadmill", EquipmentType = EquipmentType.Equipment, Description= "Ideal for running or walking to improve cardiovascular fitness"},
-                new Equipment { Name = "Rowing Machine", EquipmentType = EquipmentType.Equipment, Description= "Provides a full-body workout simulating rowing motions"},
-                new Equipment { Name = "stationary Bike", EquipmentType = EquipmentType.Equipment, Description= "Great for low-impact cardiovascular workouts"},
-                new Equipment { Name = "Stair Climber", EquipmentType = EquipmentType.Equipment, Description= "Targets lower body muscles while providing cardio benefits"},
+                // Index => 13
+                new Equipment { Id = 14, Name = "Treadmill", EquipmentType = EquipmentType.Equipment, Description= "Ideal for running or walking to improve cardiovascular fitness"},
+                // Index => 14
+                new Equipment { Id = 15, Name = "Rowing Machine", EquipmentType = EquipmentType.Equipment, Description= "Provides a full-body workout simulating rowing motions"},
+                // Index => 15
+                new Equipment { Id = 16, Name = "stationary Bike", EquipmentType = EquipmentType.Equipment, Description= "Great for low-impact cardiovascular workouts"},
+                // Index => 16
+                new Equipment { Id = 17, Name = "Stair Climber", EquipmentType = EquipmentType.Equipment, Description= "Targets lower body muscles while providing cardio benefits"},
 
                 // Specialty Equipment
-                new Equipment { Name = "Power Rack", EquipmentType = EquipmentType.Equipment, Description= "Essential for performing squats and bench presses safely with a spotter"},
-                new Equipment { Name = "Battle Ropes", EquipmentType = EquipmentType.Equipment, Description= "Used for high-intensity interval training, engaging multiple muscle groups"},
-                new Equipment { Name = "Bands", EquipmentType = EquipmentType.Equipment, Description= ""},
+                // Index => 17
+                new Equipment { Id = 18, Name = "Power Rack", EquipmentType = EquipmentType.Equipment, Description= "Essential for performing squats and bench presses safely with a spotter"},
+                // Index => 18
+                new Equipment { Id = 19, Name = "Battle Ropes", EquipmentType = EquipmentType.Equipment, Description= "Used for high-intensity interval training, engaging multiple muscle groups"},
+                // Index => 19
+                new Equipment { Id = 20, Name = "Bands", EquipmentType = EquipmentType.Equipment, Description= ""},
                 // new Equipment { Name = "Resistance Bands", EquipmentType = EquipmentType.Equipment, Description= "Portable bands that provide resistance for various exercises"},
-                new Equipment { Name = "Stability Ball", EquipmentType = EquipmentType.Equipment, Description= "Used to enhance core strength and stability during workouts"},
+                // Index => 20
+                new Equipment { Id = 21, Name = "Stability Ball", EquipmentType = EquipmentType.Equipment, Description= "Used to enhance core strength and stability during workouts"},
 
                 // Other 
-                new Equipment { Name = "Foam Roll", EquipmentType = EquipmentType.Equipment, Description= "For muscle recovery and myofascial release post-workout"},
-                new Equipment { Name = "Abdominal Bench", EquipmentType = EquipmentType.Equipment, Description= "Designed specifically for core workouts, targeting abdominal muscles"},
-                new Equipment { Name = "Pull-Up Bar", EquipmentType = EquipmentType.Equipment, Description= "Essential for upper body strength training through pull-ups and chin-ups"},
-                new Equipment { Name = "Cable", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "Medicine Ball", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "E-Z Curl Bar", EquipmentType = EquipmentType.Machine, Description= ""},
-
-                new Equipment { Name = "Trap Bar (Hex Bar)", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "Cambered Bar", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "Safety Bar", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "Axle Bar", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "Swiss Bar", EquipmentType = EquipmentType.Machine, Description= ""},
-
-                new Equipment { Name = "Buffalo Bar", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "Fixed Barbells", EquipmentType = EquipmentType.Machine, Description= ""},
-
-                new Equipment { Name = "Abdominal", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "Other", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 21
+                new Equipment { Id = 22, Name = "Foam Roll", EquipmentType = EquipmentType.Equipment, Description= "For muscle recovery and myofascial release post-workout"},
+                // Index => 22
+                new Equipment { Id = 23, Name = "Abdominal Bench", EquipmentType = EquipmentType.Equipment, Description= "Designed specifically for core workouts, targeting abdominal muscles"},
+                // Index => 23
+                new Equipment { Id = 24, Name = "Pull-Up Bar", EquipmentType = EquipmentType.Equipment, Description= "Essential for upper body strength training through pull-ups and chin-ups"},
+                // Index => 24
+                new Equipment { Id = 25, Name = "Cable", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 25
+                new Equipment { Id = 26, Name = "Medicine Ball", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 26
+                new Equipment { Id = 27, Name = "E-Z Curl Bar", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 27
+                new Equipment { Id = 28, Name = "Trap Bar (Hex Bar)", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 28
+                new Equipment { Id = 29, Name = "Cambered Bar", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 29
+                new Equipment { Id = 30, Name = "Safety Bar", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 30
+                new Equipment { Id = 31, Name = "Axle Bar", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 31
+                new Equipment { Id = 32, Name = "Swiss Bar", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 32
+                new Equipment { Id = 33, Name = "Buffalo Bar", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 33
+                new Equipment { Id = 34, Name = "Fixed Barbells", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 34
+                new Equipment { Id = 35, Name = "Abdominal", EquipmentType = EquipmentType.Machine, Description= ""},
+                // Index => 35
+                new Equipment { Id = 36, Name = "Other", EquipmentType = EquipmentType.Machine, Description= ""},
             };
             await context.Equipments.AddRangeAsync(equipments);
             await context.SaveChangesAsync();
@@ -163,9 +218,10 @@ public static class DbInitializer
         {
             sports = new List<Sport>
             {
+                // Index => 0
                 new Sport { Id = 1, Name = "BodyBuilding", Description = ""},
-                new Sport { Id = 1, Name = "Cardio", Description = ""},
-                new Sport { Id = 1, Name = "Yoga", Description = ""},
+                new Sport { Id = 2, Name = "Cardio", Description = ""},
+                new Sport { Id = 3, Name = "Yoga", Description = ""},
             };
             await context.Sports.AddRangeAsync(sports);
             await context.SaveChangesAsync();
@@ -178,6 +234,7 @@ public static class DbInitializer
         var workouts = new List<Workout>();
         if (!context.Workouts.Any())
         {
+            // Workouts according to Eqiupments ...
             // Instruction // Body // AgeRange // Equipments // Level // Sex
             workouts = new List<Workout>
             {
@@ -1682,7 +1739,30 @@ public static class DbInitializer
                 #endregion
 
             };
+
+            // Workouts according to Body...
+            workouts = new List<Workout>
+            {
+                #region Chest
+                // 
+                // Index => 600
+                new Workout { Id = 601, Name="", Description= "", SportId= sports[0].Id }
+                #endregion
+
+            };
+
             await context.Workouts.AddRangeAsync(workouts);
+            await context.SaveChangesAsync();
+        }
+
+        if (!context.BodyWorkouts.Any())
+        {
+            var bodyWorkouts = new List<BodyWorkout>
+            {
+                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id }
+            };
+            await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
             await context.SaveChangesAsync();
         }
 
@@ -1817,17 +1897,6 @@ public static class DbInitializer
                 new WorkoutInstruction { WorkoutId = workouts[0].Id, Description = "", ImgUrl = "", VideoUrl = ""}
             };
             await context.WorkoutInstructions.AddRangeAsync(instructions);
-            await context.SaveChangesAsync();
-        }
-
-        if (!context.BodyWorkouts.Any())
-        {
-            var bodyWorkouts = new List<BodyWorkout>
-            {
-                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id },
-                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id }
-            };
-            await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
             await context.SaveChangesAsync();
         }
 
