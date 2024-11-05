@@ -238,7 +238,7 @@ public static class DbInitializer
             // Instruction // Body // AgeRange // Equipments // Level // Sex
             workouts = new List<Workout>
             {
-                #region Dumbells	
+                #region Dumbells
                 // Chest
                 //Index => 0
                 new Workout { Id = 1, Name = "Dumbbell Bench Press", Description = "Targets the chest; can be done flat, incline, or decline.", SportId = sports[0].Id },
@@ -513,7 +513,7 @@ public static class DbInitializer
                 new Workout {Id = 102, Name = "Feet Elevated Leg Press", Description = " Elevating feet on a block or platform increases range of motion and targets glutes and hamstrings more intensely.", SportId = sports[0].Id },
                 #endregion
 
-                #region chest press machine                
+                #region chest press machine
                 // Index => 102
                 new Workout {Id = 103, Name = "Machine Chest Press", Description = "This is the standard exercise that targets the pectoral muscles, triceps, and shoulders. It's typically performed for moderate to high reps (8-12) to build muscle mass", SportId = sports[0].Id },
                 // Index => 103
@@ -1746,7 +1746,54 @@ public static class DbInitializer
                 #region Chest
                 // 
                 // Index => 600
-                new Workout { Id = 601, Name="", Description= "", SportId= sports[0].Id }
+                new Workout { Id = 601, Name="Incline Dumbbell Bench Press", Description= "Focuses on the upper part of the pectoralis major. / Set an incline bench at 30-45 degrees, press dumbbells from shoulder height upwards.", SportId= sports[0].Id },
+                // Index => 601
+                new Workout { Id = 602, Name="Decline Bench Press", Description= "Targets the lower portion of the pectoralis major. / Execution: Lie on a decline bench and press a barbell or dumbbells upward.", SportId= sports[0].Id },
+                // Index => 602
+                new Workout { Id = 603, Name="Cable Crossovers", Description="Excellent for isolating the pecs with variations targeting different angles. / Execution: Stand between two cable machines and pull the cables together in front of you at various heights (low to high and high to low) to engage different parts of the muscle.", SportId= sports[0].Id},
+                // Index => 603
+                new Workout { Id = 604, Name="Dumbbell Flyes", Description="Isolates the pectoralis major effectively. Execution: Lie on a flat or incline bench with dumbbells in hand, arms extended above, lower them out to the sides in a wide arc, then bring them back together.", SportId= sports[0].Id},
+                // Index => 604
+                new Workout { Id = 605, Name="Push-Ups (Standard and Variations)", Description="Bodyweight exercise that engages the pecs significantly. / Variations include close-grip push-ups for inner pecs and elevated push-ups for added difficulty.", SportId= sports[0].Id},
+                // Index => 605
+                new Workout { Id = 606, Name="Kettlebell Fly", Description="A variation that provides dynamic movement and stability work. /  Perform as you would with dumbbells but using kettlebells for added challenge.", SportId= sports[0].Id},
+                // Index => 606
+                new Workout { Id = 607, Name="Guillotine Press", Description="A unique variation that targets the upper chest. / Execution: Lower a barbell towards your neck instead of your chest while lying on a flat bench.", SportId= sports[0].Id},
+                // Index => 607
+                new Workout { Id = 608, Name="180-Degree Twisting Dumbbell Bench Press", Description="Engages both heads of the pectoralis major through rotation. / Lower dumbbells to your sides while twisting palms inward at the top of the movement.", SportId= sports[0].Id},
+                // Index => 608
+                new Workout { Id = 609, Name="Standing Cable Chest Fly", Description="Provides constant tension throughout the movement. / Execution: Stand with cables at shoulder height and perform fly movements similar to dumbbell flyes.", SportId= sports[0].Id},
+                // Index => 609
+                new Workout { Id = 610, Name="Resistance Band Push-Ups", Description="Adds resistance to traditional push-ups, enhancing pec activation. / Execution: Place bands across your back and hold them under your hands while performing push-ups.", SportId= sports[0].Id},
+
+                
+                
+                // Index => 610
+                new Workout { Id = 611, Name="", Description="", SportId= sports[0].Id},
+                // Index => 611
+                new Workout { Id = 612, Name="", Description="", SportId= sports[0].Id},
+                // Index => 612
+                new Workout { Id = 613, Name="", Description="", SportId= sports[0].Id},
+                // Index => 613
+                new Workout { Id = 614, Name="", Description="", SportId= sports[0].Id},
+                // Index => 614
+                new Workout { Id = 615, Name="", Description="", SportId= sports[0].Id},
+                // Index => 615
+                new Workout { Id = 616, Name="", Description="", SportId= sports[0].Id},
+                // Index => 616
+                new Workout { Id = 617, Name="", Description="", SportId= sports[0].Id},
+                // Index => 617
+                new Workout { Id = 618, Name="", Description="", SportId= sports[0].Id},
+                // Index => 618
+                new Workout { Id = 619, Name="", Description="", SportId= sports[0].Id},
+                // Index => 619
+                new Workout { Id = 620, Name="", Description="", SportId= sports[0].Id},
+                // Index => 620
+                new Workout { Id = 621, Name="", Description="", SportId= sports[0].Id},
+                // Index => 621
+                new Workout { Id = 622, Name="", Description="", SportId= sports[0].Id},
+
+
                 #endregion
 
             };
@@ -1759,8 +1806,32 @@ public static class DbInitializer
         {
             var bodyWorkouts = new List<BodyWorkout>
             {
+                // Chest
                 new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id },
-                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id }
+
+                // Pectoralis Major
+                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[22].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[600].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[601].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[602].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[603].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[243].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[604].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[605].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[606].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[607].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[608].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[609].Id, BodyId = bodies[1].Id },
+                //
+
+                new BodyWorkout { WorkoutId = workouts[603].Id, BodyId = bodies[1].Id },
+                new BodyWorkout { WorkoutId = workouts[603].Id, BodyId = bodies[1].Id },
+
+
+
+                // Pectoralis Minor
+                new BodyWorkout { WorkoutId = workouts[22].Id, BodyId = bodies[2].Id }
             };
             await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
             await context.SaveChangesAsync();
@@ -1773,10 +1844,10 @@ public static class DbInitializer
                 #region Dumbells
                 // Chest // Dumbells
                 new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[1].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = workouts[11].Id },
-                new WorkoutEquipment { WorkoutId = workouts[1].Id, EquipmentId = workouts[1].Id },
-                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = workouts[1].Id },
-                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = workouts[12].Id },
+                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[11].Id },
+                new WorkoutEquipment { WorkoutId = workouts[1].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = equipments[1].Id },
+                new WorkoutEquipment { WorkoutId = workouts[2].Id, EquipmentId = equipments[12].Id },
 
                 // Back // Dumbells
                 new WorkoutEquipment { WorkoutId = workouts[3].Id, EquipmentId = equipments[1].Id },
