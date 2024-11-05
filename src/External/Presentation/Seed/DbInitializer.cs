@@ -1177,7 +1177,7 @@ public static class DbInitializer
                 new Workout { Id = 374, Name ="Cable Lateral Raise", Description = "", SportId = sports[0].Id},
 
                 // Index => 374
-                new Workout { Id = 375, Name ="Cable Flye", Description = "", SportId = sports[0].Id},
+                new Workout { Id = 375, Name ="Cable Fly", Description = "", SportId = sports[0].Id},
 
                 // Index => 375
                 new Workout { Id = 376, Name ="Cable Press-Around", Description = "", SportId = sports[0].Id},
@@ -1743,7 +1743,7 @@ public static class DbInitializer
             // Workouts according to Body...
             workouts = new List<Workout>
             {
-                #region Chest
+                #region Pectoralis Major
                 // 
                 // Index => 600
                 new Workout { Id = 601, Name="Incline Dumbbell Bench Press", Description= "Focuses on the upper part of the pectoralis major. / Set an incline bench at 30-45 degrees, press dumbbells from shoulder height upwards.", SportId= sports[0].Id },
@@ -1766,35 +1766,138 @@ public static class DbInitializer
                 // Index => 609
                 new Workout { Id = 610, Name="Resistance Band Push-Ups", Description="Adds resistance to traditional push-ups, enhancing pec activation. / Execution: Place bands across your back and hold them under your hands while performing push-ups.", SportId= sports[0].Id},
 
-                
-                
-                // Index => 610
-                new Workout { Id = 611, Name="", Description="", SportId= sports[0].Id},
-                // Index => 611
-                new Workout { Id = 612, Name="", Description="", SportId= sports[0].Id},
-                // Index => 612
-                new Workout { Id = 613, Name="", Description="", SportId= sports[0].Id},
-                // Index => 613
-                new Workout { Id = 614, Name="", Description="", SportId= sports[0].Id},
-                // Index => 614
-                new Workout { Id = 615, Name="", Description="", SportId= sports[0].Id},
-                // Index => 615
-                new Workout { Id = 616, Name="", Description="", SportId= sports[0].Id},
-                // Index => 616
-                new Workout { Id = 617, Name="", Description="", SportId= sports[0].Id},
-                // Index => 617
-                new Workout { Id = 618, Name="", Description="", SportId= sports[0].Id},
-                // Index => 618
-                new Workout { Id = 619, Name="", Description="", SportId= sports[0].Id},
-                // Index => 619
-                new Workout { Id = 620, Name="", Description="", SportId= sports[0].Id},
-                // Index => 620
-                new Workout { Id = 621, Name="", Description="", SportId= sports[0].Id},
-                // Index => 621
-                new Workout { Id = 622, Name="", Description="", SportId= sports[0].Id},
+                #endregion
 
+                #region Pectoralis Minor
+                // Index => 610
+                new Workout { Id = 611, Name="Dips", Description="Dips are excellent for targeting both the pectoralis major and minor./ Use parallel bars, lean slightly forward, and lower your body by bending your elbows until you feel a stretch in your chest, then press back up.", SportId= sports[0].Id},
+                // Index => 611
+                new Workout { Id = 612, Name="Cable Crossovers (Low to High)", Description="This exercise emphasizes the upper portion of the chest, engaging the pec minor. / Execution: Set the cables at the lowest position, grab the handles with palms facing up, and pull them upward in a scooping motion until they meet at eye level.", SportId= sports[0].Id},
+                // Index => 612
+                new Workout { Id = 613, Name="Cable Crossovers (High to Low)", Description="Targets the lower part of the pectoralis major but also engages the pec minor./ Execution: Set cables at a high position and pull them down towards your core using a neutral grip.", SportId= sports[0].Id},
+                // Index => 613
+                new Workout { Id = 614, Name="Incline Dumbbell Press", Description="Focuses on the upper chest while also engaging the pec minor. / Execution: Set an incline bench at 30-45 degrees, press dumbbells from shoulder height upwards.", SportId= sports[0].Id},
+                // Index => 614
+                new Workout { Id = 615, Name="Push-Ups (with Forward Lean)", Description="A bodyweight exercise that can effectively engage the pec minor. / Execution: Perform standard push-ups but lean forward during the movement to increase involvement of the pecs.", SportId= sports[0].Id},
+                // Index => 615
+                new Workout { Id = 616, Name="Serratus Punches", Description="While primarily targeting the serratus anterior, this exercise also activates the pec minor. / Execution: Stand or kneel with weights in hand and punch forward while keeping your elbow slightly bent.", SportId= sports[0].Id},
+                // Index => 616
+                new Workout { Id = 617, Name="Modified Push-Up Plus", Description="Enhances activation of both pectoral muscles while focusing on scapular stability. / Execution: Perform a standard push-up but add an extra push at the top to protract your shoulder blades.", SportId= sports[0].Id},
+                // Index => 617
+                new Workout { Id = 618, Name="Front Raises with Dumbbells", Description="Engages shoulder muscles while indirectly working on pec minor stabilization. / Execution: Hold dumbbells at your sides and raise them straight in front of you to shoulder height.", SportId= sports[0].Id},
+                #endregion
+
+                #region Chest
+                // Index => 618
+                new Workout { Id = 619, Name="Cable Flyes (Low to High)", Description="Engages different angles of the chest. / Execution: Set cables at a low position, pull them upward in front of you", SportId= sports[0].Id},
+                // Index => 619
+                new Workout { Id = 620, Name="Cable Flyes (High to Low)", Description="Targets lower pecs while also engaging the pectoralis minor. / Execution: Set cables at a high position and pull them down towards your core.", SportId= sports[0].Id},
+                // Index => 620
+                new Workout { Id = 621, Name="Plyometric Push-Ups", Description="xplosive movement that targets fast-twitch muscle fibers in the chest. / Perform standard push-ups but push off explosively so your hands leave the ground.", SportId= sports[0].Id},
+                // Index => 621
+                new Workout { Id = 622, Name="Half-Kneeling Cable Chest Press", Description="Engages core muscles while focusing on one side of the chest./ Kneel with one leg forward and press a cable out in front of you.", SportId= sports[0].Id},
+                #endregion
+
+                #region Back                
+                // Index => 622
+                new Workout { Id = 623, Name="Single-Arm Dumbbell Row", Description=" Unilateral exercise that focuses on independent contractions of each side of the back, allowing for deeper engagement of core musculature.", SportId= sports[0].Id},
+                // Index => 623
+                new Workout { Id = 624, Name="Chest-Supported Dumbbell Row", Description="Places less strain on the lower back while maintaining significant engagement of upper back muscles", SportId= sports[0].Id},
+                // Index => 624
+                new Workout { Id = 625, Name="Renegade Row", Description="Combines a plank position with alternating rows, emphasizing trap and lat activation.", SportId= sports[0].Id},
+                // Index => 625
+                new Workout { Id = 626, Name="Seated Row", Description="Often done with either a machine or dumbbells, this exercise targets the mid-to-lower back regions, including the latissimus dorsi and trapezius muscles", SportId= sports[0].Id},
+                // Index => 626
+                new Workout { Id = 627, Name="Superman Exercise", Description="Engages mid-back muscles along with rotator cuff muscles without needing equipment.", SportId= sports[0].Id},
+                // Index => 627
+                new Workout { Id = 628, Name="Med Ball Wood Chop", Description="Incorporates rotational forces to engage obliques and mid-back muscles simultaneously", SportId= sports[0].Id},
+                // Index => 628                
+                new Workout { Id = 629, Name="Scapula Shrug", Description="Directly targets the trapezius muscles, contributing to overall back thickness and definition", SportId= sports[0].Id},
+                // Index => 629
+                new Workout { Id = 630, Name="Band Pull-apart", Description="Helps maintain scapular stability and engages the broader back region, including the rhomboids and levators scapulae", SportId= sports[0].Id},
+                // Index => 630
+                new Workout { Id = 631, Name="Good Morning Exercise", Description="Though traditionally considered a hip extension exercise, it does contribute to activating certain portions of the lumbar extensors which play a supportive role in back health and aesthetics", SportId= sports[0].Id},
+                #endregion
+
+                #region Upper Back                
+                // Index => 631
+                new Workout { Id = 632, Name="Face Pulls", Description="Excellent for targeting the rear deltoids and upper traps. / Execution: Use a cable machine set at face height, pull the rope towards your face while keeping elbows high.", SportId= sports[0].Id},
+                // Index => 632
+                new Workout { Id = 633, Name="Dumbbell Flyes (Reverse)", Description="Targets the rear deltoids and upper back muscles. / Execution: Bend at the hips, hold dumbbells with palms facing each other, and lift them out to the sides.", SportId= sports[0].Id},
+                // Index => 633
+                new Workout { Id = 634, Name="Inverted Rows", Description="Bodyweight exercise that targets the entire upper back. / Execution: Set a barbell in a squat rack at waist height; lie underneath it and pull your chest to the bar.", SportId= sports[0].Id},
+                // Index => 634
+                new Workout { Id = 635, Name="Dumbbell Pullovers", Description="Although primarily targeting the chest, this exercise also engages the lats effectively. / Execution: Lie on a bench, hold a dumbbell above your chest, and lower it behind your head before bringing it back up.", SportId= sports[0].Id},
+                #endregion
+                
+                #region Middle Back
+                // Index => 635
+                new Workout { Id = 636, Name="Cable Face Pull", Description="Targets the upper traps and rear deltoids, contributing to overall upper back development. / Execution: Use a cable machine set at face height, pull the rope towards your face with elbows high.", SportId= sports[0].Id},
+                // Index => 636
+                new Workout { Id = 637, Name="Seal Row", Description="A variation that minimizes lower back strain while targeting the mid-back. / Execution: Lie face down on a bench with arms hanging down, pull dumbbells towards your chest.", SportId= sports[0].Id},
+                // Index => 637
+                new Workout { Id = 638, Name="Hammer Iso Row", Description="Ideal for isolating the middle back with controlled movements. / Execution: Sit on a machine with your chest against the pad, pull handles towards your body while keeping elbows close.", SportId= sports[0].Id},
+                // Index => 638
+                new Workout { Id = 639, Name="Reverse Grip Barbell Row", Description="Changes grip to emphasize different parts of the mid-back. / Execution: Perform as you would with a standard bent-over row but with an underhand grip.", SportId= sports[0].Id},
+                // Index => 639
+                new Workout { Id = 640, Name="Incline Dumbbell Row", Description="Chest-supported variation that allows for higher rep training. / Execution: Lie on an incline bench and row dumbbells towards your sides.", SportId= sports[0].Id},
+                // Index => 640
+                new Workout { Id = 641, Name="Prone Cobra", Description="Strengthens mid-back muscles while improving posture. / Execution: Lie face down, lift your chest off the ground while pinching shoulder blades together, and hold for several seconds.", SportId= sports[0].Id},
+                // Index => 641
+                new Workout { Id = 642, Name="Unilateral Band Row", Description="Enhances unilateral strength and stability in the middle back. / Execution: Attach a resistance band at waist height, stand facing away, and pull one arm back while keeping your core engaged.", SportId= sports[0].Id},
+                // Index => 642
+                new Workout { Id = 643, Name="Meadow Landmine Row", Description="Targets the mid-back with an emphasis on range of motion. / Execution: Stand next to a landmine setup, grab the bar with one hand, and row it towards your hip.", SportId= sports[0].Id},
+                #endregion
+
+                #region latissimus dorsi (lats),
+                // Index => 643
+                new Workout { Id = 644, Name="Meadow Landmine Row", Description="Utilizes a landmine attachment for unique angles of resistance targeting the lats. / Execution: Stand over a landmine, grip it with both hands, and row towards your body.", SportId= sports[0].Id},                
+                // Index => 644
+                new Workout { Id = 645, Name="One-Arm Cable Pulldown", Description="Isolates each lat individually for better muscle engagement. / Execution: Use a cable machine with a single handle; pull down towards your hip while keeping your core engaged.", SportId= sports[0].Id},                
+                // Index => 645
+                new Workout { Id = 646, Name="Plank Rows (Renegade Rows)", Description="Engages core stability while working on lat strength. / Execution: In a plank position with dumbbells, row one weight at a time towards your hip.", SportId= sports[0].Id},
+                #endregion
+                
+                // Index => 646
+                new Workout { Id = 647, Name="", Description="", SportId= sports[0].Id},
+                // Index => 647
+                new Workout { Id = 648, Name="", Description="", SportId= sports[0].Id},
+                // Index => 648
+                new Workout { Id = 649, Name="", Description="", SportId= sports[0].Id},
+                // Index => 649
+                new Workout { Id = 650, Name="", Description="", SportId= sports[0].Id},
+                // Index => 650
+                new Workout { Id = 651, Name="", Description="", SportId= sports[0].Id},
+                
+
+                #region latissimus dorsi (lats),
+                // Index => 651
+                new Workout { Id = 652, Name="", Description="", SportId= sports[0].Id},
+                // Index => 652
+                new Workout { Id = 653, Name="", Description="", SportId= sports[0].Id},
+                // Index => 653
+                new Workout { Id = 654, Name="", Description="", SportId= sports[0].Id},
+                // Index => 654
+                new Workout { Id = 655, Name="", Description="", SportId= sports[0].Id},
+                // Index => 655
+                new Workout { Id = 656, Name="", Description="", SportId= sports[0].Id},
+                // Index => 656
+                new Workout { Id = 657, Name="", Description="", SportId= sports[0].Id},
+                // Index => 657
+                new Workout { Id = 658, Name="", Description="", SportId= sports[0].Id},
+                // Index => 658
+                new Workout { Id = 659, Name="", Description="", SportId= sports[0].Id},
+                // Index => 659
+                new Workout { Id = 660, Name="", Description="", SportId= sports[0].Id},
+                // Index => 660
+                new Workout { Id = 661, Name="", Description="", SportId= sports[0].Id},
+                // Index => 661
+                new Workout { Id = 662, Name="", Description="", SportId= sports[0].Id},
+                // Index => 662
+                new Workout { Id = 663, Name="", Description="", SportId= sports[0].Id},
 
                 #endregion
+
 
             };
 
@@ -1806,10 +1909,25 @@ public static class DbInitializer
         {
             var bodyWorkouts = new List<BodyWorkout>
             {
-                // Chest
-                new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[0].Id },
+                #region Chest
+                new BodyWorkout { WorkoutId = workouts[22].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[163].Id, BodyId = bodies[0].Id },                
+                new BodyWorkout { WorkoutId = workouts[161].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[614].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[601].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[603].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[610].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[605].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[4].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[606].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[174].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[618].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[619].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[620].Id, BodyId = bodies[0].Id },
+                new BodyWorkout { WorkoutId = workouts[621].Id, BodyId = bodies[0].Id },
+                #endregion
 
-                // Pectoralis Major
+                #region Pectoralis Major
                 new BodyWorkout { WorkoutId = workouts[0].Id, BodyId = bodies[1].Id },
                 new BodyWorkout { WorkoutId = workouts[22].Id, BodyId = bodies[1].Id },
                 new BodyWorkout { WorkoutId = workouts[600].Id, BodyId = bodies[1].Id },
@@ -1823,15 +1941,113 @@ public static class DbInitializer
                 new BodyWorkout { WorkoutId = workouts[607].Id, BodyId = bodies[1].Id },
                 new BodyWorkout { WorkoutId = workouts[608].Id, BodyId = bodies[1].Id },
                 new BodyWorkout { WorkoutId = workouts[609].Id, BodyId = bodies[1].Id },
-                //
+                #endregion
 
-                new BodyWorkout { WorkoutId = workouts[603].Id, BodyId = bodies[1].Id },
-                new BodyWorkout { WorkoutId = workouts[603].Id, BodyId = bodies[1].Id },
+                #region Pectoralis Minor
+                new BodyWorkout { WorkoutId = workouts[12].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[610].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[611].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[612].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[613].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[614].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[615].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[616].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[617].Id, BodyId = bodies[2].Id },
+                new BodyWorkout { WorkoutId = workouts[374].Id, BodyId = bodies[2].Id },
+                #endregion
+
+                #region Back
+                new BodyWorkout { WorkoutId = workouts[29].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[26].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[111].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[352].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[447].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[622].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[623].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[624].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[625].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[626].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[627].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[628].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[629].Id, BodyId = bodies[3].Id },
+                new BodyWorkout { WorkoutId = workouts[630].Id, BodyId = bodies[3].Id },
+                #endregion
+
+                #region Upper Back
+                new BodyWorkout { WorkoutId = workouts[239].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[111].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[547].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[3].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[136].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[631].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[632].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[235].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[622].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[465].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[633].Id, BodyId = bodies[4].Id },
+                new BodyWorkout { WorkoutId = workouts[634].Id, BodyId = bodies[4].Id },
+                #endregion
+
+                #region Middle Back 
+                new BodyWorkout { WorkoutId = workouts[26].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[3].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[136].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[380].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[622].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[633].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[635].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[636].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[637].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[638].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[639].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[640].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[641].Id, BodyId = bodies[5].Id },
+                new BodyWorkout { WorkoutId = workouts[642].Id, BodyId = bodies[5].Id },
+                #endregion
+
+                #region Latissimus Dorsi (Lats)
+                new BodyWorkout { WorkoutId = workouts[239].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[111].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[547].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[3].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[622].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[136].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[634].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[144].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[235].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[631].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[633].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[643].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[644].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[645].Id, BodyId = bodies[7].Id },
+
+                #endregion
 
 
 
-                // Pectoralis Minor
-                new BodyWorkout { WorkoutId = workouts[22].Id, BodyId = bodies[2].Id }
+                #region MyRegion
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                new BodyWorkout { WorkoutId = workouts[28].Id, BodyId = bodies[7].Id },
+                #endregion
+
             };
             await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
             await context.SaveChangesAsync();
