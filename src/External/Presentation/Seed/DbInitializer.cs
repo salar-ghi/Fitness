@@ -68,48 +68,51 @@ public static class DbInitializer
 
                 // Arms
                 // Index => 15
-                new Body { Id = 31, Name = "Arms And Hands"},
+                new Body { Id = 31, Name = "Arms"},
                 // Index => 16
                 new Body { Id = 32, Name = "Biceps Brachii", ParentId = 31 },
                 // Index => 17
                 new Body { Id = 33, Name = "Triceps Brachii", ParentId = 31 },
                 // Index => 18
                 new Body { Id = 34, Name = "Brachialis (Lower Biceps)", ParentId = 31 },
+
                 // Index => 19
-                new Body { Id = 35, Name = "Forearm", ParentId = 31 },
+                new Body { Id = 35, Name = "Hands"},
                 // Index => 20
-                new Body { Id = 36, Name = "Wrists", ParentId = 31 },
+                new Body { Id = 36, Name = "Forearm", ParentId = 31 },
+                // Index => 21
+                new Body { Id = 37, Name = "Wrists", ParentId = 31 },
 
                 // Abdominals
-                // Index => 21
-                new Body { Id = 41, Name = "Abdominals" },
                 // Index => 22
-                new Body { Id = 42, Name = "Rectus Abdominis", ParentId = 41 },
+                new Body { Id = 41, Name = "Abdominals" },
                 // Index => 23
-                new Body { Id = 43, Name = "Internal Obliques", ParentId = 41 },
+                new Body { Id = 42, Name = "Rectus Abdominis", ParentId = 41 },
                 // Index => 24
-                new Body { Id = 44, Name = "External Obliques", ParentId = 41 },
+                new Body { Id = 43, Name = "Internal Obliques", ParentId = 41 },
                 // Index => 25
+                new Body { Id = 44, Name = "External Obliques", ParentId = 41 },
+                // Index => 26
                 new Body { Id = 45, Name = "Core", ParentId = 41 },
 
                 // Legs
-                // Index => 26
-                new Body { Id = 51, Name = "Legs" },
                 // Index => 27
-                new Body { Id = 52, Name = "Quadriceps", ParentId = 51 },
+                new Body { Id = 51, Name = "Legs" },
                 // Index => 28
-                new Body { Id = 53, Name = "Hamstrings", ParentId = 51 },
+                new Body { Id = 52, Name = "Quadriceps", ParentId = 51 },
                 // Index => 29
-                new Body { Id = 54, Name = "Gluteus Maximus", ParentId = 51 },
+                new Body { Id = 53, Name = "Hamstrings", ParentId = 51 },
                 // Index => 30
-                new Body { Id = 55, Name = "Gluteus Medius", ParentId = 51 },
+                new Body { Id = 54, Name = "Gluteus Maximus", ParentId = 51 },
                 // Index => 31
-                new Body { Id = 56, Name = "Gluteus Minimus", ParentId = 51 },
+                new Body { Id = 55, Name = "Gluteus Medius", ParentId = 51 },
                 // Index => 32
-                new Body { Id = 57, Name = "Calves", ParentId = 51 },
+                new Body { Id = 56, Name = "Gluteus Minimus", ParentId = 51 },
                 // Index => 33
-                new Body { Id = 58, Name = "Gastrocnemius Calves", ParentId = 51 },
+                new Body { Id = 57, Name = "Calves", ParentId = 51 },
                 // Index => 34
+                new Body { Id = 58, Name = "Gastrocnemius Calves", ParentId = 51 },
+                // Index => 35
                 new Body { Id = 59, Name = "Soleus Calves", ParentId = 51 },
             };
             await context.Bodies.AddRangeAsync(bodies);
@@ -1976,18 +1979,70 @@ public static class DbInitializer
                 new Workout { Id = 696, Name="Kettlebell Lateral Raise", Description="Similar to dumbbell raises but adds instability for greater engagement. / Execution: Hold a kettlebell by its handle and raise it out to the side.", SportId= sports[0].Id},
                 #endregion
 
-                #region ???
+                #region Hands
                 // Index => 696
-                new Workout { Id = 697, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 697, Name="Grip Hangs", Description="Hang from a pull-up bar to build grip strength. / Execution: Simply hang from the bar with both hands for as long as possible, gradually increasing the duration.", SportId= sports[0].Id},
                 // Index => 697
-                new Workout { Id = 698, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 698, Name="Towel Grip Dumbbell Curls", Description="Enhances grip strength while working the biceps. / Execution: Wrap a towel around a dumbbell handle; perform curls while gripping the towel.", SportId= sports[0].Id},
                 // Index => 698
-                new Workout { Id = 699, Name="", Description="", SportId= sports[0].Id},                
+                new Workout { Id = 699, Name="Rubber Ball Squeeze", Description="Strengthens the forearm flexors and improves grip. / Execution: Squeeze a rubber or tennis ball for 30-90 seconds, performing three sets with each hand.", SportId= sports[0].Id},                
                 // Index => 699
-                new Workout { Id = 700, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 700, Name="Fingertip Push-Ups", Description="Strengthens fingers and enhances overall grip. / Execution: Perform push-ups on your fingertips instead of your palms to increase finger strength.", SportId= sports[0].Id},
                 // Index => 700
-                new Workout { Id = 701, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 701, Name="Plate Pinches", Description="Develops pinch grip strength. / Execution: Hold two weight plates together with your fingers and hold for as long as possible.", SportId= sports[0].Id},
+                // Index => 701
+                new Workout { Id = 702, Name="Wrist Twists", Description="Improves wrist strength and mobility./ Execution: Hold a light dumbbell in one hand; rotate your wrist up and down for 12-15 repetitions.", SportId= sports[0].Id},
+                // Index => 702
+                new Workout { Id = 703, Name="Rubber Band Abduction", Description="Strengthens the intrinsic muscles of the hand. / Execution: Place a rubber band around your fingers and spread them apart against the resistance.", SportId= sports[0].Id},
+                // Index => 703
+                new Workout { Id = 704, Name="Static Barbell Holds", Description="Builds overall grip strength. / Execution: Hold a barbell at shoulder height for as long as you can, focusing on maintaining grip.", SportId= sports[0].Id},
+                // Index => 704
+                new Workout { Id = 705, Name="Newspaper Ball Tearing", Description="Improves hand dexterity and grip strength. / Execution: Tear sheets of newspaper into small pieces using just your hands.", SportId= sports[0].Id},
+                // Index => 705
+                new Workout { Id = 706, Name="Isometric Hooks (Claw)", Description="Engages finger muscles and improves grip stability. / Execution: Clasp your fingers together in a hook position and pull against each other without moving.", SportId= sports[0].Id},
+                // Index => 706
+                new Workout { Id = 707, Name="Thumb Pinch Strengthening", Description="Focuses on thumb strength, which is crucial for grip. / Execution: Use putty or a soft ball; pinch it between your thumb and index finger repeatedly.", SportId= sports[0].Id},
+                // Index => 707
+                new Workout { Id = 708, Name="Wrist Curls (Palms Up)", Description="Strengthens forearms, enhancing grip strength. / Execution: Sit on a bench, rest your forearms on your knees, and curl a barbell or dumbbell upwards with palms facing up.", SportId= sports[0].Id},                
+                // Index => 708
+                new Workout { Id = 709, Name="Wrist Curls (Palms Down)", Description="Targets the extensor muscles of the forearms. / Execution: Similar to palms-up wrist curls, but with palms facing down to work the opposite muscle group.", SportId= sports[0].Id},
+                // Index => 709
+                new Workout { Id = 710, Name="Dumbbell Farmer’s Walk", Description="Builds grip endurance while engaging core and lower body. / Execution: Carry heavy dumbbells in each hand and walk for distance or time.", SportId= sports[0].Id},
+                // Index => 710
+                new Workout { Id = 711, Name="Hand/Finger Tendon Glide", Description="Improves flexibility and range of motion in the fingers. /Execution: Extend fingers straight, make a hook fist, then make a full fist; repeat several times.", SportId= sports[0].Id},
                 #endregion
+
+                #region Arms / Biceps Exercises
+                // Index => 711
+                new Workout { Id = 712, Name="Dumbbell Curl", Description="Allows for greater range of motion compared to barbell curls. / Execution: Hold a dumbbell in each hand at your sides and curl them up towards your shoulders.", SportId= sports[0].Id},
+                // Index => 712
+                new Workout { Id = 713, Name="Incline Dumbbell Curl", Description="Targets the long head of the biceps for better peak development. / Execution: Sit on an incline bench, hold dumbbells, and curl them towards your shoulders.", SportId= sports[0].Id},
+                // Index => 713
+                new Workout { Id = 714, Name="Concentration Curl", Description="Isolates the biceps for maximum engagement. / Execution: Sit down, rest your elbow against your thigh, and curl the weight up.", SportId= sports[0].Id},
+                // Index => 714
+                new Workout { Id = 715, Name="Zottman Curl", Description="Works both the biceps and forearms by combining a regular curl with a reverse curl. / Execution: Curl up with palms facing up, then rotate palms down and lower the weights slowly.", SportId= sports[0].Id},
+                // Index => 715
+                new Workout { Id = 716, Name="Prone Dumbbell Spider Curl", Description="Emphasizes strict form to isolate the biceps. / Execution: Lie face down on an incline bench and curl dumbbells towards your shoulders.", SportId= sports[0].Id},
+                // Triceps Exercises
+                // Index => 716
+                new Workout { Id = 717, Name="Overhead Tricep Extension", Description="Focuses on the long head of the triceps. / Execution: Hold a dumbbell overhead with both hands, lower it behind your head, then extend back to starting position.", SportId= sports[0].Id},
+                #endregion
+
+                // Index => 717
+                new Workout { Id = 718, Name="", Description="", SportId= sports[0].Id},
+                // Index => 718
+                new Workout { Id = 719, Name="", Description="", SportId= sports[0].Id},
+                // Index => 719
+                new Workout { Id = 720, Name="", Description="", SportId= sports[0].Id},
+                // Index => 720
+                new Workout { Id = 721, Name="", Description="", SportId= sports[0].Id},
+                // Index => 721
+                new Workout { Id = 722, Name="", Description="", SportId= sports[0].Id},
+                // Index => 722
+                new Workout { Id = 723, Name="", Description="", SportId= sports[0].Id},
+                // Index => 723
+                new Workout { Id = 724, Name="", Description="", SportId= sports[0].Id},
+
                 
                 
 
@@ -2250,11 +2305,80 @@ public static class DbInitializer
                 new BodyWorkout { WorkoutId = workouts[694].Id, BodyId = bodies[14].Id },
                 new BodyWorkout { WorkoutId = workouts[696].Id, BodyId = bodies[14].Id },
                 #endregion
+                
+                #region Arms 
+                // Biceps Exercises
+                new BodyWorkout { WorkoutId = workouts[242].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[10].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[711].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[712].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[713].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[714].Id, BodyId = bodies[15].Id },
 
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[14].Id },
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[14].Id },
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[14].Id },
+                // Triceps Exercises
+                new BodyWorkout { WorkoutId = workouts[716].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[164].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[434].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[243].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[140].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[488].Id, BodyId = bodies[15].Id },
+                // Forearm Exercises
+                new BodyWorkout { WorkoutId = workouts[707].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[708].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[700].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[698].Id, BodyId = bodies[15].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[15].Id },
+                #endregion
 
+                #region Biceps Brachii
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
+                #endregion
+                
+                #region Triceps Brachii
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
+                #endregion
+
+
+                #region Brachialis (Lower Biceps)
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
+                #endregion
+
+                #region Hands
+                new BodyWorkout { WorkoutId = workouts[696].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[698].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[699].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[700].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[701].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[702].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[703].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[704].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[705].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[706].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[707].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[708].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[709].Id, BodyId = bodies[19].Id },
+                new BodyWorkout { WorkoutId = workouts[710].Id, BodyId = bodies[19].Id },
+                #endregion
+
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[20].Id },
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[20].Id },
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[20].Id },
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[20].Id },
 
 
             };
