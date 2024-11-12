@@ -2027,24 +2027,97 @@ public static class DbInitializer
                 // Index => 716
                 new Workout { Id = 717, Name="Overhead Tricep Extension", Description="Focuses on the long head of the triceps. / Execution: Hold a dumbbell overhead with both hands, lower it behind your head, then extend back to starting position.", SportId= sports[0].Id},
                 #endregion
-
+                
+                #region Biceps Brachii    
                 // Index => 717
-                new Workout { Id = 718, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 718, Name="EZ-Bar Curl", Description="A variation that reduces wrist strain while targeting the biceps. / Execution: Use an EZ-bar; grip it with an underhand grip and curl towards your shoulders.", SportId= sports[0].Id},
                 // Index => 718
-                new Workout { Id = 719, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 719, Name="Cable Rope Hammer Curl", Description="Targets both heads of the biceps effectively.Targets both heads of the biceps effectively. / Execution: Attach a rope to a low pulley; perform hammer curls by pulling up with palms facing each other.", SportId= sports[0].Id},
                 // Index => 719
-                new Workout { Id = 720, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 720, Name="Weighted Chin-Ups", Description="A compound movement that heavily engages the biceps along with back muscles. / Execution: Hang from a pull-up bar with palms facing you; pull yourself up until your chin is above the bar.", SportId= sports[0].Id},
                 // Index => 720
-                new Workout { Id = 721, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 721, Name="Low Cable Double Hand Curl", Description="Targets the biceps while maintaining constant tension. / Execution: Stand with feet shoulder-width apart, hold cable handles at hip height, and curl towards your shoulders.", SportId= sports[0].Id},
                 // Index => 721
-                new Workout { Id = 722, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 722, Name="Dumbbell Cross-Body Hammer Curl", Description="Focuses on the brachialis while also hitting the biceps. / Execution: Hold a dumbbell in one hand; curl it across your body towards the opposite shoulder.", SportId= sports[0].Id},
+
+                #endregion
+
+                #region Triceps Brachii
                 // Index => 722
-                new Workout { Id = 723, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 723, Name="EZ-Bar Skull Crushers", Description="An isolation exercise that effectively targets the triceps. / Execution: Lie on a bench with an EZ-bar; lower the bar towards your forehead, then extend back to starting position while keeping elbows tucked.", SportId= sports[0].Id},
                 // Index => 723
-                new Workout { Id = 724, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 724, Name="Tricep Pushdown", Description="A cable exercise that isolates the triceps. / Execution: Stand in front of a cable machine, grip the handle with both hands, and push down until your arms are fully extended, keeping elbows close to your body.", SportId= sports[0].Id},
+                // Index => 724
+                new Workout { Id = 725, Name="Diamond Push-Ups", Description="A variation of push-ups that emphasizes tricep engagement. / Execution: Assume a push-up position with hands close together forming a diamond shape; lower your body and press back up.", SportId= sports[0].Id},
+                // Index => 725
+                new Workout { Id = 726, Name="Single-Arm Cable Pushdown", Description="Targets each tricep individually for balanced development. / Execution: Stand next to a cable machine, pull down the handle with one arm while keeping your elbow stationary.", SportId= sports[0].Id},
+                // Index => 726
+                new Workout { Id = 727, Name="Bench Dips", Description="A simpler version of dips that can be done with just a bench. / Execution: Sit on a bench, place your hands beside you, and lower your body by bending your elbows before pushing back up.", SportId= sports[0].Id},
+                // Index => 727
+                new Workout { Id = 728, Name="Seated Dumbbell Overhead Extension", Description="Isolates the triceps while providing stability. / Execution: Sit on a bench, hold a dumbbell with both hands above your head, lower it behind your head, and extend back up.", SportId= sports[0].Id},
+                // Index => 728
+                new Workout { Id = 729, Name="Cable Overhead Tricep Extension", Description="Provides constant tension throughout the movement./ Execution: Stand facing away from a cable machine, grip the handle overhead, and extend your arms forward.", SportId= sports[0].Id},                
+                // Index => 729
+                new Workout { Id = 730, Name="Dumbbell Kickbacks", Description="Targets the triceps while also engaging stabilizing muscles in the shoulder. / Execution: Bend forward at the hips, hold a dumbbell in one hand, extend it back while keeping your elbow close to your body.", SportId= sports[0].Id},
+                // Index => 730
+                new Workout { Id = 731, Name="Reverse Grip Tricep Pushdown", Description="Changes grip to emphasize different parts of the triceps. / Execution: Use an underhand grip on a cable machine and push down as you would in a standard pushdown.", SportId= sports[0].Id},
+                // Index => 731
+                new Workout { Id = 732, Name="Tricep Rope Pushdown", Description="Allows for greater range of motion compared to straight bars. / Execution: Attach a rope to a cable machine; pull down while spreading the rope at the bottom for maximum contraction.", SportId= sports[0].Id},
+                // Index => 732
+                new Workout { Id = 733, Name="Kettlebell Overhead Tricep Extension", Description="A dynamic exercise that engages core stability along with triceps. / Execution: Hold a kettlebell overhead with both hands, lower it behind your head, then extend back up.", SportId= sports[0].Id},
+
+                #endregion
+
+                #region Brachialis (Lower Biceps)
+                // Index => 731
+                new Workout { Id = 732, Name="Reverse Curls", Description="Focuses on the brachialis and forearm muscles. / Execution: Stand with a barbell or dumbbells using an overhand grip. Curl the weights towards your shoulders while keeping your elbows stationary.", SportId= sports[0].Id},
+                // Index => 732
+                new Workout { Id = 733, Name="Concentration Curls", Description="Isolates the biceps and brachialis for maximum contraction. / Execution: Sit on a bench, rest your elbow against your thigh, and curl a dumbbell towards your shoulder.", SportId= sports[0].Id},
+                // Index => 733
+                new Workout { Id = 734, Name="Preacher Curls", Description="Targets the lower part of the biceps and brachialis while providing stability. / Execution: Use a preacher curl bench; grasp a barbell or dumbbells and curl towards your shoulders.", SportId= sports[0].Id},
+                // Index => 734
+                new Workout { Id = 735, Name="Incline Dumbbell Curl", Description="Places more emphasis on the long head of the biceps and brachialis. / Execution: Sit on an incline bench with dumbbells at arm's length; curl them towards your shoulders, focusing on squeezing at the top.", SportId= sports[0].Id},
+                // Index => 735
+                new Workout { Id = 736, Name="One-Arm Dumbbell Spider Curl", Description="Isolates the arm while targeting the brachialis effectively. / Execution: Lie face down on an incline bench, let one arm hang straight down, and curl the dumbbell up without twisting your wrist.", SportId= sports[0].Id},
+                // Index => 736
+                new Workout { Id = 737, Name="Cable Hammer Curl", Description="Provides constant tension on the brachialis throughout the movement. / Execution: Attach a rope to a low pulley; stand facing away from the machine and perform hammer curls.", SportId= sports[0].Id},
+                // Index => 737
+                new Workout { Id = 738, Name="Dumbbell Reverse Grip Curl", Description="Similar to reverse curls but allows for greater range of motion. / Execution: Hold dumbbells with an overhand grip and curl them towards your shoulders.", SportId= sports[0].Id},
+                // Index => 738
+                new Workout { Id = 739, Name="Kettlebell Hammer Curl", Description="Engages both biceps and forearms effectively. / Execution: Hold kettlebells in each hand with palms facing each other, curl them towards your shoulders.", SportId= sports[0].Id},
+                // Index => 739
+                new Workout { Id = 740, Name="Seated Alternate Dumbbell Curls", Description="Allows for focused contraction of each arm individually. / Execution: Sit on a bench, alternate curling dumbbells towards your shoulders while keeping elbows stationary.", SportId= sports[0].Id},
+                #endregion
+
+                #region MyRegion
+
+                // Index => 740
+                new Workout { Id = 741, Name="", Description="", SportId= sports[0].Id},
+                // Index => 741
+                new Workout { Id = 742, Name="", Description="", SportId= sports[0].Id},
+                // Index => 742
+                new Workout { Id = 743, Name="", Description="", SportId= sports[0].Id},
+                // Index => 743
+                new Workout { Id = 744, Name="", Description="", SportId= sports[0].Id},
+                // Index => 744
+                new Workout { Id = 745, Name="", Description="", SportId= sports[0].Id},
+                // Index => 745
+                new Workout { Id = 746, Name="", Description="", SportId= sports[0].Id},
+                // Index => 746
+                new Workout { Id = 747, Name="", Description="", SportId= sports[0].Id},
+                // Index => 747
+                new Workout { Id = 748, Name="", Description="", SportId= sports[0].Id},
+                // Index => 748
+                new Workout { Id = 749, Name="", Description="", SportId= sports[0].Id},
+                // Index => 749
+                new Workout { Id = 750, Name="", Description="", SportId= sports[0].Id},
+                // Index => 750
+                new Workout { Id = 751, Name="", Description="", SportId= sports[0].Id},
 
                 
-                
+                #endregion
+
+
 
 
 
@@ -2331,30 +2404,56 @@ public static class DbInitializer
                 #endregion
 
                 #region Biceps Brachii
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[34].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[711].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[712].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[714].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[10].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[431].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[139].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[432].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[715].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[714].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[717].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[718].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[719].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[720].Id, BodyId = bodies[16].Id },
+                new BodyWorkout { WorkoutId = workouts[721].Id, BodyId = bodies[16].Id },
                 #endregion
                 
                 #region Triceps Brachii
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[164].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[243].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[716].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[722].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[723].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[724].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[725].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[726].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[727].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[728].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[729].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[730].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[731].Id, BodyId = bodies[17].Id },
+                new BodyWorkout { WorkoutId = workouts[732].Id, BodyId = bodies[17].Id },
                 #endregion
 
-
                 #region Brachialis (Lower Biceps)
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
-                new BodyWorkout { WorkoutId = workouts[697].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[10].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[714].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[721].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[720].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[34].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[719].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[731].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[732].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[733].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[734].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[735].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[736].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[737].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[738].Id, BodyId = bodies[18].Id },
+                new BodyWorkout { WorkoutId = workouts[739].Id, BodyId = bodies[18].Id },
                 #endregion
 
                 #region Hands
@@ -2375,10 +2474,20 @@ public static class DbInitializer
                 new BodyWorkout { WorkoutId = workouts[710].Id, BodyId = bodies[19].Id },
                 #endregion
 
+                #region Forearm
                 new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[20].Id },
                 new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[20].Id },
                 new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[20].Id },
                 new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[20].Id },
+                #endregion
+                
+                
+                #region Wrists
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[21].Id },
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[21].Id },
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[21].Id },
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[21].Id },
+                #endregion
 
 
             };
