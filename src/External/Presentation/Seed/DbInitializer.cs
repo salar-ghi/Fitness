@@ -495,7 +495,7 @@ public static class DbInitializer
 
                 #region Leg Press Machine
                 // Index => 92
-                new Workout {Id = 93, Name = "Standard Leg Press", Description = "A foundational exercise that targets the quadriceps, hamstrings, and glutes.", SportId = sports[0].Id },
+                new Workout {Id = 93, Name = "Standard Leg Press", Description = "A foundational exercise that targets the quadriceps, hamstrings, and glutes. / Execution: Sit on a leg press machine, place feet on the platform, and push the weight away by extending your legs.", SportId = sports[0].Id },
                 // Index => 93
                 new Workout {Id = 94, Name = "Wide Stance Leg Press", Description = "Emphasizes the inner thighs and glutes by placing feet wider than shoulder-width apart", SportId = sports[0].Id },
                 // Index => 94
@@ -1102,7 +1102,7 @@ public static class DbInitializer
                 // Index => 347
                 new Workout { Id = 348, Name ="Russian Twists", Description = "Sit on the bench, lean back slightly, lift your feet, and rotate your torso from side to side.", SportId = sports[0].Id},
                 // Index => 348
-                new Workout { Id = 349, Name ="Bicycle Crunches", Description = "Lie on your back, lift your shoulders, and alternate bringing opposite elbow to knee in a cycling motion.", SportId = sports[0].Id},
+                new Workout { Id = 349, Name ="Bicycle Crunches", Description = "Highly effective for engaging the rectus abdominis and obliques. / Execution: Lie on your back, bring your knees toward your chest, and lift your shoulder blades off the ground. Straighten one leg while twisting your torso to bring the opposite elbow towards the bent knee. Alternate sides.", SportId = sports[0].Id},
                 // Index => 349
                 new Workout { Id = 350, Name ="Hip Lifts", Description = "Lie on your back, anchor your hands overhead, and lift your hips towards the ceiling.", SportId = sports[0].Id},
                 // Index => 350
@@ -1592,7 +1592,6 @@ public static class DbInitializer
                 new Workout { Id = 531, Name ="Swiss Bar Elevated Push-Up", Description = "Similar to weighted push-ups but performed at an angle for increased challenge.", SportId = sports[0].Id},
                 // Index => 531
                 new Workout { Id = 532, Name ="Swiss Bar Trap Raise", Description = "Focuses on developing upper traps with a neutral grip for comfort during lifting.", SportId = sports[0].Id},
-
                 #endregion
 
                 #region Buffalo Bar
@@ -1708,7 +1707,7 @@ public static class DbInitializer
                 // Index => 583 / Target => Lower Abs
                 new Workout { Id = 584, Name ="Flutter Kicks", Description = "Lie on your back and alternate kicking legs up and down while keeping them straight.", SportId = sports[0].Id},
                 // Index => 584 / Target =>
-                new Workout { Id = 585, Name ="Side plank", Description = "", SportId = sports[0].Id},
+                new Workout { Id = 585, Name ="Side plank", Description = "Strengthens the obliques while improving stability. / Execution: Lie on one side, prop yourself up on your forearm, and lift your hips off the ground to form a straight line from head to heels.", SportId = sports[0].Id},
                 // Index => 585 / Target =>
                 new Workout { Id = 586, Name ="Scissor kicks", Description = "", SportId = sports[0].Id},
                 // Index => 586 / Target =>
@@ -1723,17 +1722,17 @@ public static class DbInitializer
                 new Workout { Id = 591, Name ="Swiss ball crunch", Description = "", SportId = sports[0].Id},
                 // Index => 591 / Target =>
                 new Workout { Id = 592, Name ="Deadbug", Description = "", SportId = sports[0].Id},
-                // Index => 582 / Target =>
+                // Index => 592 / Target =>
                 new Workout { Id = 593, Name ="Cable crunch", Description = "", SportId = sports[0].Id},
-                // Index => 583 / Target =>
+                // Index => 593 / Target =>
                 new Workout { Id = 594, Name ="Reverse crunch", Description = "", SportId = sports[0].Id},
-                // Index => 584 / Target =>
+                // Index => 594 / Target =>
                 new Workout { Id = 595, Name ="Bird dog exercise", Description = "Improves stability and engages both the core and erector spinae. / Execution: Start on hands and knees, extend one arm forward and the opposite leg back while keeping your core tight.", SportId = sports[0].Id},
-                // Index => 585 / Target =>
+                // Index => 595 / Target =>
                 new Workout { Id = 596, Name ="Flutter kick", Description = "", SportId = sports[0].Id},
-                // Index => 586 / Target =>
+                // Index => 596 / Target =>
                 new Workout { Id = 597, Name ="Toe touchers", Description = "", SportId = sports[0].Id},
-                // Index => 587 / Target =>
+                // Index => 597 / Target =>
                 new Workout { Id = 598, Name ="Dead bug", Description = "", SportId = sports[0].Id},
                 // Index => 598 / Target =>
                 new Workout { Id = 599, Name ="Crunch", Description = "", SportId = sports[0].Id},
@@ -2119,27 +2118,136 @@ public static class DbInitializer
 
                 #region Abdominals
                 // Index => 751
-                new Workout { Id = 752, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 752, Name="Captain’s Chair", Description="Targets the lower abs effectively. / Execution: Using a captain's chair, let your legs dangle straight down. Raise your knees towards your chest while engaging your core, then slowly lower them back down.", SportId=sports[0].Id},
                 // Index => 752
-                new Workout { Id = 753, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 753, Name="Crunches on an Exercise Ball", Description="Provides a greater range of motion compared to traditional crunches. / Execution: Sit on a stability ball with feet flat on the floor. Lean back slightly, place hands behind your head, and perform crunches by lifting your torso towards your knees.", SportId= sports[0].Id},
                 // Index => 753
-                new Workout { Id = 754, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 754, Name="Dragon Flag", Description="A challenging exercise that targets the entire core. / Execution: Lie on a bench with shoulders supported and hold onto the bench behind you. Lift your legs up towards the ceiling while keeping them straight, then lower them while maintaining control.", SportId= sports[0].Id},
                 // Index => 754
-                new Workout { Id = 755, Name="", Description="", SportId= sports[0].Id},
-                // Index => 755
-                new Workout { Id = 756, Name="", Description="", SportId= sports[0].Id},
-                // Index => 75
-                new Workout { Id = 757, Name="", Description="", SportId= sports[0].Id},
-                // Index => 757
-                new Workout { Id = 758, Name="", Description="", SportId= sports[0].Id},
-                // Index => 758
-                new Workout { Id = 759, Name="", Description="", SportId= sports[0].Id},
-                // Index => 759
-                new Workout { Id = 760, Name="", Description="", SportId= sports[0].Id},
-                // Index => 760
-                new Workout { Id = 761, Name="", Description="", SportId= sports[0].Id},
-
+                new Workout { Id = 755, Name="Cocoon", Description="Engages both upper and lower abs effectively. / Execution: Lie flat on your back with arms extended behind you and feet slightly off the ground. Pull knees toward your chest while simultaneously lifting your upper body off the ground.", SportId= sports[0].Id},
                 #endregion
+
+                #region Rectus Abdominis
+                // Index => 755
+                new Workout { Id = 756, Name="Toe Taps", Description="A Pilates-based move that engages the rectus abdominis. / Execution: Lie on your back with legs in a tabletop position. Lower one foot to tap the floor, then return to starting position and repeat with the other leg.", SportId= sports[0].Id},
+                // Index => 756
+                new Workout { Id = 757, Name="Side Jackknife", Description="Focuses on obliques but also engages rectus abdominis. / Execution: Lie on one side, lift your upper body and legs simultaneously towards each other in a jackknife motion.", SportId= sports[0].Id},
+                #endregion
+
+                #region Internal Obliques
+                // Index => 757
+                new Workout { Id = 758, Name="Side Crunch", Description="Isolates the internal obliques on each side. / Execution: Lie on your side with knees bent. Crunch up by bringing your elbow towards your hip while engaging your oblique muscles.", SportId= sports[0].Id},
+                // Index => 758
+                new Workout { Id = 759, Name="Oblique Cable Crunch", Description="Adds resistance to target the internal obliques. / Execution: Kneel beside a cable machine with the handle at shoulder height. Pull the handle down towards your opposite knee while crunching sideways.", SportId= sports[0].Id},
+                // Index => 759
+                new Workout { Id = 760, Name="Plank with Hip Dips", Description="Engages the entire core, including internal obliques. / Execution: Start in a plank position and lower your hips towards the ground on one side, then return to center and repeat on the other side.", SportId= sports[0].Id},
+                // Index => 760
+                new Workout { Id = 761, Name="Side Plank with Rotation", Description="Adds a rotational element to engage the internal obliques more intensely. / Execution: In a side plank position, reach your top arm under your body and rotate your torso before returning to the starting position.", SportId= sports[0].Id},
+                // Index => 761
+                new Workout { Id = 762, Name="Heel Taps", Description="Targets the obliques while lying on your back. / Execution: Lie flat on your back with knees bent. Lift your head and shoulders off the ground and reach down to tap your heels alternately.", SportId= sports[0].Id},
+                // Index => 762
+                new Workout { Id = 763, Name="Spiderman Exercise", Description="Engages core muscles dynamically while incorporating movement. / Execution: Start in a push-up position; as you lower yourself, bring one knee towards the elbow of the same side, alternating sides with each rep.", SportId= sports[0].Id},
+                // Index => 763
+                new Workout { Id = 764, Name="Medicine Ball Rotational Toss", Description="A dynamic exercise that targets the internal obliques through rotation. / Execution: Stand with feet shoulder-width apart, hold a medicine ball at chest level, rotate your torso to one side and toss it against a wall or to a partner.", SportId= sports[0].Id},
+                // Index => 764
+                new Workout { Id = 765, Name="Windshield Wipers", Description="Engages both internal and external obliques through rotation. / Execution: Lie on your back with legs lifted straight up. Lower both legs to one side while keeping shoulders on the ground, then return to center and repeat on the other side.", SportId= sports[0].Id},
+                // Index => 765
+                new Workout { Id = 766, Name="Oblique Bench Crunch", Description="Targets internal obliques effectively from an inclined position. / Execution: Lie on an incline bench with knees bent; perform crunches by reaching toward one knee at a time.", SportId= sports[0].Id},
+                // Index => 766
+                new Workout { Id = 767, Name="T-Rotation", Description="Engages core stability while targeting internal obliques. / Execution: Start in a push-up position; rotate one arm upwards towards the ceiling while lifting that side's hip off the ground, then return to start and repeat on the other side.", SportId= sports[0].Id},
+                #endregion
+
+                #region External Obliques
+                // Index => 767
+                new Workout { Id = 768, Name="Oblique Crunches", Description="Strengthens the external obliques while improving stability. / Execution: Lie on one side, prop yourself up on your forearm, and lift your hips off the ground to form a straight line from head to heels.", SportId= sports[0].Id},
+                // Index => 768
+                new Workout { Id = 769, Name="Side Plank with Hip Dips", Description="Adds dynamic movement to the side plank, engaging the external obliques more intensely. / Execution: In a side plank position, lower your hips towards the ground and then lift them back up.", SportId= sports[0].Id},
+                // Index => 769
+                new Workout { Id = 770, Name="Cable Woodchoppers", Description="A rotational exercise that targets the external obliques. / Execution: Stand beside a cable machine with the pulley set high. Pull the handle down and across your body in a chopping motion.", SportId= sports[0].Id},
+                // Index => 770
+                new Workout { Id = 771, Name="Lying Windshield Wipers", Description="Targets both internal and external obliques through rotation. / Execution: Lie on your back with legs lifted straight up. Lower both legs to one side while keeping shoulders planted, then return to center and repeat on the other side.", SportId= sports[0].Id},
+                // Index => 771
+                new Workout { Id = 772, Name="High to Low Wood Chop", Description="Mimics a chopping motion that engages the external obliques. / Execution: Stand with feet shoulder-width apart, hold a weight overhead, and chop diagonally down across your body.", SportId= sports[0].Id},
+                // Index => 772
+                new Workout { Id = 773, Name="Hanging Leg Raises with Twist", Description="Engages both lower abs and obliques through rotation. / Execution: Hang from a pull-up bar and raise your legs; twist at the hips to bring your legs towards one side before lowering them.", SportId= sports[0].Id},
+                // Index => 773
+                new Workout { Id = 774, Name="Oblique Sit-Ups", Description="A variation of sit-ups that emphasizes oblique engagement. / Execution: Lie on your back with knees bent and resting to one side; perform sit-ups by reaching toward your knee with your elbow on that same side.", SportId= sports[0].Id},
+                #endregion
+
+                #region legs
+                // Index => 774
+                new Workout { Id = 775, Name="Barbell Back Squat", Description="A fundamental compound movement that targets the entire lower body. / Execution: Stand with feet shoulder-width apart, position the barbell on your upper back, and squat down until your thighs are parallel to the ground.", SportId= sports[0].Id},
+                // Index => 775
+                new Workout { Id = 776, Name="Bulgarian Split Squat", Description="A single-leg exercise that targets quads and glutes. / Execution: Place one foot on a bench behind you and squat down with the front leg until the thigh is parallel to the ground.", SportId= sports[0].Id},
+                // Index => 776
+                new Workout { Id = 777, Name="Calf Raises", Description="Targets the calf muscles for improved lower leg strength. / Execution: Stand on a calf raise machine or step with heels hanging off an edge; raise and lower your heels.", SportId= sports[0].Id},                
+                // Index => 777
+                new Workout { Id = 778, Name="Hack Squat", Description="Focuses on quads while providing back support. / Execution: Use a hack squat machine; place shoulders under pads and squat down while pushing through your heels.", SportId= sports[0].Id},
+                // Index => 778
+                new Workout { Id = 779, Name="Step-Ups", Description="Engages quads, hamstrings, and glutes. / Execution: Step onto a bench or platform with one foot, then bring the other foot up before stepping back down.", SportId= sports[0].Id},
+                // Index => 779
+                new Workout { Id = 780, Name="Sled Push/Pull", Description="A functional exercise that builds strength in legs and core. / Execution: Push or pull a weighted sled across a flat surface for distance or time.", SportId= sports[0].Id},
+                #endregion
+                
+                #region Quadriceps
+                // Index => 780
+                new Workout { Id = 781, Name="Sissy Squats", Description="Isolates the quadriceps effectively. / Execution: Stand with feet shoulder-width apart, lean back while bending your knees and lowering your body without letting your heels lift off the ground.", SportId= sports[0].Id},
+                // Index => 781
+                new Workout { Id = 782, Name="Narrow-Stance Squats", Description="Focuses more on the vastus lateralis of the quads. / Execution: Perform squats with feet close together to emphasize inner quad activation.", SportId= sports[0].Id},
+                // Index => 782
+                new Workout { Id = 783, Name="Pistol Squats", Description="A challenging single-leg squat that targets quads. / Execution: Stand on one leg while extending the other leg forward; lower yourself into a squat on the standing leg.", SportId= sports[0].Id},
+                // Index => 783
+                new Workout { Id = 784, Name="Kettlebell Front Squat", Description="Similar to barbell front squats but allows for better mobility. / Execution: Hold kettlebells at shoulder height and perform squats while keeping an upright posture.", SportId= sports[0].Id},
+                #endregion
+
+                #region Hamstrings
+                // Index => 784
+                new Workout { Id = 785, Name="Conventional Deadlifts", Description="A compound movement that engages the entire posterior chain, including the hamstrings. / Execution: Stand with feet hip-width apart, grip the barbell on the floor, and lift it by extending your hips and knees until standing tall.", SportId= sports[0].Id},
+                // Index => 785
+                new Workout { Id = 786, Name="Nordic Hamstring Curls", Description="An advanced exercise that isolates the hamstrings. / Execution: Kneel on the ground with feet anchored. Slowly lower your body forward while keeping your hips extended, then pull yourself back up.", SportId= sports[0].Id},
+                // Index => 786
+                new Workout { Id = 787, Name="Single-Leg Romanian Deadlifts", Description="Engages each leg individually for balance and stability. / Execution: Stand on one leg while holding a dumbbell or kettlebell in the opposite hand; hinge at the hips to lower the weight towards the ground.", SportId= sports[0].Id},
+                // Index => 787
+                new Workout { Id = 788, Name="Glute-Ham Raises", Description="An excellent exercise for targeting both glutes and hamstrings. / Execution: Use a glute-ham developer machine; secure your feet and lower your body forward before pulling back up using your hamstrings.", SportId= sports[0].Id},
+                // Index => 788
+                new Workout { Id = 789, Name="Stiff-Leg Deadlifts", Description="Similar to Romanian deadlifts but with less knee bend to emphasize hamstring stretch. / Execution: Stand with feet shoulder-width apart, hold a barbell or dumbbells, and hinge at the hips to lower weights while keeping legs straight (with a slight bend).", SportId= sports[0].Id},
+                // Index => 789
+                new Workout { Id = 790, Name="Floor Glute-Ham Raises", Description="A challenging exercise that targets hamstrings directly from a floor position. / Execution: Lie face down on the ground with feet anchored; flex at the knees to lift your body up using only your hamstrings.", SportId= sports[0].Id},
+	            #endregion
+
+                #region ????
+
+                // Index => 790
+                new Workout { Id = 791, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 791
+                new Workout { Id = 792, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 792
+                new Workout { Id = 793, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 793
+                new Workout { Id = 794, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 794
+                new Workout { Id = 795, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 795
+                new Workout { Id = 796, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 796
+                new Workout { Id = 797, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 797
+                new Workout { Id = 798, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 798
+                new Workout { Id = 799, Name="", Description="", SportId= sports[0].Id},
+
+                // Index => 799
+                new Workout { Id = 800, Name="", Description="", SportId= sports[0].Id},
+                #endregion
+
 
             };
 
@@ -2511,7 +2619,6 @@ public static class DbInitializer
                 new BodyWorkout { WorkoutId = workouts[748].Id, BodyId = bodies[20].Id },
                 #endregion
                 
-                
                 #region Wrists
                 new BodyWorkout { WorkoutId = workouts[740].Id, BodyId = bodies[21].Id },
                 new BodyWorkout { WorkoutId = workouts[742].Id, BodyId = bodies[21].Id },
@@ -2531,13 +2638,172 @@ public static class DbInitializer
                 #endregion
 
                 #region Abdominals
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[348].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[571].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[574].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[582].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[343].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[400].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[413].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[584].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[566].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[589].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[583].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[751].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[752].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[753].Id, BodyId = bodies[22].Id },
+                new BodyWorkout { WorkoutId = workouts[754].Id, BodyId = bodies[22].Id },
                 #endregion
                 
-                #region ???
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[23].Id },
+                #region Rectus Abdominis
+                new BodyWorkout { WorkoutId = workouts[569].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[583].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[363].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[573].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[348].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[400].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[581].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[566].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[753].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[575].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[585].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[413].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[754].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[755].Id, BodyId = bodies[23].Id },
+                new BodyWorkout { WorkoutId = workouts[756].Id, BodyId = bodies[23].Id },
                 #endregion
 
+                #region Internal Obliques
+                new BodyWorkout { WorkoutId = workouts[17].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[348].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[548].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[566].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[587].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[757].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[758].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[759].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[760].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[761].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[762].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[763].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[764].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[765].Id, BodyId = bodies[24].Id },
+                new BodyWorkout { WorkoutId = workouts[766].Id, BodyId = bodies[24].Id },
+                #endregion
+
+                #region External Obliques
+                new BodyWorkout { WorkoutId = workouts[581].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[763].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[348].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[766].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[758].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[709].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[663].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[767].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[768].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[769].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[770].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[771].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[772].Id, BodyId = bodies[25].Id },
+                new BodyWorkout { WorkoutId = workouts[773].Id, BodyId = bodies[25].Id },
+                #endregion
+
+                // **********************************
+                #region Core
+                new BodyWorkout { WorkoutId = workouts[573].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[348].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[581].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[363].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[597].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[582].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[594].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[584].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[769].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[413].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[566].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[767].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[754].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[41].Id, BodyId = bodies[26].Id },
+                new BodyWorkout { WorkoutId = workouts[344].Id, BodyId = bodies[26].Id },
+                #endregion
+
+                #region Legs
+                new BodyWorkout { WorkoutId = workouts[551].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[92].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[441].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[481].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[127].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[120].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[119].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[238].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[477].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[774].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[775].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[776].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[777].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[778].Id, BodyId = bodies[27].Id },
+                new BodyWorkout { WorkoutId = workouts[779].Id, BodyId = bodies[27].Id },
+                #endregion
+
+                #region Quadriceps
+                new BodyWorkout { WorkoutId = workouts[774].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[551].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[92].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[12].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[481].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[775].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[127].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[120].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[463].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[15].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[777].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[780].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[781].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[782].Id, BodyId = bodies[28].Id },
+                new BodyWorkout { WorkoutId = workouts[783].Id, BodyId = bodies[28].Id },
+                #endregion
+
+                #region Hamstrings
+                new BodyWorkout { WorkoutId = workouts[467].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[120].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[119].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[465].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[47].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[553].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[92].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[152].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[46].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[784].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[785].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[786].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[787].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[788].Id, BodyId = bodies[29].Id },
+                new BodyWorkout { WorkoutId = workouts[789].Id, BodyId = bodies[29].Id },
+                #endregion
+
+                #region Gluteus Maximus
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[30].Id },
+                #endregion
+
+                #region Gluteus Medius
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[31].Id },
+                #endregion
+
+                #region Gluteus Minimus
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[32].Id },
+                #endregion
+
+                #region Calves
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[33].Id },
+                #endregion
+
+                #region Gastrocnemius Calves
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[34].Id },
+                #endregion
+
+                #region Soleus Calves
+                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[35].Id },
+                #endregion
 
             };
             await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
