@@ -2214,39 +2214,61 @@ public static class DbInitializer
                 // Index => 789
                 new Workout { Id = 790, Name="Floor Glute-Ham Raises", Description="A challenging exercise that targets hamstrings directly from a floor position. / Execution: Lie face down on the ground with feet anchored; flex at the knees to lift your body up using only your hamstrings.", SportId= sports[0].Id},
 	            #endregion
-
-                #region ????
-
+                
+                #region Gluteus Maximus
                 // Index => 790
-                new Workout { Id = 791, Name="", Description="", SportId= sports[0].Id},
-
+                new Workout { Id = 791, Name="Dumbbell Squat", Description="A fundamental compound movement that targets the glutes and quads. / Execution: Stand with feet shoulder-width apart, holding dumbbells at arm’s length by your sides. Push your hips back and lower your body until your thighs are parallel to the floor, then return to standing.", SportId= sports[0].Id},
                 // Index => 791
-                new Workout { Id = 792, Name="", Description="", SportId= sports[0].Id},
-
+                new Workout { Id = 792, Name="Glute Bridge", Description="Targets the glutes effectively while also engaging the core. / Execution: Lie on your back with knees bent and feet flat on the floor. Lift your hips towards the ceiling by squeezing your glutes at the top, then lower back down.", SportId= sports[0].Id},
                 // Index => 792
-                new Workout { Id = 793, Name="", Description="", SportId= sports[0].Id},
-
+                new Workout { Id = 793, Name="Donkey Kicks", Description="Targets the glutes through hip extension. / Execution: Start on all fours with hands under shoulders and knees under hips. Keeping your knee bent, lift one leg towards the ceiling while squeezing your glute at the top.", SportId= sports[0].Id},
                 // Index => 793
-                new Workout { Id = 794, Name="", Description="", SportId= sports[0].Id},
-
+                new Workout { Id = 794, Name="Sumo Deadlift", Description="A variation that targets glutes more due to wider stance. / Execution: Stand with feet wider than shoulder-width apart and toes pointed out. Grip the barbell between your legs and lift it by extending hips and knees.", SportId= sports[0].Id},
                 // Index => 794
-                new Workout { Id = 795, Name="", Description="", SportId= sports[0].Id},
-
+                new Workout { Id = 795, Name="Curtsy Lunge", Description="Engages glutes through lateral movement. / Execution: Stand with feet hip-width apart, step one leg behind you and to the side (like a curtsy), lowering into a lunge position before returning to standing.", SportId= sports[0].Id},
                 // Index => 795
-                new Workout { Id = 796, Name="", Description="", SportId= sports[0].Id},
-
-                // Index => 796
-                new Workout { Id = 797, Name="", Description="", SportId= sports[0].Id},
-
-                // Index => 797
-                new Workout { Id = 798, Name="", Description="", SportId= sports[0].Id},
-
-                // Index => 798
-                new Workout { Id = 799, Name="", Description="", SportId= sports[0].Id},
-
-                // Index => 799
-                new Workout { Id = 800, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 796, Name="Hip Abductor Machine", Description="Isolates and strengthens the outer glutes. / Execution: Sit on an abductor machine with legs inside pads; push outward against resistance to engage the gluteus medius and maximus.", SportId= sports[0].Id},
                 #endregion
+
+                
+                #region Gluteus Medius
+                // Index => 796
+                new Workout { Id = 797, Name="Lateral Banded Walks", Description="Engages the gluteus medius through lateral movement. / Engages the gluteus medius through lateral movement.", SportId= sports[0].Id},
+                // Index => 797
+                new Workout { Id = 798, Name="Side-Lying Leg Lifts", Description="Isolates the gluteus medius effectively. / Execution: Lie on your side with legs stacked. Keeping your top leg straight, lift it towards the ceiling, then lower back down.", SportId= sports[0].Id},
+                // Index => 798
+                new Workout { Id = 799, Name="Clamshells", Description="Targets both the gluteus medius and minimus. / Execution: Lie on your side with knees bent at 45 degrees. Keeping your heels together, lift your top knee as high as you can without moving your pelvis.", SportId= sports[0].Id},
+                // Index => 799
+                new Workout { Id = 800, Name="Fire Hydrants", Description="Engages the gluteus medius while stabilizing the core. / Execution: Start on all fours, keeping your knee bent at 90 degrees, lift one leg out to the side until parallel to your hip, then lower back down.", SportId= sports[0].Id},
+                // Index => 800
+                new Workout { Id = 801, Name="Standing Hip Abduction", Description="Focuses on hip abduction to strengthen the gluteus medius. / Execution: Stand with feet together, shift weight onto one leg, and lift the other leg out to the side, keeping it straight. Return to starting position without letting it touch the ground.", SportId= sports[0].Id},
+                // Index => 801
+                new Workout { Id = 802, Name="Single-Leg Glute Bridge", Description="Activates the gluteus medius while also working the gluteus maximus. / Execution: Lie on your back with one foot planted and the other leg extended towards the ceiling. Lift your hips off the ground by pressing through your planted foot.", SportId= sports[0].Id},
+                // Index => 802
+                new Workout { Id = 803, Name="Side Plank with Leg Lift", Description="Strengthens both core and gluteus medius. / Execution: In a side plank position, lift your top leg straight up while maintaining stability in your hips.", SportId= sports[0].Id},
+                // Index => 803
+                new Workout { Id = 804, Name="Lateral Lunges", Description="Engages glutes and inner thighs while promoting stability. / Execution: Step out to one side into a lunge position, keeping the opposite leg straight. Push through the bent leg to return to standing.", SportId= sports[0].Id},
+                // Index => 804
+                new Workout { Id = 805, Name="Cable Hip Abduction", Description="Provides resistance for targeted glute activation. / Execution: Attach an ankle strap to a low pulley; stand facing away from the machine and lift your leg out to the side against resistance.", SportId= sports[0].Id},
+                // Index => 805
+                new Workout { Id = 806, Name="Squats with Resistance Band", Description="Enhances engagement of the gluteus medius during squats. / Execution: Place a resistance band just above your knees; perform squats while pushing against the band to activate your outer hips.", SportId= sports[0].Id},
+                // Index => 806
+                new Workout { Id = 807, Name="Reverse Lunge with Lateral Raise", Description="Combines lower body movement with upper body activation for balance. / Execution: Step back into a lunge while simultaneously lifting weights or arms laterally to engage core and glutes.", SportId= sports[0].Id},
+                // Index => 807
+                new Workout { Id = 808, Name="Hip Thrusts with Abduction", Description="Targets both gluteus maximus and medius. / Execution: Perform a standard hip thrust but add a resistance band around your knees; push against the band as you lift your hips.", SportId= sports[0].Id},
+                // Index => 808
+                new Workout { Id = 809, Name="Side Step-Ups", Description="Engages glutes through lateral movement. / Execution: Stand beside a bench or platform; step sideways onto it with one foot, pressing through that foot to stand up before stepping back down.", SportId= sports[0].Id},
+                // Index => 809
+                new Workout { Id = 810, Name="Single-Leg Balance", Description="Helps improve stability and strengthen gluteus medius. / Execution: Stand on one leg with a slight bend in your knee; hold this position for 30-60 seconds, challenging balance by closing your eyes or moving arms.", SportId= sports[0].Id},
+                #endregion
+                
+                // Index => 810
+                new Workout { Id = 811, Name="", Description="", SportId= sports[0].Id},
+                // Index => 811
+                new Workout { Id = 812, Name="", Description="", SportId= sports[0].Id},
+
+
+
 
 
             };
@@ -2708,7 +2730,6 @@ public static class DbInitializer
                 new BodyWorkout { WorkoutId = workouts[773].Id, BodyId = bodies[25].Id },
                 #endregion
 
-                // **********************************
                 #region Core
                 new BodyWorkout { WorkoutId = workouts[573].Id, BodyId = bodies[26].Id },
                 new BodyWorkout { WorkoutId = workouts[348].Id, BodyId = bodies[26].Id },
@@ -2782,13 +2803,42 @@ public static class DbInitializer
                 #endregion
 
                 #region Gluteus Maximus
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[553].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[441].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[775].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[481].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[778].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[150].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[484].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[477].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[46].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[790].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[791].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[792].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[793].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[794].Id, BodyId = bodies[30].Id },
+                new BodyWorkout { WorkoutId = workouts[795].Id, BodyId = bodies[30].Id },
                 #endregion
 
                 #region Gluteus Medius
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[477].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[796].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[797].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[798].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[799].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[800].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[801].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[802].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[803].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[804].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[805].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[806].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[807].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[808].Id, BodyId = bodies[31].Id },
+                new BodyWorkout { WorkoutId = workouts[809].Id, BodyId = bodies[31].Id },
                 #endregion
 
+                // **********************************
                 #region Gluteus Minimus
                 new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[32].Id },
                 #endregion
