@@ -256,7 +256,7 @@ public static class DbInitializer
                 new Workout { Id = 4, Name = "Dumbbell Bent-Over Rows", Description ="Engages the entire back.", SportId= sports[0].Id },
                 //Index 4
                 new Workout { Id = 5, Name = "Dumbbell Pullover", Description ="Works the lats and upper chest.", SportId= sports[0].Id },
-                //Index 5                
+                //Index 5
                 new Workout { Id = 6, Name = "Renegade Row", Description ="Combines a plank with a row for core and back strength.", SportId= sports[0].Id },
 
                 // Shoulders
@@ -2230,7 +2230,6 @@ public static class DbInitializer
                 new Workout { Id = 796, Name="Hip Abductor Machine", Description="Isolates and strengthens the outer glutes. / Execution: Sit on an abductor machine with legs inside pads; push outward against resistance to engage the gluteus medius and maximus.", SportId= sports[0].Id},
                 #endregion
 
-                
                 #region Gluteus Medius
                 // Index => 796
                 new Workout { Id = 797, Name="Lateral Banded Walks", Description="Engages the gluteus medius through lateral movement. / Engages the gluteus medius through lateral movement.", SportId= sports[0].Id},
@@ -2261,14 +2260,91 @@ public static class DbInitializer
                 // Index => 809
                 new Workout { Id = 810, Name="Single-Leg Balance", Description="Helps improve stability and strengthen gluteus medius. / Execution: Stand on one leg with a slight bend in your knee; hold this position for 30-60 seconds, challenging balance by closing your eyes or moving arms.", SportId= sports[0].Id},
                 #endregion
-                
+
+
+                #region Gluteus Medius
                 // Index => 810
-                new Workout { Id = 811, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 811, Name="Single-Leg Dumbbell Hip Thrust", Description="Targets the glutes while challenging stability. / Execution: Sit on the ground with your upper back against a bench, extend one leg towards the ceiling, and thrust your hips upward using the planted foot.", SportId= sports[0].Id},
                 // Index => 811
-                new Workout { Id = 812, Name="", Description="", SportId= sports[0].Id},
+                new Workout { Id = 812, Name="Curtsy Lunges", Description="Activates the gluteus minimus more than traditional lunges. / Execution: Step one leg behind and to the side of the other leg into a lunge position, keeping your back straight and core engaged.", SportId= sports[0].Id},
+                #endregion
 
+                #region Gluteus Minimus
+                // Index => 812
+                new Workout { Id = 813, Name="Standing Calf Raises", Description="A classic exercise that targets the gastrocnemius muscle. / Execution: Stand on a raised platform or step with your heels hanging off. Push through the balls of your feet to raise your body upward, then lower your heels below the platform for a full stretch.", SportId= sports[0].Id},
+                // Index => 813
+                new Workout { Id = 814, Name="Seated Calf Raises", Description="Focuses on the soleus muscle and is performed with knees bent. / Execution: Sit on a calf raise machine or bench with feet flat on the floor. Press down into the balls of your feet to raise your heels as high as possible, then lower back down.", SportId= sports[0].Id},
+                // Index => 814
+                new Workout { Id = 815, Name="Single-Leg Calf Raises", Description="Increases intensity by isolating each calf. / Stand on one leg on a raised surface. Lower your heel towards the ground, then push through the ball of your foot to raise your heel as high as possible.", SportId= sports[0].Id},
+                // Index => 815
+                new Workout { Id = 816, Name="Eccentric Calf Raises", Description="Focuses on the eccentric phase to improve muscle elasticity. / Execution: Stand on a step with heels hanging off. Raise both heels, then slowly lower one heel at a time, emphasizing control during the descent.", SportId= sports[0].Id},
+                // Index => 816
+                new Workout { Id = 817, Name="Donkey Calf Raises", Description="Allows for greater range of motion and heavier loading. / Execution: Bend forward at the hips while using a donkey calf raise machine or positioning yourself to allow for a full stretch and contraction of the calves.", SportId= sports[0].Id},
+                // Index => 817
+                new Workout { Id = 818, Name="Tiptoe Farmers Carry", Description="Engages calves dynamically while improving grip strength. / Execution: Hold heavy dumbbells or kettlebells in each hand and walk on your tiptoes for distance or time.", SportId= sports[0].Id},
+                // Index => 818
+                new Workout { Id = 819, Name="Jump Rope", Description="A great cardio exercise that also targets calves. / Execution: Jump continuously while landing softly on the balls of your feet to engage calf muscles throughout the movement.", SportId= sports[0].Id},
+                // Index => 819
+                new Workout { Id = 820, Name="Squats Into Calf Raises", Description="Combines squats with calf raises for functional strength. / Execution: Perform a squat, and as you rise, transition into a calf raise at the top of the movement.", SportId= sports[0].Id},
+                // Index => 820
+                new Workout { Id = 821, Name="Sled Drag (on Toes)", Description="Engages calves through resistance training. / Execution: Attach a sled to your waist and walk forward on your toes, dragging the sled behind you.", SportId= sports[0].Id},
+                // Index => 821
+                new Workout { Id = 822, Name="Jumping Calf Raises", Description="A plyometric exercise that builds explosive strength in calves. / Execution: Jump using only your calves to propel you upward, landing softly and absorbing impact.", SportId= sports[0].Id},
+                // Index => 822
+                new Workout { Id = 823, Name="Stadium Stairs", Description=" Running stairs effectively targets calves. / Execution: Run up and down stadium stairs, ensuring each step is taken with the balls of your feet.", SportId= sports[0].Id},
+                // Index => 823
+                new Workout { Id = 824, Name="Hill Sprints", Description="Engages calves through explosive movements. / Execution: Sprint uphill for short distances, focusing on pushing off with your calves.", SportId= sports[0].Id},
+                // Index => 824
+                new Workout { Id = 825, Name="Captain Morgan Calf Raise", Description="A unique variation that engages balance and stability. / Execution: Stand on one leg with the other leg bent at 90 degrees; perform calf raises while maintaining balance.", SportId= sports[0].Id},
+                // Index => 825
+                new Workout { Id = 826, Name="Lateral Lunge to Calf Raise", Description="Combines lateral movement with calf engagement. / Execution: Step out into a lateral lunge, then push off that leg into a calf raise as you return to standing.", SportId= sports[0].Id},
+                // Index => 826
+                new Workout { Id = 827, Name="Calf Raise Machine Variations", Description="Utilize various calf raise machines available at gyms for targeted training. / Execution: Follow standard procedures for seated or standing calf raises using machines designed specifically for this purpose.", SportId= sports[0].Id},
+                #endregion
 
+                #region Gastrocnemius Calves
+                // Index => 827
+                new Workout { Id = 828, Name="Weighted Calf Raises", Description="Increases resistance to enhance muscle growth. / Execution: Hold dumbbells at your sides or use a barbell across your back while performing standing calf raises.", SportId= sports[0].Id},
+                // Index => 828
+                new Workout { Id = 829, Name="Calf Raise on Leg Press Machine", Description="Targets gastrocnemius while allowing for heavy loading. / Execution: Sit on a leg press machine with feet positioned on the platform; perform calf raises by pushing through the balls of your feet.", SportId= sports[0].Id},
+                // Index => 829
+                new Workout { Id = 830, Name="Plyometric Box Jumps", Description="Builds explosive power in calves. / Execution: Jump onto a sturdy box or platform from a standing position, focusing on pushing off with your calves.", SportId= sports[0].Id},
+                // Index => 830
+                new Workout { Id = 831, Name="Calf Raises with Resistance Bands", Description="Provides variable resistance for targeted training. / Execution: Stand on a resistance band with both feet and perform calf raises, holding onto something for balance if necessary.", SportId= sports[0].Id},
+                // Index => 831
+                new Workout { Id = 832, Name="Static Neutral Hold", Description="An isometric exercise that tests calf strength and endurance. / Execution: Stand with the balls of your feet elevated on a block; hold this position for 30-60 seconds while maintaining tension in your calves.", SportId= sports[0].Id},
+                // Index => 832
+                new Workout { Id = 833, Name="Sprints", Description="Engages calves through rapid explosive movements. / Execution: Perform short-distance sprints (50-100 yards) focusing on maximizing push-off from the calves.", SportId= sports[0].Id},
+                // Index => 833
+                new Workout { Id = 834, Name="Calf Raises on Smith Machine", Description="Allows for controlled movement and added weight. / Execution: Position yourself under a Smith machine barbell, set at shoulder height; perform standing calf raises with added resistance.", SportId= sports[0].Id},
+                // Index => 834
+                new Workout { Id = 835, Name="Explosive Calf Step-Ups", Description="Combines plyometric movement with calf engagement. / Execution: Set up with one foot on a box or bench; explosively drive off that foot, jumping upwards off the bench and switching feet in mid-air.", SportId= sports[0].Id},
+                #endregion
 
+                 #region Gastrocnemius Calves
+                // Index => 835
+                new Workout { Id = 836, Name="Bent-Knee Calf Raises", Description="Similar to seated calf raises but can be performed standing. / Execution: Stand with knees slightly bent and perform calf raises, ensuring that you maintain the knee bend throughout the movement.", SportId= sports[0].Id},
+                // Index => 836
+                new Workout { Id = 837, Name="Single-Leg Seated Calf Raises", Description="Focuses on one calf at a time for balanced development. / Execution: Sit on a bench with one foot on the ground and the other foot resting on your knee. Perform calf raises with the working leg while keeping the knee bent.", SportId= sports[0].Id},
+                // Index => 837
+                new Workout { Id = 838, Name="Standing Soleus Calf Raise", Description="Targets the soleus while standing. / Execution: Stand with feet shoulder-width apart and knees slightly bent. Raise your heels off the ground, focusing on squeezing your calves at the top before lowering back down.", SportId= sports[0].Id},
+                // Index => 838
+                new Workout { Id = 839, Name="Soleus Wall Sit", Description="Engages the soleus in an isometric hold. / Execution: Lean against a wall in a squat position with knees bent at 90 degrees. Raise your heels off the ground and hold this position for 30-60 seconds.", SportId= sports[0].Id},
+                // Index => 839
+                new Workout { Id = 840, Name="Tip-Toe Walking", Description="Strengthens calves through functional movement. / Execution: Walk on your tiptoes for a set distance or time, focusing on maintaining balance and engaging your calves throughout.", SportId= sports[0].Id},
+                // Index => 840
+                new Workout { Id = 841, Name="Calf Raises on Leg Press Machine (Bent Knee)", Description="Allows for greater loading while isolating the soleus. / Execution: Sit on a leg press machine with your feet positioned high; perform calf raises while keeping your knees bent.", SportId= sports[0].Id},
+                // Index => 841
+                new Workout { Id = 842, Name="Calf Raises with Resistance Bands", Description="Provides variable resistance for targeted training. / Execution: Stand on a resistance band with both feet and perform calf raises, holding onto something for balance if necessary.", SportId= sports[0].Id},
+                // Index => 842
+                new Workout { Id = 843, Name="Sled Drag with Bent Knee", Description="Engages soleus through functional movement. / Execution: Attach a sled to your waist and walk forward while keeping your knees slightly bent, focusing on using your calves to push off.", SportId= sports[0].Id},
+                // Index => 843
+                new Workout { Id = 844, Name="Calf Raise Finisher", Description="A combination of various calf raise techniques to fully fatigue the muscle. / Execution: Perform three sets of seated calf raises followed by standing calf raises, emphasizing slow controlled movements and holding at both the top and bottom of each rep.", SportId= sports[0].Id},
+                // Index => 844
+                new Workout { Id = 845, Name="Wall Calf Stretch with Bent Knee", Description="Stretches and strengthens the soleus through controlled movement. / Execution: Place one foot behind you against a wall while keeping it bent; lean into the wall to stretch while performing small calf raises.", SportId= sports[0].Id},
+                // Index => 845
+                new Workout { Id = 846, Name="Calf Raises on Smith Machine (Bent Knee)", Description="Provides controlled movement for focused training. / Execution: Position yourself under a Smith machine barbell set at shoulder height; perform standing calf raises while maintaining slight knee flexion.", SportId= sports[0].Id},
+                #endregion
 
 
             };
@@ -2838,21 +2914,75 @@ public static class DbInitializer
                 new BodyWorkout { WorkoutId = workouts[809].Id, BodyId = bodies[31].Id },
                 #endregion
 
-                // **********************************
                 #region Gluteus Minimus
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[796].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[797].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[798].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[799].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[800].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[804].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[805].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[806].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[477].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[807].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[808].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[809].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[810].Id, BodyId = bodies[32].Id },
+                new BodyWorkout { WorkoutId = workouts[811].Id, BodyId = bodies[32].Id },
                 #endregion
 
                 #region Calves
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[812].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[813].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[814].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[815].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[816].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[817].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[818].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[819].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[820].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[821].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[822].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[823].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[824].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[825].Id, BodyId = bodies[33].Id },
+                new BodyWorkout { WorkoutId = workouts[826].Id, BodyId = bodies[33].Id },
                 #endregion
 
                 #region Gastrocnemius Calves
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[812].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[814].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[813].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[816].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[818].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[823].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[822].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[827].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[828].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[829].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[830].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[831].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[832].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[833].Id, BodyId = bodies[34].Id },
+                new BodyWorkout { WorkoutId = workouts[834].Id, BodyId = bodies[34].Id },
                 #endregion
 
                 #region Soleus Calves
-                new BodyWorkout { WorkoutId = workouts[].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[813].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[816].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[831].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[834].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[835].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[836].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[837].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[838].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[839].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[840].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[841].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[842].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[843].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[844].Id, BodyId = bodies[35].Id },
+                new BodyWorkout { WorkoutId = workouts[845].Id, BodyId = bodies[35].Id },
                 #endregion
 
             };
