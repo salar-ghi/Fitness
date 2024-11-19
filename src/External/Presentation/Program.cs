@@ -2,7 +2,7 @@ using Presentation.Seed;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var host = CreateHostBuilder(args).Build();
         using (var scope = host.Services.CreateScope())
@@ -10,7 +10,8 @@ public class Program
             var services = scope.ServiceProvider;
             var context = services.GetRequiredService<FitnessContext>();
 
-            DbInitializer.SeedAsync(context).Wait();
+            //DbInitializer.SeedAsync(context).Wait();
+            await DbInitializer.SeedAsync(context);
         }
         host.Run();
     }

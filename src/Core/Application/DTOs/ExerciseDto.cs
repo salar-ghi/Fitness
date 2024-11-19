@@ -1,3 +1,3 @@
 ﻿namespace Application.DTOs;
 
-public record ExerciseDto(int WorkoutId, string WorkoutUrl, int RecomendSet, int RecomendWeight);
+public record ExerciseDto(int workoutId, string workoutUrl, int recommendSet, int recommendWeight);
