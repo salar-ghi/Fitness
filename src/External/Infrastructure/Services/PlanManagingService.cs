@@ -1,4 +1,6 @@
-﻿namespace Infrastructure.Services;
+﻿using Domain.Enums;
+
+namespace Infrastructure.Services;
 
 public class PlanManagingService : IPlanManagingService
 {
@@ -164,8 +166,13 @@ public class PlanManagingService : IPlanManagingService
                 Id = item.Id,
                 Name = item.name,
             };
-
+            bodyList.Add(body);
         }
+
+
+
+
+
 
 
 
