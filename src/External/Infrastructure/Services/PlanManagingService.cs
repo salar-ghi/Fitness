@@ -169,6 +169,19 @@ public class PlanManagingService : IPlanManagingService
             bodyList.Add(body);
         }
 
+        var equipmentNum = dto.Equipments.Count;
+        List<Equipment> equipmentList = new List<Equipment>();
+        foreach (var item in dto.Equipments)
+        {
+            Equipment equipment = new Equipment
+            {
+                Id = item.equipmentId,
+
+            };
+            equipmentList.Add(equipment);
+        }
+
+
 
 
 
