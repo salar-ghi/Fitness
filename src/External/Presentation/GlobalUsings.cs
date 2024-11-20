@@ -5,6 +5,7 @@ global using Domain.Models;
 global using Infrastructure;
 global using Application.DTOs;
 global using Infrastructure.Context;
+global using Application.Interfaces;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.AspNetCore.Http;
 global using Microsoft.AspNetCore.Identity;

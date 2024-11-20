@@ -1,6 +1,8 @@
-﻿namespace Infrastructure.Services;
+﻿using Domain.Enums;
 
-public class PlanManagingService
+namespace Infrastructure.Services;
+
+public class PlanManagingService : IPlanManagingService
 {
     private readonly IUnitOfWork _unitOfWork;
     public PlanManagingService(IUnitOfWork unitOfWork)
@@ -112,7 +114,7 @@ public class PlanManagingService
             var muscle = new MusclePriority
             {
                 PlanId= Guid.NewGuid(), // ????????????????? replace it with correct muscle
-                BodyId = item.Id // replace it with correct property
+                BodyId = item.Id        // replace it with correct property
             };
             musclePriorities.Add(muscle);
         }
@@ -150,6 +152,44 @@ public class PlanManagingService
     }
 
 
+    public async Task PlanAiGeneratingMangement(RegisterDto dto)
+    {
+        var duration = dto.PlanDuration;
 
+
+        var muscleNum = dto.MusclePriorities.Count;
+        List<Body> bodyList = new List<Body>();
+        foreach (var item in dto.MusclePriorities)
+        {
+            Body body = new Body
+            {
+                Id = item.Id,
+                Name = item.name,
+            };
+            bodyList.Add(body);
+        }
+
+        var equipmentNum = dto.Equipments.Count;
+        List<Equipment> equipmentList = new List<Equipment>();
+        foreach (var item in dto.Equipments)
+        {
+            Equipment equipment = new Equipment
+            {
+                Id = item.equipmentId,
+
+            };
+            equipmentList.Add(equipment);
+        }
+
+
+
+
+
+
+
+
+
+
+    }
 
 }

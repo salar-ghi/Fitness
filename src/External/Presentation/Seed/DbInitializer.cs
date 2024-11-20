@@ -2261,7 +2261,6 @@ public static class DbInitializer
                 new Workout { Id = 810, Name="Single-Leg Balance", Description="Helps improve stability and strengthen gluteus medius. / Execution: Stand on one leg with a slight bend in your knee; hold this position for 30-60 seconds, challenging balance by closing your eyes or moving arms.", SportId= sports[0].Id},
                 #endregion
 
-
                 #region Gluteus Medius
                 // Index => 810
                 new Workout { Id = 811, Name="Single-Leg Dumbbell Hip Thrust", Description="Targets the glutes while challenging stability. / Execution: Sit on the ground with your upper back against a bench, extend one leg towards the ceiling, and thrust your hips upward using the planted foot.", SportId= sports[0].Id},
@@ -2353,6 +2352,8 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+
+        // Done :) 😁
         if (!context.BodyWorkouts.Any())
         {
             var bodyWorkouts = new List<BodyWorkout>
@@ -2990,6 +2991,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // Not Done ☹️
         if (!context.WorkoutEquipment.Any())
         {
             var workoutEquipments = new List<WorkoutEquipment>
@@ -3113,6 +3115,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // Not Done ☹️
         if (!context.WorkoutInstructions.Any())
         {
             var instructions = new List<WorkoutInstruction>
@@ -3124,6 +3127,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // Not Done ☹️
         if (!context.WorkoutAgeRanges.Any())
         {
             var workoutAgeRanges = new List<WorkoutAgeRange>
@@ -3135,6 +3139,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // Not Done ☹️
         if (!context.WorkoutLevels.Any())
         {
             var workoutLevels = new List<WorkoutLevel>
@@ -3145,6 +3150,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // Not Done ☹️
         if (!context.WorkoutSex.Any())
         {
             var genders = new List<WorkoutSex>

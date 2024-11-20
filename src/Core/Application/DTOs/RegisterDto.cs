@@ -29,7 +29,6 @@ public class RegisterDto
     // Diseases
     public List<DiseaseDto> Diseases { get; set; }
 
-
     // PlanDays
     public List<PlanDaysDto> PlanDays { get; set; }
 

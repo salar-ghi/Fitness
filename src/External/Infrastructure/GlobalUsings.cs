@@ -4,6 +4,7 @@ global using Domain.Models;
 global using Application.DTOs;
 global using Infrastructure.UoW;
 global using Domain.IRepositories;
+global using Application.Interfaces;
 global using Infrastructure.Context;
 global using Infrastructure.Repositories;
 global using Microsoft.EntityFrameworkCore;
