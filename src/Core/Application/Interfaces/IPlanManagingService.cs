@@ -3,5 +3,5 @@
 public interface IPlanManagingService
 {
 
-    Task PlanAiGeneratingMangement();
+    Task PlanAiGeneratingMangement(RegisterDto dto);
 }
