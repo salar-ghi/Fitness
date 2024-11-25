@@ -1,3 +1,3 @@
 namespace Application.DTOs;
 
-public record PlanEquipmentDto(int equipmentId, string name);
+public record PlanEquipmentDto(Guid planId, int equipmentId);

@@ -73,8 +73,8 @@ public class PlanManagingService : IPlanManagingService
         foreach (var item in dto.Diseases)
         {
             var disease = new Disease
-            { 
-                AthleteId= Guid.NewGuid(), // ???????????????? 
+            {
+                AthleteId = Guid.NewGuid(), // ???????????????? 
                 Name = item.name,
                 Description = item.description,
                 BodyId = item.bodyId,
@@ -90,7 +90,7 @@ public class PlanManagingService : IPlanManagingService
     {
         // Plan itself =====>  it's really imporant 
         // plan relates to Workout Model and it should have lots of data in it.
-        
+
 
         // PlanDays Table
         List<PlanDays> planDays = new List<PlanDays>();
@@ -113,7 +113,7 @@ public class PlanManagingService : IPlanManagingService
         {
             var muscle = new MusclePriority
             {
-                PlanId= Guid.NewGuid(), // ????????????????? replace it with correct muscle
+                PlanId = Guid.NewGuid(), // ????????????????? replace it with correct muscle
                 BodyId = item.Id        // replace it with correct property
             };
             musclePriorities.Add(muscle);
@@ -134,21 +134,6 @@ public class PlanManagingService : IPlanManagingService
         }
         await _unitOfWork.PlanEquipmentRepository.CreateRangeAsync(equipments);
 
-        //after generating plan and set filters on it clarify exercise.
-        List<Exercise> exercises = new List<Exercise>();
-        foreach (var item in dto.Exercises)
-        {
-            var exercise = new Exercise
-            {
-                PlanId = Guid.NewGuid(), // ????????????????????? make it ok 
-                WorkoutId = 1, // ????????????????????? make it ok 
-                //ExerciseType =  , // ??????????????????? fix io
-                RecommendWeight = item.RecomendWeight,
-            };
-            exercises.Add(exercise);
-        }
-
-        await _unitOfWork.ExerciseRepository.CreateRangeAsync(exercises);
     }
 
 
@@ -157,11 +142,12 @@ public class PlanManagingService : IPlanManagingService
         var duration = dto.PlanDuration;
 
 
+        // I think we just have to let user to select only 4 parts
         var muscleNum = dto.MusclePriorities.Count;
         List<Body> bodyList = new List<Body>();
         foreach (var item in dto.MusclePriorities)
         {
-            Body body = new Body
+            var body = new Body
             {
                 Id = item.Id,
                 Name = item.name,
@@ -169,26 +155,73 @@ public class PlanManagingService : IPlanManagingService
             bodyList.Add(body);
         }
 
+        // equipment does not have limitations
         var equipmentNum = dto.Equipments.Count;
         List<Equipment> equipmentList = new List<Equipment>();
         foreach (var item in dto.Equipments)
         {
-            Equipment equipment = new Equipment
-            {
-                Id = item.equipmentId,
+            var eqips = await _unitOfWork.EquipmentRepository.GetByIdAsync(item.equipmentId);
+            equipmentList.Add(eqips);
 
+            //Equipment equipment = new Equipment
+            //{
+            //    Id = item.Id,
+            //    Name= item.Name,
+            //};
+            //equipmentList.Add(equipment);
+        }
+
+        // limitation num is 5 in a week
+        List<PlanDays> planDays = new List<PlanDays>();
+        var planDaysNum = dto.PlanDays.Count;
+        foreach (var item in dto.PlanDays)
+        {
+            var planDay = new PlanDays
+            {
+                //PlanId = Guid.NewGuid(),
+                Day = item.Day,
+                Hour = item.Hour,
             };
-            equipmentList.Add(equipment);
+            planDays.Add(planDay);
         }
 
 
+        var injuriesNum = dto.Injuries.Count;
+        List<InjuryDto> injuriesList = new List<InjuryDto>();
+        foreach (var item in dto.Injuries)
+        {
+
+            InjuryDto injury = new(
+                name: item.name,
+                bodyId: item.bodyId,
+                description: item.description,
+                injuredImgUrl: item.injuredImgUrl);
+
+            injuriesList.Add(injury);
+        }
+
+
+        var diseasesNum = dto.Diseases.Count;
+        List<DiseaseDto> diseasesList = new List<DiseaseDto>();
+        List<Body> bodyDisease = new List<Body>();
+        foreach (var item in dto.Diseases)
+        {
+            DiseaseDto disease = new(
+                name: item.name,
+                bodyId: item.bodyId,
+                description: item.description
+                );
+            var body  = await _unitOfWork.BodyRepository.GetByIdAsync(item.bodyId);
+            bodyDisease.Add(body);
+        }
+
+
+    }
 
 
 
-
-
-
-
+    public async Task AiGeneratePlan()
+    {
 
     }
 

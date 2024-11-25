@@ -24,7 +24,7 @@ public class RegisterDto
 
 
     // Inujuries
-    public List<InujuryDto> Injuries { get; set; }
+    public List<InjuryDto> Injuries { get; set; }
 
     // Diseases
     public List<DiseaseDto> Diseases { get; set; }
@@ -39,6 +39,6 @@ public class RegisterDto
     public List<PlanEquipmentDto> Equipments { get; set; }
 
     // Exercise 
-    public List<ExerciseDto> Exercises { get; set; }
+    //public List<ExerciseDto> Exercises { get; set; }
 
 }
