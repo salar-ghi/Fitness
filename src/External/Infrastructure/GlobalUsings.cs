@@ -6,6 +6,7 @@ global using Infrastructure.UoW;
 global using Domain.IRepositories;
 global using Application.Interfaces;
 global using Infrastructure.Context;
+global using Application.Interfaces.AI;
 global using Infrastructure.Repositories;
 global using Microsoft.EntityFrameworkCore;
 global using Microsoft.AspNetCore.Identity;

@@ -139,6 +139,14 @@ public class PlanManagingService : IPlanManagingService
 
     public async Task PlanAiGeneratingMangement(RegisterDto dto)
     {
+        // Height is clear
+        // Weight is clear
+        // Gender
+        // AgeRange
+        // Date Of birth 
+        // Body Type
+        // Plan Level.
+         
         var duration = dto.PlanDuration;
 
 
