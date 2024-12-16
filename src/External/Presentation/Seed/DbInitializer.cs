@@ -3165,17 +3165,17 @@ public static class DbInitializer
         #endregion
         // Done Workout Models
 
-        if (!context.UserRoles.Any())
-        {
-            var roles = new List<IdentityRole<Guid>>
-            {
-                new IdentityRole<Guid> { Name = "Admin" },
-                new IdentityRole<Guid> { Name = "Support" },
-                new IdentityRole<Guid> { Name = "Athlete" },
-                new IdentityRole<Guid> { Name = "Coach" }
-            };
-            await context.Roles.AddRangeAsync(roles);
-            await context.SaveChangesAsync();
-        }
+        //if (!context.UserRoles.Any())
+        //{
+        //    var roles = new List<IdentityRole<Guid>>
+        //    {
+        //        new IdentityRole<Guid> { Name = "Admin" },
+        //        new IdentityRole<Guid> { Name = "Support" },
+        //        new IdentityRole<Guid> { Name = "Athlete" },
+        //        new IdentityRole<Guid> { Name = "Coach" }
+        //    };
+        //    await context.Roles.AddRangeAsync(roles);
+        //    await context.SaveChangesAsync();
+        //}
     }
 }

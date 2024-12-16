@@ -14,14 +14,9 @@ public class OllamaChatService : IChatService
 
     public async Task<string> AskQuestionAsync(string qustion)
     {
-        //var response = await _chatClient
-
-
-
-
-
-        var response = string.Empty;
-        return response;
+        var response = await _chatClient.CompleteAsync(qustion);
+        var message = response.Message;
+        return response.Message.Text;
     }
 
     public TService? GetService<TService>(object? key = null) where TService : class

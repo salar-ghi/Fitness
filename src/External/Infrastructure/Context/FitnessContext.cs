@@ -1,10 +1,12 @@
 ﻿namespace Infrastructure.Context;
 
 //: DbContext
-public class FitnessContext : IdentityDbContext<User, IdentityRole<Guid>, Guid, 
-        IdentityUserClaim<Guid>, IdentityUserRole<Guid>, 
-        IdentityUserLogin<Guid>, IdentityRoleClaim<Guid>, IdentityUserToken<Guid>> {
-    //protected override void OnModelCreating(DbContextOptionsBuilder optionBuilder)    
+public class FitnessContext : DbContext 
+{ 
+    //IdentityDbContext<User, IdentityRole<Guid>, Guid, 
+    //    IdentityUserClaim<Guid>, IdentityUserRole<Guid>, 
+    //    IdentityUserLogin<Guid>, IdentityRoleClaim<Guid>, IdentityUserToken<Guid>> {
+    //protected override void OnModelCreating(DbContextOptionsBuilder optionBuilder)
 
     public FitnessContext(DbContextOptions options) : base(options) { }
 
@@ -52,13 +54,13 @@ public class FitnessContext : IdentityDbContext<User, IdentityRole<Guid>, Guid,
 
 
         builder.Entity<User>().ToTable("Users");
-        builder.Entity<IdentityRole>().ToTable("Roles");
+        //builder.Entity<IdentityRole>().ToTable("Roles");
 
-        builder.Entity<IdentityUserClaim<string>>().ToTable("UserClaims");
-        builder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
-        builder.Entity<IdentityUserLogin<string>>().ToTable("UserLogin");
-        builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
-        builder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims");
+        //builder.Entity<IdentityUserClaim<string>>().ToTable("UserClaims");
+        //builder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
+        //builder.Entity<IdentityUserLogin<string>>().ToTable("UserLogin");
+        //builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
+        //builder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims");
 
 
 

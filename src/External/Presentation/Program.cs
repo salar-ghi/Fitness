@@ -11,7 +11,7 @@ public class Program
             var context = services.GetRequiredService<FitnessContext>();
 
             //DbInitializer.SeedAsync(context).Wait();
-            await DbInitializer.SeedAsync(context);
+            //await DbInitializer.SeedAsync(context);
         }
         host.Run();
     }

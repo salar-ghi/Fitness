@@ -33,7 +33,7 @@ public class AuthController : ControllerBase
         return Ok();
     }
 
-
+    [HttpGet]
     public async Task<IActionResult> Login([FromBody] LoginDto dto)
     {
         //var user = await _userManager.FindByNameAsync(dto.Phonenum);

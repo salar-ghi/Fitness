@@ -1,4 +1,7 @@
-﻿namespace Infrastructure;
+﻿using Infrastructure.Services;
+using Microsoft.Extensions.AI;
+
+namespace Infrastructure;
 
 public static class DependencyInjection
 {
@@ -38,6 +41,12 @@ public static class DependencyInjection
         services.AddScoped<ISportRepository, SportRepository>();
         services.AddScoped<IWorkoutEquipmentRepository, WorkoutEquipmentRepository>();
         services.AddScoped<IWorkoutRepository, WorkoutRepository>();
+
+        services.AddSingleton<IChatClient>(new OllamaChatClient(new
+            Uri("http://localhost:11434/"), "llama3.2"));
+
+        services.AddScoped<IChatService, OllamaChatService>();
+
 
         //services.AddTransient<,>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();

@@ -8,6 +8,7 @@ global using Infrastructure.Context;
 global using Application.Interfaces;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.AspNetCore.Http;
+global using Application.Interfaces.AI;
 global using Microsoft.AspNetCore.Identity;
 global using Microsoft.EntityFrameworkCore;
 global using Microsoft.IdentityModel.Tokens;
