@@ -45,6 +45,8 @@ public static class DependencyInjection
         services.AddSingleton<IChatClient>(new OllamaChatClient(new
             Uri("http://localhost:11434/"), "llama3.2"));
 
+        services.AddSingleton<OllamaResponseParser>();
+
         services.AddScoped<IChatService, OllamaChatService>();
 
 

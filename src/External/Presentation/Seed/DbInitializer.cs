@@ -24,6 +24,7 @@ public static class DbInitializer
 {
     public static async Task SeedAsync(FitnessContext context)
     {
+        // **************** Bodies ****************
         var bodies = new List<Body>();
         if (!context.Bodies.Any())
         {
@@ -119,6 +120,8 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+
+        // **************** Equipments ****************
         var equipments = new List<Equipment>();
         if (!context.Equipments.Any())
         {
@@ -216,6 +219,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // **************** Sports ****************
         var sports = new List<Sport>();
         if (!context.Sports.Any())
         {
@@ -230,10 +234,9 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
-
-        // Workout Models
+        // **************** workouts ****************
+        
         #region Workout Models
-
         var workouts = new List<Workout>();
         if (!context.Workouts.Any())
         {
@@ -2352,7 +2355,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
-
+        // **************** body workouts ****************
         // Done :) 😁
         if (!context.BodyWorkouts.Any())
         {
@@ -3115,6 +3118,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // **************** Workout Instructions ****************
         // Not Done ☹️
         if (!context.WorkoutInstructions.Any())
         {
@@ -3127,6 +3131,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // **************** workout age ranges ****************
         // Not Done ☹️
         if (!context.WorkoutAgeRanges.Any())
         {
@@ -3139,6 +3144,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // **************** workout levels ****************
         // Not Done ☹️
         if (!context.WorkoutLevels.Any())
         {
@@ -3150,6 +3156,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
+        // **************** workout sex ****************
         // Not Done ☹️
         if (!context.WorkoutSex.Any())
         {
