@@ -3043,13 +3043,10 @@ public static class DbInitializer
                 // Chest // Barbells
                 new WorkoutEquipment { WorkoutId = workouts[22].Id, EquipmentId = equipments[2].Id },
                 new WorkoutEquipment { WorkoutId = workouts[22].Id, EquipmentId = equipments[11].Id },
-
                 new WorkoutEquipment { WorkoutId = workouts[23].Id, EquipmentId = equipments[2].Id },
                 new WorkoutEquipment { WorkoutId = workouts[23].Id, EquipmentId = equipments[11].Id },
-
                 new WorkoutEquipment { WorkoutId = workouts[24].Id, EquipmentId = equipments[2].Id },
                 new WorkoutEquipment { WorkoutId = workouts[24].Id, EquipmentId = equipments[11].Id },
-
                 new WorkoutEquipment { WorkoutId = workouts[25].Id, EquipmentId = equipments[2].Id },
 
                 // Back // Barbells
@@ -3087,31 +3084,61 @@ public static class DbInitializer
                 #endregion
 
                 #region KettleBells
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[3].Id },
+                // Lower Body Exercises // KettleBells
+                new WorkoutEquipment { WorkoutId = workouts[45].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[46].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[47].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[48].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[49].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[50].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[51].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[52].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[53].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[54].Id, EquipmentId = equipments[3].Id },
+
+                // Upper Body Exercises // KettleBells
+                new WorkoutEquipment { WorkoutId = workouts[55].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[56].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[57].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[58].Id, EquipmentId = equipments[3].Id },
+
+                // Core Exercises // KettleBells
+                new WorkoutEquipment { WorkoutId = workouts[59].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[60].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[61].Id, EquipmentId = equipments[3].Id },
+
+                // Full Body Exercises // KettleBells
+                new WorkoutEquipment { WorkoutId = workouts[62].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[63].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[64].Id, EquipmentId = equipments[3].Id },
+
+                // Dynamic Movements // KettleBells
+                new WorkoutEquipment { WorkoutId = workouts[65].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[66].Id, EquipmentId = equipments[3].Id },
+
+                // Specialty Movements // KettleBells
+                new WorkoutEquipment { WorkoutId = workouts[67].Id, EquipmentId = equipments[3].Id },
+                new WorkoutEquipment { WorkoutId = workouts[68].Id, EquipmentId = equipments[3].Id },
 
                 #endregion
 
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[2].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[2].Id },
-                new WorkoutEquipment { WorkoutId = workouts[0].Id, EquipmentId = equipments[2].Id },
+                #region Smith Machine
+                // Chest // Smith Machine
+                new WorkoutEquipment { WorkoutId = workouts[69].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[69].Id, EquipmentId = equipments[11].Id },
+                new WorkoutEquipment { WorkoutId = workouts[70].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[70].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[71].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[71].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[72].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[72].Id, EquipmentId = equipments[4].Id },
+
+                // Back // Smith Machine
+                new WorkoutEquipment { WorkoutId = workouts[73].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[74].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[75].Id, EquipmentId = equipments[4].Id },
+
+                #endregion
 
             };
             await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);
