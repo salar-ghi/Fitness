@@ -3138,7 +3138,41 @@ public static class DbInitializer
                 new WorkoutEquipment { WorkoutId = workouts[74].Id, EquipmentId = equipments[4].Id },
                 new WorkoutEquipment { WorkoutId = workouts[75].Id, EquipmentId = equipments[4].Id },
 
+                // Shoulders // Smith Machine
+                new WorkoutEquipment { WorkoutId = workouts[76].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[77].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[78].Id, EquipmentId = equipments[4].Id },
+
+                // Legs // Smith Machine
+                new WorkoutEquipment { WorkoutId = workouts[79].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[80].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[81].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[82].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[83].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[84].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[85].Id, EquipmentId = equipments[4].Id },
+
+                // Core // Smith Machine
+                new WorkoutEquipment { WorkoutId = workouts[86].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[87].Id, EquipmentId = equipments[4].Id },
+
+                // Arms // Smith Machine
+                new WorkoutEquipment { WorkoutId = workouts[88].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[89].Id, EquipmentId = equipments[4].Id },
+
+                // Arms // Smith Machine
+                new WorkoutEquipment { WorkoutId = workouts[90].Id, EquipmentId = equipments[4].Id },
+                new WorkoutEquipment { WorkoutId = workouts[91].Id, EquipmentId = equipments[4].Id },
                 #endregion
+
+
+                #region Leg Press Machine
+                // Back // Leg Press Machine
+                new WorkoutEquipment { WorkoutId = workouts[73].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[73].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[73].Id, EquipmentId = equipments[5].Id },
+                #endregion
+
 
             };
             await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);
