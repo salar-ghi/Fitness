@@ -3168,9 +3168,72 @@ public static class DbInitializer
 
                 #region Leg Press Machine
                 // Back // Leg Press Machine
-                new WorkoutEquipment { WorkoutId = workouts[73].Id, EquipmentId = equipments[5].Id },
-                new WorkoutEquipment { WorkoutId = workouts[73].Id, EquipmentId = equipments[5].Id },
-                new WorkoutEquipment { WorkoutId = workouts[73].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[92].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[93].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[94].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[95].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[96].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[97].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[98].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[99].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[100].Id, EquipmentId = equipments[5].Id },
+                new WorkoutEquipment { WorkoutId = workouts[101].Id, EquipmentId = equipments[5].Id },
+                
+                #endregion
+                
+                #region Chest Press Machine
+                // Back // Leg Press Machine
+                new WorkoutEquipment { WorkoutId = workouts[102].Id, EquipmentId = equipments[6].Id },
+                new WorkoutEquipment { WorkoutId = workouts[103].Id, EquipmentId = equipments[6].Id },
+                new WorkoutEquipment { WorkoutId = workouts[104].Id, EquipmentId = equipments[6].Id },
+                new WorkoutEquipment { WorkoutId = workouts[105].Id, EquipmentId = equipments[6].Id },
+                new WorkoutEquipment { WorkoutId = workouts[106].Id, EquipmentId = equipments[6].Id },
+                new WorkoutEquipment { WorkoutId = workouts[107].Id, EquipmentId = equipments[6].Id },
+                new WorkoutEquipment { WorkoutId = workouts[108].Id, EquipmentId = equipments[6].Id },
+                new WorkoutEquipment { WorkoutId = workouts[109].Id, EquipmentId = equipments[6].Id },
+                new WorkoutEquipment { WorkoutId = workouts[110].Id, EquipmentId = equipments[6].Id },
+                
+                #endregion
+
+                #region Lat Pulldown Machine
+                // Back // Leg Press Machine
+                new WorkoutEquipment { WorkoutId = workouts[111].Id, EquipmentId = equipments[7].Id },
+                new WorkoutEquipment { WorkoutId = workouts[112].Id, EquipmentId = equipments[7].Id },
+                new WorkoutEquipment { WorkoutId = workouts[113].Id, EquipmentId = equipments[7].Id },
+                new WorkoutEquipment { WorkoutId = workouts[114].Id, EquipmentId = equipments[7].Id },
+                new WorkoutEquipment { WorkoutId = workouts[115].Id, EquipmentId = equipments[7].Id },
+                new WorkoutEquipment { WorkoutId = workouts[116].Id, EquipmentId = equipments[7].Id },
+                new WorkoutEquipment { WorkoutId = workouts[117].Id, EquipmentId = equipments[7].Id },
+                new WorkoutEquipment { WorkoutId = workouts[118].Id, EquipmentId = equipments[7].Id },
+                #endregion
+
+                #region Leg Curl Machine
+                // Back // Leg Press Machine
+                new WorkoutEquipment { WorkoutId = workouts[119].Id, EquipmentId = equipments[8].Id },
+                new WorkoutEquipment { WorkoutId = workouts[120].Id, EquipmentId = equipments[8].Id },
+                new WorkoutEquipment { WorkoutId = workouts[121].Id, EquipmentId = equipments[8].Id },
+                new WorkoutEquipment { WorkoutId = workouts[122].Id, EquipmentId = equipments[8].Id },
+                new WorkoutEquipment { WorkoutId = workouts[123].Id, EquipmentId = equipments[8].Id },
+                new WorkoutEquipment { WorkoutId = workouts[124].Id, EquipmentId = equipments[8].Id },
+                new WorkoutEquipment { WorkoutId = workouts[125].Id, EquipmentId = equipments[8].Id },
+                new WorkoutEquipment { WorkoutId = workouts[126].Id, EquipmentId = equipments[8].Id },
+                #endregion
+
+                #region Leg Extension Machine
+                // Back // Leg Press Machine
+                new WorkoutEquipment { WorkoutId = workouts[127].Id, EquipmentId = equipments[9].Id },
+                new WorkoutEquipment { WorkoutId = workouts[128].Id, EquipmentId = equipments[9].Id },
+                new WorkoutEquipment { WorkoutId = workouts[129].Id, EquipmentId = equipments[9].Id },
+                new WorkoutEquipment { WorkoutId = workouts[130].Id, EquipmentId = equipments[9].Id },
+                new WorkoutEquipment { WorkoutId = workouts[131].Id, EquipmentId = equipments[9].Id },
+                new WorkoutEquipment { WorkoutId = workouts[132].Id, EquipmentId = equipments[9].Id },
+                new WorkoutEquipment { WorkoutId = workouts[133].Id, EquipmentId = equipments[9].Id },
+                new WorkoutEquipment { WorkoutId = workouts[134].Id, EquipmentId = equipments[9].Id },
+                #endregion
+
+                #region Leg Extension Machine
+                // Back // Leg Press Machine
+                new WorkoutEquipment { WorkoutId = workouts[135].Id, EquipmentId = equipments[9].Id },
                 #endregion
 
 
