@@ -8,6 +8,8 @@ public class RegisterDto
     public string PhoneNumber { get; set; } = default!;
     public string? Email { get; set; }
 
+    //public int Age { get; set; }
+
 
     // -----Athlete Table Properties
     public int Height { get; set; }

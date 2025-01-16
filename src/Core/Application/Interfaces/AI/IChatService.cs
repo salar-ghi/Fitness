@@ -3,6 +3,7 @@
 public interface IChatService : IDisposable
 {
     Task<string> AskQuestionAsync(string qustion);
+    Task<string> AskQuestion(string question);
 
     //Task<ChatCompletion> CompleteAsync(string qustion);
     //IAsyncEnumerable<StreamingChatCompletionUpdate> CompleteStreamingAsync(...);

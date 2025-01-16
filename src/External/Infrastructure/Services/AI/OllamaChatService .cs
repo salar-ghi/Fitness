@@ -1,8 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
+﻿using Infrastructure.Extensions;
+using Infrastructure.Models;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Microsoft.Extensions.AI;
 using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using System.Text.Json;
 
 namespace Infrastructure.Services;
@@ -11,20 +14,44 @@ public class OllamaChatService : IChatService
 {
     private bool disposedValue;
     private readonly IChatClient _chatClient;
+    private readonly HttpClient _client;
     private readonly OllamaResponseParser _parser;
-    public OllamaChatService(IChatClient chatClient, OllamaResponseParser parser)
+    public OllamaChatService(IChatClient chatClient, OllamaResponseParser parser, HttpClient client)
     {
         _chatClient = chatClient;
         _parser = parser;
+        _client = client;
+    }
+
+    public async Task<string> AskQuestion(string question)
+    {
+        var requestBody = new
+        {
+            prompt = question,
+            max_tokens = 100,
+        };
+        var content = new StringContent(
+            System.Text.Json.JsonSerializer.Serialize(requestBody),
+            Encoding.UTF8, "application/json");
+
+        var response = await _client.PostAsync("http://localhost:11434/api/generate", content);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync();
+
+        
+    }
+
+    public async Task<string> ParseResponseAsync(string jsonResponse)
+    {
+        var ollamaResponse = JsonSerializer.Deserialize<OllamaResponse>(jsonResponse);
+        return ollamaResponse?.Response;
     }
 
 
-    public async Task<string> AskQuestionAsync(string qustion)
+
+    public async Task<string> AskQuestionAsync(string question)
     {
-        
-        var response = await _chatClient.CompleteAsync(qustion);
-        //var message = response.Message;
-        
+        var response = await _chatClient.CompleteAsync(question);
         var hierarchicalItems = _parser.ParseResponse(response.Message.ToString());
 
         return hierarchicalItems.ToString();
@@ -63,29 +90,20 @@ public class OllamaChatService : IChatService
         {
             if (disposing)
             {
-                // TODO: dispose managed state (managed objects)
             }
 
-            // TODO: free unmanaged resources (unmanaged objects) and override finalizer
-            // TODO: set large fields to null
             disposedValue = true;
         }
     }
 
-    // // TODO: override finalizer only if 'Dispose(bool disposing)' has code to free unmanaged resources
-    // ~OllamaChatService()
-    // {
-    //     // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
-    //     Dispose(disposing: false);
-    // }
 
     public void Dispose()
     {
-        // Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
         Dispose(disposing: true);
         GC.SuppressFinalize(this);
     }
 }
+
 
 
 public class HierarchicalItem

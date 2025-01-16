@@ -146,8 +146,20 @@ public class PlanManagingService : IPlanManagingService
         // Date Of birth 
         // Body Type
         // Plan Level.
-         
+        var height = dto.Height;
+        var weight = dto.Weight;         
         var duration = dto.PlanDuration;
+        var sex = dto.Gender;
+        var ageRange = dto.AgeRange;
+        DateTime today = DateTime.Now;
+        int age  = today.Year - dto.DateOfBirth.Year;
+
+        if (DateOnly.FromDateTime(today) < dto.DateOfBirth.AddYears(age))
+        {
+            age--;
+        }
+        var bodyType = dto.BodyType;
+        var level = dto.PlanLevel;
 
 
         // I think we just have to let user to select only 4 parts
@@ -224,12 +236,16 @@ public class PlanManagingService : IPlanManagingService
         }
 
 
+
+
     }
 
 
 
     public async Task AiGeneratePlan()
     {
+
+
 
     }
 
