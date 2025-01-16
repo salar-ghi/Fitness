@@ -8,6 +8,7 @@ global using Infrastructure.UoW;
 global using Domain.IRepositories;
 global using Infrastructure.Models;
 global using Application.Interfaces;
+global using Azure.AI.TextAnalytics;
 global using Infrastructure.Context;
 global using Microsoft.Extensions.AI;
 global using Application.Interfaces.AI;

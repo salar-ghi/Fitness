@@ -1,11 +1,14 @@
-﻿using Infrastructure.Services;
+﻿using Microsoft.Extensions.Configuration;
+using Infrastructure.Extensions;
+using Infrastructure.Services;
 using Microsoft.Extensions.AI;
 
 namespace Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services)
+
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration config)
     {
         //services.AddDbContext<FitnessContext>(options => 
         //{
@@ -49,6 +52,12 @@ public static class DependencyInjection
 
         services.AddScoped<IChatService, OllamaChatService>();
 
+        services.AddSingleton<TextProcessor>();
+        services.AddSingleton<AzureTextAnalyticsService>(provider =>
+            new AzureTextAnalyticsService(
+                config["AzureTextAnalytics:Endpoint"],
+                config["AzureTextAnalytics:Key"]
+            ));
 
         //services.AddTransient<,>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();

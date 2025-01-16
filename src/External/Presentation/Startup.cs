@@ -71,7 +71,7 @@ public class Startup
         //    };
         //});
 
-        services.AddInfrastructure();
+        services.AddInfrastructure(Configuration);
         services.AddHealthChecks().AddCheck("Ollama Server", () =>
             new HealthCheckResult(HealthStatus.Healthy, "Ollama server is running"));
 

@@ -146,8 +146,9 @@ public class PlanManagingService : IPlanManagingService
         // Date Of birth 
         // Body Type
         // Plan Level.
+
         var height = dto.Height;
-        var weight = dto.Weight;         
+        var weight = dto.Weight;
         var duration = dto.PlanDuration;
         var sex = dto.Gender;
         var ageRange = dto.AgeRange;

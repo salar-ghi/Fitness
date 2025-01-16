@@ -1,14 +1,4 @@
-﻿using Infrastructure.Extensions;
-using Infrastructure.Models;
-using Microsoft.EntityFrameworkCore.Storage;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Microsoft.Extensions.AI;
-using Microsoft.Identity.Client;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using System.Text.Json;
-
-namespace Infrastructure.Services;
+﻿namespace Infrastructure.Services;
 
 public class OllamaChatService : IChatService
 {
@@ -37,15 +27,9 @@ public class OllamaChatService : IChatService
         var response = await _client.PostAsync("http://localhost:11434/api/generate", content);
         response.EnsureSuccessStatusCode();
         return await response.Content.ReadAsStringAsync();
-
-        
     }
 
-    public async Task<string> ParseResponseAsync(string jsonResponse)
-    {
-        var ollamaResponse = JsonSerializer.Deserialize<OllamaResponse>(jsonResponse);
-        return ollamaResponse?.Response;
-    }
+
 
 
 
