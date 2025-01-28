@@ -1,4 +1,9 @@
-﻿namespace Infrastructure.Services;
+﻿using Application.DTOs.Response;
+using SharpToken;
+using System.Net.Http;
+using System.Net.Http.Json;
+
+namespace Infrastructure.Services;
 
 public class OllamaChatService : IChatService
 {
@@ -15,23 +20,36 @@ public class OllamaChatService : IChatService
 
     public async Task<string> AskQuestion(string question)
     {
-        var requestBody = new
-        {
-            prompt = question,
-            max_tokens = 100,
-        };
-        var content = new StringContent(
-            System.Text.Json.JsonSerializer.Serialize(requestBody),
-            Encoding.UTF8, "application/json");
+        //var requestBody = new
+        //{
+        //    prompt = question,
+        //    max_tokens = 100,
+        //};
+        //var content = new StringContent(
+        //    System.Text.Json.JsonSerializer.Serialize(requestBody),
+        //    Encoding.UTF8, "application/json");
+        //var url = "http://localhost:11434/api/generate";
 
-        var response = await _client.PostAsync("http://localhost:11434/api/generate", content);
+        var apiUrl = "http://localhost:11434/api/chat";
+        var payload = new
+        {
+            model = "deepseek-r1:8b",
+            message = new[]
+            {
+                new
+                {
+                    role = "user",
+                    content = question
+                }
+            }
+        };
+        string jsonPayload = JsonSerializer.Serialize(payload);
+        var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
+
+        var response = await _client.PostAsync(apiUrl, content);
         response.EnsureSuccessStatusCode();
         return await response.Content.ReadAsStringAsync();
     }
-
-
-
-
 
     public async Task<string> AskQuestionAsync(string question)
     {
@@ -41,32 +59,53 @@ public class OllamaChatService : IChatService
         return hierarchicalItems.ToString();
     }
 
-    private string ExtractRelevantParts(string response)
+    public async Task<DeepSeekResponse> AskQuestionDeepSeekAsync(string question)
     {
-        // Assuming the response is in JSON format; adjust as necessary for your response structure.
-        using JsonDocument doc = JsonDocument.Parse(response);
-
-        // Extract specific parts of the response based on your needs.
-        // For example, if you want to extract a field called "message":
-        if (doc.RootElement.TryGetProperty("message", out JsonElement messageElement))
+        // Prepare the request payload
+        var requestPayload = new
         {
-            return messageElement.GetString() ?? "No message found";
-        }
+            Question = question,
+            Model = "deepseek-engine"
+        };
 
-        if (doc.RootElement.TryGetProperty("Weeks", out JsonElement weekElement))
+        // Send the request to DeepSeek
+        var response = await _client.PostAsJsonAsync("https://api.deepseek.com/v1/ask", requestPayload);
+
+        // Ensure the request was successful
+        response.EnsureSuccessStatusCode();
+
+        // Deserialize the response
+        var responseContent = await response.Content.ReadAsStringAsync();
+        var deepSeekResponse = JsonSerializer.Deserialize<DeepSeekResponse>(responseContent);
+
+
+        var token = deepSeekResponse.Answer.Split(' ').ToList();
+        DeepSeekResponse formattedResponse = new()
         {
-            return weekElement.GetString() ?? "No Weeks fond";
-        }
+            Answer = deepSeekResponse.Answer,
+            Tokens = token,
+            Confidence = deepSeekResponse.Confidence,
+        };
 
-
-
-        return "No relevant data found";
+        return formattedResponse;
     }
 
-    public TService? GetService<TService>(object? key = null) where TService : class
+    public async Task<string> ParseResponseAsync(string jsonResponse)
     {
-        throw new NotImplementedException();
+        var ollamaResponse = JsonSerializer.Deserialize<OllamaResponse>(jsonResponse);
+        return ollamaResponse?.Response;
     }
+
+
+
+    public string FormatResponse(string response)
+    {
+        var text = response.ToString();
+
+
+        return text;
+    }
+        
 
     protected virtual void Dispose(bool disposing)
     {
@@ -80,7 +119,6 @@ public class OllamaChatService : IChatService
         }
     }
 
-
     public void Dispose()
     {
         Dispose(disposing: true);
@@ -88,7 +126,16 @@ public class OllamaChatService : IChatService
     }
 }
 
+public class Tokenizer
+{
+    private static readonly GptEncoding Encoding = GptEncoding.GetEncoding("cl100k_base");
 
+    public static List<string> Tokenize(string text)
+    {
+        var tokens = Encoding.Encode(text);
+        return tokens.Select(t => t.ToString()).ToList();
+    }
+}
 
 public class HierarchicalItem
 {

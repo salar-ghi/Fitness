@@ -1,13 +1,18 @@
 ﻿using Domain.Enums;
+using Domain.Models;
+using Microsoft.Identity.Client;
+using Microsoft.ML.Runtime;
 
 namespace Infrastructure.Services;
 
 public class PlanManagingService : IPlanManagingService
 {
     private readonly IUnitOfWork _unitOfWork;
-    public PlanManagingService(IUnitOfWork unitOfWork)
+    private readonly IChatService _chatService;
+    public PlanManagingService(IUnitOfWork unitOfWork, IChatService chatService)
     {
         _unitOfWork = unitOfWork;
+        _chatService = chatService;
     }
 
 
@@ -242,9 +247,49 @@ public class PlanManagingService : IPlanManagingService
     }
 
 
-
-    public async Task AiGeneratePlan()
+    public async Task GeneratePlan(RegisterDto dto)
     {
+        // 1- * Select Gender // Male // Female
+        // 2- * Date of Burn // 
+        // 3- * Age Range // 
+        // 4- * Measurement step // Height // Weight
+        // 5- * BodyTypeStep // ectomorph // mesomorph // endomorph
+        // 6- * HealthConditionsStep // injuries or condition // Head & Neck // shoulders // Arms // Chest // Back // Core // Hips &  pelvis // Legs // Feet & Ankles
+        // 7- * BodyGoalsStep // Target Where to fat loss
+        // 8- * Desired Physique Goal // Athletic // Lean // Muscular // Balanced
+        // 9- * Location exercise // Home // Gym
+        //10- * equipment // Dumbell // Barbell // Smith Machine // Cable Machine // BodyWeight // Resistance Bands // 
+        //11- * Target Muscle Groups // Chest // Back // Legs // Shoulders // Arms // Core
+        //12- * fitness level? // Beginner // Intermediate //Advanced // Expert
+        //13- target weight? // target Weight
+        //14-* Plan Duration // Daily plan // Weekly plan // Monthly // Quarterly (3 months / 16 weeks ) 
+        //15- schedule workout () // Day => start time // how long do you want to exercise
+
+        //var prompt = $"create a {dto.PlanDuration} 16-weeks fitness plan each week {} 4-days, each day {} 45-mins " +
+        //    $"for a {dto.PlanLevel} beginner {dto.Gender} male " +
+        //    $"who is {dto.DateOfBirth} 31-year-old, {dto.Height} 170 cm Height, 89 kg weight and body type is endomorph " +
+        //    $"and has injuries in {dto.Injuries} Legs, avoid aggravating in {dto.Injuries} legs," +
+        //    $"wants to loss fat and Target {dto.MusclePriorities} Chest, Back, Shoulders, and Physique goal is {} Muscular" +
+        //    $" with Equipments of {dto.Equipments} dumbell, smith Machine, bodyweight, resistance bands in {} Gym" +
+        //    $" and target weight is {} 70 kg";
+
+        var aiGeneratedPrompt = $"Create a detailed 16-week fitness plan for a 31-year-old female beginner with the following details:" +
+            $"Body Stats: 170 cm height, 89 kg weight, endomorph body type." +
+            $"Injuries: Leg injuries(avoid exercises that aggravate the legs)." +
+            $"Goals: Fat loss, target weight of 70 kg, and a muscular physique with a focus on chest, back, and shoulders." +
+            $"Equipment: Dumbbells, Smith machine, bodyweight exercises, and resistance bands(gym setting)." +
+            $"Schedule: 4 days per week, 45 minutes per session." +
+            $"Include the following in the plan:" +
+            $"Warm - up and cool-down routines to prevent injury and improve mobility." +
+            $"Progressive overload to ensure steady progress." +
+            $"Low - impact leg exercises that do not aggravate leg injuries." +
+            $"Targeted exercises for chest, back, and shoulders." +
+            $"Fat - loss strategies such as incorporating cardio or HIIT in a safe manner." +
+            $"Weekly breakdown of workouts, including sets, reps, and rest periods." +
+            $"Tips for recovery, including stretching and hydration." +
+            $"Ensure the plan is beginner - friendly, safe for someone with leg injuries, and tailored to an endomorph body type for optimal fat loss and muscle building.";
+
+
 
 
 

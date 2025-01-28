@@ -1,15 +1,19 @@
-﻿namespace Presentation.Controllers;
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Presentation.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
 public class HomeController : ControllerBase
 {
     private readonly IChatService _chatService;
+    private readonly IPlanManagingService _planManagingService;
     private readonly Ollama _ollama;
 
-    public HomeController(IChatService chatService)
+    public HomeController(IChatService chatService, IPlanManagingService planManagingService)
     {
         _chatService = chatService;
+        _planManagingService = planManagingService;
     }
 
     //[HttpGet]
@@ -28,6 +32,16 @@ public class HomeController : ControllerBase
         var formattedTable = _ollama.FormatResponseAsTable(parsedResponse);
 
         return Ok(formattedTable);
+    }
+
+    public async Task<IActionResult> GenerateApp([FromBody] RegisterDto dto)
+    {
+
+
+        //var response = _planManagingService.
+
+
+        return Ok();
     }
 
 
