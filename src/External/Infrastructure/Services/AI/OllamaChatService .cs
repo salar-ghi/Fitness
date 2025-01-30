@@ -96,8 +96,6 @@ public class OllamaChatService : IChatService
         return ollamaResponse?.Response;
     }
 
-
-
     public string FormatResponse(string response)
     {
         var text = response.ToString();
@@ -105,7 +103,6 @@ public class OllamaChatService : IChatService
 
         return text;
     }
-        
 
     protected virtual void Dispose(bool disposing)
     {
