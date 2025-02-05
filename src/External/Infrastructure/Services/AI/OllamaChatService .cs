@@ -48,7 +48,17 @@ public class OllamaChatService : IChatService
 
         var response = await _client.PostAsync(apiUrl, content);
         response.EnsureSuccessStatusCode();
-        return await response.Content.ReadAsStringAsync();
+        var responseContent = await response.Content.ReadAsStringAsync();
+        //var deepSeekResponse = JsonSerializer.Deserialize<string>(responseContent);
+        //var token = deepSeekResponse.Answer.Split(' ').ToList();
+        //DeepSeekResponse formattedResponse = new()
+        //{
+        //    Answer = deepSeekResponse.Answer,
+        //    Tokens = token,
+        //    Confidence = deepSeekResponse.Confidence,
+        //};
+
+        return responseContent;
     }
 
     public async Task<string> AskQuestionAsync(string question)

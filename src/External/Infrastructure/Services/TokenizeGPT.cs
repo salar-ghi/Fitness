@@ -50,18 +50,48 @@ public class TokenizeGPT
         return fitnessSections;
     }
 
-    public async Task ProcessText(string text)
+    //public async Task< List<string> key, Dictionary<string, List<string>> > ProcessText(string text)
+    public async Task<WarmupResponseModel> ProcessText(string text)
     {
+        WarmupResponseModel response = new WarmupResponseModel();
         var sections = ExtractSections(text);
         if (sections.ContainsKey("warm-up")) 
-        { 
+        {
+            await ProcessSectionAsync(sections);
+            //var response = new
+            //{
+            //    WarmUp = sections["Warm-up"],
+            //    OtherSections = sections.Where(z => z.Key != "warm-up").ToDictionary(z => z.Key, z => z.Value)
+            //};
+            response = new()
+            {
+                warmup = sections["Warm-up"],
+                otherSection = sections.Where(z => z.Key != "warm-up").ToDictionary(z => z.Key, z => z.Value)
+            };
         }
+        return response;
     }
 
 
 
 }
+public class WarmupResponseModel
+{
+    public List<string> warmup { get; set; }
+    public Dictionary<string, List<string>> otherSection { get; set; }
+}
+public class ResponseModel
+{
+    public List<string> key { get; set; }
+    public Dictionary<string,List<string>> value { get; set; }
+}
 
+public class AiResponseModel
+{
+    public string Question { get; set; }
+    public string Answer { get; set; }
+    public string[] Tokens { get; set; }
+}
 
 public class FitnessSection
 {
@@ -69,3 +99,4 @@ public class FitnessSection
     public string SectionName { get; set; }
     public string Instructions { get; set; }
 }
+

@@ -2,6 +2,7 @@
 using Infrastructure.Extensions;
 using Infrastructure.Services;
 using Microsoft.Extensions.AI;
+using Infrastructure.Services.AI;
 
 namespace Infrastructure;
 
@@ -48,9 +49,15 @@ public static class DependencyInjection
         services.AddSingleton<IChatClient>(new OllamaChatClient(new
             Uri("http://localhost:11434/"), "llama3.2"));
 
+        services.AddHttpClient<OpenAiChatService>(client =>
+        {
+            client.BaseAddress = new Uri("http://localhost:11434/");
+        });
+
         services.AddSingleton<OllamaResponseParser>();
 
         services.AddScoped<IChatService, OllamaChatService>();
+        services.AddScoped<IPlanManagingService, PlanManagingService>();
 
         services.AddSingleton<TextProcessor>();
         services.AddSingleton<AzureTextAnalyticsService>(provider =>
@@ -59,8 +66,10 @@ public static class DependencyInjection
                 config["AzureTextAnalytics:Key"]
             ));
 
+
         //services.AddTransient<,>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
+
         return services;
     }
 }
