@@ -1,4 +1,6 @@
-﻿namespace Application.Interfaces.AI;
+﻿using System.Text.Json.Serialization;
+
+namespace Application.Interfaces.AI;
 
 public interface IOpenAiChatService
 {

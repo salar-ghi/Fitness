@@ -3,6 +3,7 @@ using Infrastructure.Extensions;
 using Infrastructure.Services;
 using Microsoft.Extensions.AI;
 using Infrastructure.Services.AI;
+using Infrastructure.Services.PlanParser;
 
 namespace Infrastructure;
 
@@ -58,6 +59,8 @@ public static class DependencyInjection
 
         services.AddScoped<IChatService, OllamaChatService>();
         services.AddScoped<IPlanManagingService, PlanManagingService>();
+        services.AddScoped<IFitnessPlanParser, FitnessPlanParser>();
+        services.AddScoped<IPlanParser, PlanParserService>();
 
         services.AddSingleton<TextProcessor>();
         services.AddSingleton<AzureTextAnalyticsService>(provider =>

@@ -27,10 +27,10 @@ public class PlanController : ControllerBase
     {
         var question = PromtPlan();
         var response = await _ollama.GetResponse(question);
-        var tokens = Tokenize(response);
-        var sharpTokens = SharpTokenize(response);
+        //var tokens = Tokenize(response);
+        //var sharpTokens = SharpTokenize(response);
 
-        return Ok(new { response, tokens, sharpTokens });
+        return Ok(new { response });
     }
 
 
@@ -48,7 +48,7 @@ public class PlanController : ControllerBase
 
     protected static string PromtPlan()
     {
-        var aiGeneratedPrompt = $"Create a detailed 16-week fitness plan for a 31-year-old female beginner with the following details:" +
+        var aiGeneratedPrompt = $"Create a detailed 16-week fitness plan for a 31-year-old male beginner with the following details:" +
             $"Body Stats: 170 cm height, 89 kg weight, endomorph body type." +
             $"Injuries: Leg injuries(avoid exercises that aggravate the legs)." +
             $"Goals: Fat loss, target weight of 70 kg, and a muscular physique with a focus on chest, back, and shoulders." +
