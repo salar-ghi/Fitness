@@ -26,7 +26,8 @@ public class PlanController : ControllerBase
     public async Task<IActionResult> Index()
     {
         var question = PromtPlan();
-        var response = await _ollama.GetResponse(question);
+        //var response = await _ollama.GetResponse(question);
+        var response = await _ollama.GetWeekResponse(question);
         //var tokens = Tokenize(response);
         //var sharpTokens = SharpTokenize(response);
 

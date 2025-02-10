@@ -53,6 +53,7 @@ public static class DependencyInjection
         services.AddHttpClient<OpenAiChatService>(client =>
         {
             client.BaseAddress = new Uri("http://localhost:11434/");
+            client.Timeout = TimeSpan.FromSeconds(5000);
         });
 
         services.AddSingleton<OllamaResponseParser>();

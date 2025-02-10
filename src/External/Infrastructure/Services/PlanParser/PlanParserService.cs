@@ -1,11 +1,71 @@
-﻿using System.Text.Json.Serialization;
+﻿using Microsoft.Extensions.FileSystemGlobbing;
+using System.Security;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
+using static System.Collections.Specialized.BitVector32;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Infrastructure.Services.PlanParser;
 
 public class PlanParserService : IPlanParser
 {
 
+
+    public List<Section> ExtractWeeksplan(string text)
+    {
+        List<WeekSchedule> weeks = new List<WeekSchedule>();
+        //string pattern = @"\**Weeks?\s+\d+(?:-\d+)?:";
+        string pattern = @"(\**)(week(?:s)?)\s*([0-9]+(?:-[0-9]+)?)";
+        MatchCollection weekMatches = Regex.Matches(text, pattern, RegexOptions.IgnoreCase);
+        var sections = new List<Section>();
+
+        //foreach (Match weekMatch in weekMatches)
+        for (int i = 0; i < weekMatches.Count; i++)
+        {
+            Match match = weekMatches[i];
+            var asteriskCount = match.Groups[1].Value.Length;
+            var weekWord = match.Groups[2].Value;
+            var firstNumber = match.Groups[3].Value;
+            var secondNumber = match.Groups[4].Value;
+
+            bool hasHyphen = !string.IsNullOrEmpty(secondNumber);
+
+            int firstDigitCount = firstNumber.Length;
+            int secondDigitCount = hasHyphen ? secondNumber.Length : 0;
+
+            int contentStart = match.Index + match.Length;
+            int contentEnd = (i < weekMatches.Count - 1) ? weekMatches[i + 1].Index : text.Length;
+            string content = text.Substring(contentStart, contentEnd - contentStart).Trim();
+
+            // For the last section, check if content contains "**" and truncate
+            if (i == weekMatches.Count - 1)
+            {
+                int astIndex = content.IndexOf("**");
+                if (astIndex != -1)
+                {
+                    content = content.Substring(0, astIndex).Trim();
+                }
+            }
+
+            sections.Add(new Section
+            {
+                AsteriskCount = asteriskCount,
+                WeekWord = weekWord,
+                FirstNumber = firstNumber,
+                SecondNumber = secondNumber,
+                HasHyphen = hasHyphen,
+                FirstDigitCount = firstDigitCount,
+                SecondDigitCount = secondDigitCount,
+                Content = content
+            });
+        }
+
+
+        return sections;
+    }
+
+
+    //**********************
 
     public WarmUpCoolDown ExtractWarmUpCoolDownRoutine(string content)
     {
@@ -150,7 +210,7 @@ public class PlanParserService : IPlanParser
             {
                 Name = match.Groups[1].Value.Trim(),
                 Sets = int.Parse(match.Groups[2].Value),
-                Reps =  int.Parse(match.Groups[3].Value),
+                Reps = int.Parse(match.Groups[3].Value),
                 RestBetweenSetsSeconds = int.Parse(match.Groups[4].Value)
             });
         }

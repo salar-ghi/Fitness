@@ -6,11 +6,26 @@ public interface IPlanParser
     WarmUpCoolDownModel ExtractWarmUpCoolDown(string content);
     List<WeekSchedule> ExtractWeeklySchedules(string content);
     List<WeekSchedule> ExtractWeeklySchedulesAlternative(string content);
+    List<Section> ExtractWeeksplan(string text);
 }
 
 
 
 // ********************************** //
+
+
+public class Section
+{
+    public int AsteriskCount { get; set; }
+    public string WeekWord { get; set; }
+    public string FirstNumber { get; set; }
+    public string SecondNumber { get; set; }
+    public bool HasHyphen { get; set; }
+    public int FirstDigitCount { get; set; }
+    public int SecondDigitCount { get; set; }
+    public string Content { get; set; }
+}
+
 public class FitnessPlanResponse
 {
     public WarmUpCoolDownModel PrePostWorkout { get; set; }
@@ -32,8 +47,8 @@ public class WarmUpCoolDown
 
 public class WeekSchedule
 {
-    public string WeekTitle { get; set; } = string.Empty;
     public int WeekNumber { get; set; }
+    public string WeekTitle { get; set; } = string.Empty;
     public List<DaySchedule> Days { get; set; } = new();
 }
 

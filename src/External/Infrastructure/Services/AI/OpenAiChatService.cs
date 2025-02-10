@@ -35,6 +35,7 @@ public class OpenAiChatService //: IOpenAiChatService
 
         var result = await response.Content.ReadFromJsonAsync<OllamaResponse>();
 
+
         // Extract Warm-up/Cool-down
         planResponse.PrePostWorkout = _planParser.ExtractWarmUpCoolDown(result.Response);
             // Extract Weekly Schedules
@@ -45,6 +46,27 @@ public class OpenAiChatService //: IOpenAiChatService
         planResponse.WeeklySchedulesRoutine = _planParser.ExtractWeeklySchedulesAlternative(result.Response);
 
         return (planResponse);
+    }
+
+    public async Task<List<Section>> GetWeekResponse(string question)
+    {
+        var planResponse = new FitnessPlanResponse();
+
+        var request = new
+        {
+            model = "llama3.2",
+            prompt = question,
+            stream = false
+        };
+
+        var response = await _httpClient.PostAsJsonAsync("api/generate", request);
+        response.EnsureSuccessStatusCode();
+
+        var result = await response.Content.ReadFromJsonAsync<OllamaResponse>();
+
+        var weekResponse = _planParser.ExtractWeeksplan(result.Response);
+
+        return (weekResponse);
     }
     //private record OllamaResponse(string Response);
 }
