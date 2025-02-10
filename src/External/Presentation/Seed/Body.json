@@ -1,3 +1,17 @@
 {
-
+  {
+    "Id": 1,
+    "Name": "Chest",
+    "ParentId": null
+  },
+  {
+    "Id": 2,
+    "Name": "Pectoralis Major",
+    "ParentId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Pectoralis Minor",
+    "ParentId": 1
+  }
 }

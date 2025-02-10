@@ -69,13 +69,17 @@ public static class DbInitializer
 
                 // Arms
                 // Index => 15
-                new Body { Id = 31, Name = "Arms"},
+                new Body { Id = 31, Name = "Arms"}, // Biceps // بازو
+
                 // Index => 16
-                new Body { Id = 32, Name = "Biceps Brachii", ParentId = 31 },
+                new Body { Id = 32, Name = "Biceps Brachii", ParentId = 31 }, // Long Head Bicep // یکی از عضلات جلو بازو
+                
+
                 // Index => 17
                 new Body { Id = 33, Name = "Triceps Brachii", ParentId = 31 },
+                
                 // Index => 18
-                new Body { Id = 34, Name = "Brachialis (Lower Biceps)", ParentId = 31 },
+                new Body { Id = 34, Name = "Brachialis (Lower Biceps)", ParentId = 31 }, // Short Head Bicep // یکی دیگر از عضلات جلو بازو
 
                 // Index => 19
                 new Body { Id = 35, Name = "Hands"},
@@ -214,6 +218,8 @@ public static class DbInitializer
                 new Equipment { Id = 35, Name = "Abdominal", EquipmentType = EquipmentType.Machine, Description= ""},
                 // Index => 35
                 new Equipment { Id = 36, Name = "Other", EquipmentType = EquipmentType.Machine, Description= ""},
+
+                // stretches // Plate // Bosu-Ball // TRX // Vitruvian // Yoga // Cardio
             };
             await context.Equipments.AddRangeAsync(equipments);
             await context.SaveChangesAsync();
@@ -2996,7 +3002,7 @@ public static class DbInitializer
             await context.SaveChangesAsync();
         }
 
-        // Not Done ☹️
+        // Done 
         if (!context.WorkoutEquipment.Any())
         {
             var workoutEquipments = new List<WorkoutEquipment>
@@ -3360,7 +3366,6 @@ public static class DbInitializer
                 new WorkoutEquipment { WorkoutId = workouts[223].Id, EquipmentId = equipments[16].Id },
                 #endregion
 
-                // ***************
                 #region Power Rack
                 //
                 new WorkoutEquipment { WorkoutId = workouts[234].Id, EquipmentId = equipments[17].Id },
@@ -3780,7 +3785,6 @@ public static class DbInitializer
                 new WorkoutEquipment { WorkoutId = workouts[598].Id, EquipmentId = equipments[34].Id },
                 new WorkoutEquipment { WorkoutId = workouts[599].Id, EquipmentId = equipments[34].Id },
                 #endregion
-
 
             };
             await context.WorkoutEquipment.AddRangeAsync(workoutEquipments);
