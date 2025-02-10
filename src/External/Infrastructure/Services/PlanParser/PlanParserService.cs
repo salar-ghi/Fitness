@@ -1,9 +1,4 @@
-﻿using Microsoft.Extensions.FileSystemGlobbing;
-using System.Security;
-using System.Text.Json.Serialization;
-using System.Text.RegularExpressions;
-using static System.Collections.Specialized.BitVector32;
-using static System.Net.Mime.MediaTypeNames;
+﻿using System.Text.RegularExpressions;
 
 namespace Infrastructure.Services.PlanParser;
 
@@ -16,10 +11,13 @@ public class PlanParserService : IPlanParser
         List<WeekSchedule> weeks = new List<WeekSchedule>();
         //string pattern = @"\**Weeks?\s+\d+(?:-\d+)?:";
         string pattern = @"(\**)(week(?:s)?)\s*([0-9]+(?:-[0-9]+)?)";
+        var weekPattern = @"\*{0,2}(?:Weeks|Week)\s+\d+(?:-\d+)?:?";
+        var weekRegex = new Regex($@"({weekPattern})\s*(.*?)(?=\s*{weekPattern}|\Z)", RegexOptions.Singleline | RegexOptions.IgnoreCase);
+
+
         MatchCollection weekMatches = Regex.Matches(text, pattern, RegexOptions.IgnoreCase);
         var sections = new List<Section>();
 
-        //foreach (Match weekMatch in weekMatches)
         for (int i = 0; i < weekMatches.Count; i++)
         {
             Match match = weekMatches[i];

@@ -83,13 +83,6 @@ public class FitnessPlanParser : IFitnessPlanParser
     public FitnessPlanResponse Parse(string responseText)
     {
         var result = new FitnessPlanResponse();
-
-        // Extract Warm-up/Cool-down
-        //result.WarmUpCoolDown = ExtractWarmUpCoolDown(responseText);
-
-        //// Extract Weekly Plans
-        //result.WeeklyPlans = ExtractWeeklyPlans(responseText);
-
         return result;
     }
 
@@ -108,72 +101,6 @@ public class FitnessPlanParser : IFitnessPlanParser
         }
         return warmupsections;
     }
-
-    //private List<WeekPlan> ExtractWeeklyPlans(string text)
-    //{
-    //    var weeklyPlans = new List<WeekPlan>();
-    //    var weekMatches = Regex.Matches(text, @"\*\*Weeks (\d+-\d+): (.*?)\*\*([\s\S]*?)(?=\*\*Weeks|\*\*Fat Loss)", RegexOptions.IgnoreCase);
-
-    //    foreach (Match weekMatch in weekMatches)
-    //    {
-    //        var weekPlan = new WeekPlan
-    //        {
-    //            WeekRange = $"Week {weekMatch.Groups[1].Value}",
-    //            Days = ExtractDays(weekMatch.Groups[3].Value)
-    //        };
-    //        weeklyPlans.Add(weekPlan);
-    //    }
-    //    return weeklyPlans;
-    //}
-
-    //private List<DaySchedule> ExtractDays(string weekContent)
-    //{
-    //    var days = new List<DaySchedule>();
-    //    var dayMatches = Regex.Matches(weekContent, @"\+\s*(.*?)\s*:([\s\S]*?)(?=\+|\* Sets)", RegexOptions.IgnoreCase);
-
-    //    foreach (Match dayMatch in dayMatches)
-    //    {
-    //        var daySchedule = new DaySchedule
-    //        {
-    //            DayName = dayMatch.Groups[1].Value.Trim(),
-    //            Exercises = ExtractExercises(dayMatch.Groups[2].Value)
-    //        };
-    //        days.Add(daySchedule);
-    //    }
-    //    return days;
-    //}
-
-    //private List<Exercise> ExtractExercises(string dayContent)
-    //{
-    //    var exercises = new List<Exercise>();
-    //    var exerciseMatches = Regex.Matches(dayContent, @"-\s*(.*?)\s*\((.*?)\)", RegexOptions.IgnoreCase);
-
-    //    foreach (Match exMatch in exerciseMatches)
-    //    {
-    //        var exercise = new Exercise
-    //        {
-    //            Name = exMatch.Groups[1].Value.Trim(),
-    //        };
-
-    //        var details = exMatch.Groups[2].Value;
-    //        var setMatch = Regex.Match(details, @"(\d+)\s*sets\s*of\s*(\d+[\+\-]*\d*)\s*reps");
-    //        var restMatch = Regex.Match(details, @"rest\s*for\s*(\d+\s*seconds)");
-
-    //        if (setMatch.Success)
-    //        {
-    //            exercise.Sets = int.Parse(setMatch.Groups[1].Value);
-    //            exercise.Reps = setMatch.Groups[2].Value;
-    //        }
-
-    //        if (restMatch.Success)
-    //        {
-    //            exercise.RestBetweenSets = restMatch.Groups[1].Value;
-    //        }
-
-    //        exercises.Add(exercise);
-    //    }
-    //    return exercises;
-    //}
 
 
     public ExerciseRoutine ExtractRoutine(string responseText)
@@ -226,13 +153,4 @@ public class OllamaResponse
 {
     [JsonPropertyName("response")]
     public string Response { get; set; }
-}
-
-public class ApiResponse
-{
-    public int Id { get; set; }
-    public string Question { get; set; }
-    public string Answer { get; set; }
-    public string Tokens { get; set; }
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 }

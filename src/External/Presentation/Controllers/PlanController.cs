@@ -1,7 +1,11 @@
-﻿using Infrastructure.Services.AI;
+﻿using Azure;
+using Domain.Models;
+using Infrastructure.Services.AI;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.SqlServer.Server;
 using SharpToken;
 using System.Net.Http.Json;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Presentation.Controllers;
 
@@ -28,10 +32,9 @@ public class PlanController : ControllerBase
         var question = PromtPlan();
         //var response = await _ollama.GetResponse(question);
         var response = await _ollama.GetWeekResponse(question);
-        //var tokens = Tokenize(response);
-        //var sharpTokens = SharpTokenize(response);
 
         return Ok(new { response });
+
     }
 
 
@@ -49,36 +52,32 @@ public class PlanController : ControllerBase
 
     protected static string PromtPlan()
     {
-        var aiGeneratedPrompt = $"Create a detailed 16-week fitness plan for a 31-year-old male beginner with the following details:" +
+        var aiPrompt = $"Create a detailed 16-week fitness plan for a 31-year-old male beginner with the following details:" +
+            $"" +
             $"Body Stats: 170 cm height, 89 kg weight, endomorph body type." +
-            $"Injuries: Leg injuries(avoid exercises that aggravate the legs)." +
+            $"Injuries: Leg injuries(avoid exercises that aggravate the legs." +
             $"Goals: Fat loss, target weight of 70 kg, and a muscular physique with a focus on chest, back, and shoulders." +
             $"Equipment: Dumbbells, Smith machine, bodyweight exercises, and resistance bands(gym setting)." +
-            $"Schedule: 4 days per week, 45 minutes per session." +
-            $"Include the following in the plan:" +
-            $"Warm - up and cool-down routines to prevent injury and improve mobility." +
-            $"Progressive overload to ensure steady progress." +
-            $"Low - impact leg exercises that do not aggravate leg injuries." +
-            $"Targeted exercises for chest, back, and shoulders." +
-            $"Fat - loss strategies such as incorporating cardio or HIIT in a safe manner." +
-            $"Weekly breakdown of workouts, including sets, reps, and rest periods." +
-            $"Tips for recovery, including stretching and hydration." +
-            $"Ensure the plan is beginner - friendly, safe for someone with leg injuries, and tailored to an endomorph body type for optimal fat loss and muscle building.";
+            $"Schedule: 4 days per week, 60 minutes per session." +
+            $"" +
+            $"Structure the response EXACTLY as follows:" +
+            $"" +
+            $"1. Warm-up: Provide a list of warm-up exercises, including duration or repetitions." +
+            $"2. Cool-down: Provide a list of cool-down exercises, including duration or repetitions." +
+            $"3. Weekly Schedules: For each week, include:" +
+            $"      (* Week X): Break down each week into daily schedules." +
+            $"          For each day '- Day 1, - Day 2' " +
+            $"              list: + Exercises with sets and repetitions." +
+            $"4. Tips for recovery: Include stretching and hydration." +
+            $"" +
+            $"Format all weeks schedule with 1 asteriks before and a number after week for example '* Week 1' " +
+            $"Format all days using this (-) symbol before for example '- Day 1' and before this sign (-) do not set any other sign" +
+            $"Format all exercises using the symbol (+) before for example '+ Exercise 1' as shown above. " +
+            $"and in weekly schedule just mention once week name or once mention day X and do not mention warm-up or cool-down more than once in each week schedule " +
+            $"then go to next week schedule and Days under that week and totatlly avoid from repeating days number or week number";
 
-        return aiGeneratedPrompt;
+        //$"4.Fat-loss strategies: such as incorporating cardio or HIIT in a safe manner." +
+        return aiPrompt;
     }
 
-
-
-    private List<string> Tokenize(string text)
-    {
-        // Simple whitespace tokenizer - replace with proper tokenization if needed
-        return text.Split(new[] { ' ', '\t', '\n' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-    }
-    private List<string> SharpTokenize(string text)
-    {
-        var encoding = GptEncoding.GetEncoding("cl100k_base");
-        var tokens = encoding.Encode(text);
-        return tokens.Select(t => t.ToString()).ToList();
-    }
 }

@@ -20,16 +20,6 @@ public class OllamaChatService : IChatService
 
     public async Task<string> AskQuestion(string question)
     {
-        //var requestBody = new
-        //{
-        //    prompt = question,
-        //    max_tokens = 100,
-        //};
-        //var content = new StringContent(
-        //    System.Text.Json.JsonSerializer.Serialize(requestBody),
-        //    Encoding.UTF8, "application/json");
-        //var url = "http://localhost:11434/api/generate";
-
         var apiUrl = "http://localhost:11434/api/chat";
         var payload = new
         {
@@ -49,15 +39,6 @@ public class OllamaChatService : IChatService
         var response = await _client.PostAsync(apiUrl, content);
         response.EnsureSuccessStatusCode();
         var responseContent = await response.Content.ReadAsStringAsync();
-        //var deepSeekResponse = JsonSerializer.Deserialize<string>(responseContent);
-        //var token = deepSeekResponse.Answer.Split(' ').ToList();
-        //DeepSeekResponse formattedResponse = new()
-        //{
-        //    Answer = deepSeekResponse.Answer,
-        //    Tokens = token,
-        //    Confidence = deepSeekResponse.Confidence,
-        //};
-
         return responseContent;
     }
 
@@ -99,50 +80,8 @@ public class OllamaChatService : IChatService
 
         return formattedResponse;
     }
-
-    public async Task<string> ParseResponseAsync(string jsonResponse)
-    {
-        var ollamaResponse = JsonSerializer.Deserialize<OllamaResponse>(jsonResponse);
-        return ollamaResponse?.Response;
-    }
-
-    public string FormatResponse(string response)
-    {
-        var text = response.ToString();
-
-
-        return text;
-    }
-
-    protected virtual void Dispose(bool disposing)
-    {
-        if (!disposedValue)
-        {
-            if (disposing)
-            {
-            }
-
-            disposedValue = true;
-        }
-    }
-
-    public void Dispose()
-    {
-        Dispose(disposing: true);
-        GC.SuppressFinalize(this);
-    }
 }
 
-public class Tokenizer
-{
-    private static readonly GptEncoding Encoding = GptEncoding.GetEncoding("cl100k_base");
-
-    public static List<string> Tokenize(string text)
-    {
-        var tokens = Encoding.Encode(text);
-        return tokens.Select(t => t.ToString()).ToList();
-    }
-}
 
 public class HierarchicalItem
 {

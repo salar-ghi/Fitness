@@ -288,11 +288,6 @@ public class PlanManagingService : IPlanManagingService
             $"Weekly breakdown of workouts, including sets, reps, and rest periods." +
             $"Tips for recovery, including stretching and hydration." +
             $"Ensure the plan is beginner - friendly, safe for someone with leg injuries, and tailored to an endomorph body type for optimal fat loss and muscle building.";
-
-
-
-
-
     }
 
 }

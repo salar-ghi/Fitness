@@ -2,7 +2,7 @@
 
 namespace Application.Interfaces.AI;
 
-public interface IChatService : IDisposable
+public interface IChatService
 {
     Task<string> AskQuestionAsync(string qustion);
     Task<string> AskQuestion(string question);
