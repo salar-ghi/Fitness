@@ -21,8 +21,6 @@ namespace Presentation.Seedک
                 new Body { Id = 34, Name = "Short Head Bicep", ParentId = 31 }, // سر کوتاه عضله بازو
 
 
-                new Body { Id = 34, Name = "Traps(mid-back)", ParentId = 31 },
-                new Body { Id = 34, Name = "Lower back", ParentId = 31 },
 
                 new Body { Id = 34, Name = "Lower Abdominals", ParentId = 31 },
                 new Body { Id = 34, Name = "Upper Abdominals", ParentId = 31 },
@@ -58,6 +56,8 @@ namespace Presentation.Seedک
 
                 new Body { Id = 35, Name = "Traps"},
                 new Body { Id = 35, Name = "Upper Traps"},
+                new Body { Id = 34, Name = "Traps(mid-back)", ParentId = 31 },
+                new Body { Id = 34, Name = "Lower back", ParentId = 31 },
                 new Body { Id = 35, Name = "Lower Traps"},
 
                 

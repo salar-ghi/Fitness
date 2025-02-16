@@ -2,14 +2,9 @@
 
 public class User : IdentityUser<Guid>, IBaseEntity
 {
-    //public Guid Id { get; set; }
     public string FName { get; set; } = default!;
     public string LName { get; set; } = default!;
-    //public string Email { get; private set; } = default!;
-    //public required string CellPhone { get; set; } = null!;
     public string ImgUrl { get; private set; } = default!;
-    //public string UserName { get; private set; } = default!;
-    public string Password { get; private set; } = default!;
 
     public bool IsDeleted { get; set; }
     public DateTime Created { get; set; }
@@ -18,5 +13,5 @@ public class User : IdentityUser<Guid>, IBaseEntity
     public Guid ModifiedBy { get; set; }
 
 
-    //public Athlete? Athlete { get; private set; }
+    //public virtual Athlete? Athlete { get; private set; }
 }

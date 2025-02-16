@@ -1,6 +1,6 @@
 ﻿namespace Domain.Enums;
 
-public enum Level
+public enum Difficulty
 {
     Beginner = 1,
     Intermediate = 2,

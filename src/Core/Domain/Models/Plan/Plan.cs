@@ -2,8 +2,8 @@
 
 public class Plan : BaseEntity<Guid, Plan>
 {
-    public string PlanName { get; set; } = default!;
-    public Enums.Level Level { get; set; } = default(Enums.Level);
+    public string PlanCode { get; set; } = default!;
+    public Difficulty Level { get; set; } = default(Difficulty);
     public Period Duration { get; set; } = default(Period);
     public int DaysCount { get; set; }
 

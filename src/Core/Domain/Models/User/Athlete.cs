@@ -1,9 +1,9 @@
-﻿namespace Domain.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Domain.Models;
 
 public class Athlete : BaseEntity<Guid, Athlete>
 {
-    //public User User { get; set; } = null!;
-    public required Guid UserId { get; set; }
 
     public float Height { get; set; }
     public float Weight { get; set; }
@@ -14,8 +14,13 @@ public class Athlete : BaseEntity<Guid, Athlete>
     public BodyType BodyType { get; set; } = default(BodyType);
     public Enums.Level Level { get; set; } = default(Enums.Level);
     public DateOnly DateOfBirth { get; set; }
+    
+    public required Guid UserId { get; set; }
 
-    //public ICollection<AthleteInjuries> Injuries { get; } = new List<AthleteInjuries>();
-    //public ICollection<AthleteImgs> Imgs { get; set; } = new List<AthleteImgs>();
-    //public ICollection<Disease> Diseases { get; set; } = new List<Disease>();
+    //[ForeignKey(nameof(UserId))]
+    //public virtual User User { get; set; } = null!;
+
+    //public virtual ICollection<AthleteImgs> Imgs { get; set; } = new List<AthleteImgs>();
+    //public virtual ICollection<AthleteInjuries> Injuries { get; } = new List<AthleteInjuries>();
+    //public virtual ICollection<Disease> Diseases { get; set; } = new List<Disease>();
 }

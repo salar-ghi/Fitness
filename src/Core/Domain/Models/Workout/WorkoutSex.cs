@@ -3,7 +3,8 @@
 public class WorkoutSex : BaseEntity<int, WorkoutSex>
 {
     public int WorkoutId { get; set; }
-    //public Workout Workout { get; set; } = null!;
+    //[ForeignKey(nameof(WorkoutId))]
+    //public virtual Workout Workout { get; set; } = null!;
 
     public Sex Sex { get; set; }
 }

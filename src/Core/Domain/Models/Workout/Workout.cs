@@ -6,10 +6,7 @@ public class Workout : BaseEntity<int, Workout>
     public string Description { get; set; } = default!;
     public string ImgUrl { get; set; } = default!; // workout banner
 
-    //public string Instruction { get; set; } = default!; // move to another table to tech more carefully each step seperately.
-    //public string? ImgUrl { get; set; } 
-    //public string? VideoUrl { get; set; }
-
+    
     //public ICollection<WorkoutInstruction> WorkoutInstructions = new List<WorkoutInstruction>();
     //public ICollection<BodyWorkout> BodyWorkouts = new List<BodyWorkout>();
 

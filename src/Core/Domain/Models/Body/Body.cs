@@ -2,8 +2,7 @@
 
 public class Body : BaseEntity<int, Body>
 {
-    //public int BodyPartId { get; set; }
-    public string Name { get; set; } = null!;
+    public string MuscleName { get; set; } = null!;
     public string ImgUrl { get; set; } = default!;
     public int? ParentId { get; set; }
 

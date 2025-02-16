@@ -1,4 +1,6 @@
-﻿namespace Domain.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Domain.Models;
 
 public class AthleteImgs : BaseEntity<long, AthleteImgs>
 {
@@ -6,6 +8,8 @@ public class AthleteImgs : BaseEntity<long, AthleteImgs>
     public string? Description { get; set; }
 
     public required Guid AthleteId { get; set; }
-    //public Athlete Athlete { get; set; }
+
+    //[ForeignKey(nameof(AthleteId))]
+    //public virtual Athlete Athlete { get; set; }
 
 }
