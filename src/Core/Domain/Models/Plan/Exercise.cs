@@ -14,8 +14,8 @@ public class Exercise : BaseEntity<Guid, Exercise>
     public float RecommendWeight { get; set; }
     public int RecommendRestTime { get; set; } // Second
 
+    public bool IsOk { get; set; } // be nazare karbar ok hast ke in tamrin behesh suggest shode // dar sorate har do javab bale ye kheyr, result chie ????
+    public WorkoutGeneratedType SuggestType { get; set; }
 
-    public bool IsOk { get; set; } // be nazare karbar ok hastr ke in tamrin behesh suggest shode 
-                                    // dar sorate har do javab bale ye kheyr, result chie ????
     public bool Completed { get; set; } // bad az anjam, bege ke anjam dade dar jahate anlyse kardane moshtari
 }

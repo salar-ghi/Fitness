@@ -3,7 +3,7 @@
 public class PlanGoals : BaseEntity<long, PlanGoals>
 {
     public Guid PlanId { get; set; }
-    //public Plan Plan { get; set; }
+    //public virtual Plan Plan { get; set; }
 
 
     public DateOnly StartDate { get; set; }
@@ -14,6 +14,6 @@ public class PlanGoals : BaseEntity<long, PlanGoals>
     public float EndOverWeight { get; set; }
 
 
-    public int StartMeasurements { get; set; }
+    public int StartMeasurements { get; set; } // ???  I don't know why do I set it here
     public int EndMeasurements { get; set; }
 }

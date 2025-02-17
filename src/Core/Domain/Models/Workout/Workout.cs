@@ -5,16 +5,12 @@ public class Workout : BaseEntity<int, Workout>
     public string Name { get; set; } = null!;
     public string Description { get; set; } = default!;
     public string ImgUrl { get; set; } = default!; // workout banner
+    public int SportId { get; set; }
+    //public ICollection<Sport> Sport { get; set; } = new List<Sport>();
 
     
     //public ICollection<WorkoutInstruction> WorkoutInstructions = new List<WorkoutInstruction>();
     //public ICollection<BodyWorkout> BodyWorkouts = new List<BodyWorkout>();
-
-
-    public int SportId { get; set; }
-    //public ICollection<Sport> Sport { get; set; } = new List<Sport>();
-
-
 
     //public ICollection<WorkoutAgeRange> AgeRanges { get; set; } = new List<WorkoutAgeRange>();
     //public ICollection<WorkoutEquipment> Equipment { get; set; } = new List<WorkoutEquipment>();

@@ -7,6 +7,9 @@ public class RegisterDto
     // -----User Table Properties
     public string PhoneNumber { get; set; } = default!;
     public string? Email { get; set; }
+    public string? FName { get; set; }
+    public string? LName { get; set; }
+
 
     //public int Age { get; set; }
 
@@ -22,7 +25,7 @@ public class RegisterDto
     public Age AgeRange { get; set; } // ???
     public DateOnly DateOfBirth { get; set; }
     public BodyType BodyType { get; set; }
-    public Level PlanLevel { get; set; }
+    public DifficultyEnum Level { get; set; }
 
 
     // Inujuries
