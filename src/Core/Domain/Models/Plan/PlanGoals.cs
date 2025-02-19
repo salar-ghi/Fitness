@@ -12,6 +12,7 @@ public class PlanGoals : BaseEntity<long, PlanGoals>
     public float EndWeight { get; set; }
     public float StartOverWeight { get; set; }
     public float EndOverWeight { get; set; }
+    public PhysiqueType PhysiqueGoal { get; set; }
 
 
     public int StartMeasurements { get; set; } // ???  I don't know why do I set it here

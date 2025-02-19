@@ -46,7 +46,7 @@ public class PlanManagingService : IPlanManagingService
             AgeRange = dto.AgeRange,
             DateOfBirth = dto.DateOfBirth,
             BodyType = dto.BodyType,
-            Level = dto.PlanLevel,
+            //Level = dto.Level,
         };
         await _unitOfWork.AthleteRepository.CreateAsync(athlete);
 
@@ -165,7 +165,7 @@ public class PlanManagingService : IPlanManagingService
             age--;
         }
         var bodyType = dto.BodyType;
-        var level = dto.PlanLevel;
+        //var level = dto.PlanLevel; ????????????
 
 
         // I think we just have to let user to select only 4 parts

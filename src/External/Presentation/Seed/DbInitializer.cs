@@ -3797,8 +3797,8 @@ public static class DbInitializer
         {
             var instructions = new List<WorkoutInstruction>
             {
-                new WorkoutInstruction { WorkoutId = workouts[0].Id, Description = "", ImgUrl = "", VideoUrl = ""},
-                new WorkoutInstruction { WorkoutId = workouts[0].Id, Description = "", ImgUrl = "", VideoUrl = ""}
+                new WorkoutInstruction { WorkoutId = workouts[0].Id, Instruction = "", ImgUrl = "", VideoUrl = ""},
+                new WorkoutInstruction { WorkoutId = workouts[0].Id, Instruction = "", ImgUrl = "", VideoUrl = ""}
             };
             await context.WorkoutInstructions.AddRangeAsync(instructions);
             await context.SaveChangesAsync();
@@ -3823,7 +3823,7 @@ public static class DbInitializer
         {
             var workoutLevels = new List<WorkoutLevel>
             {
-                new WorkoutLevel { WorkoutId = 1, Level = Domain.Enums.Level.Beginner, Description="" },
+                new WorkoutLevel { WorkoutId = 1, Level = Difficulty.Beginner, Description="" },
             };
             await context.WorkoutLevels.AddRangeAsync(workoutLevels);
             await context.SaveChangesAsync();

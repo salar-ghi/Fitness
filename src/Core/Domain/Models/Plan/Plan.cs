@@ -6,7 +6,7 @@ public class Plan : BaseEntity<Guid, Plan>
     public Difficulty Level { get; set; } = default(Difficulty);
     public Period Duration { get; set; } = default(Period);
     public int DaysCount { get; set; }
-
+    public Place Place { get; set; }
     public required Guid AthleteId { get; set; }
     //public ICollection<Athlete> Athletes { get; set; } = new List<Athlete>();
 

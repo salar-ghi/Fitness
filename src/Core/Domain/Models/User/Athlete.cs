@@ -5,8 +5,8 @@ namespace Domain.Models;
 public class Athlete : BaseEntity<Guid, Athlete>
 {
 
-    public float Height { get; set; }
-    public float Weight { get; set; }
+    public int Height { get; set; }
+    public int Weight { get; set; }
 
     public string? AvatarUrl { get; private set; }
     public Sex Gender { get; set; } = default(Sex);
