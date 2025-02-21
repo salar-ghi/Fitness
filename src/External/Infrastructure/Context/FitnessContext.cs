@@ -13,6 +13,7 @@ public class FitnessContext : DbContext
     // Body DbSet
     public virtual DbSet<Body> Bodies { get; set; }
     public virtual DbSet<Disease> Diseases { get; set; }
+    public virtual DbSet<BodyFat> BodyFats { get; set; }
 
     // Plan DbSet
     public virtual DbSet<Exercise> Exercises { get; set; }
@@ -23,6 +24,7 @@ public class FitnessContext : DbContext
     public virtual DbSet<PlanEquipments> PlanEquipments { get; set; }
     public virtual DbSet<PlanGoals> PlanGoals { get; set; }
     public virtual DbSet<PlanImgs> PlanImgs { get; set; }
+    public virtual DbSet<PrePostExercise> PrePostExercises { get; set; }
 
     // User DbSet
     public virtual DbSet<Athlete> Athletes { get; set; }
@@ -52,7 +54,6 @@ public class FitnessContext : DbContext
     {
         base.OnModelCreating(builder);
 
-
         builder.Entity<User>().ToTable("Users");
         //builder.Entity<IdentityRole>().ToTable("Roles");
 
@@ -62,15 +63,20 @@ public class FitnessContext : DbContext
         //builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
         //builder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims");
 
-
+        // Body
+        builder.ApplyConfiguration(new BodyConfiguration());
+        builder.ApplyConfiguration(new DiseaseConfiguration());
+        builder.ApplyConfiguration(new BodyFatConfiguration());
 
         // Plan Configuration
         builder.ApplyConfiguration(new ExerciseConfiguration());
-        //modelBuilder.ApplyConfiguration(new ExerciseDetailConfiguration());
         builder.ApplyConfiguration(new MusclePriorityConfiguration());
         builder.ApplyConfiguration(new PlanConfiguration());
         builder.ApplyConfiguration(new PlanDaysConfiguration());
+        builder.ApplyConfiguration(new PlanEquipmentConfiguration());
+        builder.ApplyConfiguration(new PlanGoalConfiguration());
         builder.ApplyConfiguration(new PlanImgsConfiguration());
+        builder.ApplyConfiguration(new PrePostExerciseConfiguration());
 
         //builder.Entity<User>().UseTptMappingStrategy();
         //builder.Entity<Athlete>().UseTptMappingStrategy();
@@ -78,29 +84,20 @@ public class FitnessContext : DbContext
         // User Configuration
         builder.ApplyConfiguration(new AthleteConfiguration());
         builder.ApplyConfiguration(new AthleteImgsConfiguration());
-        builder.ApplyConfiguration(new AthleteImgsConfiguration());
-        builder.ApplyConfiguration(new DiseaseConfiguration());
+        builder.ApplyConfiguration(new AthleteInjuriesConfiguration());
         builder.ApplyConfiguration(new UserConfiguration());
         //modelBuilder.ApplyConfiguration(new UserRoleConfiguration());
 
         //builder.Entity<Workout>().UseTptMappingStrategy();
         // Workout Configuration
-        builder.ApplyConfiguration(new WorkoutAgeRangeConfiguration());
-        builder.ApplyConfiguration(new BodyConfiguration());
         builder.ApplyConfiguration(new BodyWorkoutConfiguration());
         builder.ApplyConfiguration(new EquipmentConfiguration());
-        builder.ApplyConfiguration(new WorkoutLevelConfiguration());
         builder.ApplyConfiguration(new SportConfiguration());
         builder.ApplyConfiguration(new WorkoutConfiguration());
+        builder.ApplyConfiguration(new WorkoutAgeRangeConfiguration());
         builder.ApplyConfiguration(new WorkoutEquipmentConfiguration());
-
-
-        //builder.Entity<Workout>().HasData(
-        //    new Workout { Id = 1, Name = "", SportId = 1, Description = ""}
-        //    );
-
-        //builder.Entity<WorkoutLevel>().HasData(
-        //    new WorkoutLevel { WorkoutId = 1, Level = Domain.Enums.Level.Beginner, Description = "" }
-        //    );
+        builder.ApplyConfiguration(new WorkoutInstructionConfiguration());
+        builder.ApplyConfiguration(new WorkoutLevelConfiguration());
+        builder.ApplyConfiguration(new WorkoutSexConfiguration());
     }
 }
