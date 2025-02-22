@@ -1,6 +1,4 @@
-﻿using System.Text.Json;
-
-namespace Infrastructure.Extensions;
+﻿namespace Infrastructure.Extensions;
 
 public class Ollama
 {

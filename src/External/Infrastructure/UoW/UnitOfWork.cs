@@ -1,7 +1,4 @@
-﻿using Domain.IRepositories;
-using Infrastructure.Repositories;
-
-namespace Infrastructure.UoW;
+﻿namespace Infrastructure.UoW;
 
 public class UnitOfWork : IUnitOfWork
 {
@@ -12,6 +9,7 @@ public class UnitOfWork : IUnitOfWork
     // Body
     private BodyRepository _bodyRepository;
     private DiseaseRepository _diseaseRepository;
+    private BodyFatRepository _bodyFatRepository;
 
     // Plan
     private ExerciseRepository _exerciseRepository;
@@ -21,15 +19,16 @@ public class UnitOfWork : IUnitOfWork
     private PlanEquipmentRepository _planEquipmentRepository;
     private PlanGoalsRepository _planGoalsRepository;
     private PlanImgsRepository _planImgsRepository;
+    private PrePostExerciseRepository _prePostExerciseRepository;
 
     // User
     private AthleteRepository _athleteRepository;
     private AthleteImgsRepository _athleteImgsRepository;
-    private AthleteInjuriesRepository _athleteInjuriesRepository;    
+    private AthleteInjuriesRepository _athleteInjuriesRepository;
     private UserRepository _userRepository;
 
     //Workout
-    private BodyWorkoutRepository _bodyWorkoutRepository;    
+    private BodyWorkoutRepository _bodyWorkoutRepository;
     private EquipmentRepository _equipmentRepository;
     private SportRepository _sportRepository;
     private WorkoutRepository _workoutRepository;
@@ -55,6 +54,7 @@ public class UnitOfWork : IUnitOfWork
     // Body Interfaces
     public IBodyRepository BodyRepository => new BodyRepository(_context);
     public IDiseaseRepository DiseaseRepository => new DiseaseRepository(_context);
+    public IBodyFatRepository BodyFatRepository => new BodyFatRepository(_context);
 
     // Plan Interfaces
     public IExerciseRepository ExerciseRepository
@@ -72,6 +72,7 @@ public class UnitOfWork : IUnitOfWork
     public IPlanEquipmentRepository PlanEquipmentRepository => new PlanEquipmentRepository(_context);
     public IPlanGoalsRepository PlanGoalsRepository => new PlanGoalsRepository(_context);
     public IPlanImgsRepository PlanImgsRepository => new PlanImgsRepository(_context);
+    public IPrePostExerciseRepository PrePostExerciseRepository => new PrePostExerciseRepository(_context);
 
 
 
@@ -82,7 +83,7 @@ public class UnitOfWork : IUnitOfWork
     public IAthleteInjuriesRepository AthleteInjuriesRepository => new AthleteInjuriesRepository(_context);
 
 
-    // Workout Interfaces    
+    // Workout Interfaces
     public IBodyWorkoutRepository BodyWorkoutRepository => new BodyWorkoutRepository(_context);
     public IEquipmentRepository EquipmentRepository => new EquipmentRepository(_context);
     public ISportRepository SportRepository => new SportRepository(_context);

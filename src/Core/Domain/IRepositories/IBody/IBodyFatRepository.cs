@@ -1,3 +1,3 @@
-﻿namespace Domain.IRepositories.IBody;
+﻿namespace Domain.IRepositories;
 
-public interface IBodyFatRepository : IRepository<Body>;
+public interface IBodyFatRepository : IRepository<BodyFat>;

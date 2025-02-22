@@ -1,8 +1,5 @@
 ﻿using Microsoft.ML.Data;
 using Microsoft.ML;
-using System;
-using System.IO;
-using System.Text;
 
 namespace Infrastructure.Extensions;
 

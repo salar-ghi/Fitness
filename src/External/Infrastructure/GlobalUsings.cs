@@ -14,6 +14,13 @@ global using Microsoft.Extensions.AI;
 global using Application.Interfaces.AI;
 global using Infrastructure.Repositories;
 global using Microsoft.EntityFrameworkCore;
+global using System.Text.Json.Serialization;
 global using Infrastructure.EntityTypeConfiguration;
 global using Microsoft.Extensions.DependencyInjection;
 global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+global using Infrastructure.Services;
+global using Infrastructure.Extensions;
+global using Infrastructure.Services.AI;
+global using Microsoft.Extensions.Configuration;
+global using Infrastructure.Services.PlanParser;

@@ -1,3 +1,3 @@
-﻿namespace Domain.IRepositories.IPlan;
+﻿namespace Domain.IRepositories;
 
 public interface IPrePostExerciseRepository : IRepository<PrePostExercise>;

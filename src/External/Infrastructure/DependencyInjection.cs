@@ -1,11 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-using Infrastructure.Extensions;
-using Infrastructure.Services;
-using Microsoft.Extensions.AI;
-using Infrastructure.Services.AI;
-using Infrastructure.Services.PlanParser;
-
-namespace Infrastructure;
+﻿namespace Infrastructure;
 
 public static class DependencyInjection
 {
@@ -23,29 +16,36 @@ public static class DependencyInjection
         // General
         services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         
-        // Exercise
+        services.AddScoped<IBodyRepository, BodyRepository>();
+        services.AddScoped<IDiseaseRepository, DiseaseRepository>();
+        services.AddScoped<IBodyFatRepository, BodyFatRepository>();
+
+        // Plan
         services.AddScoped<IExerciseRepository, ExerciseRepository>();
         services.AddScoped<IMusclePriorityRepository, MusclePriorityRepository>();
         services.AddScoped<IPlanDaysRepository, PlanDaysRepository>();
+        services.AddScoped<IPlanEquipmentRepository, PlanEquipmentRepository>();
+        services.AddScoped<IPlanGoalsRepository, PlanGoalsRepository>();
         services.AddScoped<IPlanImgsRepository, PlanImgsRepository>();
         services.AddScoped<IPlanRepository, PlanRepository>();
+        services.AddScoped<IPrePostExerciseRepository, PrePostExerciseRepository>();
 
         // User
         services.AddScoped<IAthleteImgsRepository, AthleteImgsRepository>();
         services.AddScoped<IAthleteInjuriesRepository, AthleteInjuriesRepository>();
         services.AddScoped<IAthleteRepository, AthleteRepository>();
-        services.AddScoped<IDiseaseRepository, DiseaseRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
 
         // Workout
-        services.AddScoped<IWorkoutAgeRangeRepository, WorkoutAgeRangeRepository>();
-        services.AddScoped<IBodyRepository, BodyRepository>();
         services.AddScoped<IBodyWorkoutRepository, BodyWorkoutRepository>();
         services.AddScoped<IEquipmentRepository, EquipmentRepository>();
-        services.AddScoped<IWorkoutLevelRepository, WorkoutLevelRepository>();
         services.AddScoped<ISportRepository, SportRepository>();
+        services.AddScoped<IWorkoutAgeRangeRepository, WorkoutAgeRangeRepository>();
         services.AddScoped<IWorkoutEquipmentRepository, WorkoutEquipmentRepository>();
+        services.AddScoped<IWorkoutInstructionRepository, WorkoutInstructionRepository>();
+        services.AddScoped<IWorkoutLevelRepository, WorkoutLevelRepository>();
         services.AddScoped<IWorkoutRepository, WorkoutRepository>();
+        services.AddScoped<IWorkoutSexRepository, IWorkoutSexRepository>();
 
         services.AddSingleton<IChatClient>(new OllamaChatClient(new
             Uri("http://localhost:11434/"), "llama3.2"));

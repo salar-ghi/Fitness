@@ -1,9 +1,5 @@
 ﻿using Microsoft.ML;
-using System.Security;
 using Microsoft.ML.Data;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.ML.Transforms.Text;
 
 namespace Infrastructure.Extensions;
 
@@ -36,10 +32,4 @@ public class TextTokenizer
 
         return tokens?.ToList();
     }
-
-
-
-    
-
-
 }
