@@ -4,6 +4,7 @@ public class Body : BaseEntity<int, Body>
 {
     public string Name { get; set; } = null!;
     public string ImgUrl { get; set; } = default!;
+    public string Description { get; set; }
     public int? ParentId { get; set; }
 
 

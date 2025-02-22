@@ -6,6 +6,7 @@ public class MusclePriorityConfiguration : IEntityTypeConfiguration<MusclePriori
     public void Configure(EntityTypeBuilder<MusclePriority> builder)
     {
         builder.HasKey(e => e.Id);
+        builder.Property(e => e.Id).ValueGeneratedOnAdd();
         builder.HasIndex(e => e.PlanId).IsClustered(false);
         builder.HasIndex(e => e.BodyId).IsClustered(false);
 

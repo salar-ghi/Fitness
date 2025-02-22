@@ -45,7 +45,7 @@ public static class DependencyInjection
         services.AddScoped<IWorkoutInstructionRepository, WorkoutInstructionRepository>();
         services.AddScoped<IWorkoutLevelRepository, WorkoutLevelRepository>();
         services.AddScoped<IWorkoutRepository, WorkoutRepository>();
-        services.AddScoped<IWorkoutSexRepository, IWorkoutSexRepository>();
+        services.AddScoped<IWorkoutSexRepository, WorkoutSexRepository>();
 
         services.AddSingleton<IChatClient>(new OllamaChatClient(new
             Uri("http://localhost:11434/"), "llama3.2"));

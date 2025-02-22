@@ -6,6 +6,7 @@ public class ExerciseConfiguration : IEntityTypeConfiguration<Exercise>
     public void Configure(EntityTypeBuilder<Exercise> builder)
     {
         builder.HasKey(e => e.Id);
+        builder.Property(e => e.Id).ValueGeneratedOnAdd();
         builder.HasIndex(e => e.PlanId).IsClustered(false);
         builder.HasIndex(e => e.WorkoutId).IsClustered(false);
         builder.Property(e => e.ExerciseType).IsRequired();

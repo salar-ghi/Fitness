@@ -9,9 +9,6 @@ public class Program
         {
             var services = scope.ServiceProvider;
             var context = services.GetRequiredService<FitnessContext>();
-
-            //DbInitializer.SeedAsync(context).Wait();
-            //await DbInitializer.SeedAsync(context);
         }
         host.Run();
     }

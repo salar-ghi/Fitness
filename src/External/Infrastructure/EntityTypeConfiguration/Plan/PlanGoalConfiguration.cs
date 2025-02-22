@@ -5,6 +5,7 @@ public class PlanGoalConfiguration : IEntityTypeConfiguration<PlanGoals>
     public void Configure(EntityTypeBuilder<PlanGoals> builder)
     {
         builder.HasKey(e => e.Id);
+        builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
         builder.HasIndex(e => e.PlanId).IsClustered(false);
         builder.Property(e => e.StartDate).IsRequired().HasDefaultValue(DateOnly.MaxValue); // ????

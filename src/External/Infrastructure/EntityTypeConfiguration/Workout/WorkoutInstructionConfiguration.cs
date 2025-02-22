@@ -5,6 +5,7 @@ public class WorkoutInstructionConfiguration : IEntityTypeConfiguration<WorkoutI
     public void Configure(EntityTypeBuilder<WorkoutInstruction> builder)
     {
         builder.HasKey(x => x.Id);
+        builder.Property(e => e.Id).ValueGeneratedOnAdd();
         builder.HasIndex(x => x.WorkoutId);
 
     }

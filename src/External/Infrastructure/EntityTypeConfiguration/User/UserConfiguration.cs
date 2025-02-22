@@ -5,6 +5,8 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
     public void Configure(EntityTypeBuilder<User> builder)
     {
         builder.HasKey(e => e.Id);
+        builder.Property(e => e.Id).ValueGeneratedOnAdd();
+
         builder.Property(e => e.FName).IsRequired().HasMaxLength(40);
         builder.Property(e => e.LName).IsRequired().HasMaxLength(40);
         builder.Property(e => e.Email).HasMaxLength(70);

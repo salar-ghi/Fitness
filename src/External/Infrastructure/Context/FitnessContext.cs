@@ -17,7 +17,6 @@ public class FitnessContext : DbContext
 
     // Plan DbSet
     public virtual DbSet<Exercise> Exercises { get; set; }
-    //public virtual DbSet<ExerciseDetail> ExerciseDetails { get; set; }
     public virtual DbSet<MusclePriority> MusclePriorities { get; set; }
     public virtual DbSet<Plan> Plans { get; set; }
     public virtual DbSet<PlanDays> PlanDays { get; set; }

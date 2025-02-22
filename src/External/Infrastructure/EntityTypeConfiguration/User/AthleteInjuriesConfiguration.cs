@@ -5,8 +5,10 @@ public class AthleteInjuriesConfiguration : IEntityTypeConfiguration<AthleteInju
     public void Configure(EntityTypeBuilder<AthleteInjuries> builder)
     {
         builder.HasKey(e => e.Id);
+        builder.Property(e => e.Id).ValueGeneratedOnAdd();
+
         builder.Property(e => e.Name).IsRequired().HasMaxLength(70);
-        builder.Property(e => e.Description).HasMaxLength(2500);
+        builder.Property(e => e.Description).HasMaxLength(2500).IsRequired(false);
 
         builder.Property(e => e.InjuredImgUrl).HasMaxLength(256)
             .HasDefaultValue("https://via.placeholder.com/85.png");

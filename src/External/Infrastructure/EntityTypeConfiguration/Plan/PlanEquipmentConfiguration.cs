@@ -5,6 +5,7 @@ public class PlanEquipmentConfiguration : IEntityTypeConfiguration<PlanEquipment
     public void Configure(EntityTypeBuilder<PlanEquipments> builder)
     {
         builder.HasKey(e => e.Id);
+        builder.Property(e => e.Id).ValueGeneratedOnAdd();
         builder.HasIndex(e => e.PlanId).IsClustered(false);
         builder.HasIndex(e => e.EquipmentId).IsClustered(false);
 

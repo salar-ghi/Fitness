@@ -5,7 +5,8 @@ public class AthleteConfiguration : IEntityTypeConfiguration<Athlete>
     public void Configure(EntityTypeBuilder<Athlete> builder)
     {
         builder.HasKey(e => e.Id);
-        builder.HasIndex(e => new { e.UserId, e.Gender }).IsClustered(false);        
+        builder.Property(e => e.Id).ValueGeneratedOnAdd();
+        builder.HasIndex(e => new { e.UserId, e.Gender }).IsClustered(false);
         
         builder.Property(e => e.AgeRange).IsRequired();
         builder.Property(e => e.BodyType).IsRequired();
