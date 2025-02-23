@@ -9,9 +9,3 @@ public class WorkoutInstructionMedia : BaseEntity<int, WorkoutInstructionMedia>
     //[ForeignKey(nameof(Workout))]
     //public virtual Workout Workout { get; set; }
 }
-
-public enum MediaType
-{
-    Image = 1,
-    Video = 2,
-}

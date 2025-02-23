@@ -17,10 +17,20 @@ public static class WorkoutDbInitializer
                 new Workout{ Name = "Barbell Curl", SportId = 1, Description = "" },
                 new Workout{ Name = "Dumbbell Curl", SportId = 1, Description = "" },
                 new Workout{ Name = "Dumbbell Hammer Curl", SportId = 1, Description = "" },
+
                 new Workout{ Name = "Kettlebell Goblet Curl", SportId = 1, Description = "" },
                 new Workout{ Name = "Kettlebell Concentration Curl", SportId = 1, Description = "" },
                 new Workout{ Name = "Kettlebell Preacher Curl", SportId = 1, Description = "" },
                 new Workout{ Name = "Kettlebell Single Arm Curl", SportId = 1, Description = "" },
+                new Workout{ Name = "Biceps Stretch Variation Five", SportId = 1, Description = "" },
+                new Workout{ Name = "Biceps Stretch Variation Four", SportId = 1, Description = "" },
+                new Workout{ Name = "Biceps Stretch Variation Three", SportId = 1, Description = "" },
+                new Workout{ Name = "Biceps Stretch Variation Two", SportId = 1, Description = "" },
+                new Workout{ Name = "Biceps Stretch Variation One", SportId = 1, Description = "" },
+                new Workout{ Name = "Cable Twisting Curl", SportId = 1, Description = "" },
+                new Workout{ Name = "Cable Single Arm Bayesian Curl", SportId = 1, Description = "" },
+
+
             };
         };
 
@@ -38,7 +48,13 @@ public static class WorkoutDbInitializer
                 new WorkoutInstruction{ WorkoutId = workouts[1].Id , Step = 2 , Instruction = "Raise one dumbbell and twist your forearm until it is vertical and your palm faces the shoulder."},
                 new WorkoutInstruction{ WorkoutId = workouts[1].Id , Step = 3 , Instruction = "Lower to original position and repeat with opposite arm"},
 
-                new WorkoutInstruction{ WorkoutId = workouts[1].Id , Step = 1 , Instruction = ""},
+                new WorkoutInstruction{ WorkoutId = workouts[2].Id , Step = 1 , Instruction = "Hold the dumbbells with a neutral grip (thumbs facing the ceiling)" },
+                new WorkoutInstruction{ WorkoutId = workouts[2].Id , Step = 2 , Instruction = "Slowly lift the dumbbell up to chest height" },
+                new WorkoutInstruction{ WorkoutId = workouts[2].Id , Step = 3 , Instruction = "Return to starting position and repeat" },
+
+                new WorkoutInstruction{ WorkoutId = workouts[2].Id , Step = 3 , Instruction = "Return to starting position and repeat" },
+
+
             };
         };
 
@@ -49,6 +65,7 @@ public static class WorkoutDbInitializer
             {
                 new BodyWorkout{ BodyId = 25, WorkoutId = workouts[0].Id },
                 new BodyWorkout{ BodyId = 25, WorkoutId = workouts[1].Id },
+                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[2].Id },
             };
         };
 
@@ -59,6 +76,9 @@ public static class WorkoutDbInitializer
             {
                 new WorkoutEquipment{ WorkoutId = workouts[0].Id, EquipmentId = 4 },
                 new WorkoutEquipment{ WorkoutId = workouts[1].Id, EquipmentId = 3 },
+                
+                new WorkoutEquipment{ WorkoutId = workouts[2].Id, EquipmentId = 3 },
+
             };
         };
 
@@ -69,6 +89,7 @@ public static class WorkoutDbInitializer
             {
                 new WorkoutLevel{ WorkoutId = workouts[0].Id , Level = Difficulty.Intermediate},
                 new WorkoutLevel{ WorkoutId = workouts[1].Id , Level = Difficulty.Beginner},
+                new WorkoutLevel{ WorkoutId = workouts[2].Id , Level = Difficulty.Beginner},
             };
         };
 
