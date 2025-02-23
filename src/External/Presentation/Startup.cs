@@ -47,6 +47,7 @@ public class Startup
     {
         await BodyDbInitializer.BodySeedAsync(dbContext);
         await EquipmentDbInitializer.EquipmentSeedAsync(dbContext);
+        await SportDbInitializer.SportSeedAsync(dbContext);
     }
 
     public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)
