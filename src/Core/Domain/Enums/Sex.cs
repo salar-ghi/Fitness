@@ -3,7 +3,7 @@
 public enum Sex
 {
     //None = 0,
-    Man = 1,
-    Woman = 2,
+    Male = 1,
+    Female = 2,
     Custom = 3,
 }

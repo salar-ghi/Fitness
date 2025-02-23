@@ -3835,8 +3835,8 @@ public static class DbInitializer
         {
             var genders = new List<WorkoutSex>
             {
-                new WorkoutSex { WorkoutId = workouts[0].Id, Sex = Sex.Man},
-                new WorkoutSex { WorkoutId = workouts[0].Id, Sex = Sex.Man}
+                new WorkoutSex { WorkoutId = workouts[0].Id, Sex = Sex.Male},
+                new WorkoutSex { WorkoutId = workouts[0].Id, Sex = Sex.Female}
             };
             await context.WorkoutSex.AddRangeAsync(genders);
             await context.SaveChangesAsync();
