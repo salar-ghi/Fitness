@@ -55,6 +55,7 @@ public static class EquipmentDbInitializer
                 new Equipment { Name = "Cardio", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Pull Up Machine", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Machine", EquipmentType = EquipmentType.Machine, Description= ""},
+                new Equipment { Name = "Plate", EquipmentType = EquipmentType.Machine, Description= ""},
             };
             await context.Equipments.AddRangeAsync(equipments);
             await context.SaveChangesAsync();

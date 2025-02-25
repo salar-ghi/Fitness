@@ -9,41 +9,66 @@ public static class WorkoutDbInitializer
         var workouts = new List<Workout>();
         if (!await context.Workouts.AnyAsync())
         {
+            var bodybuildingId = await context.Sports.Where(s => s.Name == "Body Building").Select(z => z.Id).FirstOrDefaultAsync();
+            var cardioId = await context.Sports.Where(s => s.Name == "Cardio").Select(z => z.Id).FirstOrDefaultAsync();
             workouts = new List<Workout>
             {
                 // biceps // Barbell
-                new Workout{ Name = "Barbell Curl", SportId = 1, Description = "" },                                // index => 0
-                new Workout{ Name = "Barbell Reverse Curl", SportId = 1, Description = "" },                        // index => 1
-                new Workout{ Name = "Barbell Landmine Row", SportId = 1, Description = "" },                        // index => 2
-                new Workout{ Name = "Barbell Long Landmine Row", SportId = 1, Description = "" },                   // index => 3
-                new Workout{ Name = "Barbell Meadows Row", SportId = 1, Description = "" },                         // index => 4
-                new Workout{ Name = "Barbell Pronated Pendlay Row", SportId = 1, Description = "" },                // index => 5
-                new Workout{ Name = "Barbell Pronated Row", SportId = 1, Description = "" },                        // index => 6
-                new Workout{ Name = "Barbell Supinated Pendlay Row", SportId = 1, Description = "" },               // index => 7
-                new Workout{ Name = "Barbell Supinated Row", SportId = 1, Description = "" },                       // index => 8
-                new Workout{ Name = "Landmine Bicep Curl", SportId = 1, Description = "" },                         // index => 9
-                new Workout{ Name = "Landmine Concentration Curl", SportId = 1, Description = "" },                 // index => 10
-                new Workout{ Name = "Barbell Drag Curl", SportId = 1, Description = "" },                           // index => 11
-                new Workout{ Name = "Landmine T Bar Rows", SportId = 1, Description = "" },                         // index => 12
-                new Workout{ Name = "Barbell Bent Over Row", SportId = 1, Description = "" },                       // index => 13
-                new Workout{ Name = "EZ Bar Preacher Curl", SportId = 1, Description = "" },                        // index => 14
-                new Workout{ Name = "EZ Bar Reverse Preacher Curl", SportId = 1, Description = "" },                // index => 15
+                new Workout{ Name = "Barbell Curl", SportId = bodybuildingId, Description = "" },                                // index => 0
+                new Workout{ Name = "Barbell Reverse Curl", SportId = bodybuildingId, Description = "" },                        // index => 1
+                new Workout{ Name = "Barbell Landmine Row", SportId = bodybuildingId, Description = "" },                        // index => 2
+                new Workout{ Name = "Barbell Long Landmine Row", SportId = bodybuildingId, Description = "" },                   // index => 3
+                new Workout{ Name = "Barbell Meadows Row", SportId = bodybuildingId, Description = "" },                         // index => 4
+                new Workout{ Name = "Barbell Pronated Pendlay Row", SportId = bodybuildingId, Description = "" },                // index => 5
+                new Workout{ Name = "Barbell Pronated Row", SportId = bodybuildingId, Description = "" },                        // index => 6
+                new Workout{ Name = "Barbell Supinated Pendlay Row", SportId = bodybuildingId, Description = "" },               // index => 7
+                new Workout{ Name = "Barbell Supinated Row", SportId = bodybuildingId, Description = "" },                       // index => 8
+                new Workout{ Name = "Landmine Bicep Curl", SportId = bodybuildingId, Description = "" },                         // index => 9
+                new Workout{ Name = "Landmine Concentration Curl", SportId = bodybuildingId, Description = "" },                 // index => 10
+                new Workout{ Name = "Barbell Drag Curl", SportId = bodybuildingId, Description = "" },                           // index => 11
+                new Workout{ Name = "Landmine T Bar Rows", SportId = bodybuildingId, Description = "" },                         // index => 12
+                new Workout{ Name = "Barbell Bent Over Row", SportId = bodybuildingId, Description = "" },                       // index => 13
+                new Workout{ Name = "EZ Bar Preacher Curl", SportId = bodybuildingId, Description = "" },                        // index => 14
+                new Workout{ Name = "EZ Bar Reverse Preacher Curl", SportId = bodybuildingId, Description = "" },                // index => 15
 
                 // biceps // Machine
-                new Workout{ Name = "Machine Seated Cable Row", SportId = 1, Description = "" },                    // index => 16
-                new Workout{ Name = "Narrow Pulldown", SportId = 1, Description = "" },                             // index => 17
-                new Workout{ Name = "Neutral Pulldown", SportId = 1, Description = "" },                            // index => 18
-                new Workout{ Name = "Underhand Pulldown", SportId = 1, Description = "" },                          // index => 19
-                new Workout{ Name = "Machine Assisted Pull Up", SportId = 1, Description = "" },                    // index => 20
-                new Workout{ Name = "Machine Assisted Narrow Pull Up", SportId = 1, Description = "" },             // index => 21
-                new Workout{ Name = "Machine Assisted Neutral Chin Up", SportId = 1, Description = "" },            // index => 22
-                new Workout{ Name = "Machine Assisted Chin Up", SportId = 1, Description = "" },                    // index => 23
-                new Workout{ Name = "Machine Underhand Row", SportId = 1, Description = "" },                       // index => 24
-                new Workout{ Name = "Machine Plate Loaded Pulldown", SportId = 1, Description = "" },               // index => 25
-                new Workout{ Name = "Machine Standing Plate Loaded Preacher Curl", SportId = 1, Description = "" }, // index => 26
-                new Workout{ Name = "Machine Seated Plate Loaded Preacher Curl", SportId = 1, Description = "" },   // index => 27
-                new Workout{ Name = "Machine Bicep Curl", SportId = 1, Description = "" },                          // index => 28
+                new Workout{ Name = "Machine Seated Cable Row", SportId = bodybuildingId, Description = "" },                    // index => 16
+                new Workout{ Name = "Narrow Pulldown", SportId = bodybuildingId, Description = "" },                             // index => 17
+                new Workout{ Name = "Neutral Pulldown", SportId = bodybuildingId, Description = "" },                            // index => 18
+                new Workout{ Name = "Underhand Pulldown", SportId = bodybuildingId, Description = "" },                          // index => 19
+                new Workout{ Name = "Machine Assisted Pull Up", SportId = bodybuildingId, Description = "" },                    // index => 20
+                new Workout{ Name = "Machine Assisted Narrow Pull Up", SportId = bodybuildingId, Description = "" },             // index => 21
+                new Workout{ Name = "Machine Assisted Neutral Chin Up", SportId = bodybuildingId, Description = "" },            // index => 22
+                new Workout{ Name = "Machine Assisted Chin Up", SportId = bodybuildingId, Description = "" },                    // index => 23
+                new Workout{ Name = "Machine Underhand Row", SportId = bodybuildingId, Description = "" },                       // index => 24
+                new Workout{ Name = "Machine Plate Loaded Pulldown", SportId = bodybuildingId, Description = "" },               // index => 25
+                new Workout{ Name = "Machine Standing Plate Loaded Preacher Curl", SportId = bodybuildingId, Description = "" }, // index => 26
+                new Workout{ Name = "Machine Seated Plate Loaded Preacher Curl", SportId = bodybuildingId, Description = "" },   // index => 27
+                new Workout{ Name = "Machine Bicep Curl", SportId = bodybuildingId, Description = "" },                          // index => 28
 
+                // biceps // stretches
+                new Workout{ Name = "Biceps Stretch Variation Five", SportId = cardioId, Description = "" },                // index => 29
+                new Workout{ Name = "Biceps Stretch Variation Four", SportId = cardioId, Description = "" },                // index => 30
+                new Workout{ Name = "Biceps Stretch Variation Three", SportId = cardioId, Description = "" },               // index => 31
+                new Workout{ Name = "Biceps Stretch Variation Two", SportId = cardioId, Description = "" },                 // index => 32
+                new Workout{ Name = "Biceps Stretch Variation One", SportId = cardioId, Description = "" },                 // index => 33
+
+                // biceps // plate
+                new Workout{ Name = "Plate Bicep Curl", SportId = bodybuildingId, Description = "" },                                   // index => 34
+                new Workout{ Name = "Plate Curl To Overhead Press", SportId = bodybuildingId, Description = "" },                       // index => 35
+                new Workout{ Name = "Plate Curl To Overhead Press To Tricep Extension", SportId = bodybuildingId, Description = "" },   // index => 36
+                new Workout{ Name = "Plate Squat Hold Curl", SportId = bodybuildingId, Description = "" },                              // index => 37
+                new Workout{ Name = "Plate Pinch Grip Row", SportId = bodybuildingId, Description = "" },                               // index => 38
+                new Workout{ Name = "Weighted Chin Ups", SportId = bodybuildingId, Description = "" },                                  // index => 39
+
+                // biceps // bosu-ball
+                new Workout{ Name = "Bosu Ball Curl", SportId = cardioId, Description = "" },                                           // index => 40
+                new Workout{ Name = "Bosu Ball Row", SportId = cardioId, Description = "" },                                            // index => 41
+
+                // biceps // smith machine
+                new Workout{ Name = "Smith Machine Drag Curl", SportId = bodybuildingId, Description = "" },                            // index => 42
+                new Workout{ Name = "Smith Machine Underhand Row", SportId = bodybuildingId, Description = "" },                        // index => 43
+                new Workout{ Name = "Smith Machine Overhand Row", SportId = bodybuildingId, Description = "" },                         // index => 44
 
                 #region Others
                 new Workout{ Name = "Dumbbell Curl", SportId = 1, Description = "" }, // index => 1
@@ -52,11 +77,6 @@ public static class WorkoutDbInitializer
                 new Workout{ Name = "Kettlebell Concentration Curl", SportId = 1, Description = "" }, // index => 4
                 new Workout{ Name = "Kettlebell Preacher Curl", SportId = 1, Description = "" }, // index => 5
                 new Workout{ Name = "Kettlebell Single Arm Curl", SportId = 1, Description = "" }, // index => 6
-                new Workout{ Name = "Biceps Stretch Variation Five", SportId = 3, Description = "" }, // index => 7
-                new Workout{ Name = "Biceps Stretch Variation Four", SportId = 3, Description = "" }, // index => 8
-                new Workout{ Name = "Biceps Stretch Variation Three", SportId = 3, Description = "" }, // index => 9
-                new Workout{ Name = "Biceps Stretch Variation Two", SportId = 3, Description = "" }, // index => 10
-                new Workout{ Name = "Biceps Stretch Variation One", SportId = 3, Description = "" }, // index => 11
                 new Workout{ Name = "Cable Twisting Curl", SportId = 1, Description = "" }, // index => 12
                 new Workout{ Name = "Cable Single Arm Bayesian Curl", SportId = 1, Description = "" }, // index => 13
                 new Workout{ Name = "Cable Single Arm Reverse Curl", SportId = 1, Description = "" }, // index => 14
@@ -72,10 +92,6 @@ public static class WorkoutDbInitializer
                 new Workout{ Name = "Dumbbell Single Arm Spider Curl", SportId = 1, Description = "" }, // index => 25
                 new Workout{ Name = "Dumbbell Spider Curl", SportId = 1, Description = "" }, // index => 26
                 new Workout{ Name = "Dumbbell Twisting Curl", SportId = 1, Description = "" }, // index => 27
-                new Workout{ Name = "Plate Bicep Curl", SportId = 1, Description = "" }, // index => 28
-                new Workout{ Name = "Plate Curl To Overhead Press", SportId = 1, Description = "" }, // index => 29
-                new Workout{ Name = "Plate Curl To Overhead Press To Tricep Extension", SportId = 1, Description = "" }, // index => 30
-                new Workout{ Name = "Plate Squat Hold Curl", SportId = 1, Description = "" }, // index => 31
                 new Workout{ Name = "Band High Curl", SportId = 1, Description = "" }, // index => 32
                 new Workout{ Name = "Band High Hammer Curl", SportId = 1, Description = "" }, // index => 34
                 new Workout{ Name = "Band High Reverse Curl", SportId = 1, Description = "" }, // index => 35
@@ -93,7 +109,6 @@ public static class WorkoutDbInitializer
                 new Workout{ Name = "Dumbbell Pendlay Row", SportId = 1, Description = "" }, // index => 54
                 new Workout{ Name = "Dumbbell Single Arm Row", SportId = 1, Description = "" }, // index => 55
                 new Workout{ Name = "Dumbbell Single Arm Row Knee", SportId = 1, Description = "" }, // index => 56
-                new Workout{ Name = "Plate Pinch Grip Row", SportId = 1, Description = "" }, // index => 57
                 new Workout{ Name = "Lawnmower Row", SportId = 1, Description = "" }, // index => 58
                 new Workout{ Name = "Dumbbell Knee Lawnmower Row", SportId = 1, Description = "" }, // index => 59
                 new Workout{ Name = "Dumbbell Supinated Row", SportId = 1, Description = "" }, // index => 60
@@ -104,8 +119,6 @@ public static class WorkoutDbInitializer
                 new Workout{ Name = "Downward Dog With Fingers Facing Feet", SportId = 1, Description = "" }, // index => 65
                 new Workout{ Name = "Scorpion Twist Pose", SportId = 1, Description = "" }, // index => 66
                 new Workout{ Name = "Seated Arm Stretch", SportId = 1, Description = "" }, // index => 67
-                new Workout{ Name = "Bosu Ball Curl", SportId = 1, Description = "" }, // index => 70
-                new Workout{ Name = "Bosu Ball Row", SportId = 1, Description = "" }, // index => 71
                 new Workout{ Name = "Vitruvian Hammer Curl", SportId = 1, Description = "" }, // index => 72
                 new Workout{ Name = "Vitruvian Row", SportId = 1, Description = "" }, // index => 73
                 new Workout{ Name = "Vitruvian Single Arm Row", SportId = 1, Description = "" }, // index => 74
@@ -123,14 +136,11 @@ public static class WorkoutDbInitializer
                 new Workout{ Name = "Cable Single Arm Underhand Grip Row", SportId = 1, Description = "" }, // index => 86
                 new Workout{ Name = "Cable Single Arm Neutral Grip Row", SportId = 1, Description = "" }, // index => 87
                 new Workout{ Name = "Cable Seated Bayesian Hammer Curl", SportId = 1, Description = "" }, // index => 88
-                new Workout{ Name = "Smith Machine Underhand Row", SportId = 1, Description = "" }, // index => 100
                 new Workout{ Name = "Cable Seated Bayesian Reverse Curl", SportId = 1, Description = "" }, // index => 89
                 new Workout{ Name = "Cable Reverse Bayesian Curl", SportId = 1, Description = "" }, // index => 90
                 new Workout{ Name = "Cable Hammer Bayesian Curl", SportId = 1, Description = "" }, // index => 91
                 new Workout{ Name = "Kettlebell Single Arm Reverse Curl", SportId = 1, Description = "" }, // index => 96
                 new Workout{ Name = "Kettlebell Single Arm Row On Bench", SportId = 1, Description = "" }, // index => 97
-                new Workout{ Name = "Smith Machine Drag Curl", SportId = 1, Description = "" }, // index => 98
-                new Workout{ Name = "Smith Machine Overhand Row", SportId = 1, Description = "" }, // index => 99
                 new Workout{ Name = "Cardio Band Hammer Curl Jacks", SportId = 1, Description = "" }, // index => 101
                 new Workout{ Name = "Cable Pull In", SportId = 1, Description = "" }, // index => 103
                 new Workout{ Name = "Band Row", SportId = 1, Description = "" }, // index => 105
@@ -161,7 +171,6 @@ public static class WorkoutDbInitializer
                 new Workout{ Name = "Seated Ulnar Nerve Slider", SportId = 1, Description = "" }, // index => 128
                 new Workout{ Name = "Seated Ulnar Nerve Tensioner", SportId = 1, Description = "" }, // index => 129
                 new Workout{ Name = "Dumbbell Weighted Chin Ups", SportId = 1, Description = "" }, // index => 130
-                new Workout{ Name = "Weighted Chin Ups", SportId = 1, Description = "" }, // index => 131
                 new Workout{ Name = "L Sit Chin Up", SportId = 1, Description = "" }, // index => 132
                 new Workout{ Name = "Band Squat Hold Row", SportId = 1, Description = "" }, // index => 133
                 new Workout{ Name = "Band Squat Hold Single Arm Row", SportId = 1, Description = "" }, // index => 134
@@ -306,10 +315,81 @@ public static class WorkoutDbInitializer
                 new WorkoutInstruction{ WorkoutId = workouts[28].Id , Step = 2 , Instruction = "Grab the handles and flex your elbows." },
                 #endregion
 
-                #region Other
+                #region biceps & stretches
+                new WorkoutInstruction{ WorkoutId = workouts[29].Id , Step = 1 , Instruction = "Stand upright with your feet shoulder width apart." },
+                new WorkoutInstruction{ WorkoutId = workouts[29].Id , Step = 2 , Instruction = "Raise your arms out to your sides, bringing them up to shoulder level." },
+                new WorkoutInstruction{ WorkoutId = workouts[29].Id , Step = 3 , Instruction = "Rotate your palms so they are facing the ceiling." },
+                new WorkoutInstruction{ WorkoutId = workouts[29].Id , Step = 4 , Instruction = "Then, change direction and rotate the arms as much as you can." },
 
-                new WorkoutInstruction{ WorkoutId = workouts[29].Id , Step = 1 , Instruction = "" },
+                new WorkoutInstruction{ WorkoutId = workouts[30].Id , Step = 1 , Instruction = "Stand an arms width away from the wall." },
+                new WorkoutInstruction{ WorkoutId = workouts[30].Id , Step = 2 , Instruction = "Raise your arms out behind you, and place them on the wall with your fingers pointing up." },
+                new WorkoutInstruction{ WorkoutId = workouts[30].Id , Step = 3 , Instruction = "Bend your knees whilst keeping your hands in the same position." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[31].Id , Step = 1 , Instruction = "Bend your arm at the elbow, raising your hand to your shoulder." },
+                new WorkoutInstruction{ WorkoutId = workouts[31].Id , Step = 2 , Instruction = "Using your other hand, stretch the arm down to its full extent." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[32].Id , Step = 1 , Instruction = "Stand facing the wall, an arm's width away." },
+                new WorkoutInstruction{ WorkoutId = workouts[32].Id , Step = 2 , Instruction = "Place your hand on the wall with your fingers pointing down." },
+                new WorkoutInstruction{ WorkoutId = workouts[32].Id , Step = 3 , Instruction = "Lean slightly into the wall to feel the stretch in your bicep." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[33].Id , Step = 1 , Instruction = "Stand one foot in front of the other with the wall to your right, an arms width away." },
+                new WorkoutInstruction{ WorkoutId = workouts[33].Id , Step = 2 , Instruction = "Place your hand on the wall, fingers pointing away from you." },
+                new WorkoutInstruction{ WorkoutId = workouts[33].Id , Step = 3 , Instruction = "Gently lean forward, keeping your hand stationary." },
+                new WorkoutInstruction{ WorkoutId = workouts[33].Id , Step = 4 , Instruction = "Repeat with the other arm." },
                 #endregion
+
+                #region biceps & plate
+                new WorkoutInstruction{ WorkoutId = workouts[34].Id , Step = 1 , Instruction = "" },
+
+                new WorkoutInstruction{ WorkoutId = workouts[35].Id , Step = 1 , Instruction = "Stand with feet shoulder-width apart and the plate in front of the torso, palms facing forward." },
+                new WorkoutInstruction{ WorkoutId = workouts[35].Id , Step = 2 , Instruction = "Curl the plate up to the front of the shoulder while keeping the elbows close to the body." },
+                new WorkoutInstruction{ WorkoutId = workouts[35].Id , Step = 3 , Instruction = "Rotate the palms to face forward and press the plate overhead, locking out the arms." },
+                new WorkoutInstruction{ WorkoutId = workouts[35].Id , Step = 4 , Instruction = "Lower the plate back to the starting position, keeping control of it, and repeat for desired reps." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[36].Id , Step = 1 , Instruction = "Stand with feet shoulder-width apart and the plate in front of the torso, palms facing forward." },
+                new WorkoutInstruction{ WorkoutId = workouts[36].Id , Step = 2 , Instruction = "Curl the plate up to the front of the shoulder while keeping the elbows close to the body." },
+                new WorkoutInstruction{ WorkoutId = workouts[36].Id , Step = 3 , Instruction = "Rotate the palms to face forward and press the plate overhead, locking out the arms." },
+                new WorkoutInstruction{ WorkoutId = workouts[36].Id , Step = 4 , Instruction = "Lower the plate back behind the head to the starting position of a tricep extension." },
+                new WorkoutInstruction{ WorkoutId = workouts[36].Id , Step = 5 , Instruction = "Push the plate back up overhead, then lower it back to the starting position and repeat for desired reps." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[37].Id , Step = 1 , Instruction = "Lower into a squat position, keeping the plate at chest height." },
+                new WorkoutInstruction{ WorkoutId = workouts[37].Id , Step = 2 , Instruction = "Slowly curl the plate towards your shoulders, keeping your elbows close to your body." },
+                new WorkoutInstruction{ WorkoutId = workouts[37].Id , Step = 3 , Instruction = "Hold for a moment at the top of the curl before lowering the plate back to chest height." },
+                new WorkoutInstruction{ WorkoutId = workouts[37].Id , Step = 4 , Instruction = "Repeat the curls as you hold the squat position." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[38].Id , Step = 1 , Instruction = "Make sure to keep your elbow close to your body and your core engaged throughout the movement." },
+                new WorkoutInstruction{ WorkoutId = workouts[38].Id , Step = 2 , Instruction = "Bend forward at your hips while maintaining a flat back." },
+                new WorkoutInstruction{ WorkoutId = workouts[38].Id , Step = 3 , Instruction = "Pull the plate toward your upper abdomen." },
+                new WorkoutInstruction{ WorkoutId = workouts[38].Id , Step = 4 , Instruction = "Lower the weight in a controlled manner and repeat." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[39].Id , Step = 1 , Instruction = "Grab the bar shoulder width apart with a supinated grip (palms facing you). Use a dip belt and the let the weight hang between your legs." },
+                new WorkoutInstruction{ WorkoutId = workouts[39].Id , Step = 2 , Instruction = "With your body hanging and arms fully extended, pull yourself up until your chin is past the bar." },
+                new WorkoutInstruction{ WorkoutId = workouts[39].Id , Step = 3 , Instruction = "Slowly return to starting position. Repeat." },
+                #endregion
+
+                #region Bosu ball
+                new WorkoutInstruction{ WorkoutId = workouts[40].Id , Step = 1 , Instruction = "Hold the bosu vertically." },
+                new WorkoutInstruction{ WorkoutId = workouts[40].Id , Step = 2 , Instruction = "Flex your elbows curling the bosu toward your chin." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[41].Id , Step = 1 , Instruction = "Hold bosu and hinge forward." },
+                new WorkoutInstruction{ WorkoutId = workouts[41].Id , Step = 2 , Instruction = "Pull bosu towards chest, squeezing shoulder blades." },
+                #endregion
+
+                #region smith machine
+                new WorkoutInstruction{ WorkoutId = workouts[42].Id , Step = 1 , Instruction = "Grab the bar with an underhand grip." },
+                new WorkoutInstruction{ WorkoutId = workouts[42].Id , Step = 2 , Instruction = "Pull your elbows straight back and let the bar drag against your upper body (or very close to it)." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[43].Id , Step = 1 , Instruction = "Begin by standing in front of a bar with your feet about hip-width apart." },
+                new WorkoutInstruction{ WorkoutId = workouts[43].Id , Step = 2 , Instruction = "Bend at the hips and knees to grab the bar with a supinated (underhand) grip, positioning the bar about an inch away from your shins." },
+                new WorkoutInstruction{ WorkoutId = workouts[43].Id , Step = 3 , Instruction = "Keeping your back straight and your core engaged, use your back muscles to lift the bar straight up towards your chest." },
+                new WorkoutInstruction{ WorkoutId = workouts[43].Id , Step = 4 , Instruction = "As the bar reaches your chest, pause briefly, and then lower the bar back to the starting position." },
+
+                new WorkoutInstruction{ WorkoutId = workouts[44].Id , Step = 1 , Instruction = "Start hinged forward with a flat back. Make sure your elbows are fully extended." },
+                new WorkoutInstruction{ WorkoutId = workouts[44].Id , Step = 2 , Instruction = "Pull the bar to your sternum." },
+                
+                #endregion
+
+                new WorkoutInstruction{ WorkoutId = workouts[33].Id , Step = 1 , Instruction = "" },
 
             };
         };
@@ -321,8 +401,11 @@ public static class WorkoutDbInitializer
             var ezbarId  = context.Equipments.Where(x => x.Name == "E-Z Curl Bar").Select(x => x.Id).FirstOrDefault();
             var cableMachineId = context.Equipments.Where(x => x.Name == "Cable Machine").Select(x => x.Id).FirstOrDefault();
             var pullUpMachineId = context.Equipments.Where(x => x.Name == "Pull Up Machine").Select(x => x.Id).FirstOrDefault();
-            var MachineId = context.Equipments.Where(x => x.Name == "Machine").Select(x => x.Id).FirstOrDefault();
-
+            var machineId = context.Equipments.Where(x => x.Name == "Machine").Select(x => x.Id).FirstOrDefault();
+            var stretchesId = context.Equipments.Where(x => x.Name == "stretches").Select(x => x.Id).FirstOrDefault();
+            var plateId = context.Equipments.Where(x => x.Name == "Plate").Select(x => x.Id).FirstOrDefault();
+            var bosuballId  = context.Equipments.Where(x => x.Name == "Bosu-Ball").Select(x => x.Id).FirstOrDefault();
+            var smithMachineId  = context.Equipments.Where(x => x.Name == "Smith Machine").Select(x => x.Id).FirstOrDefault();
             workoutEquipment = new List<WorkoutEquipment>
             {
                 #region Barbell & biceps
@@ -353,15 +436,42 @@ public static class WorkoutDbInitializer
                 new WorkoutEquipment{ WorkoutId = workouts[21].Id, EquipmentId = pullUpMachineId },
                 new WorkoutEquipment{ WorkoutId = workouts[22].Id, EquipmentId = pullUpMachineId },
                 new WorkoutEquipment{ WorkoutId = workouts[23].Id, EquipmentId = pullUpMachineId },
-                new WorkoutEquipment{ WorkoutId = workouts[24].Id, EquipmentId = MachineId },
-                new WorkoutEquipment{ WorkoutId = workouts[25].Id, EquipmentId = MachineId },
-                new WorkoutEquipment{ WorkoutId = workouts[26].Id, EquipmentId = MachineId },
-                new WorkoutEquipment{ WorkoutId = workouts[27].Id, EquipmentId = MachineId },
-                new WorkoutEquipment{ WorkoutId = workouts[28].Id, EquipmentId = MachineId },
-                new WorkoutEquipment{ WorkoutId = workouts[29].Id, EquipmentId = MachineId },
+                new WorkoutEquipment{ WorkoutId = workouts[24].Id, EquipmentId = machineId },
+                new WorkoutEquipment{ WorkoutId = workouts[25].Id, EquipmentId = machineId },
+                new WorkoutEquipment{ WorkoutId = workouts[26].Id, EquipmentId = machineId },
+                new WorkoutEquipment{ WorkoutId = workouts[27].Id, EquipmentId = machineId },
+                new WorkoutEquipment{ WorkoutId = workouts[28].Id, EquipmentId = machineId },
                 #endregion
 
-                new WorkoutEquipment{ WorkoutId = workouts[16].Id, EquipmentId = 21 },
+                #region biceps & stretches
+                new WorkoutEquipment{ WorkoutId = workouts[29].Id, EquipmentId = stretchesId },
+                new WorkoutEquipment{ WorkoutId = workouts[30].Id, EquipmentId = stretchesId },
+                new WorkoutEquipment{ WorkoutId = workouts[31].Id, EquipmentId = stretchesId },
+                new WorkoutEquipment{ WorkoutId = workouts[32].Id, EquipmentId = stretchesId },
+                new WorkoutEquipment{ WorkoutId = workouts[33].Id, EquipmentId = stretchesId },
+                #endregion
+
+                #region biceps & plate
+                new WorkoutEquipment{ WorkoutId = workouts[34].Id, EquipmentId = plateId },
+                new WorkoutEquipment{ WorkoutId = workouts[35].Id, EquipmentId = plateId },
+                new WorkoutEquipment{ WorkoutId = workouts[36].Id, EquipmentId = plateId },
+                new WorkoutEquipment{ WorkoutId = workouts[37].Id, EquipmentId = plateId },
+                new WorkoutEquipment{ WorkoutId = workouts[38].Id, EquipmentId = plateId },
+                new WorkoutEquipment{ WorkoutId = workouts[39].Id, EquipmentId = plateId },
+                #endregion
+
+                #region bosuball
+                new WorkoutEquipment{ WorkoutId = workouts[40].Id, EquipmentId = bosuballId },
+                new WorkoutEquipment{ WorkoutId = workouts[41].Id, EquipmentId = bosuballId },
+                #endregion
+
+                #region smithMachine
+                new WorkoutEquipment{ WorkoutId = workouts[42].Id, EquipmentId = smithMachineId },
+                new WorkoutEquipment{ WorkoutId = workouts[43].Id, EquipmentId = smithMachineId },
+                new WorkoutEquipment{ WorkoutId = workouts[44].Id, EquipmentId = smithMachineId },
+                #endregion
+
+                new WorkoutEquipment{ WorkoutId = workouts[40].Id, EquipmentId = 21 },
 
             };
         };
@@ -406,7 +516,35 @@ public static class WorkoutDbInitializer
                 new WorkoutLevel{ WorkoutId = workouts[28].Id , Level = Difficulty.Novice},
                 #endregion
 
-                new WorkoutLevel{ WorkoutId = workouts[16].Id , Level = Difficulty.Novice},
+                #region biceps & stretches
+                new WorkoutLevel{ WorkoutId = workouts[29].Id , Level = Difficulty.Novice},
+                new WorkoutLevel{ WorkoutId = workouts[30].Id , Level = Difficulty.Novice},
+                new WorkoutLevel{ WorkoutId = workouts[31].Id , Level = Difficulty.Novice},
+                new WorkoutLevel{ WorkoutId = workouts[32].Id , Level = Difficulty.Novice},
+                new WorkoutLevel{ WorkoutId = workouts[33].Id , Level = Difficulty.Novice},
+                #endregion
+
+                #region biceps & plate
+                new WorkoutLevel{ WorkoutId = workouts[34].Id , Level = Difficulty.Novice},
+                new WorkoutLevel{ WorkoutId = workouts[35].Id , Level = Difficulty.Intermediate},
+                new WorkoutLevel{ WorkoutId = workouts[36].Id , Level = Difficulty.Advanced},
+                new WorkoutLevel{ WorkoutId = workouts[37].Id , Level = Difficulty.Intermediate},
+                new WorkoutLevel{ WorkoutId = workouts[38].Id , Level = Difficulty.Intermediate},
+                new WorkoutLevel{ WorkoutId = workouts[39].Id , Level = Difficulty.Advanced},
+                #endregion
+
+                #region bosu Ball
+                new WorkoutLevel{ WorkoutId = workouts[40].Id , Level = Difficulty.Beginner},
+                new WorkoutLevel{ WorkoutId = workouts[41].Id , Level = Difficulty.Beginner},
+                #endregion
+
+                #region smith Machine
+                new WorkoutLevel{ WorkoutId = workouts[42].Id , Level = Difficulty.Advanced},
+                new WorkoutLevel{ WorkoutId = workouts[43].Id , Level = Difficulty.Advanced},
+                new WorkoutLevel{ WorkoutId = workouts[44].Id , Level = Difficulty.Advanced},
+                #endregion
+
+                new WorkoutLevel{ WorkoutId = workouts[39].Id , Level = Difficulty.Advanced},
 
             };
         };
@@ -414,30 +552,31 @@ public static class WorkoutDbInitializer
         var bodyWorkouts = new List<BodyWorkout>();
         if (!await context.BodyWorkouts.AnyAsync())
         {
+            var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
             bodyWorkouts = new List<BodyWorkout>
             {
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[0].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[1].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[2].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[3].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[4].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[5].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[6].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[7].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[8].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[9].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[10].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[11].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[12].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[13].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[14].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[15].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[16].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[17].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[18].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[19].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[20].Id },
-                new BodyWorkout{ BodyId = 25, WorkoutId = workouts[21].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[0].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[1].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[2].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[3].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[4].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[5].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[6].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[7].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[8].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[9].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[10].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[11].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[12].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[13].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[14].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[15].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[16].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[17].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[18].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[19].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[20].Id },
+                new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[21].Id },
             };
         };
 
