@@ -6,4 +6,6 @@ public class BodyWorkout : BaseEntity<int, BodyWorkout>
     //public required Body Body { get; set; } = null!;
     public required int WorkoutId { get; set; }
     //public required Workout Workout { get; set; } = null!;
+
+    public PriorityTarget Target { get; set; }
 }

@@ -54,7 +54,7 @@ public class PlanController : ControllerBase
     {
         var aiPrompt = $"Create a detailed 16-week fitness plan for a 31-year-old male beginner with the following details:" +
             $"" +
-            $"Body Stats: 170 cm height, 89 kg weight, endomorph body type." +
+            $"Body Stats: 170 cm height, 92 kg weight, endomorph body type." +
             $"Injuries: Leg injuries(avoid exercises that aggravate the legs." +
             $"Goals: Fat loss, target weight of 70 kg, and a muscular physique with a focus on chest, back, and shoulders." +
             $"Equipment: Dumbbells, Smith machine, bodyweight exercises, and resistance bands(gym setting)." +
