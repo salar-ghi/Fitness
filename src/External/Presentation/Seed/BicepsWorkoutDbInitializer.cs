@@ -1,6 +1,6 @@
 ﻿namespace Presentation.Seed;
 
-public static class WorkoutDbInitializer
+public static class BicepsWorkoutDbInitializer
 {
     public static async Task WorkoutSeedAsync(FitnessContext context)
     {
