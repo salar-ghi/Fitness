@@ -1,4 +1,6 @@
-﻿namespace Infrastructure;
+﻿using OllamaSharp;
+
+namespace Infrastructure;
 
 public static class DependencyInjection
 {
@@ -47,10 +49,13 @@ public static class DependencyInjection
         services.AddScoped<IWorkoutRepository, WorkoutRepository>();
         services.AddScoped<IWorkoutSexRepository, WorkoutSexRepository>();
 
-        services.AddSingleton<IChatClient>(new OllamaChatClient(new
-            Uri("http://localhost:11434/"), "llama3.2"));
+        //services.AddSingleton<IChatClient>(new OllamaChatClient(new
+        //    Uri("http://localhost:11434/"), "llama3.1:latest"));
 
-        services.AddHttpClient<OpenAiChatService>(client =>
+        services.AddSingleton<IOllamaApiClient>(new OllamaApiClient(new
+            Uri("http://localhost:11434/"), "llama3.1:latest"));
+
+        services.AddHttpClient("OllamaClient", client =>
         {
             client.BaseAddress = new Uri("http://localhost:11434/");
             client.Timeout = TimeSpan.FromSeconds(5000);
@@ -70,6 +75,8 @@ public static class DependencyInjection
                 config["AzureTextAnalytics:Key"]
             ));
 
+        services.AddHttpClient<GrokAiService>();
+        services.AddScoped<IGrokAiService, GrokAiService>();
 
         //services.AddTransient<,>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();

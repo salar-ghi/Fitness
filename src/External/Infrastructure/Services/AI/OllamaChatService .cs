@@ -8,12 +8,11 @@ namespace Infrastructure.Services;
 public class OllamaChatService : IChatService
 {
     private bool disposedValue;
-    private readonly IChatClient _chatClient;
+    //private readonly IChatClient _chatClient;
     private readonly HttpClient _client;
     private readonly OllamaResponseParser _parser;
-    public OllamaChatService(IChatClient chatClient, OllamaResponseParser parser, HttpClient client)
+    public OllamaChatService(OllamaResponseParser parser, HttpClient client)
     {
-        _chatClient = chatClient;
         _parser = parser;
         _client = client;
     }
@@ -44,10 +43,12 @@ public class OllamaChatService : IChatService
 
     public async Task<string> AskQuestionAsync(string question)
     {
-        var response = await _chatClient.CompleteAsync(question);
-        var hierarchicalItems = _parser.ParseResponse(response.Message.ToString());
+        //var response = await _chatClient.GetResponseAsync(question);
+        //var hierarchicalItems = _parser.ParseResponse(response.Message.ToString());
 
-        return hierarchicalItems.ToString();
+        //return hierarchicalItems.ToString();
+        var tets = string.Empty;
+        return tets;
     }
 
     public async Task<DeepSeekResponse> AskQuestionDeepSeekAsync(string question)
@@ -56,7 +57,7 @@ public class OllamaChatService : IChatService
         var requestPayload = new
         {
             Question = question,
-            Model = "deepseek-engine"
+            Model = "deepseek-r1:8b"
         };
 
         // Send the request to DeepSeek

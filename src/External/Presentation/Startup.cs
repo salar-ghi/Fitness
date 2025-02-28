@@ -1,4 +1,6 @@
-﻿namespace Presentation;
+﻿using Microsoft.OpenApi.Models;
+
+namespace Presentation;
 
 public class Startup
 {
@@ -39,7 +41,10 @@ public class Startup
 
         services.AddControllers();
         services.AddEndpointsApiExplorer();
-        services.AddSwaggerGen();
+        services.AddSwaggerGen(c =>
+        {
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Fitness API", Version = "v1" });
+        });
     }
 
 
@@ -52,16 +57,16 @@ public class Startup
 
     public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-        using var scope = app.ApplicationServices.CreateScope();
-        var services = scope.ServiceProvider;
-        var dbContext = services.GetRequiredService<FitnessContext>();
-        await SeedData(dbContext);
-
         if (env.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
             app.UseSwagger();
-            app.UseSwaggerUI();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fitness API V1");
+                //c.RoutePrefix = string.Empty; // Sets Swagger UI at root (e.g., http://localhost:5000/)
+
+            });
         }
         else
         {
@@ -72,6 +77,11 @@ public class Startup
 
         app.UseHttpsRedirection();
         app.UseRouting();
+
+        //using var scope = app.ApplicationServices.CreateScope();
+        //var services = scope.ServiceProvider;
+        //var dbContext = services.GetRequiredService<FitnessContext>();
+        //await SeedData(dbContext);
 
         app.UseEndpoints(endpoints =>
         {
