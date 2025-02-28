@@ -53,13 +53,8 @@ public static class DependencyInjection
         //    Uri("http://localhost:11434/"), "llama3.1:latest"));
 
         services.AddSingleton<IOllamaApiClient>(new OllamaApiClient(new
-            Uri("http://localhost:11434/"), "llama3.1:latest"));
+            Uri("http://localhost:11434/"), "llama3.1:8b"));
 
-        services.AddHttpClient("OllamaClient", client =>
-        {
-            client.BaseAddress = new Uri("http://localhost:11434/");
-            client.Timeout = TimeSpan.FromSeconds(5000);
-        });
 
         services.AddSingleton<OllamaResponseParser>();
 
@@ -75,6 +70,12 @@ public static class DependencyInjection
                 config["AzureTextAnalytics:Key"]
             ));
 
+        
+        services.AddHttpClient("OllamaClient", client =>
+        {
+            client.BaseAddress = new Uri("http://localhost:11434");
+            client.Timeout = TimeSpan.FromMinutes(30);
+        });
         services.AddHttpClient<GrokAiService>();
         services.AddScoped<IGrokAiService, GrokAiService>();
 

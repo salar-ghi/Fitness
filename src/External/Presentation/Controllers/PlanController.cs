@@ -190,7 +190,9 @@ public class PlanController : ControllerBase
             $"    \"Tip 2\"\n" +
             $"  ]\n" +
             $"}}\n" +
-            $"Ensure exercises suit the equipment and avoid aggravating leg injuries.";
+            $"Ensure exercises suit the equipment and avoid aggravating leg injuries. " +
+            $"Do not generate more text than the requested JSON structure.";
+
         return aiPrompt;
     }
 }

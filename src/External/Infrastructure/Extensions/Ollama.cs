@@ -4,8 +4,9 @@ public class Ollama
 {
     public async Task<string> ParseResponseAsync(string jsonResponse)
     {
-        var ollamaResponse = JsonSerializer.Deserialize<OllamaResponse>(jsonResponse);
-        return ollamaResponse?.Response;
+        //var ollamaResponse = JsonSerializer.Deserialize<OllamaResponse>(jsonResponse);
+        //return ollamaResponse?.Response;
+        return jsonResponse;
     }
 
     public string FormatResponseAsTable(string response)

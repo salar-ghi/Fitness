@@ -12,9 +12,10 @@ public class GrokAiService : IGrokAiService
     private readonly GrokPlanParser _parser;
     private readonly IOllamaApiClient _ollama;
 
-    public GrokAiService(IHttpClientFactory httpClient, IOllamaApiClient ollama)
+    public GrokAiService(IHttpClientFactory httpClientFactory,
+        IOllamaApiClient ollama )
     {
-        _httpClient = httpClient.CreateClient("OllamaClient");
+        _httpClient = httpClientFactory.CreateClient("OllamaClient");
         _parser = new GrokPlanParser();
         _ollama = ollama;
     }
@@ -25,37 +26,80 @@ public class GrokAiService : IGrokAiService
         return JsonSerializer.Deserialize<FitnessPlan>(jsonResponse);
     }
 
-    
+
+    string ExtractJsonFromResponse(string responseText)
+    {
+        int jsonStart = responseText.IndexOf("```json") + "```json".Length;
+        int jsonEnd = responseText.LastIndexOf("```");
+        if (jsonStart >= "```json".Length && jsonEnd > jsonStart)
+        {
+            return responseText.Substring(jsonStart, jsonEnd - jsonStart).Trim();
+        }
+        // Fallback: If no Markdown, try to find the JSON manually
+        int braceStart = responseText.IndexOf("{");
+        int braceEnd = responseText.LastIndexOf("}");
+        if (braceStart >= 0 && braceEnd > braceStart)
+        {
+            return responseText.Substring(braceStart, braceEnd - braceStart + 1).Trim();
+        }
+        throw new InvalidOperationException("No valid JSON found in the response.");
+    }
 
     public async Task<FitnessPlan> GenerateFitnessPlanAsync(string prmpt)
     {
         var aiPrompt = prmpt;
-
+        //string aiPrompt = "Generate a 1-week fitness plan.";
         //var response1 = await _ollama.GenerateAsync(aiPrompt).StreamToEndAsync().ConfigureAwait(false);
+        //var result = response1.Response;
 
         var request = new
         {
-            model = "llama3.1:latest",
+            model = "llama3.1:8b",
+            //model = "deepseek-r1:8b",
             prompt = aiPrompt,
+            stream = false,
         };
+        Console.Clear();
+        Console.WriteLine($"time is {DateTime.Now.TimeOfDay}");
         var content = new StringContent(JsonSerializer.Serialize(request), Encoding.UTF8, "application/json");
-
-        //_httpClient = new HttpClient { Timeout = TimeSpan.FromSeconds(300) };
         var response = await _httpClient.PostAsync("/api/generate", content);
-            //new StringContent(JsonSerializer.Serialize(new { prompt = aiPrompt }), Encoding.UTF8, "application/json"));
+        Console.WriteLine($"time is {DateTime.Now.TimeOfDay}");
+
 
         var responseText = await response.Content.ReadAsStringAsync();
-        var ollamaResponse = JsonSerializer.Deserialize<Dictionary<string, string>>(responseText);
-        var planText = ollamaResponse["response"];
-
-        var jsonResponse = ParseFitnessPlan(planText);
-
+        var ollamaResponse = JsonSerializer.Deserialize<OllamaResponse>(responseText);
+        var planText = ollamaResponse.Response;
+        var jsonText = ExtractJsonFromResponse(planText);
+        var jsonResponse = JsonSerializer.Deserialize<FitnessPlan>(jsonText);
 
         //var modelResponse = _parser.Parse(planText);
-
         return jsonResponse;
 
     }
+}
+
+public class OllamaResponse
+{
+    [JsonPropertyName("model")]
+    public string Model { get; set; }
+    [JsonPropertyName("created_at")]
+    public string CreatedAt { get; set; }
+    [JsonPropertyName("response")]
+    public string Response { get; set; }
+    [JsonPropertyName("done")]
+    public bool Done { get; set; }
+    [JsonPropertyName("context")]
+    public long[] Context { get; set; }
+    [JsonPropertyName("totla_duration")]
+    public long TotalDuration { get; set; }
+    [JsonPropertyName("load_duration")]
+    public long LoadDuration { get; set; }
+    [JsonPropertyName("prompt_eval_count")]
+    public int PromptEvalCount { get; set; }
+    [JsonPropertyName("eval_count")]
+    public int EvalCount { get; set; }
+    [JsonPropertyName("eval_duration")]
+    public long EvalDuration { get; set; }
 }
 
 public class GrokPlanParser()
