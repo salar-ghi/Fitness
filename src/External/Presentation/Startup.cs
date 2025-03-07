@@ -50,9 +50,10 @@ public class Startup
 
     public async Task SeedData(FitnessContext dbContext)
     {
-        await BodyDbInitializer.BodySeedAsync(dbContext);
-        await EquipmentDbInitializer.EquipmentSeedAsync(dbContext);
-        await SportDbInitializer.SportSeedAsync(dbContext);
+        //await BodyDbInitializer.BodySeedAsync(dbContext);
+        //await EquipmentDbInitializer.EquipmentSeedAsync(dbContext);
+        //await SportDbInitializer.SportSeedAsync(dbContext);
+        await BicepsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
     }
 
     public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -78,10 +79,10 @@ public class Startup
         app.UseHttpsRedirection();
         app.UseRouting();
 
-        //using var scope = app.ApplicationServices.CreateScope();
-        //var services = scope.ServiceProvider;
-        //var dbContext = services.GetRequiredService<FitnessContext>();
-        //await SeedData(dbContext);
+        using var scope = app.ApplicationServices.CreateScope();
+        var services = scope.ServiceProvider;
+        var dbContext = services.GetRequiredService<FitnessContext>();
+        await SeedData(dbContext);
 
         app.UseEndpoints(endpoints =>
         {

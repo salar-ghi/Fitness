@@ -8,7 +8,7 @@ public static class BodyDbInitializer
         var bodies = new List<Body>();
         if (!context.Bodies.Any())
         {
-            using var transaction = await context.Database.BeginTransactionAsync();
+            //using var transaction = await context.Database.BeginTransactionAsync();
             bodies = new List<Body>
             {
                 new Body { Name = "Neck", Description = ""},
@@ -75,9 +75,8 @@ public static class BodyDbInitializer
                 new Body { Name = "Feet", Description = ""},
             };
             await context.Bodies.AddRangeAsync(bodies);
-            await context.SaveChangesAsync();
+            //await context.SaveChangesAsync();
 
-            await transaction.CommitAsync();
         }
     }
 

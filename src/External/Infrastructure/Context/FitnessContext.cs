@@ -41,6 +41,7 @@ public class FitnessContext : DbContext
     public virtual DbSet<WorkoutAgeRange> WorkoutAgeRanges { get; set; }
     public virtual DbSet<WorkoutEquipment> WorkoutEquipment { get; set; }
     public virtual DbSet<WorkoutInstruction> WorkoutInstructions { get; set; }
+    public virtual DbSet<WorkoutInstructionMedia> WorkoutInstructionMedias { get; set; }
     public virtual DbSet<WorkoutLevel> WorkoutLevels { get; set; }
     public virtual DbSet<WorkoutSex> WorkoutSex { get; set; }
 
@@ -96,6 +97,7 @@ public class FitnessContext : DbContext
         builder.ApplyConfiguration(new WorkoutAgeRangeConfiguration());
         builder.ApplyConfiguration(new WorkoutEquipmentConfiguration());
         builder.ApplyConfiguration(new WorkoutInstructionConfiguration());
+        builder.ApplyConfiguration(new WorkoutInstructionMediaConfiguration());
         builder.ApplyConfiguration(new WorkoutLevelConfiguration());
         builder.ApplyConfiguration(new WorkoutSexConfiguration());
     }

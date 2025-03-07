@@ -1,10 +1,12 @@
-﻿namespace Presentation.Seed;
+﻿using Infrastructure.EntityTypeConfiguration;
+
+namespace Presentation.Seed;
 
 public static class BicepsWorkoutDbInitializer
 {
     public static async Task WorkoutSeedAsync(FitnessContext context)
     {
-        using var transactions = await context.Database.BeginTransactionAsync();
+        //using var transactions = await context.Database.BeginTransactionAsync();
 
         var workouts = new List<Workout>();
         if (!await context.Workouts.AnyAsync())
@@ -200,6 +202,7 @@ public static class BicepsWorkoutDbInitializer
                 new Workout{ Name = "Cardio Row Erg Rower", SportId = cardioId, Description = "" },                                                     // index => 150
             };
         };
+        await context.Workouts.AddRangeAsync(workouts);
 
         var workoutInstruction = new List<WorkoutInstruction>();
         if (!await context.WorkoutInstructions.AnyAsync())
@@ -854,6 +857,7 @@ public static class BicepsWorkoutDbInitializer
 
             };
         };
+        await context.WorkoutInstructions.AddRangeAsync(workoutInstruction);
 
         var workoutEquipment = new List<WorkoutEquipment>();
         if (!await context.WorkoutEquipment.AnyAsync())
@@ -1078,6 +1082,7 @@ public static class BicepsWorkoutDbInitializer
 
             };
         };
+        await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
 
         var workoutLevel = new List<WorkoutLevel>();
         if (!await context.WorkoutLevels.AnyAsync())
@@ -1285,6 +1290,7 @@ public static class BicepsWorkoutDbInitializer
 
             };
         };
+        await context.WorkoutLevels.AddRangeAsync(workoutLevel);
 
         var bodyWorkouts = new List<BodyWorkout>();
         if (!await context.BodyWorkouts.AnyAsync())
@@ -1457,6 +1463,7 @@ public static class BicepsWorkoutDbInitializer
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[150].Id ,Target = PriorityTarget.Primary },
             };
         };
+        await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
 
         var workoutSex = new List<WorkoutSex>();
         if (!await context.WorkoutSex.AnyAsync())
@@ -1767,13 +1774,14 @@ public static class BicepsWorkoutDbInitializer
                 new WorkoutSex{ WorkoutId = workouts[150].Id, Sex = Sex.Female},
             };
         };
+        await context.WorkoutSex.AddRangeAsync(workoutSex);
 
 
 
-        await context.WorkoutInstructions.AddRangeAsync(workoutInstruction);
+        //await context.WorkoutInstructions.AddRangeAsync(workoutInstruction);
         await context.SaveChangesAsync();
 
-        await transactions.CommitAsync();
+        //await transactions.CommitAsync();
 
     }
 
