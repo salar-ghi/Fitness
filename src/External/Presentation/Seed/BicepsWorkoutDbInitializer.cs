@@ -203,6 +203,7 @@ public static class BicepsWorkoutDbInitializer
             };
         };
         await context.Workouts.AddRangeAsync(workouts);
+        await context.SaveChangesAsync();
 
         var workoutInstruction = new List<WorkoutInstruction>();
         if (!await context.WorkoutInstructions.AnyAsync())
@@ -858,6 +859,7 @@ public static class BicepsWorkoutDbInitializer
             };
         };
         await context.WorkoutInstructions.AddRangeAsync(workoutInstruction);
+        await context.SaveChangesAsync();
 
         var workoutEquipment = new List<WorkoutEquipment>();
         if (!await context.WorkoutEquipment.AnyAsync())
@@ -1083,6 +1085,7 @@ public static class BicepsWorkoutDbInitializer
             };
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
+        await context.SaveChangesAsync();
 
         var workoutLevel = new List<WorkoutLevel>();
         if (!await context.WorkoutLevels.AnyAsync())
@@ -1291,6 +1294,7 @@ public static class BicepsWorkoutDbInitializer
             };
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
+        await context.SaveChangesAsync();
 
         var bodyWorkouts = new List<BodyWorkout>();
         if (!await context.BodyWorkouts.AnyAsync())
@@ -1464,6 +1468,7 @@ public static class BicepsWorkoutDbInitializer
             };
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
+        await context.SaveChangesAsync();
 
         var workoutSex = new List<WorkoutSex>();
         if (!await context.WorkoutSex.AnyAsync())
@@ -1775,13 +1780,7 @@ public static class BicepsWorkoutDbInitializer
             };
         };
         await context.WorkoutSex.AddRangeAsync(workoutSex);
-
-
-
-        //await context.WorkoutInstructions.AddRangeAsync(workoutInstruction);
         await context.SaveChangesAsync();
-
-        //await transactions.CommitAsync();
 
     }
 
