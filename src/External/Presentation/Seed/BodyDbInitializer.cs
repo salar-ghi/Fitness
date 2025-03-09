@@ -75,7 +75,7 @@ public static class BodyDbInitializer
                 new Body { Name = "Feet", Description = ""},
             };
             await context.Bodies.AddRangeAsync(bodies);
-            //await context.SaveChangesAsync();
+            await context.SaveChangesAsync();
 
         }
     }

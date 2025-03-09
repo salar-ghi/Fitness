@@ -46,5 +46,6 @@ public interface IUnitOfWork : IDisposable
 
     #endregion
 
+    Task<int> SaveChangesAsync();
     Task<int> Commit();
 }

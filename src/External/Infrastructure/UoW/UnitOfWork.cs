@@ -52,7 +52,7 @@ public class UnitOfWork : IUnitOfWork
 
 
     // Body Interfaces
-    public IBodyRepository BodyRepository => new BodyRepository(_context);
+    public IBodyRepository BodyRepository => _bodyRepository ??=  new BodyRepository(_context);
     public IDiseaseRepository DiseaseRepository => new DiseaseRepository(_context);
     public IBodyFatRepository BodyFatRepository => new BodyFatRepository(_context);
 
@@ -87,7 +87,7 @@ public class UnitOfWork : IUnitOfWork
     public IBodyWorkoutRepository BodyWorkoutRepository => new BodyWorkoutRepository(_context);
     public IEquipmentRepository EquipmentRepository => new EquipmentRepository(_context);
     public ISportRepository SportRepository => new SportRepository(_context);
-    public IWorkoutRepository WorkoutRepository => new WorkoutRepository(_context);
+    public IWorkoutRepository WorkoutRepository => _workoutRepository ??= new WorkoutRepository(_context);
     public IWorkoutAgeRangeRepository WorkoutAgeRangeRepository => new WorkoutAgeRangeRepository(_context);
     public IWorkoutEquipmentRepository WorkoutEquipmentRepository => new WorkoutEquipmentRepository(_context);
     public IWorkoutInstructionRepository WorkoutInstructionRepository => new WorkoutInstructionRepository(_context);
@@ -97,8 +97,8 @@ public class UnitOfWork : IUnitOfWork
 
     #endregion
 
+    public async Task<int> SaveChangesAsync() => await _context.SaveChangesAsync();
     public async Task<int> Commit() => await _context.SaveChangesAsync();
-
     public void Dispose() => _context.Dispose();
 
 
