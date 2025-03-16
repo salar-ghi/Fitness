@@ -8,15 +8,14 @@ public static class BicepsWorkoutDbInitializer
     {
         //using var transactions = await context.Database.BeginTransactionAsync();
 
-        var workouts = new List<Workout>();
-        if (!await context.Workouts.AnyAsync())
-        {
-            var bodybuildingId = await context.Sports.Where(s => s.Name == "Body Building").Select(z => z.Id).FirstOrDefaultAsync();
-            var cardioId = await context.Sports.Where(s => s.Name == "Cardio").Select(z => z.Id).FirstOrDefaultAsync();
-            var crossfitId = await context.Sports.Where(s => s.Name == "Cross Fit").Select(z => z.Id).FirstOrDefaultAsync();
-            var yogaId = await context.Sports.Where(s => s.Name == "Yoga").Select(z => z.Id).FirstOrDefaultAsync();
+        var bicepsWorkouts = new List<Workout>();
 
-            workouts = new List<Workout>
+        var bodybuildingId = await context.Sports.Where(s => s.Name == "Body Building").Select(z => z.Id).FirstOrDefaultAsync();
+        var cardioId = await context.Sports.Where(s => s.Name == "Cardio").Select(z => z.Id).FirstOrDefaultAsync();
+        var crossfitId = await context.Sports.Where(s => s.Name == "Cross Fit").Select(z => z.Id).FirstOrDefaultAsync();
+        var yogaId = await context.Sports.Where(s => s.Name == "Yoga").Select(z => z.Id).FirstOrDefaultAsync();
+
+        bicepsWorkouts = new List<Workout>
             {
                 // biceps // Barbell
                 new Workout{ Name = "Barbell Curl", SportId = bodybuildingId, Description = "" },                                   // index => 0
@@ -82,6 +81,7 @@ public static class BicepsWorkoutDbInitializer
                 new Workout{ Name = "Dumbbell Incline Hammer Curl", SportId = bodybuildingId, Description = "" },                                    // index => 48
                 new Workout{ Name = "Dumbbell Incline Reverse Curl", SportId = bodybuildingId, Description = "" },                                   // index => 49
                 new Workout{ Name = "Dumbbell Incline Zottman Curl", SportId = bodybuildingId, Description = "" },                                   // index => 50
+
                 new Workout{ Name = "Dumbbell Single Arm Preacher Curl", SportId = bodybuildingId, Description = "" },                               // index => 51
                 new Workout{ Name = "Dumbbell Single Arm Spider Curl", SportId = bodybuildingId, Description = "" },                                 // index => 52
                 new Workout{ Name = "Dumbbell Spider Curl", SportId = bodybuildingId, Description = "" },                                            // index => 53
@@ -201,8 +201,8 @@ public static class BicepsWorkoutDbInitializer
                 new Workout{ Name = "Cardio Row Erg Rower Four Stroke Sprint Start", SportId = cardioId, Description = "" },                            // index => 149
                 new Workout{ Name = "Cardio Row Erg Rower", SportId = cardioId, Description = "" },                                                     // index => 150
             };
-        };
-        await context.Workouts.AddRangeAsync(workouts);
+
+        await context.Workouts.AddRangeAsync(bicepsWorkouts);
         await context.SaveChangesAsync();
 
         var workoutInstruction = new List<WorkoutInstruction>();
@@ -864,16 +864,16 @@ public static class BicepsWorkoutDbInitializer
         var workoutEquipment = new List<WorkoutEquipment>();
         if (!await context.WorkoutEquipment.AnyAsync())
         {
-            var barbellId  = context.Equipments.Where(x => x.Name == "Barbell").Select(x => x.Id).FirstOrDefault();
-            var ezbarId  = context.Equipments.Where(x => x.Name == "E-Z Curl Bar").Select(x => x.Id).FirstOrDefault();
+            var barbellId = context.Equipments.Where(x => x.Name == "Barbell").Select(x => x.Id).FirstOrDefault();
+            var ezbarId = context.Equipments.Where(x => x.Name == "E-Z Curl Bar").Select(x => x.Id).FirstOrDefault();
             var cableMachineId = context.Equipments.Where(x => x.Name == "Cable Machine").Select(x => x.Id).FirstOrDefault();
             var pullUpMachineId = context.Equipments.Where(x => x.Name == "Pull Up Machine").Select(x => x.Id).FirstOrDefault();
             var machineId = context.Equipments.Where(x => x.Name == "Machine").Select(x => x.Id).FirstOrDefault();
             var stretchesId = context.Equipments.Where(x => x.Name == "stretches").Select(x => x.Id).FirstOrDefault();
             var plateId = context.Equipments.Where(x => x.Name == "Plate").Select(x => x.Id).FirstOrDefault();
-            var bosuballId  = context.Equipments.Where(x => x.Name == "Bosu-Ball").Select(x => x.Id).FirstOrDefault();
-            var smithMachineId  = context.Equipments.Where(x => x.Name == "Smith Machine").Select(x => x.Id).FirstOrDefault();
-            var dumbellId  = context.Equipments.Where(x => x.Name == "Dumbells").Select(x => x.Id).FirstOrDefault();
+            var bosuballId = context.Equipments.Where(x => x.Name == "Bosu-Ball").Select(x => x.Id).FirstOrDefault();
+            var smithMachineId = context.Equipments.Where(x => x.Name == "Smith Machine").Select(x => x.Id).FirstOrDefault();
+            var dumbellId = context.Equipments.Where(x => x.Name == "Dumbells").Select(x => x.Id).FirstOrDefault();
             var cableId = context.Equipments.Where(x => x.Name == "Cable").Select(x => x.Id).FirstOrDefault();
             var trxId = context.Equipments.Where(x => x.Name == "TRX").Select(x => x.Id).FirstOrDefault();
             var vitruvianId = context.Equipments.Where(x => x.Name == "Vitruvian").Select(x => x.Id).FirstOrDefault();
@@ -1297,12 +1297,18 @@ public static class BicepsWorkoutDbInitializer
         await context.SaveChangesAsync();
 
         var bodyWorkouts = new List<BodyWorkout>();
-        if (!await context.BodyWorkouts.AnyAsync())
+        var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
+        var longHeadBicepId = await context.Bodies.Where(z => z.Name == "Long Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
+        var shortHeadBicepId = await context.Bodies.Where(z => z.Name == "Short Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
+
+        if (!await context.BodyWorkouts.AnyAsync(z => z.BodyId == bicepId))
         {
-            var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
             bodyWorkouts = new List<BodyWorkout>
             {
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[0].Id, Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[0].Id, Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[0].Id, Target = PriorityTarget.Primary },
+
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[1].Id  ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[2].Id  ,Target = PriorityTarget.Secondary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[3].Id  ,Target = PriorityTarget.Secondary },
@@ -1314,6 +1320,8 @@ public static class BicepsWorkoutDbInitializer
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[9].Id  ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[10].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[11].Id ,Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[11].Id ,Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[11].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[12].Id ,Target = PriorityTarget.Secondary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[13].Id ,Target = PriorityTarget.Secondary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[14].Id ,Target = PriorityTarget.Primary },
@@ -1348,14 +1356,23 @@ public static class BicepsWorkoutDbInitializer
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[40].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[41].Id ,Target = PriorityTarget.Secondary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[42].Id ,Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[42].Id ,Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[42].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[43].Id ,Target = PriorityTarget.Secondary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[44].Id ,Target = PriorityTarget.Secondary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[45].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[46].Id ,Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[46].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[47].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[48].Id ,Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[48].Id ,Target = PriorityTarget.Primary },
+
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[49].Id ,Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[49].Id ,Target = PriorityTarget.Primary },
+
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[50].Id ,Target = PriorityTarget.Primary },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[50].Id ,Target = PriorityTarget.Primary },
+
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[51].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[52].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[53].Id ,Target = PriorityTarget.Primary },
@@ -1379,6 +1396,9 @@ public static class BicepsWorkoutDbInitializer
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[70].Id ,Target = PriorityTarget.Secondary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[71].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[72].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[72].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[72].Id ,Target = PriorityTarget.Primary  },
+
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[73].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[74].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[75].Id ,Target = PriorityTarget.Secondary  },
@@ -1389,12 +1409,24 @@ public static class BicepsWorkoutDbInitializer
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[80].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[81].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[82].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[82].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[82].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[83].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[83].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[83].Id ,Target = PriorityTarget.Primary  },
+
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[84].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[84].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[84].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[85].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[85].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[86].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[87].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[87].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[87].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[88].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = longHeadBicepId, WorkoutId = workouts[88].Id ,Target = PriorityTarget.Primary  },
+                new BodyWorkout{ BodyId = shortHeadBicepId, WorkoutId = workouts[88].Id ,Target = PriorityTarget.Primary  },
 
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[89].Id ,Target = PriorityTarget.Primary  },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[90].Id ,Target = PriorityTarget.Primary  },
@@ -1466,7 +1498,8 @@ public static class BicepsWorkoutDbInitializer
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[149].Id ,Target = PriorityTarget.Primary },
                 new BodyWorkout{ BodyId = bicepId, WorkoutId = workouts[150].Id ,Target = PriorityTarget.Primary },
             };
-        };
+        }
+
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();
 
