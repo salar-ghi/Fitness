@@ -7,6 +7,7 @@ global using Application.DTOs;
 global using Presentation.Seed;
 global using Infrastructure.Context;
 global using Application.Interfaces;
+global using Microsoft.OpenApi.Models;
 global using Microsoft.AspNetCore.Mvc;
 global using Infrastructure.Extensions;
 global using Application.Interfaces.AI;

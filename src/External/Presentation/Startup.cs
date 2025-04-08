@@ -1,6 +1,4 @@
-﻿using Microsoft.OpenApi.Models;
-
-namespace Presentation;
+﻿namespace Presentation;
 
 public class Startup
 {
@@ -45,6 +43,7 @@ public class Startup
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "Fitness API", Version = "v1" });
         });
+
     }
 
 
