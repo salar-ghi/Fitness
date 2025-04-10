@@ -112,9 +112,9 @@ public static class BackWorkoutDbInitializer
             new Workout{ Name = "Barbell Block Conventional Deadlift", SportId = bodybuildingId, Description = "" },                    // index => 67
             new Workout{ Name = "Barbell Deficit Conventional Deadlift", SportId = bodybuildingId, Description = "" },                  // index => 68
             new Workout{ Name = "Barbell Muscle Snatch", SportId = bodybuildingId, Description = "" },                                  // index => 69
-            new Workout{ Name = "Barbell High Pull", SportId = bodybuildingId, Description = "" },                                      // index => 70
+            new Workout{ Name = "Machine 45 Degree Back Extension", SportId = bodybuildingId, Description = "" },                       // index => 70
             new Workout{ Name = "Barbell Power Snatch", SportId = bodybuildingId, Description = "" },                                   // index => 71
-            new Workout{ Name = "Barbell Snatch Grip High Pull", SportId = bodybuildingId, Description = "" },                          // index => 72
+            new Workout{ Name = "Machine Back Extension", SportId = bodybuildingId, Description = "" },                                 // index => 72
             new Workout{ Name = "Barbell High Bar Good Morning", SportId = bodybuildingId, Description = "" },                          // index => 73
             new Workout{ Name = "Barbell Low Bar Good Morning", SportId = bodybuildingId, Description = "" },                           // index => 74
             new Workout{ Name = "Barbell Staggered Deadlift", SportId = bodybuildingId, Description = "" },                             // index => 75
@@ -136,6 +136,39 @@ public static class BackWorkoutDbInitializer
             new Workout{ Name = "Barbell Snatch", SportId = bodybuildingId, Description = "" },                                         // index => 91
             new Workout{ Name = "Barbell Zercher Deficit Lunge", SportId = bodybuildingId, Description = "" },                          // index => 92
             new Workout{ Name = "Landmine T Bar Rows", SportId = bodybuildingId, Description = "" },                                    // index => 93
+
+            new Workout{ Name = "Machine Reverse Hyperextension", SportId = bodybuildingId, Description = "" },                         // index => 94
+
+            // Lower Back // stretches
+            new Workout{ Name = "Lower back Stretch Variation One", SportId = bodybuildingId, Description = "" },                       // index => 95
+            new Workout{ Name = "Lower back Stretch Variation Two", SportId = bodybuildingId, Description = "" },                       // index => 96
+            new Workout{ Name = "Lower back Stretch Variation Three", SportId = bodybuildingId, Description = "" },                     // index => 97
+            new Workout{ Name = "Lower back Stretch Variation Four", SportId = bodybuildingId, Description = "" },                      // index => 98
+
+            // Lower Back // Plate
+            new Workout{ Name = "Plate Deadlift", SportId = bodybuildingId, Description = "" },                                         // index => 99
+            new Workout{ Name = "Plate Single Leg Pinch Grip Deadlift", SportId = bodybuildingId, Description = "" },                   // index => 100
+            new Workout{ Name = "Plate Good Morning Anterior", SportId = bodybuildingId, Description = "" },                            // index => 101
+            new Workout{ Name = "Plate Good Morning", SportId = bodybuildingId, Description = "" },                                     // index => 102
+            new Workout{ Name = "Plate Single Leg Deadlift", SportId = bodybuildingId, Description = "" },                              // index => 103
+            new Workout{ Name = "Plate Pinch Grip Deadlift", SportId = bodybuildingId, Description = "" },                              // index => 104
+            new Workout{ Name = "Plate Staggered Deadlift", SportId = bodybuildingId, Description = "" },                               // index => 105
+            new Workout{ Name = "Plate Staggered Pinch Grip Deadlift", SportId = bodybuildingId, Description = "" },                    // index => 106
+            new Workout{ Name = "Plate Superman", SportId = bodybuildingId, Description = "" },                                         // index => 107
+            new Workout{ Name = "Plate Superman Hold", SportId = bodybuildingId, Description = "" },                                    // index => 108
+            new Workout{ Name = "Plate Staggered Waiters Bow", SportId = bodybuildingId, Description = "" },                            // index => 109
+            new Workout{ Name = "Plate Waiters Bow", SportId = bodybuildingId, Description = "" },                                      // index => 110
+
+            // Lower Back // Bosu
+            new Workout{ Name = "Bosu Ball Single Leg Hip Thrust", SportId = bodybuildingId, Description = "" },                        // index => 111
+            new Workout{ Name = "Bosu Ball Superman", SportId = bodybuildingId, Description = "" },                                     // index => 112
+
+            // Lower Back // smith machine
+            new Workout{ Name = "Smith Machine Underhand Row", SportId = bodybuildingId, Description = "" },                            // index => 113
+            new Workout{ Name = "Smith Machine Overhand Row", SportId = bodybuildingId, Description = "" },                             // index => 114
+            new Workout{ Name = "Smith Machine Sumo Romanian Deadlift", SportId = bodybuildingId, Description = "" },                   // index => 115
+            new Workout{ Name = "Smith Machine Staggered Deadlift", SportId = bodybuildingId, Description = "" },                       // index => 116
+            new Workout{ Name = "Smith Machine Romanian Deadlift", SportId = bodybuildingId, Description = "" },                        // index => 117
 
         };
         await context.Workouts.AddRangeAsync(backWorkouts);
@@ -461,19 +494,17 @@ public static class BackWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = backWorkouts[69].Id , Step = 3 , Instruction = "As the bar reaches chest level, rotate your wrists and elbows up and back, transitioning into an overhead press."},
             new WorkoutInstruction{ WorkoutId = backWorkouts[69].Id , Step = 4 , Instruction = "Fully extend your arms overhead, stabilize the bar, then lower it back to the starting position with control."},
 
-            new WorkoutInstruction{ WorkoutId = backWorkouts[70].Id , Step = 1 , Instruction = "Stand with feet hip-width apart, grip the barbell slightly wider than shoulder-width, and keep your back straight."},
-            new WorkoutInstruction{ WorkoutId = backWorkouts[70].Id , Step = 2 , Instruction = "Drive through your legs, extending your hips, knees, and ankles explosively while pulling the barbell upward."},
-            new WorkoutInstruction{ WorkoutId = backWorkouts[70].Id , Step = 3 , Instruction = "As the bar rises, pull it close to your body, leading with your elbows until it reaches chest level."},
+            new WorkoutInstruction{ WorkoutId = backWorkouts[70].Id , Step = 1 , Instruction = "Position your thighs on the padding and hook your feet on the platform supports."},
+            new WorkoutInstruction{ WorkoutId = backWorkouts[70].Id , Step = 2 , Instruction = "Keeping your back straight, slowly bend at your waist until your legs and back are at a 45° angle."},
+            new WorkoutInstruction{ WorkoutId = backWorkouts[70].Id , Step = 3 , Instruction = "Slowly raise your body to the starting position."},
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[71].Id , Step = 1 , Instruction = "Stand with feet hip-width apart, barbell over midfoot. Grip the bar wide (outside shoulders), hook grip recommended."},
             new WorkoutInstruction{ WorkoutId = backWorkouts[71].Id , Step = 2 , Instruction = "Keep chest up, back straight, and drive through heels to lift the bar off the ground, keeping it close to your body."},
             new WorkoutInstruction{ WorkoutId = backWorkouts[71].Id , Step = 3 , Instruction = "As the bar reaches mid-thigh, explode upwards by extending hips, knees, and ankles, shrugging shoulders and pulling the bar high."},
             new WorkoutInstruction{ WorkoutId = backWorkouts[71].Id , Step = 4 , Instruction = "Drop under the bar slightly, catching it overhead with arms locked out. Stand up fully to complete the lift."},
 
-            new WorkoutInstruction{ WorkoutId = backWorkouts[72].Id , Step = 1 , Instruction = "Stand with feet hip-width apart, gripping the barbell with a wide (snatch-width) grip. Keep your back straight, chest up, and bar close to your body."},
-            new WorkoutInstruction{ WorkoutId = backWorkouts[72].Id , Step = 2 , Instruction = "Drive through your legs, extending your hips, knees, and ankles while pulling the barbell up explosively."},
-            new WorkoutInstruction{ WorkoutId = backWorkouts[72].Id , Step = 3 , Instruction = "Shrug your shoulders forcefully and pull the bar as high as possible, keeping elbows above the bar."},
-            new WorkoutInstruction{ WorkoutId = backWorkouts[72].Id , Step = 4 , Instruction = "Lower the bar back to the starting position in a controlled manner and reset for the next rep."},
+            new WorkoutInstruction{ WorkoutId = backWorkouts[72].Id , Step = 1 , Instruction = "Sit on the machine and place your upper back on the rolling pad." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[72].Id , Step = 2 , Instruction = "Extend your hips and lower back. Make sure not to hyperextend your spine." },
             
             new WorkoutInstruction{ WorkoutId = backWorkouts[73].Id , Step = 1 , Instruction = "Place the bar on your traps. You may need a pad so the bar doesn't dig into your cervical spine." },
             new WorkoutInstruction{ WorkoutId = backWorkouts[73].Id , Step = 2 , Instruction = "Push your hips straight back. Your knees should stay MOSTLY extended (think soft knees). Also make sure to" },
@@ -569,7 +600,121 @@ public static class BackWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = backWorkouts[93].Id , Step = 2 , Instruction = "Hinge forward with a flat back and pull your elbows straight back toward the ceiling." },
             new WorkoutInstruction{ WorkoutId = backWorkouts[93].Id , Step = 3 , Instruction = "Fully extend your elbows before initiating the next rep." },
             
+            new WorkoutInstruction{ WorkoutId = backWorkouts[94].Id , Step = 1 , Instruction = "Lay on the pad and grab the handles." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[94].Id , Step = 1 , Instruction = "Slip your legs into the belt loop." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[94].Id , Step = 1 , Instruction = "Push your legs back until they are horizontal with the ground." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[94].Id , Step = 1 , Instruction = "Lower back to the starting position." },
+
+
             #endregion
+
+            #region Lower Back & Stretches
+            new WorkoutInstruction{ WorkoutId = backWorkouts[95].Id , Step = 1 , Instruction = "Sit on the floor with the tops of your feet pointed and flat on the ground. Move your arms out in front of you in the diving position, placing your palms flat against the ground." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[95].Id , Step = 2 , Instruction = "With your arms fully extended, rest your buttocks on the heels of your feet, you can crawl your hands forward to extend the stretch if need be." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[95].Id , Step = 3 , Instruction = "Hold the extended position for a few seconds, and return to starting position." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[96].Id , Step = 1 , Instruction = "Lay flat on the floor with your arms at either side." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[96].Id , Step = 2 , Instruction = "With one leg, hook one foot under the joint of your other leg." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[96].Id , Step = 3 , Instruction = "Rotate your hips so that your knees are pointing sideways, keeping your hooked leg flat against the floor." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[96].Id , Step = 4 , Instruction = "Pause at the apex of the stretch and repeat with your other leg." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[97].Id , Step = 1 , Instruction = "Lay on your back with your arms at either side." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[97].Id , Step = 2 , Instruction = "Raise your knees so that they are pointing straight towards the ceiling. Keeping your legs pressed together, rotate your hips to either side." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[97].Id , Step = 3 , Instruction = "Repeat this motion as necessary." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[98].Id , Step = 1 , Instruction = "Lay flat against the ground with your knees at an angle and your feet flat against the floor." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[98].Id , Step = 2 , Instruction = "Grab your legs just below the knees, and pull your legs towards your chest." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[98].Id , Step = 3 , Instruction = "Pause at the apex of the stretch, then return to the starting position." },
+            #endregion
+
+            #region Lower Back & Plate
+            new WorkoutInstruction{ WorkoutId = backWorkouts[99].Id , Step = 1 , Instruction = "Stand with feet hip-width apart, the plate in front of the feet, and the knees slightly bent." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[99].Id , Step = 2 , Instruction = "Bend the hips and knees to grip the plate with palms facing the body." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[99].Id , Step = 3 , Instruction = "Keeping the back straight, stand up while lifting the plate off the ground." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[99].Id , Step = 4 , Instruction = "Return the plate back to the starting position by bending the hips and knees, keeping control of the plate." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[100].Id , Step = 1 , Instruction = "Stand with your feet shoulder-width apart and facing forwards. Grip the sides of a weight plate with your palms facing down." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[100].Id , Step = 2 , Instruction = "Balance on one foot, as you raise the weight keep your arms and back straight, while you bring your other foot back towards the ground" },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[100].Id , Step = 3 , Instruction = "Keep four raised leg straight and in alignment with your back as you lower the plate back down to the starting position." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[101].Id , Step = 1 , Instruction = "Stand with feet hip-width apart, the plate held in front of you, and the knees slightly bent." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[101].Id , Step = 2 , Instruction = "Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[101].Id , Step = 3 , Instruction = "Push through the hips to return to the starting position." },
+            
+            new WorkoutInstruction{ WorkoutId = backWorkouts[102].Id , Step = 1 , Instruction = "Stand with feet hip-width apart, the plate held behind the neck and the knees slightly bent." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[102].Id , Step = 2 , Instruction = "Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[102].Id , Step = 3 , Instruction = "Push through the hips to return to the starting position." },
+            
+            new WorkoutInstruction{ WorkoutId = backWorkouts[103].Id , Step = 1 , Instruction = "Engage your core and straighten your legs to lift the plate off the ground." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[103].Id , Step = 2 , Instruction = "Stand on one leg, keeping the other leg off the ground, while holding the plate in front of your body." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[103].Id , Step = 3 , Instruction = "Keep your back straight and maintain a neutral head position while looking straight ahead." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[103].Id , Step = 4 , Instruction = "Lower the plate back down to the ground while keeping your balance on one leg." },
+            
+            new WorkoutInstruction{ WorkoutId = backWorkouts[104].Id , Step = 1 , Instruction = "Stand facing the plate with your feet shoulder-width apart and the plate positioned between your feet." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[104].Id , Step = 2 , Instruction = "Bend down and grasp the plate from the top edges with both hands, making sure your thumbs and fingers are evenly spaced." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[104].Id , Step = 3 , Instruction = "Keep your back straight, chest up and core engaged, and stand up with the plate, keeping it close to your body." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[104].Id , Step = 4 , Instruction = "Lower the plate back down to the ground, keeping control and maintaining good posture." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[105].Id , Step = 1 , Instruction = "Start by standing with your feet shoulder-width apart and holding a weight plate." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[105].Id , Step = 2 , Instruction = "Place one foot slightly behind the other, with the heel of your back foot elevated." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[105].Id , Step = 3 , Instruction = "From this starting position, bend at the hips and knees to lower the plate towards the ground, keeping your back straight and your core engaged." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[105].Id , Step = 4 , Instruction = "Once the plate is below your knees, drive through your heels to stand back up to the starting position." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[106].Id , Step = 1 , Instruction = "Start by standing with your feet shoulder-width apart and holding two plates with a pinch grip." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[106].Id , Step = 2 , Instruction = "Place one foot slightly behind the other, with the heel of your back foot elevated." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[106].Id , Step = 3 , Instruction = "From this starting position, bend at the hips and knees to lower the plates towards the ground, keeping your back straight and your core engaged." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[107].Id , Step = 1 , Instruction = "Lay flat on the ground on your stomach with your arms extended overhead. Hold a plate with a neutral grip." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[107].Id , Step = 2 , Instruction = "Lift your legs and chest off the ground simultaneously and hold for a 1 count at the top." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[107].Id , Step = 3 , Instruction = "Relax your lower back and lower your legs and chest back to the floor." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[108].Id , Step = 1 , Instruction = "Hold a plate in both hands." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[108].Id , Step = 2 , Instruction = "Pull your arms and legs off the ground while and hold that position." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[109].Id , Step = 1 , Instruction = "Set up a bar at mid way up your quad. Place the working leg against the bar." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[109].Id , Step = 2 , Instruction = "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[109].Id , Step = 3 , Instruction = "Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[109].Id , Step = 4 , Instruction = "When you feel the stretch, push your hips forward again until you're back in a standing position." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[110].Id , Step = 1 , Instruction = "Place a barbell at about midway up your thigh. Press your quads into the barbell. Hold a plate up to your chest." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[110].Id , Step = 2 , Instruction = "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[110].Id , Step = 3 , Instruction = "When you feel the stretch, push your hips forward until you're back in a standing position." },
+            #endregion
+
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[111].Id , Step = 1 , Instruction = "Sit on Bosu, lean back, one foot on the floor." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[111].Id , Step = 2 , Instruction = "Drive hips upward, squeezing glutes, one leg extended." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[111].Id , Step = 3 , Instruction = "Lower hips back down and switch legs." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[112].Id , Step = 1 , Instruction = "Lie face down on Bosu, arms extended." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[112].Id , Step = 2 , Instruction = "Lift arms, chest, and legs off the Bosu." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[112].Id , Step = 3 , Instruction = "Hold for a moment, then lower back down." },
+
+            #region Lower Back & Smith machine
+            new WorkoutInstruction{ WorkoutId = backWorkouts[113].Id , Step = 1 , Instruction = "Begin by standing in front of a bar with your feet about hip-width apart." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[113].Id , Step = 1 , Instruction = "Bend at the hips and knees to grab the bar with a supinated (underhand) grip, positioning the bar about an inch away from your shins." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[113].Id , Step = 1 , Instruction = "Keeping your back straight and your core engaged, use your back muscles to lift the bar straight up towards your chest." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[113].Id , Step = 1 , Instruction = "As the bar reaches your chest, pause briefly, and then lower the bar back to the starting position." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[114].Id , Step = 1 , Instruction = "Start hinged forward with a flat back. Make sure your elbows are fully extended." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[114].Id , Step = 2 , Instruction = "Pull the bar to your sternum." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[115].Id , Step = 1 , Instruction = "Stance width can vary with a sumo DL. Some prefer toes near the plates. Others prefer a more narrow stance to get more drive off the floor." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[115].Id , Step = 2 , Instruction = "Make sure your arms are inside your legs. The bar should be just over your mid-foot. Flatten your back and unrack the bar" },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[115].Id , Step = 3 , Instruction = "Leave your knees mostly extended and flex and extend your hips." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[116].Id , Step = 1 , Instruction = "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[116].Id , Step = 2 , Instruction = "Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[116].Id , Step = 3 , Instruction = "When you feel the stretch, push your hips forward again until you're back in a standing position." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[117].Id , Step = 1 , Instruction = "Take a shoulder width, double overhand or mixed grip." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[117].Id , Step = 1 , Instruction = "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[117].Id , Step = 1 , Instruction = "When you feel the stretch, push your hips forward until you're back in a standing position." },
+
+            #endregion
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[113].Id , Step = 1 , Instruction =  },
+
 
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
@@ -713,9 +858,9 @@ public static class BackWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = backWorkouts[67].Id, EquipmentId = barbellId },
             new WorkoutEquipment{ WorkoutId = backWorkouts[68].Id, EquipmentId = barbellId },
             new WorkoutEquipment{ WorkoutId = backWorkouts[69].Id, EquipmentId = barbellId },
-            new WorkoutEquipment{ WorkoutId = backWorkouts[70].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[70].Id, EquipmentId = machineId },
             new WorkoutEquipment{ WorkoutId = backWorkouts[71].Id, EquipmentId = barbellId },
-            new WorkoutEquipment{ WorkoutId = backWorkouts[72].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[72].Id, EquipmentId = machineId },
             new WorkoutEquipment{ WorkoutId = backWorkouts[73].Id, EquipmentId = barbellId },
             new WorkoutEquipment{ WorkoutId = backWorkouts[74].Id, EquipmentId = barbellId },
             new WorkoutEquipment{ WorkoutId = backWorkouts[75].Id, EquipmentId = barbellId },
@@ -737,6 +882,41 @@ public static class BackWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = backWorkouts[91].Id, EquipmentId = barbellId },
             new WorkoutEquipment{ WorkoutId = backWorkouts[92].Id, EquipmentId = barbellId },
             new WorkoutEquipment{ WorkoutId = backWorkouts[93].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[94].Id, EquipmentId = machineId },
+            #endregion
+
+            #region Lower Back & Stretches
+            new WorkoutEquipment{ WorkoutId = backWorkouts[95].Id, EquipmentId = stretchesId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[96].Id, EquipmentId = stretchesId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[97].Id, EquipmentId = stretchesId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[98].Id, EquipmentId = stretchesId },
+            #endregion
+
+            #region Lower Back & Plate
+            new WorkoutEquipment{ WorkoutId = backWorkouts[99].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[100].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[101].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[102].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[103].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[104].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[105].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[106].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[107].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[108].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[109].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[110].Id, EquipmentId = plateId },
+            #endregion
+
+            new WorkoutEquipment{ WorkoutId = backWorkouts[111].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[112].Id, EquipmentId = bosuballId },
+
+
+            #region Lower Back & Smith machine
+            new WorkoutEquipment{ WorkoutId = backWorkouts[113].Id, EquipmentId = smithMachineId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[114].Id, EquipmentId = smithMachineId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[115].Id, EquipmentId = smithMachineId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[116].Id, EquipmentId = smithMachineId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[117].Id, EquipmentId = smithMachineId },
             #endregion
 
         };
@@ -859,9 +1039,9 @@ public static class BackWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = backWorkouts[67].Id , Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = backWorkouts[68].Id , Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = backWorkouts[69].Id , Level = Difficulty.Intermediate },
-            new WorkoutLevel{ WorkoutId = backWorkouts[70].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[70].Id , Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = backWorkouts[71].Id , Level = Difficulty.Intermediate },
-            new WorkoutLevel{ WorkoutId = backWorkouts[72].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[72].Id , Level = Difficulty.Novice },
             new WorkoutLevel{ WorkoutId = backWorkouts[73].Id , Level = Difficulty.Advanced },
             new WorkoutLevel{ WorkoutId = backWorkouts[74].Id , Level = Difficulty.Advanced },
             new WorkoutLevel{ WorkoutId = backWorkouts[75].Id , Level = Difficulty.Advanced },
@@ -883,7 +1063,45 @@ public static class BackWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = backWorkouts[91].Id , Level = Difficulty.Advanced },
             new WorkoutLevel{ WorkoutId = backWorkouts[92].Id , Level = Difficulty.Advanced },
             new WorkoutLevel{ WorkoutId = backWorkouts[93].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = backWorkouts[94].Id , Level = Difficulty.Novice },
             #endregion
+
+            #region Lower Back & Stretches
+            new WorkoutLevel{ WorkoutId = backWorkouts[95].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = backWorkouts[96].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = backWorkouts[97].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = backWorkouts[98].Id , Level = Difficulty.Beginner },
+            #endregion
+
+            #region Lower Back & Plate
+            new WorkoutLevel{ WorkoutId = backWorkouts[99].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[100].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[101].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[102].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[103].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = backWorkouts[104].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[105].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = backWorkouts[106].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = backWorkouts[107].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[108].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[109].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[110].Id , Level = Difficulty.Intermediate },
+            #endregion
+
+            new WorkoutLevel{ WorkoutId = backWorkouts[111].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = backWorkouts[112].Id , Level = Difficulty.Beginner },
+
+            #region Lower Back & Smith machine
+            new WorkoutLevel{ WorkoutId = backWorkouts[113].Id , Level = Difficulty.Novice },
+            new WorkoutLevel{ WorkoutId = backWorkouts[114].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = backWorkouts[115].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[116].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = backWorkouts[117].Id , Level = Difficulty.Beginner },
+            #endregion
+
+            new WorkoutLevel{ WorkoutId = backWorkouts[113].Id , Level = Difficulty.Intermediate },
+
+
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
         await context.SaveChangesAsync();
@@ -903,7 +1121,9 @@ public static class BackWorkoutDbInitializer
             new BodyWorkout{ BodyId = trapsId, WorkoutId = backWorkouts[1].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[1].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = trapsId, WorkoutId = backWorkouts[2].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[2].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = trapsId, WorkoutId = backWorkouts[3].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[3].Id, Target = PriorityTarget.Primary },
             #endregion
 
             #region Traps & Machine
@@ -1036,7 +1256,42 @@ public static class BackWorkoutDbInitializer
             new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[91].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[92].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[93].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[94].Id, Target = PriorityTarget.Primary },
             #endregion
+
+            #region Lower Back & Stretches
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[95].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[96].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[97].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[98].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+            #region Lower Back & Plate
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[99].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[100].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[101].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[102].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[103].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[104].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[105].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[106].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[107].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[108].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[109].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[110].Id, Target = PriorityTarget.Secondary },
+            #endregion
+
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[111].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[112].Id, Target = PriorityTarget.Primary },
+
+            #region Lower Back & Smith machine
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[113].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[114].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[115].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[116].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[117].Id, Target = PriorityTarget.Secondary },
+            #endregion
+
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();
