@@ -87,7 +87,6 @@ public class PlanController : ControllerBase
         return aiPrompt;
     }
 
-
     protected static string RefinedPrompt()
     {
         var aiPrompt = $"Create a detailed 16-week fitness plan for a 31-year-old male beginner with the following details: " +
@@ -145,7 +144,6 @@ public class PlanController : ControllerBase
 
         return aiPrompt;
     }
-
 
     protected static string RefinedJsonPrompt()
     {
