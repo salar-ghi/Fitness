@@ -251,34 +251,38 @@ public static class BackWorkoutDbInitializer
             new Workout{ Name = "Stability Ball Reverse Hyperextension", SportId = yogaSportId, Description = "" },                     // index => 182
 
             // Lower Back // Kettlebells
-            new Workout{ Name = "Kettlebell Deadlift (Single)", SportId = yogaSportId, Description = "" },                              // index => 183
-            new Workout{ Name = "Kettlebell Swing", SportId = yogaSportId, Description = "" },                                          // index => 184
-            new Workout{ Name = "Kettlebell Staggered Deadlift (Single)", SportId = yogaSportId, Description = "" },                    // index => 185
-            new Workout{ Name = "Kettlebell Goblet Good Morning", SportId = yogaSportId, Description = "" },                            // index => 186
-            new Workout{ Name = "Kettlebell Alternating Swing", SportId = yogaSportId, Description = "" },                              // index => 187
-            new Workout{ Name = "Kettlebell Conventional Deadlift (Double)", SportId = yogaSportId, Description = "" },                 // index => 188
-            new Workout{ Name = "Kettlebell Swing (Double)", SportId = yogaSportId, Description = "" },                                 // index => 189
-            new Workout{ Name = "Kettlebell Full Swing", SportId = yogaSportId, Description = "" },                                     // index => 190
-            new Workout{ Name = "Kettlebell Romanian Deadlift", SportId = yogaSportId, Description = "" },                              // index => 191
-            new Workout{ Name = "Kettlebell Single Arm Swing", SportId = yogaSportId, Description = "" },                               // index => 192
-            new Workout{ Name = "Kettlebell Staggered Deadlift", SportId = yogaSportId, Description = "" },                             // index => 193
-            new Workout{ Name = "Kettlebell Staggered Swing", SportId = yogaSportId, Description = "" },                                // index => 194
-            new Workout{ Name = "Kettlebell Sumo Deadlift", SportId = yogaSportId, Description = "" },                                  // index => 195
-            new Workout{ Name = "Kettlebell Superman", SportId = yogaSportId, Description = "" },                                       // index => 196
-            new Workout{ Name = "Kettlebell Superman Hold", SportId = yogaSportId, Description = "" },                                  // index => 197
-            new Workout{ Name = "Swing To Upright Row", SportId = yogaSportId, Description = "" },                                      // index => 198
-            new Workout{ Name = "Kettlebell Single Leg Deadlift", SportId = yogaSportId, Description = "" },                            // index => 199
-            new Workout{ Name = "Kettlebell Suitcase Deadlift", SportId = yogaSportId, Description = "" },                              // index => 200
-            new Workout{ Name = "Kettlebell Box Squat", SportId = yogaSportId, Description = "" },                                      // index => 201
-            new Workout{ Name = "Kettlebell Staggered Waiters Bow", SportId = yogaSportId, Description = "" },                          // index => 202
-            new Workout{ Name = "Kettlebell Waiters Bow", SportId = yogaSportId, Description = "" },                                    // index => 203
+            new Workout{ Name = "Kettlebell Deadlift (Single)", SportId = bodybuildingId, Description = "" },                           // index => 183
+            new Workout{ Name = "Kettlebell Swing", SportId = bodybuildingId, Description = "" },                                       // index => 184
+            new Workout{ Name = "Kettlebell Staggered Deadlift (Single)", SportId = bodybuildingId, Description = "" },                 // index => 185
+            new Workout{ Name = "Kettlebell Goblet Good Morning", SportId = bodybuildingId, Description = "" },                         // index => 186
+            new Workout{ Name = "Kettlebell Alternating Swing", SportId = bodybuildingId, Description = "" },                           // index => 187
+            new Workout{ Name = "Kettlebell Conventional Deadlift (Double)", SportId = bodybuildingId, Description = "" },              // index => 188
+            new Workout{ Name = "Kettlebell Swing (Double)", SportId = bodybuildingId, Description = "" },                              // index => 189
+            new Workout{ Name = "Kettlebell Full Swing", SportId = bodybuildingId, Description = "" },                                  // index => 190
+            new Workout{ Name = "Kettlebell Romanian Deadlift", SportId = bodybuildingId, Description = "" },                           // index => 191
+            new Workout{ Name = "Kettlebell Single Arm Swing", SportId = bodybuildingId, Description = "" },                            // index => 192
+            new Workout{ Name = "Kettlebell Staggered Deadlift", SportId = bodybuildingId, Description = "" },                          // index => 193
+            new Workout{ Name = "Kettlebell Staggered Swing", SportId = bodybuildingId, Description = "" },                             // index => 194
+            new Workout{ Name = "Kettlebell Sumo Deadlift", SportId = bodybuildingId, Description = "" },                               // index => 195
+            new Workout{ Name = "Kettlebell Superman", SportId = bodybuildingId, Description = "" },                                    // index => 196
+            new Workout{ Name = "Kettlebell Superman Hold", SportId = bodybuildingId, Description = "" },                               // index => 197
+            new Workout{ Name = "Swing To Upright Row", SportId = bodybuildingId, Description = "" },                                   // index => 198
+            new Workout{ Name = "Kettlebell Single Leg Deadlift", SportId = bodybuildingId, Description = "" },                         // index => 199
+            new Workout{ Name = "Kettlebell Suitcase Deadlift", SportId = bodybuildingId, Description = "" },                           // index => 200
+            new Workout{ Name = "Kettlebell Box Squat", SportId = bodybuildingId, Description = "" },                                   // index => 201
+            new Workout{ Name = "Kettlebell Staggered Waiters Bow", SportId = bodybuildingId, Description = "" },                       // index => 202
+            new Workout{ Name = "Kettlebell Waiters Bow", SportId = bodybuildingId, Description = "" },                                 // index => 203
 
-            new Workout{ Name = "", SportId = yogaSportId, Description = "" },                           // index => 204
-            new Workout{ Name = "", SportId = yogaSportId, Description = "" },                           // index => 205
-            new Workout{ Name = "", SportId = yogaSportId, Description = "" },                           // index => 206
-            new Workout{ Name = "", SportId = yogaSportId, Description = "" },                           // index => 207
-            new Workout{ Name = "", SportId = yogaSportId, Description = "" },                           // index => 208
-            new Workout{ Name = "", SportId = yogaSportId, Description = "" },                           // index => 209
+            // Lower back & Band
+            new Workout{ Name = "Band Good Morning", SportId = yogaSportId, Description = "" },                                         // index => 204
+            new Workout{ Name = "Band Pullthrough", SportId = yogaSportId, Description = "" },                                          // index => 205
+            new Workout{ Name = "Band Romanian Deadlift", SportId = yogaSportId, Description = "" },                                    // index => 206
+
+            // Lower Back & Yoga
+            new Workout{ Name = "Happy Baby", SportId = yogaSportId, Description = "" },                                                // index => 207
+            new Workout{ Name = "Sphinx Pose", SportId = yogaSportId, Description = "" },                                               // index => 208
+            new Workout{ Name = "Cobra Pose", SportId = yogaSportId, Description = "" },                                                // index => 209
+
             new Workout{ Name = "", SportId = yogaSportId, Description = "" },                           // index => 210
 
         };
@@ -1108,90 +1112,121 @@ public static class BackWorkoutDbInitializer
 
             #region Lower back & Kettlebell
             new WorkoutInstruction{ WorkoutId = backWorkouts[183].Id , Step = 1 , Instruction = "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[183].Id , Step = 1 , Instruction = "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[183].Id , Step = 1 , Instruction = "Return to standing position and repeat." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[183].Id , Step = 2 , Instruction = "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[183].Id , Step = 3 , Instruction = "Return to standing position and repeat." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[184].Id , Step = 1 , Instruction = "Stand with your feet slightly wider than shoulder width apart holding the kettlebell between your legs, with your knees slightly bent." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[184].Id , Step = 1 , Instruction = "Keeping your back straight, swing the kettlebell upwards until the kettlebell is level with your chest and carefully lower." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[184].Id , Step = 1 , Instruction = "Repeat" },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[184].Id , Step = 2 , Instruction = "Keeping your back straight, swing the kettlebell upwards until the kettlebell is level with your chest and carefully lower." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[184].Id , Step = 3 , Instruction = "Repeat" },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[185].Id , Step = 1 , Instruction = "Stand with your feet shoulder width apart, shifting one foot behind you. Hold the kettlebell in both hands in front of your thighs." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[185].Id , Step = 1 , Instruction = "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees and keep your back straight." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[185].Id , Step = 1 , Instruction = "Return to the upright position and repeat." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[185].Id , Step = 2 , Instruction = "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees and keep your back straight." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[185].Id , Step = 3 , Instruction = "Return to the upright position and repeat." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[186].Id , Step = 1 , Instruction = "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your chest." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[186].Id , Step = 1 , Instruction = "Bend forward at the hips keeping your back and knees straight and the kettlebell close to your chest." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[186].Id , Step = 1 , Instruction = "Return to standing position and thrust your pelvis forward." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[186].Id , Step = 2 , Instruction = "Bend forward at the hips keeping your back and knees straight and the kettlebell close to your chest." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[186].Id , Step = 3 , Instruction = "Return to standing position and thrust your pelvis forward." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[187].Id , Step = 1 , Instruction = "Stand with feet shoulder-width apart, kettlebell between legs." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[187].Id , Step = 1 , Instruction = "Hinge at hips, swing kettlebell between legs." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[187].Id , Step = 1 , Instruction = "Swing kettlebell up, switch hands at the top, and repeat in a fluid motion." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[187].Id , Step = 2 , Instruction = "Hinge at hips, swing kettlebell between legs." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[187].Id , Step = 3 , Instruction = "Swing kettlebell up, switch hands at the top, and repeat in a fluid motion." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[188].Id , Step = 1 , Instruction = "Stand with feet hip-width apart." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[188].Id , Step = 1 , Instruction = "Bend at hips and knees to lift kettlebells." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[188].Id , Step = 1 , Instruction = "Stand tall, then lower." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[188].Id , Step = 2 , Instruction = "Bend at hips and knees to lift kettlebells." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[188].Id , Step = 3 , Instruction = "Stand tall, then lower." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[189].Id , Step = 1 , Instruction = "Stand with feet shoulder-width apart, kettlebells outside legs" },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[189].Id , Step = 1 , Instruction = "Hinge at hips, swing kettlebells forward, then back." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[189].Id , Step = 1 , Instruction = "Thrust hips to swing kettlebells upward, keeping arms straight." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[189].Id , Step = 2 , Instruction = "Hinge at hips, swing kettlebells forward, then back." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[189].Id , Step = 3 , Instruction = "Thrust hips to swing kettlebells upward, keeping arms straight." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[190].Id , Step = 1 , Instruction = "Stand with feet shoulder-width apart, kettlebell between legs." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[190].Id , Step = 1 , Instruction = "Hinge at hips, grip kettlebell, and swing it overhead." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[190].Id , Step = 1 , Instruction = "Extend hips and knees, lock out arms at the top." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[190].Id , Step = 2 , Instruction = "Hinge at hips, grip kettlebell, and swing it overhead." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[190].Id , Step = 3 , Instruction = "Extend hips and knees, lock out arms at the top." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[191].Id , Step = 1 , Instruction = "Stand with feet hip-width apart, holding kettlebells in front." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[191].Id , Step = 1 , Instruction = "Hinge at hips, keeping back straight, and lower kettlebells towards ground." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[191].Id , Step = 1 , Instruction = "Return to start position, squeezing glutes at the top." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[191].Id , Step = 2 , Instruction = "Hinge at hips, keeping back straight, and lower kettlebells towards ground." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[191].Id , Step = 3 , Instruction = "Return to start position, squeezing glutes at the top." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[192].Id , Step = 1 , Instruction = "Stand with feet shoulder-width apart, kettlebell between legs, grip with one hand, hinge at hips." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[192].Id , Step = 1 , Instruction = "Swing kettlebell forcefully forward, using hip thrust, arm straight." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[192].Id , Step = 1 , Instruction = "Swing kettlebell back between legs, repeat for desired reps." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[192].Id , Step = 2 , Instruction = "Swing kettlebell forcefully forward, using hip thrust, arm straight." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[192].Id , Step = 3 , Instruction = "Swing kettlebell back between legs, repeat for desired reps." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[193].Id , Step = 1 , Instruction = "Begin with feet hip-width apart, one foot forward, kettlebell between feet." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[193].Id , Step = 1 , Instruction = "Hinge at hips, grip kettlebell, and stand tall." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[193].Id , Step = 1 , Instruction = "Lower kettlebell with control, then repeat." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[193].Id , Step = 2 , Instruction = "Hinge at hips, grip kettlebell, and stand tall." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[193].Id , Step = 3 , Instruction = "Lower kettlebell with control, then repeat." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[194].Id , Step = 1 , Instruction = "Lower kettlebell with control, then repeat." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[194].Id , Step = 1 , Instruction = "Explosively thrust hips forward, swing kettlebell to chest height." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[194].Id , Step = 1 , Instruction = "Repeat for desired reps, keeping core engaged and maintaining a staggered stance for balance." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[194].Id , Step = 2 , Instruction = "Explosively thrust hips forward, swing kettlebell to chest height." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[194].Id , Step = 3 , Instruction = "Repeat for desired reps, keeping core engaged and maintaining a staggered stance for balance." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[195].Id , Step = 1 , Instruction = "Stand with feet wide apart, toes pointing slightly outward, and kettlebell on the floor between your feet." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[195].Id , Step = 1 , Instruction = "Bend at hips and knees, keeping back straight, and grip the kettlebell handle." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[195].Id , Step = 1 , Instruction = "Lift the kettlebell by extending hips and knees, stand up straight, and return to the starting position." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[195].Id , Step = 2 , Instruction = "Bend at hips and knees, keeping back straight, and grip the kettlebell handle." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[195].Id , Step = 3 , Instruction = "Lift the kettlebell by extending hips and knees, stand up straight, and return to the starting position." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[196].Id , Step = 1 , Instruction = "Begin by lying face down on the floor with a kettlebell in each hand, arms extended." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[196].Id , Step = 1 , Instruction = "Lift your chest and legs off the ground simultaneously while squeezing your glutes and raising the kettlebells." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[196].Id , Step = 1 , Instruction = "Lower your body and kettlebells back to the floor, then repeat for the desired number of reps." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[196].Id , Step = 2 , Instruction = "Lift your chest and legs off the ground simultaneously while squeezing your glutes and raising the kettlebells." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[196].Id , Step = 3 , Instruction = "Lower your body and kettlebells back to the floor, then repeat for the desired number of reps." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[197].Id , Step = 1 , Instruction = "Stand with feet hip-width apart, kettlebell in one hand, arm fully extended, and hinge at hips." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[197].Id , Step = 1 , Instruction = "Lift opposite leg straight behind you, forming a straight line from head to heel." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[197].Id , Step = 1 , Instruction = "Hold for 15-30 seconds, switch sides, and repeat for a balanced kettlebell superman hold." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[197].Id , Step = 2 , Instruction = "Lift opposite leg straight behind you, forming a straight line from head to heel." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[197].Id , Step = 3 , Instruction = "Hold for 15-30 seconds, switch sides, and repeat for a balanced kettlebell superman hold." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[198].Id , Step = 1 , Instruction = "Start with a kettlebell between your legs, hinge at hips, swing it upward." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[198].Id , Step = 1 , Instruction = "Lift kettlebell to chest level, elbows high, engaging shoulders." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[198].Id , Step = 1 , Instruction = "Lower kettlebell back down, maintaining control. Repeat for desired reps." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[198].Id , Step = 2 , Instruction = "Lift kettlebell to chest level, elbows high, engaging shoulders." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[198].Id , Step = 3 , Instruction = "Lower kettlebell back down, maintaining control. Repeat for desired reps." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[199].Id , Step = 1 , Instruction = "Stand with your feet shoulder width apart, lifting one foot off the floor behind you. Hold the kettlebell in the same arm as the lifted leg." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[199].Id , Step = 1 , Instruction = "Bend forward at the hips bringing the kettlebell to the floor while you extend your lifted leg behind you, keeping your back straight - holding out your arm to the side for balance." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[199].Id , Step = 1 , Instruction = "Return to the upright position and repeat." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[199].Id , Step = 2 , Instruction = "Bend forward at the hips bringing the kettlebell to the floor while you extend your lifted leg behind you, keeping your back straight - holding out your arm to the side for balance." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[199].Id , Step = 3 , Instruction = "Return to the upright position and repeat." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[200].Id , Step = 1 , Instruction = "Begin by standing with your feet hip-width apart and holding a kettlebell at one side of your body, with your palms facing your thighs." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[200].Id , Step = 1 , Instruction = "Keeping your core engaged and your back straight, bend at the hips and knees to lower the kettlebell down towards the ground." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[200].Id , Step = 1 , Instruction = "As the kettlebell reaches the ground, use your legs and glutes to push through your heels and extend your hips and knees to raise your body back to the starting position." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[200].Id , Step = 1 , Instruction = "Repeat the movement for the desired number of reps, then switch sides and repeat the exercise with the kettlebell on the opposite side of your body." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[200].Id , Step = 2 , Instruction = "Keeping your core engaged and your back straight, bend at the hips and knees to lower the kettlebell down towards the ground." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[200].Id , Step = 3 , Instruction = "As the kettlebell reaches the ground, use your legs and glutes to push through your heels and extend your hips and knees to raise your body back to the starting position." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[200].Id , Step = 4 , Instruction = "Repeat the movement for the desired number of reps, then switch sides and repeat the exercise with the kettlebell on the opposite side of your body." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[201].Id , Step = 1 , Instruction = "Stand in front of a box or bench with your feet shoulder-width apart with a kettlebell in a goblet position." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[201].Id , Step = 1 , Instruction = "Lower your body into a squat position, sitting back onto the box and pausing for a moment before standing back up." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[201].Id , Step = 1 , Instruction = "Push through your heels to return to the standing position." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[201].Id , Step = 2 , Instruction = "Lower your body into a squat position, sitting back onto the box and pausing for a moment before standing back up." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[201].Id , Step = 3 , Instruction = "Push through your heels to return to the standing position." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[202].Id , Step = 1 , Instruction = "Set up a bar at mid way up your quad. Place the working leg against the bar." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[202].Id , Step = 1 , Instruction = "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[202].Id , Step = 1 , Instruction = "Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[202].Id , Step = 1 , Instruction = "When you feel the stretch, push your hips forward again until you're back in a standing position." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[202].Id , Step = 2 , Instruction = "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[202].Id , Step = 3 , Instruction = "Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[202].Id , Step = 4 , Instruction = "When you feel the stretch, push your hips forward again until you're back in a standing position." },
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[203].Id , Step = 1 , Instruction = "Place a barbell at about midway up your thigh. Press your quads into the barbell." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[203].Id , Step = 1 , Instruction = "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
-            new WorkoutInstruction{ WorkoutId = backWorkouts[203].Id , Step = 1 , Instruction = "When you feel the stretch, push your hips forward until you're back in a standing position." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[203].Id , Step = 2 , Instruction = "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[203].Id , Step = 3 , Instruction = "When you feel the stretch, push your hips forward until you're back in a standing position." },
+            #endregion
+
+            #region Lower back & Band
+            new WorkoutInstruction{ WorkoutId = backWorkouts[204].Id , Step = 1 , Instruction = "Anchor the band at hip level. Take a few steps away until the band is taut." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[204].Id , Step = 2 , Instruction = "Push your hips back while keeping your back flat until you feel a stretch in your hamstrings." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[205].Id , Step = 1 , Instruction = "Anchor the band to the lowest point possible. Straddle the band and then grab with both hands." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[205].Id , Step = 2 , Instruction = "Take a few steps away until the band is taut." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[205].Id , Step = 3 , Instruction = "Push your butt back until you feel a stretch in your hamstrings. Then extend the hips back into the starting position." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[206].Id , Step = 1 , Instruction = "Stand on your band with both feet." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[206].Id , Step = 2 , Instruction = "Hinge forward at the hips while keeping a flat back." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[206].Id , Step = 3 , Instruction = "Hinge until you feel a stretch in your hamstrings." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[206].Id , Step = 4 , Instruction = "Push your hips back forward until you are in a standing position." },
+            #endregion
+
+            #region Lower Back & Yoga
+            new WorkoutInstruction{ WorkoutId = backWorkouts[207].Id , Step = 1 , Instruction = "Lie down on your back with your knees bent and feet flat on the floor." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[207].Id , Step = 2 , Instruction = "Lift your feet off the floor and bring your knees towards your chest." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[207].Id , Step = 3 , Instruction = "Reach inside your knees and hold onto the outside edges of your feet." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[207].Id , Step = 4 , Instruction = "Gently pull your knees towards your armpits and rock side to side for a few breaths." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[208].Id , Step = 1 , Instruction = "Start by lying down on your stomach on a yoga mat or a comfortable surface." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[208].Id , Step = 2 , Instruction = "Place your elbows underneath your shoulders, keeping your forearms parallel to each other." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[208].Id , Step = 3 , Instruction = "Press your palms and forearms firmly into the ground to lift your chest up, while keeping your hips and legs relaxed." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[208].Id , Step = 4 , Instruction = "Make sure your shoulders are relaxed and away from your ears. Gently roll your shoulder blades down and back to open up your chest." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[208].Id , Step = 5 , Instruction = "Lengthen your spine by lifting the crown of your head towards the ceiling, while keeping your chin tucked in slightly." },
+
+            new WorkoutInstruction{ WorkoutId = backWorkouts[209].Id , Step = 1 , Instruction = "Start prone, hands under shoulders." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[209].Id , Step = 2 , Instruction = "Inhale, lift chest, arch back." },
+            new WorkoutInstruction{ WorkoutId = backWorkouts[209].Id , Step = 3 , Instruction = "Elongate neck, gaze up. Breathe, hold. Release, exhale." },
             #endregion
 
             new WorkoutInstruction{ WorkoutId = backWorkouts[151].Id , Step = 1 , Instruction = "" },
@@ -1505,6 +1540,18 @@ public static class BackWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = backWorkouts[203].Id, EquipmentId = kettlebellId },
             #endregion
 
+            #region Lower back & Band
+            new WorkoutEquipment{ WorkoutId = backWorkouts[204].Id, EquipmentId = BandsId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[205].Id, EquipmentId = BandsId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[206].Id, EquipmentId = BandsId },
+            #endregion
+
+            #region Lower Back & Yoga
+            new WorkoutEquipment{ WorkoutId = backWorkouts[207].Id, EquipmentId = cableId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[208].Id, EquipmentId = cableId },
+            new WorkoutEquipment{ WorkoutId = backWorkouts[209].Id, EquipmentId = cableId },
+            #endregion
+
             new WorkoutEquipment{ WorkoutId = backWorkouts[148].Id, EquipmentId = cableId },
 
         };
@@ -1790,6 +1837,18 @@ public static class BackWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = backWorkouts[201].Id , Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = backWorkouts[202].Id , Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = backWorkouts[203].Id , Level = Difficulty.Intermediate },
+            #endregion
+
+            #region Lower back & Band
+            new WorkoutLevel{ WorkoutId = backWorkouts[204].Id , Level = Difficulty.Novice },
+            new WorkoutLevel{ WorkoutId = backWorkouts[205].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = backWorkouts[206].Id , Level = Difficulty.Novice },
+            #endregion
+
+            #region Lower Back & Yoga
+            new WorkoutLevel{ WorkoutId = backWorkouts[207].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = backWorkouts[208].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = backWorkouts[209].Id , Level = Difficulty.Beginner },
             #endregion
 
             new WorkoutLevel{ WorkoutId = backWorkouts[148].Id , Level = Difficulty.Intermediate },
@@ -2091,6 +2150,18 @@ public static class BackWorkoutDbInitializer
             new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[203].Id, Target = PriorityTarget.Secondary },
             #endregion
 
+            #region Lower back & Band
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[148].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[148].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[148].Id, Target = PriorityTarget.Secondary },
+            #endregion
+
+            #region Lower Back & Yoga
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[207].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[208].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[209].Id, Target = PriorityTarget.Primary },
+            #endregion
+
             new BodyWorkout{ BodyId = lowerBackId, WorkoutId = backWorkouts[148].Id, Target = PriorityTarget.Tertiary },
 
         };
@@ -2215,7 +2286,312 @@ public static class BackWorkoutDbInitializer
             new WorkoutSex{ WorkoutId = backWorkouts[55].Id, Sex = Sex.Female},
             new WorkoutSex{ WorkoutId = backWorkouts[56].Id, Sex = Sex.Male},
             new WorkoutSex{ WorkoutId = backWorkouts[56].Id, Sex = Sex.Female},
-            
+            new WorkoutSex{ WorkoutId = backWorkouts[57].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[57].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[58].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[58].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[59].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[59].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[60].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[60].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[61].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[61].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[62].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[62].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[63].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[63].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[64].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[64].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[65].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[65].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[66].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[66].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[67].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[67].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[68].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[68].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[69].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[69].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[70].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[70].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[71].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[71].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[72].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[72].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[73].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[73].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[74].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[74].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[75].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[75].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[76].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[76].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[77].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[77].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[78].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[78].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[79].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[79].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[80].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[80].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[81].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[81].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[82].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[82].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[83].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[83].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[84].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[84].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[85].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[85].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[86].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[86].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[87].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[87].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[88].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[88].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[89].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[89].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[90].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[90].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[91].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[91].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[92].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[92].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[93].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[93].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[94].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[94].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[95].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[95].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[96].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[96].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[97].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[97].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[98].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[98].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[99].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[99].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[100].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[100].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[101].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[101].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[102].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[102].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[103].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[103].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[104].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[104].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[105].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[105].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[106].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[106].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[107].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[107].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[108].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[108].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[109].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[109].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[110].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[110].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[111].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[111].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[112].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[112].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[113].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[113].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[114].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[114].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[115].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[115].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[116].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[116].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[117].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[117].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[118].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[118].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[119].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[119].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[120].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[120].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[121].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[121].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[122].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[122].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[123].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[123].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[124].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[124].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[125].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[125].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[126].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[126].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[127].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[127].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[128].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[128].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[129].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[129].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[130].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[130].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[131].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[131].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[132].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[132].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[133].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[133].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[134].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[134].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[135].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[135].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[136].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[136].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[137].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[137].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[138].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[138].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[139].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[139].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[140].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[140].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[141].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[141].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[142].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[142].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[143].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[143].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[144].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[144].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[145].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[145].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[146].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[146].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[147].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[147].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[148].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[148].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[149].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[149].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[150].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[150].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[151].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[151].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[152].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[152].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[153].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[153].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[154].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[154].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[155].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[155].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[156].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[156].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[157].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[157].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[158].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[158].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[159].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[159].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[160].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[160].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[161].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[161].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[162].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[162].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[163].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[163].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[164].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[164].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[165].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[165].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[166].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[166].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[167].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[167].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[168].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[168].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[169].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[169].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[170].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[170].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[171].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[171].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[172].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[172].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[173].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[173].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[174].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[174].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[175].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[175].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[176].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[176].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[177].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[177].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[178].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[178].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[179].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[179].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[180].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[180].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[181].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[181].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[182].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[182].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[183].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[183].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[184].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[184].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[185].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[185].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[186].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[186].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[187].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[187].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[188].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[188].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[189].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[189].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[190].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[190].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[191].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[191].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[192].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[192].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[193].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[193].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[194].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[194].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[195].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[195].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[196].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[196].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[197].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[197].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[198].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[198].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[199].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[199].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[200].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[200].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[201].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[201].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[202].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[202].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[203].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[203].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[204].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[204].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[205].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[205].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[206].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[206].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[207].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[207].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[208].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[208].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = backWorkouts[209].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = backWorkouts[209].Id, Sex = Sex.Female},
             #endregion
         };
         await context.WorkoutSex.AddRangeAsync(workoutSex);
