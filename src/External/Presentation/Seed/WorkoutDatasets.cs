@@ -1,17 +1,28 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using Domain.UoW;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 
 namespace Presentation.Seed;
 
-public static class WorkoutDatasets
+public class WorkoutDatasets
 {
-    public static async Task WorkoutSeedAsync(FitnessContext context)
-
+    private readonly FitnessContext context;
+    public WorkoutDatasets(FitnessContext _context)
     {
+        context = _context;
+    }
+
+    public async Task<List<Workout>> WorkoutSeedAsync()
+    {
+        
         var workouts = new List<Workout>();
-        var bodyBuildingId = await context.Sports.Where(z => z.Name == "Body Building").Select(z => z.Id).FirstOrDefaultAsync();
+        var bodyBuildingId = await context.Sports
+            .AsNoTracking()
+            .Where(z => z.Name == "Body Building")
+            .Select(z => z.Id)
+            .FirstOrDefaultAsync();
 
         // Workouts according to Eqiupments ...
-        // Instruction // Body // AgeRange // Equipments // Level // Sex
         workouts = new List<Workout>
         {
 
@@ -2122,29 +2133,61 @@ public static class WorkoutDatasets
             #endregion
         };
 
+        var duplicateWorkouts = workouts.GroupBy(z => z.Name)
+            .Where(g => g.Count() > 1)
+            .SelectMany(z => z.Skip(1))
+            .ToList();
+
+        Console.WriteLine($"duplicateWorkouts {duplicateWorkouts}");
+
+        var dupName = duplicateWorkouts.Select(z => new
+        {
+            z.Name
+        }).ToList();
+
+        Console.WriteLine($"duplicate Name {dupName}");
+
         var uniqueSeedWorkouts = workouts
             .GroupBy(x => x.Name)
             .Select(g => g.First())
             .ToList();
+
         var workoutNames = uniqueSeedWorkouts.Select(x => x.Name).ToList();
         var existingWorkouts = await context.Workouts
             .Where(w => workoutNames.Contains(w.Name))
             .ToListAsync();
+
+        Console.WriteLine($"existing Workouts => {existingWorkouts}");
+
         var newWorkouts = uniqueSeedWorkouts
             .Where(sw => !existingWorkouts.Any(z => z.Name == z.Name))
             .ToList();
-        await context.Workouts.AddRangeAsync(newWorkouts);
-        await context.SaveChangesAsync();
 
-        var instructions = new List<WorkoutInstruction>
-        {
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 1, Instruction = "" },
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 2, Instruction = "" },
+        var dbDuplication = await context.Workouts
+            .GroupBy(z => z.Name)
+            .Where(g => g.Count() > 1)
+            .SelectMany(z => z.Skip(1))
+            .ToListAsync();
+        var dbDuplicateName = dbDuplication.Select(z => z.Name).ToList();
+        Console.WriteLine($"database duplicate {dbDuplicateName}");
 
-            new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "" }
-        };
-        await context.WorkoutInstructions.AddRangeAsync(instructions);
-        await context.SaveChangesAsync();
+        //var duplicateIds = dbDuplication.Select(z => z.Id).ToList();
+        var dupdup = dbDuplication.Where(z => dbDuplicateName.Contains(z.Name)).ToList();
+
+        //await context.Workouts.AddRangeAsync(newWorkouts);
+        //await context.SaveChangesAsync();
+
+        //var instructions = new List<WorkoutInstruction>
+        //{
+        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 1, Instruction = "" },
+        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 2, Instruction = "" },
+
+        //    new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "" }
+        //};
+        //await context.WorkoutInstructions.AddRangeAsync(instructions);
+        //await context.SaveChangesAsync();
+        
+        return dupdup;
     }
 
 }

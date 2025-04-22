@@ -1,45 +1,26 @@
-﻿using Azure;
-using Domain.Models;
-using Infrastructure.Services.AI;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.SqlServer.Server;
-using SharpToken;
-using System.Net.Http.Json;
-using static System.Net.Mime.MediaTypeNames;
-
-namespace Presentation.Controllers;
+﻿namespace Presentation.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
 public class PlanController : ControllerBase
 {
-    private readonly IPlanManagingService _planManaging;
     private readonly IGrokAiService _grokService;
-    //private readonly OpenAiChatService _ollama;
-    //private readonly ApiContext _context;
     private readonly ILogger<PlanController> _logger;
+    private readonly IPlanManagingService _planManaging;
 
-    public PlanController(
-        IPlanManagingService planManaging, 
-        //OpenAiChatService ollama,
-        IGrokAiService grokService,
-        ILogger<PlanController> logger)
+    public PlanController(IPlanManagingService planManaging, 
+        IGrokAiService grokService, ILogger<PlanController> logger)
     {
-        _planManaging = planManaging;
-        //_ollama = ollama;
         _logger = logger;
         _grokService = grokService;
+        _planManaging = planManaging;
     }
 
     [HttpGet]
     public async Task<IActionResult> Index()
     {
         var question = PromtPlan();
-        //var response = await _ollama.GetResponse(question);
-        //var response = await _ollama.GetWeekResponse(question);
-
         return Ok();
-
     }
 
 
