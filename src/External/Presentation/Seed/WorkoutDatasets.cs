@@ -14,13 +14,9 @@ public class WorkoutDatasets
 
     public async Task<List<Workout>> WorkoutSeedAsync()
     {
-        
+
         var workouts = new List<Workout>();
-        var bodyBuildingId = await context.Sports
-            .AsNoTracking()
-            .Where(z => z.Name == "Body Building")
-            .Select(z => z.Id)
-            .FirstOrDefaultAsync();
+        var bodyBuildingId = await context.Sports.AsNoTracking().Where(z => z.Name == "Body Building").Select(z => z.Id).FirstOrDefaultAsync();
 
         // Workouts according to Eqiupments ...
         workouts = new List<Workout>
@@ -1639,16 +1635,15 @@ public class WorkoutDatasets
             #endregion
 
             #region latissimus dorsi (lats),
-            // Index => 643
-            new Workout { Id = 644, Name="Meadow Landmine Row", Description="Utilizes a landmine attachment for unique angles of resistance targeting the lats. / Execution: Stand over a landmine, grip it with both hands, and row towards your body.", SportId= bodyBuildingId},                
+            // Index => 643 == > deleted
+
             // Index => 644
-            new Workout { Id = 645, Name="One-Arm Cable Pulldown", Description="Isolates each lat individually for better muscle engagement. / Execution: Use a cable machine with a single handle; pull down towards your hip while keeping your core engaged.", SportId= bodyBuildingId},                
+            new Workout { Id = 645, Name="One-Arm Cable Pulldown", Description="Isolates each lat individually for better muscle engagement. / Execution: Use a cable machine with a single handle; pull down towards your hip while keeping your core engaged.", SportId= bodyBuildingId},
             // Index => 645
             new Workout { Id = 646, Name="Plank Rows (Renegade Rows)", Description="Engages core stability while working on lat strength. / Execution: In a plank position with dumbbells, row one weight at a time towards your hip.", SportId= bodyBuildingId},
             // Index => 646
             new Workout { Id = 647, Name="Landmine Row", Description="Utilizes a landmine attachment for unique angles of resistance targeting the lats. / Execution: Stand over a landmine, grip it with both hands, and row towards your body.", SportId= bodyBuildingId},
-            // Index => 647
-            new Workout { Id = 648, Name="One-Arm Cable Pulldown", Description="Isolates each lat individually for better muscle engagement. / Execution: Use a cable machine with a single handle; pull down towards your hip while keeping your core engaged.", SportId= bodyBuildingId},
+            // Index => 647 ==> deleted
             #endregion
 
             #region Trapezius (Traps)
@@ -1861,8 +1856,7 @@ public class WorkoutDatasets
             new Workout { Id = 733, Name="Concentration Curls", Description="Isolates the biceps and brachialis for maximum contraction. / Execution: Sit on a bench, rest your elbow against your thigh, and curl a dumbbell towards your shoulder.", SportId= bodyBuildingId},
             // Index => 733
             new Workout { Id = 734, Name="Preacher Curls", Description="Targets the lower part of the biceps and brachialis while providing stability. / Execution: Use a preacher curl bench; grasp a barbell or dumbbells and curl towards your shoulders.", SportId= bodyBuildingId},
-            // Index => 734
-            new Workout { Id = 735, Name="Incline Dumbbell Curl", Description="Places more emphasis on the long head of the biceps and brachialis. / Execution: Sit on an incline bench with dumbbells at arm's length; curl them towards your shoulders, focusing on squeezing at the top.", SportId= bodyBuildingId},
+            // Index => 734 ==> deleted
             // Index => 735
             new Workout { Id = 736, Name="One-Arm Dumbbell Spider Curl", Description="Isolates the arm while targeting the brachialis effectively. / Execution: Lie face down on an incline bench, let one arm hang straight down, and curl the dumbbell up without twisting your wrist.", SportId= bodyBuildingId},
             // Index => 736
@@ -2120,8 +2114,7 @@ public class WorkoutDatasets
             new Workout { Id = 840, Name="Tip-Toe Walking", Description="Strengthens calves through functional movement. / Execution: Walk on your tiptoes for a set distance or time, focusing on maintaining balance and engaging your calves throughout.", SportId= bodyBuildingId},
             // Index => 840
             new Workout { Id = 841, Name="Calf Raises on Leg Press Machine (Bent Knee)", Description="Allows for greater loading while isolating the soleus. / Execution: Sit on a leg press machine with your feet positioned high; perform calf raises while keeping your knees bent.", SportId= bodyBuildingId},
-            // Index => 841
-            new Workout { Id = 842, Name="Calf Raises with Resistance Bands", Description="Provides variable resistance for targeted training. / Execution: Stand on a resistance band with both feet and perform calf raises, holding onto something for balance if necessary.", SportId= bodyBuildingId},
+            // Index => 841 ==> deleted
             // Index => 842
             new Workout { Id = 843, Name="Sled Drag with Bent Knee", Description="Engages soleus through functional movement. / Execution: Attach a sled to your waist and walk forward while keeping your knees slightly bent, focusing on using your calves to push off.", SportId= bodyBuildingId},
             // Index => 843
@@ -2133,19 +2126,67 @@ public class WorkoutDatasets
             #endregion
         };
 
+        await context.Workouts.AddRangeAsync(workouts);
+        //await context.SaveChangesAsync();
+
+        var instructions = new List<WorkoutInstruction>
+        {
+            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 1, Instruction = "" },
+            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 2, Instruction = "" },
+
+            new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "" }
+        };
+        await context.WorkoutInstructions.AddRangeAsync(instructions);
+        await context.SaveChangesAsync();
+
+        //**************************
+        var workoutEquipment = new List<WorkoutEquipment>();
+        workoutEquipment = new List<WorkoutEquipment>
+        {
+
+        };
+        await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
+        await context.SaveChangesAsync();
+        //**************************
+        var workoutLevel = new List<WorkoutLevel>();
+        workoutLevel = new List<WorkoutLevel>
+        {
+
+        };
+        await context.WorkoutLevels.AddRangeAsync(workoutLevel);
+        await context.SaveChangesAsync();
+
+        // ***************************************************************** //
+        var bodyWorkouts = new List<BodyWorkout>();
+        var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
+        var longHeadBicepId = await context.Bodies.Where(z => z.Name == "Long Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
+        var shortHeadBicepId = await context.Bodies.Where(z => z.Name == "Short Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
+
+        bodyWorkouts = new List<BodyWorkout>
+        {
+
+        };
+        await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
+        await context.SaveChangesAsync();
+
+        return workouts;
+    }
+
+
+    public async Task duplicateWorkouts()
+    {
+        var workouts = await WorkoutSeedAsync();
         var duplicateWorkouts = workouts.GroupBy(z => z.Name)
             .Where(g => g.Count() > 1)
             .SelectMany(z => z.Skip(1))
             .ToList();
 
-        Console.WriteLine($"duplicateWorkouts {duplicateWorkouts}");
-
-        var dupName = duplicateWorkouts.Select(z => new
+        var dupName = duplicateWorkouts.Select(z => z.Name).ToList();
+        Console.Clear();
+        foreach (var item in dupName)
         {
-            z.Name
-        }).ToList();
-
-        Console.WriteLine($"duplicate Name {dupName}");
+            Console.WriteLine($"duplicate Name {item}");
+        }
 
         var uniqueSeedWorkouts = workouts
             .GroupBy(x => x.Name)
@@ -2156,38 +2197,11 @@ public class WorkoutDatasets
         var existingWorkouts = await context.Workouts
             .Where(w => workoutNames.Contains(w.Name))
             .ToListAsync();
-
-        Console.WriteLine($"existing Workouts => {existingWorkouts}");
-
-        var newWorkouts = uniqueSeedWorkouts
-            .Where(sw => !existingWorkouts.Any(z => z.Name == z.Name))
-            .ToList();
-
-        var dbDuplication = await context.Workouts
-            .GroupBy(z => z.Name)
-            .Where(g => g.Count() > 1)
-            .SelectMany(z => z.Skip(1))
-            .ToListAsync();
-        var dbDuplicateName = dbDuplication.Select(z => z.Name).ToList();
-        Console.WriteLine($"database duplicate {dbDuplicateName}");
-
-        //var duplicateIds = dbDuplication.Select(z => z.Id).ToList();
-        var dupdup = dbDuplication.Where(z => dbDuplicateName.Contains(z.Name)).ToList();
-
-        //await context.Workouts.AddRangeAsync(newWorkouts);
-        //await context.SaveChangesAsync();
-
-        //var instructions = new List<WorkoutInstruction>
-        //{
-        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 1, Instruction = "" },
-        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 2, Instruction = "" },
-
-        //    new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "" }
-        //};
-        //await context.WorkoutInstructions.AddRangeAsync(instructions);
-        //await context.SaveChangesAsync();
-        
-        return dupdup;
+        var exisname = existingWorkouts.Select(z => z.Name).ToList();
+        foreach (var item in exisname)
+        {
+            Console.WriteLine($"existing Workouts => {item}");
+        }
     }
 
 }
