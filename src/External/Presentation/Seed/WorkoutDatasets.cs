@@ -25,62 +25,62 @@ public class WorkoutDatasets
             #region Dumbells
             // Chest
             //Index => 0
-            new Workout { Id = 1, Name = "Dumbbell Bench Press", Description = "Targets the chest; can be done flat, incline, or decline.", SportId = bodyBuildingId },
+            new Workout { Name = "Dumbbell Bench Press", Description = "Targets the chest; can be done flat, incline, or decline.", SportId = bodyBuildingId },
             //Index => 1
-            new Workout { Id = 2, Name = "Dumbbell Fly", Description = "Focuses on the upper and lateral pec muscles", SportId = bodyBuildingId },
+            new Workout { Name = "Dumbbell Fly", Description = "Focuses on the upper and lateral pec muscles", SportId = bodyBuildingId },
             //Index => 2
-            new Workout { Id = 3, Name = "Dumbbell Floor Press", Description ="Similar to bench press but performed on the floor.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Floor Press", Description ="Similar to bench press but performed on the floor.", SportId= bodyBuildingId },
 
 
             // Back
             //Index 3
-            new Workout { Id = 4, Name = "Dumbbell Bent-Over Rows", Description ="Engages the entire back.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Bent-Over Rows", Description ="Engages the entire back.", SportId= bodyBuildingId },
             //Index 4
-            new Workout { Id = 5, Name = "Dumbbell Pullover", Description ="Works the lats and upper chest.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Pullover", Description ="Works the lats and upper chest.", SportId= bodyBuildingId },
             //Index 5
-            new Workout { Id = 6, Name = "Renegade Row", Description ="Combines a plank with a row for core and back strength.", SportId= bodyBuildingId },
+            new Workout { Name = "Renegade Row", Description ="Combines a plank with a row for core and back strength.", SportId= bodyBuildingId },
 
             // Shoulders
             //Index 6
-            new Workout { Id = 7, Name = "Standing Dumbbell Press", Description ="Builds shoulder strength while engaging the core.", SportId= bodyBuildingId },
+            new Workout { Name = "Standing Dumbbell Press", Description ="Builds shoulder strength while engaging the core.", SportId= bodyBuildingId },
             //Index 7
-            new Workout { Id = 8, Name = "Dumbbell Lateral Raise", Description ="Isolates the lateral deltoids.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Lateral Raise", Description ="Isolates the lateral deltoids.", SportId= bodyBuildingId },
             //Index 8
-            new Workout { Id = 9, Name = "Dumbbell Arnold Press", Description ="Targets multiple shoulder muscles through rotation.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Arnold Press", Description ="Targets multiple shoulder muscles through rotation.", SportId= bodyBuildingId },
 
             // Arms
             //Index 9
-            new Workout { Id = 10, Name = "Dumbbell Bicep Curls", Description ="Essential for bicep development.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Bicep Curls", Description ="Essential for bicep development.", SportId= bodyBuildingId },
             //Index 10
-            new Workout { Id = 11, Name = "Hammer Curls", Description ="Targets the brachialis and brachioradialis.", SportId= bodyBuildingId },
+            new Workout { Name = "Hammer Curls", Description ="Targets the brachialis and brachioradialis.", SportId= bodyBuildingId },
             //Index 11
-            new Workout { Id = 12, Name = "Dumbbell Tricep Kickbacks", Description ="Isolates the triceps effectively.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Tricep Kickbacks", Description ="Isolates the triceps effectively.", SportId= bodyBuildingId },
 
             // Lower Body
             //Index 12
-            new Workout { Id = 13, Name = "Dumbbell Squats (Goblet Squats)", Description ="Fundamental for leg strength.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Squats (Goblet Squats)", Description ="Fundamental for leg strength.", SportId= bodyBuildingId },
             //Index 13
-            new Workout { Id = 14, Name = "Dumbbell Lunges (Walking Lunges)", Description ="Focuses on single-leg strength and stability.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Lunges (Walking Lunges)", Description ="Focuses on single-leg strength and stability.", SportId= bodyBuildingId },
             //Index 14
-            new Workout { Id = 15, Name = "Dumbbell Deadlifts (Stiff-Legged Deadlifts)", Description ="Engages the posterior chain, especially hamstrings and glutes.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Deadlifts (Stiff-Legged Deadlifts)", Description ="Engages the posterior chain, especially hamstrings and glutes.", SportId= bodyBuildingId },
             //Index 15
-            new Workout { Id = 16, Name = "Dumbbell Step-Ups", Description ="Improves leg strength and balance.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell Step-Ups", Description ="Improves leg strength and balance.", SportId= bodyBuildingId },
 
             // Core Workouts
             //Index 16
-            new Workout { Id = 17, Name = "Weighted Crunches", Description ="Targets the rectus abdominis.", SportId= bodyBuildingId },
+            new Workout { Name = "Weighted Crunches", Description ="Targets the rectus abdominis.", SportId= bodyBuildingId },
             //Index 17
-            new Workout { Id = 18, Name = "Russian Twists", Description ="Engages obliques for rotational strength.", SportId= bodyBuildingId },
+            new Workout { Name = "Russian Twists", Description ="Engages obliques for rotational strength.", SportId= bodyBuildingId },
             //Index 18
-            new Workout { Id = 19, Name = "Plank with Dumbbells", Description ="Enhances core stability while incorporating shoulder work.", SportId= bodyBuildingId },
+            new Workout { Name = "Plank with Dumbbells", Description ="Enhances core stability while incorporating shoulder work.", SportId= bodyBuildingId },
 
             // Full Body Workouts
             //Index 19
-            new Workout { Id = 20, Name = "Devil's Press", Description ="Combines a burpee with dumbbells for a full-body workout.", SportId= bodyBuildingId },
+            new Workout { Name = "Devil's Press", Description ="Combines a burpee with dumbbells for a full-body workout.", SportId= bodyBuildingId },
             //Index 20
-            new Workout { Id = 21, Name = "Farmer’s Carry", Description ="Enhances grip strength and overall conditioning while working multiple muscle groups.", SportId= bodyBuildingId },
+            new Workout { Name = "Farmer’s Carry", Description ="Enhances grip strength and overall conditioning while working multiple muscle groups.", SportId= bodyBuildingId },
             //Index 21
-            new Workout { Id = 22, Name = "Dumbbell High Pulls", Description ="Targets shoulders, traps, and upper back.", SportId= bodyBuildingId },
+            new Workout { Name = "Dumbbell High Pulls", Description ="Targets shoulders, traps, and upper back.", SportId= bodyBuildingId },
             #endregion
 
             #region Barbells
