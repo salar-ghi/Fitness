@@ -32,6 +32,7 @@
     <Folder Include="Mapping\" />
     <Folder Include="Data\" />
     <Folder Include="Configuration\" />
+    <Folder Include="Services\PlanParser\" />
   </ItemGroup>
 
   <ItemGroup>

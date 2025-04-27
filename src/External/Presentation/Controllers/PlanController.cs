@@ -4,15 +4,12 @@
 [ApiController]
 public class PlanController : ControllerBase
 {
-    private readonly IGrokAiService _grokService;
     private readonly ILogger<PlanController> _logger;
     private readonly IPlanManagingService _planManaging;
 
-    public PlanController(IPlanManagingService planManaging, 
-        IGrokAiService grokService, ILogger<PlanController> logger)
+    public PlanController(IPlanManagingService planManaging, ILogger<PlanController> logger)
     {
         _logger = logger;
-        _grokService = grokService;
         _planManaging = planManaging;
     }
 
@@ -28,8 +25,8 @@ public class PlanController : ControllerBase
     public async Task<IActionResult> GeneratePlan()
     {
         var prompt = RefinedJsonPrompt();
-        var plan = await _grokService.GenerateFitnessPlanAsync(prompt);
-        return Ok(plan);
+        //var plan = await _grokService.GenerateFitnessPlanAsync(prompt);
+        return Ok();
     }
 
     [HttpGet("Generate-AI")]

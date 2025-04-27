@@ -56,12 +56,9 @@ public static class DependencyInjection
             Uri("http://localhost:11434/"), "llama3.1:8b"));
 
 
-        services.AddSingleton<OllamaResponseParser>();
 
         services.AddScoped<IChatService, OllamaChatService>();
         services.AddScoped<IPlanManagingService, PlanManagingService>();
-        services.AddScoped<IFitnessPlanParser, FitnessPlanParser>();
-        services.AddScoped<IPlanParser, PlanParserService>();
 
         services.AddSingleton<TextProcessor>();
         services.AddSingleton<AzureTextAnalyticsService>(provider =>
@@ -77,7 +74,7 @@ public static class DependencyInjection
             client.Timeout = TimeSpan.FromMinutes(30);
         });
         services.AddHttpClient<GrokAiService>();
-        services.AddScoped<IGrokAiService, GrokAiService>();
+        services.AddScoped<GrokAiService>();
 
         //services.AddTransient<,>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();

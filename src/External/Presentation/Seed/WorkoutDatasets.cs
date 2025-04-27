@@ -86,26 +86,26 @@ public class WorkoutDatasets
             #region Barbells
             // Chest
             //Index => 22
-            new Workout { Id = 23, Name = "Barbell Bench Press", Description ="A fundamental exercise for overall chest development.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Bench Press", Description ="A fundamental exercise for overall chest development.", SportId= bodyBuildingId },
             //Index => 23
-            new Workout { Id = 24, Name = "Incline Barbell Press", Description ="Targets the upper chest, performed on an inclined bench.", SportId= bodyBuildingId },
+            new Workout { Name = "Incline Barbell Press", Description ="Targets the upper chest, performed on an inclined bench.", SportId= bodyBuildingId },
             //Index => 24
-            new Workout { Id = 25, Name = "Decline Barbell Press", Description ="Focuses on the lower chest, done on a declined bench.", SportId= bodyBuildingId },
+            new Workout { Name = "Decline Barbell Press", Description ="Focuses on the lower chest, done on a declined bench.", SportId= bodyBuildingId },
             //Index => 25
-            new Workout { Id = 26, Name = "Barbell Pullover", Description ="Engages the chest and lats, performed lying on a bench.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Pullover", Description ="Engages the chest and lats, performed lying on a bench.", SportId= bodyBuildingId },
 
 
             // Back
             //Index => 26
-            new Workout { Id = 27, Name = "Barbell Bent-Over Row", Description ="A classic exercise for building thickness in the back.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Bent-Over Row", Description ="A classic exercise for building thickness in the back.", SportId= bodyBuildingId },
             //Index => 27
-            new Workout { Id = 28, Name = "Pendlay Row", Description ="An explosive variation of the bent-over row focusing on strength.", SportId= bodyBuildingId },
+            new Workout { Name = "Pendlay Row", Description ="An explosive variation of the bent-over row focusing on strength.", SportId= bodyBuildingId },
             //Index => 28
-            new Workout { Id = 29, Name = "T-Bar Row", Description ="Targets the middle back and lats; requires a T-bar setup.", SportId= bodyBuildingId },
+            new Workout { Name = "T-Bar Row", Description ="Targets the middle back and lats; requires a T-bar setup.", SportId= bodyBuildingId },
             //Index => 29
-            new Workout { Id = 30, Name = "Barbell Deadlift", Description ="A compound movement that works the entire posterior chain.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Deadlift", Description ="A compound movement that works the entire posterior chain.", SportId= bodyBuildingId },
             //Index => 30
-            new Workout { Id = 31, Name = "Barbell Shrug", Description ="Isolates the upper trapezius muscles.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Shrug", Description ="Isolates the upper trapezius muscles.", SportId= bodyBuildingId },
 
             // Shoulders
             //Index => 31
@@ -2131,8 +2131,13 @@ public class WorkoutDatasets
 
         var instructions = new List<WorkoutInstruction>
         {
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 1, Instruction = "" },
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 2, Instruction = "" },
+            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 1, Instruction = "Lie flat on a bench, holding a dumbbell in each hand at chest level, palms facing forward." },
+            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 2, Instruction = "Plant your feet firmly on the ground and engage your core." },
+            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 3, Instruction = "Press the dumbbells upward until your arms are fully extended, keeping them slightly bent at the top." },
+            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 4, Instruction = "Slowly lower the dumbbells back to chest level, maintaining control." },
+            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 5, Instruction = "Repeat for desired reps, keeping movements smooth and controlled." },
+
+            new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "" },
 
             new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "" }
         };

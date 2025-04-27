@@ -23,4 +23,3 @@ global using Infrastructure.Services;
 global using Infrastructure.Extensions;
 global using Infrastructure.Services.AI;
 global using Microsoft.Extensions.Configuration;
-global using Infrastructure.Services.PlanParser;

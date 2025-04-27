@@ -1,6 +1,4 @@
 ﻿using Application.DTOs.Response;
-using SharpToken;
-using System.Net.Http;
 using System.Net.Http.Json;
 
 namespace Infrastructure.Services;
@@ -10,10 +8,8 @@ public class OllamaChatService : IChatService
     private bool disposedValue;
     //private readonly IChatClient _chatClient;
     private readonly HttpClient _client;
-    private readonly OllamaResponseParser _parser;
-    public OllamaChatService(OllamaResponseParser parser, HttpClient client)
+    public OllamaChatService(HttpClient client)
     {
-        _parser = parser;
         _client = client;
     }
 
@@ -39,16 +35,6 @@ public class OllamaChatService : IChatService
         response.EnsureSuccessStatusCode();
         var responseContent = await response.Content.ReadAsStringAsync();
         return responseContent;
-    }
-
-    public async Task<string> AskQuestionAsync(string question)
-    {
-        //var response = await _chatClient.GetResponseAsync(question);
-        //var hierarchicalItems = _parser.ParseResponse(response.Message.ToString());
-
-        //return hierarchicalItems.ToString();
-        var tets = string.Empty;
-        return tets;
     }
 
     public async Task<DeepSeekResponse> AskQuestionDeepSeekAsync(string question)
@@ -81,86 +67,5 @@ public class OllamaChatService : IChatService
 
         return formattedResponse;
     }
-}
-
-
-public class HierarchicalItem
-{
-    public string Name { get; set; }
-    public List<HierarchicalItem> Children { get; set; }
-
-    public HierarchicalItem()
-    {
-        Children = new List<HierarchicalItem>();
-    }
-}
-
-
-public class OllamaResponseParser
-{
-    public List <HierarchicalItem> ParseResponse(string response)
-    {
-        var items = new List<HierarchicalItem>();
-        var lines = response.Split(new[] {Environment.NewLine}, StringSplitOptions.None);
-
-        HierarchicalItem currentItem = null;
-        int indentLevel = 0;
-
-        foreach (var line in lines)
-        {
-            var trimmedLine = line.Trim();
-            var newIndentLevel = GetIndentLevel(line);
-
-            if (newIndentLevel > indentLevel)
-            {
-                // New child item
-                var childItem = new HierarchicalItem { Name = trimmedLine };
-                if (currentItem != null)
-                {
-                    currentItem.Children.Add(childItem);
-                }
-                else
-                {
-                    items.Add(childItem);
-                }
-                currentItem = childItem;
-            }
-            else if (newIndentLevel < indentLevel)
-            {
-                // Move back up the hierarchy
-                while (newIndentLevel < indentLevel)
-                {
-                    currentItem = GetParentItem(currentItem, items);
-                    indentLevel--;
-                }
-            }
-            else
-            {
-                var newItem = new HierarchicalItem { Name = trimmedLine };
-                items.Add(newItem);
-                currentItem = newItem;
-            }
-        }
-        return items;
-    }
-
-    private int GetIndentLevel(string line)
-    {
-        return line.Length -line.TrimStart().Length;
-    }
-
-    private HierarchicalItem GetParentItem(HierarchicalItem item, List<HierarchicalItem> items)
-    {
-        foreach (var parent in items)
-        {
-            if (parent.Children.Contains(item))
-            {
-                return parent;
-            }
-        }
-        return null;
-    }
-
-
 }
 

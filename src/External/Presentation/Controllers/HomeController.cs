@@ -20,8 +20,8 @@ public class HomeController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Index([FromBody] string question)
     {
-        var response = await _chatService.AskQuestionAsync(question);
-        return Ok(response);
+        //var response = await _chatService.AskQuestionAsync(question);
+        return Ok();
     }
 
     [HttpPost("AskQuestion")]
