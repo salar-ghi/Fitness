@@ -1,4 +1,6 @@
-﻿namespace Presentation;
+﻿using Presentation.Services;
+
+namespace Presentation;
 
 public class Startup
 {
@@ -40,6 +42,9 @@ public class Startup
             new HealthCheckResult(HealthStatus.Healthy, "Ollama server is running"));
 
         services.AddControllers();
+        services.AddSingleton<GrokService>();
+        services.AddSingleton<OpenAiService>();
+
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(c =>
         {

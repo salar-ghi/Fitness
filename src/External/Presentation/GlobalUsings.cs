@@ -14,4 +14,5 @@ global using Application.Interfaces.AI;
 global using Infrastructure.Services.AI;
 global using Microsoft.AspNetCore.Identity;
 global using Microsoft.EntityFrameworkCore;
+global using System.Diagnostics.CodeAnalysis;
 global using Microsoft.Extensions.Diagnostics.HealthChecks;

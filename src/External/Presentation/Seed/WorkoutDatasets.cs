@@ -1,8 +1,4 @@
-﻿using Domain.UoW;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-
-namespace Presentation.Seed;
+﻿namespace Presentation.Seed;
 
 public class WorkoutDatasets
 {
@@ -109,42 +105,42 @@ public class WorkoutDatasets
 
             // Shoulders
             //Index => 31
-            new Workout { Id = 32, Name = "Barbell Overhead Press", Description ="A primary shoulder exercise that also engages the core.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Overhead Press", Description ="A primary shoulder exercise that also engages the core.", SportId= bodyBuildingId },
             //Index => 32
-            new Workout { Id = 33, Name = "Barbell Upright Row", Description ="Targets the shoulders and traps by lifting the bar to chin height.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Upright Row", Description ="Targets the shoulders and traps by lifting the bar to chin height.", SportId= bodyBuildingId },
             //Index => 33
-            new Workout { Id = 34, Name = "Barbell Front Raise", Description ="Isolates the front deltoids by lifting the bar in front of you.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Front Raise", Description ="Isolates the front deltoids by lifting the bar in front of you.", SportId= bodyBuildingId },
 
             // Arms
             //Index => 34
-            new Workout { Id = 35, Name = "Barbell Bicep Curl", Description ="A staple for building bicep mass.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Bicep Curl", Description ="A staple for building bicep mass.", SportId= bodyBuildingId },
             //Index => 35
-            new Workout { Id = 36, Name = "Close-Grip Barbell Bench Press", Description ="Primarily targets the triceps while also engaging the chest.", SportId= bodyBuildingId },
+            new Workout { Name = "Close-Grip Barbell Bench Press", Description ="Primarily targets the triceps while also engaging the chest.", SportId= bodyBuildingId },
             //Index => 36
-            new Workout { Id = 37, Name = "Skull Crushers", Description ="Focuses on triceps development using a barbell.", SportId= bodyBuildingId },
+            new Workout { Name = "Skull Crushers", Description ="Focuses on triceps development using a barbell.", SportId= bodyBuildingId },
                 
             // Core Workouts
             //Index => 37
-            new Workout { Id = 38, Name = "Barbell Squat", Description ="A fundamental exercise for overall leg development.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Squat", Description ="A fundamental exercise for overall leg development.", SportId= bodyBuildingId },
             //Index => 38
-            new Workout { Id = 39, Name = "Barbell Deadlift (Conventional)", Description ="Engages hamstrings, glutes, and lower back.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Deadlift (Conventional)", Description ="Engages hamstrings, glutes, and lower back.", SportId= bodyBuildingId },
             //Index => 39
-            new Workout { Id = 40, Name = "Barbell Lunges", Description ="Targets quads and glutes; can be performed forward or backward.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Lunges", Description ="Targets quads and glutes; can be performed forward or backward.", SportId= bodyBuildingId },
             //Index => 40
-            new Workout { Id = 41, Name = "Barbell Romanian Deadlift", Description ="Focuses on hamstrings and glutes with a hip hinge movement.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Romanian Deadlift", Description ="Focuses on hamstrings and glutes with a hip hinge movement.", SportId= bodyBuildingId },
 
             // Lower Body Workouts
             //Index => 41
-            new Workout { Id = 42, Name = "Barbell Rollout", Description ="Engages core muscles through an extended rollout motion.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Rollout", Description ="Engages core muscles through an extended rollout motion.", SportId= bodyBuildingId },
             //Index => 42
-            new Workout { Id = 43, Name = "Landmine Anti-Rotation Press", Description ="Strengthens core stability while pressing a barbell anchored at one end.", SportId= bodyBuildingId },
+            new Workout { Name = "Landmine Anti-Rotation Press", Description ="Strengthens core stability while pressing a barbell anchored at one end.", SportId= bodyBuildingId },
 
 
             // Full Body Workouts
             //Index => 43
-            new Workout { Id = 44, Name = "Barbell Clean and Press", Description ="A dynamic movement that works multiple muscle groups including legs, back, shoulders, and arms.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Clean and Press", Description ="A dynamic movement that works multiple muscle groups including legs, back, shoulders, and arms.", SportId= bodyBuildingId },
             //Index => 44
-            new Workout { Id = 45, Name = "Barbell Thruster", Description =" Thruster: Combines a front squat with an overhead press for a full-body workout.", SportId= bodyBuildingId },
+            new Workout { Name = "Barbell Thruster", Description =" Thruster: Combines a front squat with an overhead press for a full-body workout.", SportId= bodyBuildingId },
 
             #endregion
 
@@ -1523,11 +1519,8 @@ public class WorkoutDatasets
             new Workout { Id = 600, Name ="Horizontal Cable Woodchop", Description = "", SportId = bodyBuildingId},
             #endregion
 
-            };
 
-        // Workouts according to Body...
-        workouts = new List<Workout>
-        {
+            // Workouts according to Body...
             #region Pectoralis Major
             // 
             // Index => 600
@@ -2126,53 +2119,105 @@ public class WorkoutDatasets
             #endregion
         };
 
-        await context.Workouts.AddRangeAsync(workouts);
+        //await context.Workouts.AddRangeAsync(workouts);
         //await context.SaveChangesAsync();
 
-        var instructions = new List<WorkoutInstruction>
-        {
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 1, Instruction = "Lie flat on a bench, holding a dumbbell in each hand at chest level, palms facing forward." },
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 2, Instruction = "Plant your feet firmly on the ground and engage your core." },
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 3, Instruction = "Press the dumbbells upward until your arms are fully extended, keeping them slightly bent at the top." },
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 4, Instruction = "Slowly lower the dumbbells back to chest level, maintaining control." },
-            new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 5, Instruction = "Repeat for desired reps, keeping movements smooth and controlled." },
+        //var instructions = new List<WorkoutInstruction>
+        //{
+        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 1, Instruction = "Lie flat on a bench, holding a dumbbell in each hand at chest level, palms facing forward." },
+        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 2, Instruction = "Plant your feet firmly on the ground and engage your core." },
+        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 3, Instruction = "Press the dumbbells upward until your arms are fully extended, keeping them slightly bent at the top." },
+        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 4, Instruction = "Slowly lower the dumbbells back to chest level, maintaining control." },
+        //    new WorkoutInstruction { WorkoutId = workouts[0].Id, Step= 5, Instruction = "Repeat for desired reps, keeping movements smooth and controlled." },
 
-            new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "" },
+        //    new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "Setup: Lie on a flat bench, holding a dumbbell in each hand. Extend arms above your chest, palms facing each other, elbows slightly bent." },
+        //    new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 2, Instruction = "Lowering Phase: Slowly lower the dumbbells in a wide arc to your sides, keeping elbows slightly bent, until you feel a stretch in your chest." },
+        //    new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 3, Instruction = "Lifting Phase: Contract your chest muscles to bring the dumbbells back up in the same arc to the starting position, keeping arms extended." },
+        //    new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 4, Instruction = "Repeat: Perform the movement for the desired reps, maintaining control and a slight bend in the elbows throughout." },
 
-            new WorkoutInstruction { WorkoutId = workouts[1].Id, Step= 1, Instruction = "" }
-        };
-        await context.WorkoutInstructions.AddRangeAsync(instructions);
-        await context.SaveChangesAsync();
+        //    new WorkoutInstruction { WorkoutId = workouts[2].Id, Step= 1, Instruction = "Setup: Lie on your back on the floor, knees bent and feet flat. Hold a dumbbell in each hand, positioned above your chest with palms facing forward." },
+        //    new WorkoutInstruction { WorkoutId = workouts[2].Id, Step= 2, Instruction = "Lowering Phase: Slowly lower the dumbbells by bending your elbows, bringing your upper arms toward the floor until they lightly touch or hover just above." },
+        //    new WorkoutInstruction { WorkoutId = workouts[2].Id, Step= 3, Instruction = "Pressing Phase: Push the dumbbells back up to the starting position by extending your elbows, contracting your chest and triceps." },
+        //    new WorkoutInstruction { WorkoutId = workouts[2].Id, Step= 4, Instruction = "Repeat: Perform the movement for the desired reps, keeping your movements controlled and maintaining a neutral wrist position." },
 
-        //**************************
-        var workoutEquipment = new List<WorkoutEquipment>();
-        workoutEquipment = new List<WorkoutEquipment>
-        {
+        //    new WorkoutInstruction { WorkoutId = workouts[3].Id, Step= 1, Instruction = "Setup: Stand with feet shoulder-width apart, holding a dumbbell in each hand. Bend at the hips, keeping your back straight, until your torso is nearly parallel to the floor." },
+        //    new WorkoutInstruction { WorkoutId = workouts[3].Id, Step= 2, Instruction = "Starting Position: Let the dumbbells hang at arm’s length, palms facing each other, with shoulders relaxed." },
+        //    new WorkoutInstruction { WorkoutId = workouts[3].Id, Step= 3, Instruction = "Pulling Phase: Pull the dumbbells toward your hips, bending your elbows and squeezing your shoulder blades together, keeping your arms close to your body." },
+        //    new WorkoutInstruction { WorkoutId = workouts[3].Id, Step= 4, Instruction = "Lowering Phase: Slowly lower the dumbbells back to the starting position, maintaining control and keeping your back straight throughout." },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[4].Id, Step= 1, Instruction = "Setup: Lie on a flat bench with your upper back and shoulders supported, feet flat on the floor. Hold one dumbbell with both hands, cupping the top end, and extend your arms above your chest." },
+        //    new WorkoutInstruction { WorkoutId = workouts[4].Id, Step= 2, Instruction = "Lowering Phase: Slowly lower the dumbbell in an arc over your head toward the floor, keeping a slight bend in your elbows and feeling a stretch in your chest and lats." },
+        //    new WorkoutInstruction { WorkoutId = workouts[4].Id, Step= 3, Instruction = "Pulling Phase: Engage your lats and chest to pull the dumbbell back to the starting position above your chest, following the same arc." },
+        //    new WorkoutInstruction { WorkoutId = workouts[4].Id, Step= 4, Instruction = "Repeat: Perform the movement for the desired reps, maintaining control and a slight elbow bend throughout." },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[5].Id, Step= 1, Instruction = "Setup: Lie on a flat bench with your upper back and shoulders supported, feet flat on the floor. Hold one dumbbell with both hands, cupping the top end, and extend your arms above your chest." },
+        //    new WorkoutInstruction { WorkoutId = workouts[5].Id, Step= 2, Instruction = "Lowering Phase: Slowly lower the dumbbell in an arc over your head toward the floor, keeping a slight bend in your elbows and feeling a stretch in your chest and lats." },
+        //    new WorkoutInstruction { WorkoutId = workouts[5].Id, Step= 3, Instruction = "Pulling Phase: Engage your lats and chest to pull the dumbbell back to the starting position above your chest, following the same arc." },
+        //    new WorkoutInstruction { WorkoutId = workouts[5].Id, Step= 4, Instruction = "Repeat: Perform the movement for the desired reps, maintaining control and a slight elbow bend throughout." },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[6].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[7].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[8].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[9].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[10].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[11].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[12].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[13].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[14].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[15].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[16].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[17].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[18].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[19].Id, Step= 1, Instruction = "" },
+            
+        //    new WorkoutInstruction { WorkoutId = workouts[20].Id, Step= 1, Instruction = "" },
+        //};
+        //await context.WorkoutInstructions.AddRangeAsync(instructions);
+        //await context.SaveChangesAsync();
 
-        };
-        await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
-        await context.SaveChangesAsync();
-        //**************************
-        var workoutLevel = new List<WorkoutLevel>();
-        workoutLevel = new List<WorkoutLevel>
-        {
+        ////**************************
+        //var workoutEquipment = new List<WorkoutEquipment>();
+        //workoutEquipment = new List<WorkoutEquipment>
+        //{
 
-        };
-        await context.WorkoutLevels.AddRangeAsync(workoutLevel);
-        await context.SaveChangesAsync();
+        //};
+        //await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
+        //await context.SaveChangesAsync();
+        ////**************************
+        //var workoutLevel = new List<WorkoutLevel>();
+        //workoutLevel = new List<WorkoutLevel>
+        //{
+        //    new WorkoutLevel{ WorkoutId = workouts[4].Id , Level = Difficulty.Intermediate },
+        //    new WorkoutLevel{ WorkoutId = workouts[5].Id , Level = Difficulty.Intermediate },
+        //};
+        //await context.WorkoutLevels.AddRangeAsync(workoutLevel);
+        //await context.SaveChangesAsync();
 
-        // ***************************************************************** //
-        var bodyWorkouts = new List<BodyWorkout>();
-        var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
-        var longHeadBicepId = await context.Bodies.Where(z => z.Name == "Long Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
-        var shortHeadBicepId = await context.Bodies.Where(z => z.Name == "Short Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
+        //// ***************************************************************** //
+        //var bodyWorkouts = new List<BodyWorkout>();
+        //var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
+        //var longHeadBicepId = await context.Bodies.Where(z => z.Name == "Long Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
+        //var shortHeadBicepId = await context.Bodies.Where(z => z.Name == "Short Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
 
-        bodyWorkouts = new List<BodyWorkout>
-        {
+        //bodyWorkouts = new List<BodyWorkout>
+        //{
 
-        };
-        await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
-        await context.SaveChangesAsync();
+        //};
+        //await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
+        //await context.SaveChangesAsync();
 
         return workouts;
     }
