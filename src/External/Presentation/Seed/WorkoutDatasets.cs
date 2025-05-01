@@ -2255,17 +2255,3 @@ public class WorkoutDatasets
     }
 
 }
-
-
-public class WorkoutEqualityComparer : IEqualityComparer<Workout>
-{
-    public bool Equals(Workout? x, Workout? y)
-    {
-        return x.Name == y.Name;
-    }
-
-    public int GetHashCode([DisallowNull] Workout obj)
-    {
-        return obj.Name.GetHashCode();
-    }
-}

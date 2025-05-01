@@ -1,4 +1,5 @@
 ﻿using Presentation.Services;
+using System.Net.Http.Headers;
 
 namespace Presentation;
 
@@ -13,7 +14,7 @@ public class Startup
     public async void ConfigureServices(IServiceCollection services)
     {
         //services.AddExceptionHandler<GlobalErrorHandler>();
-        services.AddHttpClient();
+        //services.AddHttpClient();
         services.AddProblemDetails();
 
         var connectionString = Configuration.GetConnectionString("DefaultConnection");
@@ -44,6 +45,19 @@ public class Startup
         services.AddControllers();
         services.AddSingleton<GrokService>();
         services.AddSingleton<OpenAiService>();
+        services.AddHttpClient<IDeepSeekService, DeepSeekService>((provider, client) =>
+        {
+            var config = provider.GetRequiredService<IConfiguration>();
+            client.BaseAddress = new Uri("https://api.deepseek.com/"); // Versioned endpoint
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
+                "Bearer",
+                config["DeepSeek:ApiKey"]
+            );
+            client.DefaultRequestHeaders.Add("Accept", "application/json");
+        });
+
+
+        //services.AddSingleton<IDeepSeekService, DeepSeekService>();
 
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(c =>
