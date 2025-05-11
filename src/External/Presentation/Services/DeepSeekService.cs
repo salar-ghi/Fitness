@@ -1,4 +1,4 @@
-﻿using System.Net.Http;
+﻿using OpenAI;
 using System.Text.Json.Serialization;
 
 namespace Presentation.Services;
@@ -13,13 +13,14 @@ public class DeepSeekService : IDeepSeekService
     private readonly HttpClient _httpClient;
     private readonly ILogger<DeepSeekService> _logger;
 
-
+    private readonly OpenAIClient _client;
     public DeepSeekService(HttpClient httpClient,
-        ILogger<DeepSeekService> logger)
+        ILogger<DeepSeekService> logger, OpenAIClient client)
     {
         _httpClient = httpClient;
         //_httpClient = httpClientFactory.CreateClient();
         _logger = logger;
+        _client = client;
     }
 
     public async Task<string> GetResponseAsync(string prompt)
@@ -27,18 +28,20 @@ public class DeepSeekService : IDeepSeekService
         try
         {
             const string endpointPath = "chat/completions";
-            var request = new DeepSeekRequest
+            var request = new List<DeepSeekRequest>
             {
-                Messages =
+                new ()
                 {
-                    new ChatMessage
+                    Messages =
                     {
-                        Role = "user",
-                        Content = prompt
+                        new ChatMessage
+                        {
+                            Role = "user",
+                            Content = prompt
+                        }
                     }
                 }
             };
-
             var response = await _httpClient.PostAsJsonAsync(endpointPath, request);
             response.EnsureSuccessStatusCode();
 
@@ -58,7 +61,9 @@ public class DeepSeekService : IDeepSeekService
 public class DeepSeekRequest
 {
     [JsonPropertyName("model")]
-    public string Model { get; set; } = "deepseek-lite";
+    //public string Model { get; set; } = "deepseek-chat-lite";
+
+    public string Model { get; set; } = "deepseek-reasoner";
 
     //public string Model { get; set; } = "deepseek-r1";
 

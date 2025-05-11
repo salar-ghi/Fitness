@@ -1,4 +1,5 @@
-﻿using Presentation.Services;
+﻿using OpenAI;
+using Presentation.Services;
 using System.Net.Http.Headers;
 
 namespace Presentation;
@@ -43,21 +44,23 @@ public class Startup
             new HealthCheckResult(HealthStatus.Healthy, "Ollama server is running"));
 
         services.AddControllers();
-        services.AddSingleton<GrokService>();
-        services.AddSingleton<OpenAiService>();
-        services.AddHttpClient<IDeepSeekService, DeepSeekService>((provider, client) =>
-        {
-            var config = provider.GetRequiredService<IConfiguration>();
-            client.BaseAddress = new Uri("https://api.deepseek.com/"); // Versioned endpoint
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
-                "Bearer",
-                config["DeepSeek:ApiKey"]
-            );
-            client.DefaultRequestHeaders.Add("Accept", "application/json");
-        });
+        //services.AddSingleton<GrokService>();
+        //services.AddSingleton<OpenAiService>();
 
+        //services.AddHttpClient<IDeepSeekService, DeepSeekService>((provider, client) =>
+        //{
+        //    client.Timeout = TimeSpan.FromSeconds(30);
+        //    client.DefaultRequestHeaders.Accept.Add(
+        //        new MediaTypeWithQualityHeaderValue("application/json"));
 
-        //services.AddSingleton<IDeepSeekService, DeepSeekService>();
+        //    var config = provider.GetRequiredService<IConfiguration>();
+        //    client.BaseAddress = new Uri("https://api.deepseek.com/"); // Versioned endpoint
+        //    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
+        //        "Bearer",
+        //        config["DeepSeek:ApiKey"]
+        //    );
+        //    client.DefaultRequestHeaders.Add("Accept", "application/json");
+        //});
 
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(c =>

@@ -1,6 +1,4 @@
-﻿using OpenAI_API.Completions;
-using OpenAI_API;
-using System.Text.Json;
+﻿using System.Text.Json;
 
 namespace Presentation.Services;
 
@@ -8,7 +6,7 @@ public class OpenAiService
 {
 
 
-    private readonly OpenAIAPI _openAiApi;
+    //private readonly OpenAIAPI _openAiApi;
     private readonly HttpClient _client;
     private readonly string _apiBaseUrl;
 
@@ -23,11 +21,7 @@ public class OpenAiService
 
     public async Task<string> AskQuestionAsync(string question)
     {
-        var completionRequest = new CompletionRequest
-        {
-            Prompt = question,
-            Model = "gpt-o4-mini",
-        };
+        
         var requestBody = new
         {
             model = "gpt-3.5-turbo",
