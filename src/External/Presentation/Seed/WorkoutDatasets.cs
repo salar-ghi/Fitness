@@ -1,18 +1,18 @@
-﻿using System.Text.Json;
+﻿using Microsoft.IdentityModel.Tokens;
 
 namespace Presentation.Seed;
 
-public class WorkoutDatasets
+public static class WorkoutDatasets
 {
-    private readonly FitnessContext context;
-    public WorkoutDatasets(FitnessContext _context)
-    {
-        context = _context;
-    }
+    //private readonly FitnessContext context;
+    //public WorkoutDatasets(FitnessContext _context)
+    //{
+    //    context = _context;
+    //}
 
-    public async Task<List<Workout>> WorkoutSeedAsync()
+    public static async Task<List<Workout>> WorkoutSeedAsync()
     {
-
+        using var context = new FitnessContext();
         var workouts = new List<Workout>();
         var bodyBuildingId = await context.Sports.AsNoTracking().Where(z => z.Name == "Body Building").Select(z => z.Id).FirstOrDefaultAsync();
 
@@ -2103,19 +2103,19 @@ public class WorkoutDatasets
     }
 
 
-    public async Task duplicateWorkouts()
+    public static async Task duplicateWorkouts()
     {
         var workouts = await WorkoutSeedAsync();
         var duplicateWorkouts = workouts.GroupBy(z => z.Name)
             .Where(g => g.Count() > 1)
             .SelectMany(z => z.Skip(1))
-            .ToList();
+            .ToList(); // ==> 
 
-        var dupName = duplicateWorkouts.Select(z => z.Name).ToList();
+        var dupName = duplicateWorkouts.Select(z => z.Name).ToList(); // ==> 
 
         var json = JsonSerializer.Serialize(dupName, new JsonSerializerOptions { WriteIndented = true });
         var filePath = Path.Combine(Directory.GetCurrentDirectory(), "listItems.json");
-        System.IO.File.WriteAllText(filePath, json);
+        File.WriteAllText(filePath, json);
 
 
         Console.Clear();
@@ -2127,22 +2127,31 @@ public class WorkoutDatasets
         var uniqueSeedWorkouts = workouts
             .GroupBy(x => x.Name)
             .Select(g => g.First())
-            .ToList();
+            .ToList(); // ==> 
 
-        var workoutNames = uniqueSeedWorkouts.Select(x => x.Name).ToList();
-        var existingWorkouts = await context.Workouts
-            .Where(w => workoutNames.Contains(w.Name))
-            .ToListAsync();
-        var exisname = existingWorkouts.Select(z => z.Name).ToList();
+        using var context = new FitnessContext();
+        //var backWorkouts = BackWorkoutDbInitializer.BackWorkoutSeedAsync(context);
+        List<Workout> backWorkouts = await BackWorkoutDbInitializer.BackWorkoutSeedAsync(context);
 
-        var dbJson = JsonSerializer.Serialize(exisname, new JsonSerializerOptions { WriteIndented = true });
-        var dbfilePath = Path.Combine(Directory.GetCurrentDirectory(), "dbItems.json");
-        System.IO.File.WriteAllText(dbfilePath, dbJson);
+        //var comapreWorkoutToBacks = 
 
-        foreach (var item in exisname)
-        {
-            Console.WriteLine($"existing Workouts => {item}");
-        }
+
+        // // ==> Get data from database then compare,
+        //var workoutNames = uniqueSeedWorkouts.Select(x => x.Name).ToList();
+        //var existingWorkouts = await context.Workouts
+        //    .Where(w => workoutNames.Contains(w.Name))
+        //    .ToListAsync();
+        //var exisname = existingWorkouts.Select(z => z.Name).ToList();
+
+        //var dbJson = JsonSerializer.Serialize(exisname, new JsonSerializerOptions { WriteIndented = true });
+        //var dbfilePath = Path.Combine(Directory.GetCurrentDirectory(), "dbItems.json");
+        //File.WriteAllText(dbfilePath, dbJson);
+        //foreach (var item in exisname)
+        //{
+        //    Console.WriteLine($"existing Workouts => {item}");
+        //}
+
+
     }
 
 }

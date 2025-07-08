@@ -3,6 +3,7 @@ global using Presentation;
 global using Domain.Enums;
 global using Domain.Models;
 global using Infrastructure;
+global using System.Text.Json;
 global using Application.DTOs;
 global using Presentation.Seed;
 global using Infrastructure.Context;

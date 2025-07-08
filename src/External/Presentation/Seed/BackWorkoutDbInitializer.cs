@@ -2,7 +2,7 @@
 
 public static class BackWorkoutDbInitializer
 {
-    public static async Task BackWorkoutSeedAsync(FitnessContext context)
+    public static async Task<List<Workout> BackWorkoutSeedAsync(FitnessContext context)
     {
         var backWorkouts = new List<Workout>();
         
@@ -282,12 +282,10 @@ public static class BackWorkoutDbInitializer
             new Workout{ Name = "Happy Baby", SportId = yogaSportId, Description = "" },                                                // index => 207
             new Workout{ Name = "Sphinx Pose", SportId = yogaSportId, Description = "" },                                               // index => 208
             new Workout{ Name = "Cobra Pose", SportId = yogaSportId, Description = "" },                                                // index => 209
-
-            new Workout{ Name = "", SportId = yogaSportId, Description = "" },                           // index => 210
-
         };
-        await context.Workouts.AddRangeAsync(backWorkouts);
-        await context.SaveChangesAsync();
+        return backWorkouts;
+        //await context.Workouts.AddRangeAsync(backWorkouts);
+        //await context.SaveChangesAsync();
 
         // ***************************************************************** //
         var backWorkoutInstruction = new List<WorkoutInstruction>();
@@ -1233,8 +1231,8 @@ public static class BackWorkoutDbInitializer
 
 
         };
-        await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
-        await context.SaveChangesAsync();
+        //await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
+        //await context.SaveChangesAsync();
 
 
         // ***************************************************************** //
@@ -2594,7 +2592,7 @@ public static class BackWorkoutDbInitializer
             new WorkoutSex{ WorkoutId = backWorkouts[209].Id, Sex = Sex.Female},
             #endregion
         };
-        await context.WorkoutSex.AddRangeAsync(workoutSex);
-        await context.SaveChangesAsync();
+        //await context.WorkoutSex.AddRangeAsync(workoutSex);
+        //await context.SaveChangesAsync();
     }
 }
