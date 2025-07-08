@@ -1,4 +1,4 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.OpenApi.Extensions;
 
 namespace Presentation.Seed;
 
@@ -12,7 +12,10 @@ public static class WorkoutDatasets
 
     public static async Task<List<Workout>> WorkoutSeedAsync()
     {
-        using var context = new FitnessContext();
+        var optionsBuilder = new DbContextOptionsBuilder<FitnessContext>();
+        optionsBuilder.UseSqlServer("Server=.;Initial Catalog=FitnessPlan;User Id=sa;Password=1234512345;MultipleActiveResultSets=true;TrustServerCertificate=True");
+
+        using var context = new FitnessContext(optionsBuilder.Options);
         var workouts = new List<Workout>();
         var bodyBuildingId = await context.Sports.AsNoTracking().Where(z => z.Name == "Body Building").Select(z => z.Id).FirstOrDefaultAsync();
 
@@ -2129,11 +2132,22 @@ public static class WorkoutDatasets
             .Select(g => g.First())
             .ToList(); // ==> 
 
-        using var context = new FitnessContext();
+        var optionsBuilder = new DbContextOptionsBuilder<FitnessContext>();
+        optionsBuilder.UseSqlServer("Server=.;Initial Catalog=FitnessPlan;User Id=sa;Password=1234512345;MultipleActiveResultSets=true;TrustServerCertificate=True");
+
+        using var context = new FitnessContext(optionsBuilder.Options);
         //var backWorkouts = BackWorkoutDbInitializer.BackWorkoutSeedAsync(context);
         List<Workout> backWorkouts = await BackWorkoutDbInitializer.BackWorkoutSeedAsync(context);
 
-        //var comapreWorkoutToBacks = 
+        var backs = backWorkouts.Select(z => z.Name).ToList();
+
+        var comapreWorkoutToBacks = dupName.Intersect(backs).Any();
+        
+        var test2 = dupName.Any(m => backs.Any(m2 => m2));
+
+        var dbjson = JsonSerializer.Serialize(comapreWorkoutToBacks, new JsonSerializerOptions { WriteIndented = true });
+        var dbfilepath = Path.Combine(Directory.GetCurrentDirectory(), "dbitems.json");
+        File.WriteAllText(dbfilepath, dbjson);
 
 
         // // ==> Get data from database then compare,

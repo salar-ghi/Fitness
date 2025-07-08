@@ -48,7 +48,7 @@ public static class BodyDbInitializer
                 new Body { Name = "Forearms", Description = "The forearm is the section of the upper limb from the elbow to the wrist, whose bony structure is formed by the radius (laterally) and ulna (medially)" },
                 new Body { Name = "Wrists", Description = "" },
                 new Body { Name = "Wrist Extensors", Description = "The Extensor Tendon Compartments of the Wrist. They are located on the posterior aspect of the wrist. Each tunnel is lined internally by a synovial sheath and separated from one another by fibrous septa." },
-                new Body { Name = "Wrist Flexors", Description = "The flexor carpi radialis muscle is a long, superficial muscle of the forearm that belongs to the anterior muscle group and lies in the first layer. It is a relatively thin muscle located on the anterior part of the forearm. It arises in the humerus epicondyle, close to the wrist area.\r\n" },
+                new Body { Name = "Wrist Flexors", Description = "The flexor carpi radialis muscle is a long, superficial muscle of the forearm that belongs to the anterior muscle group and lies in the first layer. It is a relatively thin muscle located on the anterior part of the forearm. It arises in the humerus epicondyle, close to the wrist area." },
                 
                 new Body { Name = "Rectus Abdominis", Description = "The rectus abdominis muscles are located in the paramedian region of the anterior abdominal wall. Each muscle originates from the pubis and inserts into 5th, 6th and 7th ribs and the xyphoid process." },
                 new Body { Name = "Upper Abdominals", Description = "Your upper abdomen is the area of your belly roughly between your ribs and your belly button. Healthcare providers divide the abdomen into regions to help narrow down the many possible causes of abdominal pain. If you have upper abdominal pain, it's more likely to be related to the organs in that region."},
@@ -76,9 +76,6 @@ public static class BodyDbInitializer
             };
             await context.Bodies.AddRangeAsync(bodies);
             await context.SaveChangesAsync();
-
         }
     }
-
-
 }
