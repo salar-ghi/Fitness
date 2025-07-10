@@ -38,7 +38,7 @@ public class Startup
         var secretKey = Encoding.UTF8.GetBytes(jwtConfig["Secret"]);
 
         services.AddInfrastructure(Configuration);
-        services.AddScoped<WorkoutDatasets>();
+        //services.AddScoped<WorkoutDatasets>();
 
         services.AddHealthChecks().AddCheck("Ollama Server", () =>
             new HealthCheckResult(HealthStatus.Healthy, "Ollama server is running"));

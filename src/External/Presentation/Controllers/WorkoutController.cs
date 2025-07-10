@@ -6,19 +6,23 @@ namespace Presentation.Controllers;
 [ApiController]
 public class WorkoutController : ControllerBase
 {
-    private readonly WorkoutDatasets workoutDatasets;
+    //private readonly WorkoutDatasets workoutDatasets;
 
-    public WorkoutController(WorkoutDatasets _workoutDatasets)
+    //public WorkoutController(WorkoutDatasets _workoutDatasets)
+    //{
+    //    workoutDatasets = _workoutDatasets;
+    //}
+
+    public WorkoutController()
     {
-        workoutDatasets = _workoutDatasets;
+        
     }
-
 
     [HttpGet("workout duplication")]
     public async Task<IActionResult> IndexWorkouts()
     {
         //var dataSet = await workoutDatasets.WorkoutSeedAsync();
-        await workoutDatasets.duplicateWorkouts();
+        await WorkoutDatasets.duplicateWorkouts();
         return Ok();
     }
 

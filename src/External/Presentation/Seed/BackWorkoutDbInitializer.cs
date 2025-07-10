@@ -2,7 +2,7 @@
 
 public static class BackWorkoutDbInitializer
 {
-    public static async Task<List<Workout> BackWorkoutSeedAsync(FitnessContext context)
+    public static async Task<List<Workout>> BackWorkoutSeedAsync(FitnessContext context)
     {
         var backWorkouts = new List<Workout>();
         

@@ -1,6 +1,4 @@
-﻿using Microsoft.OpenApi.Extensions;
-
-namespace Presentation.Seed;
+﻿namespace Presentation.Seed;
 
 public static class WorkoutDatasets
 {
@@ -2140,10 +2138,23 @@ public static class WorkoutDatasets
         List<Workout> backWorkouts = await BackWorkoutDbInitializer.BackWorkoutSeedAsync(context);
 
         var backs = backWorkouts.Select(z => z.Name).ToList();
-
-        var comapreWorkoutToBacks = dupName.Intersect(backs).Any();
+        var workoutNames = workouts.Select(z => z.Name).ToList();
+        var comapreWorkoutToBacks = workoutNames.Intersect(backs).ToList();
         
-        var test2 = dupName.Any(m => backs.Any(m2 => m2));
+        var compareSecond = workoutNames.Where(item => backs.Contains(item, StringComparer.OrdinalIgnoreCase)).Distinct().ToList();
+        
+        var set2 = new HashSet<string>(backs, StringComparer.OrdinalIgnoreCase);
+        var duplicateNames = backs
+            .GroupBy(s => s, StringComparer.OrdinalIgnoreCase)
+            .Where(g => g.Count() > 1)
+            .SelectMany(g => g.Skip(1)) // Skip first occurrence in each group
+            .ToList();
+
+        var duplicateJson = JsonSerializer.Serialize(duplicateNames, new JsonSerializerOptions { WriteIndented = true });
+        var duplicatefilepath = Path.Combine(Directory.GetCurrentDirectory(), "duplicateitems.json");
+        File.WriteAllText(duplicatefilepath, duplicateJson);
+
+        var duplicates = workoutNames.Where(set2.Contains).Distinct().ToList();
 
         var dbjson = JsonSerializer.Serialize(comapreWorkoutToBacks, new JsonSerializerOptions { WriteIndented = true });
         var dbfilepath = Path.Combine(Directory.GetCurrentDirectory(), "dbitems.json");
