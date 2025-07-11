@@ -2,6 +2,7 @@
 
 public static class BicepsWorkoutDbInitializer
 {
+    // Biceps // Long Head Bicep // Short Head Bicep
     public static async Task BicepsWorkoutSeedAsync(FitnessContext context)
     {
         //using var transactions = await context.Database.BeginTransactionAsync();
