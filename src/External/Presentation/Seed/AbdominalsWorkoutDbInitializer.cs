@@ -51,6 +51,19 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Plate Hollow Hold", SportId = bodybuildingId, Description = "" },                                      // index => 21
             new Workout{ Name = "Weighted Plank Up Down", SportId = bodybuildingId, Description = "" },                                 // index => 22
 
+            // Abdominals // Bosu-Ball
+            new Workout{ Name = "Bosu Ball Forearm Plank", SportId = bodybuildingId, Description = "" },                                // index => 23
+            new Workout{ Name = "Bosu Ball Hand Plank", SportId = bodybuildingId, Description = "" },                                   // index => 24
+            new Workout{ Name = "Bosu Ball Plank Glute Kickback", SportId = bodybuildingId, Description = "" },                         // index => 25
+            new Workout{ Name = "Bosu Ball Situp", SportId = bodybuildingId, Description = "" },                                        // index => 26
+            new Workout{ Name = "Bosu Ball Toe Tap", SportId = bodybuildingId, Description = "" },                                      // index => 27
+            new Workout{ Name = "Bosu Ball Up And Over", SportId = bodybuildingId, Description = "" },                                  // index => 28
+            new Workout{ Name = "Bosu Ball Walkover Pushup", SportId = bodybuildingId, Description = "" },                              // index => 29
+
+            // Abdominals // Smith-Machine
+            new Workout{ Name = "Smith Machine Hanging Knee Tuck", SportId = bodybuildingId, Description = "" },                        // index => 30
+            new Workout{ Name = "Smith Machine Reverse Crunch Hip Raise", SportId = bodybuildingId, Description = "" },                 // index => 31
+            new Workout{ Name = "Smith Machine Situp", SportId = bodybuildingId, Description = "" },                                    // index => 32
 
         };
         await context.Workouts.AddRangeAsync(Workouts);
@@ -159,8 +172,51 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 2 , Instruction = "Go to one elbow then the other. Try to avoid rocking back and forth."},
             #endregion
 
-            new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 1 , Instruction = ""},
+            #region Abdominals && Bosu-Ball
+            new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 1 , Instruction = "Place forearms on Bosu, elbows under shoulders."},
+            new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 2 , Instruction = "Extend legs, keeping body straight."},
+            new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 3 , Instruction = "Hold the plank position, engaging core."},
 
+            new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 1 , Instruction = "Place hands on Bosu, shoulder-width apart."},
+            new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 2 , Instruction = "Extend legs, keeping body straight."},
+            new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 3 , Instruction = "Hold the plank position, engaging core."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 1 , Instruction = "Start in a plank position with Bosu under feet."},
+            new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 2 , Instruction = "Lift one leg back, squeezing glutes."},
+            new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 3 , Instruction = "Lower the leg back down and switch sides."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 1 , Instruction = "Lie on back, bosu elevated toward the ceiling."},
+            new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 2 , Instruction = "Sit up, engaging core muscles."},
+            new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 3 , Instruction = "Lower back down to complete one situp."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 1 , Instruction = "Stand in front of a low box."},
+            new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 2 , Instruction = "Bring one foot to the edge of the box and alternate as quickly as possible."},
+            new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 3 , Instruction = "Only lightly tap your feet to the box."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 1 , Instruction = "Stand next to Bosu, step up and over it."},
+            new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 2 , Instruction = "Repeat, moving laterally side to side."},
+            new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 3 , Instruction = "Keep a steady pace, engaging core muscles."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 1 , Instruction = "Place both hands on Bosu, wider than shoulder-width."},
+            new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 2 , Instruction = "Perform a pushup, then walk hands to the other side."},
+            new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 3 , Instruction = "Perform another pushup, repeat back and forth."},
+            #endregion
+
+            #region Abdominals && Smith-Machine
+            new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 1 , Instruction = "Put a hip thrust pad on the smith machine bar at neck height. Put both arms over the bar and pull your feet off the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 2 , Instruction = "Pull your knees to your chest and flex your abs."},
+            
+            new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 1 , Instruction = "Lay flat on the ground. With your feet on the bar."},
+            new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 2 , Instruction = "Lift your hips off the ground."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 1 , Instruction = "Set up the Smith machine bar at an appropriate height."},
+            new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 2 , Instruction = "Lie on your back beneath the bar, gripping it with your hands."},
+            new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 3 , Instruction = "Engage your core, lift your upper body toward the bar, and exhale."},
+            new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 4 , Instruction = "Lower your upper body back down in a controlled manner, inhaling."},
+            
+            #endregion
+
+            new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 1 , Instruction = ""},
 
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
@@ -225,6 +281,22 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[22].Id, EquipmentId = plateId },
             #endregion
 
+            #region Abdominals && Bosu-Ball
+            new WorkoutEquipment{ WorkoutId = Workouts[23].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[24].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[25].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[26].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[27].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[28].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[29].Id, EquipmentId = bosuballId },
+            #endregion
+
+            #region Abdominals && Smith-Machine
+            new WorkoutEquipment{ WorkoutId = Workouts[30].Id, EquipmentId = smithMachineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[31].Id, EquipmentId = smithMachineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[32].Id, EquipmentId = smithMachineId },
+            #endregion
+
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
         await context.SaveChangesAsync();
@@ -266,6 +338,23 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[21].Id , Level = Difficulty.Advanced},
             new WorkoutLevel{ WorkoutId = Workouts[22].Id , Level = Difficulty.Beginner},
             #endregion
+
+            #region Abdominals && Bosu-Ball
+            new WorkoutLevel{ WorkoutId = Workouts[23].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[24].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[25].Id , Level = Difficulty.Intermediate},
+            new WorkoutLevel{ WorkoutId = Workouts[26].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[27].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[28].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[29].Id , Level = Difficulty.Intermediate},
+            #endregion
+
+            #region Abdominals && Smith-Machine
+            new WorkoutLevel{ WorkoutId = Workouts[30].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[31].Id , Level = Difficulty.Intermediate},
+            new WorkoutLevel{ WorkoutId = Workouts[32].Id , Level = Difficulty.Beginner},
+            #endregion
+
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
         await context.SaveChangesAsync();
@@ -302,7 +391,6 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[15].Id, Target = PriorityTarget.Primary },
             #endregion
             
-            
             #region Abdominals && Plate
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[16].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[17].Id, Target = PriorityTarget.Primary },
@@ -311,6 +399,22 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[20].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[21].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[22].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+            #region Abdominals && Bosu-Ball
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[23].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[24].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[25].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[26].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[27].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[28].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[29].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+            #region Abdominals && Smith-Machine
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[30].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[31].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[32].Id, Target = PriorityTarget.Primary },
             #endregion
 
         };
