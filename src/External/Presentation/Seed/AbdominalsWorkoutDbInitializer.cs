@@ -36,7 +36,22 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Machine Plate Loaded Crunch", SportId = bodybuildingId, Description = "" },                            // index => 10
             new Workout{ Name = "Machine Crunch", SportId = bodybuildingId, Description = "" },                                         // index => 11
 
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 10
+            // Abdominals // Stretches
+            new Workout{ Name = "Abdominals Stretch Variation Four", SportId = bodybuildingId, Description = "" },                      // index => 12
+            new Workout{ Name = "Abdominals Stretch Variation Three", SportId = bodybuildingId, Description = "" },                     // index => 13
+            new Workout{ Name = "Abdominals Stretch Variation Two", SportId = bodybuildingId, Description = "" },                       // index => 14
+            new Workout{ Name = "Abdominals Stretch Variation One", SportId = bodybuildingId, Description = "" },                       // index => 15
+
+            // Abdominals // Plate
+            new Workout{ Name = "Plate Overhead Carry", SportId = bodybuildingId, Description = "" },                                   // index => 16
+            new Workout{ Name = "Plate Russian Twist", SportId = bodybuildingId, Description = "" },                                    // index => 17
+            new Workout{ Name = "Plate Situp", SportId = bodybuildingId, Description = "" },                                            // index => 18
+            new Workout{ Name = "Weighted Forearm Plank", SportId = bodybuildingId, Description = "" },                                 // index => 19
+            new Workout{ Name = "Weighted Hand Plank", SportId = bodybuildingId, Description = "" },                                    // index => 20
+            new Workout{ Name = "Plate Hollow Hold", SportId = bodybuildingId, Description = "" },                                      // index => 21
+            new Workout{ Name = "Weighted Plank Up Down", SportId = bodybuildingId, Description = "" },                                 // index => 22
+
+
         };
         await context.Workouts.AddRangeAsync(Workouts);
         await context.SaveChangesAsync();
@@ -95,7 +110,57 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 2 , Instruction = "Flex your spine and bring your upper and lower body together."},
             #endregion
 
-            new WorkoutInstruction{ WorkoutId = Workouts[6].Id , Step = 1 , Instruction = ""},
+            #region Abdominals && Stretches
+            new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 1 , Instruction = "Lay on a ball or a Bosu ball with your feet firmly planted on the floor."},
+            new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 2 , Instruction = "Lean all the way back until you feel a stretch in your abdomen."},
+            new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 3 , Instruction = "Crunch upwards and hold for a 1-2 count."},
+            new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 4 , Instruction = "Slowly return to the starting position and repeat."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 1 , Instruction = "Stand upright."},
+            new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 2 , Instruction = "After completing the desired amount of reps with the left arm, switch to the right arm and lean to the left."},
+            new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 3 , Instruction = "Reach up with your left arm and then lean slowly to the right. Lean until a stretch is felt in the obliques."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 1 , Instruction = "Stand upright."},
+            new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 2 , Instruction = "Reach with both hands upwards until you can interlock your fingers."},
+            new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 3 , Instruction = "With your hands above your head, lean back until a stretch is felt in the abdominals."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[15].Id , Step = 1 , Instruction = "Lay on your stomach on the floor with your forearms flat on the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[15].Id , Step = 2 , Instruction = "Extend your elbows and push your upper body upwards."},
+            new WorkoutInstruction{ WorkoutId = Workouts[15].Id , Step = 3 , Instruction = "Push your upper body upwards until you feel a stretch in your abs, then return to the starting position and repeat."},
+            #endregion
+
+            #region Abdominals && Plate
+            new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 1 , Instruction = "Start by standing upright with your feet shoulder-width apart. Hold a single weight plate overhead with both hands, keeping your arms extended straight above your head."},
+            new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 2 , Instruction = "Begin walking forward, taking slow and steady steps while maintaining a straight line. Your focus should be on maintaining balance and control of the weight plate overhead."},
+            new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 3 , Instruction = "As you walk, continue to keep your arms extended and the weight plate overhead. Try to maintain good posture and avoid leaning forward or backward, as this could result in losing control of the weight plate."},
+            new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 4 , Instruction = "Continue walking for a set distance or for a certain amount of time, keeping your focus on proper form and technique. When finished, return to the starting position and repeat as desired."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 1 , Instruction = "Start by sitting on the floor with your knees bent and feet flat on the ground"},
+            new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 2 , Instruction = "Engage your core muscles by pulling your belly button toward your spine."},
+            new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 3 , Instruction = "Slowly twist your upper body to the right, keeping your feet flat on the ground and your back straight."},
+            new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 4 , Instruction = "Hold for a second and then twist to the left, holding for another second."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[18].Id , Step = 1 , Instruction = "Start by lying on your back on a mat with your legs bent and feet flat on the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[18].Id , Step = 2 , Instruction = "Hold a weight plate over your head with both hands, making sure to keep your arms straight."},
+            new WorkoutInstruction{ WorkoutId = Workouts[18].Id , Step = 3 , Instruction = "Engage your core and use your abdominal muscles to sit up, keeping the weight plate towards the ceiling."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 1 , Instruction = "Get into a kneeling position with both forearms pressed into the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 2 , Instruction = "Place a weight plate on your back (or have a partner do it for you)."},
+            new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 3 , Instruction = "Hold the plank for the allotted amount of time."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 1 , Instruction = "Start in a kneeling position with your hands planted on the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 2 , Instruction = "Place a weight plate on your back or have a friend do it for you."},
+            new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 3 , Instruction = "Pick your knees up off the ground. Hold in this position with a flat back."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[21].Id , Step = 1 , Instruction = "Lay flat on the ground with your arms extended over head holding a weight plate."},
+            new WorkoutInstruction{ WorkoutId = Workouts[21].Id , Step = 2 , Instruction = "Pick your upper back and your legs off the ground. Your body should be in a banana shape."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 1 , Instruction = "Start from a plank position. Place a plate on your back."},
+            new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 2 , Instruction = "Go to one elbow then the other. Try to avoid rocking back and forth."},
+            #endregion
+
+            new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 1 , Instruction = ""},
+
 
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
@@ -142,6 +207,24 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[10].Id, EquipmentId = machineId },
             new WorkoutEquipment{ WorkoutId = Workouts[11].Id, EquipmentId = machineId },
             #endregion
+
+            #region Abdominals && Stretches
+            new WorkoutEquipment{ WorkoutId = Workouts[12].Id, EquipmentId = stretchesId },
+            new WorkoutEquipment{ WorkoutId = Workouts[13].Id, EquipmentId = stretchesId },
+            new WorkoutEquipment{ WorkoutId = Workouts[14].Id, EquipmentId = stretchesId },
+            new WorkoutEquipment{ WorkoutId = Workouts[15].Id, EquipmentId = stretchesId },
+            #endregion
+
+            #region Abdominals && Plate
+            new WorkoutEquipment{ WorkoutId = Workouts[16].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[17].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[18].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[19].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[20].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[21].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[22].Id, EquipmentId = plateId },
+            #endregion
+
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
         await context.SaveChangesAsync();
@@ -165,6 +248,23 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[9].Id , Level = Difficulty.Intermediate},
             new WorkoutLevel{ WorkoutId = Workouts[10].Id , Level = Difficulty.Novice},
             new WorkoutLevel{ WorkoutId = Workouts[11].Id , Level = Difficulty.Novice},
+            #endregion
+
+            #region Abdominals && Stretches
+            new WorkoutLevel{ WorkoutId = Workouts[12].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[13].Id , Level = Difficulty.Novice},
+            new WorkoutLevel{ WorkoutId = Workouts[14].Id , Level = Difficulty.Novice},
+            new WorkoutLevel{ WorkoutId = Workouts[15].Id , Level = Difficulty.Novice},
+            #endregion
+            
+            #region Abdominals && Plate
+            new WorkoutLevel{ WorkoutId = Workouts[16].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[17].Id , Level = Difficulty.Intermediate},
+            new WorkoutLevel{ WorkoutId = Workouts[18].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[19].Id , Level = Difficulty.Intermediate},
+            new WorkoutLevel{ WorkoutId = Workouts[20].Id , Level = Difficulty.Intermediate},
+            new WorkoutLevel{ WorkoutId = Workouts[21].Id , Level = Difficulty.Advanced},
+            new WorkoutLevel{ WorkoutId = Workouts[22].Id , Level = Difficulty.Beginner},
             #endregion
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
@@ -195,6 +295,24 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[11].Id, Target = PriorityTarget.Primary },
             #endregion
 
+            #region Abdominals && Stretches
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[12].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[13].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[14].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[15].Id, Target = PriorityTarget.Primary },
+            #endregion
+            
+            
+            #region Abdominals && Plate
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[16].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[17].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[18].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[19].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[20].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[21].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[22].Id, Target = PriorityTarget.Primary },
+            #endregion
+
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();
@@ -205,7 +323,6 @@ public class AbdominalsWorkoutDbInitializer
             #region Traps & Barbell
             new WorkoutSex{ WorkoutId = Workouts[0].Id, Sex = Sex.Male},
             new WorkoutSex{ WorkoutId = Workouts[0].Id, Sex = Sex.Female},
-
 
             #endregion
         };
