@@ -85,19 +85,64 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Medicine Ball Hollow Hold", SportId = bodybuildingId, Description = "" },                              // index => 47
             new Workout{ Name = "Medicine Ball Dead Bug", SportId = bodybuildingId, Description = "" },                                 // index => 48
 
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 49
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 50
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 51
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 52
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 53
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 54
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 55
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 56
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 57
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 58
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 59
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 60
+            // Abdominals // Cables
+            new Workout{ Name = "Cable Standing Crunch", SportId = bodybuildingId, Description = "" },                                  // index => 49
+            new Workout{ Name = "Cable Row Bar Kneeling Crunch", SportId = bodybuildingId, Description = "" },                          // index => 50
+            new Workout{ Name = "Cable Rope Kneeling Crunch", SportId = bodybuildingId, Description = "" },                             // index => 51
+            new Workout{ Name = "Cable Rope Kneeling Oblique Crunch", SportId = bodybuildingId, Description = "" },                     // index => 52
 
+            // Abdominals // TRX
+            new Workout{ Name = "TRX Ab Rollout", SportId = bodybuildingId, Description = "" },                                         // index => 53
+            new Workout{ Name = "TRX Forearm Plank", SportId = bodybuildingId, Description = "" },                                      // index => 54
+            new Workout{ Name = "TRX Hand Plank", SportId = bodybuildingId, Description = "" },                                         // index => 55
+            new Workout{ Name = "TRX Kneeling Ab Rollout", SportId = bodybuildingId, Description = "" },                                // index => 56
+            new Workout{ Name = "TRX Knee Tuck", SportId = bodybuildingId, Description = "" },                                          // index => 57
+            new Workout{ Name = "TRX Mountain Climber", SportId = bodybuildingId, Description = "" },                                   // index => 58
+            new Workout{ Name = "TRX Pike", SportId = bodybuildingId, Description = "" },                                               // index => 59
+
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 60
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 61
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 62
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 63
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 64
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 65
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 66
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 67
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 68
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 69
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 70
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 71
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 72
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 73
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 74
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 75
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 76
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 77
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 78
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 79
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 80
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 81
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 82
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 83
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 84
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 85
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 86
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 87
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 88
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 89
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 90
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 91
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 92
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 93
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 94
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 95
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 96
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 97
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 98
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 99
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 100
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 101
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 102
         };
         await context.Workouts.AddRangeAsync(Workouts);
         await context.SaveChangesAsync();
@@ -288,7 +333,6 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 1 , Instruction = "Start in a high plank position with a pair of dumbbells positioned under your shoulders. Your hands should grip the dumbbells, palms facing each other."},
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 2 , Instruction = "Keep your core engaged and your back straight as you row one dumbbell up towards your hip, keeping your elbow close to your body."},
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 3 , Instruction = "Lower the dumbbell back down to the starting position and repeat on the other side."},
-
             #endregion
 
             #region Abdominals && Medicine-Ball
@@ -315,22 +359,99 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 3 , Instruction = "Alternate sides, maintain core engagement, and repeat for desired reps or time."},
             #endregion
 
-            #region Abdominals && Dumbbells
-            
-            new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 1 , Instruction = ""},
+            #region Abdominals && Cables
+            new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 1 , Instruction = "Use a double handle attachment and set the cable all the way to the top"},
+            new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 2 , Instruction = "Face away from the cable tower and walk a few steps forward."},
+            new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 3 , Instruction = "Push your hips back, and flex your abs."},
+            new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 4 , Instruction = "Return to the starting standing position and repeat."},
 
+            new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 1 , Instruction = "Use a double handle attachment and set the cable all the way to the top."},
+            new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 2 , Instruction = "Walk a few steps forward then fall into a kneeling position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 3 , Instruction = "Push your hips back and flex your abs, then push hips forward until in the starting position."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 1 , Instruction = "Use a rope attachment and set the cable all the way to the top."},
+            new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 2 , Instruction = "Walk a few steps forward then fall into a kneeling position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 3 , Instruction = "Push your hips back and flex your abs, then push hips forward until in the starting position."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 1 , Instruction = "Use a rope attachment and set the cable all the way to the top."},
+            new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 2 , Instruction = "Walk a few steps forward then fall into a kneeling position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 3 , Instruction = "Push your hips back and flex your abs, then push hips forward until in the starting position."},
             #endregion
 
+            #region Abdominals && TRX
+            new WorkoutInstruction{ WorkoutId = Workouts[53].Id , Step = 1 , Instruction = ""},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 1 , Instruction = "Lie face down on the ground and place your forearms on the ground directly under your shoulders."},
+            new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 2 , Instruction = "With your feet in the stirrups, kick both feet into the TRX straps and hold the handles above your head."},
+            new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 3 , Instruction = "Tighten your abs, glutes, and legs to form a straight line from your head to your feet."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 1 , Instruction = "Start by facing away from the TRX straps and placing your feet in the TRX handles with your palms on the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 2 , Instruction = "Lift your knees off the ground to begin the set."},
+            new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 3 , Instruction = "Engage your core and maintain this position for the desired amount of time, holding a steady plank."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 1 , Instruction = "Begin in a kneeling position with the TRX straps adjusted to mid-calf length."},
+            new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 2 , Instruction = "Grasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears."},
+            new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 3 , Instruction = "Keep your abs engaged, roll forward onto your toes, and extend your arms in front of you."},
+            new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 4 , Instruction = "Slowly lower your body down to the ground, keeping your arms straight and your abs engaged."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 1 , Instruction = "Place your feet in the TRX stirrups and get in to a hand plank position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 2 , Instruction = "Pull your knees to your chest and flex your abs."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 1 , Instruction = "Start in a plank position with the TRX straps adjusted to mid-calf length. Place your feet in the TRX stirrups."},
+            new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 2 , Instruction = "Keep your abs engaged, and bring one knee towards your chest while keeping the other leg extended behind you."},
+            new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 3 , Instruction = "Switch legs, bringing the opposite knee towards your chest while keeping your abs engaged and your back straight."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 1 , Instruction = "Place your feet in the stirrups and get in to a plank position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 2 , Instruction = "Pull your hips straight up toward the ceiling."},
+            new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 3 , Instruction = "Lower your hips until you're back in a plank position."},
+            #endregion
+            
+            #region Abdominals && 
+            new WorkoutInstruction{ WorkoutId = Workouts[60].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[61].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[62].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[63].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[64].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[65].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[66].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[67].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[68].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[69].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 1 , Instruction = ""},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[71].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[72].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[73].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[74].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[75].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[76].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[77].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[78].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[79].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[80].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[81].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[82].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[83].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[85].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[86].Id , Step = 1 , Instruction = ""},
+            
+            new WorkoutInstruction{ WorkoutId = Workouts[87].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[88].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[89].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[90].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[91].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[92].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[93].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[94].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[95].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[96].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[97].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[98].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[100].Id , Step = 1 , Instruction = ""},
+
+            #endregion
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
         await context.SaveChangesAsync();
@@ -432,6 +553,25 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[47].Id, EquipmentId = medicineId },
             new WorkoutEquipment{ WorkoutId = Workouts[48].Id, EquipmentId = medicineId },
             #endregion
+
+            #region Abdominals && Cables
+            new WorkoutEquipment{ WorkoutId = Workouts[49].Id, EquipmentId = cableId },
+            new WorkoutEquipment{ WorkoutId = Workouts[50].Id, EquipmentId = cableId },
+            new WorkoutEquipment{ WorkoutId = Workouts[51].Id, EquipmentId = cableId },
+            new WorkoutEquipment{ WorkoutId = Workouts[52].Id, EquipmentId = cableId },
+            #endregion
+
+            #region Abdominals && TRX
+            new WorkoutEquipment{ WorkoutId = Workouts[53].Id, EquipmentId = trxId },
+            new WorkoutEquipment{ WorkoutId = Workouts[54].Id, EquipmentId = trxId },
+            new WorkoutEquipment{ WorkoutId = Workouts[55].Id, EquipmentId = trxId },
+            new WorkoutEquipment{ WorkoutId = Workouts[56].Id, EquipmentId = trxId },
+            new WorkoutEquipment{ WorkoutId = Workouts[57].Id, EquipmentId = trxId },
+            new WorkoutEquipment{ WorkoutId = Workouts[58].Id, EquipmentId = trxId },
+            new WorkoutEquipment{ WorkoutId = Workouts[59].Id, EquipmentId = trxId },
+
+            #endregion
+
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
         await context.SaveChangesAsync();
@@ -508,12 +648,35 @@ public class AbdominalsWorkoutDbInitializer
 
             #region Abdominals && Medicine-Ball
             new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Beginner},
-            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Beginner},
-            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Beginner},
-            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Beginner},
-            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Intermediate},
-            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Intermediate},
+            new WorkoutLevel{ WorkoutId = Workouts[44].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[45].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[46].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[47].Id , Level = Difficulty.Intermediate},
+            new WorkoutLevel{ WorkoutId = Workouts[48].Id , Level = Difficulty.Intermediate},
             #endregion
+
+            #region Abdominals && Cables
+            new WorkoutLevel{ WorkoutId = Workouts[49].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[50].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[51].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[52].Id , Level = Difficulty.Beginner },
+            #endregion
+
+            #region Abdominals && TRX
+            new WorkoutLevel{ WorkoutId = Workouts[53].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[54].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[55].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[56].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[57].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[58].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[59].Id , Level = Difficulty.Intermediate },
+
+            #endregion
+
+
+
+
+
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
         await context.SaveChangesAsync();
@@ -596,6 +759,23 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[46].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[47].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[48].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+            #region Abdominals && Cables
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[49].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[50].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[51].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[52].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+            #region Abdominals && TRX
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[53].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[54].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[55].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[56].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[57].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[58].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[59].Id, Target = PriorityTarget.Primary },
             #endregion
 
         };
