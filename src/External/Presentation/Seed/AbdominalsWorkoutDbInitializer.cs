@@ -65,6 +65,27 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Smith Machine Reverse Crunch Hip Raise", SportId = bodybuildingId, Description = "" },                 // index => 31
             new Workout{ Name = "Smith Machine Situp", SportId = bodybuildingId, Description = "" },                                    // index => 32
 
+            // Abdominals // Dumbbells
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 33
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 34
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 35
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 36
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 37
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 38
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 39
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 40
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 41
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 42
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 43
+
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 44
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 45
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 46
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 47
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 48
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 49
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 50
+
         };
         await context.Workouts.AddRangeAsync(Workouts);
         await context.SaveChangesAsync();
@@ -216,7 +237,21 @@ public class AbdominalsWorkoutDbInitializer
             
             #endregion
 
-            new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 1 , Instruction = ""},
+            #region Abdominals && Dumbbells
+            
+            new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 1 , Instruction = ""},
+            new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 1 , Instruction = ""},
+
+            #endregion
 
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
@@ -297,6 +332,9 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[32].Id, EquipmentId = smithMachineId },
             #endregion
 
+            #region Abdominals && Dumbbells
+            #endregion
+
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
         await context.SaveChangesAsync();
@@ -353,6 +391,9 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[30].Id , Level = Difficulty.Beginner},
             new WorkoutLevel{ WorkoutId = Workouts[31].Id , Level = Difficulty.Intermediate},
             new WorkoutLevel{ WorkoutId = Workouts[32].Id , Level = Difficulty.Beginner},
+            #endregion
+            
+            #region Abdominals && Dumbbells
             #endregion
 
         };
@@ -417,6 +458,8 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[32].Id, Target = PriorityTarget.Primary },
             #endregion
 
+            #region Abdominals && Dumbbells
+            #endregion
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();
