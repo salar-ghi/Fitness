@@ -251,68 +251,68 @@ public class AbdominalsWorkoutDbInitializer
 
             #region Abdominals && Dumbbells
             new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 1 , Instruction = "Lay flat on the ground with your spine neutral. Extend you arms so your fists are pointed at the ceiling."},
-            new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 1 , Instruction = "Sit-up by flexing your abs. Continue to reach for the ceiling for the entire rep."},
+            new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 2 , Instruction = "Sit-up by flexing your abs. Continue to reach for the ceiling for the entire rep."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 1 , Instruction = "Get into a plank position. Either from your knees or toes."},
-            new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 1 , Instruction = "Start with the DB by your right hand. Reach with your left and pull the dumbbell to your left arm. Then repeat with the right."},
+            new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 2 , Instruction = "Start with the DB by your right hand. Reach with your left and pull the dumbbell to your left arm. Then repeat with the right."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 1 , Instruction = "Lay flat on the ground with a dumbbell overhead."},
-            new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 1 , Instruction = "Pull your upper back and legs off the ground. Make a banana shape with your body."},
-            new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 1 , Instruction = "The dumbbell should be held in your hands and your ears should be between your biceps."},
+            new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 2 , Instruction = "Pull your upper back and legs off the ground. Make a banana shape with your body."},
+            new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 3 , Instruction = "The dumbbell should be held in your hands and your ears should be between your biceps."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 1 , Instruction = "Start by lying flat on your back with your feet flat on the floor and your knees bent."},
-            new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 1 , Instruction = "Hold a dumbbell over your clavicle."},
-            new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 1 , Instruction = "Engage your core muscles and lift your torso off the floor until your shoulders are a few inches off the ground."},
-            new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 1 , Instruction = "Lower yourself back down to the starting position, but avoid resting completely on the floor between reps."},
+            new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 2 , Instruction = "Hold a dumbbell over your clavicle."},
+            new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 3 , Instruction = "Engage your core muscles and lift your torso off the floor until your shoulders are a few inches off the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 4 , Instruction = "Lower yourself back down to the starting position, but avoid resting completely on the floor between reps."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 1 , Instruction = "Start in a plank position. Hold one dumbbell."},
-            new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 1 , Instruction = "Raise the dumbbell straight out in front of you (I), at a 45 degree angle (Y), out to the side (T), and then bend at the elbow while raising (W)."},
-            new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 1 , Instruction = "Going through IYTW counts as one rep."},
-            new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 1 , Instruction = "Make sure to keep your hips stable. If you're unable to, try performing this exercise from the knees."},
+            new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 2 , Instruction = "Raise the dumbbell straight out in front of you (I), at a 45 degree angle (Y), out to the side (T), and then bend at the elbow while raising (W)."},
+            new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 3 , Instruction = "Going through IYTW counts as one rep."},
+            new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 4 , Instruction = "Make sure to keep your hips stable. If you're unable to, try performing this exercise from the knees."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 1 , Instruction = "Lay flat on the ground with a dumbbell. Point the soles of your shoes at the ceiling as well as the dumbbell."},
-            new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 1 , Instruction = "Reach for your feet with the dumbbell before bringing your spine back to the floor."},
+            new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 2 , Instruction = "Reach for your feet with the dumbbell before bringing your spine back to the floor."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 1 , Instruction = "Sit on the floor and flex your knees and hips to a 90 degree angle."},
-            new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 1 , Instruction = "Your feet should be hovering off the ground. (If that's too hard start with heels on the floor)"},
-            new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 1 , Instruction = "Rotate your upper spine to engage your obliques."},
+            new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 2 , Instruction = "Your feet should be hovering off the ground. (If that's too hard start with heels on the floor)"},
+            new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 3 , Instruction = "Rotate your upper spine to engage your obliques."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 1 , Instruction = "Take a half kneeling position. Start with the dumbbell by your knee on the side of the kneeling leg."},
-            new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 1 , Instruction = "Rotate at the upper spine, holding the dumbbell away from your body with nearly extended elbows."},
+            new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 2 , Instruction = "Rotate at the upper spine, holding the dumbbell away from your body with nearly extended elbows."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 1 , Instruction = "Start by getting into a plank position with a dumbbell in each hand. Your feet should be shoulder-width apart and your hands should be placed on the dumbbells, with your palms facing each other."},
-            new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 1 , Instruction = "From this starting position, row one dumbbell up towards your chest, keeping your elbow close to your body and your core engaged."},
-            new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 1 , Instruction = "Slowly lower the dumbbell back down to the starting position, and repeat on the other side."},
-            new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 1 , Instruction = "Make sure to keep your body straight and your hips level throughout the movement."},
+            new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 2 , Instruction = "From this starting position, row one dumbbell up towards your chest, keeping your elbow close to your body and your core engaged."},
+            new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 3 , Instruction = "Slowly lower the dumbbell back down to the starting position, and repeat on the other side."},
+            new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 4 , Instruction = "Make sure to keep your body straight and your hips level throughout the movement."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 1 , Instruction = "Start in a high plank position with a pair of dumbbells positioned under your shoulders. Your hands should grip the dumbbells, palms facing each other."},
-            new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 1 , Instruction = "Keep your core engaged and your back straight as you row one dumbbell up towards your hip, keeping your elbow close to your body."},
-            new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 1 , Instruction = "Lower the dumbbell back down to the starting position and repeat on the other side."},
+            new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 2 , Instruction = "Keep your core engaged and your back straight as you row one dumbbell up towards your hip, keeping your elbow close to your body."},
+            new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 3 , Instruction = "Lower the dumbbell back down to the starting position and repeat on the other side."},
 
             #endregion
 
             #region Abdominals && Medicine-Ball
             new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 1 , Instruction = "Stand with feet shoulder-width apart, hold a medicine ball."},
-            new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 1 , Instruction = "Circle the ball around your head, maintaining control."},
-            new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 1 , Instruction = "Complete the desired number of repetitions in both directions."},
+            new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 2 , Instruction = "Circle the ball around your head, maintaining control."},
+            new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 3 , Instruction = "Complete the desired number of repetitions in both directions."},
             
             new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 1 , Instruction = "Lie facing partner, knees bent."},
-            new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 1 , Instruction = "Sit up, toss medicine ball to partner."},
-            new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 1 , Instruction = "Catch and lower down. Repeat for desired reps."},
+            new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 2 , Instruction = "Sit up, toss medicine ball to partner."},
+            new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 3 , Instruction = "Catch and lower down. Repeat for desired reps."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 1 , Instruction = "Place forearms on medicine ball, extend legs."},
-            new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 1 , Instruction = "Maintain straight body position for desired time."},
+            new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 2 , Instruction = "Maintain straight body position for desired time."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 1 , Instruction = "Lift medicine ball overhead."},
-            new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 1 , Instruction = "Slam ball down to ground with force."},
+            new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 2 , Instruction = "Slam ball down to ground with force."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 1 , Instruction = "Lie on your back, holding a medicine ball overhead."},
-            new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 1 , Instruction = "Lift your shoulders and legs off the ground, engaging core."},
-            new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 1 , Instruction = "Hold the position while maintaining stability."},
+            new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 2 , Instruction = "Lift your shoulders and legs off the ground, engaging core."},
+            new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 3 , Instruction = "Hold the position while maintaining stability."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 1 , Instruction = "Lie on your back, place a medicine ball between your extended arms and bent knees."},
-            new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 1 , Instruction = "Lower opposite arm and leg to floor, keeping back pressed against ground and medicine ball in place."},
-            new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 1 , Instruction = "Alternate sides, maintain core engagement, and repeat for desired reps or time."},
+            new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 2 , Instruction = "Lower opposite arm and leg to floor, keeping back pressed against ground and medicine ball in place."},
+            new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 3 , Instruction = "Alternate sides, maintain core engagement, and repeat for desired reps or time."},
             #endregion
 
             #region Abdominals && Dumbbells
@@ -348,6 +348,7 @@ public class AbdominalsWorkoutDbInitializer
         var bosuballId = context.Equipments.Where(x => x.Name == "Bosu-Ball").Select(x => x.Id).FirstOrDefault();
         var smithMachineId = context.Equipments.Where(x => x.Name == "Smith Machine").Select(x => x.Id).FirstOrDefault();
         var dumbellId = context.Equipments.Where(x => x.Name == "Dumbells").Select(x => x.Id).FirstOrDefault();
+        var medicineId = context.Equipments.Where(x => x.Name == "Medicine Ball").Select(x => x.Id).FirstOrDefault();
         var cableId = context.Equipments.Where(x => x.Name == "Cable").Select(x => x.Id).FirstOrDefault();
         var trxId = context.Equipments.Where(x => x.Name == "TRX").Select(x => x.Id).FirstOrDefault();
         var vitruvianId = context.Equipments.Where(x => x.Name == "Vitruvian").Select(x => x.Id).FirstOrDefault();
@@ -424,6 +425,12 @@ public class AbdominalsWorkoutDbInitializer
             #endregion
 
             #region Abdominals && Medicine-Ball
+            new WorkoutEquipment{ WorkoutId = Workouts[43].Id, EquipmentId = medicineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[44].Id, EquipmentId = medicineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[45].Id, EquipmentId = medicineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[46].Id, EquipmentId = medicineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[47].Id, EquipmentId = medicineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[48].Id, EquipmentId = medicineId },
             #endregion
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
@@ -498,6 +505,15 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[41].Id , Level = Difficulty.Intermediate},
             new WorkoutLevel{ WorkoutId = Workouts[42].Id , Level = Difficulty.Intermediate},
             #endregion
+
+            #region Abdominals && Medicine-Ball
+            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Beginner},
+            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Intermediate},
+            new WorkoutLevel{ WorkoutId = Workouts[43].Id , Level = Difficulty.Intermediate},
+            #endregion
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
         await context.SaveChangesAsync();
@@ -561,7 +577,6 @@ public class AbdominalsWorkoutDbInitializer
             #endregion
 
             #region Abdominals && Dumbbells
-
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[33].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[34].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[35].Id, Target = PriorityTarget.Primary },
@@ -572,7 +587,15 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[40].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[41].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[42].Id, Target = PriorityTarget.Primary },
+            #endregion
 
+            #region Abdominals && Medicine-Ball
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[43].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[44].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[45].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[46].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[47].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[48].Id, Target = PriorityTarget.Primary },
             #endregion
 
         };
