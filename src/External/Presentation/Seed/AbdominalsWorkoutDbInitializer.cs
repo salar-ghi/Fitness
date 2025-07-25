@@ -165,33 +165,34 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Stability Ball V Up Pass", SportId = crossfitId, Description = "" },                                   // index => 117
             new Workout{ Name = "Stability Ball Windshield Wiper", SportId = crossfitId, Description = "" },                            // index => 118
 
+            // Abdominals // Kettlebells
+            new Workout{ Name = "Kettlebell Situp", SportId = bodybuildingId, Description = "" },                                       // index => 119
+            new Workout{ Name = "Kettlebell Russian Twist", SportId = bodybuildingId, Description = "" },                               // index => 120
+            new Workout{ Name = "Kettlebell Windmill", SportId = bodybuildingId, Description = "" },                                    // index => 121
+            new Workout{ Name = "Kettlebell Front Rack Curtsy Lunge (Double)", SportId = bodybuildingId, Description = "" },            // index => 122
+            new Workout{ Name = "Kettlebell Hollow Hold", SportId = bodybuildingId, Description = "" },                                 // index => 123
+            new Workout{ Name = "Kettlebell Windmill Bottom Hand", SportId = bodybuildingId, Description = "" },                        // index => 124
+            new Workout{ Name = "Kettlebell Front Rack Forward Lunge (Double)", SportId = bodybuildingId, Description = "" },           // index => 125
+            new Workout{ Name = "Kettlebell Front Rack Lateral Lunge (Double)", SportId = bodybuildingId, Description = "" },           // index => 126
+            new Workout{ Name = "Kettlebell Front Rack Reverse Lunge (Double)", SportId = bodybuildingId, Description = "" },           // index => 127
+            new Workout{ Name = "Kettlebell Front Rack Single Arm Lateral Lunge", SportId = bodybuildingId, Description = "" },         // index => 128
+            new Workout{ Name = "Kettlebell Front Rack Squat", SportId = bodybuildingId, Description = "" },                            // index => 129
+            new Workout{ Name = "Kettlebell Front Rack Step Up", SportId = bodybuildingId, Description = "" },                          // index => 130
+            new Workout{ Name = "Kettlebell Single Arm Front Rack Forward Lunge", SportId = bodybuildingId, Description = "" },         // index => 131
+            new Workout{ Name = "Kettlebell Single Arm Front Rack Step Up", SportId = bodybuildingId, Description = "" },               // index => 132
 
+            // Abdominals // Band
+            new Workout{ Name = "Band Crunch", SportId = bodybuildingId, Description = "" },                                            // index => 133
 
+            // Abdominals // Yoga
+            new Workout{ Name = "Urdhva Dhanurasana Wheel Pose", SportId = yogaSportId, Description = "" },                             // index => 134
+            new Workout{ Name = "Cobra Pose", SportId = yogaSportId, Description = "" },                                                // index => 135
 
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 119
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 120
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 121
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 122
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 123
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 124
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 125
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 126
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 127
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 128
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 129
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 130
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 131
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 132
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 133
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 134
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 135
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 136
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 137
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 138
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 139
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 140
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 141
-            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                    // index => 142
+            // Abdominals // Cardio
+            new Workout{ Name = "Toe Tap", SportId = cardioSportId, Description = "" },                                                 // index => 136
+            new Workout{ Name = "Cardio Forward Scissor", SportId = cardioSportId, Description = "" },                                  // index => 137
+            new Workout{ Name = "Cardio In And Out Forward", SportId = cardioSportId, Description = "" },                               // index => 138
+            new Workout{ Name = "Cardio Ski Erg", SportId = cardioSportId, Description = "" },                                          // index => 139
         };
         await context.Workouts.AddRangeAsync(Workouts);
         await context.SaveChangesAsync();
@@ -697,28 +698,87 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 2 , Instruction = "Engage your core, lift your legs, and rotate them side to side in a controlled motion."},
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 3 , Instruction = "Keep your upper body stable, move slowly, and return to center before switching directions."},
             #endregion
-            
-            new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[126].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[127].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[128].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[133].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[134].Id , Step = 1 , Instruction = ""},
+
+
+            #region Abdominals && Kettlebells
+            new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 1 , Instruction = "Lay flat on your back with straight legs and hold the kettle bell above your chest at arms length."},
+            new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 2 , Instruction = "Draw your belly into the base of your spine to engage the muscles, then raise your head and shoulders off the floor with the kettlebell raised at arms length above your chest."},
+            new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 3 , Instruction = "Return to the starting position and repeat."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 1 , Instruction = "Sit on the floor with your legs bent, knees together and feet raised slightly off the floor."},
+            new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 2 , Instruction = "Starting on one side and sitting up straight with your core muscles engaged, lift the kettlebell off the floor with both hands and bring it across your body to the other side, rotating your chest towards the floor as you do so."},
+            new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 3 , Instruction = "Tap the kettlebell lightly on the floor and bring the kettlebell back across your body to the starting position, rotating your chest towards the floor."},
+            new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 4 , Instruction = "Repeat, keeping the legs bent and feet raised throughout the exercise."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 1 , Instruction = "Stand with feet slightly wider than shoulder width apart. Hold the kettlebell in one hand and extend your arm above your head."},
+            new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 2 , Instruction = "Keeping your legs straight and the kettlebell above your head, lower the relaxed arm towards the ground, twisting your body towards the side of the raised arm."},
+            new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 3 , Instruction = "Return to the starting potion, tilt your pelvis forward and repeat."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 1 , Instruction = "Hold kettlebells in front rack."},
+            new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 2 , Instruction = "Step back and lunge diagonally."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 1 , Instruction = "Grab a kettlebell."},
+            new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 2 , Instruction = "Lie on your back, lift legs & shoulders off floor."},
+            new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 3 , Instruction = "Hold kettlebell above your head, engage core, and maintain position."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 1 , Instruction = "Stand with feet slightly wider than shoulder width apart. Hold the kettlebell in your bottom hand and extend the other arm above your head."},
+            new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 2 , Instruction = "Keeping your legs straight and the kettlebell inside your thigh, lower the kettlebell towards the ground, twisting your body towards the side of the raised arm."},
+            new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 3 , Instruction = "Return to the starting position, tilt your pelvis forward and repeat."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 1 , Instruction = "Start with kettlebells in front rack."},
+            new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 2 , Instruction = "Step forward into lunge."},
+            new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 3 , Instruction = "Return to starting position."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[126].Id , Step = 1 , Instruction = "Hold kettlebell in front rack."},
+            new WorkoutInstruction{ WorkoutId = Workouts[126].Id , Step = 2 , Instruction = "Step sideways into a lunge position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[126].Id , Step = 3 , Instruction = "Return to start position. Repeat."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[127].Id , Step = 1 , Instruction = "Start with kettlebell in front rack."},
+            new WorkoutInstruction{ WorkoutId = Workouts[127].Id , Step = 2 , Instruction = "Step back into lunge."},
+            new WorkoutInstruction{ WorkoutId = Workouts[127].Id , Step = 3 , Instruction = "Return to start position."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[128].Id , Step = 1 , Instruction = "Hold kettlebell in front rack."},
+            new WorkoutInstruction{ WorkoutId = Workouts[128].Id , Step = 2 , Instruction = "Step sideways, lunge."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 1 , Instruction = "Hold kettlebells close to chest."},
+            new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 2 , Instruction = "Squat down, keeping chest up."},
+            new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 3 , Instruction = "Stand up, extending hips fully."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 1 , Instruction = "Stand in front of a step or bench with your feet shoulder-width apart and hold kettlebells at your shoulders."},
+            new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 2 , Instruction = "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 1 , Instruction = "Hold kettlebell in front rack position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 2 , Instruction = "Step forward, lunge. Bringing your back knee to the floor."},
+            new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 3 , Instruction = "Extend your knee and return to the starting position."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 1 , Instruction = "Stand in front of a step or bench with your feet shoulder-width apart and hold a kettlebell at one shoulder."},
+            new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 2 , Instruction = "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench."},
+            #endregion
+
+            new WorkoutInstruction{ WorkoutId = Workouts[133].Id , Step = 1 , Instruction = "Place the band at the highest anchor point you have available. Grab both ends of the band and fall into a kneeling position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[133].Id , Step = 2 , Instruction = "Push your hips back flexing at the spine."},
+            new WorkoutInstruction{ WorkoutId = Workouts[133].Id , Step = 3 , Instruction = "Squeeze your abs and then extend at the hips and spine back to the starting position."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[134].Id , Step = 1 , Instruction = "Lie down on your back with your feet hip-distance apart and your knees bent."},
+            new WorkoutInstruction{ WorkoutId = Workouts[134].Id , Step = 2 , Instruction = "Place your hands on the floor beside your head, fingertips pointing towards your shoulders."},
+            new WorkoutInstruction{ WorkoutId = Workouts[134].Id , Step = 3 , Instruction = "Push your feet and hands into the floor, lift your hips up and straighten your arms."},
+            new WorkoutInstruction{ WorkoutId = Workouts[134].Id , Step = 4 , Instruction = "Lift your chest towards the ceiling and hold the pose for a few breaths before lowering back down."},
+
             new WorkoutInstruction{ WorkoutId = Workouts[135].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[136].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[137].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[138].Id , Step = 1 , Instruction = ""},
-            new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 1 , Instruction = ""},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[136].Id , Step = 1 , Instruction = "Stand in front of a low box."},
+            new WorkoutInstruction{ WorkoutId = Workouts[136].Id , Step = 2 , Instruction = "Bring one foot to the edge of the box and alternate as quickly as possible."},
+            new WorkoutInstruction{ WorkoutId = Workouts[136].Id , Step = 3 , Instruction = "Only lightly tap your feet to the box."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[137].Id , Step = 1 , Instruction = "Do a light hop and split your stance."},
+            new WorkoutInstruction{ WorkoutId = Workouts[137].Id , Step = 2 , Instruction = "Land lightly on your toes, and then bring the opposing leg forward."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[138].Id , Step = 1 , Instruction = "Bring one leg forward and then the other."},
+            new WorkoutInstruction{ WorkoutId = Workouts[138].Id , Step = 2 , Instruction = "Bring the original leg backwards and then the other."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 1 , Instruction = "Leap sideways, land on right foot, left leg behind to the side."},
+            new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 2 , Instruction = "Drop into a single-leg burpee, right leg only, hands to ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 3 , Instruction = "Return to standing on right, leap sideways to left, repeat with left leg."},
             
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
@@ -907,17 +967,32 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[118].Id, EquipmentId = bodyweightId },
             #endregion
 
-            new WorkoutEquipment{ WorkoutId = Workouts[119].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[120].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[121].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[122].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[123].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[124].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[125].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[126].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[127].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[128].Id, EquipmentId = bodyweightId },
-            new WorkoutEquipment{ WorkoutId = Workouts[129].Id, EquipmentId = bodyweightId },
+            #region Abdominals && Kettlebells
+            new WorkoutEquipment{ WorkoutId = Workouts[119].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[120].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[121].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[122].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[123].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[124].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[125].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[126].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[127].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[128].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[129].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[130].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[131].Id, EquipmentId = kettlebellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[132].Id, EquipmentId = kettlebellId },
+            #endregion
+
+            new WorkoutEquipment{ WorkoutId = Workouts[133].Id, EquipmentId = BandsId },
+
+            new WorkoutEquipment{ WorkoutId = Workouts[134].Id, EquipmentId = yogaId },
+            new WorkoutEquipment{ WorkoutId = Workouts[135].Id, EquipmentId = yogaId },
+
+            new WorkoutEquipment{ WorkoutId = Workouts[136].Id, EquipmentId = cardioId },
+            new WorkoutEquipment{ WorkoutId = Workouts[137].Id, EquipmentId = cardioId },
+            new WorkoutEquipment{ WorkoutId = Workouts[138].Id, EquipmentId = cardioId },
+            new WorkoutEquipment{ WorkoutId = Workouts[139].Id, EquipmentId = cardioId },
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
         await context.SaveChangesAsync();
@@ -1086,7 +1161,32 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[118].Id , Level = Difficulty.Intermediate },
             #endregion
 
-            new WorkoutLevel{ WorkoutId = Workouts[119].Id , Level = Difficulty.Novice },
+            #region Abdominals && Kettlebells
+            new WorkoutLevel{ WorkoutId = Workouts[119].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[120].Id , Level = Difficulty.Novice },
+            new WorkoutLevel{ WorkoutId = Workouts[121].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[122].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[123].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[124].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[125].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[126].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[127].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[128].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[129].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[130].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[131].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[132].Id , Level = Difficulty.Advanced },
+            #endregion
+
+            new WorkoutLevel{ WorkoutId = Workouts[133].Id , Level = Difficulty.Intermediate },
+
+            new WorkoutLevel{ WorkoutId = Workouts[134].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[135].Id , Level = Difficulty.Beginner },
+
+            new WorkoutLevel{ WorkoutId = Workouts[136].Id , Level = Difficulty.Novice },
+            new WorkoutLevel{ WorkoutId = Workouts[137].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[138].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[139].Id , Level = Difficulty.Beginner },
 
 
         };
@@ -1258,7 +1358,35 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[118].Id, Target = PriorityTarget.Primary },
             #endregion
 
+            #region Abdominals && Kettlebells
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[119].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[120].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[121].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[122].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[123].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[124].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[125].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[126].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[127].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[128].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[129].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[130].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[131].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[132].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[133].Id, Target = PriorityTarget.Primary },
+
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[134].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[135].Id, Target = PriorityTarget.Primary },
+
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[136].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[137].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[138].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[139].Id, Target = PriorityTarget.Primary },
+
+
+
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();
