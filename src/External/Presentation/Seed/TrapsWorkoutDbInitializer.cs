@@ -24,8 +24,27 @@ public class TrapsWorkoutDbInitializer
             // Traps (mid-back) // Barbell
             new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 0
             new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 1
-
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 2
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 3
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 4
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 5
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 6
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 7
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 8
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 9
             new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 10
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 11
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 12
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 13
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 14
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 15
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 16
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 17
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 18
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 19
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 20
+
+            new Workout{ Name = "", SportId = bodybuildingId, Description = "" },                                   // index => 21
         };
         await context.Workouts.AddRangeAsync(Workouts);
         await context.SaveChangesAsync();
