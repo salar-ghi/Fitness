@@ -1197,13 +1197,19 @@ public class AbdominalsWorkoutDbInitializer
 
         var bodyWorkouts = new List<BodyWorkout>();
         var AbdoId = await context.Bodies.Where(z => z.Name == "Abdominals").Select(z => z.Id).FirstOrDefaultAsync();
+        var lowAbdoId = await context.Bodies.Where(z => z.Name == "Lower Abdominals").Select(z => z.Id).FirstOrDefaultAsync();
 
         bodyWorkouts = new List<BodyWorkout>
         {
             #region Abdominals & Barbell
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[0].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[0].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[1].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[2].Id, Target = PriorityTarget.Tertiary },
+            
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[2].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[2].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[3].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[4].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[5].Id, Target = PriorityTarget.Secondary },
@@ -1212,8 +1218,14 @@ public class AbdominalsWorkoutDbInitializer
 
             #region Abdominals && Machine
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[7].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[7].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[8].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[8].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[9].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[9].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[10].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[11].Id, Target = PriorityTarget.Primary },
             #endregion
@@ -1240,14 +1252,23 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[24].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[25].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[26].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[27].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[27].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[28].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[28].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[29].Id, Target = PriorityTarget.Primary },
             #endregion
 
             #region Abdominals && Smith-Machine
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[30].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[30].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[31].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[31].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[32].Id, Target = PriorityTarget.Primary },
             #endregion
 
@@ -1267,7 +1288,10 @@ public class AbdominalsWorkoutDbInitializer
             #region Abdominals && Medicine-Ball
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[43].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[44].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[45].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[45].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[46].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[47].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[48].Id, Target = PriorityTarget.Primary },
@@ -1285,9 +1309,16 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[54].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[55].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[56].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[57].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[57].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[58].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[58].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[59].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[59].Id, Target = PriorityTarget.Primary },
+
             #endregion
 
             #region Abdominals && Vitruvian
