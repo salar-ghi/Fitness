@@ -1,4 +1,7 @@
-﻿namespace Presentation.Seed;
+﻿using System;
+using System.Collections.Generic;
+
+namespace Presentation.Seed;
 
 public class AbdominalsWorkoutDbInitializer
 {
@@ -193,6 +196,14 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Cardio Forward Scissor", SportId = cardioSportId, Description = "" },                                  // index => 137
             new Workout{ Name = "Cardio In And Out Forward", SportId = cardioSportId, Description = "" },                               // index => 138
             new Workout{ Name = "Cardio Ski Erg", SportId = cardioSportId, Description = "" },                                          // index => 139
+
+            // Lower Abdominals // Recovery
+            new Workout{ Name = "Bench Lift Off Active", SportId = cardioSportId, Description = "" },                                   // index => 140
+            new Workout{ Name = "Bench Lift Off Static", SportId = cardioSportId, Description = "" },                                   // index => 141
+            new Workout{ Name = "Leg Lowers", SportId = cardioSportId, Description = "" },                                              // index => 142
+
+
+
         };
         await context.Workouts.AddRangeAsync(Workouts);
         await context.SaveChangesAsync();
@@ -779,7 +790,23 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 1 , Instruction = "Leap sideways, land on right foot, left leg behind to the side."},
             new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 2 , Instruction = "Drop into a single-leg burpee, right leg only, hands to ground."},
             new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 3 , Instruction = "Return to standing on right, leap sideways to left, repeat with left leg."},
+
             
+            new WorkoutInstruction{ WorkoutId = Workouts[140].Id , Step = 1 , Instruction = "While seated on a bench, place your palms on the bench by your sides."},
+            new WorkoutInstruction{ WorkoutId = Workouts[140].Id , Step = 2 , Instruction = "Palm placement should allow room for the fingers to grip the edge of the bench."},
+            new WorkoutInstruction{ WorkoutId = Workouts[140].Id , Step = 3 , Instruction = "Try to lift your bodyweight off the bench by pushing the palms into the bench."},
+            new WorkoutInstruction{ WorkoutId = Workouts[140].Id , Step = 4 , Instruction = "Lockout your elbows and repeat or hold isometrically."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[141].Id , Step = 1 , Instruction = "While seated on a bench, place your palms on the bench by your sides."},
+            new WorkoutInstruction{ WorkoutId = Workouts[141].Id , Step = 2 , Instruction = "Palm placement should allow room for the fingers to grip the edge of the bench."},
+            new WorkoutInstruction{ WorkoutId = Workouts[141].Id , Step = 3 , Instruction = "Try to lift your bodyweight off the bench by pushing the palms into the bench."},
+            new WorkoutInstruction{ WorkoutId = Workouts[141].Id , Step = 4 , Instruction = "Lockout your elbows and hold isometrically"},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[142].Id , Step = 1 , Instruction = "Lie on your back. Raise your legs but bend your knees."},
+            new WorkoutInstruction{ WorkoutId = Workouts[142].Id , Step = 2 , Instruction = "Keep a 90° angle at hips and knees. Lower your toes to the ground without bending your knees."},
+            new WorkoutInstruction{ WorkoutId = Workouts[142].Id , Step = 3 , Instruction = "Make sure you maintain a flat lower back against the ground throughout the movement."},
+            
+
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
         await context.SaveChangesAsync();
@@ -993,6 +1020,10 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[137].Id, EquipmentId = cardioId },
             new WorkoutEquipment{ WorkoutId = Workouts[138].Id, EquipmentId = cardioId },
             new WorkoutEquipment{ WorkoutId = Workouts[139].Id, EquipmentId = cardioId },
+
+            new WorkoutEquipment{ WorkoutId = Workouts[140].Id, EquipmentId = cardioId },
+            new WorkoutEquipment{ WorkoutId = Workouts[141].Id, EquipmentId = cardioId },
+            new WorkoutEquipment{ WorkoutId = Workouts[142].Id, EquipmentId = cardioId },
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
         await context.SaveChangesAsync();
@@ -1188,6 +1219,10 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[138].Id , Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[139].Id , Level = Difficulty.Beginner },
 
+            new WorkoutLevel{ WorkoutId = Workouts[140].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[141].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[142].Id , Level = Difficulty.Novice },
+
 
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
@@ -1340,38 +1375,83 @@ public class AbdominalsWorkoutDbInitializer
 
             #region Abdominals && Bodyweight
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[71].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[72].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[72].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[73].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[74].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[74].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[75].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[75].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[76].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[76].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[77].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[77].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[78].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[78].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[79].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[80].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[81].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[81].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[82].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[83].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[84].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[84].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[85].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[85].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[86].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[87].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[88].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[89].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[90].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[90].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[91].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[92].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[92].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[93].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[93].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[94].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[94].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[95].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[95].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[96].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[97].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[97].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[98].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[98].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[99].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[100].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[100].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[101].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[102].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[103].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[103].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[104].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[105].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[106].Id, Target = PriorityTarget.Primary },
@@ -1379,11 +1459,19 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[108].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[109].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[110].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[111].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[111].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[112].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[113].Id, Target = PriorityTarget.Primary },
+            
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[114].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[114].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[115].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[115].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[116].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[117].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[118].Id, Target = PriorityTarget.Primary },
@@ -1412,12 +1500,19 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[135].Id, Target = PriorityTarget.Primary },
 
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[136].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[136].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[137].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[137].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[138].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[138].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[139].Id, Target = PriorityTarget.Primary },
 
-
-
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[140].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[141].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[142].Id, Target = PriorityTarget.Primary },
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();
