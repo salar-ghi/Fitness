@@ -56,7 +56,7 @@ public static class BodyDbInitializer
                 new Body { Name = "Rectus Abdominis", Description = "The rectus abdominis muscles are located in the paramedian region of the anterior abdominal wall. Each muscle originates from the pubis and inserts into 5th, 6th and 7th ribs and the xyphoid process." },
                 new Body { Name = "Upper Abdominals", Description = "Your upper abdomen is the area of your belly roughly between your ribs and your belly button. Healthcare providers divide the abdomen into regions to help narrow down the many possible causes of abdominal pain. If you have upper abdominal pain, it's more likely to be related to the organs in that region."},
                 new Body { Name = "Lower Abdominals", Description = "" },
-                new Body { Name = "Obliques", Description = ""},
+                new Body { Name = "Obliques", Description = ""}, // پهلو
                 
                 new Body { Name = "Legs" , Description = " "},
                 new Body { Name = "Calves", Description = "Your calf muscle sits in the back of your lower leg. It starts below your knee and extends to your ankle. It allows you to walk, run, jump and flex your foot. It also helps you stand up straight." },

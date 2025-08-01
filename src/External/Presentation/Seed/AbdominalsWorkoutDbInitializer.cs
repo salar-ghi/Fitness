@@ -12,6 +12,7 @@ public class AbdominalsWorkoutDbInitializer
     //    _context = context;
     //}
 
+    // Abdominals // lower Abdominals // Upper Abdominals // Obliques
     public static async Task WorkoutSeedAsync(FitnessContext context)
     {
         var Workouts = new List<Workout>();
@@ -202,6 +203,115 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Bench Lift Off Static", SportId = cardioSportId, Description = "" },                                   // index => 141
             new Workout{ Name = "Leg Lowers", SportId = cardioSportId, Description = "" },                                              // index => 142
 
+            // Obliques // Barbell
+            new Workout{ Name = "Barbell Landmine Side Bend", SportId = cardioSportId, Description = "" },                              // index => 143
+            new Workout{ Name = "Barbell Suitcase Deadlift", SportId = cardioSportId, Description = "" },                               // index => 144
+            new Workout{ Name = "Landmine Alternating Lunge And Twist", SportId = cardioSportId, Description = "" },                    // index => 145
+            new Workout{ Name = "Landmine Kneeling Twist", SportId = cardioSportId, Description = "" },                                 // index => 146
+            new Workout{ Name = "Landmine Oblique Twist", SportId = cardioSportId, Description = "" },                                  // index => 147
+            new Workout{ Name = "Landmine Russian Twist", SportId = cardioSportId, Description = "" },                                  // index => 148
+            new Workout{ Name = "Landmine Stationary Twist", SportId = cardioSportId, Description = "" },                               // index => 149
+            new Workout{ Name = "Landmine Rotational Lift To Press", SportId = cardioSportId, Description = "" },                       // index => 150
+            new Workout{ Name = "Barbell Suitcase Carry", SportId = cardioSportId, Description = "" },                                  // index => 151
+
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 152
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 153
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 154
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 155
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 156
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 157
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 158
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 159
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 160
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 161
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 162
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 163
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 164
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 165
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 166
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 167
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 168
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 169
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 170
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 171
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 172
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 173
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 174
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 175
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 176
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 177
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 178
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 179
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 180
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 181
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 182
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 183
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 184
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 185
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 186
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 187
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 188
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 189
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 190
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 191
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 192
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 193
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 194
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 195
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 196
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 197
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 198
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 199
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 200
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 201
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 202
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 203
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 204
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 205
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 206
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 207
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 208
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 209
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 210
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 211
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 212
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 213
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 214
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 215
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 216
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 217
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 218
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 219
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 220
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 221
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 222
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 223
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 224
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 225
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 226
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 227
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 228
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 229
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 230
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 231
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 232
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 233
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 234
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 235
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 236
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 237
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 238
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 239
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 240
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 241
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 242
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 243
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 244
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 245
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 246
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 247
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 248
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 249
         };
         await context.Workouts.AddRangeAsync(Workouts);
         await context.SaveChangesAsync();
@@ -803,6 +913,48 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[142].Id , Step = 1 , Instruction = "Lie on your back. Raise your legs but bend your knees."},
             new WorkoutInstruction{ WorkoutId = Workouts[142].Id , Step = 2 , Instruction = "Keep a 90° angle at hips and knees. Lower your toes to the ground without bending your knees."},
             new WorkoutInstruction{ WorkoutId = Workouts[142].Id , Step = 3 , Instruction = "Make sure you maintain a flat lower back against the ground throughout the movement."},
+
+            #region Obliques && Barbell
+            new WorkoutInstruction{ WorkoutId = Workouts[143].Id , Step = 1 , Instruction = "Stand straight and hold the end of the Barbell"},
+            new WorkoutInstruction{ WorkoutId = Workouts[143].Id , Step = 2 , Instruction = "Keep your hips and shoulders facing forward, bend to one side slowly"},
+            new WorkoutInstruction{ WorkoutId = Workouts[143].Id , Step = 3 , Instruction = "Return to the upright position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[143].Id , Step = 4 , Instruction = "Switch hands and repeat."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[144].Id , Step = 1 , Instruction = "Begin by standing with your feet hip-width apart and holding a barbell at one side of your body, with your palms facing your thighs."},
+            new WorkoutInstruction{ WorkoutId = Workouts[144].Id , Step = 2 , Instruction = "Keeping your core engaged and your back straight, bend at the hips and knees to lower the barbell down towards the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[144].Id , Step = 3 , Instruction = "As the barbell reaches the ground, use your legs and glutes to push through your heels and extend your hips and knees to raise your body back to the starting position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[144].Id , Step = 4 , Instruction = "Repeat the movement for the desired number of reps, then switch sides and repeat the exercise with the barbell on the opposite side of your body."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[145].Id , Step = 1 , Instruction = "Set up the landmine attachment and load weight."},
+            new WorkoutInstruction{ WorkoutId = Workouts[145].Id , Step = 2 , Instruction = "Stand facing the landmine, holding the weight away from your chest."},
+            new WorkoutInstruction{ WorkoutId = Workouts[145].Id , Step = 3 , Instruction = "Step backward with one leg, lunge down while twisting your torso toward the front leg, return to starting position, and repeat on the other side."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[146].Id , Step = 1 , Instruction = "Kneel down facing the landmine with your knees hip-width apart and your back straight. Grasp the landmine barbell with both hands, interlacing your fingers and holding it above and slightly in front of your body."},
+            new WorkoutInstruction{ WorkoutId = Workouts[146].Id , Step = 2 , Instruction = "Keeping your core engaged and your back straight, twist your torso to one side, rotating your arms and the landmine along with it. Pause briefly at the end of the twist, feeling the contraction in your oblique muscles."},
+            new WorkoutInstruction{ WorkoutId = Workouts[146].Id , Step = 3 , Instruction = "Slowly rotate back to the starting position, then twist to the opposite side, repeating the same motion."},
+            new WorkoutInstruction{ WorkoutId = Workouts[146].Id , Step = 4 , Instruction = "Repeat both sides of the rotation for the desired number of reps."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[147].Id , Step = 1 , Instruction = "Stand facing the landmine, with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with both hands, interlacing your fingers and holding it at chest height. Position your arms straight out in front of you, parallel to the floor, with your elbows slightly bent."},
+            new WorkoutInstruction{ WorkoutId = Workouts[147].Id , Step = 2 , Instruction = "While keeping your core engaged, rotate your torso and the landmine to one side. Twist through your waist, using your oblique muscles to generate the movement. Pivot on the ball of your opposite foot as you rotate away from it."},
+            new WorkoutInstruction{ WorkoutId = Workouts[147].Id , Step = 3 , Instruction = "Rotate back to the starting position, then perform the same movement in the opposite direction."},
+            new WorkoutInstruction{ WorkoutId = Workouts[147].Id , Step = 4 , Instruction = "Repeat for the desired number of reps."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[148].Id , Step = 1 , Instruction = "Start sitting on the ground facing the landmine attachment, holding the end of the bar in both hands slightly in front of and above your chest while holding your feet off the ground and knees bent."},
+            new WorkoutInstruction{ WorkoutId = Workouts[148].Id , Step = 2 , Instruction = "Bending your elbows as little as possible and keeping your core tight and feet elevated, lower the end of the bar with control to the ground on one side of your body, then contract your obliques to return the bar to the center. Repeat on the other side."},
+            new WorkoutInstruction{ WorkoutId = Workouts[148].Id , Step = 3 , Instruction = "Repeat for the desired number of reps."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[149].Id , Step = 1 , Instruction = "Hold the end of the bar. Start with a shoulder width stance."},
+            new WorkoutInstruction{ WorkoutId = Workouts[149].Id , Step = 2 , Instruction = "Bring both arms to one side and keep your elbows mostly extended."},
+            new WorkoutInstruction{ WorkoutId = Workouts[149].Id , Step = 3 , Instruction = "Rotate back and forth and try to resist twisting too much."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[150].Id , Step = 1 , Instruction = "Stand perpendicularly to the barbell with the end of the bar in front of your feet. Squat down and hold the end of the bar with your hand closer to the landmine attachment with your palm facing your body."},
+            new WorkoutInstruction{ WorkoutId = Workouts[150].Id , Step = 2 , Instruction = "Drive your feet into the ground to start the motion. As your legs fully extend, pull the bar upwards with your hand and start to rotate your torso in towards the landmine attachment. As you do so, bring your other hand up to the bar and switch your grip. Press through the bar to extend your arm all the way upright, pivoting your back foot to allow for more trunk rotation."},
+            new WorkoutInstruction{ WorkoutId = Workouts[150].Id , Step = 3 , Instruction = "Perform the movement in reverse to return to the starting position. Repeat for desired number of reps before switching sides."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[151].Id , Step = 1 , Instruction = "Begin by standing with your feet hip-width apart with the bar on the ground at your side."},
+            new WorkoutInstruction{ WorkoutId = Workouts[151].Id , Step = 2 , Instruction = "Lift the bar to your side and walk for the allotted amount of time or distance."},
+            new WorkoutInstruction{ WorkoutId = Workouts[151].Id , Step = 3 , Instruction = "Set the bar down and switch sides."},
+            #endregion
             
 
         };
@@ -1022,6 +1174,20 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[140].Id, EquipmentId = cardioId },
             new WorkoutEquipment{ WorkoutId = Workouts[141].Id, EquipmentId = cardioId },
             new WorkoutEquipment{ WorkoutId = Workouts[142].Id, EquipmentId = cardioId },
+
+            #region Obliques && Barbell
+            new WorkoutEquipment{ WorkoutId = Workouts[143].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[144].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[145].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[146].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[147].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[148].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[149].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[150].Id, EquipmentId = barbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[151].Id, EquipmentId = barbellId },
+            #endregion
+
+
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
         await context.SaveChangesAsync();
@@ -1222,6 +1388,19 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[142].Id , Level = Difficulty.Novice },
 
 
+            #region Obliques && Barbell
+            new WorkoutLevel{ WorkoutId = Workouts[143].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[144].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[145].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[146].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[147].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[148].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[149].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[150].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[151].Id , Level = Difficulty.Advanced },
+            #endregion
+
+            new WorkoutLevel{ WorkoutId = Workouts[152].Id , Level = Difficulty.Novice },
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
         await context.SaveChangesAsync();
@@ -1560,6 +1739,18 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[140].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[141].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[142].Id, Target = PriorityTarget.Primary },
+
+            #region Obliques && Barbell
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[143].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[144].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[145].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[146].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[147].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[148].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[149].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[150].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[151].Id, Target = PriorityTarget.Primary },
+            #endregion
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();
