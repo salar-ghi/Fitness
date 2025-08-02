@@ -214,17 +214,23 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Landmine Rotational Lift To Press", SportId = cardioSportId, Description = "" },                       // index => 150
             new Workout{ Name = "Barbell Suitcase Carry", SportId = cardioSportId, Description = "" },                                  // index => 151
 
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 152
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 153
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 154
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 155
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 156
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 157
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 158
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 159
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 160
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 161
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 162
+            // Obliques // Plate
+            new Workout{ Name = "Plate Reverse Lunge Twist", SportId = cardioSportId, Description = "" },                               // index => 152
+            new Workout{ Name = "Plate Pinch Grip Side Bend", SportId = cardioSportId, Description = "" },                              // index => 153
+            new Workout{ Name = "Plate Standing Twist", SportId = cardioSportId, Description = "" },                                    // index => 154
+            new Workout{ Name = "Plate Wood Chopper", SportId = cardioSportId, Description = "" },                                      // index => 155
+
+            // Obliques // Bosu-Ball
+            new Workout{ Name = "Bosu Ball Forearm Sideplank", SportId = cardioSportId, Description = "" },                             // index => 156
+            new Workout{ Name = "Bosu Ball Hand Sideplank", SportId = cardioSportId, Description = "" },                                // index => 157
+            new Workout{ Name = "Bosu Ball Hand Sideplank Hip Abduction", SportId = cardioSportId, Description = "" },                  // index => 158
+            new Workout{ Name = "Bosu Ball Wood Chopper", SportId = cardioSportId, Description = "" },                                  // index => 159
+
+            // Obliques // Smith Machine
+            new Workout{ Name = "Smith Machine Oblique Crunch", SportId = cardioSportId, Description = "" },                            // index => 160
+            new Workout{ Name = "Smith Machine Side Plank Up Down", SportId = cardioSportId, Description = "" },                        // index => 161
+            new Workout{ Name = "Smith Machine Side Bend", SportId = cardioSportId, Description = "" },                                 // index => 162
+
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 163
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 164
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 165
@@ -955,7 +961,45 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[151].Id , Step = 2 , Instruction = "Lift the bar to your side and walk for the allotted amount of time or distance."},
             new WorkoutInstruction{ WorkoutId = Workouts[151].Id , Step = 3 , Instruction = "Set the bar down and switch sides."},
             #endregion
+
+            #region Obliques && Plate
+            new WorkoutInstruction{ WorkoutId = Workouts[152].Id , Step = 1 , Instruction = "Step back with your right foot into a lunge position, both knees bent at 90 degrees."},
+            new WorkoutInstruction{ WorkoutId = Workouts[152].Id , Step = 2 , Instruction = "Twist your torso to the right, keeping the plate close to your chest."},
+            new WorkoutInstruction{ WorkoutId = Workouts[152].Id , Step = 3 , Instruction = "Push through your front foot to return to the starting position and repeat on the other side."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[153].Id , Step = 1 , Instruction = "Stand straight with the plate held at your side"},
+            new WorkoutInstruction{ WorkoutId = Workouts[153].Id , Step = 2 , Instruction = "Keep your hips and shoulders facing forward, bend to one side slowly"},
+            new WorkoutInstruction{ WorkoutId = Workouts[153].Id , Step = 3 , Instruction = "Return to the upright position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[153].Id , Step = 4 , Instruction = "Switch hands and repeat"},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[154].Id , Step = 1 , Instruction = "Stand with a plate extended away from your body. Elbows mostly extended."},
+            new WorkoutInstruction{ WorkoutId = Workouts[154].Id , Step = 2 , Instruction = "Rotate at the upper spine while keeping your lumbar spine in a neutral position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[154].Id , Step = 3 , Instruction = "Do not let the plate go behind your body."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[155].Id , Step = 1 , Instruction = "Stand with a shoulder width stance. Begin with the plate near one of your quads."},
+            new WorkoutInstruction{ WorkoutId = Workouts[155].Id , Step = 2 , Instruction = "Rotate at your upper spine to engage the obliques."},
+            new WorkoutInstruction{ WorkoutId = Workouts[155].Id , Step = 3 , Instruction = "You can pivot your back foot to keep from generating too much torque at the knee."},
+            #endregion
+
+            #region Obliques && Bosu-Ball
+            new WorkoutInstruction{ WorkoutId = Workouts[156].Id , Step = 1 , Instruction = "Lie on one side, forearm on Bosu, elbow under shoulder."},
+            new WorkoutInstruction{ WorkoutId = Workouts[156].Id , Step = 2 , Instruction = "Lift hips to create a side plank."},
+            new WorkoutInstruction{ WorkoutId = Workouts[156].Id , Step = 3 , Instruction = "Hold the side plank position, then switch sides."},
             
+            new WorkoutInstruction{ WorkoutId = Workouts[157].Id , Step = 1 , Instruction = "Place hand on Bosu, arm straight, facing sideways."},
+            new WorkoutInstruction{ WorkoutId = Workouts[157].Id , Step = 2 , Instruction = "Stack feet and lift hips to side plank."},
+            new WorkoutInstruction{ WorkoutId = Workouts[157].Id , Step = 3 , Instruction = "Hold the side plank position, then switch sides."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[158].Id , Step = 1 , Instruction = "Start in a side plank with hand on Bosu."},
+            new WorkoutInstruction{ WorkoutId = Workouts[158].Id , Step = 2 , Instruction = "Lift the top leg while keeping the body stable."},
+            new WorkoutInstruction{ WorkoutId = Workouts[158].Id , Step = 3 , Instruction = "Lower the leg back down."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[159].Id , Step = 1 , Instruction = "Hold medicine ball with both hands and arms extended."},
+            new WorkoutInstruction{ WorkoutId = Workouts[159].Id , Step = 1 , Instruction = "Swing ball diagonally across body, engaging core."},
+            #endregion
+
+            new WorkoutInstruction{ WorkoutId = Workouts[155].Id , Step = 1 , Instruction = ""},
+
 
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
@@ -1187,6 +1231,19 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[151].Id, EquipmentId = barbellId },
             #endregion
 
+            #region Obliques && Plate
+            new WorkoutEquipment{ WorkoutId = Workouts[152].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[153].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[154].Id, EquipmentId = plateId },
+            new WorkoutEquipment{ WorkoutId = Workouts[155].Id, EquipmentId = plateId },
+            #endregion
+
+            #region Obliques && Bosu-Ball
+            new WorkoutEquipment{ WorkoutId = Workouts[156].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[157].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[158].Id, EquipmentId = bosuballId },
+            new WorkoutEquipment{ WorkoutId = Workouts[159].Id, EquipmentId = bosuballId },
+            #endregion
 
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
@@ -1400,7 +1457,23 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[151].Id , Level = Difficulty.Advanced },
             #endregion
 
-            new WorkoutLevel{ WorkoutId = Workouts[152].Id , Level = Difficulty.Novice },
+            #region Obliques && Plate
+            new WorkoutLevel{ WorkoutId = Workouts[152].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[153].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[154].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[155].Id , Level = Difficulty.Beginner },
+            #endregion
+
+            #region Obliques && Bosu-Ball
+            new WorkoutLevel{ WorkoutId = Workouts[156].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[157].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[158].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[159].Id , Level = Difficulty.Beginner },
+            #endregion
+
+
+
+            new WorkoutLevel{ WorkoutId = Workouts[156].Id , Level = Difficulty.Novice },
         };
         await context.WorkoutLevels.AddRangeAsync(workoutLevel);
         await context.SaveChangesAsync();
@@ -1411,6 +1484,8 @@ public class AbdominalsWorkoutDbInitializer
         var AbdoId = await context.Bodies.Where(z => z.Name == "Abdominals").Select(z => z.Id).FirstOrDefaultAsync();
         var lowAbdoId = await context.Bodies.Where(z => z.Name == "Lower Abdominals").Select(z => z.Id).FirstOrDefaultAsync();
         var UpAbdoId = await context.Bodies.Where(z => z.Name == "Upper Abdominals").Select(z => z.Id).FirstOrDefaultAsync();
+
+        var obliqueId = await context.Bodies.Where(z => z.Name == "Obliques").Select(z => z.Id).FirstOrDefaultAsync();
 
         bodyWorkouts = new List<BodyWorkout>
         {
@@ -1455,13 +1530,19 @@ public class AbdominalsWorkoutDbInitializer
             #region Abdominals && Stretches
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[12].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[13].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[13].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[14].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[14].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[15].Id, Target = PriorityTarget.Primary },
             #endregion
             
             #region Abdominals && Plate
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[16].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[17].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[17].Id, Target = PriorityTarget.Primary },
             
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[18].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = UpAbdoId, WorkoutId = Workouts[18].Id, Target = PriorityTarget.Primary },
@@ -1741,16 +1822,31 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[142].Id, Target = PriorityTarget.Primary },
 
             #region Obliques && Barbell
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[143].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[144].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[145].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[146].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[147].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[148].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[149].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[150].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = lowAbdoId, WorkoutId = Workouts[151].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[143].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[144].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[145].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[146].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[147].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[148].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[149].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[150].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[151].Id, Target = PriorityTarget.Primary },
             #endregion
+
+            #region Obliques && Plate
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[152].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[153].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[154].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[155].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+            #region Obliques && Bosu-Ball
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[156].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[157].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[158].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[159].Id, Target = PriorityTarget.Primary },
+            #endregion
+
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();
