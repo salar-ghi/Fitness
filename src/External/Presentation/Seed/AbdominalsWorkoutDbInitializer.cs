@@ -232,17 +232,19 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Smith Machine Side Bend", SportId = cardioSportId, Description = "" },                                 // index => 162
 
             // Obliques // Dumbbell
-            new Workout{ Name = "Dumbbell Wood Chopper", SportId = cardioSportId, Description = "" },                                              // index => 163
-            new Workout{ Name = "Dumbbell Kneeling Wood Chopper", SportId = cardioSportId, Description = "" },                                              // index => 164
-            new Workout{ Name = "Dumbbell Overhead Side Bend", SportId = cardioSportId, Description = "" },                                              // index => 165
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 166
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 167
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 168
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 169
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 170
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 171
+            new Workout{ Name = "Dumbbell Wood Chopper", SportId = cardioSportId, Description = "" },                                   // index => 163
+            new Workout{ Name = "Dumbbell Kneeling Wood Chopper", SportId = cardioSportId, Description = "" },                          // index => 164
+            new Workout{ Name = "Dumbbell Overhead Side Bend", SportId = cardioSportId, Description = "" },                             // index => 165
+            new Workout{ Name = "Dumbbell Side Plank Up Down", SportId = cardioSportId, Description = "" },                             // index => 166
+            new Workout{ Name = "Dumbbell Hand Side Plank", SportId = cardioSportId, Description = "" },                                // index => 167
+            new Workout{ Name = "Dumbbell Elbow Side Plank", SportId = cardioSportId, Description = "" },                               // index => 168
+            new Workout{ Name = "Dumbbell Long Lever Russian Twist", SportId = cardioSportId, Description = "" },                       // index => 169
+            new Workout{ Name = "Dumbbell Side Bend", SportId = cardioSportId, Description = "" },                                      // index => 170
+            new Workout{ Name = "Dumbbell Offset Squat", SportId = cardioSportId, Description = "" },                                   // index => 171
+
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 172
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 173
+            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 174
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 174
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 175
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 176
@@ -1014,6 +1016,41 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[162].Id , Step = 4 , Instruction = "Switch hands and repeat."},
             #endregion
 
+            #region Obliques && Dumbbells
+            new WorkoutInstruction{ WorkoutId = Workouts[163].Id , Step = 1 , Instruction = "Stand with a shoulder width stance. Begin with the dumbbell near one of your quads."},
+            new WorkoutInstruction{ WorkoutId = Workouts[163].Id , Step = 2 , Instruction = "Rotate at your upper spine to engage the obliques."},
+            new WorkoutInstruction{ WorkoutId = Workouts[163].Id , Step = 3 , Instruction = "You can pivot your back foot to keep from generating too much torque at the knee."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[164].Id , Step = 1 , Instruction = "Start in a kneeling position with your shoulder blades pulled back."},
+            new WorkoutInstruction{ WorkoutId = Workouts[164].Id , Step = 2 , Instruction = "Start in a kneeling position with your shoulder blades pulled back."},
+            new WorkoutInstruction{ WorkoutId = Workouts[164].Id , Step = 3 , Instruction = "Rotate at the spine and bring the dumbbell from your hip, 180 degrees around your body. The dumbbell should land at eye level."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[165].Id , Step = 1 , Instruction = "Start by standing with your feet shoulder-width apart and holding a dumbbell overhead."},
+            new WorkoutInstruction{ WorkoutId = Workouts[165].Id , Step = 2 , Instruction = "From this starting position, bend to the side as far as you can while keeping your feet planted and your core engaged."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[166].Id , Step = 1 , Instruction = "Start by lying on your side with your feet stacked on top of each other and a dumbbell on your hip."},
+            new WorkoutInstruction{ WorkoutId = Workouts[166].Id , Step = 2 , Instruction = "Place your bottom elbow on the ground beneath your shoulder and engage your core to raise your hips off the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[166].Id , Step = 3 , Instruction = "Your hips will do all the moving. Think, \"hips up, hips down.\" "},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[167].Id , Step = 1 , Instruction = "Start by lying on your side with your feet stacked on top of each other and a dumbbell on your hip."},
+            new WorkoutInstruction{ WorkoutId = Workouts[167].Id , Step = 2 , Instruction = "Place your bottom hand on the ground beneath your shoulder and engage your core to raise your hips off the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[167].Id , Step = 3 , Instruction = "From this starting position, hold the side plank position for the desired amount of time, making sure to keep your body straight and your hips level."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[168].Id , Step = 1 , Instruction = ""},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[169].Id , Step = 1 , Instruction = "Start by sitting on the floor with your knees bent and feet flat on the ground. Hold a dumbbell in both hands with your arms extended straight in front of you."},
+            new WorkoutInstruction{ WorkoutId = Workouts[169].Id , Step = 2 , Instruction = "Twist your torso to the right, bringing the dumbbell towards the ground, then return to the center. Repeat on the left side, twisting to the left and bringing the dumbbell towards the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[169].Id , Step = 3 , Instruction = "Continue this twisting motion, alternating sides, for the desired number of repetitions. Keep your core engaged and avoid swinging your arms to generate momentum."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[170].Id , Step = 1 , Instruction = "Stand with feet hip-width apart and place your right hand on the right hip."},
+            new WorkoutInstruction{ WorkoutId = Workouts[170].Id , Step = 2 , Instruction = "Hold a dumbbell with the left hand. Bend at the hips to the side."},
+            new WorkoutInstruction{ WorkoutId = Workouts[170].Id , Step = 3 , Instruction = "Make sure you don't start to lean forward to try and force a longer range of motion."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[171].Id , Step = 1 , Instruction = "Hold a dumbbell over one shoulder."},
+            new WorkoutInstruction{ WorkoutId = Workouts[171].Id , Step = 2 , Instruction = "Initiate the squat by pushing your hips back."},
+            new WorkoutInstruction{ WorkoutId = Workouts[171].Id , Step = 3 , Instruction = "Avoid doing any twisting. Try to keep your shoulders even."},
+            #endregion
+
             new WorkoutInstruction{ WorkoutId = Workouts[155].Id , Step = 1 , Instruction = ""},
 
         };
@@ -1266,6 +1303,17 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[162].Id, EquipmentId = smithMachineId },
             #endregion
 
+            #region Obliques && Dumbbells
+            new WorkoutEquipment{ WorkoutId = Workouts[163].Id, EquipmentId = dumbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[164].Id, EquipmentId = dumbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[165].Id, EquipmentId = dumbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[166].Id, EquipmentId = dumbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[167].Id, EquipmentId = dumbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[168].Id, EquipmentId = dumbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[169].Id, EquipmentId = dumbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[170].Id, EquipmentId = dumbellId },
+            new WorkoutEquipment{ WorkoutId = Workouts[171].Id, EquipmentId = dumbellId },
+            #endregion
 
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
@@ -1497,6 +1545,18 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[160].Id , Level = Difficulty.Advanced },
             new WorkoutLevel{ WorkoutId = Workouts[161].Id , Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[162].Id , Level = Difficulty.Novice },
+            #endregion
+
+            #region Obliques && Dumbbells
+            new WorkoutLevel{ WorkoutId = Workouts[163].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[164].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[165].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[166].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[167].Id , Level = Difficulty.Intermediate },
+            new WorkoutLevel{ WorkoutId = Workouts[168].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[169].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[170].Id , Level = Difficulty.Novice },
+            new WorkoutLevel{ WorkoutId = Workouts[171].Id , Level = Difficulty.Intermediate },
             #endregion
 
             new WorkoutLevel{ WorkoutId = Workouts[156].Id , Level = Difficulty.Novice },
@@ -1884,10 +1944,17 @@ public class AbdominalsWorkoutDbInitializer
             #endregion
 
 
-            #region Obliques && 
-            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[160].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[161].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[162].Id, Target = PriorityTarget.Primary },
+            #region Obliques && Dumbbells
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[163].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[164].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[165].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[166].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[167].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[168].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[169].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[170].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[171].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[171].Id, Target = PriorityTarget.Primary },
             #endregion
 
         };
