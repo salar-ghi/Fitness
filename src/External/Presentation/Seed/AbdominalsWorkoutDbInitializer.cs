@@ -231,9 +231,10 @@ public class AbdominalsWorkoutDbInitializer
             new Workout{ Name = "Smith Machine Side Plank Up Down", SportId = cardioSportId, Description = "" },                        // index => 161
             new Workout{ Name = "Smith Machine Side Bend", SportId = cardioSportId, Description = "" },                                 // index => 162
 
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 163
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 164
-            new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 165
+            // Obliques // Dumbbell
+            new Workout{ Name = "Dumbbell Wood Chopper", SportId = cardioSportId, Description = "" },                                              // index => 163
+            new Workout{ Name = "Dumbbell Kneeling Wood Chopper", SportId = cardioSportId, Description = "" },                                              // index => 164
+            new Workout{ Name = "Dumbbell Overhead Side Bend", SportId = cardioSportId, Description = "" },                                              // index => 165
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 166
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 167
             new Workout{ Name = "", SportId = cardioSportId, Description = "" },                                              // index => 168
@@ -995,11 +996,25 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[158].Id , Step = 3 , Instruction = "Lower the leg back down."},
 
             new WorkoutInstruction{ WorkoutId = Workouts[159].Id , Step = 1 , Instruction = "Hold medicine ball with both hands and arms extended."},
-            new WorkoutInstruction{ WorkoutId = Workouts[159].Id , Step = 1 , Instruction = "Swing ball diagonally across body, engaging core."},
+            new WorkoutInstruction{ WorkoutId = Workouts[159].Id , Step = 2 , Instruction = "Swing ball diagonally across body, engaging core."},
+            #endregion
+
+            #region Obliques && smith-machine
+            new WorkoutInstruction{ WorkoutId = Workouts[160].Id , Step = 1 , Instruction = "Lay on your side with your knees bent."},
+            new WorkoutInstruction{ WorkoutId = Workouts[160].Id , Step = 2 , Instruction = "Hold the bar extended over you."},
+            new WorkoutInstruction{ WorkoutId = Workouts[160].Id , Step = 3 , Instruction = "Lift yourself up by flexing your obliques."},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[161].Id , Step = 1 , Instruction = "Start by lying on your side with your feet stacked on top of each other and the bar on your hip."},
+            new WorkoutInstruction{ WorkoutId = Workouts[161].Id , Step = 2 , Instruction = "Place your bottom elbow on the ground beneath your shoulder and engage your core to raise your hips off the ground."},
+            new WorkoutInstruction{ WorkoutId = Workouts[161].Id , Step = 3 , Instruction = "Your hips will do all the moving. Think, \"hips up, hips down.\" "},
+
+            new WorkoutInstruction{ WorkoutId = Workouts[162].Id , Step = 1 , Instruction = "Stand beside the bar."},
+            new WorkoutInstruction{ WorkoutId = Workouts[162].Id , Step = 2 , Instruction = "Keep your hips and shoulders facing forward, bend to one side slowly."},
+            new WorkoutInstruction{ WorkoutId = Workouts[162].Id , Step = 3 , Instruction = "Return to the upright position."},
+            new WorkoutInstruction{ WorkoutId = Workouts[162].Id , Step = 4 , Instruction = "Switch hands and repeat."},
             #endregion
 
             new WorkoutInstruction{ WorkoutId = Workouts[155].Id , Step = 1 , Instruction = ""},
-
 
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
@@ -1245,6 +1260,13 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[159].Id, EquipmentId = bosuballId },
             #endregion
 
+            #region Obliques && smith-machine
+            new WorkoutEquipment{ WorkoutId = Workouts[160].Id, EquipmentId = smithMachineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[161].Id, EquipmentId = smithMachineId },
+            new WorkoutEquipment{ WorkoutId = Workouts[162].Id, EquipmentId = smithMachineId },
+            #endregion
+
+
         };
         await context.WorkoutEquipment.AddRangeAsync(workoutEquipment);
         await context.SaveChangesAsync();
@@ -1471,7 +1493,11 @@ public class AbdominalsWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[159].Id , Level = Difficulty.Beginner },
             #endregion
 
-
+            #region Obliques && smith-machine
+            new WorkoutLevel{ WorkoutId = Workouts[160].Id , Level = Difficulty.Advanced },
+            new WorkoutLevel{ WorkoutId = Workouts[161].Id , Level = Difficulty.Beginner },
+            new WorkoutLevel{ WorkoutId = Workouts[162].Id , Level = Difficulty.Novice },
+            #endregion
 
             new WorkoutLevel{ WorkoutId = Workouts[156].Id , Level = Difficulty.Novice },
         };
@@ -1597,7 +1623,11 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = UpAbdoId, WorkoutId = Workouts[38].Id, Target = PriorityTarget.Primary },
 
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[39].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[39].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[40].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId , WorkoutId = Workouts[40].Id, Target = PriorityTarget.Primary },
+
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[41].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = AbdoId, WorkoutId = Workouts[42].Id, Target = PriorityTarget.Primary },
             #endregion
@@ -1845,6 +1875,19 @@ public class AbdominalsWorkoutDbInitializer
             new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[157].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[158].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[159].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+            #region Obliques && smith-machine
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[160].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[161].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[162].Id, Target = PriorityTarget.Primary },
+            #endregion
+
+
+            #region Obliques && 
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[160].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[161].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = obliqueId, WorkoutId = Workouts[162].Id, Target = PriorityTarget.Primary },
             #endregion
 
         };
