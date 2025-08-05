@@ -1,0 +1,27 @@
+{
+  "count": 4,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1,
+      "name": "Beginner",
+      "name_en_us": "Beginner"
+    },
+    {
+      "id": 2,
+      "name": "Intermediate",
+      "name_en_us": "Intermediate"
+    },
+    {
+      "id": 3,
+      "name": "Advanced",
+      "name_en_us": "Advanced"
+    },
+    {
+      "id": 4,
+      "name": "Novice",
+      "name_en_us": "Novice"
+    }
+  ]
+}
