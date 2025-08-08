@@ -23,41 +23,18 @@ public class ExerciseMapperService : IExerciseMapperService
 
     public async Task ProcessAndSaveExercisesAsync()
     {
-        string inputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonStorageFile", "Biceps_LongHeadBicep_ShortHeadBicep.json");
-        string outputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonMappedSeedStorage", "Biceps_LongHeadBicep_ShortHeadBicep.json");
-
         string inutFilePath = Path.Combine(_env.ContentRootPath, "JsonStorageFile", "Biceps_LongHeadBicep_ShortHeadBicep.json");
+        string jsonFilePath = await System.IO.File.ReadAllTextAsync(inutFilePath);
         //if (!System.IO.File.Exists(inutFilePath))
 
-        string jsonFilePath = System.IO.File.ReadAllText(inputPath);            
-            
-        //string outputFilePath = ;
-
+        //string outputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonMappedSeedStorage", "Biceps_LongHeadBicep_ShortHeadBicep.json");
+        string inputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonStorageFile", "Biceps_LongHeadBicep_ShortHeadBicep.json");
         string json = await File.ReadAllTextAsync(inputPath);
 
         var inputExercises = JsonSerializer.Deserialize<List<WorkoutInput>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
-        var outputExercises = new List<WorkoutOutput>();
-        foreach (var inputEx in inputExercises) 
-        {
-            var outputEx = new WorkoutOutput
-            {
-                WorkoutName = inputEx.Name,
-                Instruction = CreateEmptyInstructions(3),
-                WorkoutLevel = inputEx.Difficulty.Name,
-                Equipment = inputEx.Category.Name,
-            };
-            for (int i = 0; i < inputEx.Muscles.Count; i++) 
-            {
-                string level = i < TargetLevels.Length
-                    ? TargetLevels[i]
-                    : $"Level {i + 1}";
+        var outputExercises = await MapToOutputExercise(inputExercises);
 
-                outputEx.Muscles[inputEx.Muscles[i].Name] =
-                    new OutputMuscleTarget { MuscleTargetLevel = level };
-            }
-            outputExercises.Add(outputEx);
-        }
 
         var options = new JsonSerializerOptions { WriteIndented = true };
         string outputJson = JsonSerializer.Serialize(outputExercises, options);
@@ -69,6 +46,51 @@ public class ExerciseMapperService : IExerciseMapperService
         }
         await File.WriteAllTextAsync(filePath, outputJson);
     }
+
+
+    private async Task<List<WorkoutOutput>> MapToOutputExercise(List<WorkoutInput> inputExercises)
+    {
+        var equipmentOrder = new List<string>
+        {
+            "Barbell","Machine","Stretches","Plate","Bosu-Ball","Smith-Machine",
+            "Dumbbells","Medicine-Ball","Cables","TRX", "Vitruvian", "Recovery",
+            "Bodyweight", "Kettlebells", "Band", "Yoga", "Cardio",
+        };
+
+        var groupedExercises = inputExercises
+            .GroupBy(x => x.Category.Name)
+            .ToDictionary(g => g.Key, g => g.ToList());
+
+        var outputExercises = new List<WorkoutOutput>();
+        foreach (var equipment in equipmentOrder)
+        {
+            if (groupedExercises.TryGetValue(equipment, out var exercises))
+            {
+                foreach (var inputEx in exercises)
+                {
+                    var outputEx = new WorkoutOutput
+                    {
+                        WorkoutName = inputEx.Name,
+                        Instruction = CreateEmptyInstructions(3),
+                        WorkoutLevel = inputEx.Difficulty.Name,
+                        Equipment = inputEx.Category.Name,
+                    };
+                    for (int i = 0; i < inputEx.Muscles.Count; i++)
+                    {
+                        string level = i < TargetLevels.Length
+                            ? TargetLevels[i]
+                            : $"Level {i + 1}";
+
+                        outputEx.Muscles[inputEx.Muscles[i].Name] =
+                            new OutputMuscleTarget { MuscleTargetLevel = level };
+                    }
+                    outputExercises.Add(outputEx);
+                }
+            }
+        }
+        return outputExercises;
+    }
+
 
     private Dictionary<string, string> CreateEmptyInstructions(int count)
     {

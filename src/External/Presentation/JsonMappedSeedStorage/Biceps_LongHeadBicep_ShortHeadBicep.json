@@ -21,61 +21,187 @@
     }
   },
   {
-    "WorkoutName": "Dumbbell Curl",
+    "WorkoutName": "Barbell Reverse Curl",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Hammer Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Novice",
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
       },
-      "Short Head Bicep": {
+      "Forearms": {
         "MuscleTargetLevel": "Secondary"
+      },
+      "Wrist Extensors": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Wrist Flexors": {
+        "MuscleTargetLevel": "Level 4"
       }
     }
   },
   {
-    "WorkoutName": "Kettlebell Goblet Curl",
+    "WorkoutName": "Barbell Landmine Row",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Novice",
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Level 4"
       }
     }
   },
   {
-    "WorkoutName": "Kettlebell Concentration Curl",
+    "WorkoutName": "Barbell Long Landmine Row",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Kettlebells",
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Meadows Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Pronated Pendlay Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lower back": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Pronated Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Supinated Pendlay Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lower back": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Supinated Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lower back": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Bicep Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
       "Biceps": {
@@ -84,35 +210,368 @@
     }
   },
   {
-    "WorkoutName": "Kettlebell Preacher Curl",
+    "WorkoutName": "Landmine Concentration Curl",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Kettlebells",
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Drag Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
       },
-      "Short Head Bicep": {
+      "Long Head Bicep": {
         "MuscleTargetLevel": "Secondary"
+      },
+      "Short Head Bicep": {
+        "MuscleTargetLevel": "Tertiary"
       }
     }
   },
   {
-    "WorkoutName": "Kettlebell Single Arm Curl",
+    "WorkoutName": "Landmine T Bar Rows",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Kettlebells",
+    "Equipment": "Barbell",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
+      },
+      "Lower back": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Bent Over Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "EZ Bar Preacher Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Short Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "EZ Bar Reverse Preacher Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Wrist Extensors": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Neutral Pulldown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lower Traps": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Underhand Pulldown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lower Traps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Seated Cable Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Narrow Pulldown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lower Traps": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Assisted Chin Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Assisted Narrow Pull Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Assisted Neutral Chin Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Assisted Pull Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Underhand Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Bicep Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Pulldown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Seated Plate Loaded Preacher Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Short Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Standing Plate Loaded Preacher Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Short Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
       }
     }
   },
@@ -192,14 +651,14 @@
     }
   },
   {
-    "WorkoutName": "Cable Twisting Curl",
+    "WorkoutName": "Plate Bicep Curl",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Cables",
-    "WorkoutLevel": "Advanced",
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
@@ -207,13 +666,166 @@
     }
   },
   {
-    "WorkoutName": "Cable Single Arm Bayesian Curl",
+    "WorkoutName": "Plate Curl To Overhead Press",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Cables",
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Curl To Overhead Press To Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Hold Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Pinch Grip Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Weighted Chin Ups",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Drag Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
@@ -228,98 +840,77 @@
     }
   },
   {
-    "WorkoutName": "Cable Single Arm Reverse Curl",
+    "WorkoutName": "Smith Machine Overhand Row",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Cables",
+    "Equipment": "Smith-Machine",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
       },
-      "Forearms": {
+      "Lower back": {
         "MuscleTargetLevel": "Secondary"
       },
-      "Wrist Extensors": {
+      "Lats": {
         "MuscleTargetLevel": "Tertiary"
-      },
-      "Wrist Flexors": {
-        "MuscleTargetLevel": "Level 4"
       }
     }
   },
   {
-    "WorkoutName": "Cable Single Arm Hammer Curl",
+    "WorkoutName": "Smith Machine Underhand Row",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Cables",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band Bayesian Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Beginner",
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Novice",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
       },
-      "Long Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band Bayesian Hammer Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band Bayesian Reverse Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Long Head Bicep": {
+      "Lower back": {
         "MuscleTargetLevel": "Secondary"
       },
-      "Forearms": {
+      "Lats": {
         "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Hammer Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Short Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
       }
     }
   },
@@ -332,30 +923,6 @@
     },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Wrist Extensors": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Wrist Flexors": {
-        "MuscleTargetLevel": "Level 4"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Reverse Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Advanced",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
@@ -498,180 +1065,6 @@
     }
   },
   {
-    "WorkoutName": "Plate Bicep Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Plate",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Plate Curl To Overhead Press",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Plate",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Shoulders": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lateral Deltoid": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Anterior Deltoid": {
-        "MuscleTargetLevel": "Level 4"
-      },
-      "Front Shoulders": {
-        "MuscleTargetLevel": "Level 5"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Plate Curl To Overhead Press To Tricep Extension",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Plate",
-    "WorkoutLevel": "Advanced",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Shoulders": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lateral Deltoid": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Anterior Deltoid": {
-        "MuscleTargetLevel": "Level 4"
-      },
-      "Triceps": {
-        "MuscleTargetLevel": "Level 5"
-      },
-      "Front Shoulders": {
-        "MuscleTargetLevel": "Level 6"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Plate Squat Hold Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Plate",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Glutes": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Quads": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band High Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band High Hammer Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band High Reverse Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band Reverse Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
     "WorkoutName": "Dumbbell Concentration Curl",
     "Instruction": {
       "1": "",
@@ -683,243 +1076,6 @@
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "TRX Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "TRX",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "TRX Hammer Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "TRX",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "TRX Reverse Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "TRX",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Landmine Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Level 4"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Chin Ups",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Bodyweight",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band Kneeling Single Arm Pulldown",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Long Landmine Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Advanced",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Meadows Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Pronated Pendlay Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Advanced",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lower back": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Pronated Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Supinated Pendlay Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Advanced",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lower back": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Supinated Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Advanced",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lower back": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
       }
     }
   },
@@ -1035,27 +1191,6 @@
     }
   },
   {
-    "WorkoutName": "Plate Pinch Grip Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Plate",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
     "WorkoutName": "Lawnmower Row",
     "Instruction": {
       "1": "",
@@ -1110,31 +1245,97 @@
     }
   },
   {
-    "WorkoutName": "TRX Rotating Row",
+    "WorkoutName": "Dumbbell Rear Delt Row",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "TRX",
-    "WorkoutLevel": "Beginner",
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
       },
-      "Lats": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Preacher Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Short Head Bicep": {
         "MuscleTargetLevel": "Secondary"
       }
     }
   },
   {
-    "WorkoutName": "Corpse Pose",
+    "WorkoutName": "Dumbbell Incline Curl",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Yoga",
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Weighted Chin Ups",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Laying Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
@@ -1143,13 +1344,217 @@
     }
   },
   {
-    "WorkoutName": "Crow Pose",
+    "WorkoutName": "Dumbbell Bench Braced Flat Curl",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Yoga",
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Braced Hammer Flat Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Braced Hammer Incline Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Braced Incline Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Braced Reverse Flat Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Braced Reverse Incline Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Braced Rolling Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Bench Braced Flat Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Bench Braced Hammer Flat Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Bench Braced Hammer Incline Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Bench Braced Incline Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Bench Braced Reverse Flat Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Bench Braced Reverse Incline Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Wrist Extensors": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Twisting Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
     "WorkoutLevel": "Advanced",
     "Muscles": {
       "Biceps": {
@@ -1158,136 +1563,34 @@
     }
   },
   {
-    "WorkoutName": "Downward Dog",
+    "WorkoutName": "Cable Single Arm Bayesian Curl",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Yoga",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Downward Dog With Fingers Facing Feet",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Yoga",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Scorpion Twist Pose",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Yoga",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Seated Arm Stretch",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Yoga",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Landmine Bicep Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Landmine Concentration Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Bosu Ball Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Bosu-Ball",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Bosu Ball Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Bosu-Ball",
+    "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
       },
-      "Lats": {
+      "Long Head Bicep": {
         "MuscleTargetLevel": "Secondary"
+      },
+      "Short Head Bicep": {
+        "MuscleTargetLevel": "Tertiary"
       }
     }
   },
   {
-    "WorkoutName": "Vitruvian Hammer Curl",
+    "WorkoutName": "Cable Single Arm Reverse Curl",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Vitruvian",
+    "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
@@ -1295,147 +1598,27 @@
       },
       "Forearms": {
         "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Vitruvian Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Vitruvian",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
       },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Forearms": {
+      "Wrist Extensors": {
         "MuscleTargetLevel": "Tertiary"
       },
-      "Lats": {
+      "Wrist Flexors": {
         "MuscleTargetLevel": "Level 4"
       }
     }
   },
   {
-    "WorkoutName": "Vitruvian Single Arm Row",
+    "WorkoutName": "Cable Single Arm Hammer Curl",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Vitruvian",
+    "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
-      },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Alternating Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Gorilla Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Obliques": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Reverse Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
       }
     }
   },
@@ -1704,237 +1887,6 @@
     }
   },
   {
-    "WorkoutName": "Barbell Drag Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Long Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Short Head Bicep": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Landmine T Bar Rows",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lower back": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Neutral Pulldown",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Lower Traps": {
-        "MuscleTargetLevel": "Level 4"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Underhand Pulldown",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lower Traps": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Single Arm Reverse Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Wrist Extensors": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Single Arm Row On Bench",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Smith Machine Drag Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Smith-Machine",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Long Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Short Head Bicep": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Smith Machine Overhand Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Smith-Machine",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lower back": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Smith Machine Underhand Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Smith-Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lower back": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Cardio Band Hammer Curl Jacks",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Cardio",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Gluteus Medius": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Barbell Bent Over Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
     "WorkoutName": "Cable Pull In",
     "Instruction": {
       "1": "",
@@ -1949,192 +1901,6 @@
       },
       "Lats": {
         "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Seated Cable Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Band Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Band",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Row (Single)",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Level 4"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Single Arm Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Rear Delt Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Shoulders": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Posterior Deltoid": {
-        "MuscleTargetLevel": "Level 4"
-      },
-      "Rear Shoulders": {
-        "MuscleTargetLevel": "Level 5"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Rear Delt Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Shoulders": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Posterior Deltoid": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Rear Shoulders": {
-        "MuscleTargetLevel": "Level 4"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Narrow Pulldown",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Lower Traps": {
-        "MuscleTargetLevel": "Level 4"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Kettlebell Rear Delt Row (Double)",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Kettlebells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Traps (mid-back)": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Shoulders": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Posterior Deltoid": {
-        "MuscleTargetLevel": "Level 4"
-      },
-      "Rear Shoulders": {
-        "MuscleTargetLevel": "Level 5"
       }
     }
   },
@@ -2160,6 +1926,93 @@
     }
   },
   {
+    "WorkoutName": "Cable High Bayesian Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Short Head Bicep": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Hammer Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Reverse Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Rotating Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
     "WorkoutName": "TRX Single Arm row",
     "Instruction": {
       "1": "",
@@ -2174,6 +2027,69 @@
       },
       "Lats": {
         "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Hammer Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Single Arm Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
       }
     }
   },
@@ -2211,98 +2127,62 @@
     }
   },
   {
-    "WorkoutName": "Cardio Row Erg Rower",
+    "WorkoutName": "Dumbbell Service Exercise",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Cardio",
+    "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
       },
-      "Glutes": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Quads": {
-        "MuscleTargetLevel": "Level 4"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Cardio Row Erg Rower Arms Only",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Cardio",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
+      "Front Shoulders": {
         "MuscleTargetLevel": "Secondary"
       }
     }
   },
   {
-    "WorkoutName": "Cardio Row Erg Rower Four Stroke Sprint Start",
+    "WorkoutName": "Seated Ulnar Nerve Slider",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Cardio",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Glutes": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      },
-      "Quads": {
-        "MuscleTargetLevel": "Level 4"
-      }
-    }
-  },
-  {
-    "WorkoutName": "EZ Bar Preacher Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Barbell",
+    "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
-      },
-      "Short Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
       }
     }
   },
   {
-    "WorkoutName": "EZ Bar Reverse Preacher Curl",
+    "WorkoutName": "Seated Ulnar Nerve Tensioner",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Barbell",
+    "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Chin Ups",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
@@ -2310,116 +2190,8 @@
       "Forearms": {
         "MuscleTargetLevel": "Secondary"
       },
-      "Wrist Extensors": {
+      "Lats": {
         "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Preacher Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Short Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Assisted Chin Up",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Assisted Narrow Pull Up",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Assisted Neutral Chin Up",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Assisted Pull Up",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Underhand Row",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
       }
     }
   },
@@ -2595,114 +2367,6 @@
     }
   },
   {
-    "WorkoutName": "Dumbbell Incline Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Long Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Service Exercise",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Recovery",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Front Shoulders": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Seated Ulnar Nerve Slider",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Recovery",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Seated Ulnar Nerve Tensioner",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Recovery",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Weighted Chin Ups",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Advanced",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Weighted Chin Ups",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Plate",
-    "WorkoutLevel": "Advanced",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
     "WorkoutName": "L Sit Chin Up",
     "Instruction": {
       "1": "",
@@ -2720,6 +2384,540 @@
       },
       "Lats": {
         "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Gironda Chin Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Chin Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Twisting Chin Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Goblet Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Concentration Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Preacher Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Short Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Alternating Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Gorilla Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Reverse Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Reverse Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Wrist Extensors": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Row On Bench",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Row (Single)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Rear Delt Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Rear Delt Row (Double)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Bayesian Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Bayesian Hammer Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Bayesian Reverse Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Bicep": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band High Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band High Hammer Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band High Reverse Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Reverse Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Forearms": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Kneeling Single Arm Pulldown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
       }
     }
   },
@@ -2808,103 +3006,13 @@
     }
   },
   {
-    "WorkoutName": "Machine Bicep Curl",
+    "WorkoutName": "Corpse Pose",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Plate Loaded Pulldown",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Seated Plate Loaded Preacher Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Short Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Machine Standing Plate Loaded Preacher Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Machine",
-    "WorkoutLevel": "Novice",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Short Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Cable High Bayesian Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Cables",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Long Head Bicep": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Short Head Bicep": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Laying Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
+    "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
@@ -2913,269 +3021,161 @@
     }
   },
   {
-    "WorkoutName": "Dumbbell Bench Braced Flat Curl",
+    "WorkoutName": "Crow Pose",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Bench Braced Hammer Flat Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Bench Braced Hammer Incline Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Bench Braced Incline Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Bench Braced Reverse Flat Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Bench Braced Reverse Incline Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Bench Braced Rolling Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Single Arm Bench Braced Flat Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Single Arm Bench Braced Hammer Flat Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Beginner",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Single Arm Bench Braced Hammer Incline Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Single Arm Bench Braced Incline Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Single Arm Bench Braced Reverse Flat Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Dumbbell Single Arm Bench Braced Reverse Incline Curl",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Dumbbells",
-    "WorkoutLevel": "Intermediate",
-    "Muscles": {
-      "Biceps": {
-        "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Wrist Extensors": {
-        "MuscleTargetLevel": "Tertiary"
-      }
-    }
-  },
-  {
-    "WorkoutName": "Gironda Chin Up",
-    "Instruction": {
-      "1": "",
-      "2": "",
-      "3": ""
-    },
-    "Equipment": "Bodyweight",
+    "Equipment": "Yoga",
     "WorkoutLevel": "Advanced",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
       }
     }
   },
   {
-    "WorkoutName": "Ring Chin Up",
+    "WorkoutName": "Downward Dog",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Bodyweight",
-    "WorkoutLevel": "Intermediate",
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
-      },
-      "Forearms": {
-        "MuscleTargetLevel": "Secondary"
-      },
-      "Lats": {
-        "MuscleTargetLevel": "Tertiary"
       }
     }
   },
   {
-    "WorkoutName": "Ring Twisting Chin Up",
+    "WorkoutName": "Downward Dog With Fingers Facing Feet",
     "Instruction": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "Equipment": "Bodyweight",
-    "WorkoutLevel": "Advanced",
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Scorpion Twist Pose",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Arm Stretch",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Band Hammer Curl Jacks",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
     "Muscles": {
       "Biceps": {
         "MuscleTargetLevel": "Primary"
       },
-      "Forearms": {
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Row Erg Rower",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
         "MuscleTargetLevel": "Secondary"
       },
       "Lats": {
         "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Row Erg Rower Arms Only",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Row Erg Rower Four Stroke Sprint Start",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
       }
     }
   }
