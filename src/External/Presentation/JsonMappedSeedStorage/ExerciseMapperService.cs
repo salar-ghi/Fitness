@@ -2,7 +2,13 @@
 
 namespace Presentation.JsonSeedStorage;
 
-public class ExerciseMapperService
+
+public interface IExerciseMapperService
+{
+    Task ProcessAndSaveExercisesAsync();
+}
+
+public class ExerciseMapperService : IExerciseMapperService
 {
     private readonly IWebHostEnvironment _env;
     public ExerciseMapperService(IWebHostEnvironment env)
@@ -15,12 +21,17 @@ public class ExerciseMapperService
         "Primary", "Secondary", "Tertiary"
     };
 
-
-    public async Task ProcessAndSaveExercisesAsync(string inutFilePath, string outputFilePath)
+    public async Task ProcessAndSaveExercisesAsync()
     {
         string inputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonStorageFile", "Biceps_LongHeadBicep_ShortHeadBicep.json");
-        string outputPath = Path.Combine(Directory.GetCurrentDirectory(), "data", "JsonMappedSeedStorage/Biceps_LongHeadBicep_ShortHeadBicep.json");
+        string outputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonMappedSeedStorage", "Biceps_LongHeadBicep_ShortHeadBicep.json");
 
+        string inutFilePath = Path.Combine(_env.ContentRootPath, "JsonStorageFile", "Biceps_LongHeadBicep_ShortHeadBicep.json");
+        //if (!System.IO.File.Exists(inutFilePath))
+
+        string jsonFilePath = System.IO.File.ReadAllText(inputPath);            
+            
+        //string outputFilePath = ;
 
         string json = await File.ReadAllTextAsync(inputPath);
 
@@ -50,7 +61,13 @@ public class ExerciseMapperService
 
         var options = new JsonSerializerOptions { WriteIndented = true };
         string outputJson = JsonSerializer.Serialize(outputExercises, options);
-        await File.WriteAllTextAsync(outputFilePath, outputJson);
+        string outputFolderPath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage");
+        string filePath = Path.Combine(outputFolderPath, "Biceps_LongHeadBicep_ShortHeadBicep.json");
+        if (!System.IO.File.Exists(outputFolderPath))
+        {
+            Directory.CreateDirectory(outputFolderPath);
+        }
+        await File.WriteAllTextAsync(filePath, outputJson);
     }
 
     private Dictionary<string, string> CreateEmptyInstructions(int count)
@@ -62,6 +79,4 @@ public class ExerciseMapperService
         }
         return instructions;
     }
-
-
 }
