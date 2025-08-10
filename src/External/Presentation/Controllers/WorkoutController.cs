@@ -1,4 +1,5 @@
-﻿using Presentation.JsonSeedStorage;
+﻿using Presentation.JsonMappedSeedStorage;
+using Presentation.JsonSeedStorage;
 
 namespace Presentation.Controllers;
 
@@ -7,6 +8,7 @@ namespace Presentation.Controllers;
 public class WorkoutController : ControllerBase
 {
     private readonly IExerciseMapperService _mapService;
+    private readonly IGenerateCodeService _generateCodeService;
     //private readonly WorkoutDatasets workoutDatasets;
 
     //public WorkoutController(WorkoutDatasets _workoutDatasets)
@@ -14,9 +16,10 @@ public class WorkoutController : ControllerBase
     //    workoutDatasets = _workoutDatasets;
     //}
 
-    public WorkoutController(IExerciseMapperService mapService)
+    public WorkoutController(IExerciseMapperService mapService, IGenerateCodeService generateCodeService)
     {
         _mapService = mapService;
+        _generateCodeService = generateCodeService;
     }
 
     [HttpGet("workout duplication")]
@@ -32,6 +35,14 @@ public class WorkoutController : ControllerBase
     public async Task<IActionResult> MapExercises()
     {
         await _mapService.ProcessAndSaveExercisesAsync();
+        return Ok();
+    }
+
+
+    [HttpGet("Generate Code")]
+    public async Task<IActionResult> GenerateCode()
+    {
+        await _generateCodeService.GenerateCodeInitializer();
         return Ok();
     }
 

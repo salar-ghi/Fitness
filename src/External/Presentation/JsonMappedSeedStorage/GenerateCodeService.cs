@@ -3,7 +3,13 @@ using System.Text.RegularExpressions;
 
 namespace Presentation.JsonMappedSeedStorage;
 
-public class GenerateCodeService
+public interface IGenerateCodeService
+{
+    Task GenerateCodeInitializer();
+}
+
+
+public class GenerateCodeService : IGenerateCodeService
 {
 
     private readonly IWebHostEnvironment _env;
@@ -16,7 +22,7 @@ public class GenerateCodeService
 
     public async Task GenerateCodeInitializer()
     {
-        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonStorageFile", "Biceps_LongHeadBicep_ShortHeadBicep.json");
+        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "Biceps_LongHeadBicep_ShortHeadBicep.json");
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         var workouts = JsonSerializer.Deserialize<List<WorkoutOutput>>(jsonFile, options);
@@ -32,10 +38,8 @@ public class GenerateCodeService
             // Escape quotes and handle nulls
             string escapedName = EscapeString(workout.WorkoutName);
 
-
             // 1. Generate Workout initialization
             workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = bodybuildingId, Description = \"\" }}");
-
 
             // 2. Generate WorkoutEquipment initialization
             string equipmentId = ConvertToIdVariable(workout.Equipment);
@@ -52,11 +56,11 @@ public class GenerateCodeService
         }
         // Output the results
         Console.WriteLine("// Workout Initializations");
-        var workoutsss = ($"var Workouts = new Workout[]\n{{\n    {string.Join(",\n    ", workoutLines)}\n}};");
+        var workoutsss = ($"var Workouts = new List<Workout>\n{{\n    {string.Join(",\n    ", workoutLines)}\n}};");
         Console.WriteLine(workoutsss);
 
         Console.WriteLine("\n// WorkoutEquipment Initializations");
-        var equipmets = ($"var workoutEquipments = new List<WorkoutEquipment>\n{{\n    {string.Join(",\n    ", equipmentLines)}\n}};");
+        var equipmets = ($"var workoutEquipment = new List<WorkoutEquipment>\n{{\n    {string.Join(",\n    ", equipmentLines)}\n}};");
 
         Console.WriteLine("\n// BodyWorkout Initializations");
         var bodyWorkout = ($"var bodyWorkouts = new List<BodyWorkout>\n{{\n    {string.Join(",\n    ", bodyWorkoutLines)}\n}};");
