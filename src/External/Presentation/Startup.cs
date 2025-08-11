@@ -1,4 +1,5 @@
 ﻿using OpenAI;
+using Presentation.JsonMappedSeedStorage;
 using Presentation.JsonSeedStorage;
 using Presentation.Services;
 using System.Net.Http.Headers;
@@ -42,6 +43,7 @@ public class Startup
         //services.AddScoped<WorkoutDatasets>();
 
         services.AddSingleton<IExerciseMapperService, ExerciseMapperService>();
+        services.AddScoped<IGenerateCodeService, GenerateCodeService>();
 
         services.AddHealthChecks().AddCheck("Ollama Server", () =>
             new HealthCheckResult(HealthStatus.Healthy, "Ollama server is running"));
