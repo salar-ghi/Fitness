@@ -28,8 +28,11 @@ public class GenerateCodeService : IGenerateCodeService
         var workouts = JsonSerializer.Deserialize<List<WorkoutOutput>>(jsonFile, options);
 
         var workoutLines = new List<string>();
+        var instructionLines = new List<string>();
         var equipmentLines = new List<string>();
+        var workoutLevelLines = new List<string>();
         var bodyWorkoutLines = new List<string>();
+
 
         for (int i = 0; i < workouts.Count ; i++)
         {
