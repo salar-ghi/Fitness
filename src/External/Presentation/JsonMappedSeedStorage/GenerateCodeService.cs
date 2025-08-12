@@ -1,4 +1,5 @@
-﻿using Presentation.JsonSeedStorage;
+﻿using Domain.Models;
+using Presentation.JsonSeedStorage;
 using System.Text.RegularExpressions;
 
 namespace Presentation.JsonMappedSeedStorage;
@@ -34,7 +35,7 @@ public class GenerateCodeService : IGenerateCodeService
         var bodyWorkoutLines = new List<string>();
 
 
-        for (int i = 0; i < workouts.Count ; i++)
+        for (int i = 0; i < workouts.Count; i++)
         {
             var workout = workouts[i];
 
@@ -44,15 +45,42 @@ public class GenerateCodeService : IGenerateCodeService
             // 1. Generate Workout initialization
             workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = bodybuildingId, Description = \"\" }}");
 
+
+            if (true)
+            {
+                var validSteps = workout.Instruction
+                    .Where(kv => !string.IsNullOrWhiteSpace(kv.Value))
+                    .OrderBy(kv => int.Parse(kv.Key));
+
+                foreach (var step in validSteps)
+                {
+                    //if (string.IsNullOrWhiteSpace(inst.Value)) continue;
+                    //int step = int.Parse(inst.Key);
+                    //string Instruction = inst.Value.Replace("\"", "\\\"");
+
+                    instructionLines.Add($"new WorkoutInstruction{{ WorkoutId = Workouts[{i}].Id , Step = {step.Key} , Instruction = \" {EscapeString(step.Value)}\" }},");
+                }
+
+            }
+
             // 2. Generate WorkoutEquipment initialization
-            string equipmentId = ConvertToIdVariable(workout.Equipment);
+            string equipmentId = GetEquipmentIdVariable(workout.Equipment);
             equipmentLines.Add($"new WorkoutEquipment{{ WorkoutId = Workouts[{i}].Id, EquipmentId = {equipmentId} }}");
 
+            string level = EscapeString(workout.WorkoutLevel);
+            workoutLevelLines.Add($"new WorkoutLevel{{ WorkoutId = Workouts[{i}].Id, Level = Difficulty.{level} }}");
+            //foreach (var muscle in workout.Muscles)
+            //{
+            //    string muscleName = EscapeString(muscle.Key);
+            //    string priority = muscle.Value.MuscleTargetLevel;
 
-            foreach (var muscle in workout.Muscles)
+            //    bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = \"{muscleName}\", WorkoutId = Workouts[{i}].Id, Target = PriorityTarget.{priority} }}");
+            //}
+
+            foreach (var (muscle, target) in workout.Muscles)
             {
-                string muscleName = EscapeString(muscle.Key);
-                string priority = muscle.Value.MuscleTargetLevel;
+                string muscleName = EscapeString(muscle);
+                string priority = target.MuscleTargetLevel;
 
                 bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = \"{muscleName}\", WorkoutId = Workouts[{i}].Id, Target = PriorityTarget.{priority} }}");
             }
@@ -76,11 +104,33 @@ public class GenerateCodeService : IGenerateCodeService
         return input?.Replace("\"", "\\\"") ?? string.Empty;
     }
 
-    private static string ConvertToIdVariable(string equipment)
+    private static string GetEquipmentIdVariable(string equipment)
     {
-        // Convert to lowercase and remove non-alphanumeric characters
-        string cleaned = Regex.Replace(equipment, "[^a-zA-Z0-9]", "").ToLower();
-        return $"{cleaned}Id";
+        return equipment switch
+        {
+            "Barbell"           => "barbellId",
+            "E-Z Curl Bar"      => "ezbarId",
+            "Cable Machine"     => "cableMachineId",
+            "Pull Up Machine"   => "pullUpMachineId",
+            "Machine"           => "machineId",
+            "stretches"         => "stretchesId",
+            "Plate"             => "plateId",
+            "Bosu-Ball"         => "bosuballId",
+            "Smith Machine"     => "smithMachineId",
+            "Dumbells"          => "dumbellId",
+            "Cable"             => "cableId",
+            "TRX"               => "trxId",
+            "Vitruvian"         => "vitruvianId",
+            "Cardio" => "cardioId",
+            "Bodyweight" => "bodyweightId",
+            "KettleBells" => "kettlebellId",
+            "Bands" => "BandsId",
+            "Yoga" => "yogaId",
+        };
+
+
+        //string cleaned = Regex.Replace(equipment, "[^a-zA-Z0-9]", "").ToLower();
+        //return $"{cleaned}Id";
     }
 
 }
