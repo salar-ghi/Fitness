@@ -121,11 +121,11 @@ public class GenerateCodeService : IGenerateCodeService
             "Cable"             => "cableId",
             "TRX"               => "trxId",
             "Vitruvian"         => "vitruvianId",
-            "Cardio" => "cardioId",
-            "Bodyweight" => "bodyweightId",
-            "KettleBells" => "kettlebellId",
-            "Bands" => "BandsId",
-            "Yoga" => "yogaId",
+            "Cardio"            => "cardioId",
+            "Bodyweight"        => "bodyweightId",
+            "KettleBells"       => "kettlebellId",
+            "Bands"             => "BandsId",
+            "Yoga"              => "yogaId",
         };
 
 
