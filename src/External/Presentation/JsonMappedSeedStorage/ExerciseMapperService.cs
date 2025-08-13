@@ -28,7 +28,7 @@ public class ExerciseMapperService : IExerciseMapperService
         //if (!System.IO.File.Exists(inutFilePath))
 
         //string outputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonMappedSeedStorage", "Biceps_LongHeadBicep_ShortHeadBicep.json");
-        string inputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonStorageFile", "Calves_Tibialis_Soleus_Gastrocnemius.json");
+        string inputPath = Path.Combine(Directory.GetCurrentDirectory(), "JsonStorageFile", "Abdominals_Lower_UpperAbdominals_Obliques.json");
         string json = await File.ReadAllTextAsync(inputPath);
 
         var inputExercises = JsonSerializer.Deserialize<List<WorkoutInput>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
@@ -39,7 +39,7 @@ public class ExerciseMapperService : IExerciseMapperService
         var options = new JsonSerializerOptions { WriteIndented = true };
         string outputJson = JsonSerializer.Serialize(outputExercises, options);
         string outputFolderPath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage");
-        string filePath = Path.Combine(outputFolderPath, "Calves_Tibialis_Soleus_Gastrocnemius.json");
+        string filePath = Path.Combine(outputFolderPath, "Abdominals_Lower_UpperAbdominals_Obliques.json");
         if (!System.IO.File.Exists(outputFolderPath))
         {
             Directory.CreateDirectory(outputFolderPath);

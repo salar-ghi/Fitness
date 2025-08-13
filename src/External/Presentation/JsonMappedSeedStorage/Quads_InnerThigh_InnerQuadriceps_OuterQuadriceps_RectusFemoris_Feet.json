@@ -1,0 +1,6440 @@
+[
+  {
+    "WorkoutName": "Barbell Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Groin": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Bulgarian Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Front Squat Olympic",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Front Squat Bodybuilding",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell High Bar Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Low Bar Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Coan Deadlift",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Front Rack Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Heels Up Back Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Heels Up Front Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Pause Box Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Pause Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Reverse Deadlift",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Side Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Step Up Balance",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Tap Pause Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Zercher Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Sumo Deadlift",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Alternating Lunge And Twist",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Landmine Sissy Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Alternating Lunge To Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Goblet Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Goblet Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Hack Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Lunge To Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Rotational Lift To Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Thruster",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 8"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Front Squat With Straps",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Sumo Deadlift",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Kickstand Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Front Rack Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Quad Stomp",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Zercher Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Curtsy Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Leg Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Leg Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Goblet Sissy Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Sissy Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Hack Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Horizontal Leg Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Horizontal Sissy Leg Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Horizontal Hack Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Belt Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Pendulum Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Leg Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vertical Leg Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Single Leg Leg Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Squat Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Hip Adduction",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Groin": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Hip And Glute Adduction",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Groin": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Quads Stretch Variation Four",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Quads Stretch Variation Three",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Quads Stretch Variation Two",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Quads Stretch Variation One",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Reach",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Reverse Lunge Twist",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Overhead Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Overhead Walking Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Hold",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Thruster",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Hold Reach",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Hold Curl",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Weighted Wall Sit",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Goblet Deficit Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Burpee",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Half Burpee",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Sissy Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Leg Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Narrow Stance Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Groin": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Bulgarian Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bulgarian Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Bulgarian Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Lateral Lunge Reach",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Front Rack Pause Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Front Rack Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Pulse Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Heels Up Goblet Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Heels Up Narrow Goblet Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Leg Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Offset Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Sumo Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Thruster",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Overhead Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Arm Overhead Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Glute Bridge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Front Rack Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Side Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Side Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Front Rack Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Kickstand Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Box Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Assisted Bulgarian Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Alternating Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Swing Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Deficit Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Front Rack Deficit Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Deficit Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Quad Stomp",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Curtsy Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Front Rack Curtsy Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Front Rack Stability Ball Wall Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Goblet Curtsy Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Stability Ball Wall Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Stability Ball Goblet Wall Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Ball Headlock Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Ball Offset Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Lateral Lunge Slam",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Overhead Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Overhead Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Reverse Lunge Twist",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Squat Reach",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Clean And Press Slam",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 8"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Wall Ball",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Self Toss",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 7"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 8"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 9"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Goblet Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Standing Leg Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Zercher Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Seated Leg Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Belt Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Belt Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Standing Hip Adduction",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Groin": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Jumping Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Belt Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Front Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Clock Taps",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Hip Flexion Hold",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Mini-Band Hip Flexion",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Hip Flexor Stretch Kneeling Lunge 1",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Hip Flexor Stretch Kneeling Lunge 2",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Hip Flexor Stretch Kneeling Lunge 3",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Jump Into Single Leg Landing",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Jump Off Box Single Leg Landing",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Jump On And Off Box",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Knee Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Towel Knee Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Towel Knee Extension Hold",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Knee Extension Seated Partial",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Foam Roller Quad Mobilisation",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Floor Quad Stretch",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kneeling Quad Stretch",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Quad Stretch",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Side Step On And Off Box",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Skater Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Leg Concentric Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Leg Eccentric Box Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Single Leg Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Femoral Nerve Mobilisation",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Adductor Leg Raise Side Lying",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Adductor Leg Raise Side Lying Isometric",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Adductor Raise Side Lying Long Lever",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Adductor Raise Side Lying Short Lever",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Adductor Stretch Dynamic Standing Alternate",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Adductor Stretch Dynamic Unilateral 4 Point Position",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Adductor Stretch Seated Bilateral Dynamic",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Adductor Stretch Seated Bilateral Static",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Straight Leg Hip Flexions",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Infinity Loop Standing Hip Mobility",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Knee Raise Hold",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Floor Incline Leg Raise",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Alphabet",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Big Toe Abduction",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Big Toe Dorsiflexion",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Doming",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Doming",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Eversions",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Inversions Hold",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Seated Inversions",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Leg Balance 2",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Leg Bosu Ball Balance 2",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Feet": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bulgarian Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Side Lunges",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Forward Lunges",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Jump Squats",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Groin": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Reverse Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Assisted Bulgarian Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Heels Up Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Hamstrings": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Burpee",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Depth Jump",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Box Jump",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Leg Box Jump",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Box Jump",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Alternating Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Alternating Jump Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Alternating Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Alternating Reverse Lunges",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Lateral Lunge Jump",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Swingthrough Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Pulse Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Swing Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Pole Overhead Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "In And Out Jump Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Pop Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Walking Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Alternating Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Step Up Knee Drive",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Box Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Kickstand Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Single Leg Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Wall Sit",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Deficit Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Quad Stomp",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Curtsy Deficit Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Stability Ball Sissy Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Stability Ball Wall Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Goblet Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Heels Up Goblet Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Lateral Lunge (Single)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Forward Lunge (Double)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Rack Curtsy Lunge (Double)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Rack Forward Lunge (Double)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Rack Lateral Lunge (Double)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Rack Reverse Lunge (Double)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Rack Single Arm Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Rack Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Front Rack Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Front Rack Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Sumo Deadlift",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Rack Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Front Rack Step Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Step Up Balance",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Step Up Double",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Kickstand Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Box Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Alternating Curtsy Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Alternating Forward Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Alternating Lateral Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Alternating Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Assisted Bulgarian Split Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Swing Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Deficit Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Rack Deficit Reverse Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Quad Stomp",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Spanish Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Leg Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Leg Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Squat Hold Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Squat Hold Single Arm Row",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Goblet Squat",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Hip Adduction",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Inner Thigh": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Groin": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Crescent Moon Pose",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Crescent Moon Pose Quad Stretch",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Crescent Moon Pose Quad Stretch With Block",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Lord Of The Dance",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Monkey Pose",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Runners Lunge",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Chair Pose",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Assault Bike",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Treadmill Jog",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Treadmill Sprint",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Treadmill Walk",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Figure Eight Sprint",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Forward Scissor",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lower Abdominals": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio In And Out Forward",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lower Abdominals": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Rectus Femoris": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Treadmill Backwards Walk",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Quads": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Three Step Heismans",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Karaoke",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Knee Taps",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Lateral Quick Feet",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Lateral Shuffle",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Long Jump",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Long Jump Shuffle Back",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Row Erg Rower",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Row Erg Rower Four Stroke Sprint Start",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Row Erg Rower Legs Only",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Shuttle Sprint",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Sprint In Place",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Stationary Bike",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Elliptical",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  }
+]

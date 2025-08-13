@@ -1,0 +1,3575 @@
+[
+  {
+    "WorkoutName": "Barbell Laying Triceps Extensions",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Close Grip Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Floor Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Hooklying Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Larsen Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lower Abdominals": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Spoto Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Z Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Lying Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Alternating Single Arm Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Kneeling Alternating Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Kneeling Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Alternating Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Single Arm Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Push Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Staggered Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Tricep Guillotine Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Cable V Bar Push Downs",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Neutral Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Assisted Parallel Bar Dips",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Dips",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Decline Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Incline Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Low Incline Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Tricep Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Triceps Stretch Variation Three",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Triceps Stretch Variation Two",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Triceps Stretch Variation One",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Curl To Overhead Press To Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Overhead Press To Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Hold Reach",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Deficit Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Weighted Diamond Push Ups",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Weighted Knee Push Ups",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Weighted Dip",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Offset Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Pike Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Walkover Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Bodyweight Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Close Grip Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Guillotine Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Rolling Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Tricep Kickback",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Tate Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Single Arm Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Alternating Single Arm Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Guillotine Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Neutral Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Single Arm Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Squeeze Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Guillotine Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Guillotine Incline Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Incline Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Seated Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Arnold Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Squeeze Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Arnold Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Alternating Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Push Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Arnold Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Neutral Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Elevated Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Floor Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Incline Skullover",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Arnold Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Single Arm Arnold Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Y Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Weighted Dip",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Y Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Braced Single Arm Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Tricep Guillotine Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Walkover Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Chest Press Partner Toss",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Cross Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Bar Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Bar Reverse Grip Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Tricep Kickback",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Rope Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Cross Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Incline Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Overhead Tricep Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Push Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Core Stability 2 Opposite Shoulder Tap 4Pt Position",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Abdominals": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Elbow Extensor Isometric Seated Overhead Dumbbell",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Elbow Extensor Mobilisation Kneeling Lacrosse Ball",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bench Dips",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Diamond Push Ups",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Box Dips",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Box Assisted Dips",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Clapping Push Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Diamond Knee Push Ups",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Elevated Push Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Explosive Push Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Incline Knee Push Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Knee Push Ups",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Knee Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Incline Push Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Decline Push Up",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Parallel Bar Dips",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Standing Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Standing Archer Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Skull Crusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Standing Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Decline Skull Crusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Tate Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Guillotine Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Bottoms Up Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Bottoms Up Single Arm Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Floor Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Floor Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Chest Press (Single)",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Walkover Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell High Incline Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Incline Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Push Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Seated Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Clean And Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Incline Guillotine Bench Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Kneeling Bottoms Up Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Overhead Tricep Extension",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Rapunzel Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Single Arm Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Arm Rapunzel Pushdown",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Single Arm Skullcrusher",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Pushup",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Single Arm Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Overhead Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Standing Chest Press",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Tricep Kickback",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Child Pose Elbows On Block",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "One Arm Cow Face Pose",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Pyramid Prayer",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Band Press Jacks",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Ski Erg",
+    "Instruction": {
+      "1": "",
+      "2": "",
+      "3": ""
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  }
+]
