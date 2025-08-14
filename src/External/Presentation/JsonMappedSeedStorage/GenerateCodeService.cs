@@ -1,12 +1,11 @@
-﻿using Domain.Models;
-using Presentation.JsonSeedStorage;
-using System.Text.RegularExpressions;
+﻿using Presentation.JsonSeedStorage;
 
 namespace Presentation.JsonMappedSeedStorage;
 
 public interface IGenerateCodeService
 {
-    Task GenerateCodeInitializer();
+    Task<(List<string>, List<string>, List<string>,
+        List<string>, List<string>)> GenerateCodeInitializer();
 }
 
 
@@ -19,11 +18,10 @@ public class GenerateCodeService : IGenerateCodeService
         _env = env;
     }
 
-
-
-    public async Task GenerateCodeInitializer()
+    public async Task<(List<string>, List<string>, List<string>,
+        List<string>, List<string>)> GenerateCodeInitializer()
     {
-        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "Biceps_LongHeadBicep_ShortHeadBicep.json");
+        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Biceps_LongHeadBicep_ShortHeadBicep.json");
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         var workouts = JsonSerializer.Deserialize<List<WorkoutOutput>>(jsonFile, options);
@@ -34,7 +32,6 @@ public class GenerateCodeService : IGenerateCodeService
         var workoutLevelLines = new List<string>();
         var bodyWorkoutLines = new List<string>();
 
-
         for (int i = 0; i < workouts.Count; i++)
         {
             var workout = workouts[i];
@@ -44,7 +41,6 @@ public class GenerateCodeService : IGenerateCodeService
 
             // 1. Generate Workout initialization
             workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = bodybuildingId, Description = \"\" }}");
-
 
             if (true)
             {
@@ -60,7 +56,6 @@ public class GenerateCodeService : IGenerateCodeService
 
                     instructionLines.Add($"new WorkoutInstruction{{ WorkoutId = Workouts[{i}].Id , Step = {step.Key} , Instruction = \" {EscapeString(step.Value)}\" }},");
                 }
-
             }
 
             // 2. Generate WorkoutEquipment initialization
@@ -96,6 +91,8 @@ public class GenerateCodeService : IGenerateCodeService
         Console.WriteLine("\n// BodyWorkout Initializations");
         var bodyWorkout = ($"var bodyWorkouts = new List<BodyWorkout>\n{{\n    {string.Join(",\n    ", bodyWorkoutLines)}\n}};");
 
+
+        return (workoutLines, instructionLines, equipmentLines, workoutLevelLines, bodyWorkoutLines);
     }
 
 
