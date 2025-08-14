@@ -44,6 +44,7 @@ public class Startup
 
         services.AddSingleton<IExerciseMapperService, ExerciseMapperService>();
         services.AddScoped<IGenerateCodeService, GenerateCodeService>();
+        services.AddScoped<IScraperService, ScraperService>();
 
         services.AddHealthChecks().AddCheck("Ollama Server", () =>
             new HealthCheckResult(HealthStatus.Healthy, "Ollama server is running"));
