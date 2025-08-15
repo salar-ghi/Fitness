@@ -1,0 +1,1646 @@
+[
+  {
+    "WorkoutName": "Barbell Calf Raises",
+    "Instruction": {
+      "1": "Place the bar on your back",
+      "2": "Start with feet flat on the ground",
+      "3": "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+      "4": "Slowly return to the starting position. Repeat."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Calf Jump",
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart and your knees slightly bent.",
+      "2": "Shift your weight onto the balls of your feet and raise stay flat footed. Using your calf muscles, mimic a jumping motion but don\u0027t leave the floor.",
+      "3": "Explode onto your tip toes and hold for a second.",
+      "4": "Bring your heels back to the floor then initiate the next rep."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Seated Calf Raise",
+    "Instruction": {
+      "1": "Start by sitting on a bench with a barbell resting on your knees. Your feet should be flat on the ground, about hip-width apart.",
+      "2": "Place your hands on the barbell for support, and lift your heels off the ground.",
+      "3": "Hold this position for a moment, then slowly lower your heels back to the ground."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Toes Up Calf Raise",
+    "Instruction": {
+      "1": "Begin by standing on a raised surface (such as a step or box) with the balls of your feet on the edge of the surface and your heels hanging off. Hold a barbell across your upper back and shoulders, using an overhand grip.",
+      "2": "Keeping your core engaged and your back straight, push through the balls of your feet to raise your heels up as high as you can.",
+      "3": "Lower your heels back down to the starting position, allowing your calves to stretch."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Calf Raise",
+    "Instruction": {
+      "1": "Stand facing the barbell, holding the end of the barbell close to your chest in both hands with your elbows tucked in to your sides.",
+      "2": "Drive though the balls of your feet to raise your heels off the ground, squeezing your calves, with a focus on making sure your ankles do not turn out or in.",
+      "3": "Lower your heels back down to the ground and repeat for the desired number of reps."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Tibialis Raise",
+    "Instruction": {
+      "1": "Step on the plate, and place barbell on your back.",
+      "2": "Raise your toes straight toward the ceiling.",
+      "3": "Try holding at the top for a few seconds then bring your toes back down to the floor."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Tibialis": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Standing Calf Raises",
+    "Instruction": {
+      "1": "Adjust the machine in accordance with your height and place your shoulders underneath the padded lever.",
+      "2": "The balls of your feet should be supporting your weight on the calve block, your heels extending off of it.",
+      "3": "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+      "4": "Slowly return to the starting position. Repeat."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Seated Calf Raises",
+    "Instruction": {
+      "1": "Get comfortable on the machine, then place your lower thighs beneath the padded lever. Place your toes and the balls of your feet onto the foot supports.",
+      "2": "Prevent the weight from slipping forward by gripping the handles, and release the safety bar. Lower the weight until your calves are extended.",
+      "3": "Push your heels up to lift the padded lever and hold the contracted position, then slowly lower back down to the starting position. Repeat."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Horizontal Leg Press Calf Jump",
+    "Instruction": {
+      "1": "Start with your feet shoulder-width apart and your knees slightly bent.",
+      "2": "Shift your weight onto the balls of your feet and raise stay flat footed. Using your calf muscles, mimic a jumping motion but don\u0027t leave the platform.",
+      "3": "Explode onto your toes and hold for a second."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Horizontal Leg Press Calf Raise",
+    "Instruction": {
+      "1": "Adjust the machine in accordance with your height.",
+      "2": "The balls of your feet should be supporting your weight on the bottom of the platform, your heels extending off of it.",
+      "3": "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+      "4": "Slowly return to the starting position. Repeat."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine 45 Degree Calf Raise",
+    "Instruction": {
+      "1": "Adjust the machine in accordance with your height and sit.",
+      "2": "The balls of your feet should be supporting your weight on the calve block, your heels extended off of it.",
+      "3": "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+      "4": "Slowly return to the starting position. Repeat."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Donkey Calf Raise",
+    "Instruction": {
+      "1": "Adjust the machine to fit your height. Place your elbows on the pad, grab the handles. The vertical pad should be resting on your lower back.",
+      "2": "Raise your heels toward the ceiling."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Calf Raise",
+    "Instruction": {
+      "1": "Sit on the machine and press your back into the back pad.",
+      "2": "Place the balls of your feet on the edge of the foot plate.",
+      "3": "Let your heels lower until you feel a stretch in your calves, then press back up until you feel a contraction."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calves Stretch Variation Three",
+    "Instruction": {
+      "1": "Balance the balls of your feet on the platform, leaning forward to use the wall to assist with balance. Engage your calves so that your feet are flat before beginning the stretch.",
+      "2": "Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the stretch.",
+      "3": "Repeat as necessary."
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calves Stretch Variation Two",
+    "Instruction": {
+      "1": "With both feet flat on the ground, place one leg in front of your shoulder, your other leg should mirror this position behind your other shoulder. In the starting position both of your knees should be straight.",
+      "2": "Place the palms of your hands against the wall at shoulder height in front of you, lean towards the wall and bend your front leg at the knee while keeping your back leg straight.",
+      "3": "Pause at the apex of the stretch and return to the starting position. Switch the position of your legs and repeat."
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calves Stretch Variation One",
+    "Instruction": {
+      "1": "Place the ball of your foot against the wall with your heel on the ground. Place your hands on the wall in front of your shoulders.",
+      "2": "Keeping your knee straight, slowly lean towards the wall, pause for a few seconds when you feel the stretch extending through your calf muscle.",
+      "3": "Return to the starting position, and repeat the stretch with your other leg."
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Calf Raise",
+    "Instruction": {
+      "1": "Stand on Bosu with feet hip-width apart.",
+      "2": "Rise up on toes, squeezing calves.",
+      "3": "Lower heels back down to complete one rep."
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Calf Raise",
+    "Instruction": {
+      "1": "Place the bar on your back",
+      "2": "Start with feet flat on the ground",
+      "3": "Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.",
+      "4": "Slowly return to the starting position. Repeat."
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Seated Calf Raise",
+    "Instruction": {
+      "1": "Start by sitting on a bench or box with the bar resting on your knees. Your feet should be flat on the ground, about hip-width apart.",
+      "2": "Place your hands on the barbell for support, and lift your heels off the ground.",
+      "3": "Hold this position for a moment, then slowly lower your heels back to the ground."
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Calf Raise",
+    "Instruction": {
+      "1": "Stand tall with your feet on the ground. You can put the the balls of your feet on top of a plate to extend the range of motion.",
+      "2": "Imagine you have a string attached to your heels and pull your heels up toward the ceiling."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Calf Raise",
+    "Instruction": {
+      "1": "Start by sitting on a bench with your feet shoulder-width apart and a dumbbell in each hand placed on each leg.",
+      "2": "From this starting position, raise your heels as high as you can by pushing up through your toes.",
+      "3": "Slowly lower your heels back down to the starting position, and repeat for the desired number of repetitions."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Leg Calf Raise",
+    "Instruction": {
+      "1": "Standing straight with a dumbbell in one hand, lift the same foot as the side without the dumbbell off the floor. Hold onto something for balance.",
+      "2": "Raise your heel upwards while keeping your knees stationary.",
+      "3": "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Tibialis Raise",
+    "Instruction": {
+      "1": "Sit on a box or bench, place your heels on a step or plate, and place dumbbells on your quads.",
+      "2": "Raise your toes straight toward the ceiling."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Tibialis": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Standing Tibialis Raise",
+    "Instruction": {
+      "1": "Place your heels on a step or plate, and hold dumbbells to your side.",
+      "2": "Raise your toes straight toward the ceiling.",
+      "3": "Hold at the top for extra benefit. Slowly return to the starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Tibialis": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Calve Raise",
+    "Instruction": {
+      "1": "Use a straight bar or ez bar attachment with the cable set all the way to the bottom.",
+      "2": "Walk a few steps back.",
+      "3": "Pull your heels straight up until you feel a contraction in your calves and then back to original position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Bar Calve Raise",
+    "Instruction": {
+      "1": "Use a straight bar or ez bar attachment with the cable set all the way to the bottom.",
+      "2": "Walk a few steps back.",
+      "3": "Pull your heels straight up until you feel a contraction in your calves and then back to original position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Belt Calf Raise",
+    "Instruction": {
+      "1": "Put on a dip belt and attach the cable carabiner to the chain/strap.",
+      "2": "Take a few steps back and stand tall. Raise up onto the balls of your feet and hold for a 1 count."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Calf Raise",
+    "Instruction": {
+      "1": "Hold the TRX straps under your arms and the handles in your armpits.",
+      "2": "Lean forward against the straps.",
+      "3": "Keep your body straight and initiate the calf raise by raising your heels off the ground."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Seated Calf Raise",
+    "Instruction": {
+      "1": "Sit on the bench with the bar attachment over your legs.",
+      "2": "Raise your heels up to the ceiling."
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Standing Calf Raise",
+    "Instruction": {
+      "1": "Hold the two handles and stand tall.",
+      "2": "Raise your heels as high as possible."
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Isometric On Step",
+    "Instruction": {
+      "1": "Stand on the edge of a step (on the balls of your feet)",
+      "2": "Support your weight in this position for the given amount of time",
+      "3": "You should feel your calves working"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Mobilisation Seated Floor Roll",
+    "Instruction": {},
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 1A Bilateral Eccentric Floor",
+    "Instruction": {},
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 1B Bilateral Floor",
+    "Instruction": {
+      "1": "From the standing position, shift your weight onto the balls of your feet",
+      "2": "Raise the heels off the ground, before lowering them back to the ground",
+      "3": "Do not rest at the bottom. As soon as you feel your heels touch the ground, repeat the movement",
+      "4": "You should feel your calves working"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 1C Bilateral Eccentric From Box",
+    "Instruction": {
+      "1": "While standing on the edge of a step, shift your weight on your toes while quickly raising the heals",
+      "2": "Hold the top position for a split second and then very slowly lower your heels below the level of the step until you start feeling a stretch in the calves",
+      "3": "Try to avoid muscular (calf) contraction while raising the heels and then exert muscular contraction on the eccentric phase",
+      "4": "Pause on both ends of range"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 1D Bilateral From Box",
+    "Instruction": {
+      "1": "Use the edge of a step to place the balls of your feet on",
+      "2": "Raise the heels, before lowering them below the level of the step, or until you feel a stretch in the calves",
+      "3": "Try pausing on both ends of range for a split second",
+      "4": "You should feel your calves working"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 1E Bilateral Isometric Floor",
+    "Instruction": {
+      "1": "From the standing position, shift your weight onto the balls of your feet",
+      "2": "Raise the heels off the ground, and hold the position for the duration specified",
+      "3": "You should feel your calves working"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 2A Eccentric Unilateral Floor",
+    "Instruction": {
+      "1": "Raise both heels off the ground, shift your weight onto the working leg while the opposite leg is suspended.",
+      "2": "Hold the top position for a split second and then very slowly lower your heel to the ground",
+      "3": "Try to avoid muscular (calf) contraction while raising the heel and then exert muscular contraction on the eccentric phase"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 2B Unilateral Floor",
+    "Instruction": {
+      "1": "From the standing position, shift your weight onto onto one foot",
+      "2": "Raise the heel of the working leg off the ground, before lowering it back to the ground",
+      "3": "Do not rest at the bottom. As soon as you feel your heel touch the ground, repeat the movement",
+      "4": "You should feel your calf working"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 2C Eccentric Unilateral From Box",
+    "Instruction": {
+      "1": "While standing on the edge of a step, use both legs to raise your heels, before shifting your weight onto the working leg",
+      "2": "Hold the top position for a split second and then very slowly lower your heel below the level of the step or until you start feeling a stretch in the calf",
+      "3": "Try to avoid muscular (calf) contraction while raising the heels and then exert muscular contraction on the eccentric phase"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 2D Unilateral From Box",
+    "Instruction": {
+      "1": "Use the edge of a step to place the balls of one foot on",
+      "2": "Raise the heel, before lowering it below the level of the step, or until you feel a stretch in the calf",
+      "3": "Try pausing on both ends of range for a split second"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 3A Soleus Bias Bilateral",
+    "Instruction": {
+      "1": "From the standing position, bend your knees till you get to a squated or semi-squated position",
+      "2": "Maintain the squat while raising both heels off the ground",
+      "3": "Hold the position for a split second before lowering your heels again",
+      "4": "Do not rest at the bottom. As soon as you feel your heels touch the ground, repeat the movement"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise 3B Soleus Bias Unilateral",
+    "Instruction": {
+      "1": "From the standing position, bend your knees till you get to a squated or semi-squated position. Be close to a pole or squat rack to use for balance",
+      "2": "Maintain the squat while shifting your weight onto the working leg and raising the other off the ground",
+      "3": "Raise your heel off the ground",
+      "4": "Hold the position for a split second before lowering your heel again",
+      "5": "Do not rest at the bottom. As soon as you feel your heel touch the ground, repeat the movement"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raise Isometric Unilateral",
+    "Instruction": {
+      "1": "From the standing position, shift your weight onto the balls of one foot.",
+      "2": "Raise your heel off the ground, and hold the position for the duration specified",
+      "3": "You should feel your calf working."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Stretch On Box Bilateral",
+    "Instruction": {
+      "1": "Stand on a box. From the standing position, shift your weight onto the balls of one foot.",
+      "2": "Lower the heels of your feet toward the ground, and hold the position for the duration specified",
+      "3": "You should feel your calf stretching."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Gastrocnemius Stretch Bilateral On Box",
+    "Instruction": {
+      "1": "Stand on the edge of a box, knees extended.",
+      "2": "Let your weight push your heels towards the ground.",
+      "3": "You should feel your calves being stretched."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Gastrocnemius Stretch Push Up Position",
+    "Instruction": {
+      "1": "Get yourself in the pushup position.",
+      "2": "Straighten your knees and try to push one heel down towards the ground.",
+      "3": "Cross your other leg over the top to apply extra pressure to the stretch."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Gastrocnemius Stretch Unilateral On Box",
+    "Instruction": {
+      "1": "Stand on the edge of a box, knees extended.",
+      "2": "Bend one leg while allowing the weight to push the heel of your straight leg towards the ground.",
+      "3": "You should feel your calves being stretched."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Gastrocnemius Stretch Unilateral On Wall",
+    "Instruction": {
+      "1": "Stand by a wall but not too close.",
+      "2": "Place the palms on the wall and extend one leg behind you, while slightly bending the front leg.",
+      "3": "Push the wall in order to drive the heel of the extended leg into the ground till you feel a stretch in your calf."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Plantar Flexions",
+    "Instruction": {
+      "1": "Sit on the floor using your palms or elbows to lean back onto.",
+      "2": "Attach one end of a band around your toes and hold onto the other.",
+      "3": "Point and flex the toes against the resistance."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Soleus Stretch",
+    "Instruction": {
+      "1": "Stand close to a wall on a narrow, staggered stance (toes of the back leg should be at the same level as the heel of the front leg).",
+      "2": "Keep your weight on the back leg as you bend your knees.",
+      "3": "Hold the position for the prescribed duration."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ankle Circle",
+    "Instruction": {
+      "1": "Sit or stand, lift one foot slightly off the ground.",
+      "2": "Rotate your ankle in a circular motion.",
+      "3": "Complete the allotted amount of reps, then switch directions and repeat on the other foot."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dorsal Flexion Hold",
+    "Instruction": {
+      "1": "From the standing position, raise your toes and balance on your heels for the given duration.",
+      "2": "Maintain a good upper body form."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Tibialis": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Wall Supported Dorsal Flexion",
+    "Instruction": {
+      "1": "Lean against a wall, raise your toes and balance on your heels for the given duration.",
+      "2": "Maintain a good upper body form."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Tibialis": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Tip Toe Walking",
+    "Instruction": {
+      "1": "Point your toes into the floor.",
+      "2": "Slowly walk forwards and backward",
+      "3": "Keep your heels in the air as long as possible while walking.",
+      "4": "It may be beneficial to do this last at the end of your workout."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Calf Raises",
+    "Instruction": {
+      "1": "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.",
+      "2": "Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the motion.",
+      "3": "Repeat as necessary."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Walking Calf Raises",
+    "Instruction": {
+      "1": "Walk forward and push your toe into the ground",
+      "2": "Lift you heel off the ground each step and tense your calf muscle",
+      "3": "Repeat on each leg and walk forward slowly"
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Donkey Calf Raise",
+    "Instruction": {
+      "1": "Hold on to something for balance.",
+      "2": "Hinge forward and maintain that position. Calf raise until you feel a contraction in your calfs."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Single Leg Calf Raise",
+    "Instruction": {
+      "1": "Hold onto something for balance. Raise one foot off the ground.",
+      "2": "Raise your heel upwards while keeping your knees stationary.",
+      "3": "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Tibialis Raise",
+    "Instruction": {
+      "1": "Sit on a box or bench, place your heels on a step or plate.",
+      "2": "Raise your toes straight toward the ceiling."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Tibialis": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Leg Calf Raise",
+    "Instruction": {
+      "1": "Standing straight with a kettlebell in one hand, lift the same foot as the side without the kettlebell off the floor.",
+      "2": "Raise your heel upwards while keeping your knees stationary.",
+      "3": "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Calf Raise",
+    "Instruction": {
+      "1": "Standing straight with a kettlebell in each hand, raise your heels upwards while keeping your knees stationary.",
+      "2": "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Seated Calf Raise",
+    "Instruction": {
+      "1": "Sitting comfortably on a chair with your core stomach muscles engaged, place your feet on the floor.",
+      "2": "Place the kettlebell on your legs, just above the knees and raise your heels upwards off the floor.",
+      "3": "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Goblet Calf Raise",
+    "Instruction": {
+      "1": "Standing straight with a kettlebell in a goblet position, raise your heels upwards while keeping your knees stationary.",
+      "2": "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Seated Calf Raise Double",
+    "Instruction": {
+      "1": "Start by sitting on a bench with a barbell resting on your knees. Your feet should be flat on the ground, about hip-width apart.",
+      "2": "Place your hands on the barbell for support, and lift your heels off the ground.",
+      "3": "Hold this position for a moment, then slowly lower your heels back to the ground."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Soleus": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Calf Raise",
+    "Instruction": {
+      "1": "Stand tall with your feet on the ground. You can put the the balls of your feet on top of a plate to extend the range of motion.",
+      "2": "Imagine you have a string attached to your heels and pull your heels up toward the ceiling."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Leg Single Arm Calf Raise",
+    "Instruction": {
+      "1": "Standing straight with a kettlebell in one hand, lift the opposing foot off the floor.",
+      "2": "Raise your heel upwards while keeping your knees stationary.",
+      "3": "Pause when your heels are fully extended and then slowly return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Calf Raise",
+    "Instruction": {
+      "1": "Attach band to a low anchor point.",
+      "2": "Take a few steps away until the band is taut.",
+      "3": "Lean back slightly. Raise your heels straight up and down"
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gastrocnemius": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Downward Dog Toe To Heel",
+    "Instruction": {
+      "1": "Begin in a downward-facing dog position with your hands shoulder-width apart and your feet hip-width apart.",
+      "2": "Lift your right foot off the mat and place your right toes on top of your left heel.",
+      "3": "Press your palms and fingers firmly into the mat and lift your hips up towards the ceiling, deepening the stretch in your hamstrings and calves.",
+      "4": "Hold the pose for a few breaths, and then release by slowly walking your hands back out to a downward-facing dog position."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Pyramid Pose Calf Blocks",
+    "Instruction": {
+      "1": "Start standing with a flat and vertical block on the matt",
+      "2": "Bend forward, placing hand on vertical block, and front of foot on the flat block.",
+      "3": "Press the bottom of your foot towards the ground, and repeat on each side."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Walk Your Downward Dog",
+    "Instruction": {
+      "1": "Begin in a downward-facing dog position with your hands shoulder-width apart and your feet hip-width apart.",
+      "2": "Walk your feet towards your hands, bending your knees as needed to allow your heels to touch the mat.",
+      "3": "Press your palms and fingers into the mat and lift your hips up towards the ceiling to deepen the stretch in your hamstrings and calves.",
+      "4": "Hold the pose for a few breaths, and then release by slowly walking your hands back out to a downward-facing dog position."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Treadmill Jog",
+    "Instruction": {
+      "1": "Get the treadmill up to a comfortable speed where you are doing a light jog."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Treadmill Sprint",
+    "Instruction": {
+      "1": "Get the treadmill up to a speed where you are doing a sprint."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Treadmill Walk",
+    "Instruction": {
+      "1": "Get the treadmill up to a comfortable speed where you are doing a walk."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Box Quick Feet",
+    "Instruction": {
+      "1": "Stay light on your toes and tap both feet to the ground in quick succession.",
+      "2": "Move in a square pattern."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Criss Cross Jacks",
+    "Instruction": {
+      "1": "Perform a jumping jack while crossing the feet."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Diamond Hop",
+    "Instruction": {
+      "1": "With both feet, leap forward then back, then to the left, then to the right.",
+      "2": "Repeat."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Figure Eight Sprint",
+    "Instruction": {
+      "1": "Perform s sprint in a figure eight pattern.",
+      "2": "Make sure to stay low."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio In And Outs",
+    "Instruction": {},
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio In In Out Out Shuffle",
+    "Instruction": {
+      "1": "Start with your feet side by side.",
+      "2": "Bring one foot laterally, then the other.",
+      "3": "Return the first foot to its starting position, then the other."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Three Step Heismans",
+    "Instruction": {
+      "1": "Start with a shoulder width stance.",
+      "2": "Stay on your toes, step right, tap your left toe to the ground, plant your right foot and raise your left leg.",
+      "3": "Then repeat in the opposite direction."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Knee Taps",
+    "Instruction": {
+      "1": "Stand straight, feet hip-width apart, engage core.",
+      "2": "Lift knees alternately, tap with same side hand.",
+      "3": "Continue rhythmically, maintain posture, increase speed as able."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Lateral Quick Feet",
+    "Instruction": {
+      "1": "Start with a shoulder width stance.",
+      "2": "Quickly tap your feet while moving laterally."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Lateral Shuffle",
+    "Instruction": {
+      "1": "Start with a wide stance.",
+      "2": "Shuffle sideways for a specified distance while maintaining a quarter squat position."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Long Jump",
+    "Instruction": {
+      "1": "Stand feet shoulder-width, knees slightly bent, arms behind you, eyes forward.",
+      "2": "Swing arms backward, squat deeply, loading legs for explosive power.",
+      "3": "Swing arms, explode forward, extend legs mid-air, land softly on both feet."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Long Jump Shuffle Back",
+    "Instruction": {
+      "1": "Stand feet shoulder-width, knees slightly bent, arms behind you, eyes forward.",
+      "2": "Swing arms backward, squat deeply, loading legs for explosive power.",
+      "3": "Swing arms, explode forward, extend legs mid-air, land softly on both feet.",
+      "4": "Shuffle back to the starting position."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Quick Feet",
+    "Instruction": {
+      "1": "Quickly tap each foot to the ground."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Seal Jacks",
+    "Instruction": {
+      "1": "Stand with feet together, arms in front at chest level, palms touching.",
+      "2": "Spread legs wide, simultaneously swing arms out to sides, palms facing forward.",
+      "3": "Jump back to starting position, bringing arms together again quickly. Repeat rhythmically."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Shuttle Sprint",
+    "Instruction": {
+      "1": "Set up two cones at a specified distance.",
+      "2": "Stay low and sprint quickly to the second cone.",
+      "3": "Hinge forward and tap the cone, then turn and sprint to the original cone.",
+      "4": "Repeat for the desired time or reps."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Single Leg Forward Hop",
+    "Instruction": {
+      "1": "Pick up one leg off the ground.",
+      "2": "Hop forward and backward quickly while staying on your toes."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Single Leg Lateral Hop",
+    "Instruction": {
+      "1": "Pick up one leg off the ground.",
+      "2": "Hop laterally quickly while staying on your toes."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Skater To Single Leg Burpee",
+    "Instruction": {
+      "1": "Leap sideways, land on right foot, left leg behind to the side.",
+      "2": "Drop into a single-leg burpee, right leg only, hands to ground.",
+      "3": "Return to standing on right, leap sideways to left, repeat with left leg."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Sprint In Place",
+    "Instruction": {
+      "1": "Stand tall, feet hip-width apart, knees slightly bent, ready to move.",
+      "2": "Quickly drive knees up towards chest, alternating legs, pumping arms in rhythm.",
+      "3": "Gradually speed up, maintaining high knees and arm movement, breathe steadily."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Jump Rope",
+    "Instruction": {
+      "1": "Hold handles, elbows close, and jump with both feet together.",
+      "2": "Rotate wrists to swing the rope over your head.",
+      "3": "Jump as it reaches your feet, keeping a steady rhythm."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  }
+]
