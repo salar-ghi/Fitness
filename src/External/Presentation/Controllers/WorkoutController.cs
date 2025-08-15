@@ -52,8 +52,8 @@ public class WorkoutController : ControllerBase
     [HttpGet("scrape-instructions")]
     public async Task<IActionResult> ScrapeInstructions()
     {
-        _scraperService.ScrapeInstruction();
-        return Ok();
+        var result = await _scraperService.ScrapeInstruction();
+        return Ok(result);
     }
 
 
