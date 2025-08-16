@@ -29,7 +29,7 @@ public class ScraperService : IScraperService
 
     public async Task<string> ScrapeInstruction()
     {
-        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Hamstrings_Medial_LateralHamstrings.json");
+        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Glutes_GlutesMedius_GlutesMaximus.json");
 
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -54,7 +54,7 @@ public class ScraperService : IScraperService
 
         string outputJson = JsonSerializer.Serialize(workouts, new JsonSerializerOptions { WriteIndented = true });
         string outputFolderPath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage");
-        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Hamstrings_Medial_LateralHamstrings.json");
+        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Glutes_GlutesMedius_GlutesMaximus.json");
         //if (!File.Exists(outputFolderPath))
         //{
         //    Directory.CreateDirectory(outputFolderPath);
