@@ -41,7 +41,11 @@
   },
   {
     "WorkoutName": "Barbell Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back on the floor with your knees bent and your feet flat on the ground. Place a barbell across your hips and grasp it with both hands.",
+      "2": "Keeping your arms straight, push through your heels to lift your hips off the ground and raise the barbell.",
+      "3": "Hold the bridge position for a moment, then slowly lower your hips back to the starting position."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -113,7 +117,11 @@
   },
   {
     "WorkoutName": "Barbell Feet Elevated Single Leg Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by lying flat on your back with your feet resting on top of a box, the barbell placed over your hips. Raise one leg up and off the box.",
+      "2": "Push through your heels and raise your hips towards the ceiling, keeping your feet flat on the box.",
+      "3": "Engage your glutes at the top of the movement, pause briefly and then lower your hips back down to the starting position."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -285,7 +293,12 @@
   },
   {
     "WorkoutName": "Barbell High Bar Good Morning",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place the bar on your traps. You may need a pad so the bar doesn\u0027t dig into your cervical spine.",
+      "2": "Push your hips straight back. Your knees should stay MOSTLY extended (think soft knees). Also make sure to",
+      "3": "Look for what feels like a stretch in your hamstrings. The stretch feeling means you\u0027re likely nearing the end of your Range of Motion without rounding your spine.",
+      "4": "When you feel the stretch push your hips forward until you\u0027re in a standing position."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -470,7 +483,11 @@
   },
   {
     "WorkoutName": "Barbell Heels Up Front Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart and feet on a plate. Place the bar in a front rack position.",
+      "2": "Bend your knees and lower your body into a squat position, keeping your heels raised off the ground.",
+      "3": "Push through your heels to return to the starting position."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -484,7 +501,12 @@
   },
   {
     "WorkoutName": "Barbell Lateral Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart and hold a barbell at your shoulders with an overhand grip.",
+      "2": "Step out to the side with your right foot and bend your right knee to lower your body until your right thigh is parallel to the ground.",
+      "3": "Push off your right foot to return to the starting position.",
+      "4": "Repeat on the opposite side by stepping out with your left foot."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -498,7 +520,11 @@
   },
   {
     "WorkoutName": "Barbell Pause Box Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a box or bench with your feet shoulder-width apart and a barbell resting on your upper back.",
+      "2": "Lower your body into a squat position, sitting back onto the box and pausing for a moment before standing back up.",
+      "3": "Push through your heels to return to the standing position."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -768,7 +794,11 @@
   },
   {
     "WorkoutName": "Landmine Alternating Lunge And Twist",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Set up the landmine attachment and load weight.",
+      "2": "Stand facing the landmine, holding the weight away from your chest.",
+      "3": "Step backward with one leg, lunge down while twisting your torso toward the front leg, return to starting position, and repeat on the other side."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -909,7 +939,11 @@
   },
   {
     "WorkoutName": "Landmine Hack Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start facing away from the landmine attachment with the end of the barbell resting on one shoulder against the base of your neck while leaning slightly back into the weight of the barbell.",
+      "2": "Squat down with control while keeping the weight of the barbell as close to centered over your midpoint as possible, then drive through your heels to stand all the way back up and return to starting position.",
+      "3": "Repeat for desired number of reps, then switch the side of your body the barbell is on every subsequent set."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -1123,7 +1157,10 @@
   },
   {
     "WorkoutName": "Landmine Snatch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the end of the bar in front of you.",
+      "2": "Pop your hips, pull your elbows up to the ceiling, and get underneath the bar."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1454,7 +1491,11 @@
   },
   {
     "WorkoutName": "Barbell Suitcase Carry",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin by standing with your feet hip-width apart with the bar on the ground at your side.",
+      "2": "Lift the bar to your side and walk for the allotted amount of time or distance.",
+      "3": "Set the bar down and switch sides."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -1689,7 +1730,11 @@
   },
   {
     "WorkoutName": "Barbell Curtsy Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, barbell on your back, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start, keeping bar stable throughout."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -1721,7 +1766,12 @@
   },
   {
     "WorkoutName": "Machine Leg Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place your legs on the platform with your feet at shoulder width.",
+      "2": "Release the weight and extend your legs fully, without locking your knees.",
+      "3": "Lower the weight until your legs are at a 90\u00B0 angle (but DO NOT allow your butt and lower back to rise off of the pad. This will put your lower back in a rounded position, which is very dangerous.)",
+      "4": "Raise the weight back to starting position."
+    },
     "Equipment": "Machine",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -1942,7 +1992,11 @@
   },
   {
     "WorkoutName": "Machine Plate Loaded Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Adjust the machine for your height, sit with your back against the pad, knees bent, feet flat on the platform.",
+      "2": "Brace your core, push through your heels, and extend your hips upwards, lifting the weight while squeezing your glutes.",
+      "3": "Lower the weight slowly back to the starting position, ensuring controlled movement; repeat for desired reps and sets."
+    },
     "Equipment": "Machine",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2129,7 +2183,12 @@
   },
   {
     "WorkoutName": "Plate Squat Hold",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart, with a weight plate held in both hands at chest height.",
+      "2": "Lower your body by bending your knees and hips, keeping your back straight and your weight in your heels.",
+      "3": "Go down until your thighs are parallel to the floor, then pause for a moment.",
+      "4": "Hold the squat position for the desired amount of time, keeping the weight plate steady and your core engaged."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2293,7 +2352,11 @@
   },
   {
     "WorkoutName": "Plate Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a plate with both feet.",
+      "2": "Step back with one foot to the floor and let your back knee get close to or tap the floor.",
+      "3": "Push through your front leg until both feet are back on the plate."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -2325,7 +2388,12 @@
   },
   {
     "WorkoutName": "Plate Glute Bridge to Pullover",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lay flat on the ground with a plate on your chest.",
+      "2": "Push your hips up toward the ceiling and maintain that extended position.",
+      "3": "Extend your elbows mostly, break at the shoulder joint while maintaining hip extension and the slight bend in your elbows.",
+      "4": "Let the plate tap the floor (or get close) and then pull the plate back into the starting position."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2339,7 +2407,11 @@
   },
   {
     "WorkoutName": "Plate Overhead Walking Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall with a plate overhead.",
+      "2": "Step with one foot forward bringing your back knee to the floor. Gently tap your knee then drive through your front leg.",
+      "3": "Go back to a standing position and then step forward with the opposing legs."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2353,7 +2425,12 @@
   },
   {
     "WorkoutName": "Plate Staggered Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a weight plate.",
+      "2": "Place one foot slightly behind the other, with the heel of your back foot elevated.",
+      "3": "From this starting position, bend at the hips and knees to lower the plate towards the ground, keeping your back straight and your core engaged.",
+      "4": "Once the plate is below your knees, drive through your heels to stand back up to the starting position."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -2370,7 +2447,11 @@
   },
   {
     "WorkoutName": "Plate Staggered Pinch Grip Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding two plates with a pinch grip.",
+      "2": "Place one foot slightly behind the other, with the heel of your back foot elevated.",
+      "3": "From this starting position, bend at the hips and knees to lower the plates towards the ground, keeping your back straight and your core engaged."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -2390,7 +2471,11 @@
   },
   {
     "WorkoutName": "Plate Thruster",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with the plate at chest height. Begin a squat.",
+      "2": "Make sure to hit parallel depth. On your way back up, use the momentum you generate with your legs to help push the plate into an overhead position.",
+      "3": "Let the plate return to chest height before initiating the next squat."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2416,7 +2501,12 @@
   },
   {
     "WorkoutName": "Plate Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet hip-width apart, the plate in front of the feet, and the knees slightly bent.",
+      "2": "Bend the hips and knees to grip the plate with palms facing the body.",
+      "3": "Keeping the back straight, stand up while lifting the plate off the ground.",
+      "4": "Return the plate back to the starting position by bending the hips and knees, keeping control of the plate."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2433,7 +2523,11 @@
   },
   {
     "WorkoutName": "Plate Good Morning",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet hip-width apart, the plate held behind the neck and the knees slightly bent.",
+      "2": "Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor.",
+      "3": "Push through the hips to return to the starting position."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2450,7 +2544,11 @@
   },
   {
     "WorkoutName": "Plate Good Morning Anterior",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet hip-width apart, the plate held in front of you, and the knees slightly bent.",
+      "2": "Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor.",
+      "3": "Push through the hips to return to the starting position."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2467,7 +2565,12 @@
   },
   {
     "WorkoutName": "Plate Overhead Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold a weight plate at arm\u0027s length overhead, with your arms fully extended. The plate should be directly above your head and your elbows should be locked.",
+      "2": "Begin to bend your knees, lowering your body as far as you can while keeping the weight plate overhead. Make sure to keep your back straight and your chest lifted.",
+      "3": "Once your thighs are parallel to the ground or as low as you can go, pause for a moment.",
+      "4": "Push through your heels to return to a standing position, keeping the weight plate overhead the entire time."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2481,7 +2584,12 @@
   },
   {
     "WorkoutName": "Plate Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the plate at chest height close to your body",
+      "2": "Take a big step backwards with your left leg, lowering your body until your left thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+      "3": "Push through your right heel to return to standing, bringing your left leg back to starting position.",
+      "4": "Repeat the movement on the other side, stepping backwards with your right leg and lowering your body until your right thigh is parallel to the ground and your left knee is bent at a 90-degree angle."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2495,7 +2603,11 @@
   },
   {
     "WorkoutName": "Plate Reverse Lunge Twist",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Step back with your right foot into a lunge position, both knees bent at 90 degrees.",
+      "2": "Twist your torso to the right, keeping the plate close to your chest.",
+      "3": "Push through your front foot to return to the starting position and repeat on the other side."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2512,7 +2624,11 @@
   },
   {
     "WorkoutName": "Plate Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart and hold a weight plate in front of your chest with both hands.",
+      "2": "Keep your back straight, lower your body as if you were sitting back into a chair.",
+      "3": "Go as low as you can while keeping your heels flat on the ground, then push through your heels to return to the starting position."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2526,7 +2642,12 @@
   },
   {
     "WorkoutName": "Plate Squat Hold Curl",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lower into a squat position, keeping the plate at chest height.",
+      "2": "Slowly curl the plate towards your shoulders, keeping your elbows close to your body.",
+      "3": "Hold for a moment at the top of the curl before lowering the plate back to chest height.",
+      "4": "Repeat the curls as you hold the squat position."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2543,7 +2664,11 @@
   },
   {
     "WorkoutName": "Plate Squat Reach",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand holding a weight plate at chest height with both hands.",
+      "2": "Lower into a squat, extending the plate in front of you at chest height",
+      "3": "As you stand back up, pull the plate back into your chest."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2566,7 +2691,11 @@
   },
   {
     "WorkoutName": "Plate Goblet Deficit Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, Holding a plate to your chest, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2580,7 +2709,12 @@
   },
   {
     "WorkoutName": "Plate Staggered Waiters Bow",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Set up a bar at mid way up your quad. Place the working leg against the bar.",
+      "2": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+      "3": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+      "4": "When you feel the stretch, push your hips forward again until you\u0027re back in a standing position."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2597,7 +2731,11 @@
   },
   {
     "WorkoutName": "Plate Waiters Bow",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a barbell at about midway up your thigh. Press your quads into the barbell. Hold a plate up to your chest.",
+      "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2614,7 +2752,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Plank Glute Kickback",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start in a plank position with Bosu under feet.",
+      "2": "Lift one leg back, squeezing glutes.",
+      "3": "Lower the leg back down and switch sides."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2628,7 +2770,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Feet Elevated Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on back, place feet on Bosu, knees bent.",
+      "2": "Lift hips and squeeze glutes.",
+      "3": "Lower hips back down to complete one rep."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2639,7 +2785,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Burpee",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on Bosu with feet shoulder-width apart.",
+      "2": "Drop into squat position and place hands on Bosu.",
+      "3": "Jump feet back into plank, perform a pushup, then jump back to squat."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2656,7 +2806,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Half Burpee",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on Bosu with feet shoulder-width apart.",
+      "2": "Drop into squat position and place hands on Bosu.",
+      "3": "Jump feet back to plank, then jump back to squat."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2673,7 +2827,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on Bosu, lean back, hands on the floor.",
+      "2": "Drive hips upward, squeezing glutes.",
+      "3": "Lower hips back down to complete one rep."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2684,7 +2842,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Lateral Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on Bosu, step sideways into a lunge.",
+      "2": "Bend knee, keeping the other leg straight.",
+      "3": "Push off the bent leg, return to starting position."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2701,7 +2863,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Step back into lunge position.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2715,7 +2881,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Single Leg Elevated Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on back, place one foot on Bosu, knee bent.",
+      "2": "Lift hips, squeezing glutes, one leg extended.",
+      "3": "Lower hips back down and switch legs."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2726,7 +2896,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Single Leg Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on Bosu, lean back, one foot on the floor.",
+      "2": "Drive hips upward, squeezing glutes, one leg extended.",
+      "3": "Lower hips back down and switch legs."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2740,7 +2914,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Split Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a split stance. Make sure to keep your chest tall.",
+      "2": "Bring your rear knee to the floor or close to it.",
+      "3": "Drive through your front heel and your rear foot back to the starting position."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2754,7 +2932,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on Bosu, feet shoulder-width apart.",
+      "2": "Squat down, keeping knees aligned with toes.",
+      "3": "Push through heels to stand back up."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2768,7 +2950,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Hand Sideplank Hip Abduction",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start in a side plank with hand on Bosu.",
+      "2": "Lift the top leg while keeping the body stable.",
+      "3": "Lower the leg back down."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -2782,7 +2968,11 @@
   },
   {
     "WorkoutName": "Smith Machine Split Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a large step forward with one leg until your shoulders are under the smith machine",
+      "2": "lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back leg should be straight.",
+      "3": "Push through the heel of your front foot to raise your body back to the starting position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2796,7 +2986,11 @@
   },
   {
     "WorkoutName": "Smith Machine Staggered Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+      "2": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+      "3": "When you feel the stretch, push your hips forward again until you\u0027re back in a standing position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2813,7 +3007,12 @@
   },
   {
     "WorkoutName": "Smith Machine Glute Kickback",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start on your hands and knees with one foot placed on the bottom of the bar.",
+      "2": "Keeping your core braced, your back flat, and your moving leg bent at a 90 degree angle, drive the heel of your working leg up the ceiling while squeezing your glute.",
+      "3": "Follow the movement path as you bring your knee back down to the ground beneath your hip, keeping your knee bent to maintain control of the bar.",
+      "4": "Repeat for the desired number of reps before switching sides."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2824,7 +3023,12 @@
   },
   {
     "WorkoutName": "Smith Machine Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the ground with a bench behind you. Have the bar over your legs just above your hips.",
+      "2": "Lean back against the bench so that your shoulders are resting upon it, stretch your arms out to either side using the bench as support.",
+      "3": "Raise the weight by driving through your feet and extending your hips upwards. Support the weight with your shoulders and feet.",
+      "4": "Slowly extend as far as you can, and then slowly return to the starting position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2838,7 +3042,12 @@
   },
   {
     "WorkoutName": "Smith Machine Leg Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place your legs on the bar with your feet at shoulder width.",
+      "2": "Release the weight and extend your legs fully, without locking your knees.",
+      "3": "Lower the weight until your legs are at a 90\u00B0 angle (but DO NOT allow your butt and lower back to rise off of the floor. This will put your lower back in a rounded position, which is very dangerous.)",
+      "4": "Raise the weight back to starting position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2852,7 +3061,12 @@
   },
   {
     "WorkoutName": "Smith Machine Narrow Stance Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place the bar on top of your traps. Take a narrow stance.",
+      "2": "Push your hips back and break at the knees. Push your elbows forward to keep yourself from getting pitched too far forward.",
+      "3": "Aim to get your hamstrings to parallel with the floor.",
+      "4": "Push your heels into the floor and squat back to a standing position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2866,7 +3080,11 @@
   },
   {
     "WorkoutName": "Smith Machine Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet about hip-width apart, with the bar on your shoulders. Your feet should be slightly pointed outward, and your shoulders should be down and relaxed.",
+      "2": "Step backward with one foot, lowering your body until your front thigh is parallel to the ground and your back knee is hovering just above the ground.",
+      "3": "Push off your back foot, returning to the starting position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2880,7 +3098,11 @@
   },
   {
     "WorkoutName": "Smith Machine Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a shoulder width, double overhand or mixed grip.",
+      "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2897,7 +3119,11 @@
   },
   {
     "WorkoutName": "Smith Machine Single Leg Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by lying on a bench with your foot on the ground and a barbell on your hips.",
+      "2": "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+      "3": "From this starting position, slowly lower your hips back down to the starting position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2908,7 +3134,11 @@
   },
   {
     "WorkoutName": "Smith Machine Sumo Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stance width can vary with a sumo DL. Some prefer toes near the plates. Others prefer a more narrow stance to get more drive off the floor.",
+      "2": "Make sure your arms are inside your legs. The bar should be just over your mid-foot. Flatten your back and unrack the bar",
+      "3": "Leave your knees mostly extended and flex and extend your hips."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2925,7 +3155,12 @@
   },
   {
     "WorkoutName": "Smith Machine Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart. Maintain the natural arch in your back and put the bar on your back. Squeezing your shoulder blades and raise your chest.",
+      "2": "Grip the bar across your shoulders and support it on your upper back. Unwrack the smith machine by straightening your legs.",
+      "3": "Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees.",
+      "4": "Raise the bar back to starting position, lift with your legs and exhale at the top."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2948,7 +3183,11 @@
   },
   {
     "WorkoutName": "Dumbbell Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place your shoulder blades against a box or bench that won\u0027t move.",
+      "2": "Both your feet should be planted and your heels should not come off the floor. Point your toes forward.",
+      "3": "Break at the hips. Seek the longest range of motion possible. Focus on the top end of the movement. Push your hips as high as possible on each rep."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2962,7 +3201,11 @@
   },
   {
     "WorkoutName": "Dumbbell Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lay flat on the ground with both feet planted. Make sure you keep your heels glued to the floor.",
+      "2": "Place the dumbbell on your hips. Push your hips toward the ceiling until you feel your glutes contract.",
+      "3": "Then return to the floor."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2979,7 +3222,10 @@
   },
   {
     "WorkoutName": "Dumbbell Figure Four Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lay flat on the ground with one leg crossed over the other and your heel planted on the ground.",
+      "2": "Push your hips toward the ceiling and hold for a second."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3300,7 +3546,12 @@
   },
   {
     "WorkoutName": "Dumbbell Goblet Curtsy Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet hip-width apart and a dumbbell in a goblet position.",
+      "2": "Step your left foot behind and to the right of your right foot, crossing it behind your right leg.",
+      "3": "Bend your knees and lower your hips down and back, as if you were about to sit in a chair.",
+      "4": "Push through your right heel to straighten your right leg and return to the starting position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -4190,7 +4441,11 @@
   },
   {
     "WorkoutName": "Dumbbell Goblet Deficit Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, dumbbell in a goblet position, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -4250,7 +4505,11 @@
   },
   {
     "WorkoutName": "Dumbbell Waiters Bow",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
+      "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4273,7 +4532,11 @@
   },
   {
     "WorkoutName": "Dumbbell Curtsy Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, dumbbells in both hands, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start, keeping bar stable throughout."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -4287,7 +4550,11 @@
   },
   {
     "WorkoutName": "Dumbbell Front Rack Curtsy Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, dumbbells in front rack, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start, keeping bar stable throughout."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -4301,7 +4568,11 @@
   },
   {
     "WorkoutName": "Dumbbell Front Rack Stability Ball Wall Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a stability ball against a wall at about hip height.",
+      "2": "Hold two dumbbells in front rack position.",
+      "3": "Break at the hips and knees until you hit parallel or just below, then squat back up."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4315,7 +4586,14 @@
   },
   {
     "WorkoutName": "Dumbbell Goblet Curtsy Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, dumbbell in goblet squat position, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start, keeping bar stable throughout.",
+      "4": "Stand on a platform, dumbbell in goblet squat position, feet hip-width apart.",
+      "5": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "6": "Push through front foot, return to start, keeping bar stable throughout."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -4329,7 +4607,11 @@
   },
   {
     "WorkoutName": "Dumbbell Stability Ball Wall Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a stability ball against a wall at about hip height.",
+      "2": "Hold two dumbbells in each hand.",
+      "3": "Break at the hips and knees until you hit parallel or just below, then squat back up."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4343,7 +4625,11 @@
   },
   {
     "WorkoutName": "Stability Ball Goblet Wall Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a stability ball against a wall at about hip height.",
+      "2": "Hold a dumbbell in a goblet position.",
+      "3": "Break at the hips and knees until you hit parallel or just below, then squat back up."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4357,7 +4643,11 @@
   },
   {
     "WorkoutName": "Dumbbell Half Kneeling Goblet Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one knee on a bench and hold a dumbbell in a goblet position.",
+      "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4380,7 +4670,11 @@
   },
   {
     "WorkoutName": "Dumbbell Half Kneeling Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one knee on a bench and hold a dumbbell.",
+      "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4403,7 +4697,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Ball Offset Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at one shoulder, feet shoulder-width apart.",
+      "2": "Squat down, keeping ball on same side throughout movement.",
+      "3": "Stand back up, squeezing glutes. Repeat on other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -4417,7 +4715,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Ball Headlock Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, holding medicine ball close.",
+      "2": "Squat down, keeping ball close to head and chest.",
+      "3": "Stand back up, squeezing glutes. Repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4440,7 +4742,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Clean And Press Slam",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the medicine ball with an overhand grip.",
+      "2": "Lift the ball explosively, clean it to shoulder height.",
+      "3": "Press the ball overhead, then slam it to the ground."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4472,7 +4778,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Overhead Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball overhead.",
+      "2": "Step back into lunge position.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4501,7 +4811,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Overhead Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball overhead.",
+      "2": "Squat down, keeping back straight.",
+      "3": "Stand back up. Repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4515,7 +4829,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Step back into lunge position.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4529,7 +4847,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball while standing on one leg.",
+      "2": "Hinge forward on one leg, extending other leg behind.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4546,7 +4868,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Squat Reach",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Squat down, reach ball to one side.",
+      "3": "Stand up and repeat reach on other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4858,7 +5184,11 @@
   },
   {
     "WorkoutName": "Cable Bar Staggered Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with a straight bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back.",
+      "2": "Stand with a staggered stance. Push your butt back to initiate the movement and then push your butt forward until you\u0027re back in a standing position.",
+      "3": "To protect yourself from injury, always maintain a flat back on any exercise."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5048,7 +5378,10 @@
   },
   {
     "WorkoutName": "Cable Standing Hip Adduction",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Bring the cable all the way to the bottom of the stack. Use an ankle attachment.",
+      "2": "Keeping your feet together, move your legs out to the sides and then back to the midline of your body. Repeat for the desired number of repetitions."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5152,7 +5485,12 @@
   },
   {
     "WorkoutName": "TRX Jumping Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand facing the TRX straps and place your feet shoulder-width apart.",
+      "2": "Begin by lowering into a squat position by bending at the knees and hips, keeping your back straight and chest up.",
+      "3": "Explosively jump up off the ground, using your arms for momentum if desired.",
+      "4": "Land softly back in the squat position, making sure to absorb the impact with your legs."
+    },
     "Equipment": "TRX",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5203,7 +5541,11 @@
   },
   {
     "WorkoutName": "TRX Split Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the two TRX straps and step away until the straps are taut. Take a split stance.",
+      "2": "Bring your back knee to the floor and gently tap the floor.",
+      "3": "Use your arms and the TRX to help assist you getting back into the starting position."
+    },
     "Equipment": "TRX",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -5288,7 +5630,11 @@
   },
   {
     "WorkoutName": "Vitruvian Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Put your back on the bench.",
+      "2": "Place the bar or belt over your hips.",
+      "3": "Flex and extend your hips fully on each rep."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5427,7 +5773,12 @@
   },
   {
     "WorkoutName": "Clamshells 3 Internal External Rotations Side Lying",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lay on your side with knees bent. 90\u00B0 angle at hips, knees and feet.",
+      "2": "Lift your top leg a few centimeters off of the under leg (15-20cm)",
+      "3": "Externally rotate the top knee without dropping your hip back.",
+      "4": "Hold for a split second (or as indicated by therapist/trainer) and then internally rotate the knee"
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5508,7 +5859,12 @@
   },
   {
     "WorkoutName": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Bring yourself to a strict push-up position",
+      "2": "Maintain a toe placement roughly at shoulder width (the wider the leg stance the easier the exercise - the narrower the stance the more difficult it becomes.",
+      "3": "Tap your opposite shoulder with your fingertips.",
+      "4": "Do not tilt or shift your hips. Do not round or arch your back."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -5565,7 +5921,12 @@
   },
   {
     "WorkoutName": "Core Stability Regression Crosslateral Limb Raise Push Up Position",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Bring yourself to a strict push-up position",
+      "2": "Tap the hand of the working arm on the ground to find your balance. Raise opposite limbs till they are parallel to the ground",
+      "3": "Hold for a split second and then try to bring your elbow to your opposite knee by driving both towards the centre of the body.",
+      "4": "Spine might curve slightly but you should not shift your hips during the movement."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -5628,7 +5989,11 @@
   },
   {
     "WorkoutName": "Glute Hip Rotator Stretch 2 Seated",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on a bench.",
+      "2": "Cross the ankle of one leg over the knee of the other.",
+      "3": "Pull your knee toward  you and hold for a specified amount of time."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5792,7 +6157,11 @@
   },
   {
     "WorkoutName": "Hip Openers",
-    "Instruction": {},
+    "Instruction": {
+      "1": "From the standing position perform a walkout (use to palms to \u0022walk\u0022 into the push up position).",
+      "2": "Bring your leg to the side and place the foot by your palm.",
+      "3": "Rotate towards the ceiling and then towards the ground, pressing the hips towards the ground."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -5832,7 +6201,11 @@
   },
   {
     "WorkoutName": "Infinity Loop Standing Hip Mobility",
-    "Instruction": {},
+    "Instruction": {
+      "1": "From the standing position raise one knee till the thigh is parallel to the ground.",
+      "2": "Bring the knee to your side without rotating the hips.",
+      "3": "The knee drives the movement and the ankle lags slightly behind."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5860,7 +6233,11 @@
   },
   {
     "WorkoutName": "Jump Off Box Single Leg Landing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start from the standing position on a box. Lower your body into a semi-squatted position",
+      "2": "Push off the box with two legs to perform the jump.",
+      "3": "Land on one leg, on the ground, making sure to absorb the impact by bending the knee as much as needed."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5910,7 +6287,9 @@
   },
   {
     "WorkoutName": "Prayer Stretch 1",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on your heels and reach out your arms on the floor while pressing the chest towards the ground."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6080,7 +6459,12 @@
   },
   {
     "WorkoutName": "Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie down with your knees bent and your feet flat on the floor.",
+      "2": "Push your hips up so that your butt is elevated and your back straight.",
+      "3": "Tense your glutes and raise your hips towards the ceiling.",
+      "4": "Once you are at the highest point you can manage, hold the position for a few seconds, and then slowly return to the starting position"
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6091,7 +6475,12 @@
   },
   {
     "WorkoutName": "Single Leg Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Tense your glutes and raise your hips towards the ceiling.",
+      "2": "Once you are at the highest point you can manage, hold the position for a few seconds, and then slowly return to the starting position.",
+      "3": "Push your hips up, so that your butt is elevated and your back straight.",
+      "4": "Lie down with one knee bent and and one with a slight bend."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6102,7 +6491,10 @@
   },
   {
     "WorkoutName": "Bodyweight Feet Elevated Figure Four Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by lying on your back with your knees bent and feet on top of a sturdy box, bench or elevated surface.",
+      "2": "Drive through your heels to lift your hips off the floor, making sure to keep your feet and knees pointing forward."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6113,7 +6505,10 @@
   },
   {
     "WorkoutName": "Bodyweight Feet Elevated Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by lying on your back with your knees bent and feet on top of a sturdy box, bench or elevated surface.",
+      "2": "Drive through your heels to lift your hips off the floor, making sure to keep your feet and knees pointing forward."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6124,7 +6519,10 @@
   },
   {
     "WorkoutName": "Bodyweight Feet Elevated Single Leg Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by lying on your back with your knees bent and feet on top of a sturdy box, bench or elevated surface. Lift one leg off the box.",
+      "2": "Drive through your heel to lift your hips off the floor, making sure to keep your feet and knees pointing forward."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -6149,7 +6547,12 @@
   },
   {
     "WorkoutName": "Side Lunges",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a slow, lateral step to the right.",
+      "2": "Extend the left knee, and drive your weight into your right side.",
+      "3": "Flex your knee and lower your body.",
+      "4": "Push back to the starting position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6163,7 +6566,12 @@
   },
   {
     "WorkoutName": "Forward Lunges",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Step forward with one leg.",
+      "2": "Lower your body until your rear knee nearly touches the ground.",
+      "3": "Ensure you remain upright, and your front knee stay above the front foot.",
+      "4": "Push off the floor with your front foot until you return to the starting position. Switch legs."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6204,7 +6612,10 @@
   },
   {
     "WorkoutName": "Good Mornings",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet a little past shoulder width apart with a slight bend at your knee. Place your hands behind the back of your head.",
+      "2": "Keeping your back straight, rotate your hips to bring your shoulders down towards the floor. Stop when your chest is parallel with the floor."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6276,7 +6687,11 @@
   },
   {
     "WorkoutName": "Forward Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Step forward with one leg and lower your body until your front thigh is parallel to the floor and your back knee almost touches the ground. Keep your chest up and your front foot flat on the floor.",
+      "2": "Push through your front foot to straighten your legs and return to the starting position.",
+      "3": "Repeat the movement with your other leg."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6290,7 +6705,11 @@
   },
   {
     "WorkoutName": "Heels Up Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place your heels on a plate or very low step.",
+      "2": "Keep your chest tall and initiate the squat by pushing your hips back and breaking at the knees.",
+      "3": "You should notice yourself able to squat lower than normal."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6304,7 +6723,12 @@
   },
   {
     "WorkoutName": "Lateral Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Engage your core by drawing your belly button towards your spine. This will help to stabilize your body.",
+      "2": "Take a large step to the side with your right foot, planting it firmly on the ground.",
+      "3": "As you step, bend your right knee and lower your hips until your right thigh is parallel to the ground. Your left leg should remain straight.",
+      "4": "Push through your right heel to return to the starting position. Repeat on the opposite side by stepping out with your left foot."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6318,7 +6742,11 @@
   },
   {
     "WorkoutName": "Split Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a split stance. Make sure to keep your chest tall.",
+      "2": "Bring your rear knee to the floor or close to it.",
+      "3": "Drive through your front heel and your rear foot back to the starting position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6332,7 +6760,13 @@
   },
   {
     "WorkoutName": "Burpee",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start standing with your feet hip-width apart. Lower your body into a squat position, placing your hands on the ground in front of you.",
+      "2": "Quickly jump your feet back into a plank position, keeping your body in a straight line from your head to your toes.",
+      "3": "Perform a push-up, keeping your core tight and your elbows close to your body.",
+      "4": "Jump your feet back towards your hands, and then jump up into the air, reaching your arms overhead.",
+      "5": "Land softly and immediately lower your body back into the squat position to repeat the movement."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6352,7 +6786,12 @@
   },
   {
     "WorkoutName": "Box Jump",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a box.",
+      "2": "*Start with a low box if this is your first time*",
+      "3": "Sink into a quarter of half squat and then pop your hips forward.",
+      "4": "Try to land in the middle of the box as softly as possible to minimise impact on your joints."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6375,7 +6814,11 @@
   },
   {
     "WorkoutName": "Depth Jump",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on top of a box. Step off of the box and land on the floor.",
+      "2": "Land as softly as possible. Squat as you land to minimise impact on your joints.",
+      "3": "Go straight into another hop after you\u0027ve landed. This will help you learn to absorb impact."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6398,7 +6841,11 @@
   },
   {
     "WorkoutName": "Seated Box Jump",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Setup two boxes. One to jump on and one to sit.",
+      "2": "Go from a seated position and pop your hips forward forcefully.",
+      "3": "Jump and land on the box softly."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6438,7 +6885,12 @@
   },
   {
     "WorkoutName": "Kickbacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Get down on all fours and position your hands under your shoulders and your knees under your hips.",
+      "2": "Kick back with one leg and squeeze your glutes.",
+      "3": "Slowly return to starting position by bending your knee and lowering your leg.",
+      "4": "Switch Legs. Repeat."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6449,7 +6901,11 @@
   },
   {
     "WorkoutName": "Bodyweight Alternating Curtsy Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place the barbell on your back",
+      "2": "Step your foot back and around while simultaneously bringing the weight down.",
+      "3": "Return to start and repeat on other leg."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6475,7 +6931,11 @@
   },
   {
     "WorkoutName": "Bodyweight Alternating Jump Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start in a standing position.",
+      "2": "Lunge forward, switch legs mid-air.",
+      "3": "Land and repeat."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6503,7 +6963,11 @@
   },
   {
     "WorkoutName": "Bodyweight Alternating Reverse Lunges",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet together.",
+      "2": "Step back with right foot.",
+      "3": "Return to starting position, then lunge with left foot."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6517,7 +6981,11 @@
   },
   {
     "WorkoutName": "Bodyweight Figure Four Heels Elevated Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by lying on a bench with your foot resting on top of a box,  and cross one leg over the other.",
+      "2": "Push through your heels and raise your hips towards the ceiling, keeping your feet flat on the box.",
+      "3": "Engage your glutes at the top of the movement, pause briefly and then lower your hips back down to the starting position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6528,7 +6996,11 @@
   },
   {
     "WorkoutName": "Bodyweight Heels Elevated Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Put your shoulder blades on a bench. Both feet on a low box or a plate.",
+      "2": "Start with your hips up.",
+      "3": "Drop your hips and then push your hips up toward the ceiling."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6539,7 +7011,10 @@
   },
   {
     "WorkoutName": "Bodyweight Hip Abduction",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Abduct at the hips and raise your leg out to the side.",
+      "2": "Return to the starting position and stop just short of your foot touching back to the ground (to keep tension on the muscle)."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6553,7 +7028,11 @@
   },
   {
     "WorkoutName": "Bodyweight Lateral Lunge Jump",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with a shoulder width stance.",
+      "2": "Jump laterally and fall into a squat. Tap the ground.",
+      "3": "Jump the opposite direction"
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6567,7 +7046,12 @@
   },
   {
     "WorkoutName": "Bodyweight Swingthrough Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width.",
+      "2": "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+      "3": "Push off your right foot to return to the starting position.",
+      "4": "Step back with the same leg until the back knee taps the floor."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6581,7 +7065,11 @@
   },
   {
     "WorkoutName": "Bodyweight Pulse Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold a dumbbell in goblet position.",
+      "2": "Squat down to parallel depth and then halfway back up.",
+      "3": "Stay in this short range of motion for the duration of the set."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6595,7 +7083,12 @@
   },
   {
     "WorkoutName": "Bodyweight Swing Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width.",
+      "2": "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+      "3": "Push off your right foot to return to the starting position.",
+      "4": "Step back with the same leg until the back knee taps the floor."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6609,7 +7102,11 @@
   },
   {
     "WorkoutName": "Bodyweight Single Leg Heels Elevated Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by lying on a bench with your foot on a plate or low box.",
+      "2": "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+      "3": "From this starting position, slowly lower your hips back down to the starting position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6620,7 +7117,12 @@
   },
   {
     "WorkoutName": "Pole Overhead Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet slightly wider than shoulder-width apart and hold a pole overhead, using an overhand grip.",
+      "2": "Begin the squat by bending at the hips and knees, keeping your core tight and the dumbbells balanced overhead.",
+      "3": "Lower your body as far as you can while keeping the dumbbells overhead, then push back up to the starting position.",
+      "4": "Repeat for the desired number of repetitions, making sure to keep your back straight, chest lifted, and the dumbbells stable overhead throughout the entire movement."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6646,7 +7148,11 @@
   },
   {
     "WorkoutName": "In And Out Jump Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart.",
+      "2": "Start by doing a regular squat, then engage your core and jump up explosively.",
+      "3": "Narrow your stance while in the air, and land softly. Go directly into another rep."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6660,7 +7166,11 @@
   },
   {
     "WorkoutName": "Bodyweight Pop Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart.",
+      "2": "Start by doing a regular squat, tap the floor, then engage your core and jump up explosively.",
+      "3": "Bring your feet mostly together, tap your toes back to the floor, then bring your feet back their original width."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6674,7 +7184,11 @@
   },
   {
     "WorkoutName": "Single Legged Romanian Deadlifts",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart and knees slightly bent and raise one leg.",
+      "2": "Without changing the bend in your knee, bend at your hips, and lower your torso until it\u0027s almost parallel to the floor.",
+      "3": "Tense your glutes and then bring yourself back to the starting position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6697,7 +7211,11 @@
   },
   {
     "WorkoutName": "Bulgarian Split Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your back to a bench (or raised surface) and place one of your feet on the bench.",
+      "2": "Squat down until your front leg is about parallel to the floor.",
+      "3": "Go back to the starting position. After completing the desired amount of reps, switch legs and repeat."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6995,7 +7513,11 @@
   },
   {
     "WorkoutName": "Bodyweight Waiters Bow",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
+      "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7018,7 +7540,11 @@
   },
   {
     "WorkoutName": "Bodyweight Curtsy Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start, keeping bar stable throughout."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7032,7 +7558,11 @@
   },
   {
     "WorkoutName": "Bodyweight Stability Ball Hyperextension",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie face-down on a stability ball, hips centered, feet anchored, hands behind your head.",
+      "2": "Engage your core, lift your upper body until aligned with legs, keeping your neck neutral.",
+      "3": "Lower your torso slowly back to the starting position, maintaining control and steady breathing."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7049,7 +7579,11 @@
   },
   {
     "WorkoutName": "Stability Ball Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by lying flat on your back with your feet resting on top of a ball.",
+      "2": "Push through your heels and raise your hips towards the ceiling, keeping your feet flat on the bar.",
+      "3": "Engage your glutes at the top of the movement, pause briefly and then lower your hips back down to the starting position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7060,7 +7594,11 @@
   },
   {
     "WorkoutName": "Stability Ball Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the floor, place upper back on a stability ball, feet flat, knees bent.",
+      "2": "Drive hips upward by squeezing glutes, forming a straight line from shoulders to knees.",
+      "3": "Lower hips slowly without touching the floor, maintaining core engagement, then repeat."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7074,7 +7612,11 @@
   },
   {
     "WorkoutName": "Stability Ball Reverse Hyperextension",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie face down on a stability ball, hands on the floor, legs extended straight.",
+      "2": "Engage glutes and lower back, raising legs until aligned with your torso.",
+      "3": "Slowly lower legs back down without touching the ground, maintaining core engagement. Repeat."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -7091,7 +7633,11 @@
   },
   {
     "WorkoutName": "Stability Ball Single Leg Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on the ball, one foot on the ground.",
+      "2": "Lift one leg off the ground and engage your glutes to raise your hips up towards the ceiling.",
+      "3": "From this starting position, slowly lower your hips back down to the starting position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7102,7 +7648,11 @@
   },
   {
     "WorkoutName": "Stability Ball Straight Leg Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back, heels on a stability ball, legs straight, arms by your sides.",
+      "2": "Press through your heels, lift hips, engage glutes and core, forming a straight line.",
+      "3": "Slowly lower hips, maintaining control, then repeat for reps."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7113,7 +7663,11 @@
   },
   {
     "WorkoutName": "Stability Ball Wall Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, placing a stability ball between your lower back and wall.",
+      "2": "Slowly squat down by bending knees to 90 degrees, keeping back straight and core engaged.",
+      "3": "Press through heels, straighten legs, and return to standing while maintaining balance and control."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7127,7 +7681,11 @@
   },
   {
     "WorkoutName": "Half Kneeling Hip Hinge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one knee on a bench.",
+      "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7144,7 +7702,11 @@
   },
   {
     "WorkoutName": "Kettlebell Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Laying on the floor with your knees bent and feet firmly on the floor, rest the kettlebell on your pelvis.",
+      "2": "Pushing through the legs and keeping the core muscles engaged, raise your pelvis off the floor until your stomach, pelvis and thighs make a straight line.",
+      "3": "Slowly lower to the ground to the starting position and repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -7155,7 +7717,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Leg Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Laying on the floor with one knee bent with the foot firmly on the floor and one leg extended, rest the kettlebell on your pelvis.",
+      "2": "Pushing through the bent leg and keeping the core muscles engaged, raise your pelvis and the extended leg off the floor until your stomach, pelvis and thighs make a straight line.",
+      "3": "Slowly lower to the ground to the starting position and repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7166,7 +7732,11 @@
   },
   {
     "WorkoutName": "Kettlebell Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sitting on the floor with your knees bent and feet planted firmly on the floor, lean your back against the bench.",
+      "2": "Resting the kettlebell on your pelvis, raise your pelvis until your stomach, pelvis and thighs are in line.",
+      "3": "Slowly lower until you are in the starting position and repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -7177,7 +7747,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Leg Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sitting on the floor with one knee bent with the foot firmly on the floor and one leg extended, lean your back against the bench.",
+      "2": "Resting the kettlebell on your pelvis, raise your pelvis until your stomach, pelvis and thighs are in line.",
+      "3": "Slowly lower until you are in the starting position and repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7188,7 +7762,11 @@
   },
   {
     "WorkoutName": "Kettlebell Alternating Swing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, kettlebell between legs.",
+      "2": "Hinge at hips, swing kettlebell between legs.",
+      "3": "Swing kettlebell up, switch hands at the top, and repeat in a fluid motion."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7205,7 +7783,11 @@
   },
   {
     "WorkoutName": "Kettlebell Clean And Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with kettlebells between legs.",
+      "2": "Swing kettlebells up to shoulder.",
+      "3": "Press kettlebells overhead."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7228,7 +7810,11 @@
   },
   {
     "WorkoutName": "Kettlebell Conventional Deadlift (Double)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet hip-width apart.",
+      "2": "Bend at hips and knees to lift kettlebells.",
+      "3": "Stand tall, then lower."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7245,7 +7831,11 @@
   },
   {
     "WorkoutName": "Kettlebell Snatch (Double)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin with a two kettlebells between your legs, hinge at hips, then swing it upwards explosively.",
+      "2": "As they rise, lock out arm overhead, wrist straight.",
+      "3": "Control the descent, then repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7265,7 +7855,11 @@
   },
   {
     "WorkoutName": "Kettlebell Swing (Double)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, kettlebells outside legs",
+      "2": "Hinge at hips, swing kettlebells forward, then back.",
+      "3": "Thrust hips to swing kettlebells upward, keeping arms straight."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7282,7 +7876,11 @@
   },
   {
     "WorkoutName": "Kettlebell Forward Lunge (Double)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebell at your side.",
+      "2": "Step forward, lunge, and return.",
+      "3": "Repeat with opposite leg."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7307,7 +7905,10 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Curtsy Lunge (Double)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebells in front rack.",
+      "2": "Step back and lunge diagonally."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7327,7 +7928,11 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Forward Lunge (Double)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with kettlebells in front rack.",
+      "2": "Step forward into lunge.",
+      "3": "Return to starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7344,7 +7949,11 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Lateral Lunge (Double)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebell in front rack.",
+      "2": "Step sideways into a lunge position.",
+      "3": "Return to start position. Repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7367,7 +7976,11 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Reverse Lunge (Double)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with kettlebell in front rack.",
+      "2": "Step back into lunge.",
+      "3": "Return to start position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7407,7 +8020,11 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebells close to chest.",
+      "2": "Squat down, keeping chest up.",
+      "3": "Stand up, extending hips fully."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7424,7 +8041,11 @@
   },
   {
     "WorkoutName": "Kettlebell Full Swing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, kettlebell between legs.",
+      "2": "Hinge at hips, grip kettlebell, and swing it overhead.",
+      "3": "Extend hips and knees, lock out arms at the top."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7450,7 +8071,11 @@
   },
   {
     "WorkoutName": "Kettlebell Lateral Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebells in front of you.",
+      "2": "Step sideways, lunge down and let the kettlebells land between your legs.",
+      "3": "Push off, return to start. Repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7470,7 +8095,10 @@
   },
   {
     "WorkoutName": "Kettlebell Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebells at your side.",
+      "2": "Step backward, lower body."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -7484,7 +8112,11 @@
   },
   {
     "WorkoutName": "Kettlebell Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet hip-width apart, holding kettlebells in front.",
+      "2": "Hinge at hips, keeping back straight, and lower kettlebells towards ground.",
+      "3": "Return to start position, squeezing glutes at the top."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7501,7 +8133,10 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Clean And Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin with the kettlebell between your legs.",
+      "2": "Hinge at your hips, and lift to shoulder, then press overhead."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7601,7 +8236,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Swing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, kettlebell between legs, grip with one hand, hinge at hips.",
+      "2": "Swing kettlebell forcefully forward, using hip thrust, arm straight.",
+      "3": "Swing kettlebell back between legs, repeat for desired reps."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7618,7 +8257,11 @@
   },
   {
     "WorkoutName": "Kettlebell Staggered Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin with feet hip-width apart, one foot forward, kettlebell between feet.",
+      "2": "Hinge at hips, grip kettlebell, and stand tall.",
+      "3": "Lower kettlebell with control, then repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7652,7 +8295,11 @@
   },
   {
     "WorkoutName": "Kettlebell Sumo Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet wide apart, toes pointing slightly outward, and kettlebell on the floor between your feet.",
+      "2": "Bend at hips and knees, keeping back straight, and grip the kettlebell handle.",
+      "3": "Lift the kettlebell by extending hips and knees, stand up straight, and return to the starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7669,7 +8316,11 @@
   },
   {
     "WorkoutName": "Swing To Upright Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with a kettlebell between your legs, hinge at hips, swing it upward.",
+      "2": "Lift kettlebell to chest level, elbows high, engaging shoulders.",
+      "3": "Lower kettlebell back down, maintaining control. Repeat for desired reps."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7701,7 +8352,10 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Step Up",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a step or bench with your feet shoulder-width apart and hold kettlebells at your shoulders.",
+      "2": "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7718,7 +8372,10 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Front Rack Step Up",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a step or bench with your feet shoulder-width apart and hold a kettlebell at one shoulder.",
+      "2": "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7735,7 +8392,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Step Up Balance",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin by standing in front of a sturdy box or bench that is about knee-height, holding a kettlebell in one hand",
+      "2": "Place your right foot on the box and push through the heel to lift your body up and onto the box, keeping your left foot off the ground.",
+      "3": "Step back down with your right foot, lowering your left foot to the ground."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7749,7 +8410,11 @@
   },
   {
     "WorkoutName": "Kettlebell Step Up",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Standing up straight, using a bench as a step, raise one foot onto the bench and hold the kettlebell in the same arm as the straight leg.",
+      "2": "Stand and bring both feet onto the bench. Slowly lower your leg back down to the starting position.",
+      "3": "Repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7763,7 +8428,11 @@
   },
   {
     "WorkoutName": "Kettlebell Swing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet slightly wider than shoulder width apart holding the kettlebell between your legs, with your knees slightly bent.",
+      "2": "Keeping your back straight, swing the kettlebell upwards until the kettlebell is level with your chest and carefully lower.",
+      "3": "Repeat"
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7780,7 +8449,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Forward Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand straight with your feet slightly apart and hold a kettlebell in one hand.",
+      "2": "Bring the same leg as the arm holding the kettlebell in front of you, squat down until your thigh is parallel to the ground, keeping your back straight.",
+      "3": "Return to the starting position and repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7794,7 +8467,11 @@
   },
   {
     "WorkoutName": "Kettlebell Goblet Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the weight tucked into your upper chest area, keeping your elbows in. Your feet should be slightly wider than your shoulders.",
+      "2": "Sink down into the squat, keeping your elbows inside the track of your knees.",
+      "3": "Push through your heels while keeping your chest up and return to the starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -7808,7 +8485,11 @@
   },
   {
     "WorkoutName": "Kettlebell Staggered Deadlift (Single)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart, shifting one foot behind you. Hold the kettlebell in both hands in front of your thighs.",
+      "2": "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees and keep your back straight.",
+      "3": "Return to the upright position and repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7825,7 +8506,11 @@
   },
   {
     "WorkoutName": "Kettlebell Goblet Good Morning",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your chest.",
+      "2": "Bend forward at the hips keeping your back and knees straight and the kettlebell close to your chest.",
+      "3": "Return to standing position and thrust your pelvis forward."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -7842,7 +8527,11 @@
   },
   {
     "WorkoutName": "Kettlebell Lateral Lunge (Single)",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand straight with your feet shoulder width apart. Keep your back straight and hold the kettlebell in front of your pelvis.",
+      "2": "Take a large step to one side, holding the kettlebell low and lunge into the bent leg.",
+      "3": "Return to the starting position and repeat"
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7859,7 +8548,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart, lifting one foot off the floor behind you. Hold the kettlebell in the same arm as the lifted leg.",
+      "2": "Bend forward at the hips bringing the kettlebell to the floor while you extend your lifted leg behind you, keeping your back straight - holding out your arm to the side for balance.",
+      "3": "Return to the upright position and repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7876,7 +8569,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand straight with your feet slightly apart and hold a kettlebell in one hand.",
+      "2": "Bring the same leg as the arm holding the kettlebell behind you, squat down until your back knee touches the ground, keeping your back straight.",
+      "3": "Return to the starting position and repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7890,7 +8587,11 @@
   },
   {
     "WorkoutName": "Kettlebell Heels Up Goblet Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the weight tucked into your upper chest area, keeping your elbows in. Your feet should be slightly wider than your shoulders and the heels slightly raised on a surface.",
+      "2": "Sink down into the squat, keeping your elbows inside the track of your knees.",
+      "3": "Push through your heels while keeping your chest up and return to the starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -7904,7 +8605,11 @@
   },
   {
     "WorkoutName": "Kettlebell Step Up Double",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Standing up straight, using a bench as a step, raise one foot onto the bench and hold the kettlebell in the same arm as the straight leg.",
+      "2": "Stand and bring both feet onto the bench. Slowly lower your leg back down to the starting position.",
+      "3": "Repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7918,7 +8623,12 @@
   },
   {
     "WorkoutName": "Kettlebell Suitcase Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin by standing with your feet hip-width apart and holding a kettlebell at one side of your body, with your palms facing your thighs.",
+      "2": "Keeping your core engaged and your back straight, bend at the hips and knees to lower the kettlebell down towards the ground.",
+      "3": "As the kettlebell reaches the ground, use your legs and glutes to push through your heels and extend your hips and knees to raise your body back to the starting position.",
+      "4": "Repeat the movement for the desired number of reps, then switch sides and repeat the exercise with the kettlebell on the opposite side of your body."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7941,7 +8651,11 @@
   },
   {
     "WorkoutName": "Kettlebell Kickstand Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet hip-width apart, one foot slightly behind. Hold kettlebell in a goblet position.",
+      "2": "Lower into a squat, keeping weight on front heel.",
+      "3": "Return to standing, engaging glutes and core."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7955,7 +8669,11 @@
   },
   {
     "WorkoutName": "Kettlebell Box Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a box or bench with your feet shoulder-width apart with a kettlebell in a goblet position.",
+      "2": "Lower your body into a squat position, sitting back onto the box and pausing for a moment before standing back up.",
+      "3": "Push through your heels to return to the standing position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -7972,7 +8690,11 @@
   },
   {
     "WorkoutName": "Kettlebell Alternating Curtsy Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold a kettlebell at your chest, feet hip-width apart.",
+      "2": "Step one leg diagonally back into a lunge.",
+      "3": "Alternate legs, keeping your chest up and core engaged."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8001,7 +8723,11 @@
   },
   {
     "WorkoutName": "Kettlebell Alternating Forward Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall, holding kettlebells by your sides, feet hip-width apart.",
+      "2": "Step forward with one leg, lowering until both knees form 90\u00B0 angles.",
+      "3": "Push through front foot, return to start, and switch legs."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8015,7 +8741,11 @@
   },
   {
     "WorkoutName": "Kettlebell Alternating Lateral Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold one kettlebell with one or both hands, feet hip-width apart.",
+      "2": "Step out to one side, bending the knee.",
+      "3": "Push off, return to center, then switch sides."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8029,7 +8759,11 @@
   },
   {
     "WorkoutName": "Kettlebell Alternating Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold two kettlebells by your side.",
+      "2": "Take a big step backwards with your left leg, lowering your body until your left thigh is parallel to the ground and your right knee is bent at a 90-degree angle.",
+      "3": "Push back up and switch legs, alternating each rep."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8043,7 +8777,12 @@
   },
   {
     "WorkoutName": "Kettlebell Assisted Bulgarian Split Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Grab a stick of some sort or hold onto something stable (rack, bench).",
+      "2": "Grab a box that is knee height or slightly lower.",
+      "3": "Hold the stick in your right arm, kettlebell in the other and put your right leg on the box.",
+      "4": "Begin your squat by breaking at the knees. Get your knee close to the floor or all the way to the floor. Make sure to keep your chest tall."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8057,7 +8796,12 @@
   },
   {
     "WorkoutName": "Kettlebell Swing Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width. Kettlebell at your side.",
+      "2": "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+      "3": "Push off your right foot to return to the starting position.",
+      "4": "Step back with the same leg until the back knee taps the floor."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8071,7 +8815,11 @@
   },
   {
     "WorkoutName": "Kettlebell Deficit Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, kettlebells in each hand, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8085,7 +8833,11 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Deficit Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a platform, kettlebells in front rack position, feet hip-width apart.",
+      "2": "Step back, lowering knee toward floor, keeping chest upright and core engaged.",
+      "3": "Push through front foot, return to start."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -8099,7 +8851,11 @@
   },
   {
     "WorkoutName": "Kettlebell Quad Stomp",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place your foot on a plate or a low box. Hold two kettlebells in each hand.",
+      "2": "Put all of your weight on your front foot and lean forward.",
+      "3": "Lower until your calves touch your hamstrings and then extend back up."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -8113,7 +8869,12 @@
   },
   {
     "WorkoutName": "Kettlebell Staggered Waiters Bow",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Set up a bar at mid way up your quad. Place the working leg against the bar.",
+      "2": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+      "3": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+      "4": "When you feel the stretch, push your hips forward again until you\u0027re back in a standing position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8130,7 +8891,11 @@
   },
   {
     "WorkoutName": "Kettlebell Waiters Bow",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
+      "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8147,7 +8912,11 @@
   },
   {
     "WorkoutName": "Kettlebell Half Kneeling Goblet Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one knee on a bench and hold a kettlebell in a goblet position.",
+      "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8164,7 +8933,11 @@
   },
   {
     "WorkoutName": "Kettlebell Half Kneeling Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one knee on a bench and hold a kettlebell.",
+      "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
+      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8181,7 +8954,11 @@
   },
   {
     "WorkoutName": "Band Glute Kickback",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Get into a quadruped position. Loop the band around both of your wrists and one of your feet.",
+      "2": "Extend your knee and hip straight back until you feel like contraction in the glutes.",
+      "3": "Flex at the knee until back in the starting position."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8192,7 +8969,11 @@
   },
   {
     "WorkoutName": "Band Hip Abduction",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Attach the band around your ankle. Stand with feet hip-width apart, feet facing forward, and hands on hips.",
+      "2": "Lift your right leg away from your body to the side, keeping your knee straight. This is your starting position.",
+      "3": "Maintaining proper form, move your right leg as far to the side as you can, keeping your left leg planted firmly on the ground. Hold for a second and then return your right leg to the starting position."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8206,7 +8987,11 @@
   },
   {
     "WorkoutName": "Band Hip Adduction",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Attach a band to a stable anchor point, such as a door handle or post.",
+      "2": "Stand with feet shoulder-width apart and place the band around your ankles.",
+      "3": "Keeping your feet together, move your legs out to the sides and then back to the midline of your body. Repeat for the desired number of repetitions."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8223,7 +9008,11 @@
   },
   {
     "WorkoutName": "Band Spanish Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Anchor a band to a stable point.",
+      "2": "Place the loops of the band behind your knees.",
+      "3": "Perform a normal squat and extend your knees against the band at the top."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -8237,7 +9026,10 @@
   },
   {
     "WorkoutName": "Band Good Morning",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Anchor the band at hip level. Take a few steps away until the band is taut.",
+      "2": "Push your hips back while keeping your back flat until you feel a stretch in your hamstrings."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8254,7 +9046,10 @@
   },
   {
     "WorkoutName": "Band Leg Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lay flat on the ground with your head by the anchor point of the band, which should be 6 to 12 inches above your head",
+      "2": "Place the band around your midfoot and extend at the knees and hip."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -8268,7 +9063,11 @@
   },
   {
     "WorkoutName": "Band Pullthrough",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Anchor the band to the lowest point possible. Straddle the band and then grab with both hands.",
+      "2": "Take a few steps away until the band is taut.",
+      "3": "Push your butt back until you feel a stretch in your hamstrings. Then extend the hips back into the starting position."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8285,7 +9084,12 @@
   },
   {
     "WorkoutName": "Band Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on your band with both feet.",
+      "2": "Hinge forward at the hips while keeping a flat back.",
+      "3": "Hinge until you feel a stretch in your hamstrings.",
+      "4": "Push your hips back forward until you are in a standing position."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8302,7 +9106,11 @@
   },
   {
     "WorkoutName": "Band Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with a shoulder width grip. Both feet should be on the band with the band loops in each of your hand.",
+      "2": "Push your butt back and also break at the knees.",
+      "3": "Try to hit parallel depth (bottom of your leg should be parallel with the ground). If you can\u0027t tell your squat depth, then try squatting in front of a mirror and watch your form."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8330,7 +9138,11 @@
   },
   {
     "WorkoutName": "Band Squat Hold Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Anchor the band to a stable point.",
+      "2": "Take a half squat position and hold there.",
+      "3": "Perform a row while holding the squat position."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8350,7 +9162,10 @@
   },
   {
     "WorkoutName": "Band Squat Hold Single Arm Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Anchor the band to a stable point and take a half squat position.",
+      "2": "Hold the band loop in one hand and pull your elbow straight back."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8370,7 +9185,11 @@
   },
   {
     "WorkoutName": "Band Goblet Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with a shoulder width grip. Both feet should be on the band with the band looped over both hands.",
+      "2": "Push your butt back and also break at the knees.",
+      "3": "Try to hit parallel depth (bottom of your leg should be parallel with the ground). If you can\u0027t tell your squat depth, then try squatting in front of a mirror and watch your form."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8384,7 +9203,12 @@
   },
   {
     "WorkoutName": "Double Pigeon Pose",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the ground with your legs extended in front of you.",
+      "2": "Place a block under your left knee, then bend your right knee and stack it on top of your left ankle.",
+      "3": "Flex both feet and gently press your knees towards the ground, feeling a stretch in your hips.",
+      "4": "Hold the pose for a few breaths, then switch sides and repeat."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8395,7 +9219,11 @@
   },
   {
     "WorkoutName": "Pigeon Pose",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Extend your right leg behind you and place your right ankle on top of your left thigh, with your right knee pointing out to the side.",
+      "2": "Sitting up straight, use your hands to gently press down on your right knee while at the same time pulling your left buttock back.",
+      "3": "Hold for 5-10 deep breaths, then release and repeat on the other side."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8417,7 +9245,12 @@
   },
   {
     "WorkoutName": "Restful Cow Face Pose Legs",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start in a seated position with your legs extended in front of you.",
+      "2": "Cross your right leg over your left leg, placing your right foot on the floor beside your left hip.",
+      "3": "Cross your left leg over your right leg, placing your left foot on the floor beside your right hip.",
+      "4": "Relax your arms by your sides or place them on your abdomen and take deep breaths."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8428,7 +9261,12 @@
   },
   {
     "WorkoutName": "Half Lotus",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on a yoga mat with legs straight in front of you.",
+      "2": "Bend the right knee and place the right foot on top of the left thigh. Allow the right knee to fall towards the floor.",
+      "3": "Bring the left foot onto the right thigh. Keep the spine straight and rest hands on the knees.",
+      "4": "Hold for several breaths and then release."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8439,7 +9277,11 @@
   },
   {
     "WorkoutName": "Cardio Assault Bike",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Adjust seat and handlebar height for comfort and proper posture on the assault bike.",
+      "2": "Start pedaling with even, controlled motion, maintaining your desired resistance level.",
+      "3": "Monitor heart rate and intensity; increase or decrease resistance for an effective cardio workout."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8465,7 +9307,9 @@
   },
   {
     "WorkoutName": "Treadmill Jog",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Get the treadmill up to a comfortable speed where you are doing a light jog."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8485,7 +9329,9 @@
   },
   {
     "WorkoutName": "Treadmill Sprint",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Get the treadmill up to a speed where you are doing a sprint."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8505,7 +9351,9 @@
   },
   {
     "WorkoutName": "Treadmill Walk",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Get the treadmill up to a comfortable speed where you are doing a walk."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8525,7 +9373,9 @@
   },
   {
     "WorkoutName": "Cardio Criss Cross Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Perform a jumping jack while crossing the feet."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8554,7 +9404,10 @@
   },
   {
     "WorkoutName": "Cardio Figure Eight Sprint",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Perform s sprint in a figure eight pattern.",
+      "2": "Make sure to stay low."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8591,7 +9444,10 @@
   },
   {
     "WorkoutName": "Cardio Forward Scissor",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Do a light hop and split your stance.",
+      "2": "Land lightly on your toes, and then bring the opposing leg forward."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8614,7 +9470,10 @@
   },
   {
     "WorkoutName": "Cardio In And Out Forward",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Bring one leg forward and then the other.",
+      "2": "Bring the original leg backwards and then the other."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8637,7 +9496,11 @@
   },
   {
     "WorkoutName": "Cardio In In Out Out Shuffle",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with your feet side by side.",
+      "2": "Bring one foot laterally, then the other.",
+      "3": "Return the first foot to its starting position, then the other."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8654,7 +9517,11 @@
   },
   {
     "WorkoutName": "Treadmill Side Shuffle",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Face sideways on the treadmill.",
+      "2": "Take a quarter squat position with a wide stance.",
+      "3": "Shuffle sideways for a specified amount of time, then switch sides."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8668,7 +9535,11 @@
   },
   {
     "WorkoutName": "Cardio Three Step Heismans",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with a shoulder width stance.",
+      "2": "Stay on your toes, step right, tap your left toe to the ground, plant your right foot and raise your left leg.",
+      "3": "Then repeat in the opposite direction."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8688,7 +9559,11 @@
   },
   {
     "WorkoutName": "Cardio Karaoke",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand upright, feet together, facing forward, ready to move laterally.",
+      "2": "Move right foot behind left, then step left foot to the side.",
+      "3": "Alternate crossing and stepping, increase speed, maintain rhythm and balance."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8702,7 +9577,10 @@
   },
   {
     "WorkoutName": "Cardio Lateral Quick Feet",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with a shoulder width stance.",
+      "2": "Quickly tap your feet while moving laterally."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8719,7 +9597,10 @@
   },
   {
     "WorkoutName": "Cardio Lateral Shuffle",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with a wide stance.",
+      "2": "Shuffle sideways for a specified distance while maintaining a quarter squat position."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8736,7 +9617,11 @@
   },
   {
     "WorkoutName": "Cardio Long Jump",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand feet shoulder-width, knees slightly bent, arms behind you, eyes forward.",
+      "2": "Swing arms backward, squat deeply, loading legs for explosive power.",
+      "3": "Swing arms, explode forward, extend legs mid-air, land softly on both feet."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8753,7 +9638,12 @@
   },
   {
     "WorkoutName": "Cardio Long Jump Shuffle Back",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand feet shoulder-width, knees slightly bent, arms behind you, eyes forward.",
+      "2": "Swing arms backward, squat deeply, loading legs for explosive power.",
+      "3": "Swing arms, explode forward, extend legs mid-air, land softly on both feet.",
+      "4": "Shuffle back to the starting position."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8790,7 +9680,11 @@
   },
   {
     "WorkoutName": "Cardio Row Erg Rower Four Stroke Sprint Start",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on seat, feet strapped in, grip handle with arms extended.",
+      "2": "Push with legs, lean back slightly. Do four small pulls with increasing distance on each rep.",
+      "3": "Extend arms, lean forward from hips, bend knees to return to start."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8810,7 +9704,10 @@
   },
   {
     "WorkoutName": "Cardio Row Erg Rower Legs Only",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Strap your feet in tightly.",
+      "2": "Keep your arms extended while flexing and extending at the hips and knees."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8824,7 +9721,12 @@
   },
   {
     "WorkoutName": "Cardio Shuttle Sprint",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Set up two cones at a specified distance.",
+      "2": "Stay low and sprint quickly to the second cone.",
+      "3": "Hinge forward and tap the cone, then turn and sprint to the original cone.",
+      "4": "Repeat for the desired time or reps."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8841,7 +9743,11 @@
   },
   {
     "WorkoutName": "Cardio Skater",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand, balance on right foot, left foot behind, slightly bent knees.",
+      "2": "Jump to left, landing on left foot, right foot behind, swinging arms.",
+      "3": "Continue leaping side-to-side, maintaining balance and speed, like a speed skater."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8852,7 +9758,11 @@
   },
   {
     "WorkoutName": "Cardio Skater To Single Leg Burpee",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Leap sideways, land on right foot, left leg behind to the side.",
+      "2": "Drop into a single-leg burpee, right leg only, hands to ground.",
+      "3": "Return to standing on right, leap sideways to left, repeat with left leg."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -8869,7 +9779,11 @@
   },
   {
     "WorkoutName": "Cardio Sprint In Place",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall, feet hip-width apart, knees slightly bent, ready to move.",
+      "2": "Quickly drive knees up towards chest, alternating legs, pumping arms in rhythm.",
+      "3": "Gradually speed up, maintaining high knees and arm movement, breathe steadily."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8886,7 +9800,11 @@
   },
   {
     "WorkoutName": "Cardio Step Out Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall, feet together, arms by sides, ready to move.",
+      "2": "Step right foot out, simultaneously raise arms above head.",
+      "3": "Step right foot in, lower arms, repeat left, maintain rhythm."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8900,7 +9818,10 @@
   },
   {
     "WorkoutName": "Stationary Bike",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the handles and maintain a neutral spine.",
+      "2": "Pedal at a moderate pace and try to minimise rocking back and forth."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8914,7 +9835,11 @@
   },
   {
     "WorkoutName": "Elliptical",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Step onto the pedals, grip the handles, and start moving your feet in a natural stride.",
+      "2": "Adjust resistance and incline for desired intensity while maintaining a steady, controlled motion.",
+      "3": "Keep your posture upright, engage your core, and maintain a consistent pace for an effective workout."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -8965,7 +9890,10 @@
   },
   {
     "WorkoutName": "Cardio Band Press Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with the band looped under both feet and the other end of the band in both hands in an overhead press position.",
+      "2": "Do a light hop and bring both feet outward while pressing the band overhead."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -8991,7 +9919,10 @@
   },
   {
     "WorkoutName": "Cardio Band Reverse Fly Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Grab the band with a double overhand grip. Bring both feet outward while performing a little hop.",
+      "2": "As you hop, pull the band apart."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -9008,7 +9939,10 @@
   },
   {
     "WorkoutName": "Cardio Band Seal Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Loop a band around your back. Start with both arms extended at your side.",
+      "2": "As you perform the jack. Bring both arms together and make a little clap."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -9022,7 +9956,11 @@
   },
   {
     "WorkoutName": "Cardio Seal Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet together, arms in front at chest level, palms touching.",
+      "2": "Spread legs wide, simultaneously swing arms out to sides, palms facing forward.",
+      "3": "Jump back to starting position, bringing arms together again quickly. Repeat rhythmically."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {

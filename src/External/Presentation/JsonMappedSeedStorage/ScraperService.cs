@@ -1,4 +1,5 @@
-﻿using HtmlAgilityPack;
+﻿using Azure;
+using HtmlAgilityPack;
 using Presentation.JsonSeedStorage;
 using PuppeteerSharp;
 
@@ -46,7 +47,7 @@ public class ScraperService : IScraperService
                 continue;
 
             workout.Instruction = await GetInstructionsAsync(workout.WorkoutName, workout.Equipment, primaryMuscle);
-            await Task.Delay(3000);
+            await Task.Delay(5000);
         }
         Console.Clear();
         Console.WriteLine(workouts);
@@ -91,7 +92,8 @@ public class ScraperService : IScraperService
             string url = $"{BaseUrl}/{equipmentSlug}/male/{muscleSlug}/{workoutSlug}";
 
             await page.GoToAsync(url, WaitUntilNavigation.Networkidle2);
-            await page.WaitForSelectorAsync("dl.my-5.grid");
+            //await page.GoToAsync(url, new NavigationOptions { WaitUntil = new[] { WaitUntilNavigation.Networkidle2 }, Timeout = 60000 });
+            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 5000 });
 
             string html = await page.GetContentAsync();
             var doc = new HtmlDocument();
