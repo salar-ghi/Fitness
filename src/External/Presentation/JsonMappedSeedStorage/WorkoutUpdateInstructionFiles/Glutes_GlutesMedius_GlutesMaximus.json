@@ -4898,7 +4898,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Wall Ball",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest, facing wall.",
+      "2": "Squat down, then throw ball at wall.",
+      "3": "Catch and repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4924,7 +4928,10 @@
   },
   {
     "WorkoutName": "Medicine Ball Self Toss",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Toss medicine ball up, catch with both hands.",
+      "2": "Repeat toss and catch for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4959,7 +4966,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Reverse Lunge Twist",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Step back into lunge position, extend your arms, twist torso.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4976,7 +4987,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Hip Abduction",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall with a medicine ball held against one hip.",
+      "2": "Lift the leg on the opposite side laterally.",
+      "3": "Lower the leg and repeat on the other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4987,7 +5002,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Lateral Lunge Slam",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, holding a medicine ball.",
+      "2": "Step laterally, performing a lunge, then slam the ball.",
+      "3": "Return to the starting position and repeat on the other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5007,7 +5026,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Press Jack",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Jump, extending arms overhead.",
+      "3": "Return to starting position. Repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5046,7 +5069,11 @@
   },
   {
     "WorkoutName": "Cable Standing Straight Leg Glute Kickback",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use an ankle attachment. The cable should be set to the bottom of the crossover machine.",
+      "2": "Push your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.",
+      "3": "Then flex at the hips until you are back into your original position."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5577,7 +5604,12 @@
   },
   {
     "WorkoutName": "Vitruvian Belt Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Set up the Vitruvian, including a the provided belt.",
+      "2": "Position yourself with feet shoulder-width apart on the Vitruvian.",
+      "3": "Perform the squat by bending at the knees and hips, lowering your body until thighs are parallel to the ground.",
+      "4": "Return to the starting position by extending your knees and hips, pushing through your feet."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5591,7 +5623,10 @@
   },
   {
     "WorkoutName": "Vitruvian Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall with both feet on the platform.",
+      "2": "Step backwards and bring your back knee to the floor."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5605,7 +5640,10 @@
   },
   {
     "WorkoutName": "Vitruvian Figure Four Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Wear the belt attachment.",
+      "2": "Cross one leg over the other, and then press your hips toward the ceiling."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -5616,7 +5654,11 @@
   },
   {
     "WorkoutName": "Vitruvian Front Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use the bar attachment.",
+      "2": "Place the bar over your front delts and cross your arms.",
+      "3": "Push your hips back and aim to hit parallel depth."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5645,7 +5687,11 @@
   },
   {
     "WorkoutName": "Vitruvian Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take an overhand grip.",
+      "2": "Keep your knees mostly extended and hinge forward at the hips.",
+      "3": "Keep a flat back."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5665,7 +5711,11 @@
   },
   {
     "WorkoutName": "Vitruvian Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball while standing on one leg.",
+      "2": "Hinge forward on one leg, extending other leg behind.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5682,7 +5732,10 @@
   },
   {
     "WorkoutName": "Vitruvian Staggered Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one foot firmly on the ground and one foot behind the other. Bend the knee on your back leg.",
+      "2": "Hinge forward until you feel a stretch in your front leg."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6050,7 +6103,11 @@
   },
   {
     "WorkoutName": "Glute Stretch Knee Pull Dynamic Standing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand up straight with a good form.",
+      "2": "Alternate between pulling your knees towards you chest.",
+      "3": "Make sure you maintain an upright posture throughout the movement."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6076,7 +6133,12 @@
   },
   {
     "WorkoutName": "Hip Extension 4Pt Position Hold",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start on the 4 point position (on all fours).",
+      "2": "Straighten and raise one leg till it is parallel to the ground.",
+      "3": "Make sure your spine remains in a neutral position.",
+      "4": "If you feel your lower back stiff or sore when performing this exercise, ask a trainer or therapist to guide you through."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6135,7 +6197,11 @@
   },
   {
     "WorkoutName": "Prone Single Leg Hip Extension Hold",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your stomach.",
+      "2": "Secure your lower back by tilting your hips backwards.",
+      "3": "Raise one leg and hold the position for the specified duration."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6146,7 +6212,11 @@
   },
   {
     "WorkoutName": "Band Glute Kickback Hold",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Attach a band to a fixed point. Wrap the loose end of the band around your ankle.",
+      "2": "Face the attachment point. Shift you weight onto one leg (use balancing aids if needed).",
+      "3": "Extend your working leg and maintain the position."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6190,7 +6260,11 @@
   },
   {
     "WorkoutName": "Band Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Attach a band to an anchor point and face away from the anchor point.",
+      "2": "Loop the other end of the band around your hips.",
+      "3": "While keeping your knees extended, shift your hips back, then forward against the band."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -6219,7 +6293,11 @@
   },
   {
     "WorkoutName": "Jump Into Single Leg Landing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start from the standing position. Lower your body into a semi-squatted position.",
+      "2": "Push off the ground with two legs to perform the jump.",
+      "3": "Land on one leg, making sure to absorb the impact by bending the knee as much as needed."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
