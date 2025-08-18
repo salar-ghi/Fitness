@@ -264,7 +264,11 @@
   },
   {
     "WorkoutName": "Landmine Staggered Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in a staggered position. With the back leg bent and the front mostly extended.",
+      "2": "Push your hips back until you feel a stretch through your front hamstring.",
+      "3": "Push your hips back forward until you are standing."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -352,7 +356,11 @@
   },
   {
     "WorkoutName": "Seated Leg Curl",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the machine. Adjust the back pad to where the leg pad is just above your knees.",
+      "2": "Adjust the leg pad that goes on your lower leg until it's on your achilles.",
+      "3": "Use the two handles to push your self back in the chair. Curl your legs as far as possible, and then extend your knees. (Do not hyperextend)"
+    },
     "Equipment": "Machine",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -402,7 +410,12 @@
   },
   {
     "WorkoutName": "Machine Reverse Hyperextension",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lay on the pad and grab the handles.",
+      "2": "Slip your legs into the belt loop.",
+      "3": "Push your legs back until they are horizontal with the ground.",
+      "4": "Lower back to the starting position."
+    },
     "Equipment": "Machine",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -720,7 +733,11 @@
   },
   {
     "WorkoutName": "Smith Machine Staggered Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
+      "2": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
+      "3": "When you feel the stretch, push your hips forward again until you're back in a standing position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -779,7 +796,11 @@
   },
   {
     "WorkoutName": "Dumbbell Goblet Good Morning",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the dumbbell in a goblet position. With your elbows directly under your fists.",
+      "2": "Push your hips back while leaving your knees MOSTLY extended. You should feel a stretch in your hamstrings.",
+      "3": "When you feel the stretch push your hips forward until you're back in a standing position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -802,7 +823,11 @@
   },
   {
     "WorkoutName": "Dumbbell Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with a shoulder width stance. Push your butt back while leaving your knees MOSTLY extended.",
+      "2": "You should feel a stretch in your hamstrings. When you feel the stretch, push your hips forward to complete the rep.",
+      "3": "Do not push your hips all the way forward. This will hyperextend your spine. Just go to a normal standing position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -842,7 +867,12 @@
   },
   {
     "WorkoutName": "Dumbbell Single Leg Single Arm Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing on one leg with a dumbbell in one hand.",
+      "2": "Slowly bend at the hips and lower the dumbbell towards the ground while extending your free leg behind you.",
+      "3": "Keep your core engaged and your back straight as you lower the weight.",
+      "4": "Once the dumbbell is close to the ground, push through your heel to return to the starting position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -893,7 +923,12 @@
   },
   {
     "WorkoutName": "Dumbbell Staggered Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+      "2": "Place one foot slightly behind the other, with the heel of your back foot elevated on a step or weight plate.",
+      "3": "From this starting position, bend at the hips and knees to lower the dumbbells towards the ground, keeping your back straight and your core engaged.",
+      "4": "Once the dumbbells are below your knees, drive through your heels to stand back up to the starting position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -938,7 +973,11 @@
   },
   {
     "WorkoutName": "Dumbbell Glute Bridge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lay flat on the ground with both feet planted. Make sure you keep your heels glued to the floor.",
+      "2": "Place the dumbbell on your hips. Push your hips toward the ceiling until you feel your glutes contract.",
+      "3": "Then return to the floor."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -1091,7 +1130,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball while standing on one leg.",
+      "2": "Hinge forward on one leg, extending other leg behind.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1344,7 +1387,11 @@
   },
   {
     "WorkoutName": "Vitruvian Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take an overhand grip.",
+      "2": "Keep your knees mostly extended and hinge forward at the hips.",
+      "3": "Keep a flat back."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1364,7 +1411,11 @@
   },
   {
     "WorkoutName": "Vitruvian Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball while standing on one leg.",
+      "2": "Hinge forward on one leg, extending other leg behind.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1381,7 +1432,10 @@
   },
   {
     "WorkoutName": "Vitruvian Staggered Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one foot firmly on the ground and one foot behind the other. Bend the knee on your back leg.",
+      "2": "Hinge forward until you feel a stretch in your front leg."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1507,7 +1561,12 @@
   },
   {
     "WorkoutName": "Hamstring Stretch Supine Dynamic Band",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a theraband or stretch strap around your foot.",
+      "2": "Lie back onto the ground.",
+      "3": "Raise your leg to stretching point with the aid of the band (strap).",
+      "4": "Tug onto the strap on the end of range to dynamically stretch the hamstring."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1550,7 +1609,12 @@
   },
   {
     "WorkoutName": "Box Supported Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a box behind you and one foot on it. Keep your chest up and the back straight",
+      "2": "Tilt at the hips to perform a deadlift. Use the box for balance and support",
+      "3": "Make sure you straighten your back leg when performing the deadlift.",
+      "4": "As you get comfortable with the movement, try to lift the leg off the box when you reach the end range of the deadlift."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -1733,7 +1797,11 @@
   },
   {
     "WorkoutName": "Slider Hamstring Curl Single Leg",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back keeping both knees bent.",
+      "2": "Have a slider under the heel of the working leg.",
+      "3": "Extend and bend the working lag applying gentle downwards pressure."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1744,7 +1812,12 @@
   },
   {
     "WorkoutName": "Single Leg Slider Hamstring Curl 2",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back with bent knees and heels on a slider.",
+      "2": "Perform a posterior pelvic tilt (flatten your lower back on the ground).",
+      "3": "Press the heels into the ground to raise your hips off it.",
+      "4": "Extend and bend the working leg."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1755,7 +1828,13 @@
   },
   {
     "WorkoutName": "Slider Hamstring Curl Eccentric",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Bend your knees so your feet are flat on the floor with heels under knees and toes raised.",
+      "2": "Place sliders under your heels. Perform a posterior pelvic tilt (flatten your lower back against the ground).",
+      "3": "Push through your heels into the ground, lifting your hips up to the point where there is a straight line from your chest to your knees.",
+      "4": "Extend your legs in a slow, controlled manner, to lower your bum to the ground.",
+      "5": "Casually bend knees before repeating."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1766,7 +1845,12 @@
   },
   {
     "WorkoutName": "Bodyweight Standing Hamstring Curl",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand up straight using a balancing aid.",
+      "2": "Shift your weight on one leg.",
+      "3": "Bend and extend the non-weight bearing leg.",
+      "4": "Knees should remain aligned."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -1777,7 +1861,12 @@
   },
   {
     "WorkoutName": "Bodyweight Standing Hamstring Curl Isometric",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand up straight using a balancing aid.",
+      "2": "Shift your weight on one leg.",
+      "3": "Bend the non-weight bearing leg and hold.",
+      "4": "Knees should remain aligned."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1788,7 +1877,11 @@
   },
   {
     "WorkoutName": "Slider Hamstring Curl",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back with slightly bent knees and heels on sliders.",
+      "2": "Pull your heels towards your glutes to lift your hips off the ground.",
+      "3": "Extend knees to starting position, but do not rest hips on ground."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2206,7 +2299,11 @@
   },
   {
     "WorkoutName": "Kettlebell Staggered Swing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lower kettlebell with control, then repeat.",
+      "2": "Explosively thrust hips forward, swing kettlebell to chest height.",
+      "3": "Repeat for desired reps, keeping core engaged and maintaining a staggered stance for balance."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2466,7 +2563,12 @@
   },
   {
     "WorkoutName": "Seated Forward Bend",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the floor with your legs extended in front of you.",
+      "2": "Inhale and lengthen your spine, then exhale and fold forward from your hips, keeping your spine long.",
+      "3": "Reach for your feet or ankles, keeping your elbows straight.",
+      "4": "Hold for several breaths, then release."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
