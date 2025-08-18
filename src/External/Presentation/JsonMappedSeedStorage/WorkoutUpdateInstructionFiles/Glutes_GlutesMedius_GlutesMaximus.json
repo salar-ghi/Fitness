@@ -6348,7 +6348,10 @@
   },
   {
     "WorkoutName": "Knee Pull And Lumbar Rotation",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back and flatten you lower back against the ground",
+      "2": "Pull one knee towards your chest and then across your body till it forces your lower back into a rotated position."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6420,7 +6423,12 @@
   },
   {
     "WorkoutName": "Box Supported Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a box behind you and one foot on it. Keep your chest up and the back straight",
+      "2": "Tilt at the hips to perform a deadlift. Use the box for balance and support",
+      "3": "Make sure you straighten your back leg when performing the deadlift.",
+      "4": "As you get comfortable with the movement, try to lift the leg off the box when you reach the end range of the deadlift."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -6455,7 +6463,11 @@
   },
   {
     "WorkoutName": "Single Leg Concentric Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "From the standing position lower your body into a squat.",
+      "2": "Shift your weight onto one leg (the other is still in contact with the ground for balance).",
+      "3": "Use the loaded leg to lift your body into standing position."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6469,7 +6481,10 @@
   },
   {
     "WorkoutName": "Single Leg Eccentric Box Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a bench or box. Lift one leg in front you supporting yourself on the other leg.",
+      "2": "Try to sit on the box in a controlled manner. Use both legs to stand back up"
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6483,7 +6498,10 @@
   },
   {
     "WorkoutName": "Bosu Ball Single Leg Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a bosu ball and balance on one leg.",
+      "2": "Try to bend and extend the knee of the supporting leg (single leg squat) while keeping your balance."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6946,7 +6964,11 @@
   },
   {
     "WorkoutName": "Single Leg Box Jump",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with a shoulder width stance.",
+      "2": "Jump onto your box and land with one foot.",
+      "3": "Try to land in the middle of the box and land as softly as possible."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7027,7 +7049,11 @@
   },
   {
     "WorkoutName": "Bodyweight Alternating Lateral Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall, feet hip-width apart.",
+      "2": "Step right, lunge to side.",
+      "3": "Return, then lunge left."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7394,7 +7420,11 @@
   },
   {
     "WorkoutName": "Walking Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a step forward shifting your weight onto the front leg.",
+      "2": "Bend the knee of the front leg so the knee of the back leg comes close to the ground.",
+      "3": "Stand up and go into lunging with the opposite leg."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7408,7 +7438,11 @@
   },
   {
     "WorkoutName": "Bodyweight Alternating Forward Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart.",
+      "2": "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+      "3": "Push off your right foot to return to the starting position. Then switch legs."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -7422,7 +7456,11 @@
   },
   {
     "WorkoutName": "Bodyweight Step Up Knee Drive",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin by standing in front of a sturdy box or bench that is about knee-height.",
+      "2": "Place your right foot on the box and push through the heel to lift your body up and onto the box, bring your off leg all the way through until your leg is parallel with the ground.",
+      "3": "Step back down with your right foot, lowering your left foot to the ground."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -7972,7 +8010,11 @@
   },
   {
     "WorkoutName": "Kettlebell Figure Four Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin seated, kettlebell on hips.",
+      "2": "Lift hips, form figure four leg shape.",
+      "3": "Lower, repeat thrusts."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8075,7 +8117,10 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Single Arm Lateral Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebell in front rack.",
+      "2": "Step sideways, lunge."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8263,7 +8308,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Front Rack Forward Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebell in front rack position.",
+      "2": "Step forward, lunge. Bringing your back knee to the floor.",
+      "3": "Extend your knee and return to the starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8280,7 +8329,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Front Rack Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebell in front rack position.",
+      "2": "Step backward, lunge. Bring your back knee to the floor.",
+      "3": "Extend your knee back into the starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8294,7 +8347,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Snatch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, kettlebell between legs.",
+      "2": "Squat, grip kettlebell, explode hips, and lift kettlebell overhead.",
+      "3": "Lower kettlebell safely to start position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -8356,7 +8413,11 @@
   },
   {
     "WorkoutName": "Kettlebell Staggered Swing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lower kettlebell with control, then repeat.",
+      "2": "Explosively thrust hips forward, swing kettlebell to chest height.",
+      "3": "Repeat for desired reps, keeping core engaged and maintaining a staggered stance for balance."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -9202,7 +9263,11 @@
   },
   {
     "WorkoutName": "Banded Side Walks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a band either just below or above your knees.",
+      "2": "Get into a quarter squat position.",
+      "3": "Step side to side without letting there be any slack in the band to keep tension on the band."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -9312,7 +9377,12 @@
   },
   {
     "WorkoutName": "Reclining Pigeon Pose",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie down on your back with your knees bent and your feet on the ground.",
+      "2": "Cross your right ankle over your left knee, creating a figure four shape.",
+      "3": "Use your hands to gently pull your left knee towards your chest, feeling a stretch in your right hip.",
+      "4": "Hold the pose for a few breaths, then switch sides and repeat."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -9738,7 +9808,11 @@
   },
   {
     "WorkoutName": "Cardio Row Erg Rower",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on seat, feet strapped in, grip handle with arms extended.",
+      "2": "Push with legs, lean back slightly, pull handle to lower ribs.",
+      "3": "Extend arms, lean forward from hips, bend knees to return to start."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -9931,7 +10005,11 @@
   },
   {
     "WorkoutName": "Cardio Jumping Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet together, arms at your sides, ready to jump.",
+      "2": "Jump while spreading legs and raising arms overhead.",
+      "3": "Return to starting position with legs together and arms at your sides. Repeat."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -9954,7 +10032,11 @@
   },
   {
     "WorkoutName": "Cardio Band Hammer Curl Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with a band looped under both feet and the band grasped in both hands.",
+      "2": "Do a light hop and bring your feet outward while simultaneously flexing the elbows.",
+      "3": "Bring both feet back together and extend the elbows."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
