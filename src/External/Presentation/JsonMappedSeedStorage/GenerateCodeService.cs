@@ -14,8 +14,7 @@ public class GenerateCodeService : IGenerateCodeService
         _env = env;
     }
 
-    public async Task<(List<string>, List<string>, List<string>,
-        List<string>, List<string>)> GenerateCodeInitializer()
+    public async Task<(List<string>, List<string>, List<string>, List<string>, List<string>)> GenerateCodeInitializer()
     {
         var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Biceps_LongHeadBicep_ShortHeadBicep.json");
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
@@ -36,7 +35,23 @@ public class GenerateCodeService : IGenerateCodeService
             string escapedName = EscapeString(workout.WorkoutName);
 
             // 1. Generate Workout initialization
-            workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = bodybuildingId, Description = \"\" }}");
+            if (workout.Equipment == "TRX" || workout.Equipment == "Bodyweight")
+            {
+                workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = crossfitId, Description = \"\" }}");
+            }
+            else if(workout.Equipment == "Yoga")
+            {
+                workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = yogaSportId, Description = \"\" }}");
+            }
+            else if (workout.Equipment == "Cardio" || workout.Equipment == "Recovery" 
+                || workout.Equipment == "Stretches" || workout.Equipment == "Band")
+            {
+                workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = cardioSportId, Description = \"\" }}");
+            }
+            else
+            {
+                workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = bodybuildingId, Description = \"\" }}");
+            }
 
             if (true)
             {

@@ -32,7 +32,6 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[0].Id , Step = 1 , Instruction = ""},
 
             #endregion
-
         };
         await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
         await context.SaveChangesAsync();
