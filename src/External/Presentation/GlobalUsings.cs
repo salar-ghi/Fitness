@@ -13,6 +13,7 @@ global using Microsoft.AspNetCore.Mvc;
 global using Infrastructure.Extensions;
 global using Application.Interfaces.AI;
 global using Infrastructure.Services.AI;
+global using Presentation.JsonSeedStorage;
 global using Microsoft.AspNetCore.Identity;
 global using Microsoft.EntityFrameworkCore;
 global using System.Diagnostics.CodeAnalysis;

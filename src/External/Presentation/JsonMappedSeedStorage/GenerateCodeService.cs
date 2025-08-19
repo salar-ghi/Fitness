@@ -1,13 +1,9 @@
-﻿using Presentation.JsonSeedStorage;
-
-namespace Presentation.JsonMappedSeedStorage;
+﻿namespace Presentation.JsonMappedSeedStorage;
 
 public interface IGenerateCodeService
 {
-    Task<(List<string>, List<string>, List<string>,
-        List<string>, List<string>)> GenerateCodeInitializer();
+    Task<(List<string>, List<string>, List<string>, List<string>, List<string>)> GenerateCodeInitializer();
 }
-
 
 public class GenerateCodeService : IGenerateCodeService
 {
