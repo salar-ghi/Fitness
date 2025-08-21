@@ -88,9 +88,9 @@ public class GenerateCodeService : IGenerateCodeService
                 string muscleName = EscapeString(muscle);
                 string priority = target.MuscleTargetLevel;
 
-                var muscleId = "";
+                var muscleId = GetMuscleId(muscleName);
 
-                bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = \"{muscleName}\", WorkoutId = Workouts[{i}].Id, Target = PriorityTarget.{priority} }}");
+                bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = \"{muscleId}\", WorkoutId = Workouts[{i}].Id, Target = PriorityTarget.{priority} }}");
             }
         }
         // Output the results
@@ -112,10 +112,15 @@ public class GenerateCodeService : IGenerateCodeService
     {
         return muscle switch
         {
+            "Neck"                      => "neckId",
+            "Chest"                     => "chestId",
             "Biceps"                    => "bicepId",
             "Long Head Bicep"           => "longHeadBicepId",
             "Short Head Bicep"          => "shortHeadBicepId",
-
+            "Calves"                    => "CalvesId",
+            "Tibialis"                  => "TibialisId",
+            "Soleus"                    => "SoleusId",
+            "Gastrocnemius"             => "Gastrocnemius",
             //"Short Head Bicep"          => "shortHeadBicepId",
         };
     }
