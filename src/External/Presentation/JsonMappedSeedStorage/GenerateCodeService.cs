@@ -112,15 +112,32 @@ public class GenerateCodeService : IGenerateCodeService
     {
         return muscle switch
         {
-            "Neck"                      => "neckId",
-            "Chest"                     => "chestId",
-            "Biceps"                    => "bicepId",
-            "Long Head Bicep"           => "longHeadBicepId",
-            "Short Head Bicep"          => "shortHeadBicepId",
-            "Calves"                    => "CalvesId",
-            "Tibialis"                  => "TibialisId",
-            "Soleus"                    => "SoleusId",
-            "Gastrocnemius"             => "Gastrocnemius",
+            "Neck"                          => "neckId",
+            "Chest"                         => "chestId",
+            "UpperChest (Upper Pectoralis)" => "upChestId",
+            "Mid Chest"                     => "midChestId",
+            "Lower Chest"                   => "lowChestId",
+            "Biceps"                        => "bicepId",
+            "Long Head Bicep"               => "longHeadBicepId",
+            "Short Head Bicep"              => "shortHeadBicepId",
+            "Calves"                        => "calvesId",
+            "Tibialis"                      => "tibialisId",
+            "Soleus"                        => "soleusId",
+            "Gastrocnemius"                 => "gastrocnemius",
+            "Glutes"                        => "glutesId",
+            "Gluteus Medius"                => "glutMedId",
+            "Gluteus Maximus"               => "glutMaxId",
+            "Glutes Minimus"                => "glutMinId",
+            "Hamstrings"                    => "hamstringId",
+            "Medial Hamstrings"             => "medHamstringId",
+            "Lateral Hamstrings"            => "latHamstringId",
+            "Hands"                         => "handId",
+            "Forearms"                      => "forearmId",
+            "Wrists"                        => "wristId",
+            "Wrist Extensors"               => "wristExtensorId",
+            "Wrist Flexors"                 => "wristFlexorId",
+            "_"                             => "muscleId"
+
             //"Short Head Bicep"          => "shortHeadBicepId",
         };
     }

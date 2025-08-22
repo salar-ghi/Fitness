@@ -16,7 +16,7 @@ public static class BodyDbInitializer
                 //Chest
                 new Body { Name = "Chest" , Description = ""},
                 new Body { Name = "UpperChest (Upper Pectoralis)", Description = ""}, // «پکتورالیس فوقانی» به سر ترقوه‌ای عضله سینه‌ای بزرگ اشاره دارد. این بخش فوقانی و بادبزنی‌شکل عضله سینه‌ای بزرگ است که از ترقوه (استخوان ترقوه) منشأ می‌گیرد. این قسمت از عضله سینه است که بیشترین وضوح و برجستگی را در ناحیه بالای سینه دارد.
-                new Body { Name = "Mid Chest ", Description = ""},
+                new Body { Name = "Mid Chest", Description = ""},
                 new Body { Name = "Lower Chest", Description = ""},
 
                 // Back
