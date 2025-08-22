@@ -13,10 +13,10 @@ public static class EquipmentDbInitializer
             equipments = new List<Equipment>
             {
                 new Equipment { Name = "Bodyweight", EquipmentType = EquipmentType.Body},
-                new Equipment { Name = "Dumbells", EquipmentType = EquipmentType.Equipment},
+                new Equipment { Name = "Dumbbells", EquipmentType = EquipmentType.Equipment},
                 new Equipment { Name = "Barbell", EquipmentType = EquipmentType.Equipment},
-                new Equipment { Name = "KettleBells", EquipmentType = EquipmentType.Equipment},
-                new Equipment { Name = "Smith Machine", EquipmentType = EquipmentType.Machine, Description= "A barbell fixed within steel rails, providing stability for various lifts"},
+                new Equipment { Name = "Kettlebells", EquipmentType = EquipmentType.Equipment},
+                new Equipment { Name = "Smith-Machine", EquipmentType = EquipmentType.Machine, Description= "A barbell fixed within steel rails, providing stability for various lifts"},
                 new Equipment { Name = "Leg Press Machine", EquipmentType = EquipmentType.Machine, Description= "Targets the quadriceps, hamstrings, and glutes"},
                 new Equipment { Name = "Chest Press Machine", EquipmentType = EquipmentType.Machine, Description= "Focuses on the chest muscles with guided movements"},
                 new Equipment { Name = "Lat Pulldown Machine", EquipmentType = EquipmentType.Machine, Description= "Targets the latissimus dorsi muscles in the back"},
@@ -56,6 +56,9 @@ public static class EquipmentDbInitializer
                 new Equipment { Name = "Pull Up Machine", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Machine", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Plate", EquipmentType = EquipmentType.Machine, Description= ""},
+
+                new Equipment { Name = "Medicine-Ball", EquipmentType = EquipmentType.Machine, Description= ""},
+
             };
             await context.Equipments.AddRangeAsync(equipments);
             await context.SaveChangesAsync();

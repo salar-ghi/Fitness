@@ -36,7 +36,6 @@ public class ScraperService : IScraperService
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         var workouts = JsonSerializer.Deserialize<List<WorkoutOutput>>(jsonFile, options);
 
-
         foreach(var workout in workouts)
         {
             string? primaryMuscle = workout.Muscles
