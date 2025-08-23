@@ -30,7 +30,7 @@ public class ScraperService : IScraperService
 
     public async Task<string> ScrapeInstruction()
     {
-        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Hands_Forearms_wristExtensors_WristFlexors.json");
+        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Traps(mid-back)_LowerBack_Lats_Traps_UpperTraps_LowerTraps.json");
 
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -46,7 +46,7 @@ public class ScraperService : IScraperService
                 continue;
 
             workout.Instruction = await GetInstructionsAsync(workout.WorkoutName, workout.Equipment, primaryMuscle);
-            await Task.Delay(4000);
+            await Task.Delay(8000);
         }
         Console.Clear();
         Console.WriteLine(workouts);
@@ -54,7 +54,7 @@ public class ScraperService : IScraperService
 
         string outputJson = JsonSerializer.Serialize(workouts, new JsonSerializerOptions { WriteIndented = true });
         string outputFolderPath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage");
-        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Hands_Forearms_wristExtensors_WristFlexors.json");
+        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Traps(mid-back)_LowerBack_Lats_Traps_UpperTraps_LowerTraps.json");
         //if (!File.Exists(outputFolderPath))
         //{
         //    Directory.CreateDirectory(outputFolderPath);
@@ -92,7 +92,7 @@ public class ScraperService : IScraperService
 
             await page.GoToAsync(url, WaitUntilNavigation.Networkidle2);
             //await page.GoToAsync(url, new NavigationOptions { WaitUntil = new[] { WaitUntilNavigation.Networkidle2 }, Timeout = 60000 });
-            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 4000 });
+            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 7000 });
 
             string html = await page.GetContentAsync();
             var doc = new HtmlDocument();

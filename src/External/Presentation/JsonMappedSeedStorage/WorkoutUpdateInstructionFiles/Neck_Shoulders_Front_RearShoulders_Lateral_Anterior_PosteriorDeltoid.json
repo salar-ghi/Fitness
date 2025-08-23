@@ -1,0 +1,5431 @@
+[
+  {
+    "WorkoutName": "Barbell Front Raise",
+    "Instruction": {
+      "1": "Stand tall with an overhand grip on the barbell. Raise your arms until your fists are around eye level.",
+      "2": "Return to the start under control. This exercise is prone to using momentum when you begin to fatigue."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Upright Row",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Upper Traps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Z Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Alternating Single Arm Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Half Kneeling Single Arm Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Hollow Hold",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Kneeling Alternating Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Kneeling Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Lunge To Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Rotational Lift To Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Alternating Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Overhead Press",
+    "Instruction": {
+      "1": "Sit on the ground facing the landmine with your legs spread. Hold the end of the bar in both hands in front of your chest with your palms facing each other.",
+      "2": "While keeping your torso tall and core brace, drive the end of the bar upward until your arms are fully extended. Lean forward slightly for full range of motion in the shoulder joints. Lower the bar back down to the starting position.",
+      "3": "Repeat for desired number of reps."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Single Arm Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Overhead Press",
+    "Instruction": {
+      "1": "Stand in front of the landmine with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with one hand, palm facing in, and bring it to shoulder height with your elbow tucked beneath your hand.",
+      "2": "Press the barbell overhead by extending your arm fully, pushing the weight upward. Keep your core engaged, your back straight, and your shoulder down throughout the movement. Pause briefly at the top of the movement with your arm fully extended overhead. Slowly lower the barbell back to the starting position at shoulder height with control.",
+      "3": "Repeat for the desired number of reps on one side before switching sides."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Push Press",
+    "Instruction": {
+      "1": "Stand in front of the landmine with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with one hand, palm facing in, and bring it to shoulder height with your elbow tucked beneath your hand.",
+      "2": "Dip your body slightly then drive up through the ground to generate momentum as your extend your arm fully upwards. Pause briefly at the top of the rep, then lower the weight back down to the starting position with control.",
+      "3": "Repeat for the desired number of reps on one side before switching sides."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Staggered Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Snatch",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Split Jerk",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Thruster",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 8"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Behind The Neck Seated Overhead Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Bradford Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Full Front Raise",
+    "Instruction": {
+      "1": "Stand tall with an overhand grip on the barbell. Raise your arms until your fists are pointed toward the ceiling.",
+      "2": "Return to the start under control. This exercise is prone to using momentum when you begin to fatigue."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Seated Full Front Raise",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Incline Bench Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell High Incline Bench Press",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Clean And Jerk",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Muscle Snatch",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Power Snatch",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Snatch",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Split Jerk",
+    "Instruction": {},
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Overhand Row",
+    "Instruction": {},
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Low Row",
+    "Instruction": {},
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Rear Deltoid Row",
+    "Instruction": {},
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Reverse Fly",
+    "Instruction": {
+      "1": "Sit on machine and press your chest into the pad.",
+      "2": "Grab the handles with an overhand grip. Keep your elbows mostly extended.",
+      "3": "Bring your arms backwards and squeeze your scapula together."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Neutral Overhead Press",
+    "Instruction": {
+      "1": "Adjust the seat to match your height.",
+      "2": "Press your back into the back pad.",
+      "3": "Press upwards until your elbows are nearly extended. But not fully extended.",
+      "4": "Lower until the plates nearly touch back down."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Overhand Overhead Press",
+    "Instruction": {
+      "1": "Adjust the seat to match your height.",
+      "2": "Press your back into the back pad.",
+      "3": "Press upwards until your elbows are nearly extended. But not fully extended.",
+      "4": "Lower until the plates nearly touch back down."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Front Military Press",
+    "Instruction": {},
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Standing Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Shoulders Stretch Variation Four",
+    "Instruction": {},
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Shoulders Stretch Variation Three",
+    "Instruction": {},
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Shoulders Stretch Variation Two",
+    "Instruction": {},
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Shoulders Stretch Variation One",
+    "Instruction": {},
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Alternating Pole Rotation",
+    "Instruction": {
+      "1": "Start with the pole in front of you with an overhand wider than shoulder width grip.",
+      "2": "Rotate one arm overhead and behind while keeping the other arm in front of you.",
+      "3": "Then rotate the other arm.",
+      "4": "Bring the original arm back to the starting position, then the other arm. Repeat."
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Pole Rotation",
+    "Instruction": {
+      "1": "Start with the pole in front of you with an overhand wider than shoulder width grip.",
+      "2": "Rotate both arms overhead and behind you while leaving your elbows mostly extended."
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Car Driver",
+    "Instruction": {
+      "1": "Inhale and brace your abdominals",
+      "2": "Raise the arms vertically while keeping the elbows slightly bent",
+      "3": "Once the arms are parallel with the floor, rotate the plate clockwise and counterclockwise.",
+      "4": "Lower the plate back to the starting position."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Front Raise",
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart and the plate in front of the torso, palms facing the thighs.",
+      "2": "Keeping the elbows slightly bent, lift the plate up to the front of the body.",
+      "3": "Raise the plate up until the arms are fully extended, maintaining control of the plate.",
+      "4": "Lower the plate back to the starting position and repeat for desired reps."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Halo",
+    "Instruction": {},
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Full Lateral Raise",
+    "Instruction": {
+      "1": "Stand tall holding two plates at your side.",
+      "2": "Lateral raise the plates to your side and continue until the plates are pointed at the ceiling.",
+      "3": "Let your shoulder joint naturally rotate. At the bottom you should have a neutral or overhand grip. By the time the plates are overhead, your palms should be facing forward."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Internally Rotated Rear Delt Fly",
+    "Instruction": {
+      "1": "With plates in either hand, bend your knees with your feet slightly bowed out. Hinge forward with a flat back.",
+      "2": "Maintain an overhand grip and internally rotated shoulders.",
+      "3": "Raise your arms backward toward the ceiling while maintaining a light band in your elbows."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Lateral Raise",
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart and grip two plates in each hand at your sides.",
+      "2": "Keeping your arms straight, raise the plates out to your sides until they are in line with your shoulders.",
+      "3": "Lower the plates back to your sides with control. Repeat for desired number of reps."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Rear Delt Fly",
+    "Instruction": {
+      "1": "Keep your back straight and bend forward slightly at the waist.",
+      "2": "With arms extended, raise the weights out to your sides until they are in line with your shoulders.",
+      "3": "Pause briefly and then lower the weights back to the starting position."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Reach",
+    "Instruction": {
+      "1": "Start in a standing position with a plate against your chest.",
+      "2": "Press the plate away from your body until your elbows are extended."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Hold Reach",
+    "Instruction": {
+      "1": "Hold the plate with both hands at chest height.",
+      "2": "Keeping your core tight and your chest up, squat down as low as you can go while keeping your feet flat on the ground.",
+      "3": "Hold the squat position and reach the plate forward, keeping your arms straight and your back straight.",
+      "4": "Return the plate to your chest while you hold the squat position and repeat reaching the plate in front of you"
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Clean And Press",
+    "Instruction": {},
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Curl To Overhead Press",
+    "Instruction": {},
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Curl To Overhead Press To Tricep Extension",
+    "Instruction": {},
+    "Equipment": "Plate",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Overhead Press To Tricep Extension",
+    "Instruction": {
+      "1": "Brace your core and press the weight plate overhead until your arms are fully extended. Keep your shoulders down and back.",
+      "2": "While your arms are fully extended, lower the weight behind your head to perform the extension",
+      "3": "After completing the extension, lower the weight to your chest, and perform the overhead press. Repeat"
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Overhead Carry",
+    "Instruction": {
+      "1": "Start by standing upright with your feet shoulder-width apart. Hold a single weight plate overhead with both hands, keeping your arms extended straight above your head.",
+      "2": "Begin walking forward, taking slow and steady steps while maintaining a straight line. Your focus should be on maintaining balance and control of the weight plate overhead.",
+      "3": "As you walk, continue to keep your arms extended and the weight plate overhead. Try to maintain good posture and avoid leaning forward or backward, as this could result in losing control of the weight plate.",
+      "4": "Continue walking for a set distance or for a certain amount of time, keeping your focus on proper form and technique. When finished, return to the starting position and repeat as desired."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Thruster",
+    "Instruction": {
+      "1": "Start with the plate at chest height. Begin a squat.",
+      "2": "Make sure to hit parallel depth. On your way back up, use the momentum you generate with your legs to help push the plate into an overhead position.",
+      "3": "Let the plate return to chest height before initiating the next squat."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Reach",
+    "Instruction": {
+      "1": "Stand holding a weight plate at chest height with both hands.",
+      "2": "Lower into a squat, extending the plate in front of you at chest height",
+      "3": "As you stand back up, pull the plate back into your chest."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Pike Pushup",
+    "Instruction": {},
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Front Raise",
+    "Instruction": {},
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Upright Row",
+    "Instruction": {},
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Upper Traps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Seated Overhead Press",
+    "Instruction": {},
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Bench Press",
+    "Instruction": {},
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Incline Bench Press",
+    "Instruction": {
+      "1": "Position the bench between 30 and 45 degrees.",
+      "2": "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.",
+      "3": "Lower the bar to your mid chest",
+      "4": "Raise the bar (slowly and controlled) until you\u0027ve locked your elbows."
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Rear Delt Fly",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Front Raise",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Rear Delt Fly",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Rear Delt Row",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bayesian Lateral Raise",
+    "Instruction": {
+      "1": "Lay on an incline bench and let your arms freely.",
+      "2": "Lateral raise your arms straight out to the side until your arms are about parallel with the ground."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Laying Reverse Fly",
+    "Instruction": {
+      "1": "With dumbbells in either hand, lay on an incline bench that\u0027s at about 15-30 degrees.",
+      "2": "With bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.",
+      "3": "Slowly lower your arms back to starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Laying Reverse Fly Internally Rotated",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Seated Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Arnold Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Arnold Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Arnold Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Alternating Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Push Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+      "2": "From this starting position, dip your knees slightly and then quickly extend them as you press the dumbbells upwards.",
+      "3": "Make sure to keep your core engaged and your back straight throughout the movement.",
+      "4": "Slowly lower the dumbbells back down to the starting position, and repeat for the desired number of repetitions."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Arnold Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Neutral Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Laying Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Upright Row",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Upright Row",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Thruster",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+      "2": "Bring the dumbbells to your shoulders, with your palms facing inward and your elbows bent.",
+      "3": "From this starting position, dip your knees slightly and then quickly extend them as you press the dumbbells upwards.",
+      "4": "As you press the dumbbells upwards, also push your hips forward to help generate additional power.",
+      "5": "Slowly lower the dumbbells back down to the starting position, and repeat for the desired number of repetitions."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Overhead Squat",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plank IYTW",
+    "Instruction": {
+      "1": "Start in a plank position. Hold one dumbbell.",
+      "2": "Raise the dumbbell straight out in front of you (I), at a 45 degree angle (Y), out to the side (T), and then bend at the elbow while raising (W).",
+      "3": "Going through IYTW counts as one rep.",
+      "4": "Make sure to keep your hips stable. If you\u0027re unable to, try performing this exercise from the knees."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Arm Overhead Squat",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Internally Rotated Seated Rear Delt Fly",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bent Arm Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Internally Rotated Rear Delt Fly",
+    "Instruction": {
+      "1": "Sit with hinged over position, dumbbells in hands, arms slightly bent, internally rotate shoulders.",
+      "2": "Raise dumbbells out to sides, squeeze rear delts.",
+      "3": "Lower weights, repeat for reps."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Rear Delt Row",
+    "Instruction": {
+      "1": "Sit on a bench. Put your chest in your lap. Try to get your torso as close to parallel with the ground as your mobility will allow for.",
+      "2": "Let your arms hang in front of you. Pull your elbows back towards the ceiling while flaring your elbows outward."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Shoulder External Rotation",
+    "Instruction": {
+      "1": "Sit on a bench with one foot on the bench.",
+      "2": "Place the elbow on the inside of your elbow and use it for leverage.",
+      "3": "Point your fist toward the wall andthen toward the ceiling. Rotating a total of 90 degrees."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Standing Bayesian Lateral Raise",
+    "Instruction": {
+      "1": "Stand tall on lean slightly forward.",
+      "2": "Lateral raise your arms straight out to the side until your arms are about parallel with the ground."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Neutral Bench Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Bench Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Incline Bench Press",
+    "Instruction": {
+      "1": "Lie on an incline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body.",
+      "3": "Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position.",
+      "4": "This variation is much easier on the shoulder joints."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Rear Delt Fly",
+    "Instruction": {
+      "1": "With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, and start with the weights touching in front of your chest.",
+      "2": "With bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.",
+      "3": "Slowly lower your arms back to starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Full Front Raise",
+    "Instruction": {
+      "1": "Stand tall with an overhand grip on the dumbbell. Raise your arms until your fists are pointed toward the ceiling.",
+      "2": "Return to the start under control. This exercise is prone to using momentum when you begin to fatigue."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Full Lateral Raise",
+    "Instruction": {
+      "1": "Stand up straight with dumbbells at either side, palms facing your hips.",
+      "2": "Raise your arms on either side with a slight bend in your elbow until they are over head. Pause at the top of the motion.",
+      "3": "Slowly return your arms down to starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Half Kneeling Overhead Press",
+    "Instruction": {
+      "1": "Take a half kneeling position while holding two dumbbells.",
+      "2": "Drive the dumbbells upwards."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Half Kneeling Single Arm Overhead Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Head On Bench Rear Delt Fly",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Incline Front Raise",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Single Arm Arnold Press",
+    "Instruction": {
+      "1": "Start by sitting on an incline bench and holding a dumbbell in one hand.",
+      "2": "Bring the dumbbell to your shoulder, with your palm facing you and your elbow bent.",
+      "3": "From this starting position, extend your arm upwards so that the dumbbell is directly above your head.",
+      "4": "As you extend your arm, rotate your palm to face away from your body."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Y Press",
+    "Instruction": {
+      "1": "Sit on an upright bench , grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Press the dumbbells outward into a y shape."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Y Press",
+    "Instruction": {
+      "1": "Stand tall, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Press the dumbbells outward into a y shape."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Laying Incline Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Incline Chest Flys",
+    "Instruction": {
+      "1": "Lay flat on the bench and place your feet on the ground.",
+      "2": "Begin the exercise with the dumbbells held together above your chest, elbows slightly bent.",
+      "3": "Simultaneously lower the weights to either side.",
+      "4": "Pause when the weights are parallel to the bench, then raise your arms to the starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Incline Bench Press",
+    "Instruction": {},
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell High Incline Bench Press",
+    "Instruction": {
+      "1": "Position the bench between 45 and 60 degrees.",
+      "2": "Lay flat on the bench with your feet on the ground.",
+      "3": "Lower the bar to your mid chest",
+      "4": "Raise the dumbbells (slowly and controlled) until you\u0027ve locked your elbows."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Cuban Press",
+    "Instruction": {
+      "1": "Perform an upright row until elbows are bent at 90 degrees and arms parallel to the ground.",
+      "2": "Rotate your shoulders, raising the dumbbells overhead. Then press overhead."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Internal Rotation",
+    "Instruction": {
+      "1": "Lay flat on the ground with your elbow on the floor and dumbbell pointed toward the ceiling.",
+      "2": "Lower the dumbbell until your knuckles get close to the ground. Then back to the starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Six Way Lateral Raise",
+    "Instruction": {
+      "1": "Perform a front raise, then bring dumbbells out to your side, then raise the dumbbells over head."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell External Rotation",
+    "Instruction": {
+      "1": "Hold a dumbbell in one hand,  elbow bent at 90 degrees while resting on your inner thigh/ knee.",
+      "2": "Rotate your arm outward, keeping your elbow stable."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Clean And Press Slam",
+    "Instruction": {},
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 7"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 8"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Halo",
+    "Instruction": {},
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Overhead Reverse Lunge",
+    "Instruction": {},
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Press Jack",
+    "Instruction": {},
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Self Toss",
+    "Instruction": {},
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Maximus": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Inner Quadriceps": {
+        "MuscleTargetLevel": "Level 7"
+      },
+      "Outer Quadricep": {
+        "MuscleTargetLevel": "Level 8"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 9"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Squat Reach",
+    "Instruction": {},
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Wall Ball",
+    "Instruction": {},
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Face Pulls",
+    "Instruction": {},
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Overhead Press",
+    "Instruction": {
+      "1": "Use a handle attachment with the cable set to the bottom of the machine. Stand upright making sure to maintain a flat back. Your starting position will have your palms facing forward.",
+      "2": "Use both your elbows and shoulders to press the weight directly overhead."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Low Single Arm Lateral Raise",
+    "Instruction": {
+      "1": "Use a handle attachment with the cable set all the way to the bottom of the machine.",
+      "2": "You should vertically abduct at the shoulder raising your arm straight out to the side.",
+      "3": "Raise until your arm is parallel with the ground and then back to the starting position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable High Single Arm Rear Delt Fly",
+    "Instruction": {
+      "1": "Use a handle attachment or no attachment at all. The cable should be set to the top.",
+      "2": "Walk a few steps away with the cable coming from the opposing side of the working arm.",
+      "3": "From there, your shoulders should horizontally abduct and adduct, while your elbows stay in a fixed position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Upright Row",
+    "Instruction": {
+      "1": "Use a handle attachment with the cable set to the bottom of the machine.",
+      "2": "Pull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Bar Front Raise",
+    "Instruction": {
+      "1": "Face away from the cables.",
+      "2": "With your elbows extended raise your fists straight up to the ceiling until they are at eye level."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable High Internally Rotated Reverse Fly",
+    "Instruction": {
+      "1": "Use a handle attachment or no attachment at all. The cable should be set to the top.",
+      "2": "Walk a few steps away with the cable coming from the opposing side of the working arms. Internally rotate the shoulders.",
+      "3": "From there, your shoulders should horizontally abduct and adduct, while your elbows stay in a fixed position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Low Bilateral Lateral Raise",
+    "Instruction": {
+      "1": "Use a handle attachment with the cable set all the way to the bottom of the machine.",
+      "2": "You should vertically abduct at the shoulder raising your arms straight out to the side.",
+      "3": "Raise until your arms are parallel with the ground and then back to the starting position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Front Raise",
+    "Instruction": {
+      "1": "Face away from the cables. Use a rope attachment.",
+      "2": "With your elbows extended raise your fists straight up to the ceiling until they are at eye level."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Single Arm Low Lateral Raise",
+    "Instruction": {
+      "1": "Use a rope attachment with the cable set all the way to the bottom of the machine.",
+      "2": "You should vertically abduct at the shoulder raising your arms straight out to the side.",
+      "3": "Raise until your arms are parallel with the ground and then back to the starting position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Upright Row",
+    "Instruction": {
+      "1": "Use a rope attachment with the cable set to the bottom of the machine.",
+      "2": "Pull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Mid Lateral Raise",
+    "Instruction": {
+      "1": "Place the cable at the same height as your fist when your arms are at your side and stand with the cable crossing your body.",
+      "2": "While keeping your elbow mostly extended, lift your arm until it\u0027s parallel with the floor."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Internally Rotated High Reverse Fly",
+    "Instruction": {
+      "1": "Use a handle attachment or no attachment at all. The cable should be set to the top.",
+      "2": "Walk a few steps away with the cable coming from the opposing side of the working arms. Internally rotate the shoulders.",
+      "3": "From there, your shoulder should horizontally abduct and adduct, while your elbows stay in a fixed position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Rear Delt Row",
+    "Instruction": {},
+    "Equipment": "Cables",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable High Reverse Fly",
+    "Instruction": {
+      "1": "Use a handle attachment or no attachment at all. The cable should be set to the top.",
+      "2": "Walk a few steps away with the cable coming from the opposing side of the working arm.",
+      "3": "From there, your shoulders should horizontally abduct and adduct, while your elbows stay in a fixed position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Chest Press",
+    "Instruction": {
+      "1": "Use a handle attachment. The cables should be set to shoulder height.",
+      "2": "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+      "3": "Walk a few steps forward. Then press the weight forward.",
+      "4": "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Bench Press",
+    "Instruction": {
+      "1": "Use a handle attachment. Bring a bench over to the cables. The cables should be set to shoulder height.",
+      "2": "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+      "3": "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Decline Bench Press",
+    "Instruction": {
+      "1": "Use a handle attachment. Bring a bench over to the cables. The cables should be set above height.",
+      "2": "Bring both of the handles to your chest and make sure you are in the center of the cable crossover.",
+      "3": "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Decline Single Arm Bench Press",
+    "Instruction": {
+      "1": "Use a handle attachment. Bring a bench over to the cables. The cable should be set above shoulder height.",
+      "2": "Bring one handles to your chest and make sure you are in the center of the cable crossover.",
+      "3": "From there, you should flex and extend at both the shoulders and elbows simultaneously."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Bench Press",
+    "Instruction": {
+      "1": "Use a handle attachment. Bring a bench over to the cables. The cable should be set to shoulder height.",
+      "2": "Bring the handle to your chest and make sure you are in the center of the cable crossover.",
+      "3": "From there, you should flex and extend at both the shoulder and elbow simultaneously."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Archer Row",
+    "Instruction": {
+      "1": "Place the cable at shoulder height.",
+      "2": "On the same side as the working arm, step back and rotate outwards.",
+      "3": "Pull your elbow back while flaring your elbow out."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Kneeling Face Pull",
+    "Instruction": {
+      "1": "Start with the cables at the top. Use a rope attachment. Fall to a half kneeling position.",
+      "2": "Pull the metal piece in the middle of the rope to the bridge of your nose."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Supinating Row",
+    "Instruction": {
+      "1": "Place the cable at shoulder height.",
+      "2": "Start with an overhand grip. As you pull your elbow back, rotate your palm until it faces upward."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Internal Rotation",
+    "Instruction": {
+      "1": "Stand tall, hold the cable handle with a neutral grip, your elbow should be at a 90 degree angle.",
+      "2": "Rotate your shoulder by bringing your forearm across your body."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable External Rotation",
+    "Instruction": {
+      "1": "Hold the cable handle in one hand,  elbow bent at 90 degrees going across your torso.",
+      "2": "Rotate your arm outward, keeping your elbow stable."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX I Raise",
+    "Instruction": {
+      "1": "Stand facing the TRX straps and hold onto the handles with an overhand grip, keeping your arms straight and hands slightly wider than shoulder-width apart.",
+      "2": "Keeping your core engaged, slowly raise your arms forward until they are overhead.",
+      "3": "Pause for a moment at the top of the movement, then slowly lower your arms back to the starting position."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Rear Delt Fly",
+    "Instruction": {
+      "1": "Stand facing away from the TRX straps and grab the handles with both hands.",
+      "2": "Step forward so that your body is in a plank position, with your arms straight and your body in a straight line from your head to your heels.",
+      "3": "Keeping your arms straight, slowly lift your arms out to the side, keeping them at the same height as your shoulders. Your body should form a \u0022T\u0022 shape."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Rear Delt Row",
+    "Instruction": {
+      "1": "Stand facing away from the TRX straps and grab the handles with both hands.",
+      "2": "Step away so your body is leaning away from the anchor point.",
+      "3": "Flex your elbows and pull your elbows straight back behind your body.",
+      "4": "Make sure to keep your elbows flared outward."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX W Raise",
+    "Instruction": {
+      "1": "Hold the TRX straps and lean away from the anchor point.",
+      "2": "Pull your elbows back while externally rotating your shoulder joint. Your arms should make a W shape at the back portion of the exercise."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Y Raise",
+    "Instruction": {
+      "1": "Hold the TRX straps and lean away from the anchor point until the straps are taut.",
+      "2": "Keep both elbows mostly extended and raise both arms out and upwards.",
+      "3": "You should make a Y shape with your arms during the back portion of the exercise."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Pushup",
+    "Instruction": {
+      "1": "Start by setting up the TRX straps to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.",
+      "2": "Stand facing the TRX straps, grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.",
+      "3": "Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.",
+      "4": "Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Arnold Press",
+    "Instruction": {},
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Overhead Press",
+    "Instruction": {},
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Rear Delt Fly",
+    "Instruction": {},
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Core Stability 1 Crosslateral Limb Raise 4Pt Position",
+    "Instruction": {
+      "1": "Bring yourself to the 4 point position (on all fours)",
+      "2": "90\u00B0 angles at hips and shoulder and neutral spine",
+      "3": "Raise opposite limbs till they are parallel to the ground",
+      "4": "Hold for a split second and bring back to starting position"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Core Stability 2 Opposite Shoulder Tap 4Pt Position",
+    "Instruction": {
+      "1": "Bring yourself to the 4 point position (on all fours). 90\u00B0 angles at hips and shoulder and neutral spine.",
+      "2": "Lift your knees slightly off the ground supporting your weight on palms and toes.",
+      "3": "Maintain a toe placement roughly at shoulder width (the wider the leg stance the easier the exercise - the narrower the stance the more difficult it becomes.",
+      "4": "Tap your opposite shoulder with your fingertips."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Abdominals": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
+    "Instruction": {
+      "1": "Bring yourself to a strict push-up position",
+      "2": "Maintain a toe placement roughly at shoulder width (the wider the leg stance the easier the exercise - the narrower the stance the more difficult it becomes.",
+      "3": "Tap your opposite shoulder with your fingertips.",
+      "4": "Do not tilt or shift your hips. Do not round or arch your back."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Core Stability 5 Crosslateral Limb Raise Into Knee Elbow Tuck Push Up Position",
+    "Instruction": {
+      "1": "Bring yourself to a strict push-up position",
+      "2": "Raise opposite limbs till they are parallel to the ground",
+      "3": "Hold for a split second and then try to bring your elbow to your opposite knee by driving both towards the centre of the body.",
+      "4": "Spine might curve slightly but you should not shift your hips during the movement."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Core Stability Regression Crosslateral Limb Raise Push Up Position",
+    "Instruction": {
+      "1": "Bring yourself to a strict push-up position",
+      "2": "Tap the hand of the working arm on the ground to find your balance. Raise opposite limbs till they are parallel to the ground",
+      "3": "Hold for a split second and then try to bring your elbow to your opposite knee by driving both towards the centre of the body.",
+      "4": "Spine might curve slightly but you should not shift your hips during the movement."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Hip Openers",
+    "Instruction": {
+      "1": "From the standing position perform a walkout (use to palms to \u0022walk\u0022 into the push up position).",
+      "2": "Bring your leg to the side and place the foot by your palm.",
+      "3": "Rotate towards the ceiling and then towards the ground, pressing the hips towards the ground."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "I\u0027s Prone",
+    "Instruction": {
+      "1": "Lie on your front with your arms extended and above your head.",
+      "2": "Point the thumbs up.",
+      "3": "Try to raise your arms off the ground keeping them straight."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Lat And Shoulder External Rotation Stretch 1 Kneeling Dowel",
+    "Instruction": {
+      "1": "Kneel in front of a bench, placing your elbows on with palms facing up while holding the dowel at shoulder width.",
+      "2": "Sit your hips back onto your heels, pressing the head in between the arms.",
+      "3": "You should feel a stretch in your lats, triceps and deep in the shoulder joint.",
+      "4": "You can add movement (bend-extended arms) to mobilise the shoulder joint."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lats": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Lat And Shoulder External Rotation Stretch 2 Kneeling Dowel",
+    "Instruction": {},
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lats": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Lat And Shoulder External Rotation Stretch 3 Kneeling Dowel",
+    "Instruction": {
+      "1": "Kneel in front of a bench, placing your elbows on with palms facing up while holding the dowel at shoulder width.",
+      "2": "Sit your hips back onto your heels, pressing the head in between the arms.",
+      "3": "You should feel a stretch in your lats, triceps and deep in the shoulder joint.",
+      "4": "You can add movement (bend-extended arms) to mobilise the shoulder joint."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lats": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Swipe Around",
+    "Instruction": {},
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Alternating Swipe Around",
+    "Instruction": {},
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Service Exercise",
+    "Instruction": {
+      "1": "Stand up straight and hold a dumbbell in one arm. Perform a bicep curl across your body",
+      "2": "Bring the dumbbell to your shoulder and rotate palm and elbow out.",
+      "3": "Point the elbow towards the ceiling while the dumbbell remains just over the shoulder.",
+      "4": "Extend your elbow to raise the dumbbell over your head. Start lowering your arm to your side as you turn the palm to face down"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Shoulder Y Raise",
+    "Instruction": {
+      "1": "Hold one end of a band with your arm to the side and behind your body.",
+      "2": "Hold the other end in front of your body (overhand grip).",
+      "3": "Move your arm away from your body and upward while externally rotating your shoulder.",
+      "4": "Finish with your arm over your head and thumb up"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Wall Angels",
+    "Instruction": {
+      "1": "Stand against a wall with your back flat, arms at 90\u00B0 by your sides.",
+      "2": "Slowly raise arms overhead, keeping elbows and wrists in contact with the wall.",
+      "3": "Lower arms back down to starting position, maintaining constant wall contact throughout."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ys",
+    "Instruction": {
+      "1": "Lie on your front with your arms in the \u0022Y\u0022 position. Thumbs facing up.",
+      "2": "Raise your arms without bending the elbows."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Laying Ts",
+    "Instruction": {
+      "1": "Lie on your front, arms outstretched to the side.",
+      "2": "Raise head and chest off the ground.",
+      "3": "Raise and lower your arms (flapping wings motion) by contracting and relaxing the muscles in between your shoulder blades."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Neck Mobility Circumductions",
+    "Instruction": {
+      "1": "Pull your shoulders back and away from the ears and straighten the back",
+      "2": "Circumduct the head both clockwise and anti-clockwise making sure you  are working on the end range throughout the movement."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Neck": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Neck Extensions",
+    "Instruction": {
+      "1": "Pull your shoulders back and away from the ears and straighten the back.",
+      "2": "Lean your head back trying to keep the front of the neck straight.",
+      "3": "Point your chin to the ceiling."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Neck": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Neck Flexions",
+    "Instruction": {
+      "1": "Pull your shoulders back and away from the ears and straighten the back.",
+      "2": "Tuck your chin in and drop your head forwards without rounding the back."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Neck": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Neck Rotations",
+    "Instruction": {
+      "1": "Pull your shoulders back and away from the ears and straighten the back.",
+      "2": "Rotate your head from side to side without rounding your shoulders."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Neck": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Standing Neck Side Flexions",
+    "Instruction": {
+      "1": "Pull your shoulders back and away from the ears and straighten the back.",
+      "2": "Lean your head to the side (bring your ear to your shoulder) without shrugging your shoulder or leaning the spine to the side."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Neck": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Radial Nerve Slider",
+    "Instruction": {
+      "1": "From the seated position bring your arm out to the side with the palm facing back.",
+      "2": "Flex your wrist at the same time you are leaning your head towards your outstretched arm.",
+      "3": "Bend your head away from the the outstretched arm while simultaneously extending the wrist."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Neck": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Seated Radial Nerve Tensioner",
+    "Instruction": {
+      "1": "Bend your elbow bringing your thumb to the centre of your chest.",
+      "2": "Extend your elbow to the side with the palm facing back, and wrist flexed",
+      "3": "As your extending the arm, lean your head towards the opposite shoulder",
+      "4": "Once you reach maximum tension (without pain) hold the position"
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Neck": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Elevated Pike Press",
+    "Instruction": {
+      "1": "Use a bench or an object to elevate your feet.",
+      "2": "Lower your head towards the floor by bending your elbows",
+      "3": "Push through your hands and return to the starting pike position.",
+      "4": "Repeat"
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Backward Arm Circle",
+    "Instruction": {
+      "1": "Hold your arms out to your sides.",
+      "2": "Rotate your arms backwards in small circles."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Pike Press",
+    "Instruction": {
+      "1": "Start in a plank position. Push your hips up toward the ceiling.",
+      "2": "Lower your head towards the floor by bending your elbows",
+      "3": "Push through your hands and return to the starting pike position.",
+      "4": "Repeat"
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Forward Arm Circle",
+    "Instruction": {
+      "1": "Hold your arms out to your sides.",
+      "2": "Rotate your arms forward in small circles."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Pole Overhead Squat",
+    "Instruction": {
+      "1": "Stand with your feet slightly wider than shoulder-width apart and hold a pole overhead, using an overhand grip.",
+      "2": "Begin the squat by bending at the hips and knees, keeping your core tight and the dumbbells balanced overhead.",
+      "3": "Lower your body as far as you can while keeping the dumbbells overhead, then push back up to the starting position.",
+      "4": "Repeat for the desired number of repetitions, making sure to keep your back straight, chest lifted, and the dumbbells stable overhead throughout the entire movement."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Standing Pushup",
+    "Instruction": {
+      "1": "Start by setting up the rings to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.",
+      "2": "Stand facing the rings grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.",
+      "3": "Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.",
+      "4": "Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Plank Arm Lift",
+    "Instruction": {
+      "1": "Start in a plank position.",
+      "2": "Raise your arm out in front of you.",
+      "3": "Return to the starting position, then raise the opposing arm.",
+      "4": "Make sure to keep your hips stable. If you\u0027re unable to, try performing this exercise from the knees."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Rear Delt Fly",
+    "Instruction": {
+      "1": "Stand facing rings and grab the handles.",
+      "2": "Step forward so that your body is in a plank position, with your arms straight and your body in a straight line from your head to your heels.",
+      "3": "Keeping your arms straight, slowly lift your arms out to the side, keeping them at the same height as your shoulders. Your body should form a \u0022T\u0022 shape."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Rear Delt Row",
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart, holding the kettlebell with both hands in front of your thighs.",
+      "2": "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+      "3": "Lift the kettlebell upwards towards your upper chest and then lower the kettlebell- repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Front Raise",
+    "Instruction": {
+      "1": "Stand up straight with feet shoulder width apart, holding the kettlebell in front of your pelvis.",
+      "2": "Keeping arms straight, raise the kettlebell slightly higher than head level.",
+      "3": "Return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Rear Delt Fly",
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+      "2": "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+      "3": "Bring one arm behind you and rest this arm on your back. With the other arm, hold the kettlebell at arms length close to the floor.",
+      "4": "Swing the kettlebell out and up towards the side of your body and then return to centre. Repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Long Lever Lateral Raise",
+    "Instruction": {
+      "1": "Stand with feet shoulder width apart holding a kettlebell with one hand at your side.",
+      "2": "Keeping your arm straight, swing the kettlebell up and out, away from your body to around head height, holding on to the kettlebell firmly so it does not change position in your hand.",
+      "3": "Return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Lateral Raise",
+    "Instruction": {},
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Clean And Press",
+    "Instruction": {
+      "1": "Start with kettlebells between legs.",
+      "2": "Swing kettlebells up to shoulder.",
+      "3": "Press kettlebells overhead."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Snatch (Double)",
+    "Instruction": {
+      "1": "Begin with a two kettlebells between your legs, hinge at hips, then swing it upwards explosively.",
+      "2": "As they rise, lock out arm overhead, wrist straight.",
+      "3": "Control the descent, then repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Push Press",
+    "Instruction": {
+      "1": "Start with kettlebell in rack position.",
+      "2": "Dip at knees and hips.",
+      "3": "Explosively push kettlebell overhead, fully extending arms."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Rear Delt Row (Double)",
+    "Instruction": {
+      "1": "Stand with feet hip-width apart, kettlebell in each hand, hinge at hips.",
+      "2": "Pull kettlebells while flaring your elbows, squeezing shoulder blades. Keep back flat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Clean And Press",
+    "Instruction": {
+      "1": "Begin with the kettlebell between your legs.",
+      "2": "Hinge at your hips, and lift to shoulder, then press overhead."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Snatch",
+    "Instruction": {},
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Swing To Upright Row",
+    "Instruction": {
+      "1": "Start with a kettlebell between your legs, hinge at hips, swing it upward.",
+      "2": "Lift kettlebell to chest level, elbows high, engaging shoulders.",
+      "3": "Lower kettlebell back down, maintaining control. Repeat for desired reps."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 7"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 8"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Upright Row",
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+      "2": "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+      "3": "Lift the kettlebell upwards towards your chest and lower - repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Upper Traps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Bottoms Up Overhead Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+      "2": "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+      "3": "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Bottoms Up Single Arm Overhead Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding one kettlebell with the bottom of the kettlebell facing up.",
+      "2": "Bring the kettlebell to your shoulders, with your palms facing forward and your elbows bent.",
+      "3": "From this starting position, extend your arms upwards so that the kettlebell are overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Seated Overhead Press",
+    "Instruction": {
+      "1": "There should be a straight line from your elbow to fist (vertical forearms).",
+      "2": "Sit tall and try not to arch your spine as you\u0027re pressing.",
+      "3": "Press until your elbows are extended and push your head forward slightly."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Upright Row",
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+      "2": "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+      "3": "Lift the kettlebell upwards towards your chest and lower - repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Full Swing",
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, kettlebell between legs.",
+      "2": "Hinge at hips, grip kettlebell, and swing it overhead.",
+      "3": "Extend hips and knees, lock out arms at the top."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Lower back": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Hamstrings": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Kneeling Bottoms Up Overhead Press",
+    "Instruction": {
+      "1": "Start by taking a kneeling position and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+      "2": "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+      "3": "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Upright Row Single",
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+      "2": "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+      "3": "Lift the kettlebell upwards towards your chest and lower - repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell High Incline Bench Press",
+    "Instruction": {
+      "1": "Position the bench between 45 and 60 degrees.",
+      "2": "Lay flat on the bench with your feet on the ground.",
+      "3": "Lower the kettlebells to your mid chest",
+      "4": "Raise the kettlebells (slowly and controlled) until you\u0027ve locked your elbows."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Incline Bench Press",
+    "Instruction": {
+      "1": "Position the bench between 30 and 45 degrees.",
+      "2": "Lay flat on the bench with your feet on the ground.",
+      "3": "Lower the kettlebells to your mid chest",
+      "4": "Raise the kettlebells (slowly and controlled) until you\u0027ve locked your elbows."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Face Pull",
+    "Instruction": {
+      "1": "Anchor the band at eye level. Take a few steps away until the band is taut.",
+      "2": "Use an overhand grip with both hands. Pull the band to the bridge of your nose flaring your elbows out."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Front Raise",
+    "Instruction": {
+      "1": "Stand on the band with one or 2 feet depending on how heavy you want the band to be.",
+      "2": "With your elbows extended raise your fists straight up to the ceiling until they are at eye level."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Lateral Raise",
+    "Instruction": {
+      "1": "Grab the band at shoulder width. Raise your arms straight out to the side.",
+      "2": "The band should scrape against your shirt."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Pull Apart",
+    "Instruction": {
+      "1": "Grab the band with a shoulder width grip. Point your arms straight in front of you.",
+      "2": "Retract your shoulder blades and shoulder joint until the band taps your chest."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Single Arm Overhead Press",
+    "Instruction": {
+      "1": "Loop the band under one of your feet. The other end of the bed should be in your hand between your thumb and pointer finger.",
+      "2": "Press the band straight up towards the ceiling. Until your elbow is fully extended."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band High Face Pull",
+    "Instruction": {
+      "1": "Start with a band anchored to a high point. Stagger your stance.",
+      "2": "Pull the band to the bridge of your nose."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Low Lateral Raise",
+    "Instruction": {
+      "1": "Anchor a band to a low point and stand with the band crossing your body.",
+      "2": "While keeping your elbow mostly extended, lift your arm until it\u0027s parallel with the floor."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Mid Lateral Raise",
+    "Instruction": {
+      "1": "Anchor a band to a point that is the same height as your fist when your arms are at your side and stand with the band crossing your body.",
+      "2": "While keeping your elbow mostly extended, lift your arm until it\u0027s parallel with the floor."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Overhead Press",
+    "Instruction": {
+      "1": "Stand between the two anchored bands, grasp them with an overhand grip, and position the bands at shoulder level.",
+      "2": "Brace your core and push the bands overhead, fully extending your arms.",
+      "3": "Lower the bands back to shoulder level, keeping your core engaged and arms straight. Repeat for desired number of reps."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Rear Delt Fly",
+    "Instruction": {
+      "1": "Start by standing between the two anchored bands with your feet shoulder-width apart and the bands positioned at a high point.",
+      "2": "Grasp the ends of each band with your hands, keeping your palms facing each other.",
+      "3": "Keeping your arms slightly bent and your back straight, slowly pull the bands away from your body until your arms are extended straight out to the sides. Hold for a second, then slowly release back to the starting position. Repeat for desired reps."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Traps (mid-back)": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Upright Row",
+    "Instruction": {
+      "1": "Stand with one or both feet on one end of a band. Take a double overhand roughly shoulder width grip.",
+      "2": "Pull your elbows straight up the ceiling. Aim to get the band to chin level or slightly higher."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Upper Traps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Eagle Arm Pose",
+    "Instruction": {
+      "1": "Begin seated or standing with your arms at your sides.",
+      "2": "Inhale and reach your arms out to the sides at shoulder height.",
+      "3": "Cross your right arm over your left arm, bringing your palms to touch if possible.",
+      "4": "Hold for a few breaths and then release the arms and repeat with the left arm over the right."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Wide Legged Forward Fall",
+    "Instruction": {
+      "1": "Start standing at the top of your mat with your feet wide apart.",
+      "2": "Interlace your fingers behind your back and inhale to expand your chest.",
+      "3": "Exhale and fold forward from your hips, bringing your hands up and over your head towards the ground.",
+      "4": "Hold for a few breaths and then release the hands and come back up to standing."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Puppy Pose",
+    "Instruction": {
+      "1": "Begin in a tabletop position with your hands and knees on the ground.",
+      "2": "Walk your hands forward as you lower your chest towards the ground.",
+      "3": "Keep your hips over your knees and extend your arms out in front of you.",
+      "4": "Hold for a few breaths and then release."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Reverse Prayer",
+    "Instruction": {
+      "1": "Start seated or standing with your arms at your sides.",
+      "2": "Bring your hands behind your back and interlace your fingers with your palms facing up.",
+      "3": "Inhale and draw your shoulder blades together, lifting your chest.",
+      "4": "Exhale and gently press your hands down towards the floor as you continue to lift your chest."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Headstand",
+    "Instruction": {
+      "1": "Begin on your hands and knees with your wrists under your shoulders and your knees under your hips.",
+      "2": "Place your forearms on the floor and interlace your fingers.",
+      "3": "Place the crown of your head on the floor and tuck your toes under.",
+      "4": "Walk your feet towards your head and lift your hips up.",
+      "5": "Straighten your legs and find your balance. Hold for several breaths and then release."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Jumping Jacks",
+    "Instruction": {
+      "1": "Stand with feet together, arms at your sides, ready to jump.",
+      "2": "Jump while spreading legs and raising arms overhead.",
+      "3": "Return to starting position with legs together and arms at your sides. Repeat."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Assault Bike",
+    "Instruction": {
+      "1": "Adjust seat and handlebar height for comfort and proper posture on the assault bike.",
+      "2": "Start pedaling with even, controlled motion, maintaining your desired resistance level.",
+      "3": "Monitor heart rate and intensity; increase or decrease resistance for an effective cardio workout."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Band Press Jacks",
+    "Instruction": {
+      "1": "Stand with the band looped under both feet and the other end of the band in both hands in an overhead press position.",
+      "2": "Do a light hop and bring both feet outward while pressing the band overhead."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Criss Cross Jacks",
+    "Instruction": {
+      "1": "Perform a jumping jack while crossing the feet."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Glutes": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Band Reverse Fly Jacks",
+    "Instruction": {
+      "1": "Grab the band with a double overhand grip. Bring both feet outward while performing a little hop.",
+      "2": "As you hop, pull the band apart."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Posterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Seal Jacks",
+    "Instruction": {
+      "1": "Stand with feet together, arms in front at chest level, palms touching.",
+      "2": "Spread legs wide, simultaneously swing arms out to sides, palms facing forward.",
+      "3": "Jump back to starting position, bringing arms together again quickly. Repeat rhythmically."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Calves": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Rear Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Step Out Jacks",
+    "Instruction": {
+      "1": "Stand tall, feet together, arms by sides, ready to move.",
+      "2": "Step right foot out, simultaneously raise arms above head.",
+      "3": "Step right foot in, lower arms, repeat left, maintain rhythm."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  }
+]
