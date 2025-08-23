@@ -29,78 +29,141 @@ public class GenerateCodeService : IGenerateCodeService
             var workoutLevelLines = new List<string>();
             var bodyWorkoutLines = new List<string>();
 
-            for (int i = 0; i < workouts.Count; i++)
+            var grouped = workouts
+                .GroupBy(w => w.Equipment);
+
+            int index = 0;
+            foreach (var group in grouped)
             {
-                var workout = workouts[i];
+                workoutLines.Add($"// {group.Key}");
 
-                // Escape quotes and handle nulls
-                string escapedName = EscapeString(workout.WorkoutName);
+                instructionLines.Add($"#region {group.Key}");
+                equipmentLines.Add($"#region {group.Key}");
+                workoutLevelLines.Add($"#region {group.Key}");
+                bodyWorkoutLines.Add($"#region {group.Key}");
 
-                // 1. Generate Workout initialization
-                if (workout.Equipment == "TRX" || workout.Equipment == "Bodyweight")
+                foreach (var workout in group)
                 {
-                    workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = crossfitId, Description = \"\" }}");
-                }
-                else if (workout.Equipment == "Yoga")
-                {
-                    workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = yogaSportId, Description = \"\" }}");
-                }
-                else if (workout.Equipment == "Cardio" || workout.Equipment == "Recovery"
-                    || workout.Equipment == "Stretches" || workout.Equipment == "Band")
-                {
-                    workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = cardioSportId, Description = \"\" }}");
-                }
-                else
-                {
-                    workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = bodybuildingId, Description = \"\" }}");
-                }
+                    string escapedName = EscapeString(workout.WorkoutName);
 
-                if (true)
-                {
+                    string sportId;
+                    if (workout.Equipment == "TRX" || workout.Equipment == "Bodyweight")
+                    {
+                        sportId = "crossfitId";
+                    }
+                    else if (workout.Equipment == "Yoga")
+                    {
+                        sportId = "yogaSportId";
+                    }
+                    else if (workout.Equipment == "Cardio" || workout.Equipment == "Recovery"
+                        || workout.Equipment == "Stretches" || workout.Equipment == "Band")
+                    {
+                        sportId = "cardioSportId";
+                    }
+                    else
+                    {
+                        sportId = "bodybuildingId";
+                    }
+                    workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = {sportId}, Description = \"\" }}, // index => {index}");
+
+                    // Instructions
                     var validSteps = workout.Instruction
                         .Where(kv => !string.IsNullOrWhiteSpace(kv.Value))
                         .OrderBy(kv => int.Parse(kv.Key));
 
                     foreach (var step in validSteps)
                     {
-                        //if (string.IsNullOrWhiteSpace(inst.Value)) continue;
-                        //int step = int.Parse(inst.Key);
-                        //string Instruction = inst.Value.Replace("\"", "\\\"");
-
-                        instructionLines.Add($"new WorkoutInstruction{{ WorkoutId = Workouts[{i}].Id , Step = {step.Key} , Instruction = \" {EscapeString(step.Value)}\" }}");
+                        instructionLines.Add($"new WorkoutInstruction{{ WorkoutId = Workouts[{index}].Id , Step = {step.Key} , Instruction = \" {EscapeString(step.Value)}\" }}");
                     }
-                }
 
-                // 2. Generate WorkoutEquipment initialization
-                string equipmentId = GetEquipmentIdVariable(workout.Equipment);
-                equipmentLines.Add($"new WorkoutEquipment{{ WorkoutId = Workouts[{i}].Id, EquipmentId = {equipmentId} }}");
+                    string level = EscapeString(workout.WorkoutLevel);
+                    workoutLevelLines.Add($"new WorkoutLevel{{ WorkoutId = Workouts[{index}].Id, Level = Difficulty.{level} }}");
 
-                string level = EscapeString(workout.WorkoutLevel);
-                workoutLevelLines.Add($"new WorkoutLevel{{ WorkoutId = Workouts[{i}].Id, Level = Difficulty.{level} }}");
-                //foreach (var muscle in workout.Muscles)
-                //{
-                //    string muscleName = EscapeString(muscle.Key);
-                //    string priority = muscle.Value.MuscleTargetLevel;
+                    string equipmentId = GetEquipmentIdVariable(workout.Equipment);
+                    equipmentLines.Add($"new WorkoutEquipment{{ WorkoutId = Workouts[{index}].Id, EquipmentId = {equipmentId} }}");
 
-                //    bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = \"{muscleName}\", WorkoutId = Workouts[{i}].Id, Target = PriorityTarget.{priority} }}");
-                //}
-
-                foreach (var (muscle, target) in workout.Muscles)
-                {
-                    string muscleName = EscapeString(muscle);
-                    string priority = target.MuscleTargetLevel;
-
-                    if (muscleName == "Calves" || muscleName == "Tibialis" || muscleName == "Soleus" || muscleName == "Gastrocnemius")
+                    foreach (var (muscle, target) in workout.Muscles)
                     {
-                        var muscleId = GetMuscleId(muscleName);
-                        bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = Workouts[{i}].Id, Target = PriorityTarget.{priority} }}");
+                        string muscleName = EscapeString(muscle);
+                        string priority = target.MuscleTargetLevel;
+
+                        if (muscleName == "Calves" || muscleName == "Tibialis" || muscleName == "Soleus" || muscleName == "Gastrocnemius")
+                        {
+                            var muscleId = GetMuscleId(muscleName);
+                            bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = Workouts[{index}].Id, Target = PriorityTarget.{priority} }}");
+                        }
+                        else
+                        {
+                            continue;
+                        }
                     }
-                    else
-                    {
-                        continue;
-                    }
+                    index++;
                 }
+                instructionLines.Add("#endregion");
+                equipmentLines.Add("#endregion");
+                workoutLevelLines.Add("#endregion");
+                bodyWorkoutLines.Add("#endregion");
             }
+
+            //for (int i = 0; i < workouts.Count; i++)
+            //{
+            //    var workout = workouts[i];
+
+            //    // Escape quotes and handle nulls
+            //    string escapedName = EscapeString(workout.WorkoutName);
+
+            //    // 1. Generate Workout initialization
+            //    if (workout.Equipment == "TRX" || workout.Equipment == "Bodyweight")
+            //    {
+            //        workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = crossfitId, Description = \"\" }}");
+            //    }
+            //    else if (workout.Equipment == "Yoga")
+            //    {
+            //        workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = yogaSportId, Description = \"\" }}");
+            //    }
+            //    else if (workout.Equipment == "Cardio" || workout.Equipment == "Recovery"
+            //        || workout.Equipment == "Stretches" || workout.Equipment == "Band")
+            //    {
+            //        workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = cardioSportId, Description = \"\" }}");
+            //    }
+            //    else
+            //    {
+            //        workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = bodybuildingId, Description = \"\" }}");
+            //    }
+
+            //    if (true)
+            //    {
+            //        var validSteps = workout.Instruction
+            //            .Where(kv => !string.IsNullOrWhiteSpace(kv.Value))
+            //            .OrderBy(kv => int.Parse(kv.Key));
+
+            //        foreach (var step in validSteps)
+            //        {
+            //            instructionLines.Add($"new WorkoutInstruction{{ WorkoutId = Workouts[{i}].Id , Step = {step.Key} , Instruction = \" {EscapeString(step.Value)}\" }}");
+            //        }
+            //    }
+
+            //    string equipmentId = GetEquipmentIdVariable(workout.Equipment);
+            //    equipmentLines.Add($"new WorkoutEquipment{{ WorkoutId = Workouts[{i}].Id, EquipmentId = {equipmentId} }}");
+
+
+            //    foreach (var (muscle, target) in workout.Muscles)
+            //    {
+            //        string muscleName = EscapeString(muscle);
+            //        string priority = target.MuscleTargetLevel;
+
+            //        if (muscleName == "Calves" || muscleName == "Tibialis" || muscleName == "Soleus" || muscleName == "Gastrocnemius")
+            //        {
+            //            var muscleId = GetMuscleId(muscleName);
+            //            bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = Workouts[{i}].Id, Target = PriorityTarget.{priority} }}");
+            //        }
+            //        else
+            //        {
+            //            continue;
+            //        }
+            //    }
+            //}
+
             // Output the results
             Console.Clear();
             Console.WriteLine("// Workout Initializations");
