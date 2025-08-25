@@ -30,7 +30,7 @@ public class ScraperService : IScraperService
 
     public async Task<string> ScrapeInstruction()
     {
-        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Triceps_LongHead_LateralHead_MedialHeadTriceps.json");
+        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Biceps_LongHeadBicep_ShortHeadBicep.json");
 
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -54,7 +54,7 @@ public class ScraperService : IScraperService
 
         string outputJson = JsonSerializer.Serialize(workouts, new JsonSerializerOptions { WriteIndented = true });
         string outputFolderPath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage");
-        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Triceps_LongHead_LateralHead_MedialHeadTriceps.json");
+        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Biceps_LongHeadBicep_ShortHeadBicep.json");
         //if (!File.Exists(outputFolderPath))
         //{
         //    Directory.CreateDirectory(outputFolderPath);
@@ -92,7 +92,7 @@ public class ScraperService : IScraperService
 
             await page.GoToAsync(url, WaitUntilNavigation.Networkidle2);
             //await page.GoToAsync(url, new NavigationOptions { WaitUntil = new[] { WaitUntilNavigation.Networkidle2 }, Timeout = 60000 });
-            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 7000 });
+            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 8000 });
 
             string html = await page.GetContentAsync();
             var doc = new HtmlDocument();
