@@ -1,0 +1,3587 @@
+[
+  {
+    "WorkoutName": "Barbell Laying Triceps Extensions",
+    "Instruction": {
+      "1": "Lay on a flat bench while holding a barbell with a shoulder-width grip.",
+      "2": "Fully extend your elbows until the barbell is directly over your chest.",
+      "3": "Begin to flex your elbows and allow the barbell to nearly touch your forehead.",
+      "4": "Extend your elbows back to the starting position and repeat."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Close Grip Bench Press",
+    "Instruction": {
+      "1": "Lay flat on the bench with your feet on the ground. With a narrow grip on the bar, straighten your arms",
+      "2": "Lower the bar to your lower-mid chest",
+      "3": "Slowly raise the bar until you\u0027ve locked your elbows."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Skullcrusher",
+    "Instruction": {
+      "1": "Take a shoulder width grip. Break at the elbows. Try to keep your elbows tucked in. Don\u0027t let them flare out.",
+      "2": "Stop the bar a few inches from your forehead and extend your elbows back up."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Be careful getting the bar into place overhead. Push your elbows forward while keeping your elbows tucked in.",
+      "2": "Look for what feels like a stretch in your triceps. Extend your elbows until your fists are pointed at the ceiling."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Floor Press",
+    "Instruction": {
+      "1": "Un-rack the bar and break at the elbows and shoulders.",
+      "2": "Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Hooklying Bench Press",
+    "Instruction": {
+      "1": "Start in a bench press position with your feet planted on the bench and knees bent.",
+      "2": "Grasp the barbell with an overhand grip, positioning your hands slightly wider than shoulder-width apart.",
+      "3": "Lift the barbell off the rack and lower it to your chest, keeping your elbows close to your sides.",
+      "4": "Push the barbell back up to the starting position, fully extending your arms."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Larsen Bench Press",
+    "Instruction": {
+      "1": "Start in a bench press position with your legs elevated. Try to keep your knees with a slight bend in them.",
+      "2": "Unrack the bar then initiate the rep.",
+      "3": "Bring the bar to your torso and tap your ribcage before pressing back to the ceiling."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lower Abdominals": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Spoto Press",
+    "Instruction": {
+      "1": "Start on the bench with your shoulder blades pulled back.",
+      "2": "As you initiate the first rep, tuck your elbows slightly until the bar is a few inches off your chest.",
+      "3": "Pause just off your chest for 1-3 seconds. Then press explosively."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Z Press",
+    "Instruction": {
+      "1": "Begin by sitting on the ground with your legs extended and a barbell in your hands, with your palms facing forward and your elbows bent.",
+      "2": "Keeping your core engaged and your back straight, lift the barbell up from your chest and press it straight up above your head.",
+      "3": "Lower the barbell back down to your chest."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Traps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Lying Tricep Extension",
+    "Instruction": {
+      "1": "Start lying on your back perpendicularly to the barbell, holding the bar directly over your shoulder with the hand that's closer to the bar with your palm facing down towards your feet.",
+      "2": "While keeping your shoulder steady, bend your elbow and lower the end of the bar back towards your the ground next to your head. Keep your hinging elbow pointed down towards your feet.",
+      "3": "Drive through your palm to extend your elbow and return the bar to the starting position, then repeat for the desired number of reps before switching sides."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Alternating Single Arm Press",
+    "Instruction": {
+      "1": "Stand facing the landmine leaning forward slightly with the end of the barbell held in one hand at your shoulder with your elbow positioned beneath your wrist.",
+      "2": "While keeping your elbow pointed forward, drive the bar directly overhead, switching hands at the top of the movement. Lower the bar back down to the other side of your body, mirroring the starting position.",
+      "3": "Repeat for desired number of reps, switching hands at the top of each rep."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Kneeling Alternating Overhead Press",
+    "Instruction": {
+      "1": "Start in a kneeling position facing the barbell with one hand holding the end of the barbell at your shoulder with your elbow tucked beneath your wrist.",
+      "2": "Keeping your elbow pointing forward, drive the barbell up overhead until your arm is fully extended and switch the bar to your other hand at the top of the movement.",
+      "3": "Control the descent of the bar to your other shoulder and repeat movement for desired reps, switching hands at the top of each rep."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Kneeling Overhead Press",
+    "Instruction": {
+      "1": "Start kneeling in front of the landmine, facing towards it, with your knees hip-width apart and your back straight while holding the end of the bar in both hands in front of your chest.",
+      "2": "Push the landmine up overhead by fully extending your arms until the weight is directly over your head. Pause briefly at the top of the movement, then slowly lower the landmine back down to the starting position.",
+      "3": "Repeat for the desired number of reps."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Overhead Press",
+    "Instruction": {
+      "1": "Stand facing the landmine, holding the end of the bar in both hands with your palms facing each other.",
+      "2": "Extend your arms upward, pressing the end of the bar up overhead. Pause at the top of the movement, then lower the bar with control back to the starting position.",
+      "3": "Repeat for the desired number of reps."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Alternating Overhead Press",
+    "Instruction": {
+      "1": "Start sitting on the ground facing the landmine attachment with your legs open for stability while holding the end of the bar in a neutral grip with your hand resting at your shoulder and your elbow beneath your wrist.",
+      "2": "Leaning forward slightly, press the bar up into the air until your arm is fully extended. At the top of the movement, switch which hand is holding the end of the bar and lower the bar back down to the opposite shoulder. Perform again to return the bar to the starting position.",
+      "3": "Repeat for the desired number of reps."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Overhead Press",
+    "Instruction": {
+      "1": "Sit on the ground facing the landmine with your legs spread. Hold the end of the bar in both hands in front of your chest with your palms facing each other.",
+      "2": "While keeping your torso tall and core brace, drive the end of the bar upward until your arms are fully extended. Lean forward slightly for full range of motion in the shoulder joints. Lower the bar back down to the starting position.",
+      "3": "Repeat for desired number of reps."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Seated Single Arm Overhead Press",
+    "Instruction": {
+      "1": "Sit on the ground facing the landmine with your legs spread. Hold the end of the bar in one hand in front of that shoulder with your palm facing across your body.",
+      "2": "While keeping your torso tall and your core braced, drive the bar upwards until your arm is fully extended, leaning forward slightly for full range of motion in the shoulder joint. Lower the bar back down to the starting position with control.",
+      "3": "Repeat for desired number of reps on one side, then switch sides."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Chest Press",
+    "Instruction": {
+      "1": "Starting lying on your back perpendicularly to the barbell while holding the end of the bar in your hand that is further away from the landmine attachment. Your elbow should be rest on the ground at a 45 to 60 degree angle from your torso, with your wrist stacked over your elbow.",
+      "2": "Drive the end of the bar upwards, squeezing your chest at the top of the movement. Lower the bar back down until your elbow gently touches the ground.",
+      "3": "Repeat for the desired number of reps on one side before switching sides."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Overhead Press",
+    "Instruction": {
+      "1": "Stand in front of the landmine with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with one hand, palm facing in, and bring it to shoulder height with your elbow tucked beneath your hand.",
+      "2": "Press the barbell overhead by extending your arm fully, pushing the weight upward. Keep your core engaged, your back straight, and your shoulder down throughout the movement. Pause briefly at the top of the movement with your arm fully extended overhead. Slowly lower the barbell back to the starting position at shoulder height with control.",
+      "3": "Repeat for the desired number of reps on one side before switching sides."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Push Press",
+    "Instruction": {
+      "1": "Stand in front of the landmine with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with one hand, palm facing in, and bring it to shoulder height with your elbow tucked beneath your hand.",
+      "2": "Dip your body slightly then drive up through the ground to generate momentum as your extend your arm fully upwards. Pause briefly at the top of the rep, then lower the weight back down to the starting position with control.",
+      "3": "Repeat for the desired number of reps on one side before switching sides."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Landmine Single Arm Staggered Overhead Press",
+    "Instruction": {
+      "1": "Stand facing the bar in a split stance with one leg forward and bent and the other back and straight. Hold the bar in the hand on the side of the leg that is back with the end of the bar at your shoulder with your elbow tucked beneath your hand.",
+      "2": "Drive the bar upwards until your arm is fully extended. Pause briefly before lowering the end of the bar back down to the starting position with control.",
+      "3": "Repeat for the desired number of reps before switching sides."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Barbell Tricep Guillotine Press",
+    "Instruction": {
+      "1": "Unrack the barbell. Break at the elbows and begin lowering the barbell.",
+      "2": "Lower the barbell to your neck before extending your elbows back to the starting position."
+    },
+    "Equipment": "Barbell",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Cable V Bar Push Downs",
+    "Instruction": {
+      "1": "Grip the pulley bar with palms facing down at shoulder width.",
+      "2": "Stand straight with a small forward incline. Keep your upper arms close to your body, and slowly bring the pulley bar down until your arms are fully extended.",
+      "3": "Pause when you are at the contracted position of the motion, then slowly raise the pulley bar back to the starting point."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Neutral Chest Press",
+    "Instruction": {
+      "1": "Sit on the machine and grab the handles with a neutral grip.",
+      "2": "Adjust the machine to get the longest range of motion possible.",
+      "3": "Press until your elbows are not extended but not hyperextended."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Assisted Parallel Bar Dips",
+    "Instruction": {
+      "1": "Grip bars with arms straight, shoulders above hands. Place knees on pad.",
+      "2": "Lower slowly until elbows are at 90 degrees.",
+      "3": "Push back up to start position, extending arms fully."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Chest Press",
+    "Instruction": {
+      "1": "Sit on the machine and grab the handles with an overhand grip.",
+      "2": "Adjust the machine to get the longest range of motion possible.",
+      "3": "Press until your elbows are not extended but not hyperextended."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Dips",
+    "Instruction": {
+      "1": "Sit on the machine and grab the handles.",
+      "2": "Press the handles down until your elbows are nearly extended."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Adjust the pad to suit your height.",
+      "2": "Grab the v bar (or other attachment) and extend your elbows until they are almost fully extended.",
+      "3": "Flex your elbows and look to feel a stretch at the bottom of each rep."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Decline Chest Press",
+    "Instruction": {
+      "1": "Adjust the seat pad to match your height.",
+      "2": "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Incline Chest Press",
+    "Instruction": {
+      "1": "Adjust the seat pad to match your height.",
+      "2": "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Plate Loaded Low Incline Bench Press",
+    "Instruction": {
+      "1": "Adjust the seat pad to match your height.",
+      "2": "Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Machine Tricep Pushdown",
+    "Instruction": {
+      "1": "Sit on the machine and place the back of your upper arm on the bench.",
+      "2": "Extend your elbows until you feel a contraction in your triceps.",
+      "3": "Bring the weight back to the starting position."
+    },
+    "Equipment": "Machine",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Triceps Stretch Variation Three",
+    "Instruction": {
+      "1": "Bend your left arm so your hand is at your shoulder, and hold your elbow with the opposite hand.",
+      "2": "Gently push on your elbow so it is raised by your head.",
+      "3": "Hold the stretch for a few seconds then repeat with the other arm."
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Triceps Stretch Variation Two",
+    "Instruction": {
+      "1": "Hold a band so it is in line with your spine. Hold the top with your right hand and the bottom with your left.",
+      "2": "Keeping the top still, pull down on the band.",
+      "3": "Hold the stretch for a few seconds then repeat with the other arm."
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Triceps Stretch Variation One",
+    "Instruction": {
+      "1": "Raise your left arm above your head, and bend at the elbow so your hand is resting at the top of your back.",
+      "2": "Use the opposite hand to gently apply pressure to the elbow.",
+      "3": "Hold the stretch for a few seconds then repeat with the other arm."
+    },
+    "Equipment": "Stretches",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Curl To Overhead Press To Tricep Extension",
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart and the plate in front of the torso, palms facing forward.",
+      "2": "Curl the plate up to the front of the shoulder while keeping the elbows close to the body.",
+      "3": "Rotate the palms to face forward and press the plate overhead, locking out the arms.",
+      "4": "Lower the plate back behind the head to the starting position of a tricep extension.",
+      "5": "Push the plate back up overhead, then lower it back to the starting position and repeat for desired reps."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Stand or sit with a weight plate in your hands, arms extended straight above your head",
+      "2": "Lower the weight plate behind your head by bending at the elbows.",
+      "3": "Keep your elbows close to your head and shoulders relaxed.",
+      "4": "Push the weight plate back up to starting position, extending your arms fully."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Overhead Press To Tricep Extension",
+    "Instruction": {
+      "1": "Brace your core and press the weight plate overhead until your arms are fully extended. Keep your shoulders down and back.",
+      "2": "While your arms are fully extended, lower the weight behind your head to perform the extension",
+      "3": "After completing the extension, lower the weight to your chest, and perform the overhead press. Repeat"
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Squat Hold Reach",
+    "Instruction": {
+      "1": "Hold the plate with both hands at chest height.",
+      "2": "Keeping your core tight and your chest up, squat down as low as you can go while keeping your feet flat on the ground.",
+      "3": "Hold the squat position and reach the plate forward, keeping your arms straight and your back straight.",
+      "4": "Return the plate to your chest while you hold the squat position and repeat reaching the plate in front of you"
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Quads": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Deficit Pushup",
+    "Instruction": {
+      "1": "Start in a pushup position with both hands on a plate. This will extend your range of motion.",
+      "2": "Break at the elbows and shoulders until your upper arm travels behind the body slightly.",
+      "3": "Then press back into the original position."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Weighted Diamond Push Ups",
+    "Instruction": {
+      "1": "Place a plate on your back. Position your index fingers and thumbs so they are touching, forming a diamond shape.",
+      "2": "Use a standard push up position",
+      "3": "Lower your chest towards your hands, keep your elbows close to your body",
+      "4": "Stop just before your chest touches the floor, then push back up to the starting position."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Weighted Knee Push Ups",
+    "Instruction": {
+      "1": "Begin in a push-up position on your knees. Break at the elbow and shoulder joint.",
+      "2": "Lower your body, keeping elbows close.",
+      "3": "Push back up to the starting position."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Plate Weighted Dip",
+    "Instruction": {
+      "1": "Use a dip belt to attach a plate to yourself. Grip bars with arms straight, shoulders above hands. Keep legs straight or bent.",
+      "2": "Lower slowly until elbows are at 90 degrees.",
+      "3": "Push back up to start position, extending arms fully."
+    },
+    "Equipment": "Plate",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Offset Pushup",
+    "Instruction": {
+      "1": "Place one hand on Bosu, other on the floor.",
+      "2": "Lower chest to the ground, keeping the body straight.",
+      "3": "Push back up to the starting position."
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Pike Pushup",
+    "Instruction": {
+      "1": "Place feet on Bosu, hips high, hands on the floor.",
+      "2": "Lower the head towards the ground, then push back up.",
+      "3": "Keep legs straight and hips elevated throughout."
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Pushup",
+    "Instruction": {
+      "1": "Place hands on Bosu, shoulder-width apart.",
+      "2": "Lower chest to the ground, keeping the body straight.",
+      "3": "Push back up to the starting position."
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bosu Ball Walkover Pushup",
+    "Instruction": {
+      "1": "Place both hands on Bosu, wider than shoulder-width.",
+      "2": "Perform a pushup, then walk hands to the other side.",
+      "3": "Perform another pushup, repeat back and forth."
+    },
+    "Equipment": "Bosu-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Bodyweight Skullcrusher",
+    "Instruction": {
+      "1": "Hold the smith bar and lean forward.",
+      "2": "Keep your elbows tucked in and then flex and extend at the elbows."
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Close Grip Bench Press",
+    "Instruction": {
+      "1": "Lay flat on the bench with your feet on the ground. With a narrow grip on the bar, straighten your arms",
+      "2": "Lower the bar to your lower-mid chest",
+      "3": "Slowly raise the bar until you\u0027ve locked your elbows."
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Guillotine Bench Press",
+    "Instruction": {
+      "1": "Lie on the flat bench, grasp the bar at shoulder level with your palms facing forward.",
+      "2": "Slowly lower the bar to your chest, keeping your elbows flared out.",
+      "3": "Once you feel a stretch in your chest press the weight back up."
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Smith Machine Skullcrusher",
+    "Instruction": {
+      "1": "Take a shoulder width grip. Break at the elbows. Try to keep your elbows tucked in. Don\u0027t let them flare out.",
+      "2": "Stop the bar a few inches from your forehead and extend your elbows back up."
+    },
+    "Equipment": "Smith-Machine",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Sit on the bench and hold a dumbbell with both hands. Raise the dumbbell overhead at arms length, holding the weight up with the palms of your hands.",
+      "2": "Keep your elbows in while you lower the weight behind your head, your upper arms stationary.",
+      "3": "Raise the weight back to starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Skullcrusher",
+    "Instruction": {
+      "1": "Lay flat on the floor or a bench with your fists extended to the ceiling and a neutral grip.",
+      "2": "Break at the elbows until your fists are by your temples. Then extend your elbows and flex your triceps at the top."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Skullcrusher",
+    "Instruction": {
+      "1": "Start by lying on a decline bench with a dumbbell in each hand.",
+      "2": "Hold the dumbbells above your chest with your arms extended and your palms facing each other. This is the starting position.",
+      "3": "Slowly lower the dumbbells towards your forehead by bending your elbows. Keep your upper arms stationary and only move your forearms.",
+      "4": "Once the dumbbells are close to your forehead, reverse the motion by extending your elbows and returning to the starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Rolling Tricep Extension",
+    "Instruction": {
+      "1": "Lay flat on a bench with two dumbbells pointed toward the ceiling.",
+      "2": "Break at the elbows until your forearms touch your biceps, then flex at the shoulder joint bringing your upper arms to the sides of your head.",
+      "3": "Bring your elbows back up until they are pointed at the ceiling, then extend your elbows."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Hold a dumbbell overhead.",
+      "2": "Flex at the elbows until the dumbbell is behind your head.",
+      "3": "Then extend your elbows until the dumbbell is back in the starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Tricep Kickback",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in one hand.",
+      "2": "Bend at the waist and place your opposite hand on your knee for support.",
+      "3": "From this starting position, extend your arm backwards so that the dumbbell is behind your body.",
+      "4": "Make sure to keep your elbow close to your body and your core engaged throughout the movement."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Stand tall with a single dumbbell extended overhead.",
+      "2": "Flex at the elbow letting the dumbbell travel behind your body.",
+      "3": "Try not to let your elbow flare outward."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Tate Press",
+    "Instruction": {
+      "1": "Lay flat on a bench with two dumbbells extended toward the ceiling.",
+      "2": "Maintain an overhand grip. Flex at the elbows.",
+      "3": "The dumbbells will land on your upper chest/clavicle.",
+      "4": "Extend your elbows bringing the dumbbells back into their starting position.",
+      "5": "*Named after Dave Tate*"
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Single Arm Press",
+    "Instruction": {
+      "1": "Start in a bench press position with two dumbbells.",
+      "2": "Break at one of your elbows first while keeping the other elbow extended.",
+      "3": "Your working arm should reach your side before pressing back to the ceiling.",
+      "4": "Then alternate to the other arm."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Press",
+    "Instruction": {
+      "1": "Start by lying flat on a bench with a dumbbell in each hand.",
+      "2": "Hold the dumbbells at chest level with your palms facing forward.",
+      "3": "Engage your core and press the dumbbells upward until your arms are fully extended."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Alternating Single Arm Press",
+    "Instruction": {
+      "1": "Lay on a decline bench with both arms extended in front of you.",
+      "2": "Break at one of your arms first bringing that arm to your side while keeping the other arm extended.",
+      "3": "Press the dumbbell back to the ceiling. Fully extend that arm before initiating on the other side."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Bench Press",
+    "Instruction": {
+      "1": "Lay on a decline bench with both arms extended in front of you.",
+      "2": "Break at the elbows and bring your upper arms to your side.",
+      "3": "Once your upper arms have reached your side, press the dumbbells back to the ceiling."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Guillotine Bench Press",
+    "Instruction": {
+      "1": "Lie on the decline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing forward.",
+      "2": "Slowly lower the dumbbells to your chest, keeping your elbows flared out. As you lower the dumbbells, exhale deeply.",
+      "3": "Once your elbows reach your chest, pause for a moment and then press them back up to the starting position"
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Neutral Bench Press",
+    "Instruction": {
+      "1": "Lie on the decline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body.",
+      "3": "Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position.",
+      "4": "This variation is much easier on the shoulder joints."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Single Arm Bench Press",
+    "Instruction": {
+      "1": "Start by laying on a decline bench with two dumbbells.",
+      "2": "Position the dumbbell above your chest with your elbow bent and shoulder level.",
+      "3": "Slowly lower the dumbbell towards your chest, keeping your elbow close to your body and your core engaged while the other dumbbell remains pointed toward the ceiling.",
+      "4": "Once the dumbbell reaches your side, pause for a moment and then press the weight back up to the starting position.",
+      "5": "Repeat for the desired number of repetitions before switching to your other arm."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Decline Squeeze Press",
+    "Instruction": {
+      "1": "Lay flat on a decline bench with two dumbbells pressed to one another.",
+      "2": "Break at the elbows and keep your elbows tucked as you bring the dumbbells to your chest.",
+      "3": "Continue to press the dumbbells into one another throughout the rep.",
+      "4": "Once the dumbbells reach your chest, press back toward the ceiling."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Guillotine Bench Press",
+    "Instruction": {
+      "1": "Lie on the flat bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing forward.",
+      "2": "Slowly lower the dumbbells to your chest, keeping your elbows flared out. As you lower the dumbbells, exhale deeply.",
+      "3": "Once your elbows reach your chest, pause for a moment and then press them back up to the starting position"
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Guillotine Incline Bench Press",
+    "Instruction": {
+      "1": "Lie on the incline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing forward.",
+      "2": "Slowly lower the dumbbells to your chest, keeping your elbows flared out. As you lower the dumbbells, exhale deeply.",
+      "3": "Once your elbows reach your chest, pause for a moment and then press them back up to the starting position"
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Bench Press",
+    "Instruction": {
+      "1": "Lie on a flat bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body.",
+      "3": "Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position.",
+      "4": "This variation is much easier on the shoulder joints."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Incline Bench Press",
+    "Instruction": {
+      "1": "Lie on an incline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body.",
+      "3": "Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position.",
+      "4": "This variation is much easier on the shoulder joints."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Seated Overhead Press",
+    "Instruction": {
+      "1": "Sit on an upright bench , grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Slowly lower the dumbbells to your shoulder joint, keeping your elbows bent and close to your body.",
+      "3": "Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position.",
+      "4": "This variation is much easier on the shoulder joints."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Arnold Press",
+    "Instruction": {
+      "1": "Begin seated on an upright bench with your palms facing you.",
+      "2": "Begin pressing toward the ceiling. As you press, rotate your palms.",
+      "3": "As you extend your elbows fully your palms should be facing forward."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Squeeze Press",
+    "Instruction": {
+      "1": "Lay flat on a bench with two dumbbells pressed to one another.",
+      "2": "Break at the elbows and keep your elbows tucked as you bring the dumbbells to your chest.",
+      "3": "Continue to press the dumbbells into one another throughout the rep.",
+      "4": "Once the dumbbells reach your chest, press back toward the ceiling."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Press",
+    "Instruction": {
+      "1": "Start by laying on a bench with two dumbbells.",
+      "2": "Position the dumbbell above your chest with your elbow bent and shoulder level.",
+      "3": "Slowly lower the dumbbell towards your chest, keeping your elbow close to your body and your core engaged while the other dumbbell remains pointed toward the ceiling.",
+      "4": "Once the dumbbell reaches your side, pause for a moment and then press the weight back up to the starting position.",
+      "5": "Repeat for the desired number of repetitions before switching to your other arm."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Arnold Press",
+    "Instruction": {
+      "1": "Start in a standing position"
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Alternating Overhead Press",
+    "Instruction": {
+      "1": "Start with two dumbbells just above your shoulders.",
+      "2": "Press one dumbbell to the ceiling while keeping the other in place.",
+      "3": "Let the first dumbbell return to its starting position before pressing the other dumbbell."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Alternating Overhead Press",
+    "Instruction": {
+      "1": "Start with two dumbbells near your shoulders with a neutral grip.",
+      "2": "Press one of the dumbbells toward the ceiling while keeping the other in position.",
+      "3": "Let the first dumbbell return to its starting position before pressing the other."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Neutral Overhead Press",
+    "Instruction": {
+      "1": "Start with both dumbbells near your shoulders in a neutral grip.",
+      "2": "Press the dumbbells toward the ceiling.",
+      "3": "Make sure you don\u0027t arch your back as you fatigue."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Overhead Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+      "2": "Bring the dumbbells to your shoulders, with your palms facing forward and your elbows bent.",
+      "3": "From this starting position, extend your arms upwards so that the dumbbells are overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Push Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+      "2": "From this starting position, dip your knees slightly and then quickly extend them as you press the dumbbells upwards.",
+      "3": "Make sure to keep your core engaged and your back straight throughout the movement.",
+      "4": "Slowly lower the dumbbells back down to the starting position, and repeat for the desired number of repetitions."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Arnold Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in one hand.",
+      "2": "Bring the dumbbell to your shoulder, with your palm facing you and your elbow bent.",
+      "3": "From this starting position, extend your arm upwards so that the dumbbell is directly above your head.",
+      "4": "As you extend your arm, rotate your palm to face away from your body."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Neutral Overhead Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in one hand.",
+      "2": "Bring the dumbbell to your shoulder, with your palm facing your body and your elbow bent.",
+      "3": "From this starting position, press the dumbbell upwards so that it is directly above your shoulder."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Single Arm Overhead Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in one hand.",
+      "2": "Bring the dumbbell to your shoulder, with your palm facing forward and your elbow bent.",
+      "3": "From this starting position, extend your arm upwards so that the dumbbell is overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Elevated Pushup",
+    "Instruction": {
+      "1": "Start by placing two dumbbells on the floor, about shoulder-width apart.",
+      "2": "Position yourself in a plank position with your hands on top of the dumbbells, keeping your arms straight.",
+      "3": "Keep your feet together, with your toes resting on the floor.",
+      "4": "Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the dumbbells.",
+      "5": "Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Floor Press",
+    "Instruction": {
+      "1": "Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Incline Skullover",
+    "Instruction": {
+      "1": "Lay flat on an incline bench with two dumbbells pointed toward the ceiling.",
+      "2": "Break at the elbows until your forearms touch your biceps, then flex at the shoulder joint bringing your upper arms to the sides of your head.",
+      "3": "Bring your elbows back up until they are pointed at the ceiling, then extend your elbows."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Arnold Press",
+    "Instruction": {
+      "1": "Stand with both palms facing you.",
+      "2": "Begin to press the dumbbells to the ceiling while rotating your palms.",
+      "3": "When you reach elbow extension, your palms should be facing forward."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Single Arm Arnold Press",
+    "Instruction": {
+      "1": "Start by sitting on an incline bench and holding a dumbbell in one hand.",
+      "2": "Bring the dumbbell to your shoulder, with your palm facing you and your elbow bent.",
+      "3": "From this starting position, extend your arm upwards so that the dumbbell is directly above your head.",
+      "4": "As you extend your arm, rotate your palm to face away from your body."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Seated Y Press",
+    "Instruction": {
+      "1": "Sit on an upright bench , grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Press the dumbbells outward into a y shape."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Weighted Dip",
+    "Instruction": {
+      "1": "Use a dip belt to attach a dumbbell to yourself. Grip bars with arms straight, shoulders above hands. Keep legs straight or bent.",
+      "2": "Lower slowly until elbows are at 90 degrees.",
+      "3": "Push back up to start position, extending arms fully."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Y Press",
+    "Instruction": {
+      "1": "Stand tall, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body.",
+      "2": "Press the dumbbells outward into a y shape."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Bench Braced Single Arm Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Lay sideways on an incline bench and press the elbow of the working arm into the bench.",
+      "2": "Use your free arm to pull your upper body into the bench.",
+      "3": "Break at the elbow until your elbow is fully flexed, then extend your elbow until the dumbbell is pointed at the ceiling."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Dumbbell Tricep Guillotine Press",
+    "Instruction": {
+      "1": "Lay flat on a bench.",
+      "2": "Push your elbows forward until your biceps touch your forearms. Then extend your elbows until back at the starting position."
+    },
+    "Equipment": "Dumbbells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Walkover Pushup",
+    "Instruction": {
+      "1": "Place one hand on medicine ball, other on ground.",
+      "2": "Perform push-up, walking hands to switch positions."
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Chest Press Partner Toss",
+    "Instruction": {
+      "1": "Stand tall, partner tosses medicine ball to chest.",
+      "2": "Catch ball and press it back to partner. Repeat."
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Medicine Ball Pushup",
+    "Instruction": {
+      "1": "Place hands on medicine ball, in push-up position.",
+      "2": "Perform push-up, maintaining proper form."
+    },
+    "Equipment": "Medicine-Ball",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Pushdown",
+    "Instruction": {
+      "1": "The cable should be set all the way at the top of the machine.",
+      "2": "Make sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Cross Pushdown",
+    "Instruction": {
+      "1": "Either use two handles or no attachment at all. Both sides of the cable crossover should be set to the top.",
+      "2": "Stand in the center of the machine holding each Cable in the opposing hand. Your upper arm should be at a 45 degree angle with your torso.",
+      "3": "Extend your elbows until you feel a contraction and then return to the starting position"
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Skullcrusher",
+    "Instruction": {
+      "1": "You can use a straight bar, rope, easy bar, or two handles. The cable should be set all the way to the top of the machine.",
+      "2": "Face away from the machine with your elbows up and the attachment just behind your head.",
+      "3": "Extend at the elbows until you feel a contraction in your triceps and then flex at the elbow back to the starting position."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Rope Overhead Tricep Extension",
+    "Instruction": {
+      "1": "You can use any attachment. The cable should be all the way to the bottom of the machine. Face away from the machine.",
+      "2": "Point your elbows straight up toward the ceiling.",
+      "3": "From there, extend your elbows until your fists are pointed straight toward the ceiling."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Bar Pushdown",
+    "Instruction": {
+      "1": "Use the bar attachment. The cable should be set all the way at the top of the machine.",
+      "2": "Make sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Bar Reverse Grip Pushdown",
+    "Instruction": {
+      "1": "Use the bar attachment. The cable should be set all the way at the top of the machine. Grab the bar with n overhand grip.",
+      "2": "Make sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Tricep Kickback",
+    "Instruction": {
+      "1": "Use a handle attachment. The cable should be set to hip height.",
+      "2": "Hinge forward. Make sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Rope Pushdown",
+    "Instruction": {
+      "1": "Use the rope attachment. The cable should be set all the way at the top of the machine.",
+      "2": "Make sure to keep your upper arm glued at your side. Extend your elbows until you feel your triceps contract."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Cross Pushdown",
+    "Instruction": {
+      "1": "Either use a handle or no attachment at all. The cable crossover should be set to the top.",
+      "2": "Stand in the center of the machine holding the cable in the opposing hand. Your upper arm should be at a 45 degree angle with your torso.",
+      "3": "Extend your elbow until you feel a contraction and then return to the starting position"
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Skullcrusher",
+    "Instruction": {
+      "1": "Stand facing away from the cable, which is at the top of the cable stack.",
+      "2": "Keep your elbow pointed forward, and extend and flex your elbow."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Bench Press",
+    "Instruction": {
+      "1": "Use a handle attachment. Bring a bench over to the cables. The cable should be set to shoulder height.",
+      "2": "Bring the handle to your chest and make sure you are in the center of the cable crossover.",
+      "3": "From there, you should flex and extend at both the shoulder and elbow simultaneously."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Incline Bench Press",
+    "Instruction": {
+      "1": "Use a handle attachment. Bring a bench over to the cables. The cable should be set fairly low.",
+      "2": "Bring the handle across your chest and make sure you are in the center of the cable crossover.",
+      "3": "From there, you should flex and extend at both the shoulder and elbow simultaneously."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Overhead Tricep Press",
+    "Instruction": {
+      "1": "You can use any attachment. The cable should be even with your mid-back. Face away from the machine.",
+      "2": "Point your elbows straight forward. Press the weight straight toward the ceiling.",
+      "3": "As you return to the start, push your elbows forward. Try to touch your biceps to your forearms at the bottom of each rep."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cable Single Arm Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Use a handle attachment. The cable should be set to your mid-back. Face away from the machine.",
+      "2": "Point your elbows straight up toward the ceiling.",
+      "3": "From there, extend your elbows until your fists are pointed straight toward the ceiling."
+    },
+    "Equipment": "Cables",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Skullcrusher",
+    "Instruction": {
+      "1": "Hold the two TRX straps and lean forward. The straps should be over each shoulder.",
+      "2": "Keep your elbows tucked in and then flex and extend at the elbows."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "TRX Pushup",
+    "Instruction": {
+      "1": "Start by setting up the TRX straps to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.",
+      "2": "Stand facing the TRX straps, grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.",
+      "3": "Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.",
+      "4": "Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement."
+    },
+    "Equipment": "TRX",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Vitruvian Push Up",
+    "Instruction": {
+      "1": "Use the belt attachment. Take a pushup position.",
+      "2": "Have your elbows at a 45 degree angle. Break at the elbows until your upper arm gets to your side.",
+      "3": "And then push up."
+    },
+    "Equipment": "Vitruvian",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Core Stability 2 Opposite Shoulder Tap 4Pt Position",
+    "Instruction": {
+      "1": "Bring yourself to the 4 point position (on all fours). 90\u00B0 angles at hips and shoulder and neutral spine.",
+      "2": "Lift your knees slightly off the ground supporting your weight on palms and toes.",
+      "3": "Maintain a toe placement roughly at shoulder width (the wider the leg stance the easier the exercise - the narrower the stance the more difficult it becomes.",
+      "4": "Tap your opposite shoulder with your fingertips."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Biceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Abdominals": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Obliques": {
+        "MuscleTargetLevel": "Level 6"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 7"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Elbow Extensor Isometric Seated Overhead Dumbbell",
+    "Instruction": {
+      "1": "Sit on a box or bench without any back support.",
+      "2": "Raise the weight over your head and extend your elbow.",
+      "3": "From there, bend the elbow 1/4 of the way.",
+      "4": "Hold isometrically for the prescribed amount of time."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Elbow Extensor Mobilisation Kneeling Lacrosse Ball",
+    "Instruction": {
+      "1": "Kneel in front of a bench and place a massage ball on it.",
+      "2": "Place your tricep (back of the arm) on the ball with the elbow bent. Try to find a tight, painful spot.",
+      "3": "Once you have found it, apply gentle pressure on the ball.",
+      "4": "Once you get comfortable with the pain extend and bend your arm."
+    },
+    "Equipment": "Recovery",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bench Dips",
+    "Instruction": {
+      "1": "Grip the edge of the bench with your hands, Keep your feet together and legs straight.",
+      "2": "Lower your body straight down.",
+      "3": "Slowly press back up to the starting point.",
+      "4": "TIP: Make this harder by raising your feet off the floor and adding weight."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Diamond Push Ups",
+    "Instruction": {
+      "1": "Position your index fingers and thumbs so they are touching, forming a diamond shape",
+      "2": "Use a standard push up position",
+      "3": "Lower your chest towards your hands, keep your elbows close to your body",
+      "4": "Stop just before your chest touches the floor, then push back up to the starting position."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Box Dips",
+    "Instruction": {
+      "1": "Hold your body with arms locked above the equipment",
+      "2": "Lower your body slowly while leaning forward, flare out your elbows",
+      "3": "Raise your body above the bars until your arms are locked."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Box Assisted Dips",
+    "Instruction": {
+      "1": "Grip the edge of the boxes with your hands, Keep your feet together and legs straight.",
+      "2": "Lower your body straight down.",
+      "3": "Slowly press back up to the starting point.",
+      "4": "TIP: Make this harder by raising your feet off the floor and adding weight."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Head Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Medial Head Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Clapping Push Up",
+    "Instruction": {
+      "1": "Start in a push-up position.",
+      "2": "Lower your chest, explode up, clap hands.",
+      "3": "Land softly, repeat for reps."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Diamond Knee Push Ups",
+    "Instruction": {
+      "1": "Begin in a push-up position with your hands forming a diamond shape under your chest.",
+      "2": "Lower your body, keeping elbows close.",
+      "3": "Push back up to the starting position."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Elevated Push Up",
+    "Instruction": {
+      "1": "Start by placing two plates or low boxes on the floor, about shoulder-width apart.",
+      "2": "Position yourself in a plank position with your hands on top of the boxes/plates, keeping your arms straight.",
+      "3": "Keep your feet together, with your toes resting on the floor.",
+      "4": "Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the dumbbells.",
+      "5": "Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Explosive Push Up",
+    "Instruction": {
+      "1": "Start in a push-up position.",
+      "2": "Lower your chest, explode up.",
+      "3": "Land softly, repeat for reps."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Incline Knee Push Up",
+    "Instruction": {
+      "1": "Start by placing two boxes (or one) on the floor, about shoulder-width apart.",
+      "2": "Position yourself in a plank position with your hands on top of the box, keeping your arms straight.",
+      "3": "Put your knees on the floor.",
+      "4": "Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the box.",
+      "5": "Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Knee Push Ups",
+    "Instruction": {
+      "1": "Begin in a push-up position on your knees. Break at the elbow and shoulder joint.",
+      "2": "Lower your body, keeping elbows close.",
+      "3": "Push back up to the starting position."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Knee Tricep Extension",
+    "Instruction": {
+      "1": "Begin in kneeling position. Hands shoulder width apart. Break at the elbows while letting your elbows fall to the floor.",
+      "2": "Extend your elbows until you are back in the starting position."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Bodyweight Tricep Extension",
+    "Instruction": {
+      "1": "Begin in a plank position. Hands shoulder width apart. Break at the elbows while letting your elbows fall to the floor.",
+      "2": "Extend your elbows until you are back in the starting position."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Incline Push Up",
+    "Instruction": {
+      "1": "Stand facing bench or sturdy elevated platform.",
+      "2": "Place hands on edge of bench or platform, slightly wider than shoulder width.",
+      "3": "Slowly lower your body until your chest almost touches the bench.",
+      "4": "Push body up until arms are extended."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Decline Push Up",
+    "Instruction": {
+      "1": "Use a bench to elevate your feet.",
+      "2": "Put your hands slightly wider than shoulder-width.",
+      "3": "Slowly lower your body until your chest almost touches the ground",
+      "4": "Raise your body until you almost lock your elbows."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Parallel Bar Dips",
+    "Instruction": {
+      "1": "Grip bars with arms straight, shoulders above hands. Keep legs straight or bent.",
+      "2": "Lower slowly until elbows are at 90 degrees.",
+      "3": "Push back up to start position, extending arms fully."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Standing Pushup",
+    "Instruction": {
+      "1": "Start by setting up the rings to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them.",
+      "2": "Stand facing the rings grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders.",
+      "3": "Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line.",
+      "4": "Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Skullcrusher",
+    "Instruction": {
+      "1": "Attach the ring straps to a high point. Stand on your tip toes.",
+      "2": "Your arms should be extended in front of you.",
+      "3": "Break at the elbows until your forearms touch your biceps. Then extend your elbows back to the start."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Ring Standing Archer Pushup",
+    "Instruction": {
+      "1": "Position rings shoulder-width apart, grasp handles, extend legs behind.",
+      "2": "Lower chest to rings, bend one elbow, while extending your other arm out to the side. Push yourself back to the start.",
+      "3": "Then switch arms and repeat."
+    },
+    "Equipment": "Bodyweight",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Skull Crusher",
+    "Instruction": {
+      "1": "Lie on your back with knees in the air and soles of your feet flat on the floor.",
+      "2": "Hold the kettlebell in both hands directly above your chest.",
+      "3": "Keeping your upper arms in place, bend your elbows to slowly bring the kettlebell in front of your forehead.",
+      "4": "Return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Standing Tricep Extension",
+    "Instruction": {
+      "1": "Stand with legs shoulder width apart.",
+      "2": "Hold the kettlebell in both hands behind your head.",
+      "3": "Straighten arms bringing kettlebell above your head.",
+      "4": "Return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Decline Skull Crusher",
+    "Instruction": {
+      "1": "Lie on the floor with your upper back and soles of feet on the floor, knees bent, and pelvis and lower back suspended in the air.",
+      "2": "Hold the kettlebell in both hands directly above your chest.",
+      "3": "Keeping your upper arms in place, bend your elbows to bring the kettlebell to the floor above your head.",
+      "4": "Return the kettlebell to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Tate Press",
+    "Instruction": {
+      "1": "Lie flat on your back. Keeping your arm straight, hold the kettlebell above your chest with your palm facing away from your body.",
+      "2": "Bend your arm, touching the kettlebell to the top of the shoulder opposite to the arm being worked.",
+      "3": "Return to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Guillotine Bench Press",
+    "Instruction": {
+      "1": "Lie on bench, hold kettlebell with both hands over chest.",
+      "2": "Lower kettlebells, elbows flared.",
+      "3": "Press kettlebells upward, fully extending arms. Repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Bottoms Up Overhead Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+      "2": "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+      "3": "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Bottoms Up Single Arm Overhead Press",
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding one kettlebell with the bottom of the kettlebell facing up.",
+      "2": "Bring the kettlebell to your shoulders, with your palms facing forward and your elbows bent.",
+      "3": "From this starting position, extend your arms upwards so that the kettlebell are overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Floor Press",
+    "Instruction": {
+      "1": "Start flat on your back with the kettlebells extended over you.",
+      "2": "Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Be careful getting the KB into place overhead. Push your elbows forward while keeping your elbows tucked in.",
+      "2": "Look for what feels like a stretch in your triceps. Extend your elbows until your fists are pointed at the ceiling."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Floor Press",
+    "Instruction": {
+      "1": "Start flat on your back with a kettlebell extended over you.",
+      "2": "Bring your elbow to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Chest Press (Single)",
+    "Instruction": {
+      "1": "Laying on the floor with your knees bent and feet firmly on the floor, hold the kettlebell at your chest with both hands.",
+      "2": "Fully extend your arms, raising the kettlebell until your elbows are locked.",
+      "3": "Lower the kettlebell to the starting position and repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Press",
+    "Instruction": {
+      "1": "Laying on the floor with your knees bent and feet firmly on the floor, leave one arm resting to the side of the body.",
+      "2": "Using the other arm, hold the kettlebell at arms length directly upwards of your shoulder.",
+      "3": "Lower your arm until your upper arm to elbow is resting on the floor.",
+      "4": "Return to starting position."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Walkover Pushup",
+    "Instruction": {
+      "1": "Starting in a press up position with feet wide and one hand resting on the kettlebell, complete a full press up, lowering your chest towards the ground while keeping your body straight and returning to the starting position.",
+      "2": "Swap hands on the kettlebell, placing the hand originally on the kettlebell underneath your shoulder, complete another press up.",
+      "3": "Repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Bench Press",
+    "Instruction": {
+      "1": "Lie on a bench, hold kettlebells above chest.",
+      "2": "Lower them to chest, then push up.",
+      "3": "Repeat for desired reps, maintaining form."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell High Incline Bench Press",
+    "Instruction": {
+      "1": "Position the bench between 45 and 60 degrees.",
+      "2": "Lay flat on the bench with your feet on the ground.",
+      "3": "Lower the kettlebells to your mid chest",
+      "4": "Raise the kettlebells (slowly and controlled) until you\u0027ve locked your elbows."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Incline Bench Press",
+    "Instruction": {
+      "1": "Position the bench between 30 and 45 degrees.",
+      "2": "Lay flat on the bench with your feet on the ground.",
+      "3": "Lower the kettlebells to your mid chest",
+      "4": "Raise the kettlebells (slowly and controlled) until you\u0027ve locked your elbows."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Upper Pectoralis": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Push Press",
+    "Instruction": {
+      "1": "Start with kettlebell in rack position.",
+      "2": "Dip at knees and hips.",
+      "3": "Explosively push kettlebell overhead, fully extending arms."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Seated Overhead Press",
+    "Instruction": {
+      "1": "There should be a straight line from your elbow to fist (vertical forearms).",
+      "2": "Sit tall and try not to arch your spine as you\u0027re pressing.",
+      "3": "Press until your elbows are extended and push your head forward slightly."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Single Arm Clean And Press",
+    "Instruction": {
+      "1": "Begin with the kettlebell between your legs.",
+      "2": "Hinge at your hips, and lift to shoulder, then press overhead."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Glutes": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Incline Guillotine Bench Press",
+    "Instruction": {
+      "1": "Lie on bench, hold kettlebell with both hands over chest.",
+      "2": "Lower kettlebells, elbows flared.",
+      "3": "Press kettlebells upward, fully extending arms. Repeat."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Kettlebell Kneeling Bottoms Up Overhead Press",
+    "Instruction": {
+      "1": "Start by taking a kneeling position and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+      "2": "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+      "3": "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
+    "Equipment": "Kettlebells",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Overhead Tricep Extension",
+    "Instruction": {
+      "1": "Stand with one or both feet on band. Go up and over your head with the band to the starting position.",
+      "2": "Flex and extend your elbows."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Long Head Tricep": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Pushdown",
+    "Instruction": {
+      "1": "Place the band just above eye level. Take a few steps away until the band is taut.",
+      "2": "Push your hips back slightly. Extend and flex at the elbows."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Skullcrusher",
+    "Instruction": {
+      "1": "Anchor a band to a stable point.",
+      "2": "Face away and begin with your elbows bent and fists by your temples.",
+      "3": "Extend your elbows until your triceps contract."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Advanced",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Rapunzel Pushdown",
+    "Instruction": {
+      "1": "Anchor the band to a high point and face away. Hold the band with both hands, placing your hands shoulder-width apart and keeping your elbows close to your body.",
+      "2": "Slowly extend your arms downward, keeping your elbows close to your body. Push the band down as far as you can, feeling the contraction in your triceps."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Single Arm Pushdown",
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart and hold the band with your right hand, with your arm at your side.",
+      "2": "Flex and extend your elbow."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Single Arm Rapunzel Pushdown",
+    "Instruction": {
+      "1": "Stand with a band anchored to a high point. Face away from the band. Hold the loop in one hand.",
+      "2": "Keep your elbow tucked in to your side. Extend your elbow. When you extend, don\u0027t let your upper arm raise. The band should land over your shoulder."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Single Arm Skullcrusher",
+    "Instruction": {
+      "1": "Stand facing away from a band which is anchored to a high point.",
+      "2": "Keep your elbow pointed forward, and extend and flex your elbow."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Pushup",
+    "Instruction": {
+      "1": "Loop the band around your mid-back. The ends of the bands should be around your hands between your thumb and pointer finger.",
+      "2": "This exercise can be done from the knees or the toes depending on experience level.",
+      "3": "Begin by breaking at the elbows until your upper arm is by your side. Then extend at the elbows back into the top position."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Intermediate",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Mid and Lower Chest": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Single Arm Chest Press",
+    "Instruction": {
+      "1": "Attach the band to an anchor point that is about shoulder height. Take a few steps away until the band is taut.",
+      "2": "Extend your shoulder joint and elbow across your body until your arm is fully extended."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Chest Press",
+    "Instruction": {
+      "1": "Stand in the middle of the two bands with feet shoulder-width apart. Step forward with one foot to create tension in the bands.",
+      "2": "Hold one band in each hand, palms facing forward.\r\n\r\nStart the exercise with your arms extended in front of you, keeping a slight bend in your elbows.",
+      "3": "Lower your arms to the sides of your chest, maintaining control of the band.",
+      "4": "Push your arms back up to the starting position, keeping your core engaged and maintaining control of the band."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Overhead Press",
+    "Instruction": {
+      "1": "Stand between the two anchored bands, grasp them with an overhand grip, and position the bands at shoulder level.",
+      "2": "Brace your core and push the bands overhead, fully extending your arms.",
+      "3": "Lower the bands back to shoulder level, keeping your core engaged and arms straight. Repeat for desired number of reps."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Novice",
+    "Muscles": {
+      "Shoulders": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 5"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Standing Chest Press",
+    "Instruction": {
+      "1": "Loop the band around your back. The two end loops in each of your hands.",
+      "2": "Extend your shoulder joint and elbow across your body until your arm is fully extended."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Chest": {
+        "MuscleTargetLevel": "Secondary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Band Tricep Kickback",
+    "Instruction": {
+      "1": "Anchor the band to a stable point.",
+      "2": "Hinge forward. Extend and flex at the elbow."
+    },
+    "Equipment": "Band",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Child Pose Elbows On Block",
+    "Instruction": {
+      "1": "Place two blocks on the floor, shoulder-width apart.",
+      "2": "Kneel in front of the blocks, and lower your torso down so that your elbows are resting on the blocks, and your forehead is resting on the floor.",
+      "3": "Relax your arms, shoulders, and neck, and breathe deeply.",
+      "4": "Hold for a few breaths, then release."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "One Arm Cow Face Pose",
+    "Instruction": {
+      "1": "Sit on the floor with your legs extended in front of you.",
+      "2": "Bend your left knee and place your left foot on the floor, close to your right hip.",
+      "3": "Cross your right leg over your left leg, stacking your knees on top of each other.",
+      "4": "Bring your left arm up overhead, and bend your elbow so that your left hand reaches towards your upper back. Reach your right hand behind your back and try to clasp your left hand. Hold"
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Pyramid Prayer",
+    "Instruction": {
+      "1": "Stand with your feet hip-width apart and place your hands on a table, chair, or any elevated surface in front of you.",
+      "2": "Walk your feet back until your torso is parallel to the ground, and your elbows are resting on the surface.",
+      "3": "Relax your head and neck, and breathe deeply.",
+      "4": "Hold for a few breaths, then release."
+    },
+    "Equipment": "Yoga",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Triceps": {
+        "MuscleTargetLevel": "Primary"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Band Press Jacks",
+    "Instruction": {
+      "1": "Stand with the band looped under both feet and the other end of the band in both hands in an overhead press position.",
+      "2": "Do a light hop and bring both feet outward while pressing the band overhead."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Gluteus Medius": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Shoulders": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Lateral Deltoid": {
+        "MuscleTargetLevel": "Tertiary"
+      },
+      "Anterior Deltoid": {
+        "MuscleTargetLevel": "Level 4"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Level 5"
+      },
+      "Front Shoulders": {
+        "MuscleTargetLevel": "Level 6"
+      }
+    }
+  },
+  {
+    "WorkoutName": "Cardio Ski Erg",
+    "Instruction": {
+      "1": "Leap sideways, land on right foot, left leg behind to the side.",
+      "2": "Drop into a single-leg burpee, right leg only, hands to ground.",
+      "3": "Return to standing on right, leap sideways to left, repeat with left leg."
+    },
+    "Equipment": "Cardio",
+    "WorkoutLevel": "Beginner",
+    "Muscles": {
+      "Abdominals": {
+        "MuscleTargetLevel": "Primary"
+      },
+      "Lats": {
+        "MuscleTargetLevel": "Secondary"
+      },
+      "Triceps": {
+        "MuscleTargetLevel": "Tertiary"
+      }
+    }
+  }
+]
