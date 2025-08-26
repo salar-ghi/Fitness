@@ -193,461 +193,590 @@ public class HamstringWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[0].Id , Step = 3 , Instruction = " Grab the barbell and then extend your hips while maintaining a straight back." },
             new WorkoutInstruction{ WorkoutId = Workouts[0].Id , Step = 4 , Instruction = " From the standing position, lower the weight in a controlled manner." },
             new WorkoutInstruction{ WorkoutId = Workouts[0].Id , Step = 5 , Instruction = " You can either lower the weight to the floor or before you touch the floor, depending on your mobility." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[1].Id , Step = 1 , Instruction = " Place the bar on your traps. You may need a pad so the bar doesn't dig into your cervical spine." },
             new WorkoutInstruction{ WorkoutId = Workouts[1].Id , Step = 2 , Instruction = " Push your hips straight back. Your knees should stay MOSTLY extended (think soft knees). Also make sure to" },
             new WorkoutInstruction{ WorkoutId = Workouts[1].Id , Step = 3 , Instruction = " Look for what feels like a stretch in your hamstrings. The stretch feeling means you're likely nearing the end of your Range of Motion without rounding your spine." },
             new WorkoutInstruction{ WorkoutId = Workouts[1].Id , Step = 4 , Instruction = " When you feel the stretch push your hips forward until you're in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[2].Id , Step = 1 , Instruction = " Place the bar between your traps and rear delts. Pull your shoulder blades back to give the bar a shelf to sit on." },
             new WorkoutInstruction{ WorkoutId = Workouts[2].Id , Step = 2 , Instruction = " Push your hips back until you feel a stretch in your hamstrings. This means you're nearing the end of your Range of Motion with out rounding your spine." },
             new WorkoutInstruction{ WorkoutId = Workouts[2].Id , Step = 3 , Instruction = " When you feel the stretch push your hips forward until you'e in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[3].Id , Step = 1 , Instruction = " Take a shoulder width, double overhand or mixed grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[3].Id , Step = 2 , Instruction = " Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[3].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
-            new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 1 , Instruction = " Start by standing with your feet about hip-width apart, with your toes pointed slightly outward." },
+            
+            new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 1 , Instruction = " Start by standing with your feet about hip-width apart, with your toes pointed slightly outward." },            
             new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 2 , Instruction = " Place a barbell on the floor in front of you, with the weight plates on either side. Make sure that the bar is directly in line with your feet." },
             new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 3 , Instruction = " Bend down and grab the barbell with an overhand grip, your hands much wider than shoulder-width apart. Keep your back straight and your shoulders down as you grip the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 4 , Instruction = " Stand up straight, lifting the barbell off the ground and pulling it toward your hips. Keep your elbows close to your body and your shoulders down as you do this." },
             new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 5 , Instruction = " Slowly lower the barbell back to the ground, making sure to keep your back straight and your shoulders down throughout the movement." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[5].Id , Step = 1 , Instruction = " Start by standing with your feet about hip-width apart. The bar should be in a rack or box so it's lifted off the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[5].Id , Step = 2 , Instruction = " Grab the barbell with an overhand grip, your hands should be much wider than shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[5].Id , Step = 3 , Instruction = " Hing forward at the hips keeping your knees mostly extended. Hinge until you feel a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[5].Id , Step = 4 , Instruction = " When you feel the stretch, push your hips forward until you are back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[6].Id , Step = 1 , Instruction = " Begin by standing with your feet about hip-width apart and holding a barbell in the crook of your elbows, with your palms facing towards your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[6].Id , Step = 2 , Instruction = " Keeping your core engaged and your back straight, bend at the hips and lower your torso forward until it is nearly parallel to the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[6].Id , Step = 3 , Instruction = " Push through your heels to extend your hips and raise your body back to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[7].Id , Step = 1 , Instruction = " Begin by standing with your feet hip-width apart and holding a barbell at one side of your body, with your palms facing your thighs." },
             new WorkoutInstruction{ WorkoutId = Workouts[7].Id , Step = 2 , Instruction = " Keeping your core engaged and your back straight, bend at the hips and knees to lower the barbell down towards the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[7].Id , Step = 3 , Instruction = " As the barbell reaches the ground, use your legs and glutes to push through your heels and extend your hips and knees to raise your body back to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[7].Id , Step = 4 , Instruction = " Repeat the movement for the desired number of reps, then switch sides and repeat the exercise with the barbell on the opposite side of your body." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[8].Id , Step = 1 , Instruction = " Stand in front of the landmine with your feet hip-width apart and your knees slightly bent. Grasp the landmine barbell with both hands, palms facing each other, and hold it in front of your thighs." },
             new WorkoutInstruction{ WorkoutId = Workouts[8].Id , Step = 2 , Instruction = " Keeping your back straight and your core engaged, hinge at the hips and push your hips back, allowing the landmine to travel down your thighs. Lower the landmine by bending forward at the hips while keeping your back flat, allowing the barbell to move closer to the floor. Continue the movement until you feel a stretch in your hamstrings, keeping your legs relatively straight but with a slight bend in the knees." },
             new WorkoutInstruction{ WorkoutId = Workouts[8].Id , Step = 3 , Instruction = " Reverse the movement by pushing your hips forward and driving through your heels while keeping your back straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[8].Id , Step = 4 , Instruction = " Repeat for the desired number of reps." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[9].Id , Step = 1 , Instruction = " Grab the end of the landmine and stand perpendicular to the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[9].Id , Step = 2 , Instruction = " Lift your inside leg and keep your outside leg planted." },
             new WorkoutInstruction{ WorkoutId = Workouts[9].Id , Step = 3 , Instruction = " Push your hips back keeping your knees mostly extended. When you feel the stretch in your hams, push your hips forward until you are standing upright." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[10].Id , Step = 1 , Instruction = " Stand in a staggered position. With the back leg bent and the front mostly extended." },
             new WorkoutInstruction{ WorkoutId = Workouts[10].Id , Step = 2 , Instruction = " Push your hips back until you feel a stretch through your front hamstring." },
             new WorkoutInstruction{ WorkoutId = Workouts[10].Id , Step = 3 , Instruction = " Push your hips back forward until you are standing." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 1 , Instruction = " Begin by standing with your feet hip-width apart with the bar on the ground at your side." },
             new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 2 , Instruction = " Lift the bar to your side and walk for the allotted amount of time or distance." },
             new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 3 , Instruction = " Set the bar down and switch sides." },
             #endregion,
+            
             #region Machine,
             new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 1 , Instruction = " Lay down on the machine, placing your legs beneath the padded lever. Position your legs so that the padded lever is below your calve muscles." },
             new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 2 , Instruction = " Support yourself by grabbing the side handles of the machine, and slowly raise the weight with your legs, toes pointed straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 3 , Instruction = " Pause at the apex of the motion, then slowly return to starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 1 , Instruction = " Position yourself on a glute ham raise machine or find a suitable substitute like a stability ball or bench." },
             new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 2 , Instruction = " Adjust the equipment to fit your body by setting the footplate at an appropriate height and making sure your feet are securely anchored." },
             new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 3 , Instruction = " Begin the movement by slowly lowering your upper body towards the ground while keeping your torso and legs aligned." },
             new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 4 , Instruction = " Once you reach the lowest point where your body is parallel to the ground or as far as you can comfortably go, pause briefly." },
             new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 5 , Instruction = " Engage your glutes and hamstrings again as you push yourself back up to the starting position, using the strength of your posterior chain muscles." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 1 , Instruction = " Sit on the machine. Adjust the back pad to where the leg pad is just above your knees." },
             new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 2 , Instruction = " Adjust the leg pad that goes on your lower leg until it's on your achilles." },
             new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 3 , Instruction = " Use the two handles to push your self back in the chair. Curl your legs as far as possible, and then extend your knees. (Do not hyperextend)" },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[15].Id , Step = 1 , Instruction = " Sit back in the seat. Use the two handles to push yourself back into the chair." },
             new WorkoutInstruction{ WorkoutId = Workouts[15].Id , Step = 2 , Instruction = " Flex your ankles and point your toes upward." },
             new WorkoutInstruction{ WorkoutId = Workouts[15].Id , Step = 3 , Instruction = " Flex your knee bringing the pad backward, extend your knee without allowing the weight to touch back down." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 1 , Instruction = " Lay down on the machine, placing your working leg beneath the padded lever. Position your leg so that the padded lever is below your calve muscle." },
             new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 2 , Instruction = " Support yourself by grabbing the side handles of the machine, and slowly raise the weight with your legs." },
             new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 3 , Instruction = " Pause at the apex of the motion, then slowly return to starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 1 , Instruction = " Lay on the pad and grab the handles." },
             new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 2 , Instruction = " Slip your legs into the belt loop." },
             new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 3 , Instruction = " Push your legs back until they are horizontal with the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 4 , Instruction = " Lower back to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[18].Id , Step = 1 , Instruction = " Press yourself into the pads and put your calves against the lower pads." },
             new WorkoutInstruction{ WorkoutId = Workouts[18].Id , Step = 2 , Instruction = " Flex your knee until you feel a contraction in your hamstring, then lower back to the start." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 1 , Instruction = " Adjust the back pad and ankle pad to suit your height." },
             new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 2 , Instruction = " Disengage the knee pad and lower it as far as you can." },
             new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 3 , Instruction = " Flex your knees against resistance, then extend until you feel a stretch in your hamstrings." },
             #endregion,
+            
             #region Stretches,
             new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 1 , Instruction = " Sit on the floor with your legs out in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 2 , Instruction = " Reach forward to try and touch your toes. Reach as far forward as you can go." },
             new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 3 , Instruction = " Hold the stretch for a few seconds then return to starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[21].Id , Step = 1 , Instruction = " Sit on the floor with one leg outstretched and the other bent at the knee, foot resting on the opposite inner thigh." },
             new WorkoutInstruction{ WorkoutId = Workouts[21].Id , Step = 2 , Instruction = " Reach forward to touch the toes of the outstretched leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[21].Id , Step = 3 , Instruction = " Hold the stretch for a few seconds then return to starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 1 , Instruction = " Stand with one foot in front of the other." },
             new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 2 , Instruction = " Bend your rear leg as much as you can, keeping the front leg straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 3 , Instruction = " Hold the stretch for a few seconds then return to starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 1 , Instruction = " Lie down with your legs reaching up the wall. your bum should be slightly off the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 2 , Instruction = " Bend one leg and leave the other outstretched." },
             new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 3 , Instruction = " Push your thigh towards the wall." },
             new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 4 , Instruction = " Hold the stretch for a few seconds then return to starting position." },
             #endregion,
+            
             #region Plate,
             new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 1 , Instruction = " Stand with your feet shoulder-width apart and facing forwards. Grip the sides of a weight plate with your palms facing down." },
             new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 2 , Instruction = " Balance on one foot, as you raise the weight keep your arms and back straight, while you bring your  other foot back towards the ground" },
             new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 3 , Instruction = " Keep four raised leg straight and in alignment with your back as you lower the plate back down to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 1 , Instruction = " Engage your core and straighten your legs to lift the plate off the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 2 , Instruction = " Stand on one leg, keeping the other leg off the ground, while holding the plate in front of your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 3 , Instruction = " Keep your back straight and maintain a neutral head position while looking straight ahead." },
             new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 4 , Instruction = " Lower the plate back down to the ground while keeping your balance on one leg." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 1 , Instruction = " Start by standing with your feet shoulder-width apart and holding a weight plate." },
             new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 2 , Instruction = " Place one foot slightly behind the other, with the heel of your back foot elevated." },
             new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 3 , Instruction = " From this starting position, bend at the hips and knees to lower the plate towards the ground, keeping your back straight and your core engaged." },
             new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 4 , Instruction = " Once the plate is below your knees, drive through your heels to stand back up to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 1 , Instruction = " Start by standing with your feet shoulder-width apart and holding two plates with a pinch grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 2 , Instruction = " Place one foot slightly behind the other, with the heel of your back foot elevated." },
             new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 3 , Instruction = " From this starting position, bend at the hips and knees to lower the plates towards the ground, keeping your back straight and your core engaged." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 1 , Instruction = " Stand with feet hip-width apart, the plate held behind the neck and the knees slightly bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 2 , Instruction = " Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 3 , Instruction = " Push through the hips to return to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 1 , Instruction = " Stand with feet hip-width apart, the plate held in front of you, and the knees slightly bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 2 , Instruction = " Bend forward at the hips, keeping the back straight, until the torso is parallel to the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 3 , Instruction = " Push through the hips to return to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 1 , Instruction = " Stand with feet hip-width apart, the plate in front of the feet, and the knees slightly bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 2 , Instruction = " Bend the hips and knees to grip the plate with palms facing the body." },
             new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 3 , Instruction = " Keeping the back straight, stand up while lifting the plate off the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 4 , Instruction = " Return the plate back to the starting position by bending the hips and knees, keeping control of the plate." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 1 , Instruction = " Set up a bar at mid way up your quad. Place the working leg against the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 2 , Instruction = " Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
             new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 3 , Instruction = " Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
             new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 4 , Instruction = " When you feel the stretch, push your hips forward again until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 1 , Instruction = " Place a barbell at about midway up your thigh. Press your quads into the barbell. Hold a plate up to your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 2 , Instruction = " Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
             #endregion,
+            
             #region Smith-Machine,
             new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 1 , Instruction = " Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
             new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 2 , Instruction = " Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
             new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward again until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 1 , Instruction = " Take a shoulder width, double overhand or mixed grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 2 , Instruction = " Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 1 , Instruction = " Stance width can vary with a sumo DL. Some prefer toes near the plates. Others prefer a more narrow stance to get more drive off the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 2 , Instruction = " Make sure your arms are inside your legs. The bar should be just over your mid-foot. Flatten your back and unrack the bar" },
             new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 3 , Instruction = " Leave your knees mostly extended and flex and extend your hips." },
             #endregion,
+            
             #region Dumbbells,
             new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 1 , Instruction = " Hold the dumbbell in a goblet position. With your elbows directly under your fists." },
             new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 2 , Instruction = " Push your hips back while leaving your knees MOSTLY extended. You should feel a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 3 , Instruction = " When you feel the stretch push your hips forward until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 1 , Instruction = " Stand with a shoulder width stance. Push your butt back while leaving your knees MOSTLY extended." },
             new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 2 , Instruction = " You should feel a stretch in your hamstrings. When you feel the stretch, push your hips forward to complete the rep." },
             new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 3 , Instruction = " Do not push your hips all the way forward. This will hyperextend your spine. Just go to a normal standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 1 , Instruction = " Lay flat on a bench with a dumbbell between your feet." },
             new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 2 , Instruction = " Flex your knees and raise the dumbbell until the soles of your shoes are pointed at the ceiling." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 1 , Instruction = " Start by standing on one leg with a dumbbell in one hand." },
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 2 , Instruction = " Slowly bend at the hips and lower the dumbbell towards the ground while extending your free leg behind you." },
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 3 , Instruction = " Keep your core engaged and your back straight as you lower the weight." },
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 4 , Instruction = " Once the dumbbell is close to the ground, push through your heel to return to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 1 , Instruction = " Start by standing on one leg with your feet shoulder-width apart and holding two dumbbells." },
             new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 2 , Instruction = " From this starting position, hinge at the hips to lower the dumbbell towards the ground, keeping your back straight and your core engaged." },
             new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 3 , Instruction = " Once you feel a stretch in your hamstring, slowly return to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 4 , Instruction = " Make sure to keep your standing leg slightly bent and avoid rounding your back as you lower the dumbbell." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 1 , Instruction = " Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand." },
             new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 2 , Instruction = " Place one foot slightly behind the other, with the heel of your back foot elevated on a step or weight plate." },
             new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 3 , Instruction = " From this starting position, bend at the hips and knees to lower the dumbbells towards the ground, keeping your back straight and your core engaged." },
             new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 4 , Instruction = " Once the dumbbells are below your knees, drive through your heels to stand back up to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 1 , Instruction = " Start by standing with your feet shoulder-width apart and holding a dumbbell in both hands." },
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 2 , Instruction = " Bend your knees slightly and hinge at the hips to swing the dumbbell between your legs." },
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 3 , Instruction = " From this starting position, explosively extend your hips and swing the dumbbell up to chest height." },
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 4 , Instruction = " Allow the momentum of the swing to carry the dumbbell back down between your legs, and then repeat the movement for the desired number of repetitions." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 1 , Instruction = " Lay flat on the ground with both feet planted. Make sure you keep your heels glued to the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 2 , Instruction = " Place the dumbbell on your hips. Push your hips toward the ceiling until you feel your glutes contract." },
             new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 3 , Instruction = " Then return to the floor." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 1 , Instruction = " Stand with a shoulder width stance holding one dumbbell. Push your butt back while leaving your knees MOSTLY extended." },
             new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 2 , Instruction = " Reach toward the opposing leg. You should feel a stretch in your hamstrings. When you feel the stretch, push your hips forward to complete the rep." },
             new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 3 , Instruction = " Do not push your hips all the way forward. This will hyperextend your spine. Just go to a normal standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 1 , Instruction = " Set up a bar at mid way up your quad. Place the working leg against the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 2 , Instruction = " Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 3 , Instruction = " Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 4 , Instruction = " When you feel the stretch, push your hips forward again until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 1 , Instruction = " Place a barbell at about midway up your thigh. Press your quads into the barbell." },
             new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 2 , Instruction = " Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 1 , Instruction = " Place one knee on a bench and hold a dumbbell in a goblet position." },
             new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 2 , Instruction = " Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 1 , Instruction = " Place one knee on a bench and hold a dumbbell." },
             new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 2 , Instruction = " Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
             #endregion,
+            
             #region Medicine-Ball,
             new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 1 , Instruction = " Hold medicine ball while standing on one leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 2 , Instruction = " Hinge forward on one leg, extending other leg behind." },
             new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 3 , Instruction = " Return to starting position. Repeat on other leg." },
             #endregion,
+            
             #region Cables,
             new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 1 , Instruction = " Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back" },
             new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 2 , Instruction = " Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position." },
             new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 3 , Instruction = " To protect yourself from injury, always maintain a flat back on any exercise." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 1 , Instruction = " Start with a straight bar or easy bar attachment. Squat the weight up into a standing position and walk a few steps back." },
-            new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 2 , Instruction = " Push your butt back to initiate the movement while lifting one of your legs.
-        Then push your butt forward until you're back in a standing position." },
+            new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 2 , Instruction = " Push your butt back to initiate the movement while lifting one of your legs. Then push your butt forward until you're back in a standing position." },
             new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 3 , Instruction = " Compete your given amount of reps, then switch to opposite leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 4 , Instruction = " To protect yourself from injury, always maintain a flat back." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 1 , Instruction = " This exercise works best with a rope attachment but can be done with anything. The attachment should be set to the bottom of the machine." },
-            new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 2 , Instruction = " Face away from the cable machine, straddle the cable itself, and grab the attachment.
-        Walk a few steps away." },
+            new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 2 , Instruction = " Face away from the cable machine, straddle the cable itself, and grab the attachment. Walk a few steps away." },
             new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 3 , Instruction = " Break at the hips while maintaining a flat back and mostly extended knees." },
             new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 4 , Instruction = " Push hips forward until you are back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[53].Id , Step = 1 , Instruction = " Use an ankle attachment with the cable set all the way to the bottom of the machine." },
             new WorkoutInstruction{ WorkoutId = Workouts[53].Id , Step = 2 , Instruction = " Stand upright or try bending slightly forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[53].Id , Step = 3 , Instruction = " Flex at the knee and pull your ankle straight back." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 1 , Instruction = " Start with a straight bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back." },
             new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 2 , Instruction = " Stand with a staggered stance. Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position." },
             new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 3 , Instruction = " To protect yourself from injury, always maintain a flat back on any exercise." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 1 , Instruction = " Start with handles set to the bottom of the machine. Grab a box, stand on top of the box, squat the weight up into a standing position." },
             new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 2 , Instruction = " Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position." },
             new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 3 , Instruction = " To protect yourself from injury, always maintain a flat back on any exercise." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 1 , Instruction = " Bring a bench over to the cable stack, put the cable at head height (when seated). Use an ankle attachment." },
             new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 2 , Instruction = " Sit on the bench." },
             new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 3 , Instruction = " Flex at the knee and pull your ankle straight back." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 1 , Instruction = " Bring a bench over to the cable stack, put the cable all the way at the bottom. Use an ankle attachment." },
             new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 2 , Instruction = " Lay on the bench." },
             new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 3 , Instruction = " Flex at the knee and pull your ankle straight back." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 1 , Instruction = " Begin by standing with your feet about hip-width apart and holding the bar in the crook of your elbows, with your palms facing towards your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 2 , Instruction = " Keeping your core engaged and your back straight, bend at the hips and lower your torso forward until it is nearly parallel to the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 3 , Instruction = " Push through your heels to extend your hips and raise your body back to the starting position." },
             #endregion,
+            
             #region TRX,
             new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 1 , Instruction = " Start by facing the TRX straps and positioning yourself in a push-up position with your hands on the ground and your feet in the TRX foot cradles." },
             new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 2 , Instruction = " Keeping your core engaged and body in a straight line, bend your knees and bring your heels towards your glutes." },
             new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 3 , Instruction = " Pause for a moment at the top of the movement, then slowly lower your legs back to the starting position." },
             #endregion,
+            
             #region Vitruvian,
             new WorkoutInstruction{ WorkoutId = Workouts[60].Id , Step = 1 , Instruction = " Take an overhand grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[60].Id , Step = 2 , Instruction = " Keep your knees mostly extended and hinge forward at the hips." },
             new WorkoutInstruction{ WorkoutId = Workouts[60].Id , Step = 3 , Instruction = " Keep a flat back." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[61].Id , Step = 1 , Instruction = " Hold medicine ball while standing on one leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[61].Id , Step = 2 , Instruction = " Hinge forward on one leg, extending other leg behind." },
             new WorkoutInstruction{ WorkoutId = Workouts[61].Id , Step = 3 , Instruction = " Return to starting position. Repeat on other leg." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[62].Id , Step = 1 , Instruction = " Place one foot firmly on the ground and one foot behind the other. Bend the knee on your back leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[62].Id , Step = 2 , Instruction = " Hinge forward until you feel a stretch in your front leg." },
             #endregion,
+            
             #region Recovery,
             new WorkoutInstruction{ WorkoutId = Workouts[63].Id , Step = 1 , Instruction = " Stand up straight with a good form." },
             new WorkoutInstruction{ WorkoutId = Workouts[63].Id , Step = 2 , Instruction = " Send your hips back and start tilting the upper body." },
             new WorkoutInstruction{ WorkoutId = Workouts[63].Id , Step = 3 , Instruction = " Maintain a straight back as you aim for your toes." },
             new WorkoutInstruction{ WorkoutId = Workouts[63].Id , Step = 4 , Instruction = " Your range depends on your hamstring flexibility." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[64].Id , Step = 1 , Instruction = " Place a massage ball on a bench." },
             new WorkoutInstruction{ WorkoutId = Workouts[64].Id , Step = 2 , Instruction = " Sit on the ball with your hamstring." },
             new WorkoutInstruction{ WorkoutId = Workouts[64].Id , Step = 3 , Instruction = " Move around till you find a tight/sore spot." },
             new WorkoutInstruction{ WorkoutId = Workouts[64].Id , Step = 4 , Instruction = " Extend and bend your knee to mobilise the hamstring." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[65].Id , Step = 1 , Instruction = " Standing, split stance." },
             new WorkoutInstruction{ WorkoutId = Workouts[65].Id , Step = 2 , Instruction = " Dynamically kick your back leg forward and up." },
             new WorkoutInstruction{ WorkoutId = Workouts[65].Id , Step = 3 , Instruction = " Return to starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[66].Id , Step = 1 , Instruction = " Lie on your back with straight legs." },
             new WorkoutInstruction{ WorkoutId = Workouts[66].Id , Step = 2 , Instruction = " Perform a posterior pelvic tilt and maintain the position." },
             new WorkoutInstruction{ WorkoutId = Workouts[66].Id , Step = 3 , Instruction = " Kick one leg up to feel a stretch in the hamstring." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[68].Id , Step = 1 , Instruction = " Sit against a wall." },
             new WorkoutInstruction{ WorkoutId = Workouts[68].Id , Step = 2 , Instruction = " Bend one leg and tuck the foot by the straight leg's knee." },
             new WorkoutInstruction{ WorkoutId = Workouts[68].Id , Step = 3 , Instruction = " Dynamically reach forward towards your toes and return to starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[69].Id , Step = 1 , Instruction = " From the standing position, bring one leg slightly forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[69].Id , Step = 2 , Instruction = " Raise your toes and lean over towards them." },
             new WorkoutInstruction{ WorkoutId = Workouts[69].Id , Step = 3 , Instruction = " Maintain the position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 1 , Instruction = " Place a theraband or stretch strap around your foot." },
             new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 2 , Instruction = " Lie back onto the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 3 , Instruction = " Raise your leg to stretching point with the aid of the band (strap)." },
             new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 4 , Instruction = " Tug onto the strap on the end of range to dynamically stretch the hamstring." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[71].Id , Step = 1 , Instruction = " Place a theraband around your foot." },
             new WorkoutInstruction{ WorkoutId = Workouts[71].Id , Step = 2 , Instruction = " Lie back onto the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[71].Id , Step = 3 , Instruction = " Raise your leg to stretching point with the aid of the band, keeping a slightly bent knee." },
             new WorkoutInstruction{ WorkoutId = Workouts[71].Id , Step = 4 , Instruction = " Extend and bend your knee to actively stretch your hamstring." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[72].Id , Step = 1 , Instruction = " Place a theraband or stretch strap around your foot." },
             new WorkoutInstruction{ WorkoutId = Workouts[72].Id , Step = 2 , Instruction = " Lie back onto the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[72].Id , Step = 3 , Instruction = " Raise your leg to stretching point with the aid of the band (strap)." },
             new WorkoutInstruction{ WorkoutId = Workouts[72].Id , Step = 4 , Instruction = " Tug onto the strap on the end of range to dynamically stretch the hamstring." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[73].Id , Step = 1 , Instruction = " Place a box behind you and one foot on it. Keep your chest up and the back straight" },
             new WorkoutInstruction{ WorkoutId = Workouts[73].Id , Step = 2 , Instruction = " Tilt at the hips to perform a deadlift. Use the box for balance and support" },
             new WorkoutInstruction{ WorkoutId = Workouts[73].Id , Step = 3 , Instruction = " Make sure you straighten your back leg when performing the deadlift." },
             new WorkoutInstruction{ WorkoutId = Workouts[73].Id , Step = 4 , Instruction = " As you get comfortable with the movement, try to lift the leg off the box when you reach the end range of the deadlift." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[74].Id , Step = 1 , Instruction = " Stand tall, hinge at hips, and reach hands to the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[74].Id , Step = 2 , Instruction = " Walk hands forward into a plank position." },
             new WorkoutInstruction{ WorkoutId = Workouts[74].Id , Step = 3 , Instruction = " Walk feet towards hands and repeat the motion." },
             #endregion,
+            
             #region Bodyweight,
             new WorkoutInstruction{ WorkoutId = Workouts[75].Id , Step = 1 , Instruction = " Stand with your feet a little past shoulder width apart with a slight bend at your knee. Place your hands behind the back of your head." },
             new WorkoutInstruction{ WorkoutId = Workouts[75].Id , Step = 2 , Instruction = " Keeping your back straight, rotate your hips to bring your shoulders down towards the floor. Stop when your chest is parallel with the floor." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[76].Id , Step = 1 , Instruction = " Stand with your feet shoulder-width apart and knees slightly bent and raise one leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[76].Id , Step = 2 , Instruction = " Without changing the bend in your knee, bend at your hips, and lower your torso until it's almost parallel to the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[76].Id , Step = 3 , Instruction = " Tense your glutes and then bring yourself back to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[77].Id , Step = 1 , Instruction = " Go to your knees and ask someone to hold your ankles." },
             new WorkoutInstruction{ WorkoutId = Workouts[77].Id , Step = 2 , Instruction = " Put your hands in front of you" },
             new WorkoutInstruction{ WorkoutId = Workouts[77].Id , Step = 3 , Instruction = " With a slight bend in your knees slowly bring your body to the ground (slower is better)" },
             new WorkoutInstruction{ WorkoutId = Workouts[77].Id , Step = 4 , Instruction = " Push up and reset to the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[78].Id , Step = 1 , Instruction = " Take a big step backwards with your left leg, lowering your body until your left thigh is parallel to the ground and your right knee is bent at a 90-degree angle." },
             new WorkoutInstruction{ WorkoutId = Workouts[78].Id , Step = 2 , Instruction = " Push through your right heel to return to standing, bringing your left leg back to starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[78].Id , Step = 3 , Instruction = " Repeat the movement on the other side, stepping backwards with your right leg and lowering your body until your right thigh is parallel to the ground and your left knee is bent at a 90-degree angle." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[79].Id , Step = 1 , Instruction = " Lie on your back with knees slightly bent and heels dug in." },
             new WorkoutInstruction{ WorkoutId = Workouts[79].Id , Step = 2 , Instruction = " Perform a posterior pelvic tilt (flatten your lower back on the ground)." },
             new WorkoutInstruction{ WorkoutId = Workouts[79].Id , Step = 3 , Instruction = " Press the heels into the ground to raise your hips off it." },
             new WorkoutInstruction{ WorkoutId = Workouts[79].Id , Step = 4 , Instruction = " Hold the position for the specified duration." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[80].Id , Step = 1 , Instruction = " Lie on your back. Place your heels on a box or bench, having a 90° angle at hips and knees." },
             new WorkoutInstruction{ WorkoutId = Workouts[80].Id , Step = 2 , Instruction = " Perform a posterior pelvic tilt (flatten your lower back against the ground)." },
             new WorkoutInstruction{ WorkoutId = Workouts[80].Id , Step = 3 , Instruction = " Push through your heels into the box, lifting your hips up to the point where there is a straight line from your chest to your knees." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[81].Id , Step = 1 , Instruction = " Lie on your back. Place one heel on a box or bench, having a 90° angle at hip and knee." },
             new WorkoutInstruction{ WorkoutId = Workouts[81].Id , Step = 2 , Instruction = " Perform a posterior pelvic tilt (flatten your lower back against the ground)." },
             new WorkoutInstruction{ WorkoutId = Workouts[81].Id , Step = 3 , Instruction = " Push through your heel into the box, lifting your hips up to the point where there is a straight line from your chest to your knees." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[82].Id , Step = 1 , Instruction = " Lie on your back keeping both knees bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[82].Id , Step = 2 , Instruction = " Have a slider under the heel of the working leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[82].Id , Step = 3 , Instruction = " Extend and bend the working lag applying gentle downwards pressure." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[83].Id , Step = 1 , Instruction = " Lie on your back with bent knees and heels on a slider." },
             new WorkoutInstruction{ WorkoutId = Workouts[83].Id , Step = 2 , Instruction = " Perform a posterior pelvic tilt (flatten your lower back on the ground)." },
             new WorkoutInstruction{ WorkoutId = Workouts[83].Id , Step = 3 , Instruction = " Press the heels into the ground to raise your hips off it." },
             new WorkoutInstruction{ WorkoutId = Workouts[83].Id , Step = 4 , Instruction = " Extend and bend the working leg." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 1 , Instruction = " Bend your knees so your feet are flat on the floor with heels under knees and toes raised." },
             new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 2 , Instruction = " Place sliders under your heels. Perform a posterior pelvic tilt (flatten your lower back against the ground)." },
             new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 3 , Instruction = " Push through your heels into the ground, lifting your hips up to the point where there is a straight line from your chest to your knees." },
             new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 4 , Instruction = " Extend your legs in a slow, controlled manner, to lower your bum to the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 5 , Instruction = " Casually bend knees before repeating." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[85].Id , Step = 1 , Instruction = " Stand up straight using a balancing aid." },
             new WorkoutInstruction{ WorkoutId = Workouts[85].Id , Step = 2 , Instruction = " Shift your weight on one leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[85].Id , Step = 3 , Instruction = " Bend and extend the non-weight bearing leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[85].Id , Step = 4 , Instruction = " Knees should remain aligned." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[86].Id , Step = 1 , Instruction = " Stand up straight using a balancing aid." },
             new WorkoutInstruction{ WorkoutId = Workouts[86].Id , Step = 2 , Instruction = " Shift your weight on one leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[86].Id , Step = 3 , Instruction = " Bend the non-weight bearing leg and hold." },
             new WorkoutInstruction{ WorkoutId = Workouts[86].Id , Step = 4 , Instruction = " Knees should remain aligned." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[87].Id , Step = 1 , Instruction = " Lie on your back with slightly bent knees and heels on sliders." },
             new WorkoutInstruction{ WorkoutId = Workouts[87].Id , Step = 2 , Instruction = " Pull your heels towards your glutes to lift your hips off the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[87].Id , Step = 3 , Instruction = " Extend knees to starting position, but do not rest hips on ground." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[88].Id , Step = 1 , Instruction = " Hold on to something stable and pull the leg on the opposing side straight up. Hold this position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[89].Id , Step = 1 , Instruction = " Set up a bar at mid way up your quad. Place the working leg against the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[89].Id , Step = 2 , Instruction = " Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
             new WorkoutInstruction{ WorkoutId = Workouts[89].Id , Step = 3 , Instruction = " Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
             new WorkoutInstruction{ WorkoutId = Workouts[89].Id , Step = 4 , Instruction = " When you feel the stretch, push your hips forward again until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[90].Id , Step = 1 , Instruction = " Place a barbell at about midway up your thigh. Press your quads into the barbell." },
             new WorkoutInstruction{ WorkoutId = Workouts[90].Id , Step = 2 , Instruction = " Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[90].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[91].Id , Step = 1 , Instruction = " Lie face-down on a stability ball, hips centered, feet anchored, hands behind your head." },
             new WorkoutInstruction{ WorkoutId = Workouts[91].Id , Step = 2 , Instruction = " Engage your core, lift your upper body until aligned with legs, keeping your neck neutral." },
             new WorkoutInstruction{ WorkoutId = Workouts[91].Id , Step = 3 , Instruction = " Lower your torso slowly back to the starting position, maintaining control and steady breathing." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[92].Id , Step = 1 , Instruction = " Lie on your back, heels on a stability ball, arms flat, and core engaged." },
             new WorkoutInstruction{ WorkoutId = Workouts[92].Id , Step = 2 , Instruction = " Lift hips, curl the ball toward you using your hamstrings, keeping control and balance." },
             new WorkoutInstruction{ WorkoutId = Workouts[92].Id , Step = 3 , Instruction = " Extend legs back to start while keeping hips lifted, then repeat for desired reps." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[93].Id , Step = 1 , Instruction = " Lie face down on a stability ball, hands on the floor, legs extended straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[93].Id , Step = 2 , Instruction = " Engage glutes and lower back, raising legs until aligned with your torso." },
             new WorkoutInstruction{ WorkoutId = Workouts[93].Id , Step = 3 , Instruction = " Slowly lower legs back down without touching the ground, maintaining core engagement. Repeat." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[94].Id , Step = 1 , Instruction = " Place one knee on a bench." },
             new WorkoutInstruction{ WorkoutId = Workouts[94].Id , Step = 2 , Instruction = " Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[94].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
             #endregion,
+            
             #region Kettlebells,
             new WorkoutInstruction{ WorkoutId = Workouts[95].Id , Step = 1 , Instruction = " Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs." },
             new WorkoutInstruction{ WorkoutId = Workouts[95].Id , Step = 2 , Instruction = " Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[95].Id , Step = 3 , Instruction = " Return to standing position and repeat." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[96].Id , Step = 1 , Instruction = " Stand with your feet slightly wider than shoulder width apart holding the kettlebell between your legs, with your knees slightly bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[96].Id , Step = 2 , Instruction = " Keeping your back straight, swing the kettlebell upwards until the kettlebell is level with your chest and carefully lower." },
             new WorkoutInstruction{ WorkoutId = Workouts[96].Id , Step = 3 , Instruction = " Repeat" },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[97].Id , Step = 1 , Instruction = " Stand with your feet shoulder width apart, lifting one foot off the floor behind you. Hold the kettlebell in the same arm as the lifted leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[97].Id , Step = 2 , Instruction = " Bend forward at the hips bringing the kettlebell to the floor while you extend your lifted leg behind you, keeping your back straight - holding out your arm to the side for balance." },
             new WorkoutInstruction{ WorkoutId = Workouts[97].Id , Step = 3 , Instruction = " Return to the upright position and repeat." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[98].Id , Step = 1 , Instruction = " Stand with your feet shoulder width apart, shifting one foot behind you. Hold the kettlebell in both hands in front of your thighs." },
             new WorkoutInstruction{ WorkoutId = Workouts[98].Id , Step = 2 , Instruction = " Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees and keep your back straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[98].Id , Step = 3 , Instruction = " Return to the upright position and repeat." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 1 , Instruction = " Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 2 , Instruction = " Bend forward at the hips keeping your back and knees straight and the kettlebell close to your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 3 , Instruction = " Return to standing position and thrust your pelvis forward." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[100].Id , Step = 1 , Instruction = " Stand with feet shoulder-width apart, kettlebell between legs." },
             new WorkoutInstruction{ WorkoutId = Workouts[100].Id , Step = 2 , Instruction = " Hinge at hips, swing kettlebell between legs." },
             new WorkoutInstruction{ WorkoutId = Workouts[100].Id , Step = 3 , Instruction = " Swing kettlebell up, switch hands at the top, and repeat in a fluid motion." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[101].Id , Step = 1 , Instruction = " Stand with feet hip-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[101].Id , Step = 2 , Instruction = " Bend at hips and knees to lift kettlebells." },
             new WorkoutInstruction{ WorkoutId = Workouts[101].Id , Step = 3 , Instruction = " Stand tall, then lower." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[102].Id , Step = 1 , Instruction = " Stand with feet shoulder-width apart, kettlebells outside legs" },
             new WorkoutInstruction{ WorkoutId = Workouts[102].Id , Step = 2 , Instruction = " Hinge at hips, swing kettlebells forward, then back." },
             new WorkoutInstruction{ WorkoutId = Workouts[102].Id , Step = 3 , Instruction = " Thrust hips to swing kettlebells upward, keeping arms straight." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[103].Id , Step = 1 , Instruction = " Stand with feet shoulder-width apart, kettlebell between legs." },
             new WorkoutInstruction{ WorkoutId = Workouts[103].Id , Step = 2 , Instruction = " Hinge at hips, grip kettlebell, and swing it overhead." },
             new WorkoutInstruction{ WorkoutId = Workouts[103].Id , Step = 3 , Instruction = " Extend hips and knees, lock out arms at the top." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[104].Id , Step = 1 , Instruction = " Stand with feet hip-width apart, holding kettlebells in front." },
             new WorkoutInstruction{ WorkoutId = Workouts[104].Id , Step = 2 , Instruction = " Hinge at hips, keeping back straight, and lower kettlebells towards ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[104].Id , Step = 3 , Instruction = " Return to start position, squeezing glutes at the top." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[105].Id , Step = 1 , Instruction = " Stand with feet shoulder-width apart, kettlebell between legs, grip with one hand, hinge at hips." },
             new WorkoutInstruction{ WorkoutId = Workouts[105].Id , Step = 2 , Instruction = " Swing kettlebell forcefully forward, using hip thrust, arm straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[105].Id , Step = 3 , Instruction = " Swing kettlebell back between legs, repeat for desired reps." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[106].Id , Step = 1 , Instruction = " Begin with feet hip-width apart, one foot forward, kettlebell between feet." },
             new WorkoutInstruction{ WorkoutId = Workouts[106].Id , Step = 2 , Instruction = " Hinge at hips, grip kettlebell, and stand tall." },
             new WorkoutInstruction{ WorkoutId = Workouts[106].Id , Step = 3 , Instruction = " Lower kettlebell with control, then repeat." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[107].Id , Step = 1 , Instruction = " Lower kettlebell with control, then repeat." },
             new WorkoutInstruction{ WorkoutId = Workouts[107].Id , Step = 2 , Instruction = " Explosively thrust hips forward, swing kettlebell to chest height." },
             new WorkoutInstruction{ WorkoutId = Workouts[107].Id , Step = 3 , Instruction = " Repeat for desired reps, keeping core engaged and maintaining a staggered stance for balance." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[108].Id , Step = 1 , Instruction = " Start with a kettlebell between your legs, hinge at hips, swing it upward." },
             new WorkoutInstruction{ WorkoutId = Workouts[108].Id , Step = 2 , Instruction = " Lift kettlebell to chest level, elbows high, engaging shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[108].Id , Step = 3 , Instruction = " Lower kettlebell back down, maintaining control. Repeat for desired reps." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[109].Id , Step = 1 , Instruction = " Begin by standing with your feet hip-width apart and holding a kettlebell at one side of your body, with your palms facing your thighs." },
             new WorkoutInstruction{ WorkoutId = Workouts[109].Id , Step = 2 , Instruction = " Keeping your core engaged and your back straight, bend at the hips and knees to lower the kettlebell down towards the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[109].Id , Step = 3 , Instruction = " As the kettlebell reaches the ground, use your legs and glutes to push through your heels and extend your hips and knees to raise your body back to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[109].Id , Step = 4 , Instruction = " Repeat the movement for the desired number of reps, then switch sides and repeat the exercise with the kettlebell on the opposite side of your body." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[110].Id , Step = 1 , Instruction = " Set up a bar at mid way up your quad. Place the working leg against the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[110].Id , Step = 2 , Instruction = " Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time." },
             new WorkoutInstruction{ WorkoutId = Workouts[110].Id , Step = 3 , Instruction = " Bend your back knee and push your hips back. Look for a stretch in your front hamstring." },
             new WorkoutInstruction{ WorkoutId = Workouts[110].Id , Step = 4 , Instruction = " When you feel the stretch, push your hips forward again until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[111].Id , Step = 1 , Instruction = " Place a barbell at about midway up your thigh. Press your quads into the barbell." },
             new WorkoutInstruction{ WorkoutId = Workouts[111].Id , Step = 2 , Instruction = " Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[111].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[112].Id , Step = 1 , Instruction = " Place one knee on a bench and hold a kettlebell in a goblet position." },
             new WorkoutInstruction{ WorkoutId = Workouts[112].Id , Step = 2 , Instruction = " Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[112].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[113].Id , Step = 1 , Instruction = " Place one knee on a bench and hold a kettlebell." },
             new WorkoutInstruction{ WorkoutId = Workouts[113].Id , Step = 2 , Instruction = " Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[113].Id , Step = 3 , Instruction = " When you feel the stretch, push your hips forward until you're back in a standing position." },
             #endregion,
+            
             #region Band,
             new WorkoutInstruction{ WorkoutId = Workouts[114].Id , Step = 1 , Instruction = " Anchor the band at hip level. Take a few steps away until the band is taut." },
             new WorkoutInstruction{ WorkoutId = Workouts[114].Id , Step = 2 , Instruction = " Push your hips back while keeping your back flat until you feel a stretch in your hamstrings." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[115].Id , Step = 1 , Instruction = " Anchor the band to the lowest point possible. Straddle the band and then grab with both hands." },
             new WorkoutInstruction{ WorkoutId = Workouts[115].Id , Step = 2 , Instruction = " Take a few steps away until the band is taut." },
             new WorkoutInstruction{ WorkoutId = Workouts[115].Id , Step = 3 , Instruction = " Push your butt back until you feel a stretch in your hamstrings. Then extend the hips back into the starting position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[116].Id , Step = 1 , Instruction = " Stand on your band with both feet." },
             new WorkoutInstruction{ WorkoutId = Workouts[116].Id , Step = 2 , Instruction = " Hinge forward at the hips while keeping a flat back." },
             new WorkoutInstruction{ WorkoutId = Workouts[116].Id , Step = 3 , Instruction = " Hinge until you feel a stretch in your hamstrings." },
             new WorkoutInstruction{ WorkoutId = Workouts[116].Id , Step = 4 , Instruction = " Push your hips back forward until you are in a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[117].Id , Step = 1 , Instruction = " Loop the band around a sturdy anchor point such as a weightlifting rack or a door handle." },
             new WorkoutInstruction{ WorkoutId = Workouts[117].Id , Step = 2 , Instruction = " Lie on your back with your heels placed inside the band. Make sure the band is centered under your heels and your feet are hip-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[117].Id , Step = 3 , Instruction = " Using your hamstrings, curl your heels towards your glutes while keeping your hips on the ground." },
             #endregion,
+            
             #region Yoga,
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 1 , Instruction = " Start in a tabletop position with your hands and knees on the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 2 , Instruction = " Step your right foot forward, placing it between your hands." },
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 3 , Instruction = " Straighten your right leg and flex your toes towards your face, keeping your hands on the floor for support." },
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 4 , Instruction = " Hold for several breaths, then switch sides and repeat." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 1 , Instruction = " Sit on the floor with your legs extended in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 2 , Instruction = " Inhale and lengthen your spine, then exhale and fold forward from your hips, keeping your spine long." },
             new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 3 , Instruction = " Reach for your feet or ankles, keeping your elbows straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 4 , Instruction = " Hold for several breaths, then release." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 1 , Instruction = " Begin in Tadasana (Mountain Pose)." },
             new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 2 , Instruction = " Step your left foot back about 3-4 feet and place your heel down, keeping your toes pointing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 3 , Instruction = " Inhale and lengthen your spine, then exhale and fold forward from your hips, bringing your hands to the floor on either side of your right foot." },
             new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 4 , Instruction = " Hold for several breaths, then switch sides and repeat." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 1 , Instruction = " Begin in Tadasana (Mountain Pose) with two blocks at the top of your mat." },
             new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 2 , Instruction = " Step your left foot back about 3-4 feet and place your heel down, keeping your toes pointing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 3 , Instruction = " Place the blocks on either side of your right foot at a height that allows you to comfortably place your hands on them." },
             new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 4 , Instruction = " Inhale and lengthen your spine, then exhale and fold forward from your hips, bringing your hands to the blocks. Hold for several breaths, then switch sides and repeat." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 1 , Instruction = " Stand with your feet hip-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 2 , Instruction = " Hinge forward at your hips, reaching your hands towards the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 3 , Instruction = " Allow your head to hang heavy and feel a stretch in the back of your legs." },
             new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 4 , Instruction = " Hold for a few breaths and then slowly roll up to a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 1 , Instruction = " Stand with your feet hip-width apart and place a block on the ground in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 2 , Instruction = " Hinge forward at your hips and place your hands on the block." },
             new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 3 , Instruction = " Allow your head to hang heavy and feel a stretch in the back of your legs." },
             new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 4 , Instruction = " Hold for a few breaths and then slowly roll up to a standing position." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 1 , Instruction = " Start in mountain pose, standing with your feet hip-width apart and arms at your sides." },
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 2 , Instruction = " Step your left foot back about 3-4 feet and raise it off the ground, while keeping your right foot facing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 3 , Instruction = " Inhale and reach your arms forward, parallel to the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 4 , Instruction = " Exhale and hinge forward at your hips, bringing your torso parallel to the ground and extending your left leg straight back. Keep your arms and right leg straight and hold the pose for a few breaths" },
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 5 , Instruction = " inhale and return to mountain pose. Repeat on the other side." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 1 , Instruction = " Start standing at the top of your mat with your feet wide apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 2 , Instruction = " Start standing at the top of your mat with your feet wide apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 3 , Instruction = " Exhale and fold forward from your hips, bringing your hands up and over your head towards the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 4 , Instruction = " Hold for a few breaths and then release the hands and come back up to standing." },
             #endregion,
+            
             #region Cardio,
             new WorkoutInstruction{ WorkoutId = Workouts[126].Id , Step = 1 , Instruction = " Get the treadmill up to a comfortable speed where you are doing a light jog." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[127].Id , Step = 1 , Instruction = " Get the treadmill up to a speed where you are doing a sprint." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[128].Id , Step = 1 , Instruction = " Get the treadmill up to a comfortable speed where you are doing a walk." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 1 , Instruction = " Perform s sprint in a figure eight pattern." },
             new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 2 , Instruction = " Make sure to stay low." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 1 , Instruction = " Start with a shoulder width stance." },
             new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 2 , Instruction = " Stay on your toes, step right, tap your left toe to the ground, plant your right foot and raise your left leg." },
             new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 3 , Instruction = " Then repeat in the opposite direction." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 1 , Instruction = " Stand straight, feet hip-width apart, engage core." },
             new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 2 , Instruction = " Lift knees alternately, tap with same side hand." },
             new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 3 , Instruction = " Continue rhythmically, maintain posture, increase speed as able." },
+            
             new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 1 , Instruction = " Stand tall, jog in place, bringing heels toward your glutes." },
             new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 2 , Instruction = " Keep your core tight and swing arms naturally." },
             new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 3 , Instruction = " Alternate legs quickly, maintaining a steady rhythm." },
@@ -727,11 +856,13 @@ public class HamstringWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[31].Id, EquipmentId = plateId },
             new WorkoutEquipment{ WorkoutId = Workouts[32].Id, EquipmentId = plateId },
             #endregion,
+            
             #region Smith-Machine,
             new WorkoutEquipment{ WorkoutId = Workouts[33].Id, EquipmentId = smithMachineId },
             new WorkoutEquipment{ WorkoutId = Workouts[34].Id, EquipmentId = smithMachineId },
             new WorkoutEquipment{ WorkoutId = Workouts[35].Id, EquipmentId = smithMachineId },
             #endregion,
+            
             #region Dumbbells,
             new WorkoutEquipment{ WorkoutId = Workouts[36].Id, EquipmentId = dumbbellId },
             new WorkoutEquipment{ WorkoutId = Workouts[37].Id, EquipmentId = dumbbellId },
@@ -747,9 +878,11 @@ public class HamstringWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[47].Id, EquipmentId = dumbbellId },
             new WorkoutEquipment{ WorkoutId = Workouts[48].Id, EquipmentId = dumbbellId },
             #endregion,
+            
             #region Medicine-Ball,
             new WorkoutEquipment{ WorkoutId = Workouts[49].Id, EquipmentId = medicineBallId },
             #endregion,
+            
             #region Cables,
             new WorkoutEquipment{ WorkoutId = Workouts[50].Id, EquipmentId = cableId },
             new WorkoutEquipment{ WorkoutId = Workouts[51].Id, EquipmentId = cableId },
@@ -761,14 +894,17 @@ public class HamstringWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[57].Id, EquipmentId = cableId },
             new WorkoutEquipment{ WorkoutId = Workouts[58].Id, EquipmentId = cableId },
             #endregion,
+            
             #region TRX,
             new WorkoutEquipment{ WorkoutId = Workouts[59].Id, EquipmentId = trxId },
             #endregion,
+            
             #region Vitruvian,
             new WorkoutEquipment{ WorkoutId = Workouts[60].Id, EquipmentId = vitruvianId },
             new WorkoutEquipment{ WorkoutId = Workouts[61].Id, EquipmentId = vitruvianId },
             new WorkoutEquipment{ WorkoutId = Workouts[62].Id, EquipmentId = vitruvianId },
             #endregion,
+            
             #region Recovery,
             new WorkoutEquipment{ WorkoutId = Workouts[63].Id, EquipmentId = recoveryId },
             new WorkoutEquipment{ WorkoutId = Workouts[64].Id, EquipmentId = recoveryId },
@@ -783,6 +919,7 @@ public class HamstringWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[73].Id, EquipmentId = recoveryId },
             new WorkoutEquipment{ WorkoutId = Workouts[74].Id, EquipmentId = recoveryId },
             #endregion,
+            
             #region Bodyweight,
             new WorkoutEquipment{ WorkoutId = Workouts[75].Id, EquipmentId = bodyweightId },
             new WorkoutEquipment{ WorkoutId = Workouts[76].Id, EquipmentId = bodyweightId },
@@ -805,6 +942,7 @@ public class HamstringWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[93].Id, EquipmentId = bodyweightId },
             new WorkoutEquipment{ WorkoutId = Workouts[94].Id, EquipmentId = bodyweightId },
             #endregion,
+            
             #region Kettlebells,
             new WorkoutEquipment{ WorkoutId = Workouts[95].Id, EquipmentId = kettlebellId },
             new WorkoutEquipment{ WorkoutId = Workouts[96].Id, EquipmentId = kettlebellId },
@@ -826,12 +964,14 @@ public class HamstringWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[112].Id, EquipmentId = kettlebellId },
             new WorkoutEquipment{ WorkoutId = Workouts[113].Id, EquipmentId = kettlebellId },
             #endregion,
+            
             #region Band,
             new WorkoutEquipment{ WorkoutId = Workouts[114].Id, EquipmentId = BandId },
             new WorkoutEquipment{ WorkoutId = Workouts[115].Id, EquipmentId = BandId },
             new WorkoutEquipment{ WorkoutId = Workouts[116].Id, EquipmentId = BandId },
             new WorkoutEquipment{ WorkoutId = Workouts[117].Id, EquipmentId = BandId },
             #endregion,
+            
             #region Yoga,
             new WorkoutEquipment{ WorkoutId = Workouts[118].Id, EquipmentId = yogaId },
             new WorkoutEquipment{ WorkoutId = Workouts[119].Id, EquipmentId = yogaId },
@@ -842,6 +982,7 @@ public class HamstringWorkoutDbInitializer
             new WorkoutEquipment{ WorkoutId = Workouts[124].Id, EquipmentId = yogaId },
             new WorkoutEquipment{ WorkoutId = Workouts[125].Id, EquipmentId = yogaId },
             #endregion,
+            
             #region Cardio,
             new WorkoutEquipment{ WorkoutId = Workouts[126].Id, EquipmentId = cardioId },
             new WorkoutEquipment{ WorkoutId = Workouts[127].Id, EquipmentId = cardioId },
@@ -873,6 +1014,7 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[10].Id, Level = Difficulty.Advanced },
             new WorkoutLevel{ WorkoutId = Workouts[11].Id, Level = Difficulty.Advanced },
             #endregion,
+            
             #region Machine,
             new WorkoutLevel{ WorkoutId = Workouts[12].Id, Level = Difficulty.Novice },
             new WorkoutLevel{ WorkoutId = Workouts[13].Id, Level = Difficulty.Intermediate },
@@ -883,12 +1025,14 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[18].Id, Level = Difficulty.Novice },
             new WorkoutLevel{ WorkoutId = Workouts[19].Id, Level = Difficulty.Novice },
             #endregion,
+            
             #region Stretches,
             new WorkoutLevel{ WorkoutId = Workouts[20].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[21].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[22].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[23].Id, Level = Difficulty.Beginner },
             #endregion,
+            
             #region Plate,
             new WorkoutLevel{ WorkoutId = Workouts[24].Id, Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = Workouts[25].Id, Level = Difficulty.Advanced },
@@ -900,11 +1044,13 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[31].Id, Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = Workouts[32].Id, Level = Difficulty.Intermediate },
             #endregion,
+            
             #region Smith-Machine,
             new WorkoutLevel{ WorkoutId = Workouts[33].Id, Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = Workouts[34].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[35].Id, Level = Difficulty.Intermediate },
             #endregion,
+            
             #region Dumbbells,
             new WorkoutLevel{ WorkoutId = Workouts[36].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[37].Id, Level = Difficulty.Beginner },
@@ -920,9 +1066,11 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[47].Id, Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = Workouts[48].Id, Level = Difficulty.Intermediate },
             #endregion,
+            
             #region Medicine-Ball,
             new WorkoutLevel{ WorkoutId = Workouts[49].Id, Level = Difficulty.Intermediate },
             #endregion,
+            
             #region Cables,
             new WorkoutLevel{ WorkoutId = Workouts[50].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[51].Id, Level = Difficulty.Advanced },
@@ -934,14 +1082,17 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[57].Id, Level = Difficulty.Advanced },
             new WorkoutLevel{ WorkoutId = Workouts[58].Id, Level = Difficulty.Advanced },
             #endregion,
+            
             #region TRX,
             new WorkoutLevel{ WorkoutId = Workouts[59].Id, Level = Difficulty.Beginner },
             #endregion,
+            
             #region Vitruvian,
             new WorkoutLevel{ WorkoutId = Workouts[60].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[61].Id, Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = Workouts[62].Id, Level = Difficulty.Intermediate },
             #endregion,
+            
             #region Recovery,
             new WorkoutLevel{ WorkoutId = Workouts[63].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[64].Id, Level = Difficulty.Beginner },
@@ -956,6 +1107,7 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[73].Id, Level = Difficulty.Advanced },
             new WorkoutLevel{ WorkoutId = Workouts[74].Id, Level = Difficulty.Beginner },
             #endregion,
+            
             #region Bodyweight,
             new WorkoutLevel{ WorkoutId = Workouts[75].Id, Level = Difficulty.Novice },
             new WorkoutLevel{ WorkoutId = Workouts[76].Id, Level = Difficulty.Beginner },
@@ -978,6 +1130,7 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[93].Id, Level = Difficulty.Novice },
             new WorkoutLevel{ WorkoutId = Workouts[94].Id, Level = Difficulty.Intermediate },
             #endregion,
+            
             #region Kettlebells,
             new WorkoutLevel{ WorkoutId = Workouts[95].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[96].Id, Level = Difficulty.Intermediate },
@@ -999,12 +1152,14 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[112].Id, Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = Workouts[113].Id, Level = Difficulty.Intermediate },
             #endregion,
+            
             #region Band,
             new WorkoutLevel{ WorkoutId = Workouts[114].Id, Level = Difficulty.Novice },
             new WorkoutLevel{ WorkoutId = Workouts[115].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[116].Id, Level = Difficulty.Novice },
             new WorkoutLevel{ WorkoutId = Workouts[117].Id, Level = Difficulty.Beginner },
             #endregion,
+            
             #region Yoga,
             new WorkoutLevel{ WorkoutId = Workouts[118].Id, Level = Difficulty.Beginner },
             new WorkoutLevel{ WorkoutId = Workouts[119].Id, Level = Difficulty.Beginner },
@@ -1015,6 +1170,7 @@ public class HamstringWorkoutDbInitializer
             new WorkoutLevel{ WorkoutId = Workouts[124].Id, Level = Difficulty.Intermediate },
             new WorkoutLevel{ WorkoutId = Workouts[125].Id, Level = Difficulty.Beginner },
             #endregion,
+            
             #region Cardio,
             new WorkoutLevel{ WorkoutId = Workouts[126].Id, Level = Difficulty.Novice },
             new WorkoutLevel{ WorkoutId = Workouts[127].Id, Level = Difficulty.Beginner },
@@ -1037,11 +1193,268 @@ public class HamstringWorkoutDbInitializer
 
         bodyWorkouts = new List<BodyWorkout>
         {
-            #region Traps & Barbell
-            new BodyWorkout{ BodyId = bicepId, WorkoutId = Workouts[0].Id, Target = PriorityTarget.Primary },
+            #region Barbell,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[0].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[0].Id, Target = PriorityTarget.Level 4 },
 
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[1].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[1].Id, Target = PriorityTarget.Level 4 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[2].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[2].Id, Target = PriorityTarget.Level 4 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[3].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[3].Id, Target = PriorityTarget.Level 4 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[4].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[5].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[5].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[6].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[6].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[7].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[8].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[8].Id, Target = PriorityTarget.Level 5
+            },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[9].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[9].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[10].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[10].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[11].Id, Target = PriorityTarget.Tertiary },
+            #endregion,
+
+            #region Machine,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[12].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[12].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[13].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[13].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[14].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[14].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[15].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[15].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[16].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[16].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[17].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[17].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[18].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[18].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[19].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[19].Id, Target = PriorityTarget.Secondary },
+            #endregion,
+
+            #region Stretches,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[20].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[21].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[22].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[23].Id, Target = PriorityTarget.Primary },
+            #endregion,
+            
+            #region Plate,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[24].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[25].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[26].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[27].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[28].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[29].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[30].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[31].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[32].Id, Target = PriorityTarget.Tertiary },
+            #endregion,
+            
+            #region Smith-Machine,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[33].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[34].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[35].Id, Target = PriorityTarget.Tertiary },
+            #endregion,
+            
+            #region Dumbbells,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[36].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[36].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[37].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[37].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[38].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[38].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[39].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[39].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[40].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[40].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[41].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[41].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[42].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[43].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[44].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[44].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[45].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[45].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[46].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[46].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[47].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[47].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[48].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[48].Id, Target = PriorityTarget.Level 5 },
+            #endregion,
+
+            #region Medicine-Ball,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[49].Id, Target = PriorityTarget.Tertiary },
+            #endregion,
+            
+            #region Cables,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[50].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[50].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[51].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[51].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[52].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[52].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[53].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[53].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[54].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[54].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[55].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[55].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[56].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[56].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[57].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[57].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[58].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[58].Id, Target = PriorityTarget.Level 5 },
+            #endregion,
+            
+            #region TRX,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[59].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[59].Id, Target = PriorityTarget.Secondary },
+            #endregion,
+            
+            #region Vitruvian,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[60].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[61].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[62].Id, Target = PriorityTarget.Tertiary },
+            #endregion,
+            
+            #region Recovery,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[63].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[64].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[65].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[66].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[67].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[68].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[69].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[70].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[71].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[72].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[73].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[74].Id, Target = PriorityTarget.Tertiary },
+            #endregion,
+            
+            #region Bodyweight,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[75].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[75].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[76].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[76].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[77].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = medHamstringId , WorkoutId = Workouts[77].Id, Target = PriorityTarget.Secondary },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[78].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[79].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[80].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[81].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[82].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[83].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[84].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[85].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[86].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[87].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[88].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[89].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[89].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[90].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[90].Id, Target = PriorityTarget.Level 5 },
+
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[91].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[92].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[93].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[94].Id, Target = PriorityTarget.Tertiary },
+            #endregion,
+            
+            #region Kettlebells,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[95].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[96].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[97].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[98].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[99].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[100].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[101].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[102].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[103].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[104].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[105].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[106].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[107].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[108].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[109].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[110].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[111].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[112].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[113].Id, Target = PriorityTarget.Tertiary },
+            #endregion,
+            
+            #region Band,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[114].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[115].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[116].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[117].Id, Target = PriorityTarget.Primary },
+            #endregion,
+            
+            #region Yoga,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[118].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[119].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[120].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[121].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[122].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[123].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[124].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[125].Id, Target = PriorityTarget.Primary },
+            #endregion,
+            
+            #region Cardio,
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[126].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[127].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[128].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[129].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[130].Id, Target = PriorityTarget.Tertiary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[131].Id, Target = PriorityTarget.Secondary },
+            new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[132].Id, Target = PriorityTarget.Primary },
             #endregion
-
         };
         await context.BodyWorkouts.AddRangeAsync(bodyWorkouts);
         await context.SaveChangesAsync();

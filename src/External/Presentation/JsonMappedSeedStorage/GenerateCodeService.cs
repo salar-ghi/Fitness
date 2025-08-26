@@ -87,7 +87,7 @@ public class GenerateCodeService : IGenerateCodeService
                         string muscleName = EscapeString(muscle);
                         string priority = target.MuscleTargetLevel;
 
-                        if (muscleName == "Calves" || muscleName == "Tibialis" || muscleName == "Soleus" || muscleName == "Gastrocnemius")
+                        if (muscleName == "Hamstrings" || muscleName == "Medial Hamstrings" || muscleName == "Lateral Hamstrings")
                         {
                             var muscleId = GetMuscleId(muscleName);
                             bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = Workouts[{index}].Id, Target = PriorityTarget.{priority} }}");
@@ -104,67 +104,6 @@ public class GenerateCodeService : IGenerateCodeService
                 workoutLevelLines.Add("#endregion");
                 bodyWorkoutLines.Add("#endregion");
             }
-
-            //for (int i = 0; i < workouts.Count; i++)
-            //{
-            //    var workout = workouts[i];
-
-            //    // Escape quotes and handle nulls
-            //    string escapedName = EscapeString(workout.WorkoutName);
-
-            //    // 1. Generate Workout initialization
-            //    if (workout.Equipment == "TRX" || workout.Equipment == "Bodyweight")
-            //    {
-            //        workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = crossfitId, Description = \"\" }}");
-            //    }
-            //    else if (workout.Equipment == "Yoga")
-            //    {
-            //        workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = yogaSportId, Description = \"\" }}");
-            //    }
-            //    else if (workout.Equipment == "Cardio" || workout.Equipment == "Recovery"
-            //        || workout.Equipment == "Stretches" || workout.Equipment == "Band")
-            //    {
-            //        workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = cardioSportId, Description = \"\" }}");
-            //    }
-            //    else
-            //    {
-            //        workoutLines.Add($"new Workout{{ Name = \"{escapedName}\", SportId = bodybuildingId, Description = \"\" }}");
-            //    }
-
-            //    if (true)
-            //    {
-            //        var validSteps = workout.Instruction
-            //            .Where(kv => !string.IsNullOrWhiteSpace(kv.Value))
-            //            .OrderBy(kv => int.Parse(kv.Key));
-
-            //        foreach (var step in validSteps)
-            //        {
-            //            instructionLines.Add($"new WorkoutInstruction{{ WorkoutId = Workouts[{i}].Id , Step = {step.Key} , Instruction = \" {EscapeString(step.Value)}\" }}");
-            //        }
-            //    }
-
-            //    string equipmentId = GetEquipmentIdVariable(workout.Equipment);
-            //    equipmentLines.Add($"new WorkoutEquipment{{ WorkoutId = Workouts[{i}].Id, EquipmentId = {equipmentId} }}");
-
-
-            //    foreach (var (muscle, target) in workout.Muscles)
-            //    {
-            //        string muscleName = EscapeString(muscle);
-            //        string priority = target.MuscleTargetLevel;
-
-            //        if (muscleName == "Calves" || muscleName == "Tibialis" || muscleName == "Soleus" || muscleName == "Gastrocnemius")
-            //        {
-            //            var muscleId = GetMuscleId(muscleName);
-            //            bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = Workouts[{i}].Id, Target = PriorityTarget.{priority} }}");
-            //        }
-            //        else
-            //        {
-            //            continue;
-            //        }
-            //    }
-            //}
-
-            // Output the results
             Console.Clear();
             Console.WriteLine("// Workout Initializations");
             var workoutsss = ($"var Workouts = new List<Workout>\n{{\n    {string.Join(",\n    ", workoutLines)}\n}};");
