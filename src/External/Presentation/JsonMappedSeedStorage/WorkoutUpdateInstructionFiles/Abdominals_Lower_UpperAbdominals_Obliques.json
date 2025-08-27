@@ -392,7 +392,10 @@
   },
   {
     "WorkoutName": "Machine Crunch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place your feet under the foot pads and grab the handles with your hands.",
+      "2": "Flex your spine and bring your upper and lower body together."
+    },
     "Equipment": "Machine",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -552,7 +555,12 @@
   },
   {
     "WorkoutName": "Plate Overhead Carry",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing upright with your feet shoulder-width apart. Hold a single weight plate overhead with both hands, keeping your arms extended straight above your head.",
+      "2": "Begin walking forward, taking slow and steady steps while maintaining a straight line. Your focus should be on maintaining balance and control of the weight plate overhead.",
+      "3": "As you walk, continue to keep your arms extended and the weight plate overhead. Try to maintain good posture and avoid leaning forward or backward, as this could result in losing control of the weight plate.",
+      "4": "Continue walking for a set distance or for a certain amount of time, keeping your focus on proper form and technique. When finished, return to the starting position and repeat as desired."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -681,7 +689,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Plank Glute Kickback",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start in a plank position with Bosu under feet.",
+      "2": "Lift one leg back, squeezing glutes.",
+      "3": "Lower the leg back down and switch sides."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -725,7 +737,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Situp",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on back, bosu elevated toward the ceiling.",
+      "2": "Sit up, engaging core muscles.",
+      "3": "Lower back down to complete one situp."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -739,7 +755,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Toe Tap",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a low box.",
+      "2": "Bring one foot to the edge of the box and alternate as quickly as possible.",
+      "3": "Only lightly tap your feet to the box."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -753,7 +773,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Up And Over",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand next to Bosu, step up and over it.",
+      "2": "Repeat, moving laterally side to side.",
+      "3": "Keep a steady pace, engaging core muscles."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -788,7 +812,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Forearm Sideplank",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on one side, forearm on Bosu, elbow under shoulder.",
+      "2": "Lift hips to create a side plank.",
+      "3": "Hold the side plank position, then switch sides."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -799,7 +827,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Hand Sideplank",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place hand on Bosu, arm straight, facing sideways.",
+      "2": "Stack feet and lift hips to side plank.",
+      "3": "Hold the side plank position, then switch sides."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -810,7 +842,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Hand Sideplank Hip Abduction",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start in a side plank with hand on Bosu.",
+      "2": "Lift the top leg while keeping the body stable.",
+      "3": "Lower the leg back down."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -824,7 +860,10 @@
   },
   {
     "WorkoutName": "Bosu Ball Wood Chopper",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball with both hands and arms extended.",
+      "2": "Swing ball diagonally across body, engaging core."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1243,7 +1282,10 @@
   },
   {
     "WorkoutName": "Medicine Ball Plank",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place forearms on medicine ball, extend legs.",
+      "2": "Maintain straight body position for desired time."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1275,7 +1317,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Halo",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, hold a medicine ball.",
+      "2": "Circle the ball around your head, maintaining control.",
+      "3": "Complete the desired number of repetitions in both directions."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1304,7 +1350,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Partner Situp Toss",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie facing partner, knees bent.",
+      "2": "Sit up, toss medicine ball to partner.",
+      "3": "Catch and lower down. Repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1318,7 +1368,10 @@
   },
   {
     "WorkoutName": "Medicine Ball Slam",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lift medicine ball overhead.",
+      "2": "Slam ball down to ground with force."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1347,7 +1400,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Half Kneeling Wood Chopper",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Kneel with one knee down, holding a medicine ball.",
+      "2": "Rotate torso and until the medicine ball is pointed the opposite direction.",
+      "3": "Repeat the movement on the other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1373,7 +1430,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Partner Side Toss",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand facing partner, side by side.",
+      "2": "Toss medicine ball to partner's side.",
+      "3": "Catch and repeat toss on other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1384,7 +1445,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Rainbow Slam",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lift medicine ball overhead.",
+      "2": "Slam ball down to one side.",
+      "3": "Catch and repeat slam to the other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1395,7 +1460,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Reverse Lunge Twist",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Step back into lunge position, extend your arms, twist torso.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1412,7 +1481,10 @@
   },
   {
     "WorkoutName": "Medicine Ball Russian Twist",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit with knees bent, feet off ground.",
+      "2": "Twist torso side to side, touching medicine ball to ground."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1423,7 +1495,10 @@
   },
   {
     "WorkoutName": "Medicine Ball Wood Chopper",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball with both hands and arms extended.",
+      "2": "Swing ball diagonally across body, engaging core."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1434,7 +1509,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Wood Chopper Toss",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand sideways next to a wall.",
+      "2": "Swing medicine ball across your body and toss off the wall.",
+      "3": "Catch and repeat toss on the other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1691,7 +1770,12 @@
   },
   {
     "WorkoutName": "TRX Kneeling Ab Rollout",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin in a kneeling position with the TRX straps adjusted to mid-calf length.",
+      "2": "Grasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears.",
+      "3": "Keep your abs engaged, roll forward onto your toes, and extend your arms in front of you.",
+      "4": "Slowly lower your body down to the ground, keeping your arms straight and your abs engaged."
+    },
     "Equipment": "TRX",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1787,7 +1871,10 @@
   },
   {
     "WorkoutName": "Vitruvian Crunch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the rope attachment and lay flat.",
+      "2": "Flex your spine and curl your upper back off the ground."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1812,7 +1899,10 @@
   },
   {
     "WorkoutName": "Vitruvian Side Bend",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold one of the handle attachments.",
+      "2": "Stand upright, lean to the opposing side of the cable."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1823,7 +1913,11 @@
   },
   {
     "WorkoutName": "Vitruvian Windmill",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the attachment in one hand and raise your arm over head.",
+      "2": "Turn one foot outward and one foot forward.",
+      "3": "Lean to the side while reaching for your foot."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1992,7 +2086,11 @@
   },
   {
     "WorkoutName": "Dead Bugs Cross Lateral",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lay on your back. Extend your straight arms above the chest and raise your bent knees till they are over your hips.",
+      "2": "Lower opposite limbs towards the ground. You can feel the ground but do not rest on or tap off of the ground.",
+      "3": "Maintain a flat lower back throughout the movement (lower back should be in contact with the ground)."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2096,7 +2194,13 @@
   },
   {
     "WorkoutName": "Lat And Lateral Line Stretch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start from the standing position with an upright posture.",
+      "2": "Cross your right leg over the left and raise your right arm over your head.",
+      "3": "Lean towards your left and reach with your right arm as far to the left as possible.",
+      "4": "Repeat on the opposite side by crossing the left leg over the right.",
+      "5": "You can do the same exercise against a wall or by holding onto a pull-up bar."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2107,7 +2211,13 @@
   },
   {
     "WorkoutName": "Seated Lateral Line Stretch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start from a seated position with an upright posture.",
+      "2": "Cross your right leg over the left and raise your right arm over your head.",
+      "3": "Lean towards your left and reach with your right arm as far to the left as possible.",
+      "4": "Repeat on the opposite side by crossing the left leg over the right.",
+      "5": "You can do the same exercise against a wall or by holding onto a pull-up bar."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2502,7 +2612,11 @@
   },
   {
     "WorkoutName": "Plank Saw",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Support your weight on forearms and toes.",
+      "2": "Ensure you maintain a neutral lower back (do not poke the bum into the air).",
+      "3": "Point your toes to push your bodyweight forward then drive the elbows into the ground to push your bodyweight back."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3351,7 +3465,11 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebells close to chest.",
+      "2": "Squat down, keeping chest up.",
+      "3": "Stand up, extending hips fully."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3368,7 +3486,10 @@
   },
   {
     "WorkoutName": "Kettlebell Front Rack Step Up",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a step or bench with your feet shoulder-width apart and hold kettlebells at your shoulders.",
+      "2": "Step up onto the bench with your right foot, pushing off your foot to raise your body up onto the bench."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -3385,7 +3506,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Front Rack Forward Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebell in front rack position.",
+      "2": "Step forward, lunge. Bringing your back knee to the floor.",
+      "3": "Extend your knee and return to the starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
