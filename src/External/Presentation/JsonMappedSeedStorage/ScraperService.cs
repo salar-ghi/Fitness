@@ -30,7 +30,7 @@ public class ScraperService : IScraperService
 
     public async Task<string> ScrapeInstruction()
     {
-        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Biceps_LongHeadBicep_ShortHeadBicep.json");
+        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Neck_Shoulders_Front_RearShoulders_Lateral_Anterior_PosteriorDeltoid.json");
 
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -54,7 +54,7 @@ public class ScraperService : IScraperService
 
         string outputJson = JsonSerializer.Serialize(workouts, new JsonSerializerOptions { WriteIndented = true });
         string outputFolderPath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage");
-        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Biceps_LongHeadBicep_ShortHeadBicep.json");
+        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Neck_Shoulders_Front_RearShoulders_Lateral_Anterior_PosteriorDeltoid.json");
         //if (!File.Exists(outputFolderPath))
         //{
         //    Directory.CreateDirectory(outputFolderPath);
@@ -89,8 +89,12 @@ public class ScraperService : IScraperService
 
             await page.SetUserAgentAsync("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
             string url = $"{BaseUrl}/{equipmentSlug}/male/{muscleSlug}/{workoutSlug}";
-
+            page.DefaultNavigationTimeout = 12000;
             await page.GoToAsync(url, WaitUntilNavigation.Networkidle2);
+            //await page.GoToAsync(url, new NavigationOptions {
+            //    WaitUntil = new[] { WaitUntilNavigation.Networkidle2 },
+            //    Timeout = 8000,
+            //});
             //await page.GoToAsync(url, new NavigationOptions { WaitUntil = new[] { WaitUntilNavigation.Networkidle2 }, Timeout = 60000 });
             await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 8000 });
 
