@@ -2155,7 +2155,6 @@ public static class BackWorkoutDbInitializer
         var workoutSex = new List<WorkoutSex>();
         workoutSex = new List<WorkoutSex>
         {
-            #region Traps & Barbell
             new WorkoutSex{ WorkoutId = backWorkouts[0].Id, Sex = Sex.Male},
             new WorkoutSex{ WorkoutId = backWorkouts[0].Id, Sex = Sex.Female},
             new WorkoutSex{ WorkoutId = backWorkouts[1].Id, Sex = Sex.Male},

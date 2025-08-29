@@ -18,7 +18,7 @@ public class GenerateCodeService : IGenerateCodeService
     {
         try
         {
-            var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Hamstrings_Medial_LateralHamstrings.json");
+            var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Chest_Mid_LowerChest_UpperPectoralis.json");
             string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var workouts = JsonSerializer.Deserialize<List<WorkoutOutput>>(jsonFile, options);
@@ -87,7 +87,7 @@ public class GenerateCodeService : IGenerateCodeService
                         string muscleName = EscapeString(muscle);
                         string priority = target.MuscleTargetLevel;
 
-                        if (muscleName == "Hamstrings" || muscleName == "Medial Hamstrings" || muscleName == "Lateral Hamstrings")
+                        if (muscleName == "Chest" || muscleName == "Mid and Lower Chest" || muscleName == "Upper Pectoralis")
                         {
                             var muscleId = GetMuscleId(muscleName);
                             bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = Workouts[{index}].Id, Target = PriorityTarget.{priority} }}");
@@ -136,7 +136,8 @@ public class GenerateCodeService : IGenerateCodeService
             {
                 "Neck" => "neckId",
                 "Chest" => "chestId",
-                "UpperChest (Upper Pectoralis)" => "upChestId",
+                "Upper Pectoralis" => "upChestId",
+                "Mid and Lower Chest" => "midChestId",
                 "Mid Chest" => "midChestId",
                 "Lower Chest" => "lowChestId",
                 "Biceps" => "bicepId",
