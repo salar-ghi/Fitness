@@ -9,14 +9,10 @@
 
   <ItemGroup>
     <Compile Remove="Seed\ChestUpperPectoralisWorkoutDbInitializer.cs" />
-    <Compile Remove="Seed\GlutesWorkoutDbInitializer.cs" />
-    <Compile Remove="Seed\HamstringWorkoutDbInitializer.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Seed\ChestUpperPectoralisWorkoutDbInitializer.cs" />
-    <Content Include="Seed\GlutesWorkoutDbInitializer.cs" />
-    <Content Include="Seed\HamstringWorkoutDbInitializer.cs" />
   </ItemGroup>
 
   <ItemGroup>

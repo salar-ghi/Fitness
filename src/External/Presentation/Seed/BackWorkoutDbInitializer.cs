@@ -2573,9 +2573,8 @@ public static class BackWorkoutDbInitializer
             new WorkoutSex{ WorkoutId = backWorkouts[207].Id, Sex = Sex.Female},
             new WorkoutSex{ WorkoutId = backWorkouts[208].Id, Sex = Sex.Male},
             new WorkoutSex{ WorkoutId = backWorkouts[208].Id, Sex = Sex.Female},
-            #endregion
         };
-        //await context.WorkoutSex.AddRangeAsync(workoutSex);
-        //await context.SaveChangesAsync();
+        await context.WorkoutSex.AddRangeAsync(workoutSex);
+        await context.SaveChangesAsync();
     }
 }
