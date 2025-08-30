@@ -957,7 +957,10 @@
   },
   {
     "WorkoutName": "Vitruvian Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold bosu and hinge forward.",
+      "2": "Pull bosu towards chest, squeezing shoulder blades."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {

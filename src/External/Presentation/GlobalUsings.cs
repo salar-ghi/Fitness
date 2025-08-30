@@ -1,8 +1,10 @@
-﻿global using System.Text;
-global using Presentation;
+﻿global using Presentation;
+global using System.Text;
 global using Domain.Enums;
 global using Domain.Models;
+global using PuppeteerSharp;
 global using Infrastructure;
+global using HtmlAgilityPack;
 global using System.Text.Json;
 global using Application.DTOs;
 global using Presentation.Seed;

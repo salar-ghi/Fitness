@@ -797,7 +797,10 @@
   },
   {
     "WorkoutName": "Bosu Ball Curl",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the bosu vertically.",
+      "2": "Flex your elbows curling the bosu toward your chin."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -808,7 +811,10 @@
   },
   {
     "WorkoutName": "Bosu Ball Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold bosu and hinge forward.",
+      "2": "Pull bosu towards chest, squeezing shoulder blades."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1228,7 +1234,11 @@
   },
   {
     "WorkoutName": "Dumbbell Supinated Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Grab both dumbbells and hinge forward at the hips. Make sure you keep a flat back.",
+      "2": "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you'll get from the exercise.",
+      "3": "Let your arms hang freely, maintain an underhand grip, and then pull your elbow joint straight back toward the ceiling."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1654,7 +1664,11 @@
   },
   {
     "WorkoutName": "Cable Bayesian Curl",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a handle attachment. The cable should be set all the way to the bottom of the machine.",
+      "2": "Face away from the cable machine.",
+      "3": "Stagger your stance so you have a better base of support. Face your palm forward. Flex at the elbow and extend."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2009,7 +2023,11 @@
   },
   {
     "WorkoutName": "Vitruvian Hammer Curl",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold a neutral grip.",
+      "2": "Flex your elbows until your forearms touch your biceps.",
+      "3": "Extend your elbows fully to finish each rep."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2023,7 +2041,10 @@
   },
   {
     "WorkoutName": "Vitruvian Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold bosu and hinge forward.",
+      "2": "Pull bosu towards chest, squeezing shoulder blades."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2043,7 +2064,10 @@
   },
   {
     "WorkoutName": "Vitruvian Single Arm Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a staggered stance and hinge forward.",
+      "2": "Grab one of the handle attachments and pull your elbow toward the ceiling."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2965,7 +2989,12 @@
   },
   {
     "WorkoutName": "Corpse Pose",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie down on your back with your legs straight and arms at your sides.",
+      "2": "Close your eyes and take deep breaths in through your nose and out through your mouth.",
+      "3": "Allow your body to completely relax and let go of any tension.",
+      "4": "Hold for several minutes and then slowly come back up to a seated position."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {

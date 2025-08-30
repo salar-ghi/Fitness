@@ -1,9 +1,4 @@
-﻿using Azure;
-using HtmlAgilityPack;
-using Presentation.JsonSeedStorage;
-using PuppeteerSharp;
-
-namespace Presentation.JsonMappedSeedStorage;
+﻿namespace Presentation.JsonMappedSeedStorage;
 
 
 public interface IScraperService
@@ -30,7 +25,7 @@ public class ScraperService : IScraperService
 
     public async Task<string> ScrapeInstruction()
     {
-        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Neck_Shoulders_Front_RearShoulders_Lateral_Anterior_PosteriorDeltoid.json");
+        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutFiles", "Quads_InnerThigh_InnerQuadriceps_OuterQuadriceps_RectusFemoris_Feet.json");
 
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -54,7 +49,7 @@ public class ScraperService : IScraperService
 
         string outputJson = JsonSerializer.Serialize(workouts, new JsonSerializerOptions { WriteIndented = true });
         string outputFolderPath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage");
-        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Neck_Shoulders_Front_RearShoulders_Lateral_Anterior_PosteriorDeltoid.json");
+        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Quads_InnerThigh_InnerQuadriceps_OuterQuadriceps_RectusFemoris_Feet.json");
         //if (!File.Exists(outputFolderPath))
         //{
         //    Directory.CreateDirectory(outputFolderPath);
@@ -96,7 +91,7 @@ public class ScraperService : IScraperService
             //    Timeout = 8000,
             //});
             //await page.GoToAsync(url, new NavigationOptions { WaitUntil = new[] { WaitUntilNavigation.Networkidle2 }, Timeout = 60000 });
-            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 8000 });
+            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 14000 });
 
             string html = await page.GetContentAsync();
             var doc = new HtmlDocument();
