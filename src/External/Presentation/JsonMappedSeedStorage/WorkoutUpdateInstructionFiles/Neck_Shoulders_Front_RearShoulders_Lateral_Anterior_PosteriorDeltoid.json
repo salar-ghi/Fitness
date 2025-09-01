@@ -105,7 +105,11 @@
   },
   {
     "WorkoutName": "Landmine Alternating Single Arm Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand facing the landmine leaning forward slightly with the end of the barbell held in one hand at your shoulder with your elbow positioned beneath your wrist.",
+      "2": "While keeping your elbow pointed forward, drive the bar directly overhead, switching hands at the top of the movement. Lower the bar back down to the other side of your body, mirroring the starting position.",
+      "3": "Repeat for desired number of reps, switching hands at the top of each rep."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -422,7 +426,11 @@
   },
   {
     "WorkoutName": "Landmine Single Arm Overhead Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of the landmine with your feet shoulder-width apart and your knees slightly bent. Grasp the landmine barbell with one hand, palm facing in, and bring it to shoulder height with your elbow tucked beneath your hand.",
+      "2": "Press the barbell overhead by extending your arm fully, pushing the weight upward. Keep your core engaged, your back straight, and your shoulder down throughout the movement. Pause briefly at the top of the movement with your arm fully extended overhead. Slowly lower the barbell back to the starting position at shoulder height with control.",
+      "3": "Repeat for the desired number of reps on one side before switching sides."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -552,7 +560,12 @@
   },
   {
     "WorkoutName": "Landmine Thruster",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the bar with a goblet position.",
+      "2": "Push your hips back and sink into a squat.",
+      "3": "Push through your heels and squat back up. Use the momentum you generate at the legs to push the bar over head.",
+      "4": "Let the bar return to the goblet position before starting the next rep."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -584,7 +597,11 @@
   },
   {
     "WorkoutName": "Barbell Behind The Neck Seated Overhead Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a roughly shoulder width grip. There should be a straight line from your elbow to fist (vertical forearms).",
+      "2": "Push your head foward and press the weight toward the ceiling by extending at the elbow joint and flexing at the shoulder joint.",
+      "3": "Press until your elbows are extended and push your head forward slightly."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -604,7 +621,11 @@
   },
   {
     "WorkoutName": "Barbell Bradford Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold a barbell at shoulder height with a pronated grip.",
+      "2": "Press the barbell over your head.",
+      "3": "Lower it behind your head, then return to the front. Repeat for desired reps."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -624,7 +645,10 @@
   },
   {
     "WorkoutName": "Barbell Full Front Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall with an overhand grip on the barbell. Raise your arms until your fists are pointed toward the ceiling.",
+      "2": "Return to the start under control. This exercise is prone to using momentum when you begin to fatigue."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1068,7 +1092,10 @@
   },
   {
     "WorkoutName": "Pole Rotation",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with the pole in front of you with an overhand wider than shoulder width grip.",
+      "2": "Rotate both arms overhead and behind you while leaving your elbows mostly extended."
+    },
     "Equipment": "Stretches",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1138,7 +1165,11 @@
   },
   {
     "WorkoutName": "Plate Halo",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart and the plate held in front of your face with both hands, palms facing each other.",
+      "2": "Rotate the plate around the head, keeping the arms extended and moving the plate in a circular motion.",
+      "3": "Complete one full circle, then reverse the direction to complete another circle."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -1206,7 +1237,11 @@
   },
   {
     "WorkoutName": "Plate Lateral Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart and grip two plates in each hand at your sides.",
+      "2": "Keeping your arms straight, raise the plates out to your sides until they are in line with your shoulders.",
+      "3": "Lower the plates back to your sides with control. Repeat for desired number of reps."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -1247,7 +1282,10 @@
   },
   {
     "WorkoutName": "Plate Reach",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start in a standing position with a plate against your chest.",
+      "2": "Press the plate away from your body until your elbows are extended."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1295,7 +1333,12 @@
   },
   {
     "WorkoutName": "Plate Clean And Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart and the plate in front of the feet.",
+      "2": "Bend the knees and hips to pick up the plate, keeping the back straight and core engaged.",
+      "3": "Stand up, lock the hips and legs, and press the plate overhead with straight arms.",
+      "4": "Lower the plate back to the starting position, keeping control of it, and repeat for desired reps."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1433,7 +1476,11 @@
   },
   {
     "WorkoutName": "Plate Thruster",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with the plate at chest height. Begin a squat.",
+      "2": "Make sure to hit parallel depth. On your way back up, use the momentum you generate with your legs to help push the plate into an overhead position.",
+      "3": "Let the plate return to chest height before initiating the next squat."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1459,7 +1506,11 @@
   },
   {
     "WorkoutName": "Plate Squat Reach",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand holding a weight plate at chest height with both hands.",
+      "2": "Lower into a squat, extending the plate in front of you at chest height",
+      "3": "As you stand back up, pull the plate back into your chest."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1520,7 +1571,11 @@
   },
   {
     "WorkoutName": "Smith Machine Upright Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a double overhand roughly shoulder width grip.",
+      "2": "Pull your elbows straight up the ceiling. Aim to get the bar to chin level or slightly higher.",
+      "3": "lower the bar and repeat."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1543,7 +1598,11 @@
   },
   {
     "WorkoutName": "Smith Machine Seated Overhead Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on a bench with back support. Raise the bar to shoulder height with your palms forward.",
+      "2": "Raise the bar upwards and pause at the contracted position.",
+      "3": "Lower the weight back to starting position."
+    },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1699,7 +1758,11 @@
   },
   {
     "WorkoutName": "Dumbbell Seated Rear Delt Fly",
-    "Instruction": {},
+    "Instruction": {
+      "1": "With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, and start with the weights touching in front of your chest.",
+      "2": "With bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.",
+      "3": "Slowly lower your arms back to starting position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -1825,7 +1888,11 @@
   },
   {
     "WorkoutName": "Dumbbell Seated Arnold Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin seated on an upright bench with your palms facing you.",
+      "2": "Begin pressing toward the ceiling. As you press, rotate your palms.",
+      "3": "As you extend your elbows fully your palms should be facing forward."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2003,7 +2070,12 @@
   },
   {
     "WorkoutName": "Dumbbell Push Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+      "2": "From this starting position, dip your knees slightly and then quickly extend them as you press the dumbbells upwards.",
+      "3": "Make sure to keep your core engaged and your back straight throughout the movement.",
+      "4": "Slowly lower the dumbbells back down to the starting position, and repeat for the desired number of repetitions."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2131,7 +2203,13 @@
   },
   {
     "WorkoutName": "Dumbbell Single Arm Upright Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart, holding a dumbbell in one hand with an overhand grip.",
+      "2": "Keep your back straight and chest lifted, engage your core to maintain balance.",
+      "3": "Begin the movement by lifting the dumbbell straight up towards your chin, keeping your elbow close to your body and the weight in line with your shoulder.",
+      "4": "Continue to lift the weight until it reaches the chin or neck level, keeping the elbow high and close to the body.",
+      "5": "Lower the weight back down to the starting position with control."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2173,7 +2251,13 @@
   },
   {
     "WorkoutName": "Dumbbell Thruster",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a dumbbell in each hand.",
+      "2": "Bring the dumbbells to your shoulders, with your palms facing inward and your elbows bent.",
+      "3": "From this starting position, dip your knees slightly and then quickly extend them as you press the dumbbells upwards.",
+      "4": "As you press the dumbbells upwards, also push your hips forward to help generate additional power.",
+      "5": "Slowly lower the dumbbells back down to the starting position, and repeat for the desired number of repetitions."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2199,7 +2283,12 @@
   },
   {
     "WorkoutName": "Dumbbell Overhead Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet slightly wider than shoulder-width apart and hold two dumbbells overhead with both hands, using an overhand grip.",
+      "2": "Begin the squat by bending at the hips and knees, keeping your core tight and the dumbbells balanced overhead.",
+      "3": "Lower your body as far as you can while keeping the dumbbells overhead, then push back up to the starting position.",
+      "4": "Repeat for the desired number of repetitions, making sure to keep your back straight, chest lifted, and the dumbbells stable overhead throughout the entire movement."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -2265,7 +2354,11 @@
   },
   {
     "WorkoutName": "Internally Rotated Seated Rear Delt Fly",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit with your chest in your lap, dumbbells in hands, arms bent, internally rotate shoulders.",
+      "2": "Raise dumbbells out to sides, squeeze rear delts.",
+      "3": "Lower weights, repeat for reps."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2536,7 +2629,11 @@
   },
   {
     "WorkoutName": "Dumbbell Full Lateral Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand up straight with dumbbells at either side, palms facing your hips.",
+      "2": "Raise your arms on either side with a slight bend in your elbow until they are over head. Pause at the top of the motion.",
+      "3": "Slowly return your arms down to starting position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2599,7 +2696,11 @@
   },
   {
     "WorkoutName": "Dumbbell Head On Bench Rear Delt Fly",
-    "Instruction": {},
+    "Instruction": {
+      "1": "With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, place your head on the top of an incline bench, and start with the weights touching in front of your chest.",
+      "2": "With bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.",
+      "3": "Slowly lower your arms back to starting position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2616,7 +2717,11 @@
   },
   {
     "WorkoutName": "Dumbbell Incline Front Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Grab two dumbbells while sitting on an incline bench upright with the dumbbells at your side.",
+      "2": "Raise the two dumbbells with your elbows being fully extended until the dumbbells are eye level.",
+      "3": "Lower the weights in a controlled manner to the starting position and repeat."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3263,7 +3368,10 @@
   },
   {
     "WorkoutName": "Cable Rope Upright Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a rope attachment with the cable set to the bottom of the machine.",
+      "2": "Pull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3283,7 +3391,10 @@
   },
   {
     "WorkoutName": "Cable Rope Mid Lateral Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place the cable at the same height as your fist when your arms are at your side and stand with the cable crossing your body.",
+      "2": "While keeping your elbow mostly extended, lift your arm until it\u0027s parallel with the floor."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3530,7 +3641,10 @@
   },
   {
     "WorkoutName": "Cable Supinating Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place the cable at shoulder height.",
+      "2": "Start with an overhand grip. As you pull your elbow back, rotate your palm until it faces upward."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3865,7 +3979,12 @@
   },
   {
     "WorkoutName": "Core Stability 4 Crosslateral Limb Raise Push Up Position",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Bring yourself to a strict push-up position",
+      "2": "Maintain a toe placement roughly at shoulder width (the wider the leg stance the easier the exercise - the narrower the stance the more difficult it becomes.",
+      "3": "Tap your opposite shoulder with your fingertips.",
+      "4": "Do not tilt or shift your hips. Do not round or arch your back."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -4038,7 +4157,12 @@
   },
   {
     "WorkoutName": "Lat And Shoulder External Rotation Stretch 2 Kneeling Dowel",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Kneel in front of a bench, placing your elbows on with palms facing up while holding the dowel at shoulder width.",
+      "2": "Sit your hips back onto your heels, pressing the head in between the arms.",
+      "3": "You should feel a stretch in your lats, triceps and deep in the shoulder joint.",
+      "4": "You can add movement (bend-extended arms) to mobilise the shoulder joint."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4064,7 +4188,12 @@
   },
   {
     "WorkoutName": "Lat And Shoulder External Rotation Stretch 3 Kneeling Dowel",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Kneel in front of a bench, placing your elbows on with palms facing up while holding the dowel at shoulder width.",
+      "2": "Sit your hips back onto your heels, pressing the head in between the arms.",
+      "3": "You should feel a stretch in your lats, triceps and deep in the shoulder joint.",
+      "4": "You can add movement (bend-extended arms) to mobilise the shoulder joint."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4209,7 +4338,10 @@
   },
   {
     "WorkoutName": "Standing Neck Mobility Circumductions",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Pull your shoulders back and away from the ears and straighten the back",
+      "2": "Circumduct the head both clockwise and anti-clockwise making sure you  are working on the end range throughout the movement."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -4220,7 +4352,11 @@
   },
   {
     "WorkoutName": "Standing Neck Extensions",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Pull your shoulders back and away from the ears and straighten the back.",
+      "2": "Lean your head back trying to keep the front of the neck straight.",
+      "3": "Point your chin to the ceiling."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -4231,7 +4367,10 @@
   },
   {
     "WorkoutName": "Standing Neck Flexions",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Pull your shoulders back and away from the ears and straighten the back.",
+      "2": "Tuck your chin in and drop your head forwards without rounding the back."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -4285,7 +4424,12 @@
   },
   {
     "WorkoutName": "Seated Radial Nerve Tensioner",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Bend your elbow bringing your thumb to the centre of your chest.",
+      "2": "Extend your elbow to the side with the palm facing back, and wrist flexed",
+      "3": "As your extending the arm, lean your head towards the opposite shoulder",
+      "4": "Once you reach maximum tension (without pain) hold the position"
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -4548,7 +4692,12 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Rear Delt Fly",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder width apart holding the kettlebell with both hands in front of your thighs.",
+      "2": "Bend forward at the hips bringing the kettlebell to the floor while you slightly bend your knees, keeping your back straight.",
+      "3": "Bring one arm behind you and rest this arm on your back. With the other arm, hold the kettlebell at arms length close to the floor.",
+      "4": "Swing the kettlebell out and up towards the side of your body and then return to centre. Repeat."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4711,7 +4860,10 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Clean And Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin with the kettlebell between your legs.",
+      "2": "Hinge at your hips, and lift to shoulder, then press overhead."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4820,7 +4972,12 @@
   },
   {
     "WorkoutName": "Kettlebell Bottoms Up Overhead Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet shoulder-width apart and holding a kettlebell in each hand with the bottom of the kettlebell facing up.",
+      "2": "Bring the kettlebells to your shoulders, with your palms facing forward and your elbows bent.",
+      "3": "From this starting position, extend your arms upwards so that the kettlebells are overhead.",
+      "4": "Make sure to keep your core engaged and your back straight throughout the movement."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -5057,7 +5214,10 @@
   },
   {
     "WorkoutName": "Band Face Pull",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Anchor the band at eye level. Take a few steps away until the band is taut.",
+      "2": "Use an overhand grip with both hands. Pull the band to the bridge of your nose flaring your elbows out."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -5074,7 +5234,10 @@
   },
   {
     "WorkoutName": "Band Front Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on the band with one or 2 feet depending on how heavy you want the band to be.",
+      "2": "With your elbows extended raise your fists straight up to the ceiling until they are at eye level."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -5203,7 +5366,10 @@
   },
   {
     "WorkoutName": "Band Mid Lateral Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Anchor a band to a point that is the same height as your fist when your arms are at your side and stand with the band crossing your body.",
+      "2": "While keeping your elbow mostly extended, lift your arm until it\u0027s parallel with the floor."
+    },
     "Equipment": "Band",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5338,7 +5504,12 @@
   },
   {
     "WorkoutName": "Puppy Pose",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin in a tabletop position with your hands and knees on the ground.",
+      "2": "Walk your hands forward as you lower your chest towards the ground.",
+      "3": "Keep your hips over your knees and extend your arms out in front of you.",
+      "4": "Hold for a few breaths and then release."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -5567,7 +5738,11 @@
   },
   {
     "WorkoutName": "Cardio Step Out Jacks",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall, feet together, arms by sides, ready to move.",
+      "2": "Step right foot out, simultaneously raise arms above head.",
+      "3": "Step right foot in, lower arms, repeat left, maintain rhythm."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {

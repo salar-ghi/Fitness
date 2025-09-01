@@ -10,6 +10,7 @@ public class WorkoutController : ControllerBase
     private readonly IExerciseMapperService _mapService;
     private readonly IGenerateCodeService _generateCodeService;
     private readonly IScraperService _scraperService;
+    private readonly IScrapeInstructionService _scrapeInstructionService;
     //private readonly WorkoutDatasets workoutDatasets;
 
     //public WorkoutController(WorkoutDatasets _workoutDatasets)
@@ -17,11 +18,14 @@ public class WorkoutController : ControllerBase
     //    workoutDatasets = _workoutDatasets;
     //}
 
-    public WorkoutController(IExerciseMapperService mapService, IGenerateCodeService generateCodeService, IScraperService scraperService)
+    public WorkoutController(IExerciseMapperService mapService, 
+        IGenerateCodeService generateCodeService, IScraperService scraperService
+        , IScrapeInstructionService scrapeInstructionService)
     {
         _mapService = mapService;
         _generateCodeService = generateCodeService;
         _scraperService = scraperService;
+        _scrapeInstructionService = scrapeInstructionService;
     }
 
     [HttpGet("workout duplication")]
@@ -53,6 +57,14 @@ public class WorkoutController : ControllerBase
     public async Task<IActionResult> ScrapeInstructions()
     {
         var result = await _scraperService.ScrapeInstruction();
+        return Ok(result);
+    }
+
+
+    [HttpGet("scrape-instruction-total")]
+    public async Task<IActionResult> ScrapeInstructionsTotal()
+    {
+        var result = await _scrapeInstructionService.ScrapeTotalInstruction();
         return Ok(result);
     }
 

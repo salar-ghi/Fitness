@@ -46,6 +46,7 @@ public class Startup
         services.AddScoped<IGenerateCodeService, GenerateCodeService>();
         services.AddSingleton<IScraperService, ScraperService>();
 
+        services.AddSingleton<IScrapeInstructionService, ScrapeInstructionService>();
         services.AddHealthChecks().AddCheck("Ollama Server", () =>
             new HealthCheckResult(HealthStatus.Healthy, "Ollama server is running"));
 
