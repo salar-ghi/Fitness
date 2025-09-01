@@ -252,7 +252,12 @@
   },
   {
     "WorkoutName": "Barbell Supinated Pendlay Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin by standing in front of a barbell with your feet about hip-width apart and your palms facing towards your body.",
+      "2": "Bend at the hips and knees to grab the barbell with a pronated (overhand) grip, positioning the barbell about an inch away from your shins.",
+      "3": "Keeping your back straight and your core engaged, use your back muscles to lift the barbell straight up towards your chest.",
+      "4": "As the barbell reaches your chest, rotate your wrists so that your palms are facing towards your body (supinated grip), and then lower the barbell back to the starting position."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -337,7 +342,12 @@
   },
   {
     "WorkoutName": "Barbell Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your mid-foot under the bar and grip the bar with your hands, about a shoulder width apart.",
+      "2": "Bend your knees, then lift the bar by straightening your back. It is important to keep your back straight.",
+      "3": "Stand to your full height and hold.",
+      "4": "Lower the bar to the floor by bending your knees and keeping your back straight."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2119,7 +2129,10 @@
   },
   {
     "WorkoutName": "Bosu Ball Pike Shrug",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place toes on Bosu, hands on the floor.",
+      "2": "Pike hips up, shrug shoulders, engage core."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2133,7 +2146,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Pullover",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on ground with head and shoulders supported.",
+      "2": "Hold a bosu and lower it back over the head.",
+      "3": "Bring the bosu back over the chest to complete one rep."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2144,7 +2161,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold bosu and hinge forward.",
+      "2": "Pull bosu towards chest, squeezing shoulder blades."
+
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2158,7 +2179,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Single Leg Hip Thrust",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on Bosu, lean back, one foot on the floor.",
+      "2": "Drive hips upward, squeezing glutes, one leg extended.",
+      "3": "Lower hips back down and switch legs."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2172,7 +2197,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Superman",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie face down on Bosu, arms extended.",
+      "2": "Lift arms, chest, and legs off the Bosu.",
+      "3": "Hold for a moment, then lower back down."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3200,7 +3229,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball while standing on one leg.",
+      "2": "Hinge forward on one leg, extending other leg behind.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3217,7 +3250,11 @@
   },
   {
     "WorkoutName": "Cable 30 Degree Shrug",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a handle attachment on both sides of crossover. With cable attachment set all the way to the bottom.",
+      "2": "Grab both handles and make sure you are centered in the machine. Let your arms hang freely.",
+      "3": "Pull your shoulder blades up and in towards your ears. Let your shoulder blades depress back to the starting position."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3231,7 +3268,10 @@
   },
   {
     "WorkoutName": "Cable Upright Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a handle attachment with the cable set to the bottom of the machine.",
+      "2": "Pull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -3251,7 +3291,11 @@
   },
   {
     "WorkoutName": "Cable Silverback Shrug",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a bar attachment. Cable should be set all the way to the bottom.",
+      "2": "Stand up with the attachment in hand, walk a couple of steps back make sure you are standing upright and not leaning backwards.",
+      "3": "Retract your shoulder blades and then protract to return to the starting position."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -3265,7 +3309,11 @@
   },
   {
     "WorkoutName": "Cable Single Arm 30 Degree Shrug",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a handle attachment. With the cable attachment set all the way to the bottom.",
+      "2": "Grab one handle and make sure you are centered in the machine. Let your arm hang freely.",
+      "3": "Pull your shoulder blade up and in towards your ears. Let your shoulder blade depress back to the starting position."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3279,7 +3327,10 @@
   },
   {
     "WorkoutName": "Cable Rope Upright Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a rope attachment with the cable set to the bottom of the machine.",
+      "2": "Pull your elbows straight up toward the ceiling until the attachment is just below your chin then extend until your elbows are fully extended."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3299,7 +3350,11 @@
   },
   {
     "WorkoutName": "Cable Lat Prayer",
-    "Instruction": {},
+    "Instruction": {
+      "1": "You can use any attachment. Cable should be set all the way to the top of the machine.",
+      "2": "Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward. Your ears should be between your arms.",
+      "3": "Initiate the movement with your shoulders and not your elbows. As you flex at the shoulder joint push your hips forward until your hips meet the attachment."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -3310,7 +3365,11 @@
   },
   {
     "WorkoutName": "Cable Bent Over Bar Pullover",
-    "Instruction": {},
+    "Instruction": {
+      "1": "You can use any attachment. Cable should be set all the way to the top of the machine.",
+      "2": "Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.",
+      "3": "Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3321,7 +3380,11 @@
   },
   {
     "WorkoutName": "Cable Pull In",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a handle attachment set all the way to the top of the cable crossover machine.",
+      "2": "Walk a few steps away from the cable machine. Face your body sideways.",
+      "3": "Face your palm up toward the ceiling. Then pull your elbow in toward your rib cage."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -3374,7 +3437,11 @@
   },
   {
     "WorkoutName": "Cable Rope Lat Prayer",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use a rope attachment. Cable should be set all the way to the top of the machine.",
+      "2": "Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward. Your ears should be between your arms.",
+      "3": "Initiate the movement with your shoulders and not your elbows. As you flex at the shoulder joint push your hips forward until your hips meet the attachment."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3406,7 +3473,10 @@
   },
   {
     "WorkoutName": "Cable Supinating Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place the cable at shoulder height.",
+      "2": "Start with an overhand grip. As you pull your elbow back, rotate your palm until it faces upward."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3462,7 +3532,11 @@
   },
   {
     "WorkoutName": "Cable Single Arm Neutral Grip Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place the cable at shoulder height. Use a handle attachment. Face your palm toward the midline of your body.",
+      "2": "Pull the handle back using your arms. Push out your chest.",
+      "3": "Pull the handle towards your body until your hands are beside your abdomen."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -3495,7 +3569,12 @@
   },
   {
     "WorkoutName": "Cable Goblet Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start with a straight bar or easy bar attachment .",
+      "2": "Get your elbows directly underneath the bar, squat straight up and then walk back a few steps.",
+      "3": "Break at your knees and hips to initiate the squat. Make sure you maintain a flat back.",
+      "4": "Squat all the way back to a standing position."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -3595,7 +3674,11 @@
   },
   {
     "WorkoutName": "Cable Standing Straight Leg Glute Kickback",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use an ankle attachment. The cable should be set to the bottom of the crossover machine.",
+      "2": "Push your ankle straight back, extending at the hip. Hold for a one count when you feel a contraction in your glutes.",
+      "3": "Then flex at the hips until you are back into your original position."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3983,7 +4066,10 @@
   },
   {
     "WorkoutName": "Vitruvian Shrug",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall and hold the two handle attachments.",
+      "2": "Pull your shoulder blades straight up toward the ceiling."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3994,7 +4080,10 @@
   },
   {
     "WorkoutName": "Vitruvian Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold bosu and hinge forward.",
+      "2": "Pull bosu towards chest, squeezing shoulder blades."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4014,7 +4103,10 @@
   },
   {
     "WorkoutName": "Vitruvian Single Arm Row",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a staggered stance and hinge forward.",
+      "2": "Grab one of the handle attachments and pull your elbow toward the ceiling."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4031,7 +4123,11 @@
   },
   {
     "WorkoutName": "Vitruvian Romanian Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take an overhand grip.",
+      "2": "Keep your knees mostly extended and hinge forward at the hips.",
+      "3": "Keep a flat back."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4051,7 +4147,11 @@
   },
   {
     "WorkoutName": "Vitruvian Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball while standing on one leg.",
+      "2": "Hinge forward on one leg, extending other leg behind.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4068,7 +4168,10 @@
   },
   {
     "WorkoutName": "Vitruvian Staggered Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place one foot firmly on the ground and one foot behind the other. Bend the knee on your back leg.",
+      "2": "Hinge forward until you feel a stretch in your front leg."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4133,7 +4236,11 @@
   },
   {
     "WorkoutName": "Thoracic Flexion And Extensions",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Bring yourself on all 4's. Push the ground away from you, rounding back and shoulders as much as possible.",
+      "2": "To enhance the spine flexion suck the belly button in and tuck the tailbone (coccyx) under. Hold this position for a brief moment",
+      "3": "Now do the exact opposite, try to bend the spine backwards. Go back and forth on these positions"
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -4144,7 +4251,12 @@
   },
   {
     "WorkoutName": "I Into W",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your front with your arms extended and above your head.",
+      "2": "Point the thumbs up. Try to raise your arms off the ground keeping them straight.",
+      "3": "Bend your elbows to the side and form the letter 'W' with your arms.",
+      "4": "Extend to the 'I' position but do not rest on the ground"
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4158,7 +4270,12 @@
   },
   {
     "WorkoutName": "Lat And Shoulder External Rotation Stretch 1 Kneeling Dowel",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Kneel in front of a bench, placing your elbows on with palms facing up while holding the dowel at shoulder width.",
+      "2": "Sit your hips back onto your heels, pressing the head in between the arms.",
+      "3": "You should feel a stretch in your lats, triceps and deep in the shoulder joint.",
+      "4": "You can add movement (bend-extended arms) to mobilise the shoulder joint."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4246,7 +4363,12 @@
   },
   {
     "WorkoutName": "Lat Mobilisation Floor Foam Roller",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the floor next to a foam roller.",
+      "2": "Lean in such a way that the foam roller is under your lat.",
+      "3": "The arm of that side should ideally be raised.",
+      "4": "Roll your lat up and down the foam roller to mobilise it."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4276,7 +4398,9 @@
   },
   {
     "WorkoutName": "Prayer Stretch 2 Roller",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on your heels and reach out your arms on a box or foam roller while pressing the chest towards the ground."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4293,7 +4417,11 @@
   },
   {
     "WorkoutName": "Swipe Around",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your front, arms above head. Squeeze glutes to protect lower back",
+      "2": "Raise your chest and arms off the ground. Adduct (bring your arms by your hips)",
+      "3": "You can touch down and repeat the whole movement, or remain off the ground and just perform the 'swipes' "
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4310,7 +4438,13 @@
   },
   {
     "WorkoutName": "Alternating Swipe Around",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your front, arms above head. Squeeze glutes to protect lower back",
+      "2": "Raise your chest and arms off the ground. Adduct (bring your arms by your hips) in an alternating fashion.",
+      "3": "You can touch down and repeat the whole movement, or remain off the ground and just perform the 'swipes' ",
+      "
+
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4397,7 +4531,10 @@
   },
   {
     "WorkoutName": "Knee Pull And Lumbar Rotation",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back and flatten you lower back against the ground",
+      "2": "Pull one knee towards your chest and then across your body till it forces your lower back into a rotated position."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4414,7 +4551,12 @@
   },
   {
     "WorkoutName": "Partner Lower Back Extensions",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your front leaning your forehead on the back of your palms.",
+      "2": "Ask someone to hold your ankles or secure them under a supportive structure.",
+      "3": "Squeeze your glutes and tilt your hips backwards (flattens the front of your hips against the ground).",
+      "4": "Raise your chest off the ground and lower it without resting on the ground before the next rep."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4485,7 +4627,12 @@
   },
   {
     "WorkoutName": "Floor Knee Pull Bilateral",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back with bent knees.",
+      "2": "Hug your knees and pull them towards your chest.",
+      "3": "Feel your lower back come off the ground.",
+      "4": "You can add a you can add an abduction to target the hips as well."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4496,7 +4643,12 @@
   },
   {
     "WorkoutName": "Lumbar Rotation 1",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back with your knees bent and the feet flat on the ground.",
+      "2": "Keep your knees and ankles together. Drop both knees towards the same side.",
+      "3": "Stay in this position and breathe deep and slow.",
+      "4": "To increase the intensity of the stretch you can reach up with your arms."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4507,7 +4659,11 @@
   },
   {
     "WorkoutName": "Lumbar Rotation 2",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back with your knees bent and the feet flat on the ground.",
+      "2": "Drop your knees towards one side before moving towards the other.",
+      "3": "To increase the intensity of the stretch you can reach up with your arms."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4518,7 +4674,11 @@
   },
   {
     "WorkoutName": "Lumbar Rotation 3",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back with your knees bent and the feet flat on the ground.",
+      "2": "Drop your knees towards one side then place your ankle on the opposite knee.",
+      "3": "To increase the intensity of the stretch you can reach up with your arms."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4529,7 +4689,11 @@
   },
   {
     "WorkoutName": "Lumbar Rotation 4",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back with your knees bent and the feet flat on the ground.",
+      "2": "Cross your legs. Drop your knees towards one side before moving towards the other.",
+      "3": "To increase the intensity of the stretch you can reach up with your arms."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4540,7 +4704,11 @@
   },
   {
     "WorkoutName": "Lumbar Rotation 5",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your back with your knees bent and the feet flat on the ground.",
+      "2": "Drop your knees towards one side and add a kick at the end of range.",
+      "3": "To increase the intensity of the stretch you can reach up with your arms."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4566,7 +4734,12 @@
   },
   {
     "WorkoutName": "Box Supported Single Leg Deadlift",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Place a box behind you and one foot on it. Keep your chest up and the back straight",
+      "2": "Tilt at the hips to perform a deadlift. Use the box for balance and support",
+      "3": "Make sure you straighten your back leg when performing the deadlift.",
+      "4": "As you get comfortable with the movement, try to lift the leg off the box when you reach the end range of the deadlift."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -5932,7 +6105,11 @@
   },
   {
     "WorkoutName": "Kettlebell Staggered Swing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lower kettlebell with control, then repeat.",
+      "2": "Explosively thrust hips forward, swing kettlebell to chest height.",
+      "3": "Repeat for desired reps, keeping core engaged and maintaining a staggered stance for balance."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -6550,7 +6727,12 @@
   },
   {
     "WorkoutName": "Criss Cross Bow Tie Pose",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet hip-width apart and your arms at your sides.",
+      "2": "Cross your right arm over your left arm, bringing your palms together in front of your chest.",
+      "3": "Lower your arms down so that your palms face down towards the ground, and your right elbow is resting on top of your left elbow.",
+      "4": "Hold for a few breaths, then switch sides."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6769,7 +6951,11 @@
   },
   {
     "WorkoutName": "Cobra Pose",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start prone, hands under shoulders.",
+      "2": "Inhale, lift chest, arch back.",
+      "3": "Elongate neck, gaze up. Breathe, hold. Release, exhale."
+    },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -6891,7 +7077,11 @@
   },
   {
     "WorkoutName": "Cardio Row Erg Rower Arms Only",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Make sure your feet are strapped in tightly.",
+      "2": "Without bending your legs, pull the handle to your ribcage.",
+      "3": "Fully extend your elbows before initiating the next rep."
+    },
     "Equipment": "Cardio",
     "WorkoutLevel": "Beginner",
     "Muscles": {
