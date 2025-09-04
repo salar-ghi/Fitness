@@ -349,7 +349,11 @@
   },
   {
     "WorkoutName": "Landmine Seated Alternating Overhead Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start sitting on the ground facing the landmine attachment with your legs open for stability while holding the end of the bar in a neutral grip with your hand resting at your shoulder and your elbow beneath your wrist.",
+      "2": "Leaning forward slightly, press the bar up into the air until your arm is fully extended. At the top of the movement, switch which hand is holding the end of the bar and lower the bar back down to the opposite shoulder. Perform again to return the bar to the starting position.",
+      "3": "Repeat for the desired number of reps."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1557,7 +1561,10 @@
   },
   {
     "WorkoutName": "Bosu Ball Front Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the bosu vertically.",
+      "2": "Raise the bosu toward the ceiling while keeping your elbows mostly extended."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1846,7 +1853,11 @@
   },
   {
     "WorkoutName": "Dumbbell Laying Reverse Fly Internally Rotated",
-    "Instruction": {},
+    "Instruction": {
+      "1": "With dumbbells in either hand and an overhand grip, lay on an incline bench that is roughly 15 - 30 degrees high.",
+      "2": "With bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.",
+      "3": "Slowly lower your arms back to starting position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2995,7 +3006,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Halo",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, hold a medicine ball.",
+      "2": "Circle the ball around your head, maintaining control.",
+      "3": "Complete the desired number of repetitions in both directions."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
