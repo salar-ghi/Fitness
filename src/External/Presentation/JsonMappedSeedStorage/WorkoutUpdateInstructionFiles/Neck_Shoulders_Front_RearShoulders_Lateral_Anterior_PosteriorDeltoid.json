@@ -2974,7 +2974,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Clean And Press Slam",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the medicine ball with an overhand grip.",
+      "2": "Lift the ball explosively, clean it to shoulder height.",
+      "3": "Press the ball overhead, then slam it to the ground."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3039,7 +3043,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Overhead Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball overhead.",
+      "2": "Step back into lunge position.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3068,7 +3076,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Press Jack",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Jump, extending arms overhead.",
+      "3": "Return to starting position. Repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3088,7 +3100,10 @@
   },
   {
     "WorkoutName": "Medicine Ball Self Toss",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Toss medicine ball up, catch with both hands.",
+      "2": "Repeat toss and catch for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3123,7 +3138,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Squat Reach",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Squat down, reach ball to one side.",
+      "3": "Stand up and repeat reach on other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3149,7 +3168,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Wall Ball",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest, facing wall.",
+      "2": "Squat down, then throw ball at wall.",
+      "3": "Catch and repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3175,7 +3198,11 @@
   },
   {
     "WorkoutName": "Cable Rope Face Pulls",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Facing the pulley, pull the weight towards you while keeping your arms parallel to the ground.",
+      "2": "Pull your hands back to both sides of your head and hold the position.",
+      "3": "Slowly return weight to starting position. Repeat."
+    },
     "Equipment": "Cables",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -3855,7 +3882,10 @@
   },
   {
     "WorkoutName": "Vitruvian Arnold Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall with your palms facing yourself.",
+      "2": "As you press, rotate your arms."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3875,7 +3905,10 @@
   },
   {
     "WorkoutName": "Vitruvian Lateral Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall with a neutral grip.",
+      "2": "Raise your arms to the side and keep your elbows mostly extended."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3892,7 +3925,10 @@
   },
   {
     "WorkoutName": "Vitruvian Overhead Press",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the handle attachments with your fists to the sky and elbows toward the floor.",
+      "2": "Press the handles to the ceiling."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3912,7 +3948,10 @@
   },
   {
     "WorkoutName": "Vitruvian Rear Delt Fly",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Grab the two handles and hinge forward.",
+      "2": "Keep your elbows mostly extended and raise your arms straight out to the side."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4234,7 +4273,11 @@
   },
   {
     "WorkoutName": "Swipe Around",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your front, arms above head. Squeeze glutes to protect lower back",
+      "2": "Raise your chest and arms off the ground. Adduct (bring your arms by your hips)",
+      "3": "You can touch down and repeat the whole movement, or remain off the ground and just perform the 'swipes.' "
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4251,7 +4294,11 @@
   },
   {
     "WorkoutName": "Alternating Swipe Around",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your front, arms above head. Squeeze glutes to protect lower back",
+      "2": "Raise your chest and arms off the ground. Adduct (bring your arms by your hips) in an alternating fashion.",
+      "3": "You can touch down and repeat the whole movement, or remain off the ground and just perform the 'swipes.' "
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -4904,7 +4951,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Snatch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, kettlebell between legs.",
+      "2": "Squat, grip kettlebell, explode hips, and lift kettlebell overhead.",
+      "3": "Lower kettlebell safely to start position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {

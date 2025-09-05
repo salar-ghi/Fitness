@@ -26,7 +26,7 @@ public class ScrapeInstructionService : IScrapeInstructionService
 
     public async Task<string> ScrapeTotalInstruction()
     {
-        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Quads_InnerThigh_InnerQuadriceps_OuterQuadriceps_RectusFemoris_Feet.json");
+        var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Neck_Shoulders_Front_RearShoulders_Lateral_Anterior_PosteriorDeltoid.json");
 
         string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
@@ -56,7 +56,7 @@ public class ScrapeInstructionService : IScrapeInstructionService
 
         string outputJson = JsonSerializer.Serialize(workouts, new JsonSerializerOptions { WriteIndented = true });
         string outputFolderPath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage");
-        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Quads_InnerThigh_InnerQuadriceps_OuterQuadriceps_RectusFemoris_Feet.json");
+        string filePath = Path.Combine(outputFolderPath, "WorkoutUpdateInstructionFiles", "Neck_Shoulders_Front_RearShoulders_Lateral_Anterior_PosteriorDeltoid.json");
         //if (!File.Exists(outputFolderPath))
         //{
         //    Directory.CreateDirectory(outputFolderPath);
@@ -91,14 +91,11 @@ public class ScrapeInstructionService : IScrapeInstructionService
 
             await page.SetUserAgentAsync("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
             string url = $"{BaseUrl}/{equipmentSlug}/male/{muscleSlug}/{workoutSlug}";
-            page.DefaultNavigationTimeout = 12000;
+            page.DefaultNavigationTimeout = 16000;
             await page.GoToAsync(url, WaitUntilNavigation.Networkidle2);
-            //await page.GoToAsync(url, new NavigationOptions {
-            //    WaitUntil = new[] { WaitUntilNavigation.Networkidle2 },
-            //    Timeout = 8000,
-            //});
-            //await page.GoToAsync(url, new NavigationOptions { WaitUntil = new[] { WaitUntilNavigation.Networkidle2 }, Timeout = 60000 });
-            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 14000 });
+
+            await Task.Delay(2000);
+            await page.WaitForSelectorAsync("dl.my-5.grid", new WaitForSelectorOptions { Timeout = 30000 });
 
             string html = await page.GetContentAsync();
             var doc = new HtmlDocument();

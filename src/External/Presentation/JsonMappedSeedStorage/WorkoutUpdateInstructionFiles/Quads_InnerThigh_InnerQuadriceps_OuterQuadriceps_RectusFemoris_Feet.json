@@ -224,7 +224,11 @@
   },
   {
     "WorkoutName": "Barbell Heels Up Back Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart and your heels on a plate or low step.",
+      "2": "Bend your knees and lower your body into a squat position.",
+      "3": "Push through your heels to return to the starting position."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -339,7 +343,11 @@
   },
   {
     "WorkoutName": "Barbell Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start by standing with your feet about hip-width apart, with a barbell on your shoulders. Your feet should be slightly pointed outward, and your shoulders should be down and relaxed.",
+      "2": "Step backward with one foot, lowering your body until your front thigh is parallel to the ground and your back knee is hovering just above the ground.",
+      "3": "Push off your back foot, returning to the starting position."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -389,7 +397,11 @@
   },
   {
     "WorkoutName": "Barbell Step Up Balance",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin by standing in front of a sturdy box or bench that is about knee-height, holding a barbell across your upper back and shoulders, using an overhand grip.",
+      "2": "Place your right foot on the box and push through the heel to lift your body up and onto the box, keeping your left foot off the ground.",
+      "3": "Step back down with your right foot, lowering your left foot to the ground."
+    },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1484,7 +1496,11 @@
   },
   {
     "WorkoutName": "Plate Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a plate with both feet.",
+      "2": "Step back with one foot to the floor and let your back knee get close to or tap the floor.",
+      "3": "Push through your front leg until both feet are back on the plate."
+    },
     "Equipment": "Plate",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -2068,7 +2084,11 @@
   },
   {
     "WorkoutName": "Dumbbell Goblet Split Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold a dumbbell in a goblet position.",
+      "2": "Take a large step forward with one leg, and lower your body until your back knee nearly touches the ground. Your front knee should be bent at a 90-degree angle, and your back leg should be straight.",
+      "3": "Push through the heel of your front foot to raise your body back to the starting position."
+    },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
     "Muscles": {
