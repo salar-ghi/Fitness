@@ -1688,7 +1688,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Half Burpee",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on Bosu with feet shoulder-width apart.",
+      "2": "Drop into squat position and place hands on Bosu.",
+      "3": "Jump feet back to plank, then jump back to squat."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -1726,7 +1730,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Step back into lunge position.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1740,7 +1748,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Split Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a split stance. Make sure to keep your chest tall.",
+      "2": "Bring your rear knee to the floor or close to it.",
+      "3": "Drive through your front heel and your rear foot back to the starting position."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -1754,7 +1766,11 @@
   },
   {
     "WorkoutName": "Bosu Ball Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on Bosu, feet shoulder-width apart.",
+      "2": "Squat down, keeping knees aligned with toes.",
+      "3": "Push through heels to stand back up."
+    },
     "Equipment": "Bosu-Ball",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2889,7 +2905,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Ball Headlock Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with feet shoulder-width apart, holding medicine ball close.",
+      "2": "Squat down, keeping ball close to head and chest.",
+      "3": "Stand back up, squeezing glutes. Repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -2912,7 +2932,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Ball Offset Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at one shoulder, feet shoulder-width apart.",
+      "2": "Squat down, keeping ball on same side throughout movement.",
+      "3": "Stand back up, squeezing glutes. Repeat on other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -2950,7 +2974,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Overhead Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball overhead.",
+      "2": "Step back into lunge position.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2979,7 +3007,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Overhead Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball overhead.",
+      "2": "Squat down, keeping back straight.",
+      "3": "Stand back up. Repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -2993,7 +3025,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Step back into lunge position.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3007,7 +3043,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Reverse Lunge Twist",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Step back into lunge position, extend your arms, twist torso.",
+      "3": "Return to starting position. Repeat on other leg."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3024,7 +3064,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Squat Reach",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest.",
+      "2": "Squat down, reach ball to one side.",
+      "3": "Stand up and repeat reach on other side."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3050,7 +3094,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Clean And Press Slam",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold the medicine ball with an overhand grip.",
+      "2": "Lift the ball explosively, clean it to shoulder height.",
+      "3": "Press the ball overhead, then slam it to the ground."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3082,7 +3130,11 @@
   },
   {
     "WorkoutName": "Medicine Ball Wall Ball",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold medicine ball at chest, facing wall.",
+      "2": "Squat down, then throw ball at wall.",
+      "3": "Catch and repeat for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3108,7 +3160,10 @@
   },
   {
     "WorkoutName": "Medicine Ball Self Toss",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Toss medicine ball up, catch with both hands.",
+      "2": "Repeat toss and catch for desired reps."
+    },
     "Equipment": "Medicine-Ball",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3403,7 +3458,12 @@
   },
   {
     "WorkoutName": "Vitruvian Belt Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Set up the Vitruvian, including a the provided belt.",
+      "2": "Position yourself with feet shoulder-width apart on the Vitruvian",
+      "3": "Perform the squat by bending at the knees and hips, lowering your body until thighs are parallel to the ground.",
+      "4": "Return to the starting position by extending your knees and hips, pushing through your feet."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3417,7 +3477,10 @@
   },
   {
     "WorkoutName": "Vitruvian Deficit Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand tall with both feet on the platform.",
+      "2": "Step backwards and bring your back knee to the floor."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3431,7 +3494,11 @@
   },
   {
     "WorkoutName": "Vitruvian Front Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Use the bar attachment.",
+      "2": "Place the bar over your front delts and cross your arms.",
+      "3": "Push your hips back and aim to hit parallel depth."
+    },
     "Equipment": "Vitruvian",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -3463,7 +3530,11 @@
   },
   {
     "WorkoutName": "Seated Hip Flexion Hold",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on a bench without back support.",
+      "2": "Keep an upright back and your shoulders back.",
+      "3": "Raise one leg and maintain the position for the specified duration."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3477,7 +3548,12 @@
   },
   {
     "WorkoutName": "Standing Mini-Band Hip Flexion",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Wrap a loop band around your feet.",
+      "2": "Drive a knee upwards till your thigh is parallel to the ground.",
+      "3": "Pause for a moment and then return to the starting position.",
+      "4": "Try to maintain balance and a good posture when raising the knee."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3546,7 +3622,11 @@
   },
   {
     "WorkoutName": "Jump Into Single Leg Landing",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Start from the standing position. Lower your body into a semi-squatted position.",
+      "2": "Push off the ground with two legs to perform the jump.",
+      "3": "Land on one leg, making sure to absorb the impact by bending the knee as much as needed."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3597,7 +3677,12 @@
   },
   {
     "WorkoutName": "Band Knee Extension",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Attach a band to a fixed point and wrap the loose end around your knee.",
+      "2": "Start in the standing position, facing the anchoring point and with the band already under tension.",
+      "3": "Allow the working knee to bend (the band will pull the knee), while shifting your weight onto the supporting leg.",
+      "4": "Shift your weight back onto the bentleg and fully extend the knee (pull the kneecap up)"
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3608,7 +3693,11 @@
   },
   {
     "WorkoutName": "Towel Knee Extension",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the floor and use your palms to lean back into.",
+      "2": "Place a rolled towel under your knee so it is slightly bent.",
+      "3": "Try to squeeze the towel between the back of your knee and the ground by extending the leg."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3619,7 +3708,11 @@
   },
   {
     "WorkoutName": "Towel Knee Extension Hold",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the floor and use your palms to lean back into.",
+      "2": "Place a rolled towel under your knee so it is slightly bent.",
+      "3": "Try to squeeze the towel between the back of your knee and the ground by extending the leg."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3645,7 +3738,11 @@
   },
   {
     "WorkoutName": "Foam Roller Quad Mobilisation",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your front placing a foam roller under your thigh.",
+      "2": "Roll up and down till you find a tight/sore spot.",
+      "3": "Hold this position and start bending and extending your knee to mobilise the quad."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3656,7 +3753,11 @@
   },
   {
     "WorkoutName": "Band Floor Quad Stretch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Lie on your front. Bend one leg, reach back and grab the foot with one arm",
+      "2": "Pull the heel towards the glute to stretch your quad.",
+      "3": "You can use a band or stretch strap to do the same thing."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3667,7 +3768,11 @@
   },
   {
     "WorkoutName": "Kneeling Quad Stretch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on your heels.",
+      "2": "Lean back onto your palms.",
+      "3": "To increase stretch intensity lift bum off heels."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3678,7 +3783,10 @@
   },
   {
     "WorkoutName": "Seated Quad Stretch",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit against the wall with one leg slightly bent.",
+      "2": "Wrap a stretch strap or towel around your ankle and pull the heel towards the hips."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3724,7 +3832,11 @@
   },
   {
     "WorkoutName": "Single Leg Concentric Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "From the standing position lower your body into a squat.",
+      "2": "Shift your weight onto one leg (the other is still in contact with the ground for balance).",
+      "3": "Use the loaded leg to lift your body into standing position."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3738,7 +3850,10 @@
   },
   {
     "WorkoutName": "Single Leg Eccentric Box Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand in front of a bench or box. Lift one leg in front you supporting yourself on the other leg.",
+      "2": "Try to sit on the box in a controlled manner. Use both legs to stand back up"
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3752,7 +3867,10 @@
   },
   {
     "WorkoutName": "Bosu Ball Single Leg Squat",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand on a bosu ball and balance on one leg.",
+      "2": "Try to bend and extend the knee of the supporting leg (single leg squat) while keeping your balance."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3899,7 +4017,12 @@
   },
   {
     "WorkoutName": "Band Straight Leg Hip Flexions",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Attach a band to a fixed point.",
+      "2": "Wrap the loose end of the band around your ankle.",
+      "3": "Face away from the attachment point.",
+      "4": "Raise your working leg against the resistance."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
     "Muscles": {
@@ -3928,7 +4051,11 @@
   },
   {
     "WorkoutName": "Standing Knee Raise Hold",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand up straight and with a good posture.",
+      "2": "Shift your weight onto the supporting leg while driving the other knee.",
+      "3": "Your thigh should be parallel to the ground."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -3939,7 +4066,10 @@
   },
   {
     "WorkoutName": "Floor Incline Leg Raise",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Sit on the floor and lean back into your palms or on your elbows.",
+      "2": "Raise a straight leg a few centimeters off the ground and hold the position for the specified duration."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Novice",
     "Muscles": {
@@ -4071,7 +4201,11 @@
   },
   {
     "WorkoutName": "Single Leg Balance 2",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand upright with a braced core.",
+      "2": "Choose the supporting leg and shift your weight on that, while lifting the other slightly off the ground.",
+      "3": "Try to maintain your balance while bouncing a tennis ball off the wall or ground."
+    },
     "Equipment": "Recovery",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4714,7 +4848,11 @@
   },
   {
     "WorkoutName": "Walking Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Take a step forward shifting your weight onto the front leg.",
+      "2": "Bend the knee of the front leg so the knee of the back leg comes close to the ground.",
+      "3": "Stand up and go into lunging with the opposite leg."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -4728,7 +4866,11 @@
   },
   {
     "WorkoutName": "Bodyweight Alternating Forward Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Stand with your feet shoulder-width apart.",
+      "2": "Step forward with your right foot and bend both knees to lower your body until your right thigh is parallel to the ground.",
+      "3": "Push off your right foot to return to the starting position. Then switch legs."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Advanced",
     "Muscles": {
@@ -4742,7 +4884,11 @@
   },
   {
     "WorkoutName": "Bodyweight Step Up Knee Drive",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Begin by standing in front of a sturdy box or bench that is about knee-height.",
+      "2": "Place your right foot on the box and push through the heel to lift your body up and onto the box, bring your off leg all the way through until your leg is parallel with the ground.",
+      "3": "Step back down with your right foot, lowering your left foot to the ground."
+    },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5244,7 +5390,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Front Rack Forward Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebell in front rack position.",
+      "2": "Step forward, lunge. Bringing your back knee to the floor.",
+      "3": "Extend your knee and return to the starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
@@ -5261,7 +5411,11 @@
   },
   {
     "WorkoutName": "Kettlebell Single Arm Front Rack Reverse Lunge",
-    "Instruction": {},
+    "Instruction": {
+      "1": "Hold kettlebell in front rack position.",
+      "2": "Step backward, lunge. Bring your back knee to the floor.",
+      "3": "Extend your knee back into the starting position."
+    },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
     "Muscles": {
