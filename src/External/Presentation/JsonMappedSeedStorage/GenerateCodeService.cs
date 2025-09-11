@@ -18,7 +18,7 @@ public class GenerateCodeService : IGenerateCodeService
     {
         try
         {
-            var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Glutes_GlutesMedius_GlutesMaximus.json");
+            var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Abdominals_Lower_UpperAbdominals_Obliques.json");
             string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var workouts = JsonSerializer.Deserialize<List<WorkoutOutput>>(jsonFile, options);
@@ -73,24 +73,24 @@ public class GenerateCodeService : IGenerateCodeService
 
                     foreach (var step in validSteps)
                     {
-                        instructionLines.Add($"new WorkoutInstruction{{ WorkoutId = Workouts[{index}].Id , Step = {step.Key} , Instruction = \" {EscapeString(step.Value)}\" }}");
+                        instructionLines.Add($"new WorkoutInstruction{{ WorkoutId = workouts[{index}].Id , Step = {step.Key} , Instruction = \" {EscapeString(step.Value)}\" }}");
                     }
 
                     string level = EscapeString(workout.WorkoutLevel);
-                    workoutLevelLines.Add($"new WorkoutLevel{{ WorkoutId = Workouts[{index}].Id, Level = Difficulty.{level} }}");
+                    workoutLevelLines.Add($"new WorkoutLevel{{ WorkoutId = workouts[{index}].Id, Level = Difficulty.{level} }}");
 
                     string equipmentId = GetEquipmentIdVariable(workout.Equipment);
-                    equipmentLines.Add($"new WorkoutEquipment{{ WorkoutId = Workouts[{index}].Id, EquipmentId = {equipmentId} }}");
+                    equipmentLines.Add($"new WorkoutEquipment{{ WorkoutId = workouts[{index}].Id, EquipmentId = {equipmentId} }}");
 
                     foreach (var (muscle, target) in workout.Muscles)
                     {
                         string muscleName = EscapeString(muscle);
                         string priority = target.MuscleTargetLevel;
 
-                        if (muscleName == "Glutes" || muscleName == "Gluteus Medius" || muscleName == "Gluteus Maximus")
+                        if (muscleName == "Abdominals" || muscleName == "Lower Abdominals" || muscleName == "Upper Abdominals" || muscleName == "Obliques")
                         {
                             var muscleId = GetMuscleId(muscleName);
-                            bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = Workouts[{index}].Id, Target = PriorityTarget.{priority} }}");
+                            bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = workouts[{index}].Id, Target = PriorityTarget.{priority} }}");
                         }
                         else
                         {
@@ -106,7 +106,7 @@ public class GenerateCodeService : IGenerateCodeService
             }
             Console.Clear();
             Console.WriteLine("// Workout Initializations");
-            var workoutsss = ($"var Workouts = new List<Workout>\n{{\n    {string.Join(",\n    ", workoutLines)}\n}};");
+            var workoutsss = ($"var workouts = new List<Workout>\n{{\n    {string.Join(",\n    ", workoutLines)}\n}};");
 
             var instruction = ($"var workoutInstruction = new List<WorkoutInstruction>\n{{\n {string.Join(",\n    ", instructionLines)}\n}};");
 

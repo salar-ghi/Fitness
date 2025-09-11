@@ -1220,8 +1220,7 @@ public class HamstringWorkoutDbInitializer
 
             new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[7].Id, Target = PriorityTarget.Tertiary },
             new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[8].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[8].Id, Target = PriorityTarget.Primary
-            },
+            new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[8].Id, Target = PriorityTarget.Primary},
             new BodyWorkout{ BodyId = hamstringId , WorkoutId = Workouts[9].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = latHamstringId , WorkoutId = Workouts[9].Id, Target = PriorityTarget.Primary },
 
