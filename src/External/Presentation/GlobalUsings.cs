@@ -1,4 +1,5 @@
-﻿global using Presentation;
+﻿global using System;
+global using Presentation;
 global using System.Text;
 global using Domain.Enums;
 global using Domain.Models;
@@ -15,6 +16,7 @@ global using Microsoft.AspNetCore.Mvc;
 global using Infrastructure.Extensions;
 global using Application.Interfaces.AI;
 global using Infrastructure.Services.AI;
+global using System.Collections.Generic;
 global using Presentation.JsonSeedStorage;
 global using Microsoft.AspNetCore.Identity;
 global using Microsoft.EntityFrameworkCore;

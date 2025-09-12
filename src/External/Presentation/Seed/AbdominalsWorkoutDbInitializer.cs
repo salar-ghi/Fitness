@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Presentation.Seed;
+﻿namespace Presentation.Seed;
 
 public class AbdominalsWorkoutDbInitializer
 {

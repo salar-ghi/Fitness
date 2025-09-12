@@ -322,7 +322,7 @@
   {
     "WorkoutName": "Landmine T Bar Rows",
     "Instruction": {
-      "1": "Grab a v bar and place it under the bar\u0027s collar.",
+      "1": "Grab a v bar and place it under the bar's collar.",
       "2": "Hinge forward with a flat back and pull your elbows straight back toward the ceiling.",
       "3": "Fully extend your elbows before initiating the next rep."
     },
@@ -365,10 +365,10 @@
   {
     "WorkoutName": "Barbell High Bar Good Morning",
     "Instruction": {
-      "1": "Place the bar on your traps. You may need a pad so the bar doesn\u0027t dig into your cervical spine.",
+      "1": "Place the bar on your traps. You may need a pad so the bar doesn't dig into your cervical spine.",
       "2": "Push your hips straight back. Your knees should stay MOSTLY extended (think soft knees). Also make sure to",
-      "3": "Look for what feels like a stretch in your hamstrings. The stretch feeling means you\u0027re likely nearing the end of your Range of Motion without rounding your spine.",
-      "4": "When you feel the stretch push your hips forward until you\u0027re in a standing position."
+      "3": "Look for what feels like a stretch in your hamstrings. The stretch feeling means you're likely nearing the end of your Range of Motion without rounding your spine.",
+      "4": "When you feel the stretch push your hips forward until you're in a standing position."
     },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
@@ -391,8 +391,8 @@
     "WorkoutName": "Barbell Low Bar Good Morning",
     "Instruction": {
       "1": "Place the bar between your traps and rear delts. Pull your shoulder blades back to give the bar a shelf to sit on.",
-      "2": "Push your hips back until you feel a stretch in your hamstrings. This means you\u0027re nearing the end of your Range of Motion with out rounding your spine.",
-      "3": "When you feel the stretch push your hips forward until you\u0027e in a standing position."
+      "2": "Push your hips back until you feel a stretch in your hamstrings. This means you're nearing the end of your Range of Motion with out rounding your spine.",
+      "3": "When you feel the stretch push your hips forward until you'e in a standing position."
     },
     "Equipment": "Barbell",
     "WorkoutLevel": "Advanced",
@@ -437,7 +437,7 @@
     "Instruction": {
       "1": "Take a shoulder width, double overhand or mixed grip.",
       "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Barbell",
     "WorkoutLevel": "Intermediate",
@@ -571,7 +571,7 @@
   {
     "WorkoutName": "Barbell Snatch Grip Romanian Deadlift",
     "Instruction": {
-      "1": "Start by standing with your feet about hip-width apart. The bar should be in a rack or box so it\u0027s lifted off the ground.",
+      "1": "Start by standing with your feet about hip-width apart. The bar should be in a rack or box so it's lifted off the ground.",
       "2": "Grab the barbell with an overhand grip, your hands should be much wider than shoulder-width apart.",
       "3": "Hing forward at the hips keeping your knees mostly extended. Hinge until you feel a stretch in your hamstrings.",
       "4": "When you feel the stretch, push your hips forward until you are back in a standing position."
@@ -1104,7 +1104,7 @@
     "WorkoutName": "Machine Seated Cable Row",
     "Instruction": {
       "1": "Sit with your back straight on the machine and grip the handles.",
-      "2": "Pull the handles back using your arms. Your legs and torso should be at a 90\u00B0 angle. Push out your chest.",
+      "2": "Pull the handles back using your arms. Your legs and torso should be at a 90 angle. Push out your chest.",
       "3": "Pull the handles towards your body until your hands are beside your abdomen."
     },
     "Equipment": "Machine",
@@ -1409,7 +1409,7 @@
     "WorkoutName": "Machine 45 Degree Back Extension",
     "Instruction": {
       "1": "Position your thighs on the padding and hook your feet on the platform supports.",
-      "2": "Keeping your back straight, slowly bend at your waist until your legs and back are at a 45\u00B0 angle.",
+      "2": "Keeping your back straight, slowly bend at your waist until your legs and back are at a 45 angle.",
       "3": "Slowly raise your body to the starting position."
     },
     "Equipment": "Machine",
@@ -2042,7 +2042,7 @@
       "1": "Set up a bar at mid way up your quad. Place the working leg against the bar.",
       "2": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
       "3": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
-      "4": "When you feel the stretch, push your hips forward again until you\u0027re back in a standing position."
+      "4": "When you feel the stretch, push your hips forward again until you're back in a standing position."
     },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
@@ -2063,7 +2063,7 @@
     "Instruction": {
       "1": "Place a barbell at about midway up your thigh. Press your quads into the barbell. Hold a plate up to your chest.",
       "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Plate",
     "WorkoutLevel": "Intermediate",
@@ -2323,7 +2323,7 @@
     "Instruction": {
       "1": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
       "2": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
-      "3": "When you feel the stretch, push your hips forward again until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward again until you're back in a standing position."
     },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Intermediate",
@@ -2344,7 +2344,7 @@
     "Instruction": {
       "1": "Take a shoulder width, double overhand or mixed grip.",
       "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Smith-Machine",
     "WorkoutLevel": "Beginner",
@@ -2494,7 +2494,7 @@
     "WorkoutName": "Dumbbell Row Bilateral",
     "Instruction": {
       "1": "Grab both dumbbells and hinge forward at the hips. Make sure you keep a flat back.",
-      "2": "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you\u0027ll get from the exercise.",
+      "2": "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you'll get from the exercise.",
       "3": "Let your arms hang freely, and then pull your elbow joint straight back toward the ceiling."
     },
     "Equipment": "Dumbbells",
@@ -2516,7 +2516,7 @@
     "Instruction": {
       "1": "Brace your off arm against something stable (bench, box). Stagger your stance so your leg on the side of your working arm is back.",
       "2": "Try to get your torso to parallel with the ground. That will extend your range of motion.",
-      "3": "Let your arm hang freely and then pull your elbow back. Imagine you\u0027ve got a tennis ball in your armpit and squeeze it each rep."
+      "3": "Let your arm hang freely and then pull your elbow back. Imagine you've got a tennis ball in your armpit and squeeze it each rep."
     },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Novice",
@@ -2714,7 +2714,7 @@
     "WorkoutName": "Dumbbell Supinated Row",
     "Instruction": {
       "1": "Grab both dumbbells and hinge forward at the hips. Make sure you keep a flat back.",
-      "2": "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you\u0027ll get from the exercise.",
+      "2": "The closer your torso is to parallel with the ground the longer the range of motion will be at your shoulder. The better the results you'll get from the exercise.",
       "3": "Let your arms hang freely, maintain an underhand grip, and then pull your elbow joint straight back toward the ceiling."
     },
     "Equipment": "Dumbbells",
@@ -2808,7 +2808,7 @@
     "Instruction": {
       "1": "Hold the dumbbell in a goblet position. With your elbows directly under your fists.",
       "2": "Push your hips back while leaving your knees MOSTLY extended. You should feel a stretch in your hamstrings.",
-      "3": "When you feel the stretch push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch push your hips forward until you're back in a standing position."
     },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Beginner",
@@ -3075,7 +3075,7 @@
       "1": "Set up a bar at mid way up your quad. Place the working leg against the bar.",
       "2": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
       "3": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
-      "4": "When you feel the stretch, push your hips forward again until you\u0027re back in a standing position."
+      "4": "When you feel the stretch, push your hips forward again until you're back in a standing position."
     },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Advanced",
@@ -3102,7 +3102,7 @@
     "Instruction": {
       "1": "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
       "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
@@ -3129,7 +3129,7 @@
     "Instruction": {
       "1": "Place one knee on a bench and hold a dumbbell in a goblet position.",
       "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
@@ -3156,7 +3156,7 @@
     "Instruction": {
       "1": "Place one knee on a bench and hold a dumbbell.",
       "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Dumbbells",
     "WorkoutLevel": "Intermediate",
@@ -3593,7 +3593,7 @@
     "WorkoutName": "Cable Bar Romanian Deadlift",
     "Instruction": {
       "1": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back",
-      "2": "Push your butt back to initiate the movement and then push your butt forward until you\u0027re back in a standing position.",
+      "2": "Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position.",
       "3": "To protect yourself from injury, always maintain a flat back on any exercise."
     },
     "Equipment": "Cables",
@@ -3620,7 +3620,7 @@
     "WorkoutName": "Cable Single Leg Deadlift",
     "Instruction": {
       "1": "Start with a straight bar or easy bar attachment. Squat the weight up into a standing position and walk a few steps back.",
-      "2": "Push your butt back to initiate the movement while lifting one of your legs.\r\nThen push your butt forward until you\u0027re back in a standing position.",
+      "2": "Push your butt back to initiate the movement while lifting one of your legs. Then push your butt forward until you're back in a standing position.",
       "3": "Compete your given amount of reps, then switch to opposite leg.",
       "4": "To protect yourself from injury, always maintain a flat back."
     },
@@ -3648,7 +3648,7 @@
     "WorkoutName": "Cable Pull Through",
     "Instruction": {
       "1": "This exercise works best with a rope attachment but can be done with anything. The attachment should be set to the bottom of the machine.",
-      "2": "Face away from the cable machine, straddle the cable itself, and grab the attachment.\r\nWalk a few steps away.",
+      "2": "Face away from the cable machine, straddle the cable itself, and grab the attachment. Walk a few steps away.",
       "3": "Break at the hips while maintaining a flat back and mostly extended knees.",
       "4": "Push hips forward until you are back in a standing position."
     },
@@ -3694,7 +3694,7 @@
     "WorkoutName": "Cable Bar Staggered Romanian Deadlift",
     "Instruction": {
       "1": "Start with a straight bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back.",
-      "2": "Stand with a staggered stance. Push your butt back to initiate the movement and then push your butt forward until you\u0027re back in a standing position.",
+      "2": "Stand with a staggered stance. Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position.",
       "3": "To protect yourself from injury, always maintain a flat back on any exercise."
     },
     "Equipment": "Cables",
@@ -3739,7 +3739,7 @@
     "WorkoutName": "Cable Elevated Deadlift",
     "Instruction": {
       "1": "Start with handles set to the bottom of the machine. Grab a box, stand on top of the box, squat the weight up into a standing position.",
-      "2": "Push your butt back to initiate the movement and then push your butt forward until you\u0027re back in a standing position.",
+      "2": "Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position.",
       "3": "To protect yourself from injury, always maintain a flat back on any exercise."
     },
     "Equipment": "Cables",
@@ -3997,7 +3997,7 @@
     "Instruction": {
       "1": "Stand facing away from the TRX straps and grab the handles with both hands.",
       "2": "Step forward so that your body is in a plank position, with your arms straight and your body in a straight line from your head to your heels.",
-      "3": "Keeping your arms straight, slowly lift your arms out to the side, keeping them at the same height as your shoulders. Your body should form a \u0022T\u0022 shape."
+      "3": "Keeping your arms straight, slowly lift your arms out to the side, keeping them at the same height as your shoulders. Your body should form a 'T' shape."
     },
     "Equipment": "TRX",
     "WorkoutLevel": "Intermediate",
@@ -4441,9 +4441,7 @@
     "Instruction": {
       "1": "Lie on your front, arms above head. Squeeze glutes to protect lower back",
       "2": "Raise your chest and arms off the ground. Adduct (bring your arms by your hips) in an alternating fashion.",
-      "3": "You can touch down and repeat the whole movement, or remain off the ground and just perform the 'swipes' ",
-      "
-
+      "3": "You can touch down and repeat the whole movement, or remain off the ground and just perform the 'swipes' "
     },
     "Equipment": "Recovery",
     "WorkoutLevel": "Beginner",
@@ -4583,7 +4581,7 @@
   {
     "WorkoutName": "Lower Back Extensions 3",
     "Instruction": {
-      "1": "Lie on your front and bring your arms into the \u0022W\u0022 position.",
+      "1": "Lie on your front and bring your arms into the 'W' position.",
       "2": "Squeeze your glutes and tilt your hips backwards (flattens the front of your hips against the ground).",
       "3": "Raise your chest off the ground and lower it without resting on the ground before the next rep."
     },
@@ -4598,7 +4596,7 @@
   {
     "WorkoutName": "Lower Back Extensions 4",
     "Instruction": {
-      "1": "Lie on your front and bring your arms in the \u0022I\u0022 position, thumbs pointing the ceiling.",
+      "1": "Lie on your front and bring your arms in the 'I' position, thumbs pointing the ceiling.",
       "2": "Squeeze your glutes and tilt your hips backwards (flattens the front of your hips against the ground).",
       "3": "Raise your chest off the ground and lower it without resting on the ground before the next rep."
     },
@@ -5225,7 +5223,7 @@
     "WorkoutName": "L Sit Chin Up",
     "Instruction": {
       "1": "Grab the bar shoulder width apart with a supinated grip (palms facing you)",
-      "2": "With your body in an \u0022L\u0022 position and arms fully extended, pull yourself up until your chin is past the bar.",
+      "2": "With your body in an 'L' position and arms fully extended, pull yourself up until your chin is past the bar.",
       "3": "Slowly return to starting position. Repeat."
     },
     "Equipment": "Bodyweight",
@@ -5245,7 +5243,7 @@
   {
     "WorkoutName": "L Sit Pull Up",
     "Instruction": {
-      "1": "Grasp the bar with an overhand grip, arms and shoulders fully extended. Pull your legs up until you\u0027re in an \u0022L\u0022 position.",
+      "1": "Grasp the bar with an overhand grip, arms and shoulders fully extended. Pull your legs up until you're in an 'L' position.",
       "2": "Pull your body up until your chin is above the bar.",
       "3": "Lower your body back to starting position."
     },
@@ -5386,7 +5384,7 @@
     "WorkoutName": "Single Legged Romanian Deadlifts",
     "Instruction": {
       "1": "Stand with your feet shoulder-width apart and knees slightly bent and raise one leg.",
-      "2": "Without changing the bend in your knee, bend at your hips, and lower your torso until it\u0027s almost parallel to the floor.",
+      "2": "Without changing the bend in your knee, bend at your hips, and lower your torso until it's almost parallel to the floor.",
       "3": "Tense your glutes and then bring yourself back to the starting position."
     },
     "Equipment": "Bodyweight",
@@ -5415,7 +5413,7 @@
       "1": "Set up a bar at mid way up your quad. Place the working leg against the bar.",
       "2": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
       "3": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
-      "4": "When you feel the stretch, push your hips forward again until you\u0027re back in a standing position."
+      "4": "When you feel the stretch, push your hips forward again until you're back in a standing position."
     },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
@@ -5442,7 +5440,7 @@
     "Instruction": {
       "1": "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
       "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Beginner",
@@ -5511,7 +5509,7 @@
     "Instruction": {
       "1": "Place one knee on a bench.",
       "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Bodyweight",
     "WorkoutLevel": "Intermediate",
@@ -6251,7 +6249,7 @@
       "1": "Set up a bar at mid way up your quad. Place the working leg against the bar.",
       "2": "Place one foot behind. You should only be on your toes on that back foot. Your front foot should be planted flat the entire time.",
       "3": "Bend your back knee and push your hips back. Look for a stretch in your front hamstring.",
-      "4": "When you feel the stretch, push your hips forward again until you\u0027re back in a standing position."
+      "4": "When you feel the stretch, push your hips forward again until you're back in a standing position."
     },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
@@ -6272,7 +6270,7 @@
     "Instruction": {
       "1": "Place a barbell at about midway up your thigh. Press your quads into the barbell.",
       "2": "Push your hips back while leaving your knees mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
@@ -6293,7 +6291,7 @@
     "Instruction": {
       "1": "Place one knee on a bench and hold a kettlebell in a goblet position.",
       "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
@@ -6314,7 +6312,7 @@
     "Instruction": {
       "1": "Place one knee on a bench and hold a kettlebell.",
       "2": "Push your hips back while leaving your knee mostly extended. Look for a stretch in your hamstrings.",
-      "3": "When you feel the stretch, push your hips forward until you\u0027re back in a standing position."
+      "3": "When you feel the stretch, push your hips forward until you're back in a standing position."
     },
     "Equipment": "Kettlebells",
     "WorkoutLevel": "Intermediate",
@@ -6906,7 +6904,7 @@
       "1": "Begin in a comfortable seated position on your mat, with your legs crossed and your spine straight.",
       "2": "Extend your right arm up toward the ceiling and bend it at the elbow, bringing your right hand behind your head.",
       "3": "Reach your left arm behind your back and bend it at the elbow, bringing your left hand up between your shoulder blades.",
-      "4": "Clasp your hands behind your back, trying to touch your fingertips together. If you can\u0027t quite reach, you can use a strap or towel to bridge the gap between your hands."
+      "4": "Clasp your hands behind your back, trying to touch your fingertips together. If you can't quite reach, you can use a strap or towel to bridge the gap between your hands."
     },
     "Equipment": "Yoga",
     "WorkoutLevel": "Beginner",
