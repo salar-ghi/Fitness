@@ -18,7 +18,7 @@ public class GenerateCodeService : IGenerateCodeService
     {
         try
         {
-            var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Hands_Forearms_wristExtensors_WristFlexors.json");
+            var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Neck_Shoulders_Front_RearShoulders_Lateral_Anterior_PosteriorDeltoid.json");
             string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var workouts = JsonSerializer.Deserialize<List<WorkoutOutput>>(jsonFile, options);
@@ -87,7 +87,8 @@ public class GenerateCodeService : IGenerateCodeService
                         string muscleName = EscapeString(muscle);
                         string priority = target.MuscleTargetLevel;
 
-                        if (muscleName == "Hands" || muscleName == "Forearms" || muscleName == "Wrist Extensors" || muscleName == "Wrist Flexors")
+                        if (muscleName == "Neck" || muscleName == "Shoulders" || muscleName == "Front Shoulders" || muscleName == "Rear Shoulders"
+                            || muscleName == "Lateral Deltoid" || muscleName == "Anterior Deltoid" || muscleName == "Posterior Deltoid")
                         {
                             var muscleId = GetMuscleId(muscleName);
                             bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = workouts[{index}].Id, Target = PriorityTarget.{priority} }}");
