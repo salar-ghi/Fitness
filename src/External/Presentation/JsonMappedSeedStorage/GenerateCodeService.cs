@@ -18,7 +18,7 @@ public class GenerateCodeService : IGenerateCodeService
     {
         try
         {
-            var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Neck_Shoulders_Front_RearShoulders_Lateral_Anterior_PosteriorDeltoid.json");
+            var jsonFilePath = Path.Combine(_env.ContentRootPath, "JsonMappedSeedStorage", "WorkoutUpdateInstructionFiles", "Quads_InnerThigh_InnerQuadriceps_OuterQuadriceps_RectusFemoris_Feet.json");
             string jsonFile = await File.ReadAllTextAsync(jsonFilePath);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var workouts = JsonSerializer.Deserialize<List<WorkoutOutput>>(jsonFile, options);
@@ -87,8 +87,8 @@ public class GenerateCodeService : IGenerateCodeService
                         string muscleName = EscapeString(muscle);
                         string priority = target.MuscleTargetLevel;
 
-                        if (muscleName == "Neck" || muscleName == "Shoulders" || muscleName == "Front Shoulders" || muscleName == "Rear Shoulders"
-                            || muscleName == "Lateral Deltoid" || muscleName == "Anterior Deltoid" || muscleName == "Posterior Deltoid")
+                        if (muscleName == "Outer Quadricep" || muscleName == "Rectus Femoris" || muscleName == "Quads" || muscleName == "Inner Thigh"
+                            || muscleName == "Inner Quadriceps" || muscleName == "Feet")
                         {
                             var muscleId = GetMuscleId(muscleName);
                             bodyWorkoutLines.Add($"new BodyWorkout{{ BodyId = {muscleId} , WorkoutId = workouts[{index}].Id, Target = PriorityTarget.{priority} }}");
@@ -116,6 +116,7 @@ public class GenerateCodeService : IGenerateCodeService
             var workoutLevel = ($"var workoutLevel = new List<WorkoutLevel>\n{{\n    {string.Join(",\n    ", workoutLevelLines)}\n}};");
 
             var bodyWorkout = ($"var bodyWorkouts = new List<BodyWorkout>\n{{\n    {string.Join(",\n    ", bodyWorkoutLines)}\n}};");
+
 
 
             return (workoutLines, instructionLines, equipmentLines, workoutLevelLines, bodyWorkoutLines);
@@ -163,7 +164,7 @@ public class GenerateCodeService : IGenerateCodeService
                 "Quads" => "quadId",
                 "Inner Thigh" => "inThighId",
                 "Inner Quadriceps" => "inQuadricepId",
-                "Outer Quadricep" => "OutQuadricepId",
+                "Outer Quadricep" => "outQuadricepId",
                 "Rectus Femoris" => "recFemorisId",
                 "Feet" => "feetId",
                 "Abdominals" => "AbdoId",
