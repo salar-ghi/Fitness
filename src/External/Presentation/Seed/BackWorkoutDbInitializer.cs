@@ -3,7 +3,8 @@
 public static class BackWorkoutDbInitializer
 {
     // Traps (mid-back) // Lower Back
-    public static async Task<List<Workout>> BackWorkoutSeedAsync(FitnessContext context)
+    //public static async Task<List<Workout>> BackWorkoutSeedAsync(FitnessContext context)
+    public static async Task WorkoutSeedAsync(FitnessContext context)
     {
         var backWorkouts = new List<Workout>();
         
@@ -83,7 +84,7 @@ public static class BackWorkoutDbInitializer
             new Workout{ Name = "Kettlebell Deadlift (Single)", SportId = bodybuildingId, Description = "" },                           // index => 43
             new Workout{ Name = "Kettlebell Row (Single)", SportId = bodybuildingId, Description = "" },                                // index => 44
             new Workout{ Name = "Kettlebell Silverback Shrug (Single)", SportId = bodybuildingId, Description = "" },                   // index => 45
-            new Workout{ Name = "Kettlebell Rear Delt Row (Double)", SportId = bodybuildingId, Description = "" },                   // index => 46
+            new Workout{ Name = "Kettlebell Rear Delt Row (Double)", SportId = bodybuildingId, Description = "" },                      // index => 46
             new Workout{ Name = "Kettlebell Silverback Shrug", SportId = bodybuildingId, Description = "" },                            // index => 47
 
             // Traps (mid-back) // Band
@@ -283,7 +284,6 @@ public static class BackWorkoutDbInitializer
             new Workout{ Name = "Sphinx Pose", SportId = yogaSportId, Description = "" },                                               // index => 207
             new Workout{ Name = "Cobra Pose", SportId = yogaSportId, Description = "" },                                                // index => 208
         };
-        return backWorkouts;
         //await context.Workouts.AddRangeAsync(backWorkouts);
         //await context.SaveChangesAsync();
 

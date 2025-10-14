@@ -51,25 +51,6 @@ public class Startup
             new HealthCheckResult(HealthStatus.Healthy, "Ollama server is running"));
 
         services.AddControllers();
-        //services.AddSingleton<GrokService>();
-        //services.AddSingleton<OpenAiService>();
-
-        //services.AddHttpClient<IDeepSeekService, DeepSeekService>((provider, client) =>
-        //{
-        //    client.Timeout = TimeSpan.FromSeconds(30);
-        //    client.DefaultRequestHeaders.Accept.Add(
-        //        new MediaTypeWithQualityHeaderValue("application/json"));
-
-        //    var config = provider.GetRequiredService<IConfiguration>();
-        //    client.BaseAddress = new Uri("https://api.deepseek.com/"); // Versioned endpoint
-        //    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
-        //        "Bearer",
-        //        config["DeepSeek:ApiKey"]
-        //    );
-        //    client.DefaultRequestHeaders.Add("Accept", "application/json");
-        //});
-
-
 
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(c =>
@@ -82,9 +63,25 @@ public class Startup
 
     public async Task SeedData(FitnessContext dbContext)
     {
-        //await BodyDbInitializer.BodySeedAsync(dbContext);
-        //await EquipmentDbInitializer.EquipmentSeedAsync(dbContext);
-        //await SportDbInitializer.SportSeedAsync(dbContext);
+        await BodyDbInitializer.BodySeedAsync(dbContext);
+        await EquipmentDbInitializer.EquipmentSeedAsync(dbContext);
+        await SportDbInitializer.SportSeedAsync(dbContext);
+
+        await AbdominalsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await BackWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+
+        await BicepsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await CalvesTibialisSoleusWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await ChestUpperPectoralisWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await GlutesWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await HamstringWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await HandsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await NeckWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await QuadsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await TrapsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        await TricepsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+
+
         //await BicepsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
     }
 

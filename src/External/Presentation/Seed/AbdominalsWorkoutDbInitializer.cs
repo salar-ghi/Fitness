@@ -1,6 +1,6 @@
 ﻿namespace Presentation.Seed;
 
-public class AbdominalsWorkoutDbInitializer
+public static class AbdominalsWorkoutDbInitializer
 {
     //private readonly FitnessContext _context;
 
