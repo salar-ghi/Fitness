@@ -1,4 +1,4 @@
-namespace Presentation.Seed;
+﻿namespace Presentation.Seed;
 
 public class ChestUpperPectoralisWorkoutDbInitializer
 {
@@ -197,7 +197,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
         await context.SaveChangesAsync();
 
         // ***************************************************************** //
-        var backWorkoutInstruction = new List<WorkoutInstruction>();
+        var workoutInstruction = new List<WorkoutInstruction>();
 
         workoutInstruction = new List<WorkoutInstruction>
         {
@@ -205,42 +205,42 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[0].Id , Step = 1 , Instruction = " Lay flat on the bench with your feet on the ground. With straight arms unrack the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[0].Id , Step = 2 , Instruction = " Lower the bar to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[0].Id , Step = 3 , Instruction = " Raise the bar until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[1].Id , Step = 1 , Instruction = " Position the bench between 30 and 45 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[1].Id , Step = 2 , Instruction = " Lay flat on the bench with your feet on the ground. With straight arms unrack the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[1].Id , Step = 3 , Instruction = " Lower the bar to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[1].Id , Step = 4 , Instruction = " Raise the bar (slowly and controlled) until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[2].Id , Step = 1 , Instruction = " Un-rack the bar and break at the elbows and shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[2].Id , Step = 2 , Instruction = " Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[3].Id , Step = 1 , Instruction = " Start in a bench press position with your feet planted on the bench and knees bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[3].Id , Step = 2 , Instruction = " Grasp the barbell with an overhand grip, positioning your hands slightly wider than shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[3].Id , Step = 3 , Instruction = " Lift the barbell off the rack and lower it to your chest, keeping your elbows close to your sides." },
             new WorkoutInstruction{ WorkoutId = Workouts[3].Id , Step = 4 , Instruction = " Push the barbell back up to the starting position, fully extending your arms." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 1 , Instruction = " Start in a bench press position with your legs elevated. Try to keep your knees with a slight bend in them." },
             new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 2 , Instruction = " Unrack the bar then initiate the rep." },
             new WorkoutInstruction{ WorkoutId = Workouts[4].Id , Step = 3 , Instruction = " Bring the bar to your torso and tap your ribcage before pressing back to the ceiling." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[5].Id , Step = 1 , Instruction = " Start on the bench with your shoulder blades pulled back." },
             new WorkoutInstruction{ WorkoutId = Workouts[5].Id , Step = 2 , Instruction = " As you initiate the first rep, tuck your elbows slightly until the bar is a few inches off your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[5].Id , Step = 3 , Instruction = " Pause just off your chest for 1-3 seconds. Then press explosively." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[6].Id , Step = 1 , Instruction = " Stand facing the landmine with feet hip-width apart and holding the end of the landmine barbell with both hands, keeping elbows bent and close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[6].Id , Step = 2 , Instruction = " Step backward with the right foot, lunge down, and press the landmine away from your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[6].Id , Step = 3 , Instruction = " Push through the left heel to return to the starting position while pulling the landmine back to your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[6].Id , Step = 4 , Instruction = " Repeat on the opposite side, alternating for the desired number of reps." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[7].Id , Step = 1 , Instruction = " Starting lying on your back perpendicularly to the barbell while holding the end of the bar in your hand that is further away from the landmine attachment. Your elbow should be rest on the ground at a 45 to 60 degree angle from your torso, with your wrist stacked over your elbow." },
             new WorkoutInstruction{ WorkoutId = Workouts[7].Id , Step = 2 , Instruction = " Drive the end of the bar upwards, squeezing your chest at the top of the movement. Lower the bar back down until your elbow gently touches the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[7].Id , Step = 3 , Instruction = " Repeat for the desired number of reps on one side before switching sides." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[8].Id , Step = 1 , Instruction = " Position the bench between 45 and 60 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[8].Id , Step = 2 , Instruction = " Lay flat on the bench with your feet on the ground. With straight arms unrack the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[8].Id , Step = 3 , Instruction = " Lower the bar to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[8].Id , Step = 4 , Instruction = " Raise the bar (slowly and controlled) until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[9].Id , Step = 1 , Instruction = " Lay flat on the bench with your feet on the ground. With straight arms unrack the bar with a reverse grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[9].Id , Step = 2 , Instruction = " Lower the bar to your lower chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[9].Id , Step = 3 , Instruction = " Raise the bar until you've locked your elbows." },
@@ -250,32 +250,32 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[10].Id , Step = 1 , Instruction = " Sit on the machine and grab the handles with a neutral grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[10].Id , Step = 2 , Instruction = " Adjust the machine to get the longest range of motion possible." },
             new WorkoutInstruction{ WorkoutId = Workouts[10].Id , Step = 3 , Instruction = " Press until your elbows are not extended but not hyperextended." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 1 , Instruction = " Grip bars with arms straight, shoulders above hands. Place knees on pad." },
             new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 2 , Instruction = " Lower slowly until elbows are at 90 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[11].Id , Step = 3 , Instruction = " Push back up to start position, extending arms fully." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 1 , Instruction = " Sit on the machine and grab the handles with an overhand grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 2 , Instruction = " Adjust the machine to get the longest range of motion possible." },
             new WorkoutInstruction{ WorkoutId = Workouts[12].Id , Step = 3 , Instruction = " Press until your elbows are not extended but not hyperextended." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 1 , Instruction = " Adjust seat height so handles align with chest. Sit and grip handles with elbows slightly bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 2 , Instruction = " Slowly bring handles together in front, keeping tension. Focus on squeezing chest muscles." },
             new WorkoutInstruction{ WorkoutId = Workouts[13].Id , Step = 3 , Instruction = " Return handles to starting position with controlled motion. Keep chest up throughout. Repeat for reps." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 1 , Instruction = " Adjust seat height so handles align with chest. Put your elbows on the pads." },
             new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 2 , Instruction = " Slowly bring pads together in front, keeping tension. Focus on squeezing chest muscles." },
             new WorkoutInstruction{ WorkoutId = Workouts[14].Id , Step = 3 , Instruction = " Return pads to starting position with controlled motion. Keep chest up throughout. Repeat for reps." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[15].Id , Step = 1 , Instruction = " Sit on the machine and grab the handles." },
             new WorkoutInstruction{ WorkoutId = Workouts[15].Id , Step = 2 , Instruction = " Press the handles down until your elbows are nearly extended." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 1 , Instruction = " Adjust the seat pad to match your height." },
             new WorkoutInstruction{ WorkoutId = Workouts[16].Id , Step = 2 , Instruction = " Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 1 , Instruction = " Adjust the seat pad to match your height." },
             new WorkoutInstruction{ WorkoutId = Workouts[17].Id , Step = 2 , Instruction = " Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[18].Id , Step = 1 , Instruction = " Adjust the seat pad to match your height." },
             new WorkoutInstruction{ WorkoutId = Workouts[18].Id , Step = 2 , Instruction = " Press the weight forward until your elbows are nearly extended. Return to the starting position with out letting the weight rest at the bottom until finishing your set." },
             #endregion,
@@ -284,15 +284,15 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 1 , Instruction = " Raise your arms to shoulder height, fully extended in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 2 , Instruction = " Slowly bring your arms behind your back still at shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[19].Id , Step = 3 , Instruction = " Pause for a few seconds and then return to starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 1 , Instruction = " Place your arms behind your back and clasp your hands together." },
             new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 2 , Instruction = " Slowly extend your elbows until they are locked then lift them away from you." },
             new WorkoutInstruction{ WorkoutId = Workouts[20].Id , Step = 3 , Instruction = " Pause in this position for a few seconds and then return them to starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[21].Id , Step = 1 , Instruction = " Lay on your side with one hand just in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[21].Id , Step = 2 , Instruction = " With a slight bend in your arm, rotate your arm around your body as slowly as possible." },
             new WorkoutInstruction{ WorkoutId = Workouts[21].Id , Step = 3 , Instruction = " Return to the starting position and then repeat on the other side." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 1 , Instruction = " Using a raised wall, place your arm at a 90 degree angle against it." },
             new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 2 , Instruction = " With a staggered stance, lean into the wall extending your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[22].Id , Step = 3 , Instruction = " Pause for a few seconds and then return to starting position and repeat on opposite side." },
@@ -302,20 +302,20 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 1 , Instruction = " Start in a pushup position with both hands on a plate. This will extend your range of motion." },
             new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 2 , Instruction = " Break at the elbows and shoulders until your upper arm travels behind the body slightly." },
             new WorkoutInstruction{ WorkoutId = Workouts[23].Id , Step = 3 , Instruction = " Then press back into the original position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 1 , Instruction = " Lay flat on the ground with a plate on your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 2 , Instruction = " Push your hips up toward the ceiling and maintain that extended position." },
             new WorkoutInstruction{ WorkoutId = Workouts[24].Id , Step = 3 , Instruction = " With your hips up, press the plate toward the ceiling." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 1 , Instruction = " Begin in a push-up position on your knees. Break at the elbow and shoulder joint." },
             new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 2 , Instruction = " Lower your body, keeping elbows close." },
             new WorkoutInstruction{ WorkoutId = Workouts[25].Id , Step = 3 , Instruction = " Push back up to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 1 , Instruction = " Place your hands firmly on the ground, directly under shoulders. Place a plate on your back." },
             new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 2 , Instruction = " Flatten your back so your entire body is straight and slowly lower your body" },
             new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 3 , Instruction = " Draw shoulder blades back and down, keeping elbows tucked close to your body" },
             new WorkoutInstruction{ WorkoutId = Workouts[26].Id , Step = 4 , Instruction = " Exhale as you push back to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 1 , Instruction = " Use a dip belt to attach a plate to yourself. Grip bars with arms straight, shoulders above hands. Keep legs straight or bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 2 , Instruction = " Lower slowly until elbows are at 90 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[27].Id , Step = 3 , Instruction = " Push back up to start position, extending arms fully." },
@@ -325,19 +325,19 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 1 , Instruction = " Stand on Bosu with feet shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 2 , Instruction = " Drop into squat position and place hands on Bosu." },
             new WorkoutInstruction{ WorkoutId = Workouts[28].Id , Step = 3 , Instruction = " Jump feet back into plank, perform a pushup, then jump back to squat." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 1 , Instruction = " Stand on Bosu with feet shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 2 , Instruction = " Drop into squat position and place hands on Bosu." },
             new WorkoutInstruction{ WorkoutId = Workouts[29].Id , Step = 3 , Instruction = " Jump feet back to plank, then jump back to squat." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 1 , Instruction = " Place one hand on Bosu, other on the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 2 , Instruction = " Lower chest to the ground, keeping the body straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[30].Id , Step = 3 , Instruction = " Push back up to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 1 , Instruction = " Place hands on Bosu, shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 2 , Instruction = " Lower chest to the ground, keeping the body straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[31].Id , Step = 3 , Instruction = " Push back up to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 1 , Instruction = " Place both hands on Bosu, wider than shoulder-width." },
             new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 2 , Instruction = " Perform a pushup, then walk hands to the other side." },
             new WorkoutInstruction{ WorkoutId = Workouts[32].Id , Step = 3 , Instruction = " Perform another pushup, repeat back and forth." },
@@ -347,16 +347,16 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 1 , Instruction = " Lay flat on the bench with your feet on the ground. With straight arms unrack the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 2 , Instruction = " Lower the bar to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[33].Id , Step = 3 , Instruction = " Raise the bar until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 1 , Instruction = " Lie on the flat bench, grasp the bar at shoulder level with your palms facing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 2 , Instruction = " Slowly lower the bar to your chest, keeping your elbows flared out." },
             new WorkoutInstruction{ WorkoutId = Workouts[34].Id , Step = 3 , Instruction = " Once you feel a stretch in your chest press the weight back up." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 1 , Instruction = " Position the bench between 30 and 45 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 2 , Instruction = " Lay flat on the bench with your feet on the ground. With straight arms unrack the bar." },
             new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 3 , Instruction = " Lower the bar to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[35].Id , Step = 4 , Instruction = " Raise the bar (slowly and controlled) until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 1 , Instruction = " Place hands on the bar, in push-up position." },
             new WorkoutInstruction{ WorkoutId = Workouts[36].Id , Step = 2 , Instruction = " Lower yourself to the bar, maintaining proper form." },
             #endregion,
@@ -366,122 +366,122 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 2 , Instruction = " Begin the exercise with the dumbbells held together above your chest, elbows slightly bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 3 , Instruction = " Simultaneously lower the weights to either side." },
             new WorkoutInstruction{ WorkoutId = Workouts[37].Id , Step = 4 , Instruction = " Pause when the weights are parallel to the bench, then raise your arms to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 1 , Instruction = " Start by lying flat on a bench with a dumbbell in each hand." },
             new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 2 , Instruction = " Hold the dumbbells at chest level with your palms facing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[38].Id , Step = 3 , Instruction = " Engage your core and press the dumbbells upward until your arms are fully extended." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 1 , Instruction = " Lay on a bench with two dumbbells extended in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 2 , Instruction = " You should have a slight bend in your elbows and maintain that bend. Your shoulder joint should do all the movement." },
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 3 , Instruction = " Bring the dumbbells out to your side. Stop the dumbbells before going behind your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[39].Id , Step = 4 , Instruction = " Bring the dumbbells back together at the top." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 1 , Instruction = " Lay on a decline bench with both arms extended in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 2 , Instruction = " Break at one of your arms first bringing that arm to your side while keeping the other arm extended." },
             new WorkoutInstruction{ WorkoutId = Workouts[40].Id , Step = 3 , Instruction = " Press the dumbbell back to the ceiling. Fully extend that arm before initiating on the other side." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 1 , Instruction = " Lay on a decline bench with both arms extended in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 2 , Instruction = " Break at the elbows and bring your upper arms to your side." },
             new WorkoutInstruction{ WorkoutId = Workouts[41].Id , Step = 3 , Instruction = " Once your upper arms have reached your side, press the dumbbells back to the ceiling." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 1 , Instruction = " Lay flat on a decline bench press with the dumbbells pointed toward the ceiling." },
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 2 , Instruction = " Maintain a slight bend in your elbows. Bring the dumbbells out to the side, stopping the dumbbells before they pass your torso." },
             new WorkoutInstruction{ WorkoutId = Workouts[42].Id , Step = 3 , Instruction = " Bring the dumbbells together to finish the rep." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 1 , Instruction = " Lie on the decline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 2 , Instruction = " Slowly lower the dumbbells to your chest, keeping your elbows flared out. As you lower the dumbbells, exhale deeply." },
             new WorkoutInstruction{ WorkoutId = Workouts[43].Id , Step = 3 , Instruction = " Once your elbows reach your chest, pause for a moment and then press them back up to the starting position" },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 1 , Instruction = " Lie on the decline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 2 , Instruction = " Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 3 , Instruction = " Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[44].Id , Step = 4 , Instruction = " This variation is much easier on the shoulder joints." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 1 , Instruction = " Start by laying on a decline bench with two dumbbells." },
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 2 , Instruction = " Position the dumbbell above your chest with your elbow bent and shoulder level." },
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 3 , Instruction = " Slowly lower the dumbbell towards your chest, keeping your elbow close to your body and your core engaged while the other dumbbell remains pointed toward the ceiling." },
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 4 , Instruction = " Once the dumbbell reaches your side, pause for a moment and then press the weight back up to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[45].Id , Step = 5 , Instruction = " Repeat for the desired number of repetitions before switching to your other arm." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 1 , Instruction = " Lay flat on a decline bench with two dumbbells pressed to one another." },
             new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 2 , Instruction = " Break at the elbows and keep your elbows tucked as you bring the dumbbells to your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 3 , Instruction = " Continue to press the dumbbells into one another throughout the rep." },
             new WorkoutInstruction{ WorkoutId = Workouts[46].Id , Step = 4 , Instruction = " Once the dumbbells reach your chest, press back toward the ceiling." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 1 , Instruction = " Lie on the flat bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 2 , Instruction = " Slowly lower the dumbbells to your chest, keeping your elbows flared out. As you lower the dumbbells, exhale deeply." },
             new WorkoutInstruction{ WorkoutId = Workouts[47].Id , Step = 3 , Instruction = " Once your elbows reach your chest, pause for a moment and then press them back up to the starting position" },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 1 , Instruction = " Lie on the incline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 2 , Instruction = " Slowly lower the dumbbells to your chest, keeping your elbows flared out. As you lower the dumbbells, exhale deeply." },
             new WorkoutInstruction{ WorkoutId = Workouts[48].Id , Step = 3 , Instruction = " Once your elbows reach your chest, pause for a moment and then press them back up to the starting position" },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 1 , Instruction = " Lay flat on the incline bench with your feet on the ground. Raise the dumbbells until you have straight arms." },
             new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 2 , Instruction = " Lower the dumbbells to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[49].Id , Step = 3 , Instruction = " Raise the dumbbells until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 1 , Instruction = " Lay on an incline bench with two dumbbells extended in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 2 , Instruction = " You should have a slight bend in your elbows and maintain that bend. Your shoulder joint should do all the movement." },
             new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 3 , Instruction = " Bring the dumbbells out to your side. Stop the dumbbells before going behind your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[50].Id , Step = 4 , Instruction = " Bring the dumbbells back together at the top." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 1 , Instruction = " Lay on a bench with two dumbbells extended in front of you in an overhand grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 2 , Instruction = " You should have a slight bend in your elbows and maintain that bend. Your shoulder joint should do all the movement." },
             new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 3 , Instruction = " Bring the dumbbells out to your side. Stop the dumbbells before going behind your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[51].Id , Step = 4 , Instruction = " Bring the dumbbells back together at the top." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 1 , Instruction = " Lay on an incline bench with two dumbbells extended in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 2 , Instruction = " You should have a slight bend in your elbows and maintain that bend. Your shoulder joint should do all the movement. You should have an overhand grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 3 , Instruction = " Bring the dumbbells out to your side. Stop the dumbbells before going behind your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[52].Id , Step = 4 , Instruction = " Bring the dumbbells back together at the top." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[53].Id , Step = 1 , Instruction = " Lie on a flat bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[53].Id , Step = 2 , Instruction = " Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[53].Id , Step = 3 , Instruction = " Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[53].Id , Step = 4 , Instruction = " This variation is much easier on the shoulder joints." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 1 , Instruction = " Lie on an incline bench, grasp a pair of dumbbells and hold them at shoulder level with your palms facing each other. Keep your elbows bent and close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 2 , Instruction = " Slowly lower the dumbbells to your chest, keeping your elbows bent and close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 3 , Instruction = " Once the dumbbells reach your chest, pause for a moment and then press them back up to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[54].Id , Step = 4 , Instruction = " This variation is much easier on the shoulder joints." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 1 , Instruction = " Lay flat on a bench with two dumbbells pressed to one another." },
             new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 2 , Instruction = " Break at the elbows and keep your elbows tucked as you bring the dumbbells to your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 3 , Instruction = " Continue to press the dumbbells into one another throughout the rep." },
             new WorkoutInstruction{ WorkoutId = Workouts[55].Id , Step = 4 , Instruction = " Once the dumbbells reach your chest, press back toward the ceiling." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 1 , Instruction = " Start by laying on a bench with two dumbbells." },
             new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 2 , Instruction = " Position the dumbbell above your chest with your elbow bent and shoulder level." },
             new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 3 , Instruction = " Slowly lower the dumbbell towards your chest, keeping your elbow close to your body and your core engaged while the other dumbbell remains pointed toward the ceiling." },
             new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 4 , Instruction = " Once the dumbbell reaches your side, pause for a moment and then press the weight back up to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[56].Id , Step = 5 , Instruction = " Repeat for the desired number of repetitions before switching to your other arm." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 1 , Instruction = " Start by placing two dumbbells on the floor, about shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 2 , Instruction = " Position yourself in a plank position with your hands on top of the dumbbells, keeping your arms straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 3 , Instruction = " Keep your feet together, with your toes resting on the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 4 , Instruction = " Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the dumbbells." },
             new WorkoutInstruction{ WorkoutId = Workouts[57].Id , Step = 5 , Instruction = " Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 1 , Instruction = " Start in a high plank position with a pair of dumbbells positioned under your shoulders. Your hands should grip the dumbbells, palms facing each other." },
             new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 2 , Instruction = " Keep your core engaged and your back straight as you row one dumbbell up towards your hip, keeping your elbow close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[58].Id , Step = 3 , Instruction = " Lower the dumbbell back down to the starting position and repeat on the other side." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 1 , Instruction = " Start in a bench press position with two dumbbells." },
             new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 2 , Instruction = " Break at one of your elbows first while keeping the other elbow extended." },
             new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 3 , Instruction = " Your working arm should reach your side before pressing back to the ceiling." },
             new WorkoutInstruction{ WorkoutId = Workouts[59].Id , Step = 4 , Instruction = " Then alternate to the other arm." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[60].Id , Step = 1 , Instruction = " Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[61].Id , Step = 1 , Instruction = " Position the bench between 45 and 60 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[61].Id , Step = 2 , Instruction = " Lay flat on the bench with your feet on the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[61].Id , Step = 3 , Instruction = " Lower the bar to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[61].Id , Step = 4 , Instruction = " Raise the dumbbells (slowly and controlled) until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[62].Id , Step = 1 , Instruction = " Lay flat on the bench with your feet on the ground. With straight arms unrack the bar with a reverse grip." },
             new WorkoutInstruction{ WorkoutId = Workouts[62].Id , Step = 2 , Instruction = " Lower the dumbbells to your lower chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[62].Id , Step = 3 , Instruction = " Raise the bar until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[63].Id , Step = 1 , Instruction = " Use a dip belt to attach a dumbbell to yourself. Grip bars with arms straight, shoulders above hands. Keep legs straight or bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[63].Id , Step = 2 , Instruction = " Lower slowly until elbows are at 90 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[63].Id , Step = 3 , Instruction = " Push back up to start position, extending arms fully." },
@@ -490,18 +490,18 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             #region Medicine-Ball,
             new WorkoutInstruction{ WorkoutId = Workouts[64].Id , Step = 1 , Instruction = " Stand tall, partner tosses medicine ball to chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[64].Id , Step = 2 , Instruction = " Catch ball and press it back to partner. Repeat." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[65].Id , Step = 1 , Instruction = " Hold medicine ball at chest, feet shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[65].Id , Step = 2 , Instruction = " Extend arms forward, slamming ball to the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[65].Id , Step = 3 , Instruction = " Catch the ball on the rebound and repeat for reps." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[66].Id , Step = 1 , Instruction = " Stand in front of a wall holding a medicine ball." },
             new WorkoutInstruction{ WorkoutId = Workouts[66].Id , Step = 2 , Instruction = " Press the ball forward, extending arms and tossing it." },
             new WorkoutInstruction{ WorkoutId = Workouts[66].Id , Step = 3 , Instruction = " Catch the ball and return to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[67].Id , Step = 1 , Instruction = " Place hands on medicine ball, in push-up position." },
             new WorkoutInstruction{ WorkoutId = Workouts[67].Id , Step = 2 , Instruction = " Perform push-up, maintaining proper form." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[68].Id , Step = 1 , Instruction = " Place one hand on medicine ball, other on ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[68].Id , Step = 2 , Instruction = " Perform push-up, walking hands to switch positions." },
             #endregion,
@@ -510,56 +510,56 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[69].Id , Step = 1 , Instruction = " Use a handle attachment set all the way to the bottom of the machine." },
             new WorkoutInstruction{ WorkoutId = Workouts[69].Id , Step = 2 , Instruction = " Bring both of the handles to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[69].Id , Step = 3 , Instruction = " Walk a few steps forward. Then press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbows stay in a fixed position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 1 , Instruction = " Use a handle attachment. The cables should be set to shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 2 , Instruction = " Bring both of the handles to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 3 , Instruction = " Walk a few steps forward. Then press the weight forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[70].Id , Step = 4 , Instruction = " From there, you should flex and extend at both the shoulders and elbows simultaneously." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[71].Id , Step = 1 , Instruction = " Place the cable anchor at a lower level than your shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[71].Id , Step = 2 , Instruction = " Sit on the bench, leave your elbows mostly extended." },
             new WorkoutInstruction{ WorkoutId = Workouts[71].Id , Step = 3 , Instruction = " Bring your fists together and flex your pecs." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[72].Id , Step = 1 , Instruction = " Bring a bench over to the cables, set the cables just below shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[72].Id , Step = 2 , Instruction = " Bring both of the handles to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[72].Id , Step = 3 , Instruction = " Press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbows stay in a fixed position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[73].Id , Step = 1 , Instruction = " Use a handle attachment. Bring a bench over to the cables. The cables should be set to shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[73].Id , Step = 2 , Instruction = " Bring both of the handles to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[73].Id , Step = 3 , Instruction = " From there, you should flex and extend at both the shoulders and elbows simultaneously." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[74].Id , Step = 1 , Instruction = " Bring a bench over to the cables, set the cables above shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[74].Id , Step = 2 , Instruction = " Bring both of the handles to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[74].Id , Step = 3 , Instruction = " Press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbows stay in a fixed position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[75].Id , Step = 1 , Instruction = " Use a handle attachment. Bring a bench over to the cables. The cables should be set above height." },
             new WorkoutInstruction{ WorkoutId = Workouts[75].Id , Step = 2 , Instruction = " Bring both of the handles to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[75].Id , Step = 3 , Instruction = " From there, you should flex and extend at both the shoulders and elbows simultaneously." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[76].Id , Step = 1 , Instruction = " Use a handle attachment. Bring a bench over to the cables. The cable should be set above shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[76].Id , Step = 2 , Instruction = " Bring one handles to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[76].Id , Step = 3 , Instruction = " From there, you should flex and extend at both the shoulders and elbows simultaneously." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[77].Id , Step = 1 , Instruction = " Bring a bench over to the cables, set the cable above shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[77].Id , Step = 2 , Instruction = " Bring the handle to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[77].Id , Step = 3 , Instruction = " Press the weight forward. From there, your shoulders should horizontally abduct and adduct while your elbow stays in a fixed position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[78].Id , Step = 1 , Instruction = " Bring a bench over to the cables, set the cable just below shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[78].Id , Step = 2 , Instruction = " Bring the handle to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[78].Id , Step = 3 , Instruction = " Press the weight forward. From there, your shoulder should horizontally abduct and adduct while your elbow stays in a fixed position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[79].Id , Step = 1 , Instruction = " Place the cable anchor at a lower level than your shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[79].Id , Step = 2 , Instruction = " Sit on the bench, leave your elbows mostly extended." },
             new WorkoutInstruction{ WorkoutId = Workouts[79].Id , Step = 3 , Instruction = " Bring your arm across your chest and flex your pec." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[80].Id , Step = 1 , Instruction = " Use a handle attachment. Bring a bench over to the cables. The cable should be set to shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[80].Id , Step = 2 , Instruction = " Bring the handle to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[80].Id , Step = 3 , Instruction = " From there, you should flex and extend at both the shoulder and elbow simultaneously." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[81].Id , Step = 1 , Instruction = " Use a handle attachment. Bring a bench over to the cables. The cables should be set fairly low." },
             new WorkoutInstruction{ WorkoutId = Workouts[81].Id , Step = 2 , Instruction = " Bring both of the handles to your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[81].Id , Step = 3 , Instruction = " From there, you should flex and extend at both the shoulders and elbows simultaneously." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[82].Id , Step = 1 , Instruction = " Use a handle attachment. Bring a bench over to the cables. The cable should be set fairly low." },
             new WorkoutInstruction{ WorkoutId = Workouts[82].Id , Step = 2 , Instruction = " Bring the handle across your chest and make sure you are in the center of the cable crossover." },
             new WorkoutInstruction{ WorkoutId = Workouts[82].Id , Step = 3 , Instruction = " From there, you should flex and extend at both the shoulder and elbow simultaneously." },
@@ -570,7 +570,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[83].Id , Step = 2 , Instruction = " Grasp the TRX handles with both hands, keeping your arms extended and your shoulders away from your ears." },
             new WorkoutInstruction{ WorkoutId = Workouts[83].Id , Step = 3 , Instruction = " Lean forward, keeping your arms extended and your core engaged. Your body should form a slight diagonal line from your ankles to your head." },
             new WorkoutInstruction{ WorkoutId = Workouts[83].Id , Step = 4 , Instruction = " Slowly bring your arms towards each other, in front of your chest, while keeping your core engaged and your body in a stable position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 1 , Instruction = " Start by setting up the TRX straps to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them." },
             new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 2 , Instruction = " Stand facing the TRX straps, grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[84].Id , Step = 3 , Instruction = " Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line." },
@@ -580,10 +580,10 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             #region Vitruvian,
             new WorkoutInstruction{ WorkoutId = Workouts[85].Id , Step = 1 , Instruction = " Lay on the flat bench." },
             new WorkoutInstruction{ WorkoutId = Workouts[85].Id , Step = 2 , Instruction = " Tuck your elbows slightly, press the handles toward the ceiling." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[86].Id , Step = 1 , Instruction = " Lay flat on the bench." },
             new WorkoutInstruction{ WorkoutId = Workouts[86].Id , Step = 2 , Instruction = " Keep your elbows mostly extended and lower your arms toward the floor." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[87].Id , Step = 1 , Instruction = " Use the belt attachment. Take a pushup position." },
             new WorkoutInstruction{ WorkoutId = Workouts[87].Id , Step = 2 , Instruction = " Have your elbows at a 45 degree angle. Break at the elbows until your upper arm gets to your side." },
             new WorkoutInstruction{ WorkoutId = Workouts[87].Id , Step = 3 , Instruction = " And then push up." },
@@ -593,26 +593,26 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[88].Id , Step = 1 , Instruction = " From the standing position perform a walkout (use to palms to \"walk\" into the push up position)." },
             new WorkoutInstruction{ WorkoutId = Workouts[88].Id , Step = 2 , Instruction = " Bring your leg to the side and place the foot by your palm." },
             new WorkoutInstruction{ WorkoutId = Workouts[88].Id , Step = 3 , Instruction = " Rotate towards the ceiling and then towards the ground, pressing the hips towards the ground." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[89].Id , Step = 1 , Instruction = " Lie on your back and flatten you lower back against the ground" },
             new WorkoutInstruction{ WorkoutId = Workouts[89].Id , Step = 2 , Instruction = " Pull one knee towards your chest and then across your body till it forces your lower back into a rotated position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[90].Id , Step = 1 , Instruction = " Support your weight on your forearms and toes (plank)." },
             new WorkoutInstruction{ WorkoutId = Workouts[90].Id , Step = 2 , Instruction = " Allow your upper back to sink in between the shoulder blades." },
             new WorkoutInstruction{ WorkoutId = Workouts[90].Id , Step = 3 , Instruction = " Push your elbows into the ground and slightly forward, and move the shoulder blades away from the spine." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[91].Id , Step = 1 , Instruction = " Support your weight with your forearms on the bosu and toes on the floor (plank)." },
             new WorkoutInstruction{ WorkoutId = Workouts[91].Id , Step = 2 , Instruction = " Allow your upper back to sink in between the shoulder blades." },
             new WorkoutInstruction{ WorkoutId = Workouts[91].Id , Step = 3 , Instruction = " Push your elbows into the ground and slightly forward, and move the shoulder blades away from the spine." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[92].Id , Step = 1 , Instruction = " Support your weight on your forearms and toes (plank)." },
             new WorkoutInstruction{ WorkoutId = Workouts[92].Id , Step = 2 , Instruction = " Allow your upper back to sink in between the shoulder blades." },
             new WorkoutInstruction{ WorkoutId = Workouts[92].Id , Step = 3 , Instruction = " Push your elbows into the ground and slightly forward, and move the shoulder blades away from the spine." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[93].Id , Step = 1 , Instruction = " Support your weight on your forearms and toes (plank)." },
             new WorkoutInstruction{ WorkoutId = Workouts[93].Id , Step = 2 , Instruction = " Allow your upper back to sink in between the shoulder blades." },
             new WorkoutInstruction{ WorkoutId = Workouts[93].Id , Step = 3 , Instruction = " Push your elbows into the ground and slightly forward, and move the shoulder blades away from the spine." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[94].Id , Step = 1 , Instruction = " Lie on your back with your knees bent and the feet flat on the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[94].Id , Step = 2 , Instruction = " Hold a dumbbell over your shoulder with a straight arm." },
             new WorkoutInstruction{ WorkoutId = Workouts[94].Id , Step = 3 , Instruction = " Form the sign of the cross adding a protraction (punch) on every end of the cross, including the middle position." },
@@ -622,93 +622,93 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[95].Id , Step = 1 , Instruction = " Hold your body with arms locked above the equipment" },
             new WorkoutInstruction{ WorkoutId = Workouts[95].Id , Step = 2 , Instruction = " Lower your body slowly while leaning forward, flare out your elbows" },
             new WorkoutInstruction{ WorkoutId = Workouts[95].Id , Step = 3 , Instruction = " Raise your body above the bars until your arms are locked." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[96].Id , Step = 1 , Instruction = " Place your hands firmly on the ground, directly under shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[96].Id , Step = 2 , Instruction = " Flatten your back so your entire body is straight and slowly lower your body" },
             new WorkoutInstruction{ WorkoutId = Workouts[96].Id , Step = 3 , Instruction = " Draw shoulder blades back and down, keeping elbows tucked close to your body" },
             new WorkoutInstruction{ WorkoutId = Workouts[96].Id , Step = 4 , Instruction = " Exhale as you push back to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[97].Id , Step = 1 , Instruction = " Stand facing bench or sturdy elevated platform." },
             new WorkoutInstruction{ WorkoutId = Workouts[97].Id , Step = 2 , Instruction = " Place hands on edge of bench or platform, slightly wider than shoulder width." },
             new WorkoutInstruction{ WorkoutId = Workouts[97].Id , Step = 3 , Instruction = " Slowly lower your body until your chest almost touches the bench." },
             new WorkoutInstruction{ WorkoutId = Workouts[97].Id , Step = 4 , Instruction = " Push body up until arms are extended." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[98].Id , Step = 1 , Instruction = " Use a bench to elevate your feet." },
             new WorkoutInstruction{ WorkoutId = Workouts[98].Id , Step = 2 , Instruction = " Put your hands slightly wider than shoulder-width." },
             new WorkoutInstruction{ WorkoutId = Workouts[98].Id , Step = 3 , Instruction = " Slowly lower your body until your chest almost touches the ground" },
             new WorkoutInstruction{ WorkoutId = Workouts[98].Id , Step = 4 , Instruction = " Raise your body until you almost lock your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 1 , Instruction = " Start standing with your feet hip-width apart. Lower your body into a squat position, placing your hands on the ground in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 2 , Instruction = " Quickly jump your feet back into a plank position, keeping your body in a straight line from your head to your toes." },
             new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 3 , Instruction = " Perform a push-up, keeping your core tight and your elbows close to your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 4 , Instruction = " Jump your feet back towards your hands, and then jump up into the air, reaching your arms overhead." },
             new WorkoutInstruction{ WorkoutId = Workouts[99].Id , Step = 5 , Instruction = " Land softly and immediately lower your body back into the squat position to repeat the movement." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[100].Id , Step = 1 , Instruction = " Start in a push-up position." },
             new WorkoutInstruction{ WorkoutId = Workouts[100].Id , Step = 2 , Instruction = " Lower your chest, explode up, clap hands." },
             new WorkoutInstruction{ WorkoutId = Workouts[100].Id , Step = 3 , Instruction = " Land softly, repeat for reps." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[101].Id , Step = 1 , Instruction = " Begin in a push-up position with your hands forming a diamond shape under your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[101].Id , Step = 2 , Instruction = " Lower your body, keeping elbows close." },
             new WorkoutInstruction{ WorkoutId = Workouts[101].Id , Step = 3 , Instruction = " Push back up to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[102].Id , Step = 1 , Instruction = " Start by placing two plates or low boxes on the floor, about shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[102].Id , Step = 2 , Instruction = " Position yourself in a plank position with your hands on top of the boxes/plates, keeping your arms straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[102].Id , Step = 3 , Instruction = " Keep your feet together, with your toes resting on the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[102].Id , Step = 4 , Instruction = " Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the dumbbells." },
             new WorkoutInstruction{ WorkoutId = Workouts[102].Id , Step = 5 , Instruction = " Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[103].Id , Step = 1 , Instruction = " Start in a push-up position." },
             new WorkoutInstruction{ WorkoutId = Workouts[103].Id , Step = 2 , Instruction = " Lower your chest, explode up." },
             new WorkoutInstruction{ WorkoutId = Workouts[103].Id , Step = 3 , Instruction = " Land softly, repeat for reps." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[104].Id , Step = 1 , Instruction = " Start by placing two boxes (or one) on the floor, about shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[104].Id , Step = 2 , Instruction = " Position yourself in a plank position with your hands on top of the box, keeping your arms straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[104].Id , Step = 3 , Instruction = " Put your knees on the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[104].Id , Step = 4 , Instruction = " Engage your core and lower your body towards the floor by bending your arms, until your chest nearly touches the box." },
             new WorkoutInstruction{ WorkoutId = Workouts[104].Id , Step = 5 , Instruction = " Push your body back up to the starting position, straightening your arms and engaging your chest, triceps and shoulders." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[105].Id , Step = 1 , Instruction = " Begin in a push-up position on your knees. Break at the elbow and shoulder joint." },
             new WorkoutInstruction{ WorkoutId = Workouts[105].Id , Step = 2 , Instruction = " Lower your body, keeping elbows close." },
             new WorkoutInstruction{ WorkoutId = Workouts[105].Id , Step = 3 , Instruction = " Push back up to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[106].Id , Step = 1 , Instruction = " Grip the edge of the boxes with your hands, Keep your feet together and legs straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[106].Id , Step = 2 , Instruction = " Lower your body straight down." },
             new WorkoutInstruction{ WorkoutId = Workouts[106].Id , Step = 3 , Instruction = " Slowly press back up to the starting point." },
             new WorkoutInstruction{ WorkoutId = Workouts[106].Id , Step = 4 , Instruction = " TIP: Make this harder by raising your feet off the floor and adding weight." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[107].Id , Step = 1 , Instruction = " Grip bars with arms straight, shoulders above hands. Keep legs straight or bent." },
             new WorkoutInstruction{ WorkoutId = Workouts[107].Id , Step = 2 , Instruction = " Lower slowly until elbows are at 90 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[107].Id , Step = 3 , Instruction = " Push back up to start position, extending arms fully." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[108].Id , Step = 1 , Instruction = " Start by setting up the rings to a secure anchor point and adjust the straps so that they hang about waist height when you stand under them." },
             new WorkoutInstruction{ WorkoutId = Workouts[108].Id , Step = 2 , Instruction = " Stand facing the rings grab the handles with both hands, and step forward so that your body is in a plank position with your hands directly beneath your shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[108].Id , Step = 3 , Instruction = " Lower your body down by bending your elbows until your chest nearly touches the handles. Keep your core tight and your body in a straight line." },
             new WorkoutInstruction{ WorkoutId = Workouts[108].Id , Step = 4 , Instruction = " Push your body back up to the starting position, straightening your arms as you do so. Make sure to engage your chest, triceps, and core throughout the movement." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[109].Id , Step = 1 , Instruction = " Start by adjusting the rings straps to chest height. Stand facing the rings with your feet shoulder-width apart." },
             new WorkoutInstruction{ WorkoutId = Workouts[109].Id , Step = 2 , Instruction = " Grasp the rings' handles with both hands, keeping your arms extended and your shoulders away from your ears." },
             new WorkoutInstruction{ WorkoutId = Workouts[109].Id , Step = 3 , Instruction = " Lean forward, keeping your arms extended and your core engaged. Your body should form a slight diagonal line from your ankles to your head." },
             new WorkoutInstruction{ WorkoutId = Workouts[109].Id , Step = 4 , Instruction = " Slowly bring your arms towards each other, in front of your chest, while keeping your core engaged and your body in a stable position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[110].Id , Step = 1 , Instruction = " Position rings shoulder-width apart, grasp handles, extend legs behind." },
             new WorkoutInstruction{ WorkoutId = Workouts[110].Id , Step = 2 , Instruction = " Lower chest to rings, bend one elbow, while extending your other arm out to the side. Push yourself back to the start." },
             new WorkoutInstruction{ WorkoutId = Workouts[110].Id , Step = 3 , Instruction = " Then switch arms and repeat." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[111].Id , Step = 1 , Instruction = " Place your hands firmly on the ground, directly under shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[111].Id , Step = 2 , Instruction = " Flatten your back so your entire body is straight and slowly lower your body" },
             new WorkoutInstruction{ WorkoutId = Workouts[111].Id , Step = 3 , Instruction = " Draw shoulder blades back and down, keeping elbows tucked close to your body. Bring chest all the way to the floor and raise hands off the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[111].Id , Step = 4 , Instruction = " Exhale as you push back to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[112].Id , Step = 1 , Instruction = " Place your hands firmly on the ground, directly under shoulders." },
             new WorkoutInstruction{ WorkoutId = Workouts[112].Id , Step = 2 , Instruction = " Flatten your back so your entire body is straight, raise one leg off the ground,  and slowly lower your body" },
             new WorkoutInstruction{ WorkoutId = Workouts[112].Id , Step = 3 , Instruction = " Draw shoulder blades back and down, keeping elbows tucked close to your body" },
             new WorkoutInstruction{ WorkoutId = Workouts[112].Id , Step = 4 , Instruction = " Exhale as you push back to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[113].Id , Step = 1 , Instruction = " Place feet on a stability ball, hands on the floor in a push-up position." },
             new WorkoutInstruction{ WorkoutId = Workouts[113].Id , Step = 2 , Instruction = " Lower your chest toward the floor, then push up while tucking knees toward your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[113].Id , Step = 3 , Instruction = " Extend legs back to starting position, maintaining control and stability throughout the movement." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[114].Id , Step = 1 , Instruction = " Place your hands firmly on the ground, directly under shoulders. Place your feet on the stability ball." },
             new WorkoutInstruction{ WorkoutId = Workouts[114].Id , Step = 2 , Instruction = " Flatten your back so your entire body is straight and slowly lower your body" },
             new WorkoutInstruction{ WorkoutId = Workouts[114].Id , Step = 3 , Instruction = " Draw shoulder blades back and down, keeping elbows tucked close to your body" },
@@ -719,47 +719,47 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[115].Id , Step = 1 , Instruction = " Laying on the floor with your knees bent and feet firmly on the floor, hold the kettlebell at your chest with both hands." },
             new WorkoutInstruction{ WorkoutId = Workouts[115].Id , Step = 2 , Instruction = " Fully extend your arms, raising the kettlebell until your elbows are locked." },
             new WorkoutInstruction{ WorkoutId = Workouts[115].Id , Step = 3 , Instruction = " Lower the kettlebell to the starting position and repeat." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[116].Id , Step = 1 , Instruction = " Lie on the floor with your knees bent and feet firmly on the floor, with your arms to the side of your body." },
             new WorkoutInstruction{ WorkoutId = Workouts[116].Id , Step = 2 , Instruction = " Holding a kettlebell in one hand, keeping your arm fully extended with a slight bend in the elbow and your forearms facing upwards, lift the kettlebell above your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[116].Id , Step = 3 , Instruction = " Lower the kettlebell to the starting position and repeat." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[117].Id , Step = 1 , Instruction = " Laying on the floor with your knees bent and feet firmly on the floor, leave one arm resting to the side of the body." },
             new WorkoutInstruction{ WorkoutId = Workouts[117].Id , Step = 2 , Instruction = " Using the other arm, hold the kettlebell at arms length directly upwards of your shoulder." },
             new WorkoutInstruction{ WorkoutId = Workouts[117].Id , Step = 3 , Instruction = " Lower your arm until your upper arm to elbow is resting on the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[117].Id , Step = 4 , Instruction = " Return to starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 1 , Instruction = " Starting in a press up position with feet wide and one hand resting on the kettlebell, complete a full press up, lowering your chest towards the ground while keeping your body straight and returning to the starting position." },
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 2 , Instruction = " Swap hands on the kettlebell, placing the hand originally on the kettlebell underneath your shoulder, complete another press up." },
             new WorkoutInstruction{ WorkoutId = Workouts[118].Id , Step = 3 , Instruction = " Repeat." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 1 , Instruction = " Lie on a bench, hold kettlebells above chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 2 , Instruction = " Lower them to chest, then push up." },
             new WorkoutInstruction{ WorkoutId = Workouts[119].Id , Step = 3 , Instruction = " Repeat for desired reps, maintaining form." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 1 , Instruction = " Lie on bench, hold kettlebell with both hands over chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 2 , Instruction = " Lower kettlebells, elbows flared." },
             new WorkoutInstruction{ WorkoutId = Workouts[120].Id , Step = 3 , Instruction = " Press kettlebells upward, fully extending arms. Repeat." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 1 , Instruction = " Lie flat on a bench, holding a kettlebell in each hand above your chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[121].Id , Step = 2 , Instruction = " Slowly lower the kettlebells outwards, then lift them back up to the starting position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 1 , Instruction = " Start flat on your back with the kettlebells extended over you." },
             new WorkoutInstruction{ WorkoutId = Workouts[122].Id , Step = 2 , Instruction = " Bring your elbows to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 1 , Instruction = " Position the bench between 45 and 60 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 2 , Instruction = " Lay flat on the bench with your feet on the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 3 , Instruction = " Lower the kettlebells to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[123].Id , Step = 4 , Instruction = " Raise the kettlebells (slowly and controlled) until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 1 , Instruction = " Position the bench between 30 and 45 degrees." },
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 2 , Instruction = " Lay flat on the bench with your feet on the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 3 , Instruction = " Lower the kettlebells to your mid chest" },
             new WorkoutInstruction{ WorkoutId = Workouts[124].Id , Step = 4 , Instruction = " Raise the kettlebells (slowly and controlled) until you've locked your elbows." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 1 , Instruction = " Start flat on your back with a kettlebell extended over you." },
             new WorkoutInstruction{ WorkoutId = Workouts[125].Id , Step = 2 , Instruction = " Bring your elbow to the floor, rest for a second to remove all the momentum from the rep, then press to a lockout." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[126].Id , Step = 1 , Instruction = " Lie on bench, hold kettlebell with both hands over chest." },
             new WorkoutInstruction{ WorkoutId = Workouts[126].Id , Step = 2 , Instruction = " Lower kettlebells, elbows flared." },
             new WorkoutInstruction{ WorkoutId = Workouts[126].Id , Step = 3 , Instruction = " Press kettlebells upward, fully extending arms. Repeat." },
@@ -768,28 +768,28 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             #region Band,
             new WorkoutInstruction{ WorkoutId = Workouts[127].Id , Step = 1 , Instruction = " Attach the band to an anchor point that is about shoulder height. Take a few steps away until the band is taut." },
             new WorkoutInstruction{ WorkoutId = Workouts[127].Id , Step = 2 , Instruction = " Extend your shoulder joint and bring your arm across your body until you feel a contraction in your pecs." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[128].Id , Step = 1 , Instruction = " Attach the band to an anchor point that is about shoulder height. Take a few steps away until the band is taut." },
             new WorkoutInstruction{ WorkoutId = Workouts[128].Id , Step = 2 , Instruction = " Extend your shoulder joint and elbow across your body until your arm is fully extended." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 1 , Instruction = " Loop the band around your mid-back. The ends of the bands should be around your hands between your thumb and pointer finger." },
             new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 2 , Instruction = " This exercise can be done from the knees or the toes depending on experience level." },
             new WorkoutInstruction{ WorkoutId = Workouts[129].Id , Step = 3 , Instruction = " Begin by breaking at the elbows until your upper arm is by your side. Then extend at the elbows back into the top position." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 1 , Instruction = " Secure two resistance bands to a sturdy anchor point (e.g. a door anchor, a post, etc.) at chest height." },
             new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 2 , Instruction = " Stand facing away from the anchor point with feet shoulder-width apart and hold each end of the band in each hand." },
             new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 3 , Instruction = " Start with arms fully extended and parallel to the floor." },
             new WorkoutInstruction{ WorkoutId = Workouts[130].Id , Step = 4 , Instruction = " Keeping arms straight, slowly bring your arms together in front of your chest." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 1 , Instruction = " Stand in the middle of the two bands with feet shoulder-width apart. Step forward with one foot to create tension in the bands." },
             new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 2 , Instruction = " Hold one band in each hand, palms facing forward. Start the exercise with your arms extended in front of you, keeping a slight bend in your elbows." },
             new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 3 , Instruction = " Lower your arms to the sides of your chest, maintaining control of the band." },
             new WorkoutInstruction{ WorkoutId = Workouts[131].Id , Step = 4 , Instruction = " Push your arms back up to the starting position, keeping your core engaged and maintaining control of the band." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 1 , Instruction = " Start with both feet hip-width apart and step on the middle of the band with both feet. Hold the handles of the band in each hand and position the band above your chest, with your palms facing down." },
             new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 2 , Instruction = " Keeping your elbows slightly bent, slowly raise your arms out to the sides until they are parallel with the floor. Make sure to internally rotate your shoulder joints by bringing your shoulder blades together and rotating your forearms inward towards your torso." },
             new WorkoutInstruction{ WorkoutId = Workouts[132].Id , Step = 3 , Instruction = " Hold the position for a few seconds and then slowly lower your arms back to the starting position, keeping the internal rotation of your shoulder joints throughout the movement." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[133].Id , Step = 1 , Instruction = " Loop the band around your back. The two end loops in each of your hands." },
             new WorkoutInstruction{ WorkoutId = Workouts[133].Id , Step = 2 , Instruction = " Extend your shoulder joint and elbow across your body until your arm is fully extended." },
             #endregion,
@@ -800,33 +800,33 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[134].Id , Step = 3 , Instruction = " Reach back with your hands and grab your ankles." },
             new WorkoutInstruction{ WorkoutId = Workouts[134].Id , Step = 4 , Instruction = " Inhale and lift your chest off the ground, pulling your legs up and back with your hands." },
             new WorkoutInstruction{ WorkoutId = Workouts[134].Id , Step = 5 , Instruction = " Keep your gaze forward and hold the pose for a few breaths before releasing back to the ground." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[135].Id , Step = 1 , Instruction = " Stand facing a wall with your arms extended and your palms pressing into the wall at shoulder height." },
             new WorkoutInstruction{ WorkoutId = Workouts[135].Id , Step = 2 , Instruction = " Slowly begin to walk your feet away from the wall, keeping your arms straight and your hands pressing into the wall." },
             new WorkoutInstruction{ WorkoutId = Workouts[135].Id , Step = 3 , Instruction = " Walk until your arms are fully extended and your body is at a 45-degree angle to the ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[135].Id , Step = 4 , Instruction = " Repeat From High to Low Angles starting above the shoulder, and ending below the chest." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[136].Id , Step = 1 , Instruction = " Stand tall with your feet hip-width apart and your arms at your sides." },
             new WorkoutInstruction{ WorkoutId = Workouts[136].Id , Step = 2 , Instruction = " Press your feet into the ground and engage your leg muscles." },
             new WorkoutInstruction{ WorkoutId = Workouts[136].Id , Step = 3 , Instruction = " Lift your chest and roll your shoulders back and down." },
             new WorkoutInstruction{ WorkoutId = Workouts[136].Id , Step = 4 , Instruction = " Take a deep breath in, and as you exhale, release any tension in your body and relax your muscles." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[137].Id , Step = 1 , Instruction = " Start in mountain pose, standing with your feet hip-width apart and arms at your sides." },
             new WorkoutInstruction{ WorkoutId = Workouts[137].Id , Step = 2 , Instruction = " Shift your weight onto your left foot and bend your right knee, bringing the sole of your right foot to the inside of your left thigh." },
             new WorkoutInstruction{ WorkoutId = Workouts[137].Id , Step = 3 , Instruction = " Bring your hands together in front of your heart, or raise them overhead." },
             new WorkoutInstruction{ WorkoutId = Workouts[137].Id , Step = 4 , Instruction = " Hold the pose for a few breaths, then release and repeat on the other side." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[138].Id , Step = 1 , Instruction = " Start in mountain pose, standing with your feet hip-width apart and arms at your sides." },
             new WorkoutInstruction{ WorkoutId = Workouts[138].Id , Step = 2 , Instruction = " Step your left foot back about 3-4 feet and turn it slightly inward, while keeping your right foot facing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[138].Id , Step = 3 , Instruction = " Inhale and raise your arms overhead, then exhale and bend your right knee, bringing it directly over your ankle." },
             new WorkoutInstruction{ WorkoutId = Workouts[138].Id , Step = 4 , Instruction = " Hold the pose for a few breaths, then inhale and return to mountain pose. Repeat on the other side." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 1 , Instruction = " Start in mountain pose, standing with your feet hip-width apart and arms at your sides." },
             new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 2 , Instruction = " Step your left foot back about 3-4 feet and turn it slightly inward, while keeping your right foot facing forward." },
             new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 3 , Instruction = " Inhale and raise your arms to shoulder height, parallel to the ground, with your palms facing down." },
             new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 4 , Instruction = " Exhale and bend your right knee, bringing it directly over your ankle while keeping your left leg straight." },
             new WorkoutInstruction{ WorkoutId = Workouts[139].Id , Step = 5 , Instruction = " Look over your right hand and hold the pose for a few breaths, then inhale and return to mountain pose. Repeat on the other side." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[140].Id , Step = 1 , Instruction = " Sit on the floor with your legs stretched out in front of you." },
             new WorkoutInstruction{ WorkoutId = Workouts[140].Id , Step = 2 , Instruction = " Place a yoga block behind you, horizontally, at the base of your spine." },
             new WorkoutInstruction{ WorkoutId = Workouts[140].Id , Step = 3 , Instruction = " Slowly recline over the block, supporting yourself with your forearms, until your back is resting on the block." },
@@ -837,13 +837,13 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new WorkoutInstruction{ WorkoutId = Workouts[141].Id , Step = 1 , Instruction = " Adjust seat and handlebar height for comfort and proper posture on the assault bike." },
             new WorkoutInstruction{ WorkoutId = Workouts[141].Id , Step = 2 , Instruction = " Start pedaling with even, controlled motion, maintaining your desired resistance level." },
             new WorkoutInstruction{ WorkoutId = Workouts[141].Id , Step = 3 , Instruction = " Monitor heart rate and intensity; increase or decrease resistance for an effective cardio workout." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[142].Id , Step = 1 , Instruction = " Adjust seat and handlebar height for comfort and proper posture on the assault bike." },
             new WorkoutInstruction{ WorkoutId = Workouts[142].Id , Step = 2 , Instruction = " Start pedaling with even, controlled motion, maintaining your desired resistance level. Then keep the motion going with only your arms." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[143].Id , Step = 1 , Instruction = " Loop a band around your back. Start with both arms extended at your side." },
             new WorkoutInstruction{ WorkoutId = Workouts[143].Id , Step = 2 , Instruction = " As you perform the jack. Bring both arms together and make a little clap." },
-            
+
             new WorkoutInstruction{ WorkoutId = Workouts[144].Id , Step = 1 , Instruction = " Leap sideways, land on right foot, left leg behind to the side." },
             new WorkoutInstruction{ WorkoutId = Workouts[144].Id , Step = 2 , Instruction = " Drop into a single-leg burpee, right leg only, hands to ground." },
             new WorkoutInstruction{ WorkoutId = Workouts[144].Id , Step = 3 , Instruction = " Return to standing on right, leap sideways to left, repeat with left leg." },
@@ -851,7 +851,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
         };
 
 
-        await context.WorkoutInstructions.AddRangeAsync(backWorkoutInstruction);
+        await context.WorkoutInstructions.AddRangeAsync(workoutInstruction);
         await context.SaveChangesAsync();
 
 
@@ -867,15 +867,17 @@ public class ChestUpperPectoralisWorkoutDbInitializer
         var plateId = context.Equipments.Where(x => x.Name == "Plate").Select(x => x.Id).FirstOrDefault();
         var bosuballId = context.Equipments.Where(x => x.Name == "Bosu-Ball").Select(x => x.Id).FirstOrDefault();
         var smithMachineId = context.Equipments.Where(x => x.Name == "Smith Machine").Select(x => x.Id).FirstOrDefault();
-        var dumbellId = context.Equipments.Where(x => x.Name == "Dumbells").Select(x => x.Id).FirstOrDefault();
+        var dumbbellId = context.Equipments.Where(x => x.Name == "Dumbells").Select(x => x.Id).FirstOrDefault();
         var cableId = context.Equipments.Where(x => x.Name == "Cable").Select(x => x.Id).FirstOrDefault();
         var trxId = context.Equipments.Where(x => x.Name == "TRX").Select(x => x.Id).FirstOrDefault();
         var vitruvianId = context.Equipments.Where(x => x.Name == "Vitruvian").Select(x => x.Id).FirstOrDefault();
         var cardioId = context.Equipments.Where(x => x.Name == "Cardio").Select(x => x.Id).FirstOrDefault();
         var bodyweightId = context.Equipments.Where(x => x.Name == "Bodyweight").Select(x => x.Id).FirstOrDefault();
         var kettlebellId = context.Equipments.Where(x => x.Name == "KettleBells").Select(x => x.Id).FirstOrDefault();
-        var BandsId = context.Equipments.Where(x => x.Name == "Bands").Select(x => x.Id).FirstOrDefault();
+        var BandId = context.Equipments.Where(x => x.Name == "Bands").Select(x => x.Id).FirstOrDefault();
         var yogaId = context.Equipments.Where(x => x.Name == "Yoga").Select(x => x.Id).FirstOrDefault();
+        var recoveryId = context.Equipments.Where(x => x.Name == "Recovery").Select(x => x.Id).FirstOrDefault();
+        var medicineBallId = context.Equipments.Where(x => x.Name == "Medicine-Ball").Select(x => x.Id).FirstOrDefault();
 
         workoutEquipment = new List<WorkoutEquipment>
         {
@@ -1286,6 +1288,9 @@ public class ChestUpperPectoralisWorkoutDbInitializer
         // ***************************************************************** //
 
         var bodyWorkouts = new List<BodyWorkout>();
+        var chestId = await context.Bodies.Where(z => z.Name == "Chest").Select(z => z.Id).FirstOrDefaultAsync();
+        var midChestId = await context.Bodies.Where(z => z.Name == "Mid and Lower Chest").Select(z => z.Id).FirstOrDefaultAsync();
+        var upChestId = await context.Bodies.Where(z => z.Name == "Upper Pectoralis").Select(z => z.Id).FirstOrDefaultAsync();
         var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
 
         bodyWorkouts = new List<BodyWorkout>
@@ -1297,7 +1302,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[1].Id, Target = PriorityTarget.Tertiary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[2].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[3].Id, Target = PriorityTarget.Tertiary },
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[4].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[4].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[5].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[6].Id, Target = PriorityTarget.Tertiary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[7].Id, Target = PriorityTarget.Secondary },
@@ -1366,7 +1371,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[41].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[42].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[43].Id, Target = PriorityTarget.Secondary },
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[44].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[44].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[45].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[46].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[47].Id, Target = PriorityTarget.Secondary },
@@ -1379,9 +1384,9 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[51].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[52].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[52].Id, Target = PriorityTarget.Secondary },
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[53].Id, Target = PriorityTarget.Level 4 },
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[54].Id, Target = PriorityTarget.Level 4 },
-            new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[54].Id, Target = PriorityTarget.Level 5 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[53].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[54].Id, Target = PriorityTarget.Primary },
+            new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[54].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[55].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[56].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[57].Id, Target = PriorityTarget.Secondary },
@@ -1426,7 +1431,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new BodyWorkout{ BodyId = midChestId , WorkoutId = Workouts[78].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[79].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[80].Id, Target = PriorityTarget.Tertiary },
-            new BodyWorkout{ BodyId = midChestId , WorkoutId = Workouts[80].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = midChestId , WorkoutId = Workouts[80].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[81].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[81].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[82].Id, Target = PriorityTarget.Secondary },
@@ -1435,7 +1440,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
 
             #region TRX,
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[83].Id, Target = PriorityTarget.Primary },
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[84].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[84].Id, Target = PriorityTarget.Primary },
             #endregion,
 
             #region Vitruvian,
@@ -1445,7 +1450,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             #endregion,
 
             #region Recovery,
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[88].Id, Target = PriorityTarget.Level 5 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[88].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[89].Id, Target = PriorityTarget.Tertiary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[90].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[91].Id, Target = PriorityTarget.Primary },
@@ -1461,7 +1466,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new BodyWorkout{ BodyId = midChestId , WorkoutId = Workouts[96].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[97].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[98].Id, Target = PriorityTarget.Secondary },
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[99].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[99].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[100].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = midChestId , WorkoutId = Workouts[100].Id, Target = PriorityTarget.Tertiary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[101].Id, Target = PriorityTarget.Secondary },
@@ -1472,10 +1477,10 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[104].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[105].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = midChestId , WorkoutId = Workouts[105].Id, Target = PriorityTarget.Tertiary },
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[106].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[106].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[107].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = midChestId , WorkoutId = Workouts[107].Id, Target = PriorityTarget.Tertiary },
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[108].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[108].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[109].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[110].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[111].Id, Target = PriorityTarget.Primary },
@@ -1497,9 +1502,9 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[121].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[122].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[123].Id, Target = PriorityTarget.Tertiary },
-            new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[123].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[123].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[124].Id, Target = PriorityTarget.Tertiary },
-            new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[124].Id, Target = PriorityTarget.Level 4 },
+            new BodyWorkout{ BodyId = upChestId , WorkoutId = Workouts[124].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[125].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[126].Id, Target = PriorityTarget.Secondary },
             #endregion,
@@ -1526,7 +1531,7 @@ public class ChestUpperPectoralisWorkoutDbInitializer
             #endregion,
 
             #region Cardio,
-            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[141].Id, Target = PriorityTarget.Level 5 },
+            new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[141].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[142].Id, Target = PriorityTarget.Primary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[143].Id, Target = PriorityTarget.Secondary },
             new BodyWorkout{ BodyId = chestId , WorkoutId = Workouts[144].Id, Target = PriorityTarget.Tertiary },
@@ -1539,296 +1544,296 @@ public class ChestUpperPectoralisWorkoutDbInitializer
         var workoutSex = new List<WorkoutSex>();
         workoutSex = new List<WorkoutSex>
         {
-            new WorkoutSex{ WorkoutId = backWorkouts[0].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[0].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[1].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[1].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[2].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[2].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[3].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[3].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[4].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[4].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[5].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[5].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[6].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[6].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[7].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[7].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[8].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[8].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[9].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[9].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[10].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[10].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[11].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[11].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[12].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[12].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[13].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[13].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[14].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[14].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[15].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[15].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[16].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[16].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[17].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[17].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[18].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[18].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[19].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[19].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[20].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[20].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[21].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[21].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[22].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[22].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[23].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[23].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[24].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[24].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[25].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[25].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[26].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[26].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[27].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[27].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[28].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[28].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[29].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[29].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[30].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[30].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[31].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[31].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[32].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[32].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[33].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[33].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[34].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[34].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[35].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[35].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[36].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[36].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[37].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[37].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[38].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[38].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[39].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[39].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[40].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[40].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[41].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[41].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[42].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[42].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[43].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[43].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[44].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[44].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[45].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[45].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[46].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[46].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[47].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[47].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[48].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[48].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[49].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[49].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[50].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[50].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[51].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[51].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[52].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[52].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[53].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[53].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[54].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[54].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[55].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[55].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[56].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[56].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[57].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[57].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[58].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[58].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[59].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[59].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[60].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[60].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[61].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[61].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[62].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[62].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[63].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[63].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[64].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[64].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[65].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[65].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[66].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[66].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[67].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[67].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[68].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[68].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[69].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[69].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[70].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[70].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[71].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[71].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[72].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[72].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[73].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[73].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[74].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[74].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[75].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[75].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[76].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[76].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[77].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[77].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[78].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[78].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[79].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[79].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[80].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[80].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[81].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[81].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[82].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[82].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[83].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[83].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[84].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[84].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[85].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[85].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[86].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[86].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[87].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[87].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[88].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[88].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[89].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[89].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[90].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[90].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[91].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[91].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[92].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[92].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[93].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[93].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[94].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[94].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[95].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[95].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[96].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[96].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[97].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[97].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[98].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[98].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[99].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[99].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[100].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[100].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[101].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[101].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[102].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[102].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[103].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[103].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[104].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[104].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[105].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[105].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[106].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[106].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[107].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[107].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[108].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[108].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[109].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[109].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[110].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[110].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[111].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[111].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[112].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[112].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[113].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[113].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[114].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[114].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[115].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[115].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[116].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[116].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[117].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[117].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[118].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[118].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[119].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[119].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[120].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[120].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[121].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[121].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[122].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[122].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[123].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[123].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[124].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[124].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[125].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[125].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[126].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[126].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[127].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[127].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[128].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[128].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[129].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[129].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[130].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[130].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[131].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[131].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[132].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[132].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[133].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[133].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[134].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[134].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[135].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[135].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[136].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[136].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[137].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[137].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[138].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[138].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[139].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[139].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[140].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[140].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[141].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[141].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[142].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[142].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[143].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[143].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = backWorkouts[144].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = backWorkouts[144].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[0].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[0].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[1].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[1].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[2].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[2].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[3].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[3].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[4].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[4].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[5].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[5].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[6].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[6].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[7].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[7].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[8].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[8].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[9].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[9].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[10].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[10].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[11].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[11].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[12].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[12].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[13].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[13].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[14].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[14].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[15].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[15].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[16].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[16].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[17].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[17].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[18].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[18].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[19].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[19].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[20].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[20].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[21].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[21].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[22].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[22].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[23].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[23].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[24].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[24].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[25].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[25].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[26].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[26].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[27].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[27].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[28].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[28].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[29].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[29].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[30].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[30].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[31].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[31].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[32].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[32].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[33].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[33].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[34].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[34].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[35].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[35].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[36].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[36].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[37].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[37].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[38].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[38].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[39].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[39].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[40].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[40].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[41].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[41].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[42].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[42].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[43].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[43].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[44].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[44].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[45].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[45].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[46].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[46].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[47].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[47].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[48].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[48].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[49].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[49].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[50].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[50].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[51].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[51].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[52].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[52].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[53].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[53].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[54].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[54].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[55].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[55].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[56].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[56].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[57].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[57].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[58].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[58].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[59].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[59].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[60].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[60].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[61].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[61].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[62].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[62].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[63].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[63].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[64].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[64].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[65].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[65].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[66].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[66].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[67].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[67].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[68].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[68].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[69].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[69].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[70].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[70].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[71].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[71].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[72].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[72].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[73].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[73].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[74].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[74].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[75].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[75].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[76].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[76].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[77].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[77].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[78].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[78].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[79].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[79].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[80].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[80].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[81].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[81].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[82].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[82].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[83].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[83].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[84].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[84].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[85].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[85].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[86].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[86].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[87].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[87].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[88].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[88].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[89].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[89].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[90].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[90].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[91].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[91].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[92].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[92].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[93].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[93].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[94].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[94].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[95].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[95].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[96].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[96].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[97].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[97].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[98].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[98].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[99].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[99].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[100].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[100].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[101].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[101].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[102].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[102].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[103].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[103].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[104].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[104].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[105].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[105].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[106].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[106].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[107].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[107].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[108].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[108].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[109].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[109].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[110].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[110].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[111].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[111].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[112].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[112].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[113].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[113].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[114].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[114].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[115].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[115].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[116].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[116].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[117].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[117].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[118].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[118].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[119].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[119].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[120].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[120].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[121].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[121].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[122].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[122].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[123].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[123].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[124].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[124].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[125].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[125].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[126].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[126].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[127].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[127].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[128].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[128].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[129].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[129].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[130].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[130].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[131].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[131].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[132].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[132].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[133].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[133].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[134].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[134].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[135].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[135].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[136].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[136].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[137].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[137].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[138].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[138].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[139].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[139].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[140].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[140].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[141].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[141].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[142].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[142].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[143].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[143].Id, Sex = Sex.Female},
+            new WorkoutSex{ WorkoutId = Workouts[144].Id, Sex = Sex.Male},
+            new WorkoutSex{ WorkoutId = Workouts[144].Id, Sex = Sex.Female},
         };
         await context.WorkoutSex.AddRangeAsync(workoutSex);
         await context.SaveChangesAsync();
