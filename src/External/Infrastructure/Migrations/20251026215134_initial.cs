@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,9 +21,9 @@ namespace Infrastructure.Migrations
                     Description = table.Column<string>(type: "nvarchar(2500)", maxLength: 2500, nullable: true),
                     AthleteId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(8971)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(7228)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(9249)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(7398)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -37,15 +37,15 @@ namespace Infrastructure.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(70)", maxLength: 70, nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(2500)", maxLength: 2500, nullable: true),
                     InjuredImgUrl = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false, defaultValue: "https://via.placeholder.com/85.png"),
                     BodyId = table.Column<int>(type: "int", nullable: true),
                     AthleteId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(778)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(8146)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(1059)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(8266)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -68,9 +68,9 @@ namespace Infrastructure.Migrations
                     DateOfBirth = table.Column<DateOnly>(type: "date", nullable: false),
                     UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(6983)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(6305)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(7269)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(6443)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -89,9 +89,9 @@ namespace Infrastructure.Migrations
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ParentId = table.Column<int>(type: "int", nullable: true, defaultValue: 0),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 480, DateTimeKind.Utc).AddTicks(9509)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7060)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 480, DateTimeKind.Utc).AddTicks(9847)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7228)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -129,9 +129,9 @@ namespace Infrastructure.Migrations
                     WorkoutId = table.Column<int>(type: "int", nullable: false),
                     Target = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(4417)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9822)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(4711)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9946)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -150,9 +150,9 @@ namespace Infrastructure.Migrations
                     BodyId = table.Column<int>(type: "int", nullable: true),
                     AthleteId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(1145)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7889)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(1466)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(8022)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -166,14 +166,14 @@ namespace Infrastructure.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(70)", maxLength: 70, nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     ImgUrl = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false, defaultValue: "https://via.placeholder.com/85.png"),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     EquipmentType = table.Column<byte>(type: "tinyint", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(6244)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(729)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(6524)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(859)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -197,9 +197,9 @@ namespace Infrastructure.Migrations
                     SuggestType = table.Column<int>(type: "int", nullable: false),
                     Completed = table.Column<bool>(type: "bit", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(3549)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(9211)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(3848)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(9346)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -216,9 +216,9 @@ namespace Infrastructure.Migrations
                     PlanId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     BodyId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(5364)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(156)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(5704)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(288)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -236,9 +236,9 @@ namespace Infrastructure.Migrations
                     Hour = table.Column<TimeSpan>(type: "time", nullable: false),
                     PlanId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(8696)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1787)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(9021)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1918)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -255,9 +255,9 @@ namespace Infrastructure.Migrations
                     PlanId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     EquipmentId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(537)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(2558)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(872)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(2739)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -282,9 +282,9 @@ namespace Infrastructure.Migrations
                     StartMeasurements = table.Column<int>(type: "int", nullable: false),
                     EndMeasurements = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(2589)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(3926)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(2910)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(4076)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -301,9 +301,9 @@ namespace Infrastructure.Migrations
                     PlanId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     ImgUrl = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false, defaultValue: "https://via.placeholder.com/100.png"),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(4251)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(4865)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(4527)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(5020)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -323,9 +323,9 @@ namespace Infrastructure.Migrations
                     Place = table.Column<int>(type: "int", nullable: false),
                     AthleteId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(7207)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1024)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(7532)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1179)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -361,13 +361,13 @@ namespace Infrastructure.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(70)", maxLength: 70, nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     ImgUrl = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false, defaultValue: "https://via.placeholder.com/85.png"),
-                    Description = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(2500)", maxLength: 2500, nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(8052)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(1552)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(8364)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(1723)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -380,13 +380,13 @@ namespace Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    FName = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
-                    LName = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
+                    FName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    LName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     ImgUrl = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false, defaultValue: "https://via.placeholder.com/85.png"),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(2725)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9035)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(3007)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9173)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -417,9 +417,9 @@ namespace Infrastructure.Migrations
                     Age = table.Column<int>(type: "int", nullable: false),
                     WorkoutId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(1725)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3167)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(2036)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3319)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -436,9 +436,9 @@ namespace Infrastructure.Migrations
                     WorkoutId = table.Column<int>(type: "int", nullable: false),
                     EquipmentId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(3371)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3925)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(3701)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(4043)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -496,12 +496,12 @@ namespace Infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Level = table.Column<int>(type: "int", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(2000)", maxLength: 2000, nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(2500)", maxLength: 2500, nullable: true),
                     WorkoutId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(5933)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(5068)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(6383)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(5216)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -515,14 +515,14 @@ namespace Infrastructure.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(70)", maxLength: 70, nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(2500)", maxLength: 2500, nullable: true),
                     ImgUrl = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false, defaultValue: "https://via.placeholder.com/85.png"),
                     SportId = table.Column<int>(type: "int", nullable: false),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(119)),
+                    Created = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(2473)),
                     CreatedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(431)),
+                    Modified = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(2593)),
                     ModifiedBy = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>

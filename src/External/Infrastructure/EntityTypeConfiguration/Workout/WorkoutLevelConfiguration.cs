@@ -6,7 +6,7 @@ public class WorkoutLevelConfiguration : IEntityTypeConfiguration<WorkoutLevel>
     {
         builder.HasKey(e => e.Id);
         builder.Property(e => e.Id).ValueGeneratedOnAdd();
-        builder.Property(e => e.Description).HasMaxLength(2000).IsRequired(false);
+        builder.Property(e => e.Description).HasMaxLength(2500).IsRequired(false);
         builder.HasIndex(e => e.WorkoutId).IsClustered(false);
 
 

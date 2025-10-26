@@ -7,8 +7,8 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.HasKey(e => e.Id);
         builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
-        builder.Property(e => e.FName).IsRequired().HasMaxLength(40);
-        builder.Property(e => e.LName).IsRequired().HasMaxLength(40);
+        builder.Property(e => e.FName).IsRequired().HasMaxLength(50);
+        builder.Property(e => e.LName).IsRequired().HasMaxLength(50);
         builder.Property(e => e.Email).HasMaxLength(70);
         builder.Property(e => e.PhoneNumber).IsRequired().HasMaxLength(30);
 

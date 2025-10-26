@@ -7,7 +7,7 @@ public class AthleteInjuriesConfiguration : IEntityTypeConfiguration<AthleteInju
         builder.HasKey(e => e.Id);
         builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
-        builder.Property(e => e.Name).IsRequired().HasMaxLength(70);
+        builder.Property(e => e.Name).IsRequired().HasMaxLength(100);
         builder.Property(e => e.Description).HasMaxLength(2500).IsRequired(false);
 
         builder.Property(e => e.InjuredImgUrl).HasMaxLength(256)

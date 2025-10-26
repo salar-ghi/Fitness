@@ -75,6 +75,7 @@ public class Startup
         await ChestUpperPectoralisWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
         await GlutesWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
         await HamstringWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+
         await HandsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
         await NeckWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
         await QuadsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);

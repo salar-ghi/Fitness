@@ -1140,8 +1140,6 @@ public class HandsWorkoutDbInitializer
             new WorkoutSex{ WorkoutId = workouts[91].Id, Sex = Sex.Female},
             new WorkoutSex{ WorkoutId = workouts[92].Id, Sex = Sex.Male},
             new WorkoutSex{ WorkoutId = workouts[92].Id, Sex = Sex.Female},
-            new WorkoutSex{ WorkoutId = workouts[93].Id, Sex = Sex.Male},
-            new WorkoutSex{ WorkoutId = workouts[93].Id, Sex = Sex.Female},
         };
         await context.WorkoutSex.AddRangeAsync(workoutSex);
         await context.SaveChangesAsync();

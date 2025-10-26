@@ -7,7 +7,7 @@ public class EquipmentConfiguration : IEntityTypeConfiguration<Equipment>
         builder.HasKey(e => e.Id);
         builder.Property(e => e.Id).ValueGeneratedOnAdd();
 
-        builder.Property(e => e.Name).IsRequired().HasMaxLength(70);
+        builder.Property(e => e.Name).IsRequired().HasMaxLength(100);
         builder.Property(e => e.EquipmentType).IsRequired();
         builder.Property(e => e.Description).IsRequired(false);
 

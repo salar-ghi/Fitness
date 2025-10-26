@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(FitnessContext))]
-    [Migration("20250307185217_init")]
-    partial class init
+    [Migration("20251026215134_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,7 +43,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(6983));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(6305));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -68,7 +68,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(7269));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(6443));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -102,7 +102,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(8971));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(7228));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -126,7 +126,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(9249));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(7398));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -157,7 +157,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(778));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(8146));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -181,15 +181,15 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(1059));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(8266));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(70)
-                        .HasColumnType("nvarchar(70)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
@@ -207,7 +207,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 480, DateTimeKind.Utc).AddTicks(9509));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7060));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -230,7 +230,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 480, DateTimeKind.Utc).AddTicks(9847));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7228));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -301,7 +301,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(4417));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9822));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -314,7 +314,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(4711));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9946));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -351,7 +351,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(1145));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7889));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -368,7 +368,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(1466));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(8022));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -394,7 +394,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(6244));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(729));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -420,15 +420,15 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(6524));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(859));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(70)
-                        .HasColumnType("nvarchar(70)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
@@ -447,7 +447,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(3549));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(9211));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -466,7 +466,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(3848));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(9346));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -519,7 +519,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(5364));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(156));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -532,7 +532,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(5704));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(288));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -565,7 +565,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(7207));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1024));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -587,7 +587,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(7532));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1179));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -620,7 +620,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(8696));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1787));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -639,7 +639,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 481, DateTimeKind.Utc).AddTicks(9021));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1918));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -667,7 +667,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(537));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(2558));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -683,7 +683,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(872));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(2739));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -715,7 +715,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(2589));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(3926));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -740,7 +740,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(2910));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(4076));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -785,7 +785,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(4251));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(4865));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -805,7 +805,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 482, DateTimeKind.Utc).AddTicks(4527));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(5020));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -881,14 +881,14 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(8052));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(1552));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(2000)
-                        .HasColumnType("nvarchar(2000)");
+                        .HasMaxLength(2500)
+                        .HasColumnType("nvarchar(2500)");
 
                     b.Property<string>("ImgUrl")
                         .IsRequired()
@@ -905,15 +905,15 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(8364));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(1723));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(70)
-                        .HasColumnType("nvarchar(70)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
@@ -935,7 +935,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(2725));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9035));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -949,8 +949,8 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("FName")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("ImgUrl")
                         .IsRequired()
@@ -966,8 +966,8 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("LName")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -978,7 +978,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 483, DateTimeKind.Utc).AddTicks(3007));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9173));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1026,7 +1026,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(119));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(2473));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1050,15 +1050,15 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(431));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(2593));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(70)
-                        .HasColumnType("nvarchar(70)");
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
 
                     b.Property<int>("SportId")
                         .HasColumnType("int");
@@ -1086,7 +1086,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(1725));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3167));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1099,7 +1099,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(2036));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3319));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1127,7 +1127,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(3371));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3925));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1143,7 +1143,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(3701));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(4043));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1258,14 +1258,14 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(5933));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(5068));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(2000)
-                        .HasColumnType("nvarchar(2000)");
+                        .HasMaxLength(2500)
+                        .HasColumnType("nvarchar(2500)");
 
                     b.Property<bool>("IsDeleted")
                         .ValueGeneratedOnAdd()
@@ -1278,7 +1278,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 3, 7, 18, 52, 16, 484, DateTimeKind.Utc).AddTicks(6383));
+                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(5216));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
