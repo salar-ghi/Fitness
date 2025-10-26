@@ -2135,7 +2135,8 @@ public static class WorkoutDatasets
 
         using var context = new FitnessContext(optionsBuilder.Options);
         //var backWorkouts = BackWorkoutDbInitializer.BackWorkoutSeedAsync(context);
-        List<Workout> backWorkouts = await BackWorkoutDbInitializer.BackWorkoutSeedAsync(context);
+        //List<Workout> backWorkouts = await BackWorkoutDbInitializer.WorkoutSeedAsync(context);
+        List<Workout> backWorkouts = new List<Workout>();
 
         var backs = backWorkouts.Select(z => z.Name).ToList();
         var workoutNames = workouts.Select(z => z.Name).ToList();
