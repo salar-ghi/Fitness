@@ -1,9 +1,4 @@
-﻿using Domain.Enums;
-using Domain.Models;
-using Microsoft.Identity.Client;
-using Microsoft.ML.Runtime;
-
-namespace Infrastructure.Services;
+﻿namespace Infrastructure.Services;
 
 public class PlanManagingService : IPlanManagingService
 {
@@ -138,6 +133,11 @@ public class PlanManagingService : IPlanManagingService
             equipments.Add(equipment);
         }
         await _unitOfWork.PlanEquipmentRepository.CreateRangeAsync(equipments);
+
+    }
+
+    public async  Task PlanProcessingTask(PlanDto dto)
+    {
 
     }
 
