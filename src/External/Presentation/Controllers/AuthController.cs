@@ -1,13 +1,10 @@
-﻿using Application.DTOs;
-
-namespace Presentation.Controllers;
+﻿namespace Presentation.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
 public class AuthController : ControllerBase
 {
     #region Definition and Ctor
-
     private readonly UserManager<User> _userManager;
     private readonly SignInManager<User> _signInManager;
     private readonly IConfiguration _config;
@@ -26,7 +23,6 @@ public class AuthController : ControllerBase
     #endregion
 
     #region Classes and Methods
-
     [HttpPost("Register")]
     public async Task<IActionResult> Register()
     {
@@ -37,13 +33,7 @@ public class AuthController : ControllerBase
     public async Task<IActionResult> Login([FromBody] LoginDto dto)
     {
         //var user = await _userManager.FindByNameAsync(dto.Phonenum);
-
         return Ok();
     }
-
-    #endregion 
-
-
-
-
+    #endregion
 }

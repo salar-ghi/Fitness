@@ -21,4 +21,5 @@ global using Presentation.JsonSeedStorage;
 global using Microsoft.AspNetCore.Identity;
 global using Microsoft.EntityFrameworkCore;
 global using System.Diagnostics.CodeAnalysis;
+global using Presentation.JsonMappedSeedStorage;
 global using Microsoft.Extensions.Diagnostics.HealthChecks;
