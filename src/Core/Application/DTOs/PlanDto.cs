@@ -14,7 +14,7 @@ public record PlanDto
     public DifficultyEnum Level { get; set; }
 
 
-    // Inujuries
+    // Injuries
     public List<InjuryDto> Injuries { get; set; }
 
     // Diseases

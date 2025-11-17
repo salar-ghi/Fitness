@@ -136,8 +136,66 @@ public class PlanManagingService : IPlanManagingService
 
     }
 
-    public async  Task PlanProcessingTask(PlanDto dto)
+    public async Task PlanProcessingTask(PlanDto dto)
     {
+        var height = dto.Height;
+        var weight = dto.Weight;
+        var duration = dto.PlanDuration;
+        var gender = dto.Gender;
+        var ageRange = dto.AgeRange;
+        var dateOfBirth = dto.DateOfBirth;
+        var bodyType = dto.BodyType;
+        var level = dto.Level;
+
+        var injuries = dto.Injuries;
+        var diseases = dto.Diseases;
+        var planDays = dto.PlanDays;
+        var musclePriorities = dto.MusclePriorities;
+        var equipments = dto.Equipments;
+
+    }
+
+    public async Task TestPlanProcessingTask(PlanDto dto)
+    {
+        var height = dto.Height = 170;
+
+        Console.Clear();
+        Console.WriteLine($"height is {height}");
+
+        var weight = dto.Weight = 90;
+        var duration = dto.PlanDuration = Domain.Enums.Period.Monthly;
+        var gender = dto.Gender = Domain.Enums.Sex.Male;
+        var ageRange = dto.AgeRange = Domain.Enums.Age.Thirty_To_Thirty_Nine;
+        //var dateOfBirth = dto.DateOfBirth;
+        var bodyType = dto.BodyType = Domain.Enums.BodyType.Endomorph;
+        var level = dto.Level = Application.DTOs.Enums.DifficultyEnum.Beginner;
+
+        var injuries = dto.Injuries;
+        var diseases = dto.Diseases;
+
+        var planDaysNum = dto.PlanDays.Count();
+        var planDays = dto.PlanDays ?? new List<PlanDaysDto> {
+            new PlanDaysDto { Day = DayOfWeek.Monday, Hour = new TimeSpan(18, 0, 0) },
+            new PlanDaysDto { Day = DayOfWeek.Wednesday, Hour = new TimeSpan(18, 0, 0) },
+            new PlanDaysDto { Day = DayOfWeek.Friday, Hour = new TimeSpan(18, 0, 0) },
+            new PlanDaysDto { Day = DayOfWeek.Saturday, Hour = new TimeSpan(10, 0, 0) }
+        };
+
+        var musclePrioritiesNum = dto.MusclePriorities.Count();
+        var musclePriorities = dto.MusclePriorities ?? new List<MusclePriorityDto> {
+            new MusclePriorityDto(1, "Chest"),
+            new MusclePriorityDto(2, "Back")
+        };
+
+        var equipmentNum = dto.Equipments.Count();
+        var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
+        {
+            new PlanEquipmentDto(planId:Guid.NewGuid(), equipmentId:1),
+            new PlanEquipmentDto(planId:Guid.NewGuid(), equipmentId:2)
+        };
+
+
+
 
     }
 
@@ -158,7 +216,7 @@ public class PlanManagingService : IPlanManagingService
         var sex = dto.Gender;
         var ageRange = dto.AgeRange;
         DateTime today = DateTime.Now;
-        int age  = today.Year - dto.DateOfBirth.Year;
+        int age = today.Year - dto.DateOfBirth.Year;
 
         if (DateOnly.FromDateTime(today) < dto.DateOfBirth.AddYears(age))
         {
@@ -237,7 +295,7 @@ public class PlanManagingService : IPlanManagingService
                 bodyId: item.bodyId,
                 description: item.description
                 );
-            var body  = await _unitOfWork.BodyRepository.GetByIdAsync(item.bodyId);
+            var body = await _unitOfWork.BodyRepository.GetByIdAsync(item.bodyId);
             bodyDisease.Add(body);
         }
 
