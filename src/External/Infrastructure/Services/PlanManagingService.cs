@@ -172,7 +172,6 @@ public class PlanManagingService : IPlanManagingService
         Console.WriteLine($"categorize BMI is {categorizeBmi}");
 
 
-
         var duration = dto.PlanDuration = Domain.Enums.Period.Monthly;
         var gender = dto.Gender = Domain.Enums.Sex.Male;
         var ageRange = dto.AgeRange = Domain.Enums.Age.Thirty_To_Thirty_Nine;
