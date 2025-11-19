@@ -30,7 +30,7 @@ public class PlanManagingService : IPlanManagingService
         await _unitOfWork.UserRepository.CreateAsync(user);
         var userId = (Guid)typeof(User).GetProperty("Id").GetValue(user);
 
-        // ____________________________--------------------------
+        //-----------------------------------------------------------------
 
 
         // Set user role to athelete
