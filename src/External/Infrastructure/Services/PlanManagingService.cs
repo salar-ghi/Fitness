@@ -178,7 +178,7 @@ public class PlanManagingService : IPlanManagingService
             new PlanDaysDto { Day = DayOfWeek.Monday, Hour = new TimeSpan(18, 0, 0) },
             new PlanDaysDto { Day = DayOfWeek.Wednesday, Hour = new TimeSpan(18, 0, 0) },
             new PlanDaysDto { Day = DayOfWeek.Friday, Hour = new TimeSpan(18, 0, 0) },
-            new PlanDaysDto { Day = DayOfWeek.Saturday, Hour = new TimeSpan(10, 0, 0) }
+            new PlanDaysDto { Day = DayOfWeek.Saturday, Hour = new TimeSpan(18, 0, 0) }
         };
 
         var musclePrioritiesNum = dto.MusclePriorities.Count();
