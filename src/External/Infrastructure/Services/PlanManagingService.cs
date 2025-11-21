@@ -1,4 +1,6 @@
-﻿namespace Infrastructure.Services;
+﻿using System.ComponentModel;
+
+namespace Infrastructure.Services;
 
 public class PlanManagingService : IPlanManagingService
 {
@@ -28,7 +30,7 @@ public class PlanManagingService : IPlanManagingService
         await _unitOfWork.UserRepository.CreateAsync(user);
         var userId = (Guid)typeof(User).GetProperty("Id").GetValue(user);
 
-        // ____________________________--------------------------
+        //-----------------------------------------------------------------
 
 
         // Set user role to athelete
@@ -158,11 +160,18 @@ public class PlanManagingService : IPlanManagingService
     public async Task TestPlanProcessingTask(PlanDto dto)
     {
         var height = dto.Height = 170;
+        var weight = dto.Weight = 90;
 
         Console.Clear();
-        Console.WriteLine($"height is {height}");
+        Console.WriteLine($"height is {height} and weight is {weight}");
+        var clculateBmi = await CalculateBmi(height, weight);
+        
+        //Console.Clear();
+        Console.WriteLine($"user BMI is {clculateBmi}");
+        var categorizeBmi = await CategorizeBMI(clculateBmi);
+        Console.WriteLine($"categorize BMI is {categorizeBmi}");
 
-        var weight = dto.Weight = 90;
+
         var duration = dto.PlanDuration = Domain.Enums.Period.Monthly;
         var gender = dto.Gender = Domain.Enums.Sex.Male;
         var ageRange = dto.AgeRange = Domain.Enums.Age.Thirty_To_Thirty_Nine;
@@ -305,6 +314,30 @@ public class PlanManagingService : IPlanManagingService
     }
 
 
+
+
+    public async Task<double> CalculateBmi(double heightCm, double weightKg)
+    {
+        //if (double.IsNaN(heightCm) || double.IsInfinity(heightCm))
+        if (heightCm <= 0 || weightKg <= 0)
+        {
+            throw new ArgumentException("Height and Weight must be positive values");
+        }
+        double heightMeters = heightCm / 100.0;
+        return weightKg / (heightCm * heightCm);
+    }
+
+    public async Task<string> CategorizeBMI(double bmi)
+    {
+        return bmi switch
+        {
+            <= 18.5 => "underweight",
+            > 18.5 and <= 24.9 => "normal",
+            > 25 and <= 29.9 => "overweight",
+            > 30 => "obese"
+        };
+    }
+
     public async Task GeneratePlan(RegisterDto dto)
     {
         // 1- * Select Gender // Male // Female
@@ -348,4 +381,12 @@ public class PlanManagingService : IPlanManagingService
             $"Ensure the plan is beginner - friendly, safe for someone with leg injuries, and tailored to an endomorph body type for optimal fat loss and muscle building.";
     }
 
+}
+
+public enum BMICategorize
+{
+    underweight = 1, // <18.5,
+    normal = 2, // 18.5-24.9,
+    overweight = 3, // 25-29.9,
+    obese = 4 // >=30
 }
