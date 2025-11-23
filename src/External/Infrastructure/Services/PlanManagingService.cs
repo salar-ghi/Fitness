@@ -165,19 +165,28 @@ public class PlanManagingService : IPlanManagingService
         Console.Clear();
         Console.WriteLine($"height is {height} and weight is {weight}");
         var clculateBmi = await CalculateBmi(height, weight);
-        
+        // ***** If high BMI suggest incorporating more cardio. *********
+        // اگر BMI بالا باشد، پیشنهاد می‌شود که کاردیو بیشتری را در برنامه خود بگنجانید.
+
         //Console.Clear();
-        Console.WriteLine($"user BMI is {clculateBmi}");
+        // BMI (Body Mass Index)
+        // BMR (Basal Metabolic Rate) ???
+        // BFP (Body fat percentage ) ???
+        Console.WriteLine($"user BMI (Body Mass Index) is {clculateBmi}");
         var categorizeBmi = await CategorizeBMI(clculateBmi);
         Console.WriteLine($"categorize BMI is {categorizeBmi}");
+
+
+        var bodyType = dto.BodyType = Domain.Enums.BodyType.Endomorph; 
+        var level = dto.Level = Application.DTOs.Enums.DifficultyEnum.Beginner;
+        // warm-ups (5-12 min) and cool-downs / Avoid advanced techniques like supersets initially
+        // Limit to 3 sets per exercise, 8-12 reps.
 
 
         var duration = dto.PlanDuration = Domain.Enums.Period.Monthly;
         var gender = dto.Gender = Domain.Enums.Sex.Male;
         var ageRange = dto.AgeRange = Domain.Enums.Age.Thirty_To_Thirty_Nine;
         //var dateOfBirth = dto.DateOfBirth;
-        var bodyType = dto.BodyType = Domain.Enums.BodyType.Endomorph;
-        var level = dto.Level = Application.DTOs.Enums.DifficultyEnum.Beginner;
 
         var injuries = dto.Injuries;
         var diseases = dto.Diseases;
@@ -202,6 +211,20 @@ public class PlanManagingService : IPlanManagingService
             new PlanEquipmentDto(planId:Guid.NewGuid(), equipmentId:1),
             new PlanEquipmentDto(planId:Guid.NewGuid(), equipmentId:2)
         };
+
+
+        // at first get all workouts related to user inputs
+
+        var pln = new Plan
+        {
+            PlanCode = "PLAN12345",
+            Level = Domain.Enums.Difficulty.Beginner,
+            Duration = Domain.Enums.Period.Monthly,
+            AthleteId = Guid.NewGuid(), // should get athlete Id from athlete table
+        };
+
+        var plan = await _unitOfWork.PlanRepository.CreateAsync(pln);
+        var exercise = await _unitOfWork.ExerciseRepository.CreateAsync(plan);
 
 
 
