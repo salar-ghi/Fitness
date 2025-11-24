@@ -46,8 +46,6 @@ public class UnitOfWork : IUnitOfWork
 
     #endregion
 
-
-
     #region Implementation
 
 
@@ -67,7 +65,13 @@ public class UnitOfWork : IUnitOfWork
 
     public IMusclePriorityRepository MusclePriorityRepository => new MusclePriorityRepository(_context);
 
-    public IPlanRepository PlanRepository => new PlanRepository(_context);
+    public IPlanRepository PlanRepository
+    {
+        get { 
+            return _planRepository ??= new PlanRepository(_context);
+        }
+    }
+
     public IPlanDaysRepository PlanDaysRepository => new PlanDaysRepository(_context);
     public IPlanEquipmentRepository PlanEquipmentRepository => new PlanEquipmentRepository(_context);
     public IPlanGoalsRepository PlanGoalsRepository => new PlanGoalsRepository(_context);

@@ -2,4 +2,4 @@
 
 
 //     ?????????????? Muscle group
-public record MusclePriorityDto(int Id, string name);
+public record MusclePriorityDto(int Id, string MuscleGroupName);

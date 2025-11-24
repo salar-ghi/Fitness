@@ -6,6 +6,7 @@ public interface IRepository<T>
 
     Task<T> GetByIdAsync<TIn>(TIn Id);
     Task<IEnumerable<T>> GetAllAsync();
+    //Task<IList<T>> GetAllFilteredAsync();
     #endregion
 
 

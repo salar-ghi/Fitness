@@ -1,3 +1,5 @@
 ﻿namespace Domain.IRepositories;
 
-public interface IPlanRepository : IRepository<Plan>;
+public interface IPlanRepository : IRepository<Plan>
+{
+}

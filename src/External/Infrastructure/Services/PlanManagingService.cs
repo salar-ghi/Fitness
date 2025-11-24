@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿using Domain.Enums;
+using Microsoft.EntityFrameworkCore.Migrations.Operations;
+using System.ComponentModel;
 
 namespace Infrastructure.Services;
 
@@ -6,10 +8,12 @@ public class PlanManagingService : IPlanManagingService
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IChatService _chatService;
-    public PlanManagingService(IUnitOfWork unitOfWork, IChatService chatService)
+    private readonly FitnessContext _context;
+    public PlanManagingService(IUnitOfWork unitOfWork, IChatService chatService, FitnessContext context)
     {
         _unitOfWork = unitOfWork;
         _chatService = chatService;
+        _context = context;
     }
 
 
@@ -178,18 +182,17 @@ public class PlanManagingService : IPlanManagingService
 
 
         var bodyType = dto.BodyType = Domain.Enums.BodyType.Endomorph; 
-        var level = dto.Level = Application.DTOs.Enums.DifficultyEnum.Beginner;
+        var level = dto.Level = Difficulty.Beginner;
         // warm-ups (5-12 min) and cool-downs / Avoid advanced techniques like supersets initially
         // Limit to 3 sets per exercise, 8-12 reps.
-
 
         var duration = dto.PlanDuration = Domain.Enums.Period.Monthly;
         var gender = dto.Gender = Domain.Enums.Sex.Male;
         var ageRange = dto.AgeRange = Domain.Enums.Age.Thirty_To_Thirty_Nine;
         //var dateOfBirth = dto.DateOfBirth;
 
-        var injuries = dto.Injuries;
-        var diseases = dto.Diseases;
+        var injuries = dto.Injuries; // no injuries
+        var diseases = dto.Diseases; // no disease
 
         var planDaysNum = dto.PlanDays.Count();
         var planDays = dto.PlanDays ?? new List<PlanDaysDto> {
@@ -205,26 +208,83 @@ public class PlanManagingService : IPlanManagingService
             new MusclePriorityDto(2, "Back")
         };
 
-        var equipmentNum = dto.Equipments.Count();
+        var equipmentNum = dto.Equipments.Count(); // 4 days in a week
         var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
         {
             new PlanEquipmentDto(planId:Guid.NewGuid(), equipmentId:1),
             new PlanEquipmentDto(planId:Guid.NewGuid(), equipmentId:2)
         };
 
-
         // at first get all workouts related to user inputs
+        //  get all Beginner and Intermediate workouts
+        if (dto.Level == Difficulty.Beginner)
+        {
+            // devide plan into 2 parts, first part beginner level and 2nd part is intermediate level
+            // generate plan according to exercises level are beginner and intermediate
+        }
+        else if(dto.Level == Difficulty.Intermediate)
+        {
+            // devide into 3 parts, first part mix of beginner and intermediate and 2nd part intermediate and 3rd part is mix of advanced and intermediate level
+            // use somehow supersets
+        }
+        else if(dto.Level == Difficulty.Advanced)
+        {
+            //devide into 3 parts, first part mix of intermediate and advanced and 2nd part advanced and 3rd part is expert and advanced level
+            // and Also use harsh workouts and sets, for example 6 workouts per session and harsh reps per set.
+            // use several supersets
+        }
+        else if(dto.Level == Difficulty.Expert)
+        {
+            // devide into 2 parts, first part advanced level and 2nd part is expert level
+            // and Also use harsh workouts and sets, for example 6 or 7 workouts per session and harsh reps per set.
+            // use several supersets
+        }
 
-        var pln = new Plan
+        var workoutLevels = await _context.WorkoutLevels
+            .Where(x => x.Level == Difficulty.Beginner || x.Level == Difficulty.Intermediate)
+            .ToListAsync();
+
+        var muscleName = dto.MusclePriorities.Select(x => x.MuscleGroupName).ToList();
+
+        var muscleProperties = await _context.Bodies
+            .Where(z => muscleName.Contains(z.Name))
+            .ToList();
+
+
+        // plan duration is Monthly so 4 weeks, well 4 weeks each week 4 days,
+        // for each session because of beginner level just 5 exercises, so =>> 5*4*4=80 workouts needed
+        // var requiredWorkoutsCount = 5 * 4 * 4; // 80 workouts needed
+        // So right now 2 weeks same and another 2 weeks same, in the end just get 40 unique workouts
+        // and right now devide weeks to get all exercises according to target muscles and compound muscles.
+
+        var firstSection = _context.Workouts
+            .Where(w => workoutLevels.Any(wl => wl.WorkoutId == w.Id))
+            .Where(w => w.BodyWorkouts.Any(bw => musclePriorities.Any(mp => mp.Id == bw.BodyId)))
+            .Take(40); // get first 40 workouts
+
+        //var section = _context.Workouts
+        //    .Where(z => z.Level.Any(x => x.Level == dto.Level))
+        //    .Where(z => z.BodyWorkouts.Any(x => musclePriorities.Any(y => y.name == dto.MusclePriorities)))
+        //    .ToListAsync();
+
+
+        //var contextWorkouts = await _context.Workouts.Where(x => x.)
+
+        ; var workoutlist = await _unitOfWork.WorkoutRepository.GetAllAsync();
+
+        ; var pln = new Plan
         {
             PlanCode = "PLAN12345",
-            Level = Domain.Enums.Difficulty.Beginner,
-            Duration = Domain.Enums.Period.Monthly,
+            Level = dto.Level,
+            Duration = dto.PlanDuration,
+            DaysCount = dto.PlanDays.Count(),
+            Place = dto.Place,
             AthleteId = Guid.NewGuid(), // should get athlete Id from athlete table
         };
 
-        var plan = await _unitOfWork.PlanRepository.CreateAsync(pln);
-        var exercise = await _unitOfWork.ExerciseRepository.CreateAsync(plan);
+        //var plan = await _unitOfWork.PlanRepository.CreateAsync(pln);
+
+        //var exercise = await _unitOfWork.ExerciseRepository.CreateAsync(plan);
 
 
 

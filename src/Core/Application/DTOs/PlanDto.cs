@@ -11,8 +11,8 @@ public record PlanDto
     public Age AgeRange { get; set; } // ???
     public DateOnly DateOfBirth { get; set; }
     public BodyType BodyType { get; set; }
-    public DifficultyEnum Level { get; set; }
-
+    public Difficulty Level { get; set; }
+    public Place Place { get; set; }
 
     // Injuries
     public List<InjuryDto> Injuries { get; set; }
