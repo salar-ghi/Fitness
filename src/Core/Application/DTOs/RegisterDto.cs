@@ -2,7 +2,6 @@
 
 public class RegisterDto
 {
-    //public int Age { get; set; } // ???
 
     // -----User Table Properties
     public string PhoneNumber { get; set; } = default!;
@@ -11,7 +10,7 @@ public class RegisterDto
     public string? LName { get; set; }
 
 
-    //public int Age { get; set; }
+    public int Age { get; set; }
 
 
     // -----Athlete Table Properties
@@ -25,7 +24,7 @@ public class RegisterDto
     public Age AgeRange { get; set; } // ???
     public DateOnly DateOfBirth { get; set; }
     public BodyType BodyType { get; set; }
-    public DifficultyEnum Level { get; set; }
+    public Difficulty Level { get; set; }
 
 
     // Inujuries

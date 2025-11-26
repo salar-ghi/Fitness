@@ -168,27 +168,30 @@ public class PlanManagingService : IPlanManagingService
 
         Console.Clear();
         Console.WriteLine($"height is {height} and weight is {weight}");
-        var clculateBmi = await CalculateBmi(height, weight);
+        var bmi = await CalculateBmi(height, weight);
         // ***** If high BMI suggest incorporating more cardio. *********
         // اگر BMI بالا باشد، پیشنهاد می‌شود که کاردیو بیشتری را در برنامه خود بگنجانید.
 
         //Console.Clear();
         // BMI (Body Mass Index)
-        // BMR (Basal Metabolic Rate) ???
-        // BFP (Body fat percentage ) ???
-        Console.WriteLine($"user BMI (Body Mass Index) is {clculateBmi}");
-        var categorizeBmi = await CategorizeBMI(clculateBmi);
+        Console.WriteLine($"user BMI (Body Mass Index) is {bmi}");
+        var categorizeBmi = await CategorizeBMI(bmi);
         Console.WriteLine($"categorize BMI is {categorizeBmi}");
 
+        // BMR (Basal Metabolic Rate) 
+        var bmr = CalculateBmr(height, weight, dto.Age, dto.Gender.ToString());
+
+        // BFP (Body fat percentage )
+        var bodyFat = CalculateBodyFatPercentage(bmi, dto.Age, "Male");
 
         var bodyType = dto.BodyType = Domain.Enums.BodyType.Endomorph; 
         var level = dto.Level = Difficulty.Beginner;
         // warm-ups (5-12 min) and cool-downs / Avoid advanced techniques like supersets initially
         // Limit to 3 sets per exercise, 8-12 reps.
 
-        var duration = dto.PlanDuration = Domain.Enums.Period.Monthly;
-        var gender = dto.Gender = Domain.Enums.Sex.Male;
-        var ageRange = dto.AgeRange = Domain.Enums.Age.Thirty_To_Thirty_Nine;
+        var duration = dto.PlanDuration = Period.Monthly;
+        var gender = dto.Gender = Sex.Male;
+        var ageRange = dto.AgeRange = Age.Thirty_To_Thirty_Nine;
         //var dateOfBirth = dto.DateOfBirth;
 
         var injuries = dto.Injuries; // no injuries
@@ -205,69 +208,69 @@ public class PlanManagingService : IPlanManagingService
         var musclePrioritiesNum = dto.MusclePriorities.Count();
         var musclePriorities = dto.MusclePriorities ?? new List<MusclePriorityDto> {
             new MusclePriorityDto(1, "Chest"),
-            new MusclePriorityDto(2, "Back")
+            new MusclePriorityDto(2, "Back"),
+            new MusclePriorityDto(3, "Shoulders"),
+            new MusclePriorityDto(4, "Biceps"),
         };
 
         var equipmentNum = dto.Equipments.Count(); // 4 days in a week
         var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
         {
-            new PlanEquipmentDto(planId:Guid.NewGuid(), equipmentId:1),
-            new PlanEquipmentDto(planId:Guid.NewGuid(), equipmentId:2)
+            new PlanEquipmentDto{ },
         };
 
-        // at first get all workouts related to user inputs
-        //  get all Beginner and Intermediate workouts
+        int exercisesPerSession = 0;
+
+        var workoutLevels = await _context.WorkoutLevels
+            .Where(x => x.Level == Difficulty.Beginner || x.Level == Difficulty.Intermediate)
+            .ToListAsync();
+
+        var muscleName = dto.MusclePriorities?.Select(x => x.MuscleGroupName).ToList();
+
+        var muscleProperties = await _context.Bodies
+            .Where(z => muscleName.Contains(z.Name))
+            .ToListAsync();
+
         if (dto.Level == Difficulty.Beginner)
         {
+            exercisesPerSession = 5; // 4~5; => 5
+
+            var firstSection = _context.Workouts
+                .Where(w => workoutLevels.Any(wl => wl.WorkoutId == w.Id))
+                .Where(w => w.BodyWorkouts.Any(bw => musclePriorities.Any(mp => mp.Id == bw.BodyId)))
+                .Take(40);            
+
+            var exercises = await _context.Workouts
+                .Where(z => z.Level == workoutLevels)
+                .Where(y => y.BodyWorkouts == musclePriorities)
+                .ToListAsync();
+
+
             // devide plan into 2 parts, first part beginner level and 2nd part is intermediate level
             // generate plan according to exercises level are beginner and intermediate
         }
         else if(dto.Level == Difficulty.Intermediate)
         {
+            exercisesPerSession = 5; // 5~6  // 1 superset. => 6
             // devide into 3 parts, first part mix of beginner and intermediate and 2nd part intermediate and 3rd part is mix of advanced and intermediate level
             // use somehow supersets
         }
         else if(dto.Level == Difficulty.Advanced)
         {
+            exercisesPerSession = 6; // 6~7 // 2~3 superset => 8
             //devide into 3 parts, first part mix of intermediate and advanced and 2nd part advanced and 3rd part is expert and advanced level
             // and Also use harsh workouts and sets, for example 6 workouts per session and harsh reps per set.
             // use several supersets
         }
         else if(dto.Level == Difficulty.Expert)
         {
+            exercisesPerSession = 7; // 7 // 3 superset => 10
+
             // devide into 2 parts, first part advanced level and 2nd part is expert level
             // and Also use harsh workouts and sets, for example 6 or 7 workouts per session and harsh reps per set.
             // use several supersets
         }
-
-        var workoutLevels = await _context.WorkoutLevels
-            .Where(x => x.Level == Difficulty.Beginner || x.Level == Difficulty.Intermediate)
-            .ToListAsync();
-
-        var muscleName = dto.MusclePriorities.Select(x => x.MuscleGroupName).ToList();
-
-        var muscleProperties = await _context.Bodies
-            .Where(z => muscleName.Contains(z.Name))
-            .ToList();
-
-
-        // plan duration is Monthly so 4 weeks, well 4 weeks each week 4 days,
-        // for each session because of beginner level just 5 exercises, so =>> 5*4*4=80 workouts needed
-        // var requiredWorkoutsCount = 5 * 4 * 4; // 80 workouts needed
-        // So right now 2 weeks same and another 2 weeks same, in the end just get 40 unique workouts
-        // and right now devide weeks to get all exercises according to target muscles and compound muscles.
-
-        var firstSection = _context.Workouts
-            .Where(w => workoutLevels.Any(wl => wl.WorkoutId == w.Id))
-            .Where(w => w.BodyWorkouts.Any(bw => musclePriorities.Any(mp => mp.Id == bw.BodyId)))
-            .Take(40); // get first 40 workouts
-
-        //var section = _context.Workouts
-        //    .Where(z => z.Level.Any(x => x.Level == dto.Level))
-        //    .Where(z => z.BodyWorkouts.Any(x => musclePriorities.Any(y => y.name == dto.MusclePriorities)))
-        //    .ToListAsync();
-
-
+                
         //var contextWorkouts = await _context.Workouts.Where(x => x.)
 
         ; var workoutlist = await _unitOfWork.WorkoutRepository.GetAllAsync();
@@ -409,6 +412,38 @@ public class PlanManagingService : IPlanManagingService
         double heightMeters = heightCm / 100.0;
         return weightKg / (heightCm * heightCm);
     }
+    public async Task<double> CalculateBmr(double heightCm, double weightKg, int age, string gender)
+    {
+        if (heightCm <= 0 || weightKg <= 0 || age <= 0)
+        {
+            throw new ArgumentException("Inputs must be positive.");
+        }
+
+        double bmr;
+        if (gender.Equals("Male", StringComparison.OrdinalIgnoreCase))
+        {
+            bmr = 88.362 + (13.397 * weightKg) + (4.799 * heightCm) - (5.677 * age);
+        }
+        else if (gender.Equals("Female", StringComparison.OrdinalIgnoreCase))
+        {
+            bmr = 447.593 + (9.247 * weightKg) + (3.098 * heightCm) - (4.330 * age);
+        }
+        else
+        {
+            throw new ArgumentException("Gender must be 'Male' or 'Female'.");
+        }
+        return Math.Round(bmr, 2);
+    }
+
+    public double CalculateBodyFatPercentage(double bmi, int age, string gender)
+    {
+        // Deurenberg formula approximation
+        int genderValue = gender.Equals("Male", StringComparison.OrdinalIgnoreCase) ? 1 : 0;
+        double bodyFat = (1.20 * bmi) + (0.23 * age) - (10.8 * genderValue) - 5.4;
+        return Math.Round(bodyFat, 2);
+    }
+
+
 
     public async Task<string> CategorizeBMI(double bmi)
     {

@@ -8,7 +8,9 @@ public record PlanDto
     public Period PlanDuration { get; set; }
 
     public Sex Gender { get; set; }
-    public Age AgeRange { get; set; } // ???
+
+    public int Age { get; set; }
+    public Age AgeRange { get; set; } 
     public DateOnly DateOfBirth { get; set; }
     public BodyType BodyType { get; set; }
     public Difficulty Level { get; set; }
