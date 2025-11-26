@@ -133,8 +133,8 @@ public class PlanManagingService : IPlanManagingService
         {
             var equipment = new PlanEquipments
             {
-                PlanId = item.planId,
-                EquipmentId = item.equipmentId,
+                PlanId = item.PlanId.Value,
+                EquipmentId = item.Id,
             };
             equipments.Add(equipment);
         }
@@ -225,7 +225,7 @@ public class PlanManagingService : IPlanManagingService
             .Where(x => x.Level == Difficulty.Beginner || x.Level == Difficulty.Intermediate)
             .ToListAsync();
 
-        var muscleName = dto.MusclePriorities?.Select(x => x.MuscleGroupName).ToList();
+        var muscleName = dto.MusclePriorities?.Select(x => x.GroupName).ToList();
 
         var muscleProperties = await _context.Bodies
             .Where(z => muscleName.Contains(z.Name))
@@ -329,7 +329,7 @@ public class PlanManagingService : IPlanManagingService
             var body = new Body
             {
                 Id = item.Id,
-                Name = item.name,
+                Name = item.GroupName,
             };
             bodyList.Add(body);
         }
@@ -339,7 +339,7 @@ public class PlanManagingService : IPlanManagingService
         List<Equipment> equipmentList = new List<Equipment>();
         foreach (var item in dto.Equipments)
         {
-            var eqips = await _unitOfWork.EquipmentRepository.GetByIdAsync(item.equipmentId);
+            var eqips = await _unitOfWork.EquipmentRepository.GetByIdAsync(item.Id);
             equipmentList.Add(eqips);
 
             //Equipment equipment = new Equipment
