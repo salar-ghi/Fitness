@@ -184,7 +184,7 @@ public class PlanManagingService : IPlanManagingService
         // BFP (Body fat percentage )
         var bodyFat = CalculateBodyFatPercentage(bmi, dto.Age, "Male");
 
-        var bodyType = dto.BodyType = Domain.Enums.BodyType.Endomorph; 
+        var bodyType = dto.BodyType = Domain.Enums.BodyType.Endomorph;
         var level = dto.Level = Difficulty.Beginner;
         // warm-ups (5-12 min) and cool-downs / Avoid advanced techniques like supersets initially
         // Limit to 3 sets per exercise, 8-12 reps.
