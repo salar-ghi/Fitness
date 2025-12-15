@@ -7,8 +7,8 @@ public class Equipment : BaseEntity<int, Equipment>
     public string Description { get; set; } = default!;
     public EquipmentType EquipmentType { get; set; }
 
-    //public int? WorkoutId { get; private set; }
-    //public required Workout Workout { get; set; } = null!;
+    public int WorkoutEquipmentId { get; private set; }
+    public WorkoutEquipment WorkoutEquipment { get; set; } = null!;
 
     // None
     // Bands

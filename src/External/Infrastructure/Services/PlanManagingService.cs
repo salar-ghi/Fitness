@@ -434,7 +434,6 @@ public class PlanManagingService : IPlanManagingService
         }
         return Math.Round(bmr, 2);
     }
-
     public double CalculateBodyFatPercentage(double bmi, int age, string gender)
     {
         // Deurenberg formula approximation
@@ -442,9 +441,6 @@ public class PlanManagingService : IPlanManagingService
         double bodyFat = (1.20 * bmi) + (0.23 * age) - (10.8 * genderValue) - 5.4;
         return Math.Round(bodyFat, 2);
     }
-
-
-
     public async Task<string> CategorizeBMI(double bmi)
     {
         return bmi switch
@@ -455,7 +451,6 @@ public class PlanManagingService : IPlanManagingService
             > 30 => "obese"
         };
     }
-
     public async Task GeneratePlan(RegisterDto dto)
     {
         // 1- * Select Gender // Male // Female

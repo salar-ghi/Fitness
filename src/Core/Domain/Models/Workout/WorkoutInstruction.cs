@@ -8,5 +8,5 @@ public class WorkoutInstruction : BaseEntity<int, WorkoutInstruction>
     public string? VideoUrl { get; set; }
     public int WorkoutId { get; set; }
     //[ForeignKey(nameof(Workout))]
-    //public virtual Workout Workout { get; set; }
+    public virtual Workout Workout { get; set; }
 }
