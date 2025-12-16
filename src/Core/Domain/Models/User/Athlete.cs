@@ -18,9 +18,9 @@ public class Athlete : BaseEntity<Guid, Athlete>
     public required Guid UserId { get; set; }
 
     //[ForeignKey(nameof(UserId))]
-    //public virtual User User { get; set; } = null!;
+    public virtual User User { get; set; } = null!;
 
-    //public virtual ICollection<AthleteImgs> Imgs { get; set; } = new List<AthleteImgs>();
-    //public virtual ICollection<AthleteInjuries> Injuries { get; } = new List<AthleteInjuries>();
-    //public virtual ICollection<Disease> Diseases { get; set; } = new List<Disease>();
+    public virtual ICollection<AthleteImgs> Imgs { get; set; } = new List<AthleteImgs>();
+    public virtual ICollection<AthleteInjuries> Injuries { get; } = new List<AthleteInjuries>();
+    public virtual ICollection<Disease> Diseases { get; set; } = new List<Disease>();
 }

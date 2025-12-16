@@ -30,5 +30,4 @@ public record PlanDto
 
     // EquipmentDto
     public List<PlanEquipmentDto> Equipments { get; set; }
-
 }
