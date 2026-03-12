@@ -197,7 +197,7 @@ public class PlanManagingService : IPlanManagingService
         var injuries = dto.Injuries; // no injuries
         var diseases = dto.Diseases; // no disease
 
-        var planDaysNum = dto.PlanDays.Count();
+        var planDaysNum = dto.PlanDays.Count(); // 4 days in a week
         var planDays = dto.PlanDays ?? new List<PlanDaysDto> {
             new PlanDaysDto { Day = DayOfWeek.Monday, Hour = new TimeSpan(18, 0, 0) },
             new PlanDaysDto { Day = DayOfWeek.Wednesday, Hour = new TimeSpan(18, 0, 0) },
@@ -213,7 +213,7 @@ public class PlanManagingService : IPlanManagingService
             new MusclePriorityDto(4, "Biceps"),
         };
 
-        var equipmentNum = dto.Equipments.Count(); // 4 days in a week
+        var equipmentNum = dto.Equipments.Count(); 
         var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
         {
             new PlanEquipmentDto{ },
@@ -246,13 +246,18 @@ public class PlanManagingService : IPlanManagingService
                 .ToListAsync();
 
 
-            // devide plan into 2 parts, first part beginner level and 2nd part is intermediate level
+            // devide plan into 2 parts,
+            // first part beginner level
+            // and 2nd part is intermediate level
             // generate plan according to exercises level are beginner and intermediate
         }
         else if(dto.Level == Difficulty.Intermediate)
         {
             exercisesPerSession = 5; // 5~6  // 1 superset. => 6
-            // devide into 3 parts, first part mix of beginner and intermediate and 2nd part intermediate and 3rd part is mix of advanced and intermediate level
+            // devide into 3 parts,
+            // first part mix of beginner and intermediate
+            // and 2nd part intermediate
+            // and 3rd part is mix of advanced and intermediate level
             // use somehow supersets
         }
         else if(dto.Level == Difficulty.Advanced)
@@ -275,7 +280,7 @@ public class PlanManagingService : IPlanManagingService
 
         ; var workoutlist = await _unitOfWork.WorkoutRepository.GetAllAsync();
 
-        ; var pln = new Plan
+        var pln = new Plan
         {
             PlanCode = "PLAN12345",
             Level = dto.Level,

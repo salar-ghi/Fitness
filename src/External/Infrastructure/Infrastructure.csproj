@@ -33,6 +33,9 @@
     <Folder Include="Data\" />
     <Folder Include="Configuration\" />
     <Folder Include="Services\PlanParser\" />
+    <Folder Include="Services\Plan\Intermediate\" />
+    <Folder Include="Services\Plan\Advanced\" />
+    <Folder Include="Services\Plan\Expert\" />
   </ItemGroup>
 
   <ItemGroup>
