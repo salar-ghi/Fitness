@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Services.Plan.Beginner;
+﻿namespace Infrastructure.Services.PlanService.Beginner;
 
 public class QuarterlyPlan
 {

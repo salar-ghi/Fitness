@@ -1,4 +1,5 @@
-﻿using OllamaSharp;
+﻿using Infrastructure.Services.PlanService.Beginner;
+using OllamaSharp;
 
 namespace Infrastructure;
 
@@ -48,6 +49,8 @@ public static class DependencyInjection
         services.AddScoped<IWorkoutLevelRepository, WorkoutLevelRepository>();
         services.AddScoped<IWorkoutRepository, WorkoutRepository>();
         services.AddScoped<IWorkoutSexRepository, WorkoutSexRepository>();
+
+        services.AddScoped<IBeginnerPlanService, DailyPlanService>();
 
         //services.AddSingleton<IChatClient>(new OllamaChatClient(new
         //    Uri("http://localhost:11434/"), "llama3.1:latest"));

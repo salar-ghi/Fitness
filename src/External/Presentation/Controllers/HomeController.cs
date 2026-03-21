@@ -1,4 +1,6 @@
-﻿namespace Presentation.Controllers;
+﻿using Infrastructure.Services;
+
+namespace Presentation.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -7,18 +9,22 @@ public class HomeController : ControllerBase
     private readonly IChatService _chatService;
     private readonly IPlanManagingService _planManagingService;
     private readonly Ollama _ollama;
-
-    public HomeController(IChatService chatService, IPlanManagingService planManagingService)
+    private readonly IBeginnerPlanService _beginnerPlanService;
+    public HomeController(
+        IChatService chatService, 
+        IPlanManagingService planManagingService,
+        IBeginnerPlanService beginnerPlanService)
     {
         _chatService = chatService;
         _planManagingService = planManagingService;
+        _beginnerPlanService = beginnerPlanService;
     }
 
-    //[HttpGet]
-    [HttpPost]
-    public async Task<IActionResult> Index([FromBody] string question)
+    [HttpGet("Index")]
+    public async Task<IActionResult> Index()
     {
         //var response = await _chatService.AskQuestionAsync(question);
+        var plan = await _planManagingService.TestPlanProcessingTask();
         return Ok();
     }
 

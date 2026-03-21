@@ -4,6 +4,7 @@ using Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,13 +12,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(FitnessContext))]
-    partial class FitnessContextModelSnapshot : ModelSnapshot
+    [Migration("20260321212011_start")]
+    partial class start
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("ProductVersion", "10.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -40,7 +43,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(6305));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 481, DateTimeKind.Utc).AddTicks(7601));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -65,9 +68,12 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(6443));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 481, DateTimeKind.Utc).AddTicks(8130));
 
                     b.Property<Guid>("ModifiedBy")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("PlanId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("UserId")
@@ -77,6 +83,8 @@ namespace Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("PlanId");
 
                     b.HasIndex("UserId", "Gender");
 
@@ -99,7 +107,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(7228));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 483, DateTimeKind.Utc).AddTicks(218));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -123,7 +131,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(7398));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 483, DateTimeKind.Utc).AddTicks(701));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -154,7 +162,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(8146));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 484, DateTimeKind.Utc).AddTicks(2003));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -178,7 +186,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(8266));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 484, DateTimeKind.Utc).AddTicks(2457));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -189,6 +197,8 @@ namespace Infrastructure.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AthleteId");
 
                     b.ToTable("AthleteInjuries");
                 });
@@ -204,12 +214,15 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7060));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 463, DateTimeKind.Utc).AddTicks(8695));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GroupName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImgUrl")
@@ -227,10 +240,13 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7228));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 463, DateTimeKind.Utc).AddTicks(9791));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<long?>("MusclePriorityId")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -243,6 +259,8 @@ namespace Infrastructure.Migrations
                         .HasDefaultValue(0);
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MusclePriorityId");
 
                     b.ToTable("Bodies");
                 });
@@ -298,7 +316,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9822));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 486, DateTimeKind.Utc).AddTicks(6362));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -311,7 +329,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9946));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 486, DateTimeKind.Utc).AddTicks(6971));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -323,6 +341,8 @@ namespace Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("WorkoutId");
 
                     b.HasIndex("BodyId", "WorkoutId");
 
@@ -348,7 +368,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(7889));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 465, DateTimeKind.Utc).AddTicks(8314));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -365,7 +385,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(8022));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 465, DateTimeKind.Utc).AddTicks(8871));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -376,6 +396,8 @@ namespace Infrastructure.Migrations
                         .HasColumnType("nvarchar(70)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AthleteId");
 
                     b.ToTable("Diseases");
                 });
@@ -391,7 +413,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(729));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 488, DateTimeKind.Utc).AddTicks(2745));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -417,7 +439,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(859));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 488, DateTimeKind.Utc).AddTicks(3248));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -444,7 +466,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(9211));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 469, DateTimeKind.Utc).AddTicks(4735));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -463,7 +485,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 360, DateTimeKind.Utc).AddTicks(9346));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 469, DateTimeKind.Utc).AddTicks(5158));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -516,7 +538,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(156));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 470, DateTimeKind.Utc).AddTicks(5513));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -529,7 +551,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(288));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 470, DateTimeKind.Utc).AddTicks(5932));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -562,7 +584,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1024));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 472, DateTimeKind.Utc).AddTicks(6679));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -584,7 +606,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1179));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 472, DateTimeKind.Utc).AddTicks(7108));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -617,7 +639,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1787));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 473, DateTimeKind.Utc).AddTicks(6929));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -636,7 +658,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(1918));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 473, DateTimeKind.Utc).AddTicks(7413));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -664,7 +686,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(2558));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 474, DateTimeKind.Utc).AddTicks(7513));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -680,7 +702,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(2739));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 474, DateTimeKind.Utc).AddTicks(8006));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -712,7 +734,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(3926));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 476, DateTimeKind.Utc).AddTicks(7181));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -737,7 +759,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(4076));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 476, DateTimeKind.Utc).AddTicks(7664));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -782,7 +804,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(4865));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 477, DateTimeKind.Utc).AddTicks(9844));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -802,7 +824,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(5020));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 478, DateTimeKind.Utc).AddTicks(298));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -878,7 +900,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(1552));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 489, DateTimeKind.Utc).AddTicks(4654));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -902,7 +924,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(1723));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 489, DateTimeKind.Utc).AddTicks(5123));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -912,7 +934,12 @@ namespace Infrastructure.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<int?>("WorkoutId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("WorkoutId");
 
                     b.ToTable("Sports");
                 });
@@ -932,7 +959,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9035));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 485, DateTimeKind.Utc).AddTicks(5213));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -975,7 +1002,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 361, DateTimeKind.Utc).AddTicks(9173));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 485, DateTimeKind.Utc).AddTicks(5563));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1023,7 +1050,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(2473));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 490, DateTimeKind.Utc).AddTicks(7539));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1031,6 +1058,9 @@ namespace Infrastructure.Migrations
                     b.Property<string>("Description")
                         .HasMaxLength(2500)
                         .HasColumnType("nvarchar(2500)");
+
+                    b.Property<Guid?>("ExerciseId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ImgUrl")
                         .IsRequired()
@@ -1047,7 +1077,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(2593));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 490, DateTimeKind.Utc).AddTicks(8034));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1061,6 +1091,8 @@ namespace Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ExerciseId");
 
                     b.HasIndex("SportId");
 
@@ -1083,7 +1115,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3167));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 491, DateTimeKind.Utc).AddTicks(8700));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1096,7 +1128,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3319));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 491, DateTimeKind.Utc).AddTicks(9169));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1124,7 +1156,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(3925));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 493, DateTimeKind.Utc).AddTicks(9));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1140,7 +1172,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(4043));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 493, DateTimeKind.Utc).AddTicks(492));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1149,6 +1181,8 @@ namespace Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("EquipmentId");
 
                     b.HasIndex("WorkoutId", "EquipmentId");
 
@@ -1255,7 +1289,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(5068));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 495, DateTimeKind.Utc).AddTicks(1594));
 
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1275,7 +1309,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Modified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 10, 26, 21, 51, 34, 362, DateTimeKind.Utc).AddTicks(5216));
+                        .HasDefaultValue(new DateTime(2026, 3, 21, 21, 20, 10, 495, DateTimeKind.Utc).AddTicks(2074));
 
                     b.Property<Guid>("ModifiedBy")
                         .HasColumnType("uniqueidentifier");
@@ -1328,6 +1362,318 @@ namespace Infrastructure.Migrations
                     SqlServerIndexBuilderExtensions.IsClustered(b.HasIndex("WorkoutId"), false);
 
                     b.ToTable("WorkoutSex");
+                });
+
+            modelBuilder.Entity("ExercisePlan", b =>
+                {
+                    b.Property<Guid>("ExercisesId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("PlansId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("ExercisesId", "PlansId");
+
+                    b.HasIndex("PlansId");
+
+                    b.ToTable("ExercisePlan");
+                });
+
+            modelBuilder.Entity("MusclePriorityPlan", b =>
+                {
+                    b.Property<long>("MusclePrioritiesId")
+                        .HasColumnType("bigint");
+
+                    b.Property<Guid>("PlansId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("MusclePrioritiesId", "PlansId");
+
+                    b.HasIndex("PlansId");
+
+                    b.ToTable("MusclePriorityPlan");
+                });
+
+            modelBuilder.Entity("PlanPlanImgs", b =>
+                {
+                    b.Property<long>("PlanImgsId")
+                        .HasColumnType("bigint");
+
+                    b.Property<Guid>("PlansId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("PlanImgsId", "PlansId");
+
+                    b.HasIndex("PlansId");
+
+                    b.ToTable("PlanPlanImgs");
+                });
+
+            modelBuilder.Entity("Domain.Models.Athlete", b =>
+                {
+                    b.HasOne("Domain.Models.Plan", null)
+                        .WithMany("Athletes")
+                        .HasForeignKey("PlanId");
+
+                    b.HasOne("Domain.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Domain.Models.AthleteImgs", b =>
+                {
+                    b.HasOne("Domain.Models.Athlete", null)
+                        .WithMany("Imgs")
+                        .HasForeignKey("AthleteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Models.AthleteInjuries", b =>
+                {
+                    b.HasOne("Domain.Models.Athlete", null)
+                        .WithMany("Injuries")
+                        .HasForeignKey("AthleteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Models.Body", b =>
+                {
+                    b.HasOne("Domain.Models.MusclePriority", null)
+                        .WithMany("Bodies")
+                        .HasForeignKey("MusclePriorityId");
+                });
+
+            modelBuilder.Entity("Domain.Models.BodyWorkout", b =>
+                {
+                    b.HasOne("Domain.Models.Body", "Body")
+                        .WithMany()
+                        .HasForeignKey("BodyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Workout", "Workout")
+                        .WithMany()
+                        .HasForeignKey("WorkoutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Body");
+
+                    b.Navigation("Workout");
+                });
+
+            modelBuilder.Entity("Domain.Models.Disease", b =>
+                {
+                    b.HasOne("Domain.Models.Athlete", null)
+                        .WithMany("Diseases")
+                        .HasForeignKey("AthleteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Models.PlanDays", b =>
+                {
+                    b.HasOne("Domain.Models.Plan", null)
+                        .WithMany("PlanDays")
+                        .HasForeignKey("PlanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Models.PlanEquipments", b =>
+                {
+                    b.HasOne("Domain.Models.Plan", null)
+                        .WithMany("PlanEquipments")
+                        .HasForeignKey("PlanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Models.PlanGoals", b =>
+                {
+                    b.HasOne("Domain.Models.Plan", "Plan")
+                        .WithMany("PlanGoals")
+                        .HasForeignKey("PlanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Plan");
+                });
+
+            modelBuilder.Entity("Domain.Models.Sport", b =>
+                {
+                    b.HasOne("Domain.Models.Workout", null)
+                        .WithMany("Sport")
+                        .HasForeignKey("WorkoutId");
+                });
+
+            modelBuilder.Entity("Domain.Models.Workout", b =>
+                {
+                    b.HasOne("Domain.Models.Exercise", null)
+                        .WithMany("Workouts")
+                        .HasForeignKey("ExerciseId");
+                });
+
+            modelBuilder.Entity("Domain.Models.WorkoutAgeRange", b =>
+                {
+                    b.HasOne("Domain.Models.Workout", "Workout")
+                        .WithMany("AgeRanges")
+                        .HasForeignKey("WorkoutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Workout");
+                });
+
+            modelBuilder.Entity("Domain.Models.WorkoutEquipment", b =>
+                {
+                    b.HasOne("Domain.Models.Equipment", "Equipment")
+                        .WithMany("WorkoutEquipment")
+                        .HasForeignKey("EquipmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Workout", "workout")
+                        .WithMany("WorkoutEquipment")
+                        .HasForeignKey("WorkoutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Equipment");
+
+                    b.Navigation("workout");
+                });
+
+            modelBuilder.Entity("Domain.Models.WorkoutInstruction", b =>
+                {
+                    b.HasOne("Domain.Models.Workout", "Workout")
+                        .WithMany()
+                        .HasForeignKey("WorkoutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Workout");
+                });
+
+            modelBuilder.Entity("Domain.Models.WorkoutLevel", b =>
+                {
+                    b.HasOne("Domain.Models.Workout", "Workout")
+                        .WithMany("Level")
+                        .HasForeignKey("WorkoutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Workout");
+                });
+
+            modelBuilder.Entity("Domain.Models.WorkoutSex", b =>
+                {
+                    b.HasOne("Domain.Models.Workout", "Workout")
+                        .WithMany("Sex")
+                        .HasForeignKey("WorkoutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Workout");
+                });
+
+            modelBuilder.Entity("ExercisePlan", b =>
+                {
+                    b.HasOne("Domain.Models.Exercise", null)
+                        .WithMany()
+                        .HasForeignKey("ExercisesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Plan", null)
+                        .WithMany()
+                        .HasForeignKey("PlansId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("MusclePriorityPlan", b =>
+                {
+                    b.HasOne("Domain.Models.MusclePriority", null)
+                        .WithMany()
+                        .HasForeignKey("MusclePrioritiesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Plan", null)
+                        .WithMany()
+                        .HasForeignKey("PlansId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("PlanPlanImgs", b =>
+                {
+                    b.HasOne("Domain.Models.PlanImgs", null)
+                        .WithMany()
+                        .HasForeignKey("PlanImgsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Models.Plan", null)
+                        .WithMany()
+                        .HasForeignKey("PlansId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Models.Athlete", b =>
+                {
+                    b.Navigation("Diseases");
+
+                    b.Navigation("Imgs");
+
+                    b.Navigation("Injuries");
+                });
+
+            modelBuilder.Entity("Domain.Models.Equipment", b =>
+                {
+                    b.Navigation("WorkoutEquipment");
+                });
+
+            modelBuilder.Entity("Domain.Models.Exercise", b =>
+                {
+                    b.Navigation("Workouts");
+                });
+
+            modelBuilder.Entity("Domain.Models.MusclePriority", b =>
+                {
+                    b.Navigation("Bodies");
+                });
+
+            modelBuilder.Entity("Domain.Models.Plan", b =>
+                {
+                    b.Navigation("Athletes");
+
+                    b.Navigation("PlanDays");
+
+                    b.Navigation("PlanEquipments");
+
+                    b.Navigation("PlanGoals");
+                });
+
+            modelBuilder.Entity("Domain.Models.Workout", b =>
+                {
+                    b.Navigation("AgeRanges");
+
+                    b.Navigation("Level");
+
+                    b.Navigation("Sex");
+
+                    b.Navigation("Sport");
+
+                    b.Navigation("WorkoutEquipment");
                 });
 #pragma warning restore 612, 618
         }

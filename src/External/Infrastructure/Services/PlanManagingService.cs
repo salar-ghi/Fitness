@@ -9,13 +9,17 @@ public class PlanManagingService : IPlanManagingService
     private readonly IUnitOfWork _unitOfWork;
     private readonly IChatService _chatService;
     private readonly FitnessContext _context;
-    public PlanManagingService(IUnitOfWork unitOfWork, IChatService chatService, FitnessContext context)
+    private readonly IBeginnerPlanService _beginnerPlanService;
+    public PlanManagingService(IUnitOfWork unitOfWork, 
+        IChatService chatService, 
+        FitnessContext context,
+        IBeginnerPlanService beginnerPlanService)
     {
         _unitOfWork = unitOfWork;
         _chatService = chatService;
         _context = context;
+        _beginnerPlanService = beginnerPlanService;
     }
-
 
 
     public async Task PlanRegisterationManage(RegisterDto dto)
@@ -161,8 +165,11 @@ public class PlanManagingService : IPlanManagingService
 
     }
 
-    public async Task TestPlanProcessingTask(PlanDto dto)
+    public async Task<List<Workout>> TestPlanProcessingTask()
     {
+        PlanDto dto = new PlanDto();
+        List<Workout> plansTest = new();
+
         var height = dto.Height = 170;
         var weight = dto.Weight = 90;
 
@@ -250,35 +257,38 @@ public class PlanManagingService : IPlanManagingService
             // first part beginner level
             // and 2nd part is intermediate level
             // generate plan according to exercises level are beginner and intermediate
-        }
-        else if(dto.Level == Difficulty.Intermediate)
-        {
-            exercisesPerSession = 5; // 5~6  // 1 superset. => 6
-            // devide into 3 parts,
-            // first part mix of beginner and intermediate
-            // and 2nd part intermediate
-            // and 3rd part is mix of advanced and intermediate level
-            // use somehow supersets
-        }
-        else if(dto.Level == Difficulty.Advanced)
-        {
-            exercisesPerSession = 6; // 6~7 // 2~3 superset => 8
-            //devide into 3 parts, first part mix of intermediate and advanced and 2nd part advanced and 3rd part is expert and advanced level
-            // and Also use harsh workouts and sets, for example 6 workouts per session and harsh reps per set.
-            // use several supersets
-        }
-        else if(dto.Level == Difficulty.Expert)
-        {
-            exercisesPerSession = 7; // 7 // 3 superset => 10
 
-            // devide into 2 parts, first part advanced level and 2nd part is expert level
-            // and Also use harsh workouts and sets, for example 6 or 7 workouts per session and harsh reps per set.
-            // use several supersets
+            plansTest = await _beginnerPlanService.GenerateDailyPlanWorkouts(dto);
         }
+        return plansTest;
+        //else if(dto.Level == Difficulty.Intermediate)
+        //{
+        //    exercisesPerSession = 5; // 5~6  // 1 superset. => 6
+        //    // devide into 3 parts,
+        //    // first part mix of beginner and intermediate
+        //    // and 2nd part intermediate
+        //    // and 3rd part is mix of advanced and intermediate level
+        //    // use somehow supersets            
+        //}
+        //else if(dto.Level == Difficulty.Advanced)
+        //{
+        //    exercisesPerSession = 6; // 6~7 // 2~3 superset => 8
+        //    //devide into 3 parts, first part mix of intermediate and advanced and 2nd part advanced and 3rd part is expert and advanced level
+        //    // and Also use harsh workouts and sets, for example 6 workouts per session and harsh reps per set.
+        //    // use several supersets
+        //}
+        //else if(dto.Level == Difficulty.Expert)
+        //{
+        //    exercisesPerSession = 7; // 7 // 3 superset => 10
+
+        //    // devide into 2 parts, first part advanced level and 2nd part is expert level
+        //    // and Also use harsh workouts and sets, for example 6 or 7 workouts per session and harsh reps per set.
+        //    // use several supersets
+        //}
                 
         //var contextWorkouts = await _context.Workouts.Where(x => x.)
 
-        ; var workoutlist = await _unitOfWork.WorkoutRepository.GetAllAsync();
+        //; var workoutlist = await _unitOfWork.WorkoutRepository.GetAllAsync();
 
         var pln = new Plan
         {
