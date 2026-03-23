@@ -785,8 +785,8 @@ public static class BicepsWorkoutDbInitializer
         var stretchesId = context.Equipments.Where(x => x.Name == "stretches").Select(x => x.Id).FirstOrDefault();
         var plateId = context.Equipments.Where(x => x.Name == "Plate").Select(x => x.Id).FirstOrDefault();
         var bosuballId = context.Equipments.Where(x => x.Name == "Bosu-Ball").Select(x => x.Id).FirstOrDefault();
-        var smithMachineId = context.Equipments.Where(x => x.Name == "Smith Machine").Select(x => x.Id).FirstOrDefault();
-        var dumbbellId = context.Equipments.Where(x => x.Name == "Dumbells").Select(x => x.Id).FirstOrDefault();
+        var smithMachineId = context.Equipments.Where(x => x.Name == "Smith-Machine").Select(x => x.Id).FirstOrDefault();
+        var dumbbellId = context.Equipments.Where(x => x.Name == "Dumbbells").Select(x => x.Id).FirstOrDefault();
         var cableId = context.Equipments.Where(x => x.Name == "Cable").Select(x => x.Id).FirstOrDefault();
         var trxId = context.Equipments.Where(x => x.Name == "TRX").Select(x => x.Id).FirstOrDefault();
         var vitruvianId = context.Equipments.Where(x => x.Name == "Vitruvian").Select(x => x.Id).FirstOrDefault();
@@ -795,7 +795,6 @@ public static class BicepsWorkoutDbInitializer
         var kettlebellId = context.Equipments.Where(x => x.Name == "KettleBells").Select(x => x.Id).FirstOrDefault();
         var BandId = context.Equipments.Where(x => x.Name == "Bands").Select(x => x.Id).FirstOrDefault();
         var yogaId = context.Equipments.Where(x => x.Name == "Yoga").Select(x => x.Id).FirstOrDefault();
-
         var medicineBallId = context.Equipments.Where(x => x.Name == "Medicine-Ball").Select(x => x.Id).FirstOrDefault();
         var recoveryId = context.Equipments.Where(x => x.Name == "Recovery").Select(x => x.Id).FirstOrDefault();
 

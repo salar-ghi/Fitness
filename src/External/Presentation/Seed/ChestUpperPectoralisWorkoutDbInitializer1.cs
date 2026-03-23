@@ -866,8 +866,8 @@ public class ChestUpperPectoralisWorkoutDbInitializer
         var stretchesId = context.Equipments.Where(x => x.Name == "stretches").Select(x => x.Id).FirstOrDefault();
         var plateId = context.Equipments.Where(x => x.Name == "Plate").Select(x => x.Id).FirstOrDefault();
         var bosuballId = context.Equipments.Where(x => x.Name == "Bosu-Ball").Select(x => x.Id).FirstOrDefault();
-        var smithMachineId = context.Equipments.Where(x => x.Name == "Smith Machine").Select(x => x.Id).FirstOrDefault();
-        var dumbbellId = context.Equipments.Where(x => x.Name == "Dumbells").Select(x => x.Id).FirstOrDefault();
+        var smithMachineId = context.Equipments.Where(x => x.Name == "Smith-Machine").Select(x => x.Id).FirstOrDefault();
+        var dumbbellId = context.Equipments.Where(x => x.Name == "Dumbbells").Select(x => x.Id).FirstOrDefault();
         var cableId = context.Equipments.Where(x => x.Name == "Cable").Select(x => x.Id).FirstOrDefault();
         var trxId = context.Equipments.Where(x => x.Name == "TRX").Select(x => x.Id).FirstOrDefault();
         var vitruvianId = context.Equipments.Where(x => x.Name == "Vitruvian").Select(x => x.Id).FirstOrDefault();
@@ -1289,8 +1289,8 @@ public class ChestUpperPectoralisWorkoutDbInitializer
 
         var bodyWorkouts = new List<BodyWorkout>();
         var chestId = await context.Bodies.Where(z => z.Name == "Chest").Select(z => z.Id).FirstOrDefaultAsync();
-        var midChestId = await context.Bodies.Where(z => z.Name == "Mid and Lower Chest").Select(z => z.Id).FirstOrDefaultAsync();
-        var upChestId = await context.Bodies.Where(z => z.Name == "Upper Pectoralis").Select(z => z.Id).FirstOrDefaultAsync();
+        var midChestId = await context.Bodies.Where(z => z.Name == "Mid Chest").Select(z => z.Id).FirstOrDefaultAsync();
+        var upChestId = await context.Bodies.Where(z => z.Name == "UpperChest (Upper Pectoralis)").Select(z => z.Id).FirstOrDefaultAsync();
         var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
 
         bodyWorkouts = new List<BodyWorkout>

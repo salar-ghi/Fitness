@@ -1098,8 +1098,8 @@ public class NeckWorkoutDbInitializer
         var stretchesId = context.Equipments.Where(x => x.Name == "stretches").Select(x => x.Id).FirstOrDefault();
         var plateId = context.Equipments.Where(x => x.Name == "Plate").Select(x => x.Id).FirstOrDefault();
         var bosuballId = context.Equipments.Where(x => x.Name == "Bosu-Ball").Select(x => x.Id).FirstOrDefault();
-        var smithMachineId = context.Equipments.Where(x => x.Name == "Smith Machine").Select(x => x.Id).FirstOrDefault();
-        var dumbbellId = context.Equipments.Where(x => x.Name == "Dumbells").Select(x => x.Id).FirstOrDefault();
+        var smithMachineId = context.Equipments.Where(x => x.Name == "Smith-Machine").Select(x => x.Id).FirstOrDefault();
+        var dumbbellId = context.Equipments.Where(x => x.Name == "Dumbbells").Select(x => x.Id).FirstOrDefault();
         var cableId = context.Equipments.Where(x => x.Name == "Cable").Select(x => x.Id).FirstOrDefault();
         var trxId = context.Equipments.Where(x => x.Name == "TRX").Select(x => x.Id).FirstOrDefault();
         var vitruvianId = context.Equipments.Where(x => x.Name == "Vitruvian").Select(x => x.Id).FirstOrDefault();
@@ -1719,7 +1719,7 @@ public class NeckWorkoutDbInitializer
         var neckId = await context.Bodies.Where(z => z.Name == "Neck").Select(z => z.Id).FirstOrDefaultAsync();
         var shoulderId = await context.Bodies.Where(z => z.Name == "Shoulders").Select(z => z.Id).FirstOrDefaultAsync();
         var frontShoulderId = await context.Bodies.Where(z => z.Name == "Front Shoulders").Select(z => z.Id).FirstOrDefaultAsync();
-        var rearShoulderId = await context.Bodies.Where(z => z.Name == "Rear Shoulders").Select(z => z.Id).FirstOrDefaultAsync();
+        var rearShoulderId = await context.Bodies.Where(z => z.Name == "Rear Shoulders (Posterior Deltoid)").Select(z => z.Id).FirstOrDefaultAsync();
         var latDeltoidId = await context.Bodies.Where(z => z.Name == "Lateral Deltoid").Select(z => z.Id).FirstOrDefaultAsync();
         var antDeltoidId = await context.Bodies.Where(z => z.Name == "Anterior Deltoid").Select(z => z.Id).FirstOrDefaultAsync();
         var postDeltoidId = await context.Bodies.Where(z => z.Name == "Posterior Deltoid").Select(z => z.Id).FirstOrDefaultAsync();

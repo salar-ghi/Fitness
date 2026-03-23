@@ -5,7 +5,7 @@ public static class EquipmentDbInitializer
     public static async Task EquipmentSeedAsync(FitnessContext context)
     {
         //await context.Database.EnsureCreatedAsync();
-        var equipments  = new List<Equipment>();
+        var equipments = new List<Equipment>();
         if (!context.Equipments.Any())
         {
             //using var transaction = await context.Database.BeginTransactionAsync();
@@ -52,7 +52,8 @@ public static class EquipmentDbInitializer
                 new Equipment { Name = "TRX", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Vitruvian", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Yoga", EquipmentType = EquipmentType.Machine, Description= ""},
-                new Equipment { Name = "Cardio", EquipmentType = EquipmentType.Machine, Description= ""},
+                new Equipment { Name = "Cardio", EquipmentType = EquipmentType.Body, Description= ""},
+                new Equipment { Name = "Recovery", EquipmentType = EquipmentType.Body, Description= ""},
                 new Equipment { Name = "Pull Up Machine", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Machine", EquipmentType = EquipmentType.Machine, Description= ""},
                 new Equipment { Name = "Plate", EquipmentType = EquipmentType.Machine, Description= ""},
@@ -63,6 +64,6 @@ public static class EquipmentDbInitializer
             await context.SaveChangesAsync();
 
             //await transaction.CommitAsync();
-        }    
+        }
     }
 }
