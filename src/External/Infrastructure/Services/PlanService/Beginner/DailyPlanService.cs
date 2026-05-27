@@ -37,29 +37,19 @@ public class DailyPlanService : IBeginnerPlanService
         var levelsToInclude = GetProgressionLevels(level);
         var exerciseCount = GetDailyExerciseCount(level);
 
-        var workoutIdsByLevel = _context.WorkoutLevels
-            .Where(wl => levelsToInclude.Contains(wl.Level))
-            .Select(wl => wl.WorkoutId);
-
         var query = _context.Workouts
-            .Where(w => workoutIdsByLevel.Contains(w.Id));
+            .Where(w => w.Level.Any(l => levelsToInclude.Contains(l.Level)));
 
         if (selectedMuscles.Count > 0)
         {
-            var workoutIdsByMuscle = _context.BodyWorkouts
-                .Where(bw => selectedMuscles.Contains(bw.Body.Name))
-                .Select(bw => bw.WorkoutId);
-
-            query = query.Where(w => workoutIdsByMuscle.Contains(w.Id));
+            query = query.Where(w => w.BodyWorkouts.Any(b => selectedMuscles.Contains(b.Body.Name)));
         }
 
         if (selectedEquipment.Count > 0)
         {
-            var workoutIdsByEquipment = _context.WorkoutEquipment
-                .Where(we => selectedEquipment.Contains(we.Equipment.Name) || we.Equipment.Name == "Bodyweight")
-                .Select(we => we.WorkoutId);
-
-            query = query.Where(w => workoutIdsByEquipment.Contains(w.Id));
+            query = query.Where(w =>
+                w.WorkoutEquipment.Any(we => selectedEquipment.Contains(we.Equipment.Name)) ||
+                w.WorkoutEquipment.Any(we => we.Equipment.Name == "Bodyweight"));
         }
 
         var workouts = await query
