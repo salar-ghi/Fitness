@@ -18,7 +18,7 @@ global using System.Text.Json.Serialization;
 global using Infrastructure.EntityTypeConfiguration;
 global using Microsoft.Extensions.DependencyInjection;
 global using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
+global using Domain.Enums;
 global using Infrastructure.Services;
 global using Infrastructure.Extensions;
 global using Infrastructure.Services.AI;
