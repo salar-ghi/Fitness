@@ -20,64 +20,75 @@ public class DailyPlanService : IBeginnerPlanService
     /// </summary>
     /// <param name="dto"></param>
     /// <returns></returns>       
-    public virtual async Task<List<Workout>> GenerateDailyPlanWorkouts(PlanDto dto)
+    public virtual async Task<List<Workout>> GenerateDailyPlanWorkouts(PlanDto dto, Difficulty level)
     {
-        const int exercisePerSessionDailyDurationBeginnerLevel = 5;
-        var muscleSelectedNum = dto.MusclePriorities.Count;
+        var selectedMuscles = dto.MusclePriorities?
+            .Select(x => x.GroupName)
+            .Where(x => !string.IsNullOrWhiteSpace(x))
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToList() ?? new List<string>();
 
-        // depend on place and equipment right now
-        // imagine who workout at home, so less eqipment who has.
-        var space = dto.Place;
+        var selectedEquipment = dto.Equipments?
+            .Select(x => x.Name)
+            .Where(x => !string.IsNullOrWhiteSpace(x))
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToList() ?? new List<string>();
 
-        // most warm up exercises should be according
-        // to main exercises that warm up those muscles
-        // that want to exercise.
+        var levelsToInclude = GetProgressionLevels(level);
+        var exerciseCount = GetDailyExerciseCount(level);
 
-        var muscleGroupName = dto.MusclePriorities.Select(z => z.GroupName).ToList();
-        var muscleProperties = await _context.Bodies
-            .Where(z => muscleGroupName.Contains(z.Name))
+        var workoutIdsByLevel = _context.WorkoutLevels
+            .Where(wl => levelsToInclude.Contains(wl.Level))
+            .Select(wl => wl.WorkoutId);
+
+        var query = _context.Workouts
+            .Where(w => workoutIdsByLevel.Contains(w.Id));
+
+        if (selectedMuscles.Count > 0)
+        {
+            var workoutIdsByMuscle = _context.BodyWorkouts
+                .Where(bw => selectedMuscles.Contains(bw.Body.Name))
+                .Select(bw => bw.WorkoutId);
+
+            query = query.Where(w => workoutIdsByMuscle.Contains(w.Id));
+        }
+
+        if (selectedEquipment.Count > 0)
+        {
+            var workoutIdsByEquipment = _context.WorkoutEquipment
+                .Where(we => selectedEquipment.Contains(we.Equipment.Name) || we.Equipment.Name == "Bodyweight")
+                .Select(we => we.WorkoutId);
+
+            query = query.Where(w => workoutIdsByEquipment.Contains(w.Id));
+        }
+
+        var workouts = await query
+            .OrderBy(w => w.Name)
+            .Take(exerciseCount)
             .ToListAsync();
 
-        //var muscles = _context.Bodies
-        //    .Where(s => dto.MusclePriorities.Contains(s.Name)).ToList();
-
-        //var warmupActivities = _context.Workouts
-        //    .Where(z => z.Sport.Any(s => s.Name == "Cardio"))
-        //    .Where(w => w.Level.Any(z =>
-        //                    z.Level == Difficulty.Novice ||
-        //                    z.Level == Difficulty.Beginner ||
-        //                    z.Level == Difficulty.Intermediate))
-        //    .Where(y => y.WorkoutEquipment.Any(s =>
-        //                    s.Equipment.Name == "Cardio" ||
-        //                    s.Equipment.Name == "Bodyweight" ||
-        //                    s.Equipment.Name == "stretches" ||
-        //                    dto.Equipments.Any(z => z.Name == "Bands") ? s.Equipment.Name == "Bands" : s.Equipment.Name == "Bands"))
-        //    .Where(s => s.BodyWorkouts.Any(z => muscles.Any(x => x.Name == s.Name)))
-        //    .ToList();
-            //.Include(z => z.Sport.Where(x => x.Name == "Cardio"))
-            // ?? body workout
-
-        var exercseActivities = " ";
-        var cooldownActivities = " ";
-
-        var warmupActivities = await _context.Workouts
-            .Where(z => z.Sport.Any(s => s.Name == "Cardio") &&
-                z.Level.Any(l => l.Level == Difficulty.Novice ||
-                                 l.Level == Difficulty.Beginner ||
-                                 l.Level == Difficulty.Intermediate) &&
-                z.WorkoutEquipment.Any(e =>
-                    e.Equipment.Name == "Cardio" ||
-                    e.Equipment.Name == "Bodyweight" ||
-                    e.Equipment.Name == "stretches" 
-                    //dto.Equipments.Any(eq => eq.Name == e.Equipment.Name)
-                    ) &&
-                //z.BodyWorkouts.Any(b => dto.MusclePriorities.Any(mp => mp.GroupName == b.Body.Name)))
-                z.BodyWorkouts.Any(b => muscleProperties.Any(z => z.Name == b.Body.Name)))
-            //.Take(5)
-            .ToListAsync();
-
-        return warmupActivities;
+        return workouts;
     }
+
+    private static int GetDailyExerciseCount(Difficulty level) => level switch
+    {
+        Difficulty.Novice => 4,
+        Difficulty.Beginner => 5,
+        Difficulty.Intermediate => 6,
+        Difficulty.Advanced => 7,
+        Difficulty.Expert => 8,
+        _ => 5,
+    };
+
+    private static List<Difficulty> GetProgressionLevels(Difficulty level) => level switch
+    {
+        Difficulty.Novice => new List<Difficulty> { Difficulty.Novice, Difficulty.Beginner },
+        Difficulty.Beginner => new List<Difficulty> { Difficulty.Novice, Difficulty.Beginner, Difficulty.Intermediate },
+        Difficulty.Intermediate => new List<Difficulty> { Difficulty.Beginner, Difficulty.Intermediate, Difficulty.Advanced },
+        Difficulty.Advanced => new List<Difficulty> { Difficulty.Intermediate, Difficulty.Advanced, Difficulty.Expert },
+        Difficulty.Expert => new List<Difficulty> { Difficulty.Advanced, Difficulty.Expert },
+        _ => new List<Difficulty> { Difficulty.Beginner },
+    };
 
 
 
