@@ -172,6 +172,10 @@ public class PlanManagingService : IPlanManagingService
 
         var height = dto.Height = 170;
         var weight = dto.Weight = 90;
+        dto.Age = 32;
+        dto.Gender = Sex.Male;
+        dto.PlanDuration = Period.Daily;
+        dto.AgeRange = Age.Thirty_To_Thirty_Nine;
 
         Console.Clear();
         Console.WriteLine($"height is {height} and weight is {weight}");
@@ -191,40 +195,37 @@ public class PlanManagingService : IPlanManagingService
         // BFP (Body fat percentage )
         var bodyFat = CalculateBodyFatPercentage(bmi, dto.Age, "Male");
 
-        var bodyType = dto.BodyType = Domain.Enums.BodyType.Endomorph;
-        var level = dto.Level = Difficulty.Beginner;
+        dto.BodyType = Domain.Enums.BodyType.Endomorph;
+        dto.Level = Difficulty.Beginner;
         // warm-ups (5-12 min) and cool-downs / Avoid advanced techniques like supersets initially
         // Limit to 3 sets per exercise, 8-12 reps.
-
-        var duration = dto.PlanDuration = Period.Monthly;
-        var gender = dto.Gender = Sex.Male;
-        var ageRange = dto.AgeRange = Age.Thirty_To_Thirty_Nine;
-        //var dateOfBirth = dto.DateOfBirth;
 
         var injuries = dto.Injuries; // no injuries
         var diseases = dto.Diseases; // no disease
 
-        var planDaysNum = dto.PlanDays.Count(); // 4 days in a week
-        var planDays = dto.PlanDays ?? new List<PlanDaysDto> {
+        dto.PlanDays = new List<PlanDaysDto> {
             new PlanDaysDto { Day = DayOfWeek.Monday, Hour = new TimeSpan(18, 0, 0) },
             new PlanDaysDto { Day = DayOfWeek.Wednesday, Hour = new TimeSpan(18, 0, 0) },
             new PlanDaysDto { Day = DayOfWeek.Friday, Hour = new TimeSpan(18, 0, 0) },
             new PlanDaysDto { Day = DayOfWeek.Saturday, Hour = new TimeSpan(18, 0, 0) }
         };
+        var planDaysNum = dto.PlanDays != null ? dto.PlanDays.Count() : dto.PlanDays?.Count; // 4 days in a week
 
-        var musclePrioritiesNum = dto.MusclePriorities.Count();
-        var musclePriorities = dto.MusclePriorities ?? new List<MusclePriorityDto> {
+        dto.MusclePriorities = new List<MusclePriorityDto> {
             new MusclePriorityDto(1, "Chest"),
             new MusclePriorityDto(2, "Back"),
             new MusclePriorityDto(3, "Shoulders"),
             new MusclePriorityDto(4, "Biceps"),
         };
+        
+        //var musclePrioritiesNum = dto.MusclePriorities.Count();
+        var musclePrioritiesNum = dto.MusclePriorities.Count();
 
-        var equipmentNum = dto.Equipments.Count(); 
-        var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
-        {
-            new PlanEquipmentDto{ },
-        };
+        //var equipmentNum = dto.Equipments.Count(); 
+        //var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
+        //{
+        //    new PlanEquipmentDto{ },
+        //};
 
         int exercisesPerSession = 0;
 
@@ -242,15 +243,15 @@ public class PlanManagingService : IPlanManagingService
         {
             exercisesPerSession = 5; // 4~5; => 5
 
-            var firstSection = _context.Workouts
-                .Where(w => workoutLevels.Any(wl => wl.WorkoutId == w.Id))
-                .Where(w => w.BodyWorkouts.Any(bw => musclePriorities.Any(mp => mp.Id == bw.BodyId)))
-                .Take(40);            
+            //var firstSection = _context.Workouts
+            //    .Where(w => workoutLevels.Any(wl => wl.WorkoutId == w.Id))
+            //    .Where(w => w.BodyWorkouts.Any(bw => dto.MusclePriorities.Any(mp => mp.Id == bw.BodyId)))
+            //    .Take(40);            
 
-            var exercises = await _context.Workouts
-                .Where(z => z.Level == workoutLevels)
-                .Where(y => y.BodyWorkouts == musclePriorities)
-                .ToListAsync();
+            //var exercises = await _context.Workouts
+            //    .Where(z => z.Level == workoutLevels)
+            //    .Where(y => y.BodyWorkouts == dto.MusclePriorities)
+            //    .ToListAsync();
 
 
             // devide plan into 2 parts,
@@ -425,7 +426,8 @@ public class PlanManagingService : IPlanManagingService
             throw new ArgumentException("Height and Weight must be positive values");
         }
         double heightMeters = heightCm / 100.0;
-        return weightKg / (heightCm * heightCm);
+        var result = weightKg / (heightMeters * heightMeters);
+        return result;
     }
     public async Task<double> CalculateBmr(double heightCm, double weightKg, int age, string gender)
     {

@@ -35,11 +35,11 @@ public class DailyPlanService : IBeginnerPlanService
 
         var muscleGroupName = dto.MusclePriorities.Select(z => z.GroupName).ToList();
         var muscleProperties = await _context.Bodies
-            .Where(z => muscleGroupName.Contains(z.GroupName))
+            .Where(z => muscleGroupName.Contains(z.Name))
             .ToListAsync();
 
-        var muscles = _context.Bodies
-            .Where(s => dto.MusclePriorities.Any(z => z.GroupName == s.GroupName)).ToList();
+        //var muscles = _context.Bodies
+        //    .Where(s => dto.MusclePriorities.Contains(s.Name)).ToList();
 
         //var warmupActivities = _context.Workouts
         //    .Where(z => z.Sport.Any(s => s.Name == "Cardio"))
@@ -60,7 +60,7 @@ public class DailyPlanService : IBeginnerPlanService
         var exercseActivities = " ";
         var cooldownActivities = " ";
 
-        var warmupActivities = _context.Workouts
+        var warmupActivities = await _context.Workouts
             .Where(z => z.Sport.Any(s => s.Name == "Cardio") &&
                 z.Level.Any(l => l.Level == Difficulty.Novice ||
                                  l.Level == Difficulty.Beginner ||
@@ -68,11 +68,13 @@ public class DailyPlanService : IBeginnerPlanService
                 z.WorkoutEquipment.Any(e =>
                     e.Equipment.Name == "Cardio" ||
                     e.Equipment.Name == "Bodyweight" ||
-                    e.Equipment.Name == "stretches" ||
-                    dto.Equipments.Any(eq => eq.Name == e.Equipment.Name)) &&
-                z.BodyWorkouts.Any(b => dto.MusclePriorities.Any(mp => mp.GroupName == b.Body.GroupName)))
+                    e.Equipment.Name == "stretches" 
+                    //dto.Equipments.Any(eq => eq.Name == e.Equipment.Name)
+                    ) &&
+                //z.BodyWorkouts.Any(b => dto.MusclePriorities.Any(mp => mp.GroupName == b.Body.Name)))
+                z.BodyWorkouts.Any(b => muscleProperties.Any(z => z.Name == b.Body.Name)))
             //.Take(5)
-            .ToList();
+            .ToListAsync();
 
         return warmupActivities;
     }

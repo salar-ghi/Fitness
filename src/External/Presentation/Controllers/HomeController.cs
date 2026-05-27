@@ -20,7 +20,7 @@ public class HomeController : ControllerBase
         _beginnerPlanService = beginnerPlanService;
     }
 
-    [HttpGet("Index")]
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         //var response = await _chatService.AskQuestionAsync(question);
