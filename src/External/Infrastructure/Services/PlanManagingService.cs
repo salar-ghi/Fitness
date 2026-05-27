@@ -148,20 +148,18 @@ public class PlanManagingService : IPlanManagingService
 
     public async Task PlanProcessingTask(PlanDto dto)
     {
-        var height = dto.Height;
-        var weight = dto.Weight;
-        var duration = dto.PlanDuration;
-        var gender = dto.Gender;
-        var ageRange = dto.AgeRange;
-        var dateOfBirth = dto.DateOfBirth;
-        var bodyType = dto.BodyType;
-        var level = dto.Level;
-
-        var injuries = dto.Injuries;
-        var diseases = dto.Diseases;
-        var planDays = dto.PlanDays;
-        var musclePriorities = dto.MusclePriorities;
-        var equipments = dto.Equipments;
+        switch (dto.PlanDuration)
+        {
+            case Period.Daily:
+                await _beginnerPlanService.GenerateDailyPlanWorkouts(dto, dto.Level);
+                break;
+            case Period.Weekly:
+            case Period.Monthly:
+            case Period.Quarterly:
+                throw new NotImplementedException($"{dto.PlanDuration} plan generation is not implemented yet.");
+            default:
+                throw new ArgumentOutOfRangeException(nameof(dto.PlanDuration), dto.PlanDuration, "Unsupported plan duration.");
+        }
 
     }
 
@@ -259,7 +257,7 @@ public class PlanManagingService : IPlanManagingService
             // and 2nd part is intermediate level
             // generate plan according to exercises level are beginner and intermediate
 
-            plansTest = await _beginnerPlanService.GenerateDailyPlanWorkouts(dto);
+            plansTest = await _beginnerPlanService.GenerateDailyPlanWorkouts(dto, dto.Level);
         }
         return plansTest;
         //else if(dto.Level == Difficulty.Intermediate)

@@ -2,5 +2,5 @@
 
 public interface IBeginnerPlanService
 {
-    Task<List<Workout>> GenerateDailyPlanWorkouts(PlanDto dto);
+    Task<List<Workout>> GenerateDailyPlanWorkouts(PlanDto dto, Difficulty level);
 }
