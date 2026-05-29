@@ -219,6 +219,10 @@ public class PlanManagingService : IPlanManagingService
         //var musclePrioritiesNum = dto.MusclePriorities.Count();
         var musclePrioritiesNum = dto.MusclePriorities.Count();
 
+        dto.Equipments = new List<PlanEquipmentDto>
+        {
+            new PlanEquipmentDto{Name = "", GroupName = ""}
+        };
         //var equipmentNum = dto.Equipments.Count(); 
         //var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
         //{
