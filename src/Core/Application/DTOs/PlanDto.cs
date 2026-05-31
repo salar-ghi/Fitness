@@ -16,6 +16,7 @@ public record PlanDto
     public BodyType BodyType { get; set; }
     public Difficulty Level { get; set; }
     public Place Place { get; set; }
+    public PhysiqueType PhysiqueType { get; set; }
 
     // Injuries
     public List<InjuryDto> Injuries { get; set; }
