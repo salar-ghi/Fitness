@@ -163,17 +163,29 @@ public class PlanManagingService : IPlanManagingService
 
     }
 
-    public async Task<List<Workout>> TestPlanProcessingTask()
+    public async Task<List<Workout>> TestPlanProcessingTask(PlanDto dto)
     {
-        PlanDto dto = new PlanDto();
+        ArgumentNullException.ThrowIfNull(dto);
+
+        if (dto.DateOfBirth != default)
+        {
+            dto.ApplyAgeFromDateOfBirth(DateOnly.FromDateTime(DateTime.UtcNow));
+        }
+
         List<Workout> plansTest = new();
 
-        var height = dto.Height = 170;
-        var weight = dto.Weight = 90;
-        dto.Age = 32;
-        dto.Gender = Sex.Male;
-        dto.PlanDuration = Period.Daily;
-        dto.AgeRange = Age.Thirty_To_Thirty_Nine;
+        dto.Height = dto.Height == default ? 170 : dto.Height;
+        dto.Weight = dto.Weight == default ? 90 : dto.Weight;
+        var height = dto.Height;
+        var weight = dto.Weight;
+        dto.Gender = dto.Gender == default ? Sex.Male : dto.Gender;
+        dto.PlanDuration = dto.PlanDuration == default ? Period.Daily : dto.PlanDuration;
+
+        if (dto.Age == default)
+        {
+            dto.Age = 32;
+            dto.AgeRange = PlanDto.ResolveAgeRange(dto.Age);
+        }
 
         Console.Clear();
         Console.WriteLine($"height is {height} and weight is {weight}");
@@ -193,36 +205,48 @@ public class PlanManagingService : IPlanManagingService
         // BFP (Body fat percentage )
         var bodyFat = CalculateBodyFatPercentage(bmi, dto.Age, "Male");
 
-        dto.BodyType = Domain.Enums.BodyType.Endomorph;
-        dto.Level = Difficulty.Beginner;
+        dto.BodyType = dto.BodyType == default ? Domain.Enums.BodyType.Endomorph : dto.BodyType;
+        dto.BodyShapeType = dto.BodyShapeType == default ? BodyShapeType.Heavy : dto.BodyShapeType;
+        dto.Goal = dto.Goal == default ? FitnessGoal.LoseWeight : dto.Goal;
+        dto.DesiredBodyType = dto.DesiredBodyType == default ? DesiredBodyType.Muscular : dto.DesiredBodyType;
+        dto.Level = dto.Level == default ? Difficulty.Beginner : dto.Level;
         // warm-ups (5-12 min) and cool-downs / Avoid advanced techniques like supersets initially
         // Limit to 3 sets per exercise, 8-12 reps.
 
         var injuries = dto.Injuries; // no injuries
         var diseases = dto.Diseases; // no disease
 
-        dto.PlanDays = new List<PlanDaysDto> {
-            new PlanDaysDto { Day = DayOfWeek.Monday, Hour = new TimeSpan(18, 0, 0) },
-            new PlanDaysDto { Day = DayOfWeek.Wednesday, Hour = new TimeSpan(18, 0, 0) },
-            new PlanDaysDto { Day = DayOfWeek.Friday, Hour = new TimeSpan(18, 0, 0) },
-            new PlanDaysDto { Day = DayOfWeek.Saturday, Hour = new TimeSpan(18, 0, 0) }
-        };
+        if (dto.PlanDays.Count == 0)
+        {
+            dto.PlanDays = new List<PlanDaysDto> {
+                new PlanDaysDto { Day = DayOfWeek.Monday, Hour = new TimeSpan(18, 0, 0) },
+                new PlanDaysDto { Day = DayOfWeek.Wednesday, Hour = new TimeSpan(18, 0, 0) },
+                new PlanDaysDto { Day = DayOfWeek.Friday, Hour = new TimeSpan(18, 0, 0) },
+                new PlanDaysDto { Day = DayOfWeek.Saturday, Hour = new TimeSpan(18, 0, 0) }
+            };
+        }
         var planDaysNum = dto.PlanDays != null ? dto.PlanDays.Count() : dto.PlanDays?.Count; // 4 days in a week
 
-        dto.MusclePriorities = new List<MusclePriorityDto> {
-            new MusclePriorityDto(1, "Chest"),
-            new MusclePriorityDto(2, "Back"),
-            new MusclePriorityDto(3, "Shoulders"),
-            new MusclePriorityDto(4, "Biceps"),
-        };
+        if (dto.MusclePriorities.Count == 0)
+        {
+            dto.MusclePriorities = new List<MusclePriorityDto> {
+                new MusclePriorityDto(1, "Chest"),
+                new MusclePriorityDto(2, "Back"),
+                new MusclePriorityDto(3, "Shoulders"),
+                new MusclePriorityDto(4, "Biceps"),
+            };
+        }
         
         //var musclePrioritiesNum = dto.MusclePriorities.Count();
         var musclePrioritiesNum = dto.MusclePriorities.Count();
 
-        dto.Equipments = new List<PlanEquipmentDto>
+        if (dto.Equipments.Count == 0)
         {
-            new PlanEquipmentDto{Name = "", GroupName = ""}
-        };
+            dto.Equipments = new List<PlanEquipmentDto>
+            {
+                new PlanEquipmentDto{Name = "", GroupName = ""}
+            };
+        }
         //var equipmentNum = dto.Equipments.Count(); 
         //var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
         //{

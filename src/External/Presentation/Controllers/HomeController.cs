@@ -15,7 +15,29 @@ public class HomeController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> Index()
     {
-        var plan = await _planManagingService.TestPlanProcessingTask();
+        var dto = CreateFakePlanDto();
+        var plan = await _planManagingService.TestPlanProcessingTask(dto);
         return Ok(plan);
+    }
+
+    private static PlanDto CreateFakePlanDto()
+    {
+        var dto = new PlanDto
+        {
+            Height = 170,
+            Weight = 90,
+            Gender = Sex.Male,
+            DateOfBirth = new DateOnly(1994, 5, 15),
+            BodyShapeType = BodyShapeType.Heavy,
+            BodyType = BodyType.Endomorph,
+            Goal = FitnessGoal.LoseWeight,
+            DesiredBodyType = DesiredBodyType.Muscular,
+            PlanDuration = Period.Daily,
+            Level = Difficulty.Beginner,
+        };
+
+        dto.ApplyAgeFromDateOfBirth(DateOnly.FromDateTime(DateTime.UtcNow));
+
+        return dto;
     }
 }

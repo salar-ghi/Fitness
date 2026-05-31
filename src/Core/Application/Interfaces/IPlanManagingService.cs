@@ -7,5 +7,5 @@ public interface IPlanManagingService
 
     Task PlanAiGeneratingMangement(RegisterDto dto);
 
-    Task<List<Workout>> TestPlanProcessingTask();
+    Task<List<Workout>> TestPlanProcessingTask(PlanDto dto);
 }
