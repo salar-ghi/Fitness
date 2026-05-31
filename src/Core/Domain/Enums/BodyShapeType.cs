@@ -2,8 +2,8 @@
 
 public enum BodyShapeType
 {
-    Slim,
-    Average,
-    Big,
-    Heavy
+    Slim = 1,
+    Average = 2,
+    Big = 3,
+    Heavy = 4,
 }
