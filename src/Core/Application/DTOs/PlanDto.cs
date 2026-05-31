@@ -13,7 +13,7 @@ public record PlanDto
     public Age AgeRange { get; set; } 
     public DateOnly DateOfBirth { get; set; }
 
-    public BodyShapeType BodyShape { get; set; }
+    public BodyType BodyType { get; set; }
     public Difficulty Level { get; set; }
     public Place Place { get; set; }
 
