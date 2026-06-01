@@ -2,11 +2,18 @@
 
 public record PlanDto
 {
+    // Question 6: user's height in centimeters.
     public int Height { get; set; }
+
+    // Question 7: user's current weight in kilograms.
     public int Weight { get; set; }
+
+    // Question 8: user's target weight in kilograms.
+    public int TargetWeight { get; set; }
 
     public Period PlanDuration { get; set; }
 
+    // Question 9: user's sex/gender for plan generation.
     public Sex Gender { get; set; }
 
     public int Age { get; set; }
@@ -26,8 +33,44 @@ public record PlanDto
     public DesiredBodyType DesiredBodyType { get; set; }
 
     public Difficulty Level { get; set; }
+
+    // Question 14: workout location selected by the user (Home, Gym, Mixed).
     public Place Place { get; set; }
+
     public PhysiqueType PhysiqueType { get; set; }
+
+    // Question 10: how recently the user was in the best shape of their life.
+    public BestShapeRecency BestShapeRecency { get; set; }
+
+    // Question 11: user's typical weight-change pattern.
+    public WeightChangePattern WeightChangePattern { get; set; }
+
+    // Question 12: daily-life activities that are part of the user's lifestyle.
+    public List<LifestyleActivity> LifestyleActivities { get; set; } = new();
+
+    // Question 13: body areas the user struggles with.
+    public List<StruggleArea> StruggleAreas { get; set; } = new();
+
+    // Question 15: preferred workout intensity selected by the user.
+    public PreferredWorkoutIntensity PreferredWorkoutIntensity { get; set; }
+
+    // Question 16: how often the user trained each week during the last 3 months.
+    public RecentTrainingFrequency RecentTrainingFrequency { get; set; }
+
+    // Question 17: user's preferred workout duration.
+    public WorkoutDurationPreference WorkoutDurationPreference { get; set; }
+
+    // Question 18: exercises the user likes.
+    public List<ExercisePreference> LikedExercises { get; set; } = new();
+
+    // Question 18: exercises the user dislikes.
+    public List<ExercisePreference> DislikedExercises { get; set; } = new();
+
+    // Question 19: how often the user eats/drinks sugary foods or beverages.
+    public SugaryFoodDrinkFrequency SugaryFoodDrinkFrequency { get; set; }
+
+    // Question 20: how much water the user drinks daily.
+    public DailyWaterIntake DailyWaterIntake { get; set; }
 
     // Injuries
     public List<InjuryDto> Injuries { get; set; } = new();

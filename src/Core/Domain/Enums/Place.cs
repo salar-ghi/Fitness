@@ -2,7 +2,8 @@
 
 public enum Place
 {
-    Home =1,
+    Home = 1,
     Gym = 2,
-    Outdoor =3,
+    Outdoor = 3,
+    Mixed = 4,
 }
