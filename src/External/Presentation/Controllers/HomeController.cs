@@ -34,6 +34,10 @@ public class HomeController : ControllerBase
             DesiredBodyType = DesiredBodyType.Muscular,
             PlanDuration = Period.Daily,
             Level = Difficulty.Beginner,
+            AverageEnergyLevel = AverageEnergyLevel.VariesThroughoutTheDay,
+            SleepDuration = SleepDuration.SevenToEightHours,
+            Name = "Test User",
+            PhoneNumber = "+15555550123",
         };
 
         dto.ApplyAgeFromDateOfBirth(DateOnly.FromDateTime(DateTime.UtcNow));

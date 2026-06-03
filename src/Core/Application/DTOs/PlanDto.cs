@@ -72,6 +72,18 @@ public record PlanDto
     // Question 20: how much water the user drinks daily.
     public DailyWaterIntake DailyWaterIntake { get; set; }
 
+    // Question 21: user's average energy level during the day.
+    public AverageEnergyLevel AverageEnergyLevel { get; set; }
+
+    // Question 22: how much sleep the user usually gets.
+    public SleepDuration SleepDuration { get; set; }
+
+    // Question 23: user's name for user/profile creation before plan persistence.
+    public string? Name { get; set; }
+
+    // Question 24: user's phone number for user/profile creation before plan persistence.
+    public string? PhoneNumber { get; set; }
+
     // Injuries
     public List<InjuryDto> Injuries { get; set; } = new();
 
