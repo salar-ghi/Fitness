@@ -37,7 +37,7 @@ public class HomeController : ControllerBase
             AverageEnergyLevel = AverageEnergyLevel.VariesThroughoutTheDay,
             SleepDuration = SleepDuration.SevenToEightHours,
             Name = "Test User",
-            PhoneNumber = "+15555550123",
+            PhoneNumber = "+989108592503",
         };
 
         dto.ApplyAgeFromDateOfBirth(DateOnly.FromDateTime(DateTime.UtcNow));
