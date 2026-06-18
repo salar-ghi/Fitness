@@ -53,6 +53,7 @@ public class DailyPlanService : IBeginnerPlanService
         }
 
         var workouts = await query
+            .Include(w => w.WorkoutInstructions)
             .OrderBy(w => w.Name)
             .Take(exerciseCount)
             .ToListAsync();

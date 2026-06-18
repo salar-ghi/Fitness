@@ -1,4 +1,5 @@
-﻿using Domain.Enums;
+﻿using Application.DTOs.Response;
+using Domain.Enums;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using System.ComponentModel;
 
@@ -163,7 +164,7 @@ public class PlanManagingService : IPlanManagingService
 
     }
 
-    public async Task<List<Workout>> TestPlanProcessingTask(PlanDto dto)
+    public async Task<List<PlanWorkoutResponseDto>> TestPlanProcessingTask(PlanDto dto)
     {
         ArgumentNullException.ThrowIfNull(dto);
 
@@ -287,7 +288,7 @@ public class PlanManagingService : IPlanManagingService
 
             plansTest = await _beginnerPlanService.GenerateDailyPlanWorkouts(dto, dto.Level);
         }
-        return plansTest;
+        return plansTest.Select(PlanWorkoutResponseDto.FromWorkout).ToList();
         //else if(dto.Level == Difficulty.Intermediate)
         //{
         //    exercisesPerSession = 5; // 5~6  // 1 superset. => 6
