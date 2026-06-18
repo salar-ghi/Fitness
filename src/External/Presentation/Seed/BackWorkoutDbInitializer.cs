@@ -1847,7 +1847,7 @@ public static class BackWorkoutDbInitializer
 
         var bodyWorkouts = new List<BodyWorkout>();
         var backId = await context.Bodies.Where(z => z.Name == "Back").Select(z => z.Id).FirstOrDefaultAsync();
-        var upperBackId = await context.Bodies.Where(z => z.Name == "Upper Back (Upper Traps)").Select(z => z.Id).FirstOrDefaultAsync();
+        //var upperBackId = await context.Bodies.Where(z => z.Name == "Trapezius (Upper)").Select(z => z.Id).FirstOrDefaultAsync();
         var trapsId = await context.Bodies.Where(z => z.Name == "Trapezius (Traps)").Select(z => z.Id).FirstOrDefaultAsync();
         var lowerBackId = await context.Bodies.Where(z => z.Name == "Lower Back (Lower Traps)").Select(z => z.Id).FirstOrDefaultAsync();
 

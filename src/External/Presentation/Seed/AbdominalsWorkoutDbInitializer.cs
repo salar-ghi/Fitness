@@ -1560,11 +1560,10 @@ public static class AbdominalsWorkoutDbInitializer
         // ***************************************************************** //
 
         var bodyWorkouts = new List<BodyWorkout>();
-        var abdoId = await context.Bodies.Where(z => z.Name == "Abdominals").Select(z => z.Id).FirstOrDefaultAsync();
-        var lowAbdoId = await context.Bodies.Where(z => z.Name == "Lower Abdominals").Select(z => z.Id).FirstOrDefaultAsync();
-        var upAbdoId = await context.Bodies.Where(z => z.Name == "Upper Abdominals").Select(z => z.Id).FirstOrDefaultAsync();
-
-        var obliqueId = await context.Bodies.Where(z => z.Name == "Obliques").Select(z => z.Id).FirstOrDefaultAsync();
+        var abdoId = await context.Bodies.Where(z => z.Name == "Core").Select(z => z.Id).FirstOrDefaultAsync();
+        var upAbdoId = await context.Bodies.Where(z => z.Name == "Upper Abs").Select(z => z.Id).FirstOrDefaultAsync();
+        var lowAbdoId = await context.Bodies.Where(z => z.Name == "Lower Abs").Select(z => z.Id).FirstOrDefaultAsync();
+        var obliqueId = await context.Bodies.Where(z => z.Name == "Obliques (Internal & External)").Select(z => z.Id).FirstOrDefaultAsync();
 
         bodyWorkouts = new List<BodyWorkout>
         {

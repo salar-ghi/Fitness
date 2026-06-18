@@ -1247,7 +1247,7 @@ public static class BicepsWorkoutDbInitializer
 
         // ***************************************************************** //
         var bodyWorkouts = new List<BodyWorkout>();
-        var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
+        var bicepId = await context.Bodies.Where(z => z.Name == "Biceps Brachii").Select(z => z.Id).FirstOrDefaultAsync();
         var longHeadBicepId = await context.Bodies.Where(z => z.Name == "Long Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
         var shortHeadBicepId = await context.Bodies.Where(z => z.Name == "Short Head Bicep").Select(z => z.Id).FirstOrDefaultAsync();
 

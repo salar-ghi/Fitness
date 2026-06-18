@@ -2266,10 +2266,10 @@ public class QuadsWorkoutDbInitializer
         // ***************************************************************** //
 
         var bodyWorkouts = new List<BodyWorkout>();
-        var quadId = await context.Bodies.Where(z => z.Name == "Quads").Select(z => z.Id).FirstOrDefaultAsync();
-        var inThighId = await context.Bodies.Where(z => z.Name == "Inner Thigh").Select(z => z.Id).FirstOrDefaultAsync();
-        var inQuadricepId = await context.Bodies.Where(z => z.Name == "Inner Quadriceps").Select(z => z.Id).FirstOrDefaultAsync();
-        var outQuadricepId = await context.Bodies.Where(z => z.Name == "Outer Quadricep").Select(z => z.Id).FirstOrDefaultAsync();
+        var quadId = await context.Bodies.Where(z => z.Name == "Quadriceps").Select(z => z.Id).FirstOrDefaultAsync();
+        var inThighId = await context.Bodies.Where(z => z.Name == "Adductors (Inner Thigh)").Select(z => z.Id).FirstOrDefaultAsync();
+        var inQuadricepId = await context.Bodies.Where(z => z.Name == "Vastus Medialis (Inner Quad)").Select(z => z.Id).FirstOrDefaultAsync();
+        var outQuadricepId = await context.Bodies.Where(z => z.Name == "Vastus Lateralis (Outer Quad)").Select(z => z.Id).FirstOrDefaultAsync();
         var recFemorisId = await context.Bodies.Where(z => z.Name == "Rectus Femoris").Select(z => z.Id).FirstOrDefaultAsync();
         var feetId = await context.Bodies.Where(z => z.Name == "Feet").Select(z => z.Id).FirstOrDefaultAsync();
 

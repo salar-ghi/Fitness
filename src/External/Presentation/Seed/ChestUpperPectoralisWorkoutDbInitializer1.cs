@@ -1289,9 +1289,8 @@ public class ChestUpperPectoralisWorkoutDbInitializer
 
         var bodyWorkouts = new List<BodyWorkout>();
         var chestId = await context.Bodies.Where(z => z.Name == "Chest").Select(z => z.Id).FirstOrDefaultAsync();
-        var midChestId = await context.Bodies.Where(z => z.Name == "Mid Chest").Select(z => z.Id).FirstOrDefaultAsync();
-        var upChestId = await context.Bodies.Where(z => z.Name == "UpperChest (Upper Pectoralis)").Select(z => z.Id).FirstOrDefaultAsync();
-        var bicepId = await context.Bodies.Where(z => z.Name == "Biceps").Select(z => z.Id).FirstOrDefaultAsync();
+        var midChestId = await context.Bodies.Where(z => z.Name == "Mid Chest (Sternal Pectoralis)").Select(z => z.Id).FirstOrDefaultAsync();
+        var upChestId = await context.Bodies.Where(z => z.Name == "Upper Chest (Clavicular Pectoralis)").Select(z => z.Id).FirstOrDefaultAsync();
 
         bodyWorkouts = new List<BodyWorkout>
         {

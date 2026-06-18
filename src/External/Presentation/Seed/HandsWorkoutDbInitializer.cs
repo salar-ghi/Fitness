@@ -769,7 +769,7 @@ public class HandsWorkoutDbInitializer
         var bodyWorkouts = new List<BodyWorkout>();
         var handId = await context.Bodies.Where(z => z.Name == "Hands").Select(z => z.Id).FirstOrDefaultAsync();
         var forearmId = await context.Bodies.Where(z => z.Name == "Forearms").Select(z => z.Id).FirstOrDefaultAsync();
-        var wristId = await context.Bodies.Where(z => z.Name == "Wrists").Select(z => z.Id).FirstOrDefaultAsync();
+        //var wristId = await context.Bodies.Where(z => z.Name == "Wrists").Select(z => z.Id).FirstOrDefaultAsync();
         var wristExtensorId = await context.Bodies.Where(z => z.Name == "Wrist Extensors").Select(z => z.Id).FirstOrDefaultAsync();
         var wristFlexorId = await context.Bodies.Where(z => z.Name == "Wrist Flexors").Select(z => z.Id).FirstOrDefaultAsync();
 

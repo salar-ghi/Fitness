@@ -1305,7 +1305,7 @@ public class TricepsWorkoutDbInitializer
         // ***************************************************************** //
 
         var bodyWorkouts = new List<BodyWorkout>();
-        var tricepId = await context.Bodies.Where(z => z.Name == "Triceps").Select(z => z.Id).FirstOrDefaultAsync();
+        var tricepId = await context.Bodies.Where(z => z.Name == "Triceps Brachii").Select(z => z.Id).FirstOrDefaultAsync();
         var longHeadTricepId = await context.Bodies.Where(z => z.Name == "Long Head Tricep").Select(z => z.Id).FirstOrDefaultAsync();
         var lateralHeadTricepId = await context.Bodies.Where(z => z.Name == "Lateral Head Triceps").Select(z => z.Id).FirstOrDefaultAsync();
         var medialHeadTricepId = await context.Bodies.Where(z => z.Name == "Medial Head Triceps").Select(z => z.Id).FirstOrDefaultAsync();

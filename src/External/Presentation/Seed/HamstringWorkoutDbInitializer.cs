@@ -1193,8 +1193,8 @@ public class HamstringWorkoutDbInitializer
 
         var bodyWorkouts = new List<BodyWorkout>();
         var hamstringId = await context.Bodies.Where(z => z.Name == "Hamstrings").Select(z => z.Id).FirstOrDefaultAsync();
-        var medHamstringId = await context.Bodies.Where(z => z.Name == "Medial Hamstrings").Select(z => z.Id).FirstOrDefaultAsync();
-        var latHamstringId = await context.Bodies.Where(z => z.Name == "Lateral Hamstrings").Select(z => z.Id).FirstOrDefaultAsync();
+        var medHamstringId = await context.Bodies.Where(z => z.Name == "Semimembranosus & Semitendinosus (Medial)").Select(z => z.Id).FirstOrDefaultAsync();
+        var latHamstringId = await context.Bodies.Where(z => z.Name == "Biceps Femoris (Lateral)").Select(z => z.Id).FirstOrDefaultAsync();
 
         bodyWorkouts = new List<BodyWorkout>
         {
