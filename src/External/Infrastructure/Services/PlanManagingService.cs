@@ -168,17 +168,60 @@ public class PlanManagingService : IPlanManagingService
     {
         ArgumentNullException.ThrowIfNull(dto);
 
+        NormalizePlanDto(dto);
+
+        var bmi = await CalculateBmi(dto.Height, dto.Weight);
+        var categorizeBmi = await CategorizeBMI(bmi);
+        var bmr = await CalculateBmr(dto.Height, dto.Weight, dto.Age, dto.Gender.ToString());
+        var bodyFat = CalculateBodyFatPercentage(bmi, dto.Age, dto.Gender.ToString());
+
+        Console.WriteLine($"User BMI: {Math.Round(bmi, 2)} ({categorizeBmi})");
+        Console.WriteLine($"User BMR: {bmr}");
+        Console.WriteLine($"User BFP: {bodyFat}%");
+
+        var weeksToGenerate = GetWeeksToGenerate(dto.PlanDuration);
+        var planDays = dto.PlanDays.OrderBy(x => x.Day).ThenBy(x => x.Hour).ToList();
+        var exercisesPerSession = GetExercisesPerSession(dto.Level, dto.WorkoutDurationPreference);
+        var generatedWorkouts = new List<Workout>();
+        var savedExercises = new List<Exercise>();
+
+        var plan = await CreatePlanAsync(dto, planDays.Count);
+
+        for (var week = 1; week <= weeksToGenerate; week++)
+        {
+            var sourceWeek = week % 2 == 0 ? week - 1 : week;
+            var weekWorkouts = await QueryWorkoutsForWeekAsync(dto, exercisesPerSession * planDays.Count, sourceWeek);
+
+            if (weekWorkouts.Count == 0)
+            {
+                continue;
+            }
+
+            generatedWorkouts.AddRange(weekWorkouts);
+            savedExercises.AddRange(CreateExercisesForWeek(plan.Id, weekWorkouts, dto.Level, week));
+        }
+
+        if (savedExercises.Count > 0)
+        {
+            await _context.Exercises.AddRangeAsync(savedExercises);
+            await _context.SaveChangesAsync();
+        }
+
+        return generatedWorkouts
+            .DistinctBy(x => x.Id)
+            .Select(PlanWorkoutResponseDto.FromWorkout)
+            .ToList();
+    }
+
+    private static void NormalizePlanDto(PlanDto dto)
+    {
         if (dto.DateOfBirth != default)
         {
             dto.ApplyAgeFromDateOfBirth(DateOnly.FromDateTime(DateTime.UtcNow));
         }
 
-        List<Workout> plansTest = new();
-
         dto.Height = dto.Height == default ? 170 : dto.Height;
         dto.Weight = dto.Weight == default ? 90 : dto.Weight;
-        var height = dto.Height;
-        var weight = dto.Weight;
         dto.Gender = dto.Gender == default ? Sex.Male : dto.Gender;
         dto.PlanDuration = dto.PlanDuration == default ? Period.Daily : dto.PlanDuration;
 
@@ -188,155 +231,227 @@ public class PlanManagingService : IPlanManagingService
             dto.AgeRange = PlanDto.ResolveAgeRange(dto.Age);
         }
 
-        Console.Clear();
-        Console.WriteLine($"height is {height} and weight is {weight}");
-        var bmi = await CalculateBmi(height, weight);
-        // ***** If high BMI suggest incorporating more cardio. *********
-        // اگر BMI بالا باشد، پیشنهاد می‌شود که کاردیو بیشتری را در برنامه خود بگنجانید.
-
-        //Console.Clear();
-        // BMI (Body Mass Index)
-        Console.WriteLine($"user BMI (Body Mass Index) is {bmi}");
-        var categorizeBmi = await CategorizeBMI(bmi);
-        Console.WriteLine($"categorize BMI is {categorizeBmi}");
-
-        // BMR (Basal Metabolic Rate) 
-        var bmr = CalculateBmr(height, weight, dto.Age, dto.Gender.ToString());
-
-        // BFP (Body fat percentage )
-        var bodyFat = CalculateBodyFatPercentage(bmi, dto.Age, "Male");
-
         dto.BodyType = dto.BodyType == default ? Domain.Enums.BodyType.Endomorph : dto.BodyType;
         dto.BodyShapeType = dto.BodyShapeType == default ? BodyShapeType.Heavy : dto.BodyShapeType;
         dto.Goal = dto.Goal == default ? FitnessGoal.LoseWeight : dto.Goal;
         dto.DesiredBodyType = dto.DesiredBodyType == default ? DesiredBodyType.Muscular : dto.DesiredBodyType;
         dto.Level = dto.Level == default ? Difficulty.Beginner : dto.Level;
-        // warm-ups (5-12 min) and cool-downs / Avoid advanced techniques like supersets initially
-        // Limit to 3 sets per exercise, 8-12 reps.
-
-        var injuries = dto.Injuries; // no injuries
-        var diseases = dto.Diseases; // no disease
+        dto.Place = dto.Place == default ? Place.Home : dto.Place;
+        dto.Name = string.IsNullOrWhiteSpace(dto.Name) ? "Fitness User" : dto.Name;
+        dto.PhoneNumber = string.IsNullOrWhiteSpace(dto.PhoneNumber) ? $"generated-{Guid.NewGuid():N}" : dto.PhoneNumber;
 
         if (dto.PlanDays.Count == 0)
         {
-            dto.PlanDays = new List<PlanDaysDto> {
-                new PlanDaysDto { Day = DayOfWeek.Monday, Hour = new TimeSpan(18, 0, 0) },
-                new PlanDaysDto { Day = DayOfWeek.Wednesday, Hour = new TimeSpan(18, 0, 0) },
-                new PlanDaysDto { Day = DayOfWeek.Friday, Hour = new TimeSpan(18, 0, 0) },
-                new PlanDaysDto { Day = DayOfWeek.Saturday, Hour = new TimeSpan(18, 0, 0) }
+            dto.PlanDays = new List<PlanDaysDto>
+            {
+                new() { Day = DayOfWeek.Monday, Hour = new TimeSpan(18, 0, 0) },
+                new() { Day = DayOfWeek.Wednesday, Hour = new TimeSpan(18, 0, 0) },
+                new() { Day = DayOfWeek.Friday, Hour = new TimeSpan(18, 0, 0) },
+                new() { Day = DayOfWeek.Saturday, Hour = new TimeSpan(18, 0, 0) }
             };
         }
-        var planDaysNum = dto.PlanDays != null ? dto.PlanDays.Count() : dto.PlanDays?.Count; // 4 days in a week
 
         if (dto.MusclePriorities.Count == 0)
         {
-            dto.MusclePriorities = new List<MusclePriorityDto> {
-                new MusclePriorityDto(1, "Chest"),
-                new MusclePriorityDto(2, "Back"),
-                new MusclePriorityDto(3, "Shoulders"),
-                new MusclePriorityDto(4, "Biceps"),
-            };
-        }
-        
-        //var musclePrioritiesNum = dto.MusclePriorities.Count();
-        var musclePrioritiesNum = dto.MusclePriorities.Count();
-
-        if (dto.Equipments.Count == 0)
-        {
-            dto.Equipments = new List<PlanEquipmentDto>
+            dto.MusclePriorities = new List<MusclePriorityDto>
             {
-                new PlanEquipmentDto{Name = "", GroupName = ""}
+                new((int)MuscleGroup.Chest, MuscleGroup.Chest.ToString()),
+                new((int)MuscleGroup.Back, MuscleGroup.Back.ToString()),
+                new((int)MuscleGroup.Shoulders, MuscleGroup.Shoulders.ToString()),
+                new((int)MuscleGroup.Arms, MuscleGroup.Arms.ToString()),
             };
         }
-        //var equipmentNum = dto.Equipments.Count(); 
-        //var equipments = dto.Equipments ?? new List<PlanEquipmentDto>
-        //{
-        //    new PlanEquipmentDto{ },
-        //};
-
-        int exercisesPerSession = 0;
-
-        var workoutLevels = await _context.WorkoutLevels
-            .Where(x => x.Level == Difficulty.Beginner || x.Level == Difficulty.Intermediate)
-            .ToListAsync();
-
-        var muscleName = dto.MusclePriorities?.Select(x => x.GroupName).ToList();
-
-        var muscleProperties = await _context.Bodies
-            .Where(z => muscleName.Contains(z.Name))
-            .ToListAsync();
-
-        if (dto.Level == Difficulty.Beginner)
-        {
-            exercisesPerSession = 5; // 4~5; => 5
-
-            //var firstSection = _context.Workouts
-            //    .Where(w => workoutLevels.Any(wl => wl.WorkoutId == w.Id))
-            //    .Where(w => w.BodyWorkouts.Any(bw => dto.MusclePriorities.Any(mp => mp.Id == bw.BodyId)))
-            //    .Take(40);            
-
-            //var exercises = await _context.Workouts
-            //    .Where(z => z.Level == workoutLevels)
-            //    .Where(y => y.BodyWorkouts == dto.MusclePriorities)
-            //    .ToListAsync();
-
-
-            // devide plan into 2 parts,
-            // first part beginner level
-            // and 2nd part is intermediate level
-            // generate plan according to exercises level are beginner and intermediate
-
-            plansTest = await _beginnerPlanService.GenerateDailyPlanWorkouts(dto, dto.Level);
-        }
-        return plansTest.Select(PlanWorkoutResponseDto.FromWorkout).ToList();
-        //else if(dto.Level == Difficulty.Intermediate)
-        //{
-        //    exercisesPerSession = 5; // 5~6  // 1 superset. => 6
-        //    // devide into 3 parts,
-        //    // first part mix of beginner and intermediate
-        //    // and 2nd part intermediate
-        //    // and 3rd part is mix of advanced and intermediate level
-        //    // use somehow supersets            
-        //}
-        //else if(dto.Level == Difficulty.Advanced)
-        //{
-        //    exercisesPerSession = 6; // 6~7 // 2~3 superset => 8
-        //    //devide into 3 parts, first part mix of intermediate and advanced and 2nd part advanced and 3rd part is expert and advanced level
-        //    // and Also use harsh workouts and sets, for example 6 workouts per session and harsh reps per set.
-        //    // use several supersets
-        //}
-        //else if(dto.Level == Difficulty.Expert)
-        //{
-        //    exercisesPerSession = 7; // 7 // 3 superset => 10
-
-        //    // devide into 2 parts, first part advanced level and 2nd part is expert level
-        //    // and Also use harsh workouts and sets, for example 6 or 7 workouts per session and harsh reps per set.
-        //    // use several supersets
-        //}
-                
-        //var contextWorkouts = await _context.Workouts.Where(x => x.)
-
-        //; var workoutlist = await _unitOfWork.WorkoutRepository.GetAllAsync();
-
-        var pln = new Plan
-        {
-            PlanCode = "PLAN12345",
-            Level = dto.Level,
-            Duration = dto.PlanDuration,
-            DaysCount = dto.PlanDays.Count(),
-            Place = dto.Place,
-            AthleteId = Guid.NewGuid(), // should get athlete Id from athlete table
-        };
-
-        //var plan = await _unitOfWork.PlanRepository.CreateAsync(pln);
-
-        //var exercise = await _unitOfWork.ExerciseRepository.CreateAsync(plan);
-
-
-
-
     }
 
+    private async Task<Plan> CreatePlanAsync(PlanDto dto, int weeklyTrainingDays)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(x => x.PhoneNumber == dto.PhoneNumber);
+        if (user is null)
+        {
+            user = new User
+            {
+                Id = Guid.NewGuid(),
+                UserName = dto.PhoneNumber ?? dto.Name ?? $"user-{Guid.NewGuid():N}",
+                PhoneNumber = dto.PhoneNumber,
+                FName = dto.Name ?? "Fitness",
+                LName = "User",
+            };
+            await _context.Users.AddAsync(user);
+        }
+
+        var athlete = await _context.Athletes.FirstOrDefaultAsync(x => x.UserId == user.Id);
+        if (athlete is null)
+        {
+            athlete = new Athlete
+            {
+                Id = Guid.NewGuid(),
+                UserId = user.Id,
+                Height = dto.Height,
+                Weight = dto.Weight,
+                Gender = dto.Gender,
+                AgeRange = dto.AgeRange,
+                DateOfBirth = dto.DateOfBirth,
+                BodyType = dto.BodyType,
+                Level = dto.Level,
+            };
+            await _context.Athletes.AddAsync(athlete);
+        }
+
+        var plan = new Plan
+        {
+            Id = Guid.NewGuid(),
+            PlanCode = $"PLAN-{DateTime.UtcNow:yyyyMMddHHmmss}-{Guid.NewGuid():N}"[..32],
+            Level = dto.Level,
+            Duration = dto.PlanDuration,
+            DaysCount = weeklyTrainingDays,
+            Place = dto.Place,
+            AthleteId = athlete.Id,
+            PlanDays = dto.PlanDays.Select(x => new PlanDays { Day = x.Day, Hour = x.Hour }).ToList(),
+            PlanEquipments = dto.Equipments.Where(x => x.Id > 0).Select(x => new PlanEquipments { EquipmentId = x.Id }).ToList(),
+            MusclePriorities = dto.MusclePriorities.Where(x => x.Id > 0).Select(x => new MusclePriority { BodyId = x.Id }).ToList(),
+        };
+
+        await _context.Plans.AddAsync(plan);
+        await _context.SaveChangesAsync();
+        return plan;
+    }
+
+    private async Task<List<Workout>> QueryWorkoutsForWeekAsync(PlanDto dto, int take, int sourceWeek)
+    {
+        var allowedLevels = GetAllowedLevels(dto.Level).ToList();
+        var muscleGroups = ResolveMuscleGroups(dto.MusclePriorities).ToList();
+        var equipmentIds = dto.Equipments.Where(x => x.Id > 0).Select(x => x.Id).Distinct().ToList();
+
+        var query = _context.Workouts
+            .Include(x => x.WorkoutInstructions)
+            .Include(x => x.BodyWorkouts)
+                .ThenInclude(x => x.Body)
+            .Include(x => x.WorkoutEquipment)
+                .ThenInclude(x => x.Equipment)
+            .Include(x => x.Level)
+            .Include(x => x.AgeRanges)
+            .Include(x => x.Sex)
+            .AsSplitQuery()
+            .Where(x => x.Level.Any(level => allowedLevels.Contains(level.Level)))
+            .Where(x => x.Sex.Count == 0 || x.Sex.Any(sex => sex.Sex == dto.Gender))
+            .Where(x => x.AgeRanges.Count == 0 || x.AgeRanges.Any(age => age.Age == dto.AgeRange));
+
+        if (muscleGroups.Count > 0)
+        {
+            query = query.Where(x => x.BodyWorkouts.Any(bodyWorkout => muscleGroups.Contains(bodyWorkout.Body.GroupName)));
+        }
+
+        if (equipmentIds.Count > 0)
+        {
+            query = query.Where(x => x.WorkoutEquipment.Count == 0 || x.WorkoutEquipment.Any(equipment => equipmentIds.Contains(equipment.EquipmentId)));
+        }
+        else if (dto.Place == Place.Home)
+        {
+            query = query.Where(x => x.WorkoutEquipment.Count == 0 || x.WorkoutEquipment.Any(equipment => equipment.Equipment.Name.Contains("Bodyweight") || equipment.Equipment.Name.Contains("Resistance") || equipment.Equipment.Name.Contains("Dumbbell")));
+        }
+
+        return await query
+            .OrderByDescending(x => x.BodyWorkouts.Any(bodyWorkout => muscleGroups.Contains(bodyWorkout.Body.GroupName)))
+            .ThenBy(x => ((x.Id + sourceWeek) % 17))
+            .ThenBy(x => x.Id)
+            .Take(take)
+            .ToListAsync();
+    }
+
+    private static IEnumerable<Exercise> CreateExercisesForWeek(Guid planId, IReadOnlyList<Workout> workouts, Difficulty level, int week)
+    {
+        var sets = level switch
+        {
+            Difficulty.Novice => 2,
+            Difficulty.Beginner => 3,
+            Difficulty.Intermediate => 3,
+            Difficulty.Advanced => 4,
+            Difficulty.Expert => 5,
+            _ => 3,
+        };
+
+        var reps = level switch
+        {
+            Difficulty.Novice => 10,
+            Difficulty.Beginner => 12,
+            Difficulty.Intermediate => 12,
+            Difficulty.Advanced => 10,
+            Difficulty.Expert => 8,
+            _ => 12,
+        };
+
+        return workouts.Select(workout => new Exercise
+        {
+            PlanId = planId,
+            WorkoutId = workout.Id,
+            ExerciseType = ExerciseType.Strength,
+            RecommendSets = sets,
+            RecommendReps = reps,
+            RecommendRestTime = level >= Difficulty.Advanced ? 90 : 60,
+            RecommendWeight = 0,
+            IsOk = true,
+            SuggestType = WorkoutGeneratedType.Machine,
+            Completed = false,
+        });
+    }
+
+    private static int GetWeeksToGenerate(Period period) => period switch
+    {
+        Period.Daily => 1,
+        Period.Weekly => 1,
+        Period.Monthly => 4,
+        Period.Quarterly => 16,
+        Period.custom => 1,
+        _ => throw new ArgumentOutOfRangeException(nameof(period), period, "Unsupported plan duration."),
+    };
+
+    private static int GetExercisesPerSession(Difficulty level, WorkoutDurationPreference durationPreference)
+    {
+        var baseCount = level switch
+        {
+            Difficulty.Novice => 4,
+            Difficulty.Beginner => 5,
+            Difficulty.Intermediate => 6,
+            Difficulty.Advanced => 7,
+            Difficulty.Expert => 8,
+            _ => 5,
+        };
+
+        return durationPreference switch
+        {
+            WorkoutDurationPreference.TenToFifteenMinutes => Math.Max(3, baseCount - 2),
+            WorkoutDurationPreference.TwentyToThirtyMinutes => Math.Max(4, baseCount - 1),
+            WorkoutDurationPreference.FortyFiveToSixtyMinutes => baseCount + 1,
+            _ => baseCount,
+        };
+    }
+
+    private static IEnumerable<Difficulty> GetAllowedLevels(Difficulty level) => level switch
+    {
+        Difficulty.Novice => new[] { Difficulty.Novice, Difficulty.Beginner },
+        Difficulty.Beginner => new[] { Difficulty.Novice, Difficulty.Beginner, Difficulty.Intermediate },
+        Difficulty.Intermediate => new[] { Difficulty.Beginner, Difficulty.Intermediate },
+        Difficulty.Advanced => new[] { Difficulty.Intermediate, Difficulty.Advanced },
+        Difficulty.Expert => new[] { Difficulty.Advanced, Difficulty.Expert },
+        _ => new[] { Difficulty.Beginner },
+    };
+
+    private static IEnumerable<MuscleGroup> ResolveMuscleGroups(IEnumerable<MusclePriorityDto> musclePriorities)
+    {
+        foreach (var priority in musclePriorities)
+        {
+            if (Enum.IsDefined(typeof(MuscleGroup), priority.Id))
+            {
+                yield return (MuscleGroup)priority.Id;
+                continue;
+            }
+
+            if (Enum.TryParse<MuscleGroup>(priority.GroupName, true, out var group))
+            {
+                yield return group;
+            }
+        }
+    }
 
     public async Task PlanAiGeneratingMangement(RegisterDto dto)
     {
