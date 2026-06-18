@@ -61,25 +61,25 @@ public class Startup
     }
 
 
-    //public async Task SeedData(FitnessContext dbContext)
-    //{
-    //    await BodyDbInitializer.BodySeedAsync(dbContext);
-    //    await EquipmentDbInitializer.EquipmentSeedAsync(dbContext);
-    //    await SportDbInitializer.SportSeedAsync(dbContext);
-    //    //await BackWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-        
-    //    await AbdominalsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await BicepsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await CalvesTibialisSoleusWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await ChestUpperPectoralisWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await GlutesWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await HamstringWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await HandsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await NeckWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await QuadsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await TrapsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //    await TricepsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
-    //}
+    public async Task SeedData(FitnessContext dbContext)
+    {
+        //await BodyDbInitializer.BodySeedAsync(dbContext);
+        //await EquipmentDbInitializer.EquipmentSeedAsync(dbContext);
+        //await SportDbInitializer.SportSeedAsync(dbContext);
+        // //await BackWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+
+        //await AbdominalsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await BicepsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await CalvesTibialisSoleusWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await ChestUpperPectoralisWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await GlutesWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await HamstringWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await HandsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await NeckWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await QuadsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await TrapsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+        //await TricepsWorkoutDbInitializer.WorkoutSeedAsync(dbContext);
+    }
 
     public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
